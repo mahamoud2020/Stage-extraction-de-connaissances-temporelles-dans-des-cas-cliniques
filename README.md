@@ -20,7 +20,7 @@ git clone \[https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufa
 
 Utilisation
 
-Pour lancer l'intégralité de la chaîne (Conversion -> Inférence -> Extraction -> Évaluation), exécutez le script maître :
+Pour lancer l'intégralité de la chaîne (Conversion -> Inférence -> Extraction -> Évaluation), exécutez le script  :
 
 python run\_pipeline.py
 
