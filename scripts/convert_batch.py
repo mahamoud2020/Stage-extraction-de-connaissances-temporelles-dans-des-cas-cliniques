@@ -3,32 +3,20 @@ Script de conversion par lots (batch processing) du format XMI vers le format Co
 
 Ce script permet d'automatiser la conversion de l'ensemble du corpus E3C (fichiers XML) vers le format d'entrée requis par 
 le modèle de coréférence (CoNLL-U à 10 colonnes). 
-Il itère sur un répertoire source, extrait dynamiquement l'identifiant de chaque document, et génère les fichiers pré-formatés 
-correspondants dans un répertoire cible.
-
-Cette étape de prétraitement permet d'outrepasser les contraintes syntaxiques du parseur natif du modèle en fournissant 
-des fichiers où seules la segmentation des phrases et la tokenisation sont renseignées, les autres attributs linguistiques 
-étant neutralisés par des traits de soulignement ("_").
+Il intègre spaCy pour enrichir les données avec des lemmes, des POS tags et des dépendances syntaxiques, 
+tout en préservant la tokenisation stricte du corpus E3C.
 """
 
 import os
-import glob # Permet de récupérer des fichiers via des motifs (ex : *.xml)
-
-# La bibliothèque "cassis" est utilisée pour la lecture et la manipulation d’annotations (UIMA/XMI)
-# load_typesystem permet de charger la structure des annotations (types, attributs)
-# load_cas_from_xmi permet de charger un fichier XMI contenant les annotations
+import glob
+import spacy
+from spacy.tokens import Doc
 from cassis import load_typesystem, load_cas_from_xmi
 
-
 # Configurations des chemins
-# Répertoire contenant les fichiers du corpus E3C
 INPUT_DIR = "data/xml_source"
-
-# Répertoire de destination pour les fichiers convertis, prêts pour l'inférence
 OUTPUT_DIR = "data/conllu_entree"
 
-# Définition du système de types UIMA nécessaire à la lecture des fichiers.
-# Limités aux annotations de segmentation (Token et Sentence).
 TYPESYSTEM_XML = """<?xml version="1.0" encoding="UTF-8"?>
 <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <types>
@@ -48,12 +36,17 @@ TYPESYSTEM_XML = """<?xml version="1.0" encoding="UTF-8"?>
 """
 
 def main():
-    """
-    Fonction principale exécutant le traitement par lots sur le corpus.
-    """
+    # --- NOUVEAU : Chargement de spaCy ---
+    print("Chargement du modèle linguistique spaCy (fr_core_news_sm)...")
+    try:
+        nlp = spacy.load("fr_core_news_sm")
+    except OSError:
+        print("Erreur : Le modèle français n'est pas installé.")
+        print("Veuillez lancer : python -m spacy download fr_core_news_sm")
+        return
+    # -------------------------------------
+
     typesystem = load_typesystem(TYPESYSTEM_XML)
-    
-    # Récupération exhaustive des chemins de tous les fichiers XML du répertoire source
     xml_files = glob.glob(os.path.join(INPUT_DIR, "*.xml"))
     
     if not xml_files:
@@ -62,15 +55,12 @@ def main():
         
     print(f"{len(xml_files)} documents trouvés. Début du prétraitement par lots...\n")
     
-    # Itération sur chaque document du corpus
     for file_path in xml_files:
-        # Extraction de l'identifiant unique du document (ex: FR100003) pour nommer la sortie
         filename = os.path.basename(file_path)
         doc_id = os.path.splitext(filename)[0] 
         out_path = os.path.join(OUTPUT_DIR, f"{doc_id}.conllu")
         
         try:
-            # Lecture des annotations 
             with open(file_path, 'rb') as f:
                 cas = load_cas_from_xmi(f, typesystem=typesystem, lenient=True)
                 
@@ -78,33 +68,56 @@ def main():
             sentences = list(cas.select('de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence'))
             tokens = list(cas.select('de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token'))
 
-            # Génération du fichier cible au format CoNLL-U
             with open(out_path, 'w', encoding='utf-8') as out_f:
-                # Injection dynamique de l'identifiant du document dans l'en-tête (standard CorefUD)
                 out_f.write(f"# newdoc id = {doc_id}\n")
                 
                 sent_id = 1
                 for sentence in sentences:
-                    # Écriture des métadonnées de la phrase courante
                     out_f.write(f"# sent_id = {sent_id}\n")
                     out_f.write(f"# text = {text[sentence.begin:sentence.end]}\n")
                     
-                    # Sélection des tokens inclus dans les limites de la phrase
                     sent_tokens = [t for t in tokens if t.begin >= sentence.begin and t.end <= sentence.end]
                     
-                    word_id = 1
+                    # Préparation des mots pour spaCy 
+                    mots_de_la_phrase = []
                     for token in sent_tokens:
                         token_text = text[token.begin:token.end].strip()
-                        if not token_text:
-                            continue
-                            
-                        # Structuration tabulaire (10 colonnes).
-                        # Neutralisation des champs syntaxiques par des "_" pour éviter les rejets du parseur.
-                        line = f"{word_id}\t{token_text}\t{token_text}\t_\t_\t_\t_\t_\t_\t_\n"
+                        if token_text:
+                            mots_de_la_phrase.append(token_text)
+                    
+                    if not mots_de_la_phrase:
+                        continue
+                    
+                    # Forcer spaCy à utiliser la tokenisation du corpus E3C
+                    doc = Doc(nlp.vocab, words=mots_de_la_phrase)
+                    # Appliquer le pipeline (POS, Lemmes, Dépendances, etc)
+                    for name, proc in nlp.pipeline:
+                        doc = proc(doc)
+
+                    # ***********************
+                    
+                    word_id = 1
+                    # Extraction des attributs avec spaCy 
+                    for spacy_token in doc:
+                        forme = spacy_token.text
+                        lemme = spacy_token.lemma_ if spacy_token.lemma_ else "_"
+                        upos = spacy_token.pos_ if spacy_token.pos_ else "_"
+                        xpos = "_"
+                        feats = str(spacy_token.morph) if spacy_token.morph else "_"
+                        
+                        # Gestion de l'arbre de dépendance 
+                        head = spacy_token.head.i + 1 if spacy_token.head.i != spacy_token.i else 0
+                        deprel = spacy_token.dep_ if spacy_token.dep_ else "_"
+                        
+                        deps = "_"
+                        misc = "_"
+                        
+                        # Assemblage de la ligne
+                        line = f"{word_id}\t{forme}\t{lemme}\t{upos}\t{xpos}\t{feats}\t{head}\t{deprel}\t{deps}\t{misc}\n"
                         out_f.write(line)
                         word_id += 1
+                    # 
                     
-                    # Respect de la convention CoNLL-U : ligne vide marquant la fin d'une phrase
                     out_f.write("\n")
                     sent_id += 1
                     

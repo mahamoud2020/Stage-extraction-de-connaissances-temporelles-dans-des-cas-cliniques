@@ -54,3 +54,15 @@ Les scores de Précision et de Rappel sont pour l'instant très bas, ce qui peut
 
 -> Le modèle mT5-large fait de la résolution de coréférence générale , il peut donc extraire massivement des pronoms ("il", "qui", etc) et des entités non médicales (d'où le taux élevé de faux positifs dans le script ).
 
+
+
+Côté lecture :
+
+J'ai lu ce papier pour corpipe : https://arxiv.org/pdf/2509.17858
+
+Analyse de séquence : https://www.researchgate.net/publication/342232021_Sequence_Analysis/link/5ee9c244a6fdcc73be82b418/download?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19 ; 
+
+L’analyse de séquences : une introduction avec le logiciel R et le package TraMineR : https://quanti.hypotheses.org/686
+
+
+
