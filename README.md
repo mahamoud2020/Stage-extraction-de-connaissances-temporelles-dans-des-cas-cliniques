@@ -24,7 +24,7 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 
 
-\##  Premiers résultats (Détection de mentions)
+\## Premiers résultats (Détection de mentions)
 
 
 
@@ -50,31 +50,27 @@ L'évaluation sur le premier lot de documents montre une \*\*sur-génération im
 
 \*\*1. Installer les dépendances :\*\*
 
-\\`\\`\\`bash
+```bash
 
 pip install -r requirements.txt
 
 python -m spacy download fr\_core\_news\_sm
 
-\\`\\`\\`
+
+
+\*\*2. Télécharger le modèle CorPipe
+
+```bash
+
+git clone \[https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufal/crac2025-corpipe.git)
 
 
 
-\*\*2. Télécharger le modèle CorPipe (requis en local) :\*\*
-
-\\`\\`\\`bash
-
-git clone https://github.com/ufal/crac2025-corpipe.git
-
-\\`\\`\\`
 
 
+\*\*3. Lancer le pipeline
 
-\*\*3. Lancer le pipeline :\*\*
-
-\\`\\`\\`bash
+```bash
 
 python run\_pipeline.py
-
-\\`\\`\\`
 
