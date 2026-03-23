@@ -45,7 +45,7 @@ python -m spacy download fr\_core\_news\_sm
 
 
 
-git clone \https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufal/crac2025-corpipe.git)
+git clone https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufal/crac2025-corpipe.git)
 
 
 
