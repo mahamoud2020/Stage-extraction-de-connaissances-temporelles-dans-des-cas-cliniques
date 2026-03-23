@@ -20,7 +20,7 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 3\. **Extraction CSV :** Structuration des prédictions brutes dans un fichier tabulaire (`data/resultats\_coreferences.csv`).
 
-4\. **Évaluation :** Comparaison stricte entre les prédictions du modèle et les annotations manuelles du corpus E3C (vérité terrain).
+4\. **Évaluation :** Comparaison entre les prédictions du modèle et les annotations manuelles du corpus E3C (vérité terrain).
 
 
 
@@ -45,7 +45,7 @@ python -m spacy download fr\_core\_news\_sm
 
 
 
-git clone \[https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufal/crac2025-corpipe.git)
+git clone \https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufal/crac2025-corpipe.git)
 
 
 
