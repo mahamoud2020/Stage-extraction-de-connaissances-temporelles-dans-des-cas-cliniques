@@ -14,7 +14,7 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 
 
-1\. **Prétraitement et Conversion (XMI vers CoNLL-U) :** Extraction de la tokenisation d'origine et enrichissement linguistique (Lemmatisation, POS tags, arbres de dépendances) grâce au modèle `fr\_core\_news\_sm` de \*\*spaCy\*\*.
+1\. **Prétraitement et Conversion (XMI vers CoNLL-U) :** Extraction de la tokenisation d'origine et enrichissement linguistique (Lemmatisation, POS tags, arbres de dépendances) grâce au modèle `fr\_core\_news\_sm` de **spaCy**.
 
 2\. **Inférence (CorPipe) :** Exécution du modèle sur les fichiers `.conllu` pour extraire les mentions et les chaînes de coréférence.
 
@@ -24,23 +24,6 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 
 
-## Premiers résultats (Détection de mentions)
-
-
-
-L'évaluation sur le premier lot de documents montre une \*\*sur-génération importante\*\* de la part du modèle brut :
-
-\- Mentions cliniques annotées manuellement : **107**
-
-\- Mentions extraites par le modèle : **425**
-
-\- **Précision :** 1.18 % | **Rappel :** 4.67 % | **F1-Score :** 1.88 %
-
-
-
-**Analyse :** CorPipe extrait avec succès les mentions linguistiques (pronoms "il", "elle", déterminants + noms communs non médicaux), ce qui crée beaucoup de "bruit" (420 faux positifs) face aux annotations strictement médicales d'E3C. 
-
-**Prochaine étape :** Utiliser les colonnes Lemme/POS générées par spaCy pour appliquer un filtrage sémantique croisé avec un dictionnaire médical (UMLS).
 
 
 
