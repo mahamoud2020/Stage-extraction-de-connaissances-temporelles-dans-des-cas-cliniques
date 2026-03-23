@@ -1,4 +1,4 @@
-# Pipeline de résolution de coréférences - Corpus E3C (French Layer)
+# Pipeline de résolution de coréférences - Corpus E3C 
 
 
 
@@ -14,13 +14,13 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 
 
-1\. \*\*Prétraitement et Conversion (XMI vers CoNLL-U) :\*\* Extraction de la tokenisation d'origine et enrichissement linguistique (Lemmatisation, POS tags, arbres de dépendances) grâce au modèle `fr\_core\_news\_sm` de \*\*spaCy\*\*.
+1\. **Prétraitement et Conversion (XMI vers CoNLL-U) :** Extraction de la tokenisation d'origine et enrichissement linguistique (Lemmatisation, POS tags, arbres de dépendances) grâce au modèle `fr\_core\_news\_sm` de \*\*spaCy\*\*.
 
-2\. \*\*Inférence (CorPipe) :\*\* Exécution du modèle sur les fichiers `.conllu` pour extraire les mentions et les chaînes de coréférence.
+2\. **Inférence (CorPipe) :** Exécution du modèle sur les fichiers `.conllu` pour extraire les mentions et les chaînes de coréférence.
 
-3\. \*\*Extraction CSV :\*\* Structuration des prédictions brutes dans un fichier tabulaire (`data/resultats\_coreferences.csv`).
+3\. **Extraction CSV :** Structuration des prédictions brutes dans un fichier tabulaire (`data/resultats\_coreferences.csv`).
 
-4\. \*\*Évaluation :\*\* Comparaison stricte entre les prédictions du modèle et les annotations manuelles du corpus E3C (vérité terrain).
+4\. **Évaluation :** Comparaison stricte entre les prédictions du modèle et les annotations manuelles du corpus E3C (vérité terrain).
 
 
 
@@ -30,17 +30,17 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 L'évaluation sur le premier lot de documents montre une \*\*sur-génération importante\*\* de la part du modèle brut :
 
-\- Mentions cliniques annotées manuellement : \*\*107\*\*
+\- Mentions cliniques annotées manuellement : **107**
 
-\- Mentions extraites par le modèle : \*\*425\*\*
+\- Mentions extraites par le modèle : **425**
 
-\- \*\*Précision :\*\* 1.18 % | \*\*Rappel :\*\* 4.67 % | \*\*F1-Score :\*\* 1.88 %
+\- **Précision :** 1.18 % | **Rappel :** 4.67 % | **F1-Score :** 1.88 %
 
 
 
-\*\*Analyse :\*\* CorPipe extrait avec succès les mentions linguistiques (pronoms "il", "elle", déterminants + noms communs non médicaux), ce qui crée beaucoup de "bruit" (420 faux positifs) face aux annotations strictement médicales d'E3C. 
+**Analyse :** CorPipe extrait avec succès les mentions linguistiques (pronoms "il", "elle", déterminants + noms communs non médicaux), ce qui crée beaucoup de "bruit" (420 faux positifs) face aux annotations strictement médicales d'E3C. 
 
-\*\*Prochaine étape :\*\* Utiliser les colonnes Lemme/POS générées par spaCy pour appliquer un filtrage sémantique croisé avec un dictionnaire médical (UMLS).
+**Prochaine étape :** Utiliser les colonnes Lemme/POS générées par spaCy pour appliquer un filtrage sémantique croisé avec un dictionnaire médical (UMLS).
 
 
 
@@ -48,9 +48,9 @@ L'évaluation sur le premier lot de documents montre une \*\*sur-génération im
 
 
 
-\*\*1. Installer les dépendances :\*\*
+**1. Installer les dépendances :**
 
-```bash
+
 
 pip install -r requirements.txt
 
@@ -58,9 +58,9 @@ python -m spacy download fr\_core\_news\_sm
 
 
 
-\*\*2. Télécharger le modèle CorPipe
+**2. Télécharger le modèle CorPipe :**
 
-```bash
+
 
 git clone \[https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufal/crac2025-corpipe.git)
 
@@ -68,9 +68,9 @@ git clone \[https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufa
 
 
 
-\*\*3. Lancer le pipeline
+**3. Lancer le pipeline :**
 
-```bash
+
 
 python run\_pipeline.py
 
