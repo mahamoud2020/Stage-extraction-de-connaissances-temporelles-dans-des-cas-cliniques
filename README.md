@@ -1,4 +1,4 @@
-\# Pipeline de résolution de coréférences - Corpus E3C (French Layer)
+# Pipeline de résolution de coréférences - Corpus E3C (French Layer)
 
 
 
@@ -6,7 +6,7 @@ Ce dépôt contient le code et les résultats du pipeline automatisé permettant
 
 
 
-\## Architecture du Pipeline
+## Architecture du Pipeline
 
 
 
@@ -24,7 +24,7 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 
 
-\## Premiers résultats (Détection de mentions)
+## Premiers résultats (Détection de mentions)
 
 
 
@@ -44,7 +44,7 @@ L'évaluation sur le premier lot de documents montre une \*\*sur-génération im
 
 
 
-\## Installation et Utilisation
+## Installation et Utilisation
 
 
 
