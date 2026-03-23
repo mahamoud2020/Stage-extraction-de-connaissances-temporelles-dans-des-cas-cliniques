@@ -2,7 +2,7 @@
 
 
 
-Ce dépôt contient le code et les résultats du pipeline automatisé permettant d'extraire des entités et de résoudre des coréférences sur les cas cliniques en français du corpus E3C, en utilisant le modèle \*\*CorPipe\*\* (architecture mT5-large).
+Ce dépôt contient le code et les résultats du pipeline automatisé permettant d'extraire des entités et de résoudre des coréférences sur les cas cliniques en français du corpus E3C, en utilisant le modèle **CorPipe** (architecture mT5-large).
 
 
 
