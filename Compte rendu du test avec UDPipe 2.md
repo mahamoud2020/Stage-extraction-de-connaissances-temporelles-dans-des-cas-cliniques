@@ -94,6 +94,8 @@ Les informations se trouvant en haut du fichier de sortie.
 
 
 
+
+
 **Les 10 colonnes** 
 
 
@@ -129,6 +131,8 @@ Par exemple, la ligne 8 de la phrase 2 :
 
 
 
+
+
 **Analyse de la dernière colonne (10)** 
 
 
@@ -147,5 +151,7 @@ J'ai essayé de comprendre en profondeur cette notation qui suit le standard Cor
 
 
 
-* Les tirets (--) et le dernier chiffre (ex : --2) : indique la "tête syntaxique". Le chiffre précise la position du mot noyau au sein de la mention. Par exemple, dans le groupe "un homme de 55 ans", le modèle m'indique que le 2ème mot ("homme") est le cœur sémantique de l'entité
+* Les tirets (--) et le dernier chiffre (ex : --2) : indique la "tête syntaxique". Le chiffre précise la position du mot noyau au sein de la mention. Par exemple, dans le groupe "un homme de 55 ans", le modèle indique que le 2ème mot ("homme") est le plus important (semantiquement) de l'entité.
+
+
 
