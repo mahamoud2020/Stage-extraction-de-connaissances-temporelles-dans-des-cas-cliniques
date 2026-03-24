@@ -2,11 +2,11 @@
 crac2025-corpipe/
 
 # Fichiers intermédiaires générés par UDPipe 2
-data/conllu_entree/*.conllu
+#data/conllu_entree/*.conllu
 
 # Fichiers de prédictions générés par CorPipe
-data/*.00.conllu
-data/*.15.conllu
+#data/*.00.conllu
+#data/*.15.conllu
 
 # Dossiers systèmes et caches Python
 __pycache__/
