@@ -14,7 +14,7 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 
 
-1\. **Prétraitement et Conversion (XMI vers CoNLL-U) :** Extraction de la tokenisation d'origine et enrichissement linguistique (Lemmatisation, POS tags, arbres de dépendances) grâce au modèle `fr\_core\_news\_sm` de **spaCy**.
+1\. **Prétraitement et Conversion (XMI vers CoNLL-U) :** Extraction de la tokenisation d'origine et enrichissement linguistique (Lemmatisation, POS tags, arbres de dépendances) via une requête à l'API web d'**UDPipe 2** (`modèle french-gsd-ud`).
 
 2\. **Inférence (CorPipe) :** Exécution du modèle sur les fichiers `.conllu` pour extraire les mentions et les chaînes de coréférence.
 
@@ -37,7 +37,7 @@ Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de mani�
 
 pip install -r requirements.txt
 
-python -m spacy download fr\_core\_news\_sm
+
 
 
 
@@ -45,7 +45,7 @@ python -m spacy download fr\_core\_news\_sm
 
 
 
-git clone https://github.com/ufal/crac2025-corpipe.git](https://github.com/ufal/crac2025-corpipe.git)
+git clone https://github.com/ufal/crac2025-corpipe.git
 
 
 
