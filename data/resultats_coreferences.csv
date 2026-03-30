@@ -1,779 +1,437 @@
-doc,token,lemma,pos,coref
-FR100003,Nous,nous,PRON,Entity=(c1--1)
-FR100003,l',le,DET,Entity=(c2--2|SpaceAfter=No
-FR100003,un,un,DET,Entity=(c3--2
-FR100003,fonction,fonction,NOUN,Entity=c3)
-FR100003,antécédents,antécédent,NOUN,Entity=(c4--1
-FR100003,pathologiques,pathologique,ADJ,Entity=c4)
-FR100003,un,un,DET,Entity=(c5--2
-FR100003,mois,mois,NOUN,Entity=c5)
-FR100003,les,le,DET,Entity=(c6--2
-FR100003,itératifs,itératif,ADJ,Entity=c6)c2)|SpaceAfter=No
-FR100003,qui,qui,PRON,Entity=(c3--1)
-FR100003,les,le,DET,Entity=(c7--2
-FR100003,urgences,urgence,NOUN,Entity=c7)
-FR100003,une,un,DET,Entity=(c8--2
-FR100003,la,le,DET,Entity=(c9--2
-FR100003,palpation,palpation,NOUN,Entity=c9)
-FR100003,un,un,DET,Entity=(c10--2
-FR100003,fébrile,fébrile,ADJ,Entity=c10)
-FR100003,une,un,DET,Entity=(c11--2
-FR100003,l',le,DET,Entity=(c12--2|SpaceAfter=No
-FR100003,général,général,ADJ,Entity=c12)c11)c8)|SpaceAfter=No
-FR100003,Lexamen,Lexamen,PROPN,Entity=(c13--6
-FR100003,l',le,DET,Entity=(c14--2|SpaceAfter=No
-FR100003,admission,admission,NOUN,Entity=c14)
-FR100003,un,un,DET,Entity=(c3--2
-FR100003,asthénique,asthénique,ADJ,Entity=c3)|SpaceAfter=No
-FR100003,un,un,DET,Entity=(c15--2
-FR100003,discret,discret,ADJ,Entity=c15)
-FR100003,la,le,DET,Entity=(c16--2
-FR100003,le,le,DET,Entity=(c17--2
-FR100003,cou,cou,NOUN,Entity=c17)c16)|SpaceAfter=No
-FR100003,une,un,DET,Entity=(c18--2
-FR100003,min,min,NOUN,Entity=c18)
-FR100003,une,un,DET,Entity=(c19--2
-FR100003,mmHg,mmhg,NOUN,Entity=c19)c13)|SpaceAfter=No
-FR100003,L',le,DET,Entity=(c20--2|SpaceAfter=No
-FR100003,respiratoire,respiratoire,ADJ,Entity=c20)
-FR100003,fréquence,fréquence,NOUN,Entity=(c21--1
-FR100003,mn,mn,NOUN,Entity=c21)|SpaceAfter=No
-FR100003,une,un,DET,Entity=(c22--2
-FR100003,l',le,DET,Entity=(c23--2|SpaceAfter=No
-FR100003,ambiant,ambiant,ADJ,Entity=c23)|SpaceAfter=No
-FR100003,une,un,DET,Entity=(c24--2
-FR100003,°,°,SYM,Entity=c24)c22)|SpaceAfter=No
-FR100003,Le,le,DET,Entity=(c25--2
-FR100003,initiale,initial,ADJ,Entity=c25)
-FR100003,une,un,DET,Entity=(c26--2
-FR100003,85OOO,85ooo,NOUN,Entity=c26)|SpaceAfter=No
-FR100003,une,un,DET,Entity=(c27--2
-FR100003,mg/l,mg/l,NOUN,Entity=c27)
-FR100003,une,un,DET,Entity=(c28--2
-FR100003,mmol/l,mmol/l,NOUN,Entity=c28)|SpaceAfter=No
-FR100003,La,le,DET,Entity=(c29--2
-FR100003,cervicothoracique,cervicothoracique,ADJ,Entity=c29)
-FR100003,un,un,DET,Entity=(c30--2
-FR100003,cellulite,cellulite,NOUN,Entity=(c31--1
-FR100003,les,le,DET,Entity=(c32--2
-FR100003,gauches,gauche,ADJ,Entity=c32)c31)
-FR100003,l',le,DET,Entity=(c33--3|SpaceAfter=No
-FR100003,retropharyngolaryngé,retropharyngolaryngé,ADJ,Entity=c33)
-FR100003,le,le,DET,Entity=(c34--2
-FR100003,médiastin,médiastin,NOUN,Entity=c34)
-FR100003,une,un,DET,Entity=(c35--2
-FR100003,un,un,DET,Entity=(c36--2
-FR100003,droit,droit,ADJ,Entity=c36)c35)c30)|SpaceAfter=No
-FR100003,Le,le,DET,Entity=(c37--2
-FR100003,dentaire,dentaire,ADJ,Entity=c37)
-FR100003,un,un,DET,Entity=(c38--2
-FR100003,la,le,DET,Entity=(c39--2
-FR100003,45,45,NUM,Entity=c39)c38)
-FR100003,3éme,3éme,ADJ,Entity=(c39--2
-FR100003,molaire,molaire,NOUN,Entity=c39)|SpaceAfter=No
-FR100003,granulome,granulome,NOUN,Entity=(c40--1
-FR100003,la,le,DET,Entity=(c41--2
-FR100003,dentaire,dentaire,ADJ,Entity=c41)c40)|SpaceAfter=No
-FR100003,La,le,DET,Entity=(c42--2
-FR100003,anesthésie,anesthésie,NOUN,Entity=(c43--1
-FR100003,un,un,DET,Entity=(c44--3
-FR100003,physiologique,physiologique,ADJ,Entity=c44)c43)
-FR100003,10,10,NUM,Entity=(c44--2
-FR100003,ml,ml,NOUN,Entity=c44)|SpaceAfter=No
-FR100003,la,le,DET,Entity=(c45--2
-FR100003,collection,collection,NOUN,Entity=c45)c42)
-FR100003,le,le,DET,Entity=(c46--2
-FR100003,pus,pus,NOUN,Entity=c46)|SpaceAfter=No
-FR100003,L',le,DET,Entity=(c47--2|SpaceAfter=No
-FR100003,cytobactériologique,cytobactériologique,ADJ,Entity=c47)
-FR100003,les,le,DET,Entity=(c48--2
-FR100003,nombreux,nombreux,ADJ,Entity=c48)
-FR100003,les,le,DET,Entity=(c49--2
-FR100003,polymorphes,polymorphe,ADJ,Entity=c49)|SpaceAfter=No
-FR100003,L',le,DET,Entity=(c50--2|SpaceAfter=No
-FR100003,GRAM,GRAM,PROPN,Entity=c50)|SpaceAfter=No
-FR100003,Flore,flore,NOUN,Entity=(c51--1
-FR100003,mixte,mixte,ADJ,Entity=c51)
-FR100003,les,le,DET,Entity=(c52--2
-FR100003,anaérobies,anaérobie,NOUN,Entity=c52)|SpaceAfter=No
-FR100003,Une,un,DET,Entity=(c53--2
-FR100003,probabiliste,probabiliste,ADJ,Entity=c53)
-FR100003,voie,voie,NOUN,Entity=(c54--1
-FR100003,intraveineuse,intraveineux,ADJ,Entity=c54)
-FR100003,le,le,DET,Entity=(c55--2
-FR100003,bloc,bloc,NOUN,Entity=c55)
-FR100003,acide,acide,NOUN,Entity=(c56--1
-FR100003,clavulanique,clavulanique,ADJ,Entity=c56)
-FR100003,augmentin,augmentin,NOUN,Entity=(c57--1
-FR100003,5-nitro-imidazolés,5-nitro-imidazolé,NOUN,Entity=(c58--1)
-FR100003,flagyl,flagyl,NOUN,Entity=(c59--1
-FR100003,mg,mg,NOUN,Entity=c59)|SpaceAfter=No
-FR100003,3/j,3/j,NUM,Entity=c57)|SpaceAfter=No
-FR100003,le,le,DET,Entity=(c55--2
-FR100003,anesthésie,anesthésie,NOUN,Entity=(c60--1
-FR100003,générale,général,ADJ,Entity=c60)c55)|SpaceAfter=No
-FR100003,le,le,DET,Entity=(c61--2
-FR100003,infectieux,infectieux,ADJ,Entity=c61)
-FR100003,une,un,DET,Entity=(c62--3
-FR100003,cervicale,cervical,ADJ,Entity=c62)
-FR100003,le,le,DET,Entity=(c30--2
-FR100003,abcédé,abcéder,VERB,Entity=c30)
-FR100003,les,le,DET,Entity=(c63--2
-FR100003,la,le,DET,Entity=(c62--2
-FR100003,cervicotomie,cervicotomie,NOUN,Entity=c62)c63)|SpaceAfter=No
-FR100003,Une,un,DET,Entity=(c64--2
-FR100003,thoracotomie,thoracotomie,NOUN,Entity=c64)
-FR100003,les,le,DET,Entity=(c65--2
-FR100003,le,le,DET,Entity=(c66--2
-FR100003,le,le,DET,Entity=(c34--2
-FR100003,médiastin,médiastin,NOUN,Entity=c34)c66)c65)|SpaceAfter=No
-FR100003,Une,un,DET,Entity=(c67--2
-FR100003,le,le,DET,Entity=(c68--2
-FR100003,collecté,collecté,VERB,Entity=c68)c67)
-FR100003,une,un,DET,Entity=(c69--2
-FR100003,chirurgicale,chirurgical,ADJ,Entity=c69)|SpaceAfter=No
-FR100003,le,le,DET,Entity=(c70--2
-FR100003,la,le,DET,Entity=(c31--2
-FR100003,cellulite,cellulite,NOUN,Entity=c31)c70)|SpaceAfter=No
-FR100003,l',le,DET,Entity=(c71--2|SpaceAfter=No
-FR100003,la,le,DET,Entity=(c72--2
-FR100003,causale,causal,ADJ,Entity=c72)c71)
-FR100003,Un,un,DET,Entity=(c73--2
-FR100003,la,le,DET,Entity=(c74--2
-FR100003,buccale,buccal,ADJ,Entity=c74)c73)
-FR100003,tout,tout,DET,Entity=(c75--3
-FR100003,similaire,similaire,ADJ,Entity=c75)|SpaceAfter=No
-FR100003,La,le,DET,Entity=(c76--2
-FR100003,culture,culture,NOUN,Entity=c76)
-FR100003,un,un,DET,Entity=(c77--2
-FR100003,multisensible,multisensible,ADJ,Entity=c77)|SpaceAfter=No
-FR100003,L',le,DET,Entity=(c53--2|SpaceAfter=No
-FR100003,initiale,initial,ADJ,Entity=c53)
-FR100003,les,le,DET,Entity=(c78--2
-FR100003,l',le,DET,Entity=(c79--2|SpaceAfter=No
-FR100003,hémoculture,hémoculture,NOUN,Entity=c79)c78)|SpaceAfter=No
-FR100078,M.J,M.J,NOUN,Entity=(c1--1
-FR100078,ans,an,NOUN,Entity=c1)
-FR100078,la,le,DET,Entity=(c2--2
-FR100078,MB,MB,PROPN,Entity=c2)
-FR100078,l',le,DET,Entity=(c3--2|SpaceAfter=No
-FR100078,ans,an,NOUN,Entity=c3)|SpaceAfter=No
-FR100078,Le,le,DET,Entity=(c4--2
-FR100078,diagnostic,diagnostic,NOUN,Entity=c4)
-FR100078,l',le,DET,Entity=(c5--2|SpaceAfter=No
-FR100078,une,un,DET,Entity=(c6--2
-FR100078,récidivante,récidivant,ADJ,Entity=c6)
-FR100078,les,le,DET,Entity=(c7--2
-FR100078,génitaux,génital,ADJ,Entity=c7)|SpaceAfter=No
-FR100078,les,le,DET,Entity=(c8--2
-FR100078,nécrotiques,nécrotique,ADJ,Entity=c8)|SpaceAfter=No
-FR100078,une,un,DET,Entity=(c9--2
-FR100078,le,le,DET,Entity=(c10--2
-FR100078,gauche,gauche,ADJ,Entity=c10)c9)
-FR100078,un,un,DET,Entity=(c11--2
-FR100078,positif,positif,ADJ,Entity=c11)c5)|SpaceAfter=No
-FR100078,Le,le,DET,Entity=(c1--2
-FR100078,patient,patient,NOUN,Entity=c1)
-FR100078,le,le,DET,Entity=(c12--3
-FR100078,cours,cours,NOUN,Entity=c12)
-FR100078,colchicine,colchicine,NOUN,Entity=(c13--1)|SpaceAfter=No
-FR100078,aspirine,aspirine,NOUN,Entity=(c14--1)
-FR100078,prednisone,prednisone,NOUN,Entity=(c15--1
-FR100078,dose,dose,NOUN,Entity=c15)
-FR100078,10,10,NUM,Entity=(c16--2
-FR100078,mg/j,mg/j,NOUN,Entity=c16)|SpaceAfter=No
-FR100078,Il,lui,PRON,Entity=(c1--1)
-FR100078,les,le,DET,Entity=(c17--2
-FR100078,les,le,DET,Entity=(c18--3
-FR100078,jambes,jambe,NOUN,Entity=c18)c17)
-FR100078,l',le,DET,Entity=(c19--2|SpaceAfter=No
-FR100078,plusieurs,plusieurs,DET,Entity=(c20--2
-FR100078,reprises,reprise,NOUN,Entity=c20)c19)|SpaceAfter=No
-FR100078,chaque,chaque,DET,Entity=(c21--2
-FR100078,fois,fois,NOUN,Entity=c21)
-FR100078,les,le,DET,Entity=(c22--2
-FR100078,l',le,DET,Entity=(c17--2|SpaceAfter=No
-FR100078,ulcère,ulcère,NOUN,Entity=c17)c22)
-FR100078,une,un,DET,Entity=(c23--2
-FR100078,la,le,DET,Entity=(c2--2
-FR100078,maladie,maladie,NOUN,Entity=c2)c23)
-FR100078,notion,notion,NOUN,Entity=(c24--1
-FR100078,arrêt,arrêt,NOUN,Entity=(c25--1
-FR100078,traitement,traitement,NOUN,Entity=(c26--1)c25)c24)|SpaceAfter=No
-FR100078,L',le,DET,Entity=(c27--2|SpaceAfter=No
-FR100078,clinique,clinique,ADJ,Entity=c27)
-FR100078,le,le,DET,Entity=(c28--2
-FR100078,ces,ce,DET,Entity=(c19--2
-FR100078,hospitalisations,hospitalisation,NOUN,Entity=c19)c28)
-FR100078,de,un,DET,Entity=(c29--2
-FR100078,signes,signe,NOUN,Entity=(c30--1
-FR100078,thrombophlébites,thrombophlébite,NOUN,Entity=(c31--1
-FR100078,superficielles,superficiel,ADJ,Entity=c31)c30)
-FR100078,le,le,DET,Entity=(c32--2
-FR100078,les,le,DET,Entity=(c18--2
-FR100078,jambes,jambe,NOUN,Entity=c18)c32)c29)
-FR100078,les,le,DET,Entity=(c33--2
-FR100078,pédieux,pédieux,ADJ,Entity=c33)
-FR100078,Le,le,DET,Entity=(c34--2
-FR100078,les,le,DET,Entity=(c35--2
-FR100078,inférieurs,inférieur,ADJ,Entity=c35)c34)
-FR100078,de,un,DET,Entity=(c36--2
-FR100078,insuffisance,insuffisance,NOUN,Entity=(c37--1
-FR100078,veineuse,veineux,ADJ,Entity=c37)
-FR100078,thrombose,thrombose,NOUN,Entity=(c38--1
-FR100078,concomitante,concomitant,ADJ,Entity=c38)c36)|SpaceAfter=No
-FR100078,Le,le,DET,Entity=(c39--2
-FR100078,artériel,artériel,ADJ,Entity=c39)
-FR100078,de,un,DET,Entity=(c40--2
-FR100078,artériopathie,artériopathie,NOUN,Entity=(c41--1
-FR100078,sous-jacente,sous-jacent,ADJ,Entity=c41)c40)|SpaceAfter=No
-FR100078,L',le,DET,Entity=(c42--2|SpaceAfter=No
-FR100078,pression,pression,NOUN,Entity=(c43--1
-FR100078,systolique,systolique,ADJ,Entity=c43)c42)
-FR100078,La,le,DET,Entity=(c44--14
-FR100078,le,le,DET,Entity=(c45--2
-FR100078,les,le,DET,Entity=(c46--2
-FR100078,l',le,DET,Entity=(c17--2|SpaceAfter=No
-FR100078,ulcération,ulcération,NOUN,Entity=c17)c46)c45)
-FR100078,les,le,DET,Entity=(c47--2
-FR100078,vascularite,vascularite,NOUN,Entity=(c48--1
-FR100078,leucocytoclasique,leucocytoclasique,ADJ,Entity=c48)c47)
-FR100078,les,le,DET,Entity=(c49--2
-FR100078,micro-thromboses,micro-thrombose,NOUN,Entity=c49)
-FR100078,une,un,DET,Entity=(c50--2
-FR100078,le,le,DET,Entity=(c51--2
-FR100078,profond,profond,ADJ,Entity=c51)c50)c44)|SpaceAfter=No
-FR100078,Le,le,DET,Entity=(c1--2
-FR100078,patient,patient,NOUN,Entity=c1)
-FR100078,plusieurs,plusieurs,DET,Entity=(c52--2
-FR100078,surinfection,surinfection,NOUN,Entity=(c53--1
-FR100078,les,le,DET,Entity=(c17--2
-FR100078,ulcérations,ulcération,NOUN,Entity=c17)c53)c52)
-FR100078,le,le,DET,Entity=(c54--2
-FR100078,les,le,DET,Entity=(c55--2
-FR100078,antibiotiques,antibiotique,NOUN,Entity=c55)c54)|SpaceAfter=No
-FR100078,La,le,DET,Entity=(c56--2
-FR100078,dernière,dernier,ADJ,Entity=c56)
-FR100078,pseudomonas,pseudomonas,X,Entity=(c57--1
-FR100078,aéroginosa,aéroginosa,X,Entity=c57)|SpaceAfter=No
-FR100078,Le,le,DET,Entity=(c58--2
-FR100078,ces,ce,DET,Entity=(c53--2
-FR100078,infections,infection,NOUN,Entity=c53)c58)
-FR100078,un,un,DET,Entity=(c59--2
-FR100078,clinico-biologiques,clinico-biologique,ADJ,Entity=c59)|SpaceAfter=No
-FR100078,fièvre,fièvre,NOUN,Entity=(c60--1
-FR100078,septicémique,septicémique,ADJ,Entity=c60)|SpaceAfter=No
-FR100078,présence,présence,NOUN,Entity=(c61--1
-FR100078,pus,pus,NOUN,Entity=(c62--1)c61)
-FR100078,l',le,DET,Entity=(c63--2|SpaceAfter=No
-FR100078,local,local,ADJ,Entity=c63)|SpaceAfter=No
-FR100078,une,un,DET,Entity=(c64--2
-FR100078,neutrophiles,neutrophile,ADJ,Entity=c64)
-FR100078,une,un,DET,Entity=(c65--2
-FR100078,élevée,élevé,ADJ,Entity=c65)
-FR100078,une,un,DET,Entity=(c66--3
-FR100078,ulcère,ulcère,NOUN,Entity=(c17--1)c66)|SpaceAfter=No
-FR100078,les,le,DET,Entity=(c67--2(c68--2
-FR100078,locaux,local,ADJ,Entity=c68)|SpaceAfter=No
-FR100078,l',le,DET,Entity=(c69--2|SpaceAfter=No
-FR100078,adaptée,adapté,ADJ,Entity=c69)
-FR100078,la,le,DET,Entity=(c70--2
-FR100078,la,le,DET,Entity=(c71--2
-FR100078,colchicine,colchicine,NOUN,Entity=c71)
-FR100078,les,le,DET,Entity=(c72--2
-FR100078,glucocorticoïdes,glucocorticoïde,NOUN,Entity=c72)c70)c67)
-FR100078,l',le,DET,Entity=(c73--2|SpaceAfter=No
-FR100078,évolution,évolution,NOUN,Entity=c73)
-FR100078,la,le,DET,Entity=(c74--2
-FR100078,les,le,DET,Entity=(c17--2
-FR100078,ulcérations,ulcération,NOUN,Entity=c17)c74)
-FR100078,les,le,DET,Entity=(c75--2
-FR100078,récidives,récidive,NOUN,Entity=c75)
-FR100078,la,le,DET,Entity=(c76--3
-FR100078,thérapeutique,thérapeutique,ADJ,Entity=c76)|SpaceAfter=No
-FR100092,Mme,Mme,NOUN,Entity=(c1--1
-FR100092,HK,HK,PROPN,Entity=c1)|SpaceAfter=No
-FR100092,27,27,NUM,Entity=(c2--2
-FR100092,ans,an,NOUN,Entity=c2)|SpaceAfter=No
-FR100092,1,1,NUM,Entity=(c3--2
-FR100092,demi,demi,ADJ,Entity=c3)|SpaceAfter=No
-FR100092,notre,son,DET,Entity=(c4--2(c5--1)
-FR100092,formation,formation,NOUN,Entity=c4)
-FR100092,prise,prise,NOUN,Entity=(c6--1
-FR100092,une,un,DET,Entity=(c7--2
-FR100092,la,le,DET,Entity=(c8--2
-FR100092,droite,droit,ADJ,Entity=c8)c7)
-FR100092,1,1,NUM,Entity=(c9--2
-FR100092,semaine,semaine,NOUN,Entity=c9)
-FR100092,les,le,DET,Entity=(c10--2
-FR100092,aménorrhée,aménorrhée,NOUN,Entity=(c11--1
-FR100092,2,2,NUM,Entity=(c12--2
-FR100092,mois,mois,NOUN,Entity=c12)c11)c10)c6)|SpaceAfter=No
-FR100092,L',le,DET,Entity=(c13--2|SpaceAfter=No
-FR100092,l',le,DET,Entity=(c14--2|SpaceAfter=No
-FR100092,admission,admission,NOUN,Entity=c14)c13)
-FR100092,une,un,DET,Entity=(c15--2
-FR100092,apyrétique,apyrétique,ADJ,Entity=c15)|SpaceAfter=No
-FR100092,les,le,DET,Entity=(c16--2
-FR100092,normocolorées,normocoloré,ADJ,Entity=c16)|SpaceAfter=No
-FR100092,une,un,DET,Entity=(c17--2
-FR100092,6,6,NUM,Entity=c17)
-FR100092,une,un,DET,Entity=(c18--2
-FR100092,80,80,NUM,Entity=(c19--2
-FR100092,minute,minute,NOUN,Entity=(c20--1)c19)c18)|SpaceAfter=No
-FR100092,L',le,DET,Entity=(c21--2|SpaceAfter=No
-FR100092,abdominal,abdominal,ADJ,Entity=c21)
-FR100092,une,un,DET,Entity=(c22--2
-FR100092,droite,droite,NOUN,Entity=c22)|SpaceAfter=No
-FR100092,L',le,DET,Entity=(c23--2|SpaceAfter=No
-FR100092,gynécologique,gynécologique,ADJ,Entity=c23)
-FR100092,un,un,DET,Entity=(c24--2
-FR100092,normal,normal,ADJ,Entity=c24)|SpaceAfter=No
-FR100092,un,un,DET,Entity=(c25--2
-FR100092,l',le,DET,Entity=(c26--2|SpaceAfter=No
-FR100092,endocol,endocol,NOUN,Entity=c26)c25)|SpaceAfter=No
-FR100092,un,un,DET,Entity=(c27--2
-FR100092,taille,taille,NOUN,Entity=(c28--1
-FR100092,normal,normal,ADJ,Entity=c28)
-FR100092,un,un,DET,Entity=(c29--2
-FR100092,cri,cri,NOUN,Entity=(c30--1
-FR100092,douglas,douglas,NOUN,Entity=c30)c29)c27)|SpaceAfter=No
-FR100092,l',le,DET,Entity=(c31--2|SpaceAfter=No
-FR100092,pelvienne,pelvien,ADJ,Entity=c31)|SpaceAfter=No
-FR100092,l',le,DET,Entity=(c27--2|SpaceAfter=No
-FR100092,utérus,utérus,NOUN,Entity=c27)
-FR100092,taille,taille,NOUN,Entity=(c32--1
-FR100092,normal,normal,ADJ,Entity=c32)
-FR100092,une,un,DET,Entity=(c33--2
-FR100092,interface,interface,NOUN,Entity=c33)
-FR100092,qui,qui,PRON,Entity=(c33--1)
-FR100092,le,le,DET,Entity=(c34--2
-FR100092,fond,fond,NOUN,Entity=c34)|SpaceAfter=No
-FR100092,présence,présence,NOUN,Entity=(c35--1
-FR100092,une,un,DET,Entity=(c36--2
-FR100092,systématisée,systématiser,VERB,Entity=c36)
-FR100092,89,89,NUM,Entity=(c37--2|SpaceAfter=No
-FR100092,/60mm,/60mm,NOUN,Entity=c37)c35)|SpaceAfter=No
-FR100092,l',le,DET,Entity=(c38--2|SpaceAfter=No
-FR100092,gauche,gauche,ADJ,Entity=c38)
-FR100092,siège,siège,NOUN,Entity=(c39--1
-FR100092,une,un,DET,Entity=(c40--2
-FR100092,42/42mm,42/42mm,NUM,Entity=c40)c39)|SpaceAfter=No
-FR100092,un,un,DET,Entity=(c41--2
-FR100092,abondance,abondance,NOUN,Entity=c41)
-FR100092,Le,le,DET,Entity=(c42--2
-FR100092,β-HCG,β-hcg,NOUN,Entity=(c43--1)
-FR100092,hormone,hormone,NOUN,Entity=(c43--1
-FR100092,chorionique,chorionique,ADJ,Entity=c43)|SpaceAfter=No
-FR100092,plasmatique,plasmatique,ADJ,Entity=c42)
-FR100092,1437,1437,NUM,Entity=(c44--3
-FR100092,l,l,NOUN,Entity=c44)|SpaceAfter=No
-FR100092,Le,le,DET,Entity=(c45--2
-FR100092,tableau,tableau,NOUN,Entity=c45)
-FR100092,le,le,DET,Entity=(c46--2
-FR100092,grossesse,grossesse,NOUN,Entity=(c47--1
-FR100092,droite,droit,ADJ,Entity=c47)c46)|SpaceAfter=No
-FR100092,Le,le,DET,Entity=(c48--2
-FR100092,le,le,DET,Entity=(c49--2
-FR100092,biologique,biologique,ADJ,Entity=c49)c48)
-FR100092,une,un,DET,Entity=(c50--2
-FR100092,"11,4","11,4",NUM,Entity=(c51--2
-FR100092,dl,dl,NOUN,Entity=c51)|SpaceAfter=No
-FR100092,les,le,DET,Entity=(c52--2
-FR100092,blancs,blanc,ADJ,Entity=c52)
-FR100092,7530,7530,NUM,Entity=(c53--1|SpaceAfter=No
-FR100092,3,3,NUM,Entity=c53)c50)|SpaceAfter=No
-FR100092,La,le,DET,Entity=(c15--2
-FR100092,patiente,patiente,NOUN,Entity=c15)
-FR100092,une,un,DET,Entity=(c54--2
-FR100092,transversale,transversal,ADJ,Entity=c54)|SpaceAfter=No
-FR100092,l',le,DET,Entity=(c55--2|SpaceAfter=No
-FR100092,exploration,exploration,NOUN,Entity=c55)|SpaceAfter=No
-FR100092,présence,présence,NOUN,Entity=(c56--1
-FR100092,un,un,DET,Entity=(c57--2
-FR100092,700cc,700cc,NUM,Entity=c57)|SpaceAfter=No
-FR100092,découverte,découverte,NOUN,Entity=(c58--1
-FR100092,une,un,DET,Entity=(c59--2
-FR100092,organisation,organisation,NOUN,Entity=c59)c58)
-FR100092,trompe,trompe,NOUN,Entity=(c60--1
-FR100092,perforée,perforer,VERB,Entity=c60)c56)|SpaceAfter=No
-FR100092,la,le,DET,Entity=(c61--2
-FR100092,une,un,DET,Entity=(c62--2
-FR100092,rétrograde,rétrograde,ADJ,Entity=c62)c61)|SpaceAfter=No
-FR100092,Le,le,DET,Entity=(c63--2
-FR100092,l',le,DET,Entity=(c55--2|SpaceAfter=No
-FR100092,exploration,exploration,NOUN,Entity=c55)c63)
-FR100092,les,le,DET,Entity=(c64--2
-FR100092,phragmatiques,phragmatique,ADJ,Entity=c64)
-FR100092,un,un,DET,Entity=(c65--2
-FR100092,la,le,DET,Entity=(c36--2
-FR100092,latéroutérine,latéroutérin,ADJ,Entity=c36)c65)|SpaceAfter=No
-FR100092,une,un,DET,Entity=(c66--2
-FR100092,appendicectomie,appendicectomie,NOUN,Entity=c66)
-FR100092,L',le,DET,Entity=(c67--2|SpaceAfter=No
-FR100092,anatomopathologiaque,anatomopathologiaque,ADJ,Entity=c67)
-FR100092,une,un,DET,Entity=(c68--2
-FR100092,perforée,perforer,VERB,Entity=c68)
-FR100092,une,un,DET,Entity=(c69--2
-FR100092,réaction,réaction,NOUN,Entity=(c70--1
-FR100092,locale,local,ADJ,Entity=c70)c69)|SpaceAfter=No
-FR100092,Les,le,DET,Entity=(c71--2
-FR100092,opératoires,opératoire,ADJ,Entity=c71)
-FR100092,particularités,particularité,NOUN,Entity=(c72--1)
-FR100092,la,le,DET,Entity=(c15--2
-FR100092,patiente,patient,NOUN,Entity=c15)
-FR100092,le,le,DET,Entity=(c73--2
-FR100092,jour,jour,NOUN,Entity=c73)|SpaceAfter=No
-FR100120,un,un,DET,Entity=(c1--2
-FR100120,37,37,NUM,Entity=(c2--2
-FR100120,ans,an,NOUN,Entity=c2)|SpaceAfter=No
-FR100120,masculin,masculin,ADJ,Entity=c1)|SpaceAfter=No
-FR100120,détachement,détachement,NOUN,Entity=(c3--1
-FR100120,le,le,DET,Entity=(c4--2
-FR100120,tunisien,tunisien,ADJ,Entity=c4)
-FR100120,République,république,NOUN,Entity=(c5--1
-FR100120,Congo,Congo,PROPN,Entity=c5)c3)
-FR100120,l',le,DET,Entity=(c6--2|SpaceAfter=No
-FR100120,2008,2008,NUM,Entity=c6)|SpaceAfter=No
-FR100120,ses,son,DET,Entity=(c7--2(c1--1)
-FR100120,antécédents,antécédent,NOUN,Entity=c7)|SpaceAfter=No
-FR100120,un,un,DET,Entity=(c8--2(c9--2
-FR100120,antidiabétiques,antidiabétique,NOUN,Entity=(c10--1
-FR100120,oraux,oral,ADJ,Entity=c10)
-FR100120,cinq,cinq,NUM,Entity=(c11--2
-FR100120,ans,an,NOUN,Entity=c11)c9)
-FR100120,une,un,DET,Entity=(c12--2
-FR100120,obésité,obésité,NOUN,Entity=c12)
-FR100120,Indice,indice,NOUN,Entity=(c13--1
-FR100120,Corporelle,corporel,ADJ,Entity=c13)
-FR100120,37,37,NUM,Entity=(c14--2
-FR100120,2,2,NUM,Entity=c14)|SpaceAfter=No
-FR100120,une,un,DET,Entity=(c15--2
-FR100120,dyslipidémie,dyslipidémie,NOUN,Entity=c15)c8)|SpaceAfter=No
-FR100120,octobre,octobre,NOUN,Entity=(c16--1
-FR100120,2008,2008,NUM,Entity=c16)|SpaceAfter=No
-FR100120,ce,ce,DET,Entity=(c1--2
-FR100120,militaire,militaire,NOUN,Entity=c1)
-FR100120,10,10,NUM,Entity=(c17--2
-FR100120,semaines,semaine,NOUN,Entity=c17)
-FR100120,une,un,DET,Entity=(c18--2
-FR100120,Kinshasa,Kinshasa,PROPN,Entity=(c19--1)c18)|SpaceAfter=No
-FR100120,Un,un,DET,Entity=(c20--2
-FR100120,mois,mois,NOUN,Entity=c20)
-FR100120,il,lui,PRON,Entity=(c1--1)
-FR100120,la,le,DET,Entity=(c21--2
-FR100120,consultation,consultation,NOUN,Entity=c21)|SpaceAfter=No
-FR100120,deux,deux,NUM,Entity=(c22--2
-FR100120,6,6,NUM,Entity=(c23--2
-FR100120,jours,jour,NOUN,Entity=c23)
-FR100120,le,le,DET,Entity=(c24--2
-FR100120,le,le,DET,Entity=(c25--2
-FR100120,thorax,thorax,NOUN,Entity=c25)
-FR100120,l',le,DET,Entity=(c26--2|SpaceAfter=No
-FR100120,épaule,épaule,NOUN,Entity=c26)c24)c22)|SpaceAfter=No
-FR100120,L',le,DET,Entity=(c27--2|SpaceAfter=No
-FR100120,clinique,clinique,ADJ,Entity=c27)
-FR100120,deux,deux,NUM,Entity=(c22--2
-FR100120,furonculoïdes,furonculoïde,ADJ,Entity=c22)|SpaceAfter=No
-FR100120,5,5,NUM,Entity=(c28--2
-FR100120,chacune,chacun,PRON,Entity=c28)|SpaceAfter=No
-FR100120,un,un,DET,Entity=(c29--3
-FR100120,orifice,orifice,NOUN,Entity=c29)
-FR100120,le,le,DET,Entity=(c30--2
-FR100120,pus,pus,NOUN,Entity=c30)|SpaceAfter=No
-FR100120,un,un,DET,Entity=(c31--2
-FR100120,tuméfié,tuméfier,VERB,Entity=c31)|SpaceAfter=No
-FR100120,chaleur,chaleur,NOUN,Entity=(c32--1
-FR100120,locale,local,ADJ,Entity=c32)|SpaceAfter=No
-FR100120,Le,le,DET,Entity=(c33--2
-FR100120,l',le,DET,Entity=(c27--2|SpaceAfter=No
-FR100120,examen,examen,NOUN,Entity=c27)c33)
-FR100120,fièvre,fièvre,NOUN,Entity=(c34--1)
-FR100120,le,le,DET,Entity=(c35--2
-FR100120,standard,standard,ADJ,Entity=c35)
-FR100120,élément,élément,NOUN,Entity=(c36--1
-FR100120,orientation,orientation,NOUN,Entity=c36)|SpaceAfter=No
-FR100120,le,le,DET,Entity=(c37--2
-FR100120,débilité,débilité,NOUN,Entity=c37)
-FR100120,diabète,diabète,NOUN,Entity=(c9--1
-FR100120,II,II,NUM,Entity=c9)|SpaceAfter=No
-FR100120,un,un,DET,Entity=(c38--2
-FR100120,oxacycline,oxacycline,NOUN,Entity=(c39--1)
-FR100120,la,le,DET,Entity=(c40--2
-FR100120,2,2,NUM,Entity=(c41--2
-FR100120,jour,jour,NOUN,Entity=c41)c40)
-FR100120,7,7,NUM,Entity=(c42--2
-FR100120,os,os,NOUN,Entity=c42)
-FR100120,les,le,DET,Entity=(c43--2
-FR100120,locaux,local,ADJ,Entity=c43)c38)
-FR100120,Le,le,DET,Entity=(c44--2
-FR100120,guérison,guérison,NOUN,Entity=c44)
-FR100120,son,son,DET,Entity=(c9--2(c1--1)
-FR100120,diabète,diabète,NOUN,Entity=c9)
-FR100120,les,le,DET,Entity=(c22--2
-FR100120,lésions,lésion,NOUN,Entity=c22)
-FR100120,une,un,DET,Entity=(c45--2
-FR100120,cyclines,cycline,NOUN,Entity=(c46--1)c45)
-FR100120,pommade,pommade,NOUN,Entity=(c45--1
-FR100120,hydrophobe,hydrophobe,ADJ,Entity=c45)|SpaceAfter=No
-FR100120,deux,deux,NUM,Entity=(c47--2
-FR100120,traitement,traitement,NOUN,Entity=(c48--1
-FR100120,la,le,DET,Entity=(c45--2
-FR100120,grasse,gras,ADJ,Entity=c45)c48)c47)|SpaceAfter=No
-FR100120,deux,deux,NUM,Entity=(c49--2
-FR100120,dimensions,dimension,NOUN,Entity=(c50--1
-FR100120,10x5mm,10x5mm,NUM,Entity=c50)c49)
-FR100120,chaque,chaque,DET,Entity=(c22--2
-FR100120,lésion,lésion,NOUN,Entity=c22)
-FR100120,une,un,DET,Entity=(c51--2
-FR100120,bidigitale,bidigital,ADJ,Entity=c51)|SpaceAfter=No
-FR100120,Ces,ce,DET,Entity=(c49--2
-FR100120,larves,larve,NOUN,Entity=c49)
-FR100120,l',le,DET,Entity=(c52--2|SpaceAfter=No
-FR100120,une,un,DET,Entity=(c53--2
-FR100120,pince,pince,NOUN,Entity=c53)c52)|SpaceAfter=No
-FR100120,elles,eux,PRON,Entity=(c49--1)
-FR100120,un,un,DET,Entity=(c29--2
-FR100120,pus,pus,NOUN,Entity=(c30--1)c29)|SpaceAfter=No
-FR100120,L',le,DET,Entity=(c54--2(c55--2|SpaceAfter=No
-FR100120,la,le,DET,Entity=(c56--2
-FR100120,cutanée,cutané,ADJ,Entity=c56)c55)|SpaceAfter=No
-FR100120,la,le,DET,Entity=(c57--2
-FR100120,les,le,DET,Entity=(c58--2
-FR100120,événements,événement,NOUN,Entity=c58)c57)|SpaceAfter=No
-FR100120,la,le,DET,Entity=(c59--2
-FR100120,république,république,NOUN,Entity=(c60--1
-FR100120,Congo,Congo,PROPN,Entity=c60)c59)c54)|SpaceAfter=No
-FR100120,la,le,DET,Entity=(c61--2
-FR100120,la,le,DET,Entity=(c49--2
-FR100120,larve,larve,NOUN,Entity=c49)c61)
-FR100120,le,le,DET,Entity=(c62--2
-FR100120,myiase,myiase,NOUN,Entity=(c63--1
-FR100120,furonculoïde,furonculoïde,ADJ,Entity=c63)c62)
-FR100120,les,le,DET,Entity=(c49--2
-FR100120,larves,larve,NOUN,Entity=c49)
-FR100120,Cordylobia,Cordylobia,PROPN,Entity=(c64--1
-FR100120,anthropophaga,anthropophaga,X,Entity=c64)|SpaceAfter=No
-FR100130,un,un,DET,Entity=(c1--2
-FR100130,49,49,NUM,Entity=(c2--2
-FR100130,ans,an,NOUN,Entity=c2)
-FR100130,antécédents,antécédent,NOUN,Entity=(c3--1
-FR100130,pathologiques,pathologique,ADJ,Entity=c3)
-FR100130,notre,son,DET,Entity=(c4--2
-FR100130,service,service,NOUN,Entity=c4)
-FR100130,2006,2006,NUM,Entity=(c5--1)
-FR100130,exploration,exploration,NOUN,Entity=(c6--1
-FR100130,lombalgies,lombalgie,NOUN,Entity=(c7--1
-FR100130,antalgiques,antalgique,NOUN,Entity=c7)c6)
-FR100130,une,un,DET,Entity=(c8--2
-FR100130,une,un,DET,Entity=(c9--2
-FR100130,les,le,DET,Entity=(c10--2
-FR100130,abdominaux,abdominal,ADJ,Entity=c10)c9)
-FR100130,un,un,DET,Entity=(c11--2
-FR100130,an,an,NOUN,Entity=c11)c8)c1)|SpaceAfter=No
-FR100130,Il,lui,PRON,Entity=(c1--1)
-FR100130,épisodes,épisode,NOUN,Entity=(c12--1
-FR100130,résolutifs,résolutif,ADJ,Entity=c12)|SpaceAfter=No
-FR100130,L',le,DET,Entity=(c13--2|SpaceAfter=No
-FR100130,physique,physique,ADJ,Entity=c13)
-FR100130,un,un,DET,Entity=(c14--2
-FR100130,bon,bon,ADJ,Entity=(c15--2
-FR100130,apyrétique,apyrétique,ADJ,Entity=c15)|SpaceAfter=No
-FR100130,.,.,PUNCT,Entity=c14)|SpacesAfter=\n
-FR100130,On,on,PRON,Entity=(c16--1)
-FR100130,une,un,DET,Entity=(c17--2
-FR100130,lombaire,lombaire,ADJ,Entity=c17)
-FR100130,une,un,DET,Entity=(c18--2
-FR100130,les,le,DET,Entity=(c19--2
-FR100130,paravertébraux,paravertébral,ADJ,Entity=c19)|SpaceAfter=No
-FR100130,l',le,DET,Entity=(c20--2|SpaceAfter=No
-FR100130,abdomen,abdomen,NOUN,Entity=c20)
-FR100130,les,le,DET,Entity=(c21--3
-FR100130,inférieurs,inférieur,ADJ,Entity=c21)c18)|SpaceAfter=No
-FR100130,Ces,ce,DET,Entity=(c18--2
-FR100130,contractures,contracture,NOUN,Entity=c18)
-FR100130,les,le,DET,Entity=(c22--2
-FR100130,la,le,DET,Entity=(c23--3
-FR100130,stimulation,stimulation,NOUN,Entity=c23)c22)|SpaceAfter=No
-FR100130,Il,lui,PRON,Entity=(c1--1)
-FR100130,rigidité,rigidité,NOUN,Entity=(c24--1
-FR100130,extrapyramidale,extrapyramidal,ADJ,Entity=c24)|SpaceAfter=No
-FR100130,Les,le,DET,Entity=(c25--2
-FR100130,ostéotendineux,ostéotendineux,ADJ,Entity=c25)
-FR100130,les,le,DET,Entity=(c26--3
-FR100130,membres,membre,NOUN,Entity=c26)
-FR100130,le,le,DET,Entity=(c27--2
-FR100130,cutanéoplantaire,cutanéoplantaire,ADJ,Entity=c27)
-FR100130,flexion,flexion,NOUN,Entity=(c28--1)|SpaceAfter=No
-FR100130,La,le,DET,Entity=(c29--2
-FR100130,profonde,profond,ADJ,Entity=c29)
-FR100130,La,le,DET,Entity=(c30--2
-FR100130,biologie,biologie,NOUN,Entity=c30)
-FR100130,syndrome,syndrome,NOUN,Entity=(c31--1
-FR100130,biologique,biologique,ADJ,Entity=c31)|SpaceAfter=No
-FR100130,La,le,DET,Entity=(c32--2
-FR100130,phosphokinase,phosphokinase,ADJ,Entity=c32)
-FR100130,CPK,CPK,X,Entity=(c32--1)|SpaceAfter=No
-FR100130,lactate,lactate,NOUN,Entity=(c33--1
-FR100130,désydrogénase,désydrogénas,ADJ,Entity=c33)
-FR100130,LDH,LDH,X,Entity=(c33--1)|SpaceAfter=No
-FR100130,La,le,DET,Entity=(c34--2(c35--2
-FR100130,glycémie,glycémie,NOUN,Entity=c35)|SpaceAfter=No
-FR100130,le,le,DET,Entity=(c36--2
-FR100130,phosphocalcique,phosphocalcique,ADJ,Entity=c36)
-FR100130,le,le,DET,Entity=(c37--2
-FR100130,thyroïdien,thyroïdien,ADJ,Entity=c37)c34)
-FR100130,Le,le,DET,Entity=(c38--2
-FR100130,SHR,SHR,NOUN,Entity=c38)
-FR100130,le,le,DET,Entity=(c39--2
-FR100130,diagnostic,diagnostic,NOUN,Entity=c39)
-FR100130,l',le,DET,Entity=(c40--2|SpaceAfter=No
-FR100130,électromyogramme,électromyogramme,NOUN,Entity=c40)
-FR100130,qui,qui,PRON,Entity=(c40--1)
-FR100130,une,un,DET,Entity=(c41--2
-FR100130,décharges,décharge,NOUN,Entity=(c42--1
-FR100130,potentiels,potentiel,NOUN,Entity=(c43--1
-FR100130,motrice,moteur,ADJ,Entity=c43)c42)
-FR100130,le,le,DET,Entity=(c44--2
-FR100130,les,le,DET,Entity=(c19--2
-FR100130,paravertébraux,paravertébral,ADJ,Entity=c19)c44)c41)|SpaceAfter=No
-FR100130,La,le,DET,Entity=(c45--2
-FR100130,anticorps,anticorps,NOUN,Entity=(c46--1
-FR100130,sériques,sérique,ADJ,Entity=c46)c45)
-FR100130,390,390,NUM,Entity=(c47--2
-FR100130,ml,ml,NOUN,Entity=c47)
-FR100130,une,un,DET,Entity=(c48--2
-FR100130,1,1,NUM,Entity=(c49--2
-FR100130,ml,ml,NOUN,Entity=c49)c48)|SpaceAfter=No
-FR100130,Notre,son,DET,Entity=(c1--2(c50--1)
-FR100130,patient,patient,NOUN,Entity=c1)
-FR100130,un,un,DET,Entity=(c51--2
-FR100130,séjour,séjour,NOUN,Entity=c51)
-FR100130,la,le,DET,Entity=(c52--2
-FR100130,clinique,clinique,ADJ,Entity=c52)
-FR100130,ROCHESTER,ROCHESTER,PROPN,Entity=(c53--1)
-FR100130,les,le,DET,Entity=(c54--2
-FR100130,Amérique,Amérique,PROPN,Entity=c54)
-FR100130,où,où,PRON,Entity=(c54--1)
-FR100130,le,le,DET,Entity=(c39--2
-FR100130,SHR,SHR,NOUN,Entity=(c38--1)c39)
-FR100130,le,le,DET,Entity=(c55--2
-FR100130,étiologique,étiologique,ADJ,Entity=c55)|SpaceAfter=No
-FR100130,une,un,DET,Entity=(c56--3
-FR100130,néoplasie,néoplasie,NOUN,Entity=c56)
-FR100130,de,un,DET,Entity=(c57--2
-FR100130,évocateurs,évocateur,ADJ,Entity=c57)
-FR100130,les,le,DET,Entity=(c58--2
-FR100130,tumoraux,tumoral,ADJ,Entity=c58)
-FR100130,Une,un,DET,Entity=(c59--2
-FR100130,associée,associer,VERB,Entity=c59)
-FR100130,le,le,DET,Entity=(c60--2
-FR100130,1,1,NUM,Entity=c60)
-FR100130,la,le,DET,Entity=(c61--2
-FR100130,jeun,jeun,NOUN,Entity=c61)
-FR100130,Les,le,DET,Entity=(c62--2
-FR100130,anti-nucléaires,anti-nucléaire,ADJ,Entity=c62)
-FR100130,Les,le,DET,Entity=(c63--2
-FR100130,thyroperoxydases,thyroperoxydase,NOUN,Entity=c63)
-FR100130,ATPO,ATPO,PROPN,Entity=(c63--1)|SpaceAfter=No
-FR100130,457,457,NUM,Entity=(c64--2
-FR100130,ml,ml,NOUN,Entity=c64)
-FR100130,un,un,DET,Entity=(c37--2
-FR100130,normal,normal,ADJ,Entity=c37)|SpaceAfter=No
-FR100130,le,le,DET,Entity=(c65--2
-FR100130,thérapeutique,thérapeutique,ADJ,Entity=c65)|SpaceAfter=No
-FR100130,le,le,DET,Entity=(c1--2
-FR100130,patient,patient,NOUN,Entity=c1)
-FR100130,diazépam,diazépam,NOUN,Entity=(c66--1
-FR100130,dose,dose,NOUN,Entity=(c67--1
-FR100130,15,15,NUM,Entity=(c68--2
-FR100130,mg/j,mg/j,NOUN,Entity=c68)c67)
-FR100130,la,le,DET,Entity=(c69--2
-FR100130,motrice,moteur,ADJ,Entity=c69)
-FR100130,une,un,DET,Entity=(c70--2
-FR100130,les,le,DET,Entity=(c71--2
-FR100130,lombalgies,lombalgie,NOUN,Entity=c71)
-FR100130,la,le,DET,Entity=(c72--2
-FR100130,musculaire,musculaire,ADJ,Entity=c72)c70)c66)|SpaceAfter=No
-FR100130,2011,2011,NUM,Entity=(c73--1)|SpaceAfter=No
-FR100130,On,on,PRON,Entity=(c74--1)
-FR100130,une,un,DET,Entity=(c75--2
-FR100130,le,le,DET,Entity=(c76--2
-FR100130,clinique,clinique,ADJ,Entity=c76)c75)
-FR100130,une,un,DET,Entity=(c77--2
-FR100130,la,le,DET,Entity=(c72--2
-FR100130,contracture,contracture,NOUN,Entity=c72)c77)|SpaceAfter=No
-FR100130,les,le,DET,Entity=(c78--2
-FR100130,musculaires,musculaire,ADJ,Entity=c78)
-FR100130,une,un,DET,Entity=(c79--2
-FR100130,les,le,DET,Entity=(c80--2
-FR100130,respiratoires,respiratoire,ADJ,Entity=c80)c79)
-FR100130,une,un,DET,Entity=(c81--2
-FR100130,le,le,DET,Entity=(c82--3
-FR100130,effort,effort,NOUN,Entity=c82)
-FR100130,une,un,DET,Entity=(c83--2
-FR100130,dysarthrie,dysarthrie,NOUN,Entity=c83)c81)|SpaceAfter=No
-FR100130,L',le,DET,Entity=(c84--2|SpaceAfter=No
-FR100130,neurologique,neurologique,ADJ,Entity=c84)
-FR100130,une,un,DET,Entity=(c85--2
-FR100130,difficile,difficile,ADJ,Entity=c85)
-FR100130,les,le,DET,Entity=(c86--2
-FR100130,position,position,NOUN,Entity=c86)|SpaceAfter=No
-FR100130,Une,un,DET,Entity=(c87--2
-FR100130,résonnance,résonnance,NOUN,Entity=(c88--1
-FR100130,cérébromédullaire,cérébromédullaire,ADJ,Entity=c88)c87)
-FR100130,anomalies,anomalie,NOUN,Entity=(c89--1)|SpaceAfter=No
-FR100130,l',le,DET,Entity=(c75--2|SpaceAfter=No
-FR100130,le,le,DET,Entity=(c76--2
-FR100130,clinique,clinique,ADJ,Entity=c76)c75)|SpaceAfter=No
-FR100130,le,le,DET,Entity=(c1--2
-FR100130,patient,patient,NOUN,Entity=c1)
-FR100130,une,un,DET,Entity=(c90--2
-FR100130,la,le,DET,Entity=(c91--2
-FR100130,j,j,NOUN,Entity=c91)
-FR100130,l',le,DET,Entity=(c92--2|SpaceAfter=No
-FR100130,azathioprine,azathioprine,NOUN,Entity=c92)
-FR100130,la,le,DET,Entity=(c93--2
-FR100130,mg/j,mg/j,NOUN,Entity=c93)
-FR100130,le,le,DET,Entity=(c66--2
-FR100130,diazépan,diazépan,NOUN,Entity=c66)c90)|SpaceAfter=No
-FR100130,effet,effet,NOUN,Entity=(c94--1)|SpaceAfter=No
-FR100130,cette,ce,DET,Entity=(c95--2
-FR100130,résistante,résistant,ADJ,Entity=c95)|SpaceAfter=No
-FR100130,les,le,DET,Entity=(c96--2
-FR100130,immunoglobulines,immunoglobuline,NOUN,Entity=(c97--1
-FR100130,intraveineuses,intraveineux,ADJ,Entity=c97)
-FR100130,2,2,NUM,Entity=(c98--2
-FR100130,g/kg,g/kg,NOUN,Entity=c98)
-FR100130,cinq,cinq,NUM,Entity=(c99--2
-FR100130,jours,jour,NOUN,Entity=c99)c96)
-FR100130,un,un,DET,Entity=(c100--2
-FR100130,1,1,NUM,Entity=(c101--2
-FR100130,mois,mois,NOUN,Entity=c101)c100)|SpaceAfter=No
-FR100130,Le,le,DET,Entity=(c1--2
-FR100130,patient,patient,NOUN,Entity=c1)
-FR100130,six,six,NUM,Entity=(c102--2
-FR100130,cures,cure,NOUN,Entity=c102)
-FR100130,une,un,DET,Entity=(c103--2
-FR100130,la,le,DET,Entity=(c81--2
-FR100130,dyspnée,dyspnée,NOUN,Entity=c81)
-FR100130,le,le,DET,Entity=(c104--2
-FR100130,la,le,DET,Entity=(c105--3
-FR100130,cure,cure,NOUN,Entity=c105)c104)|SpaceAfter=No
-FR100130,la,le,DET,Entity=(c83--2
-FR100130,dysarthrie,dysarthrie,NOUN,Entity=c83)
-FR100130,une,un,DET,Entity=(c106--2
-FR100130,la,le,DET,Entity=(c72--2
-FR100130,musculaire,musculaire,ADJ,Entity=c72)c106)|SpaceAfter=No
-FR100130,une,un,DET,Entity=(c107--2
-FR100130,la,le,DET,Entity=(c85--2
-FR100130,marche,marche,NOUN,Entity=c85)c107)c103)|SpaceAfter=No
-FR100130,Une,un,DET,Entity=(c108--3
-FR100130,série,série,NOUN,Entity=c108)
-FR100130,de,de,ADP,Entity=(c109--3
-FR100130,2,2,NUM,Entity=(c110--2
-FR100130,mois,mois,NOUN,Entity=c110)c109)|SpaceAfter=No
-FR100130,Le,le,DET,Entity=(c111--2
-FR100130,actuel,actuel,ADJ,Entity=c111)
-FR100130,2,2,NUM,Entity=(c110--2
-FR100130,mois,mois,NOUN,Entity=c110)|SpaceAfter=No
+doc,mention_id,texte_maillon,tete_lexicale,nature,fonction
+FR100003,c3,un homme de 55 ans,homme,Nom,autre
+FR100003,c2,l' observation d' un homme de 55 ans enseignant de fonction,observation,Nom,OD
+FR100003,c4,antécédents pathologiques,antécédents,Nom,Obl
+FR100003,c6,deux mois,mois,Nom,Obl
+FR100003,c7,les soins dentaires itératifs,soins,Nom,autre
+FR100003,c5,un diabète non-insulinodépendant découvert depuis deux mois et de les soins dentaires itératifs,diabète,Nom,OD
+FR100003,c8,les urgences,urgences,Nom,Obl
+FR100003,c10,la palpation,palpation,Nom,Obl
+FR100003,c11,un contexte fébrile,contexte,Nom,Obl
+FR100003,c13,l' état général,état,Nom,autre
+FR100003,c12,une altération de l' état général,altération,Nom,autre
+FR100003,c9,une masse latéro-cervicale gauche ferme à la palpation évoluant dans un contexte fébrile et une altération de l' état général,masse,Nom,Obl
+FR100003,c15,l' admission,admission,Nom,autre
+FR100003,c3,qui consulte à les urgences pour une masse latéro-cervicale gauche ferme à la palpation évoluant dans un contexte fébrile et une altération de l' état général . Lexamen clinique à l' admission trouve un patient asthénique,consulte,Autre,autre
+FR100003,c16,un érythème discret,érythème,Nom,autre
+FR100003,c18,le cou,cou,Nom,autre
+FR100003,c17,la face latéral de le cou,face,Nom,autre
+FR100003,c19,une fréquence cardiaque à 87 batt / min,fréquence,Nom,autre
+FR100003,c20,une PA à 110 / 70 mmHg,PA,Nom,autre
+FR100003,c14,"Lexamen clinique à l' admission trouve un patient asthénique , un érythème discret sur la face latéral de le cou , une fréquence cardiaque à 87 batt / min et une PA à 110 / 70 mmHg",trouve,Autre,autre
+FR100003,c21,L' état respiratoire,état,Nom,Suj
+FR100003,c22,fréquence respiratoire 22 cycles / mn,fréquence,Nom,autre
+FR100003,c23,une SaO2 à 96 %,SaO2,Nom,autre
+FR100003,c24,l' air ambiant,air,Nom,autre
+FR100003,c26,39 °,°,Autre,autre
+FR100003,c25,une fièvre à 39 °,fièvre,Nom,autre
+FR100003,c27,Le bilan biologique initiale,bilan,Nom,Suj
+FR100003,c28,une hyperleucocytose à 85OOO,hyperleucocytose,Nom,OD
+FR100003,c29,une CRP à 350 mg/l,CRP,Nom,autre
+FR100003,c31,12 mmol/l,mmol/l,Nom,autre
+FR100003,c30,une glycémie à 12 mmol/l,glycémie,Nom,autre
+FR100003,c32,La TDM cervicothoracique,TDM,Nom,Suj
+FR100003,c35,les espaces cervicaux antérolatéraux gauches,espaces,Nom,Obl
+FR100003,c34,cellulite profonde abcédée de les espaces cervicaux antérolatéraux gauches,cellulite,Nom,autre
+FR100003,c36,l' ' espace retropharyngolaryngé,espace,Nom,Obl
+FR100003,c37,le médiastin,médiastin,Nom,Obl
+FR100003,c39,un épanchement pleural droit,épanchement,Nom,Obl
+FR100003,c38,une médiastinite associé à un épanchement pleural droit,médiastinite,Nom,autre
+FR100003,c33,un phlegmon avec cellulite profonde abcédée de les espaces cervicaux antérolatéraux gauches fusant le long de l' ' espace retropharyngolaryngé étendue à le médiastin compliqué d' une médiastinite associé à un épanchement pleural droit,phlegmon,Nom,OD
+FR100003,c40,Le panoramique dentaire,panoramique,Nom,Suj
+FR100003,c42,la 45,45,Num,autre
+FR100003,c41,un délabrement de la 45,délabrement,Nom,OD
+FR100003,c42,3éme molaire,molaire,Nom,autre
+FR100003,c44,la racine dentaire,racine,Nom,autre
+FR100003,c43,granulome de la racine dentaire,granulome,Nom,autre
+FR100003,c46,anesthésie locale,anesthésie,Nom,autre
+FR100003,c48,un petit volume de sérum physiologique,volume,Nom,autre
+FR100003,c47,injection d' un petit volume de sérum physiologique,injection,Nom,autre
+FR100003,c48,10 ml,ml,Nom,autre
+FR100003,c33,la collection,collection,Nom,autre
+FR100003,c45,La ponction sous-cutanée sous anesthésie locale après injection d' un petit volume de sérum physiologique ( 10 ml ) de la collection,ponction,Nom,Suj
+FR100003,c49,le pus,pus,Nom,Obl
+FR100003,c50,L' examen cytobactériologique,examen,Nom,Suj
+FR100003,c51,les leucocytes nombreux,leucocytes,Nom,OD
+FR100003,c52,les bactéries abondantes et polymorphes,bactéries,Nom,Obl
+FR100003,c53,L' examen direct coloré GRAM,examen,Nom,autre
+FR100003,c54,Flore bactérienne très abondantes et mixte,Flore,Nom,autre
+FR100003,c55,les anaérobies,anaérobies,Nom,OD
+FR100003,c56,"Une antibiothérapie initiale , adjuvante , probabiliste",antibiothérapie,Nom,Suj
+FR100003,c57,voie intraveineuse,voie,Nom,Obl
+FR100003,c58,le bloc,bloc,Nom,Obl
+FR100003,c60,acide clavulanique,acide,Nom,autre
+FR100003,c63,flagyl 500 mg,flagyl,Nom,autre
+FR100003,c61,augmentin 2g × 3/j ) associé à 5-nitro-imidazolés ( flagyl 500 mg × 3/j,augmentin,Nom,autre
+FR100003,c64,anesthésie générale,anesthésie,Nom,autre
+FR100003,c58,le bloc opératoire sous anesthésie générale,bloc,Nom,Obl
+FR100003,c65,le foyer infectieux,foyer,Nom,Suj
+FR100003,c66,une large incision cervicale,incision,Nom,Obl
+FR100003,c33,le phlegmon abcédé,phlegmon,Nom,Suj
+FR100003,c68,la cervicotomie,cervicotomie,Nom,Obl
+FR100003,c67,les lames descendues à partir de la cervicotomie,lames,Nom,Obl
+FR100003,c69,Une thoracotomie,thoracotomie,Nom,Suj
+FR100003,c37,le médiastin,médiastin,Nom,autre
+FR100003,c71,le niveau de le médiastin,niveau,Nom,Obl
+FR100003,c70,les collections profondes à le niveau de le médiastin,collections,Nom,OD
+FR100003,c72,le stade collecté,stade,Nom,autre
+FR100003,c34,Une cellulite à le stade collecté,cellulite,Nom,Suj
+FR100003,c73,une prise en charge chirurgicale,prise,Nom,Obl
+FR100003,c34,la cellulite,cellulite,Nom,autre
+FR100003,c74,le drainage de la cellulite,drainage,Nom,autre
+FR100003,c76,la dent causale,dent,Nom,autre
+FR100003,c75,l' extraction de la dent causale,extraction,Nom,Suj
+FR100003,c78,la cavité buccale,cavité,Nom,autre
+FR100003,c77,Un traitement complémentaire de la cavité buccale,traitement,Nom,Suj
+FR100003,c79,tout autre épisode infectieux similaire,épisode,Nom,OD
+FR100003,c80,La culture,culture,Nom,Suj
+FR100003,c81,un streptococcus anginosus multisensible,streptococcus,Nom,OD
+FR100003,c56,L' antibiothérapie initiale,antibiothérapie,Nom,Suj
+FR100003,c83,l' hémoculture,hémoculture,Nom,autre
+FR100003,c82,les résultats de l' hémoculture,résultats,Nom,Obl
+FR100078,c1,M.J Patient Tunisien âgé de 42 ans,M.J,Nom,Suj
+FR100078,c2,la MB,MB,Nom,autre
+FR100078,c3,l' âge de 27 ans,âge,Nom,Obl
+FR100078,c4,Le diagnostic,diagnostic,Nom,Suj
+FR100078,c6,une aphtose buccale récidivante,aphtose,Nom,autre
+FR100078,c7,les aphtes génitaux,aphtes,Nom,autre
+FR100078,c8,les pseudofolliculites nécrotiques,pseudofolliculites,Nom,autre
+FR100078,c10,le membre inférieur gauche,membre,Nom,autre
+FR100078,c9,une thrombophlébite de le membre inférieur gauche,thrombophlébite,Nom,autre
+FR100078,c11,un Pathergy test positif,Pathergy,Nom,autre
+FR100078,c5,"l' association d' une aphtose buccale récidivante à de les aphtes génitaux , de les pseudofolliculites nécrotiques , une thrombophlébite de le membre inférieur gauche et un Pathergy test positif",association,Nom,Obl
+FR100078,c1,Le patient,patient,Nom,Suj
+FR100078,c12,le long cours,cours,Nom,Obl
+FR100078,c16,faible dose,dose,Nom,autre
+FR100078,c15,prednisone à faible dose,prednisone,Nom,autre
+FR100078,c17,10 mg/j,mg/j,Nom,autre
+FR100078,c19,les deux jambes,jambes,Nom,autre
+FR100078,c18,les ulcères de les deux jambes,ulcères,Nom,OD
+FR100078,c21,plusieurs reprises,reprises,Nom,Obl
+FR100078,c20,l' hospitalisation à plusieurs reprises,hospitalisation,Nom,OD
+FR100078,c22,chaque fois,fois,Nom,Obl
+FR100078,c18,l' ulcère,ulcère,Nom,autre
+FR100078,c23,les récidives de l' ulcère,récidives,Nom,Suj
+FR100078,c2,la maladie,maladie,Nom,autre
+FR100078,c24,une poussée cutanéo-muqueuse de la maladie,poussée,Nom,Obl
+FR100078,c26,arrêt intempestif de traitement,arrêt,Nom,autre
+FR100078,c25,notion d' arrêt intempestif de traitement,notion,Nom,Obl
+FR100078,c28,L' examen clinique,examen,Nom,Suj
+FR100078,c20,ces hospitalisations,hospitalisations,Nom,autre
+FR100078,c29,le moment de ces hospitalisations,moment,Nom,autre
+FR100078,c31,thrombophlébites superficielles,thrombophlébites,Nom,autre
+FR100078,c19,les jambes,jambes,Nom,autre
+FR100078,c32,le niveau de les jambes,niveau,Nom,Obl
+FR100078,c30,signes de thrombophlébites superficielles à le niveau de les jambes,signes,Nom,OD
+FR100078,c33,les pouls tibiaux postérieurs et pédieux,pouls,Nom,Suj
+FR100078,c35,les membres inférieurs,membres,Nom,autre
+FR100078,c34,Le doppler veineux de les membres inférieurs,doppler,Nom,Suj
+FR100078,c37,insuffisance veineuse,insuffisance,Nom,autre
+FR100078,c38,thrombose profonde concomitante,thrombose,Nom,autre
+FR100078,c36,de signes d' insuffisance veineuse ni de thrombose profonde concomitante,signes,Nom,OD
+FR100078,c39,Le doppler artériel,doppler,Nom,Suj
+FR100078,c41,artériopathie sous-jacente,artériopathie,Nom,autre
+FR100078,c40,de signes d' artériopathie sous-jacente,signes,Nom,OD
+FR100078,c43,pression systolique,pression,Nom,autre
+FR100078,c42,L' indice de pression systolique,indice,Nom,Suj
+FR100078,c18,l' ulcération,ulcération,Nom,autre
+FR100078,c46,les berges de l' ulcération,berges,Nom,autre
+FR100078,c45,le niveau de les berges de l' ulcération,niveau,Nom,Obl
+FR100078,c48,vascularite dermique leucocytoclasique,vascularite,Nom,autre
+FR100078,c47,les signes de vascularite dermique leucocytoclasique,signes,Nom,OD
+FR100078,c49,les micro-thromboses,les,Det,autre
+FR100078,c51,le derme profond,derme,Nom,autre
+FR100078,c50,une infiltration inflammatoire lymphocytaire de le derme profond,infiltration,Nom,autre
+FR100078,c44,La biopsie cutanée réalisée à le niveau de les berges de l' ulcération montrait de les signes de vascularite dermique leucocytoclasique avec de les micro-thromboses et une infiltration inflammatoire lymphocytaire de le derme profond,montrait,Autre,autre
+FR100078,c1,"Il présentait de les ulcères de les deux jambes récidivants et invalidants nécessitant l' hospitalisation à plusieurs reprises . A chaque fois les récidives de l' ulcère s' associaient à une poussée cutanéo-muqueuse de la maladie avec notion d' arrêt intempestif de traitement . L' examen clinique à le moment de ces hospitalisations ne trouvait pas de signes de thrombophlébites superficielles à le niveau de les jambes et les pouls tibiaux postérieurs et pédieux étaient présents . Le doppler veineux de les membres inférieurs n' a pas montré de signes d' insuffisance veineuse ni de thrombose profonde concomitante . Le doppler artériel n' a pas montré non plus de signes d' artériopathie sous-jacente . L' indice de pression systolique était à 1,2 . La biopsie cutanée réalisée à le niveau de les berges de l' ulcération montrait de les signes de vascularite dermique leucocytoclasique avec de les micro-thromboses et une infiltration inflammatoire lymphocytaire de le derme profond . Le patient",présentait,Autre,autre
+FR100078,c18,les ulcérations,ulcérations,Nom,autre
+FR100078,c53,surinfection de les ulcérations,surinfection,Nom,autre
+FR100078,c52,plusieurs épisodes de surinfection de les ulcérations,épisodes,Nom,OD
+FR100078,c55,les antibiotiques,antibiotiques,Nom,autre
+FR100078,c54,le recours à les antibiotiques,recours,Nom,OD
+FR100078,c56,La dernière,dernière,Adj,Suj
+FR100078,c57,pseudomonas aéroginosa,pseudomonas,Autre,autre
+FR100078,c53,ces infections,infections,Nom,autre
+FR100078,c58,Le diagnostic de ces infections,diagnostic,Nom,Suj
+FR100078,c59,un ensemble de signes clinico-biologiques,ensemble,Nom,Obl
+FR100078,c60,fièvre septicémique,fièvre,Nom,autre
+FR100078,c61,présence de pus,présence,Nom,autre
+FR100078,c63,l' examen local,examen,Nom,autre
+FR100078,c64,une hyperleucocytose à polynucléaires neutrophiles,hyperleucocytose,Nom,autre
+FR100078,c65,une C-réactive protéine élevée,C-réactive,Nom,autre
+FR100078,c66,une simple colonisation bactérienne d' ulcère,colonisation,Nom,OD
+FR100078,c67,les traitements locaux,traitements,Nom,Obl
+FR100078,c68,l' antibiothérapie adaptée,antibiothérapie,Nom,autre
+FR100078,c13,"colchicine , aspirine et prednisone à faible dose ( 10 mg/j ) . Il présentait de les ulcères de les deux jambes récidivants et invalidants nécessitant l' hospitalisation à plusieurs reprises . A chaque fois les récidives de l' ulcère s' associaient à une poussée cutanéo-muqueuse de la maladie avec notion d' arrêt intempestif de traitement . L' examen clinique à le moment de ces hospitalisations ne trouvait pas de signes de thrombophlébites superficielles à le niveau de les jambes et les pouls tibiaux postérieurs et pédieux étaient présents . Le doppler veineux de les membres inférieurs n' a pas montré de signes d' insuffisance veineuse ni de thrombose profonde concomitante . Le doppler artériel n' a pas montré non plus de signes d' artériopathie sous-jacente . L' indice de pression systolique était à 1,2 . La biopsie cutanée réalisée à le niveau de les berges de l' ulcération montrait de les signes de vascularite dermique leucocytoclasique avec de les micro-thromboses et une infiltration inflammatoire lymphocytaire de le derme profond . Le patient avait présenté plusieurs épisodes de surinfection de les ulcérations nécessitant le recours à les antibiotiques . La dernière était à pseudomonas aéroginosa . Le diagnostic de ces infections était porté sur un ensemble de signes clinico-biologiques : fièvre septicémique , présence de pus à l' examen local , une hyperleucocytose à polynucléaires neutrophiles et une C-réactive protéine élevée éliminant ainsi une simple colonisation bactérienne d' ulcère . Avec les traitements locaux , l' antibiothérapie adaptée et la reprise de la colchicine",présentait,Autre,autre
+FR100078,c71,les glucocorticoïdes,glucocorticoïdes,Nom,autre
+FR100078,c70,la colchicine et de les glucocorticoïdes,colchicine,Nom,autre
+FR100078,c69,la reprise de la colchicine et de les glucocorticoïdes,reprise,Nom,autre
+FR100078,c72,l' évolution,évolution,Nom,Suj
+FR100078,c18,"ulcère . Avec les traitements locaux , l' antibiothérapie adaptée et la reprise de la colchicine et de les glucocorticoïdes l' évolution se faisait vers la cicatrisation complète de les ulcérations",ulcère,Nom,autre
+FR100078,c73,la cicatrisation complète de les ulcérations,cicatrisation,Nom,Obl
+FR100078,c23,les récidives,récidives,Nom,Suj
+FR100078,c74,la mauvaise observance thérapeutique,observance,Nom,autre
+FR100092,c1,Mme HK,Mme,Nom,Obl
+FR100092,c2,27 ans,ans,Nom,Obl
+FR100092,c3,1 an et demi,an,Nom,Obl
+FR100092,c4,notre formation,formation,Nom,Obl
+FR100092,c8,la fosse iliaque droite,fosse,Nom,autre
+FR100092,c7,une douleur de la fosse iliaque droite,douleur,Nom,autre
+FR100092,c9,1 semaine,semaine,Nom,Obl
+FR100092,c12,2 mois,mois,Nom,autre
+FR100092,c11,aménorrhée de 2 mois,aménorrhée,Nom,autre
+FR100092,c10,les métrorragies sur aménorrhée de 2 mois,métrorragies,Nom,Obl
+FR100092,c6,prise en charge d' une douleur de la fosse iliaque droite apparue depuis 1 semaine associée à de les métrorragies sur aménorrhée de 2 mois,prise,Nom,Obl
+FR100092,c14,l' admission,admission,Nom,autre
+FR100092,c13,L' examen à l' admission,examen,Nom,Suj
+FR100092,c15,une patiente apyrétique,patiente,Nom,OD
+FR100092,c16,les conjonctives normocolorées,conjonctives,Nom,autre
+FR100092,c17,une tension artérielle à 10 / 6,tension,Nom,Obl
+FR100092,c19,80 battements par minute,battements,Nom,autre
+FR100092,c18,une fréquence cardiaque à 80 battements par minute,fréquence,Nom,autre
+FR100092,c21,L' examen abdominal,examen,Nom,Suj
+FR100092,c22,une sensibilité pelvienne bilatérale accentuée à droite,sensibilité,Nom,OD
+FR100092,c23,L' examen gynécologique,examen,Nom,Suj
+FR100092,c24,un col d' aspect normal,col,Nom,OD
+FR100092,c26,l' endocol,endocol,Nom,Obl
+FR100092,c25,un saignement minime et noirâtre provenant de l' endocol,saignement,Nom,autre
+FR100092,c28,taille normal,taille,Nom,autre
+FR100092,c30,cri de douglas,cri,Nom,autre
+FR100092,c29,un empâtement latéroutérin droit sensible sans cri de douglas,empâtement,Nom,autre
+FR100092,c27,un utérus de taille normal avec un empâtement latéroutérin droit sensible sans cri de douglas,utérus,Nom,autre
+FR100092,c31,l' échographie pelvienne,échographie,Nom,autre
+FR100092,c27,l' utérus,utérus,Nom,Suj
+FR100092,c32,taille normal,taille,Nom,autre
+FR100092,c33,une ligne d' interface,ligne,Nom,Obl
+FR100092,c34,le fond,fond,Nom,Obl
+FR100092,c36,une masse latéroutérine droite mal systématisée,masse,Nom,autre
+FR100092,c37,89 /60mm,/60mm,Nom,OD
+FR100092,c35,présence d' une masse latéroutérine droite mal systématisée faisant 89 /60mm,présence,Nom,autre
+FR100092,c38,l' ovaire gauche,ovaire,Nom,Suj
+FR100092,c39,une image anéchogène kystique simple de 42/42mm,image,Nom,autre
+FR100092,c40,un épanchement de moyenne abondance,épanchement,Nom,Suj
+FR100092,c42,β-HCG ( hormone gonadotrophique chorionique,β-HCG,Nom,autre
+FR100092,c41,Le taux de β-HCG ( hormone gonadotrophique chorionique ) plasmatique,taux,Nom,Suj
+FR100092,c43,1437 UI/ l,l,Nom,Obl
+FR100092,c44,Le tableau,tableau,Nom,Suj
+FR100092,c46,grossesse extra utérine droite,grossesse,Nom,autre
+FR100092,c45,le diagnostic de grossesse extra utérine droite,diagnostic,Nom,OD
+FR100092,c48,le bilan biologique,bilan,Nom,autre
+FR100092,c47,Le reste de le bilan biologique,reste,Nom,Suj
+FR100092,c50,"11,4 g / dl",g,Nom,autre
+FR100092,c51,les globules blancs,globules,Nom,autre
+FR100092,c52,7530 / mm 3,7530,Num,autre
+FR100092,c49,"une hémoglobine à 11,4 g / dl , de les globules blancs à 7530 / mm 3",hémoglobine,Nom,OD
+FR100092,c1,La patiente,patiente,Nom,Suj
+FR100092,c53,une minilaparotomie transversale,minilaparotomie,Nom,Obl
+FR100092,c54,l' exploration,exploration,Nom,autre
+FR100092,c56,un hémopéritoine de 700cc,hémopéritoine,Nom,autre
+FR100092,c58,une grossesse extrautérine en voie d' organisation,grossesse,Nom,autre
+FR100092,c57,découverte d' une grossesse extrautérine en voie d' organisation,découverte,Nom,autre
+FR100092,c59,"trompe droite boudinée , et perforée",trompe,Nom,autre
+FR100092,c55,"présence d' un hémopéritoine de 700cc , avec découverte d' une grossesse extrautérine en voie d' organisation avec trompe droite boudinée , et perforée",présence,Nom,autre
+FR100092,c61,une salpingectomie droite rétrograde,salpingectomie,Nom,OD
+FR100092,c60,la décision de rélaiser une salpingectomie droite rétrograde,décision,Nom,Obl
+FR100092,c54,l' exploration,exploration,Nom,autre
+FR100092,c62,Le reste de l' exploration,reste,Nom,Suj
+FR100092,c63,les adhérences interhépatodia phragmatiques,adhérences,Nom,OD
+FR100092,c36,la masse latéroutérine,masse,Nom,Obl
+FR100092,c64,un appendice enflé accolé à la masse latéroutérine,appendice,Nom,Obl
+FR100092,c65,une appendicectomie,appendicectomie,Nom,Suj
+FR100092,c66,L' étude anatomopathologiaque,étude,Nom,Suj
+FR100092,c67,une grossesse tubaire perforée,grossesse,Nom,OD
+FR100092,c69,réaction péritonéale locale,réaction,Nom,Obl
+FR100092,c68,une appendicite aigue suppurée avec réaction péritonéale locale,appendicite,Nom,autre
+FR100092,c70,Les suites post opératoires,suites,Nom,Suj
+FR100092,c1,la patiente,patiente,Nom,Suj
+FR100092,c72,le 3 ème jour,3,Num,Obl
+FR100120,c2,37 ans,ans,Nom,Obl
+FR100120,c1,"un militaire tunisien , âgé de 37 ans , de sexe masculin",militaire,Nom,Obl
+FR100120,c3,le contingent tunisien,contingent,Nom,autre
+FR100120,c4,République Démocratique de le Congo,République,Nom,autre
+FR100120,c5,l' année 2008,année,Nom,Obl
+FR100120,c6,ses antécédents,antécédents,Nom,Obl
+FR100120,c9,antidiabétiques oraux,antidiabétiques,Nom,Obl
+FR100120,c10,cinq ans,ans,Nom,Obl
+FR100120,c8,un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans,diabète,Nom,OD
+FR100120,c11,une obésité,obésité,Nom,autre
+FR100120,c12,Indice de Masse Corporelle,Indice,Nom,Suj
+FR100120,c13,37 kg / m 2,kg,Nom,OD
+FR100120,c14,une dyslipidémie,dyslipidémie,Nom,Obl
+FR100120,c7,un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans et une obésité ( Indice de Masse Corporelle = 37 kg / m 2 ) associée à une dyslipidémie,diabète,Nom,OD
+FR100120,c15,octobre 2008,octobre,Nom,Obl
+FR100120,c1,"ses antécédents , il y a un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans et une obésité ( Indice de Masse Corporelle = 37 kg / m 2 ) associée à une dyslipidémie . En octobre 2008 , ce militaire",a,Autre,autre
+FR100120,c16,10 semaines,semaines,Nom,Obl
+FR100120,c17,une zone périphérique de Kinshasa,zone,Nom,Obl
+FR100120,c19,Un mois,mois,Nom,Obl
+FR100120,c20,la consultation,consultation,Nom,Obl
+FR100120,c22,6 jours,jours,Nom,Obl
+FR100120,c24,le thorax,thorax,Nom,autre
+FR100120,c25,l' épaule,épaule,Nom,autre
+FR100120,c23,le niveau de le thorax et de l' épaule,niveau,Nom,Obl
+FR100120,c21,deux papules prurigineuses isolées apparues depuis 6 jours à le niveau de le thorax et de l' épaule,papules,Nom,Obl
+FR100120,c26,L' examen clinique,examen,Nom,Suj
+FR100120,c21,deux lésions furonculoïdes,lésions,Nom,OD
+FR100120,c27,5 mm de diamètre chacune,mm,Nom,autre
+FR100120,c28,un petit orifice,orifice,Nom,Obl
+FR100120,c29,le pus,pus,Nom,OD
+FR100120,c30,un liseré érythémateux légèrement tuméfié,liseré,Nom,Obl
+FR100120,c31,chaleur locale,chaleur,Nom,autre
+FR100120,c26,l' examen,examen,Nom,autre
+FR100120,c32,Le reste de l' examen,reste,Nom,Suj
+FR100120,c34,le bilan biologique standard,bilan,Nom,Suj
+FR100120,c35,élément d' orientation,élément,Nom,OD
+FR100120,c36,le terrain de débilité,terrain,Nom,Obl
+FR100120,c8,diabète type II,diabète,Nom,autre
+FR100120,c40,2 g / jour,g,Nom,autre
+FR100120,c39,la dose de 2 g / jour,dose,Nom,autre
+FR100120,c42,7 jours per os,jours,Nom,autre
+FR100120,c44,les soins locaux,soins,Nom,autre
+FR100120,c37,un traitement à base d' oxacycline à la dose de 2 g / jour pendant 7 jours per os avec de les soins locaux,traitement,Nom,Suj
+FR100120,c45,Le retard de guérison,retard,Nom,Suj
+FR100120,c8,son diabète,diabète,Nom,Obl
+FR100120,c21,les lésions,lésions,Nom,Suj
+FR100120,c47,une pommade antibiotique à base de cyclines,pommade,Nom,Obl
+FR100120,c47,pommade hydrophobe,pommade,Nom,autre
+FR100120,c47,la pommade grasse,pommade,Nom,autre
+FR100120,c50,traitement par la pommade grasse,traitement,Nom,autre
+FR100120,c49,deux jours de traitement par la pommade grasse,jours,Nom,Obl
+FR100120,c52,dimensions 10x5mm,dimensions,Nom,autre
+FR100120,c51,deux larves blanchâtres de dimensions 10x5mm,larves,Nom,Suj
+FR100120,c21,chaque lésion,lésion,Nom,Obl
+FR100120,c53,une compression bidigitale,compression,Nom,autre
+FR100120,c51,Ces larves,larves,Nom,Suj
+FR100120,c55,une pince,pince,Nom,autre
+FR100120,c54,l' aide d' une pince,aide,Nom,Obl
+FR100120,c28,un orifice propre sans pus,orifice,Nom,OD
+FR100120,c21,la lésion cutanée,lésion,Nom,autre
+FR100120,c56,L' aspect furonculoïde de la lésion cutanée,aspect,Nom,Suj
+FR100120,c58,les événements,événements,Nom,autre
+FR100120,c57,la chronologie de les événements,chronologie,Nom,autre
+FR100120,c4,république Démocratique de le Congo,république,Nom,autre
+FR100120,c60,séjour en république Démocratique de le Congo,séjour,Nom,autre
+FR100120,c59,la notion de séjour en république Démocratique de le Congo,notion,Nom,autre
+FR100120,c51,"elles un orifice propre sans pus . L' aspect furonculoïde de la lésion cutanée , la chronologie de les événements , la notion de séjour en république Démocratique de le Congo , confrontés à la morphologie de la larve",aspect,Nom,Suj
+FR100120,c61,la morphologie de la larve,morphologie,Nom,Obl
+FR100120,c63,myiase furonculoïde,myiase,Nom,autre
+FR100120,c62,le diagnostic de myiase furonculoïde,diagnostic,Nom,Obl
+FR100120,c51,les larves,larves,Nom,Suj
+FR100120,c64,Cordylobia anthropophaga,Cordylobia,Nom,Obl
+FR100130,c2,49 ans,ans,Nom,Obl
+FR100130,c3,antécédents pathologiques,antécédents,Nom,autre
+FR100130,c4,notre service,service,Nom,Obl
+FR100130,c8,les antalgiques,antalgiques,Nom,Obl
+FR100130,c7,lombalgies mécaniques résistantes à les antalgiques,lombalgies,Nom,autre
+FR100130,c9,une raideur rachidienne,raideur,Nom,autre
+FR100130,c11,les muscles abdominaux,muscles,Nom,autre
+FR100130,c10,une contracture de les muscles abdominaux,contracture,Nom,Obl
+FR100130,c12,un an,an,Nom,Obl
+FR100130,c6,exploration de lombalgies mécaniques résistantes à les antalgiques et d' une raideur rachidienne associées à une contracture de les muscles abdominaux évoluant depuis un an,exploration,Nom,Obl
+FR100130,c1,un patient âgé de 49 ans sans antécédents pathologiques admis dans notre service en 2006 pour exploration de lombalgies mécaniques résistantes à les antalgiques et d' une raideur rachidienne associées à une contracture de les muscles abdominaux évoluant depuis un an,patient,Nom,Obl
+FR100130,c13,épisodes de torticolis spontanément résolutifs,épisodes,Nom,Obl
+FR100130,c14,L' examen physique,examen,Nom,Suj
+FR100130,c16,bon état général et apyrétique,état,Nom,autre
+FR100130,c15,un patient en bon état général et apyrétique .,patient,Nom,OD
+FR100130,c18,une hyperlordose lombaire,hyperlordose,Nom,OD
+FR100130,c20,les muscles paravertébraux,muscles,Nom,autre
+FR100130,c21,l' abdomen,abdomen,Nom,autre
+FR100130,c22,les deux membres inférieurs,membres,Nom,autre
+FR100130,c19,"une contracture permanente de les muscles paravertébraux , de l' abdomen et de les deux membres inférieurs",contracture,Nom,Obl
+FR100130,c19,Ces contractures,contractures,Nom,Suj
+FR100130,c24,la moindre stimulation,stimulation,Nom,Obl
+FR100130,c23,les crampes subintrantes provoquées par la moindre stimulation,crampes,Nom,Obl
+FR100130,c25,rigidité extrapyramidale,rigidité,Nom,OD
+FR100130,c26,Les réflexes ostéotendineux,réflexes,Nom,Suj
+FR100130,c27,les quatre membres,membres,Nom,Obl
+FR100130,c28,le réflexe cutanéoplantaire,réflexe,Nom,Suj
+FR100130,c30,La sensibilité superficielle et profonde,sensibilité,Nom,Suj
+FR100130,c31,La biologie,biologie,Nom,Suj
+FR100130,c32,syndrome inflammatoire biologique,syndrome,Nom,OD
+FR100130,c33,La créatine phosphokinase,créatine,Nom,Suj
+FR100130,c34,lactate désydrogénase,lactate,Nom,autre
+FR100130,c36,La glycémie,glycémie,Nom,Suj
+FR100130,c37,le bilan phosphocalcique,bilan,Nom,autre
+FR100130,c38,le bilan thyroïdien,bilan,Nom,autre
+FR100130,c35,"La glycémie , le bilan phosphocalcique et le bilan thyroïdien",glycémie,Nom,Suj
+FR100130,c39,Le SHR,SHR,Nom,Suj
+FR100130,c40,le diagnostic,diagnostic,Nom,Suj
+FR100130,c41,l' électromyogramme,électromyogramme,Nom,Obl
+FR100130,c43,décharges de potentiels d' unité motrice,décharges,Nom,Obl
+FR100130,c20,les muscles paravertébraux,muscles,Nom,autre
+FR100130,c45,le niveau de les muscles paravertébraux,niveau,Nom,Obl
+FR100130,c44,le repos prédominant à le niveau de les muscles paravertébraux,repos,Nom,autre
+FR100130,c42,une activité musculaire continue faite de décharges de potentiels d' unité motrice à le repos prédominant à le niveau de les muscles paravertébraux,activité,Nom,OD
+FR100130,c47,anticorps anti-GAD65 sériques,anticorps,Nom,autre
+FR100130,c46,La recherche d' anticorps anti-GAD65 sériques,recherche,Nom,Suj
+FR100130,c48,390 UI / ml,UI,Nom,Obl
+FR100130,c50,1 UI / ml,UI,Nom,Obl
+FR100130,c49,une valeur normale inférieure à 1 UI / ml,valeur,Nom,Obl
+FR100130,c1,"Il se plaignait aussi d' épisodes de torticolis spontanément résolutifs . L' examen physique a montré un patient en bon état général et apyrétique . On notait une hyperlordose lombaire avec une contracture permanente de les muscles paravertébraux , de l' abdomen et de les deux membres inférieurs . Ces contractures étaient associées à de les crampes subintrantes provoquées par la moindre stimulation . Il n' avait pas par ailleurs de rigidité extrapyramidale . Les réflexes ostéotendineux étaient vifs et polycinétiques à les quatre membres et le réflexe cutanéoplantaire était en flexion . La sensibilité superficielle et profonde était conservée . La biologie n' a pas montré de syndrome inflammatoire biologique . La créatine phosphokinase ( CPK ) et lactate désydrogénase ( LDH ) étaient normales . La glycémie , le bilan phosphocalcique et le bilan thyroïdien étaient sans anomalie . Le SHR fut évoqué et le diagnostic fut confirmé par l' électromyogramme qui a mis en évidence une activité musculaire continue faite de décharges de potentiels d' unité motrice à le repos prédominant à le niveau de les muscles paravertébraux . La recherche d' anticorps anti-GAD65 sériques était positive à 390 UI / ml pour une valeur normale inférieure à 1 UI / ml . Notre patient",plaignait,Autre,autre
+FR100130,c52,un séjour,séjour,Nom,OD
+FR100130,c55,les états unis d' Amérique,états,Nom,Obl
+FR100130,c53,la Mayo clinique à ROCHESTER à les états unis d' Amérique,Mayo,Nom,autre
+FR100130,c40,le diagnostic de SHR,diagnostic,Nom,Suj
+FR100130,c56,le bilan étiologique,bilan,Nom,autre
+FR100130,c57,une éventuelle néoplasie,néoplasie,Nom,Suj
+FR100130,c58,signes cliniques évocateurs,signes,Nom,OD
+FR100130,c59,les marqueurs tumoraux,marqueurs,Nom,Suj
+FR100130,c60,Une maladie auto-immune associée,maladie,Nom,Suj
+FR100130,c61,le diabète de type 1,diabète,Nom,autre
+FR100130,c62,la glycémie à jeun,glycémie,Nom,Suj
+FR100130,c63,Les anticorps anti-nucléaires,anticorps,Nom,Suj
+FR100130,c64,Les anti thyroperoxydases,anti,Nom,Suj
+FR100130,c65,457 UI / ml,UI,Nom,Obl
+FR100130,c38,un bilan thyroïdien normal,bilan,Nom,Obl
+FR100130,c66,le plan thérapeutique,plan,Nom,Obl
+FR100130,c1,le patient,patient,Nom,Suj
+FR100130,c69,15 mg/j,mg/j,Nom,OD
+FR100130,c70,la kinésithérapie motrice,kinésithérapie,Nom,Obl
+FR100130,c68,dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice,dose,Nom,Obl
+FR100130,c7,les lombalgies,lombalgies,Nom,autre
+FR100130,c19,la contracture musculaire,contracture,Nom,autre
+FR100130,c71,une amélioration partielle de les lombalgies et de la contracture musculaire,amélioration,Nom,Obl
+FR100130,c67,diazépam à dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice avec une amélioration partielle de les lombalgies et de la contracture musculaire,diazépam,Nom,Obl
+FR100130,c74,le tableau clinique,tableau,Nom,autre
+FR100130,c73,une aggravation de le tableau clinique,aggravation,Nom,OD
+FR100130,c19,la contracture,contracture,Nom,autre
+FR100130,c75,une majoration de la contracture,majoration,Nom,autre
+FR100130,c23,les crampes musculaires,crampes,Nom,autre
+FR100130,c77,les muscles respiratoires,muscles,Nom,autre
+FR100130,c76,une atteinte de les muscles respiratoires,atteinte,Nom,autre
+FR100130,c79,le moindre effort,effort,Nom,autre
+FR100130,c80,une dysarthrie,dysarthrie,Nom,Obl
+FR100130,c78,une dyspnée à le moindre effort associée à une dysarthrie,dyspnée,Nom,autre
+FR100130,c81,L' examen neurologique,examen,Nom,Suj
+FR100130,c82,une marche très difficile,marche,Nom,OD
+FR100130,c83,les changements de position,changements,Nom,autre
+FR100130,c84,Une imagerie par résonnance magnétique cérébromédullaire,imagerie,Nom,Suj
+FR100130,c74,le tableau clinique,tableau,Nom,autre
+FR100130,c73,l' aggravation de le tableau clinique,aggravation,Nom,Obl
+FR100130,c1,le patient,patient,Nom,Suj
+FR100130,c87,la dose de 1mg/kg / j,dose,Nom,autre
+FR100130,c89,la dose de 150 mg/j,dose,Nom,autre
+FR100130,c88,l' azathioprine à la dose de 150 mg/j,azathioprine,Nom,Obl
+FR100130,c67,le diazépan,diazépan,Nom,Obl
+FR100130,c86,une corticothérapie orale à la dose de 1mg/kg / j relayés par l' azathioprine à la dose de 150 mg/j associés à le diazépan,corticothérapie,Nom,Obl
+FR100130,c39,"SHR a été réconforté . Dans le cadre de le bilan étiologique , une éventuelle néoplasie a été recherchée mais il n' avait pas de signes cliniques évocateurs et les marqueurs tumoraux étaient négatifs . Une maladie auto-immune associée était suspectée notamment le diabète de type 1 mais la glycémie à jeun était normale . Les anticorps anti-nucléaires étaient négatifs . Les anti thyroperoxydases ( ATPO ) étaient positifs à 457 UI / ml avec un bilan thyroïdien normal . Sur le plan thérapeutique , le patient a été traité par diazépam à dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice avec une amélioration partielle de les lombalgies et de la contracture musculaire . En 2011 , On notait une aggravation de le tableau clinique avec une majoration de la contracture , de les crampes musculaires et une atteinte de les muscles respiratoires avec une dyspnée à le moindre effort associée à une dysarthrie . L' examen neurologique a montré une marche très difficile ainsi que les changements de position . Une imagerie par résonnance magnétique cérébromédullaire a été faite et était sans anomalies . Devant l' aggravation de le tableau clinique , le patient a été traité par une corticothérapie orale à la dose de 1mg/kg / j relayés par l' azathioprine à la dose de 150 mg/j associés à le diazépan , sans effet . Devant cette forme résistante",recherchée,Autre,autre
+FR100130,c92,2 g/kg,g/kg,Nom,autre
+FR100130,c93,cinq jours,jours,Nom,Obl
+FR100130,c91,de les cures d' immunoglobulines polyvalentes intraveineuses à raison de 2 g/kg répartis en cinq jours,cures,Nom,Suj
+FR100130,c95,1 mois,mois,Nom,autre
+FR100130,c94,un espacement de 1 mois,espacement,Nom,Obl
+FR100130,c1,Le patient,patient,Nom,Suj
+FR100130,c96,six cures,cures,Nom,OD
+FR100130,c78,la dyspnée,dyspnée,Nom,autre
+FR100130,c99,la première cure,cure,Nom,autre
+FR100130,c98,le bout de la première cure,bout,Nom,autre
+FR100130,c80,la dysarthrie,dysarthrie,Nom,autre
+FR100130,c19,la contracture musculaire,contracture,Nom,autre
+FR100130,c100,une amélioration de la contracture musculaire,amélioration,Nom,autre
+FR100130,c102,la marche,marche,Nom,autre
+FR100130,c101,une reprise de la marche,reprise,Nom,autre
+FR100130,c97,"une disparition de la dyspnée à le bout de la première cure , de la dysarthrie et une amélioration de la contracture musculaire , une reprise de la marche",disparition,Nom,Obl
+FR100130,c103,Une deuxième série,série,Nom,Suj
+FR100130,c105,2 mois,mois,Nom,Obl
+FR100130,c104,de les cures espacées de 2 mois,cures,Nom,Obl
+FR100130,c106,Le recul actuel,recul,Nom,Suj
+FR100130,c105,2 mois,mois,Nom,autre
