@@ -1,0 +1,481 @@
+doc,mention_id,texte_maillon,tete_lexicale,nature,fonction
+FR100003,c1,Nous,Nous,Pro,Suj
+FR100003,c3,un ans,un,Autre,autre
+FR100003,c2,l' un ans fonction,l',Autre,autre
+FR100003,c4,antécédents pathologiques,antécédents,SN∅,Obl
+FR100003,c6,deux mois,mois,SNnum,Obl
+FR100003,c7,les itératifs,les,Autre,autre
+FR100003,c5,un deux mois les itératifs,un,Autre,autre
+FR100003,c3,qui,qui,Pro,Suj
+FR100003,c8,les urgences,urgences,SNdef,Obl
+FR100003,c10,la palpation,palpation,SNdef,Obl
+FR100003,c11,un fébrile,un,Autre,autre
+FR100003,c13,l' général,l',Autre,autre
+FR100003,c12,une l' général,une,Autre,autre
+FR100003,c9,une la palpation un fébrile une l' général,une,Autre,autre
+FR100003,c15,l' admission,admission,SNdef,autre
+FR100003,c3,un asthénique,un,Autre,autre
+FR100003,c16,un discret,un,Autre,autre
+FR100003,c18,le cou,cou,SNdef,autre
+FR100003,c17,la le cou,la,Autre,autre
+FR100003,c19,une min,une,Autre,autre
+FR100003,c20,une mmHg,une,Autre,autre
+FR100003,c14,Lexamen l' admission un asthénique un discret la le cou une min une mmHg,Lexamen,Np,Suj
+FR100003,c21,L' respiratoire,L',Autre,autre
+FR100003,c22,fréquence mn,fréquence,SN∅,autre
+FR100003,c23,une %,une,Autre,autre
+FR100003,c24,l' ambiant,l',Autre,autre
+FR100003,c26,39 °,°,Autre,autre
+FR100003,c25,une 39 °,une,Autre,autre
+FR100003,c27,Le initiale,Le,Autre,autre
+FR100003,c28,une 85OOO,une,Autre,autre
+FR100003,c29,une mg/l,une,Autre,autre
+FR100003,c31,12 mmol/l,mmol/l,SNnum,autre
+FR100003,c30,une 12 mmol/l,une,Autre,autre
+FR100003,c32,La cervicothoracique,La,Autre,autre
+FR100003,c35,les gauches,les,Autre,autre
+FR100003,c34,cellulite les gauches,cellulite,SN∅,autre
+FR100003,c36,l' retropharyngolaryngé,l',Autre,autre
+FR100003,c37,le médiastin,médiastin,SNdef,Obl
+FR100003,c39,un droit,un,Autre,autre
+FR100003,c38,une un droit,une,Autre,autre
+FR100003,c33,un cellulite les gauches l' retropharyngolaryngé le médiastin une un droit,un,Autre,autre
+FR100003,c40,Le dentaire,Le,Autre,autre
+FR100003,c42,la 45,45,Autre,autre
+FR100003,c41,un la 45,un,Autre,autre
+FR100003,c42,3éme molaire,molaire,SN∅,autre
+FR100003,c44,la dentaire,la,Autre,autre
+FR100003,c43,granulome la dentaire,granulome,SN∅,autre
+FR100003,c46,anesthésie locale,anesthésie,SN∅,autre
+FR100003,c48,un physiologique,un,Autre,autre
+FR100003,c47,injection un physiologique,injection,SN∅,autre
+FR100003,c48,10 ml,ml,SNnum,autre
+FR100003,c33,la collection,collection,SNdef,autre
+FR100003,c45,La anesthésie locale injection un physiologique 10 ml la collection,La,Autre,autre
+FR100003,c49,le pus,pus,SNdef,Obl
+FR100003,c50,L' cytobactériologique,L',Autre,autre
+FR100003,c51,les nombreux,les,Autre,autre
+FR100003,c52,les polymorphes,les,Autre,autre
+FR100003,c53,L' GRAM,L',Autre,autre
+FR100003,c54,Flore mixte,Flore,SN∅,autre
+FR100003,c55,les anaérobies,anaérobies,SNdef,OD
+FR100003,c56,Une probabiliste,Une,Autre,autre
+FR100003,c57,voie intraveineuse,voie,SN∅,Obl
+FR100003,c58,le bloc,bloc,SNdef,Obl
+FR100003,c59,amoxicilline+,amoxicilline+,Autre,autre
+FR100003,c60,acide clavulanique,acide,SN∅,autre
+FR100003,c62,5-nitro-imidazolés,5-nitro-imidazolés,SN∅,Obl
+FR100003,c63,flagyl mg,flagyl,SN∅,autre
+FR100003,c61,augmentin 5-nitro-imidazolés flagyl mg 3/j,augmentin,SN∅,autre
+FR100003,c64,anesthésie générale,anesthésie,SN∅,autre
+FR100003,c58,le anesthésie générale,le,Autre,autre
+FR100003,c65,le infectieux,le,Autre,autre
+FR100003,c66,une cervicale,une,Autre,autre
+FR100003,c33,le abcédé,le,Autre,autre
+FR100003,c68,la cervicotomie,cervicotomie,SNdef,Obl
+FR100003,c67,les la cervicotomie,les,Autre,autre
+FR100003,c69,Une thoracotomie,thoracotomie,SNind,Suj
+FR100003,c37,le médiastin,médiastin,SNdef,autre
+FR100003,c71,le le médiastin,le,Autre,autre
+FR100003,c70,les le le médiastin,les,Autre,autre
+FR100003,c72,le collecté,le,Autre,autre
+FR100003,c34,Une le collecté,Une,Autre,autre
+FR100003,c73,une chirurgicale,une,Autre,autre
+FR100003,c34,la cellulite,cellulite,SNdef,autre
+FR100003,c74,le la cellulite,le,Autre,autre
+FR100003,c76,la causale,la,Autre,autre
+FR100003,c75,l' la causale,l',Autre,autre
+FR100003,c78,la buccale,la,Autre,autre
+FR100003,c77,Un la buccale,Un,Autre,autre
+FR100003,c79,tout similaire,tout,Autre,autre
+FR100003,c80,La culture,culture,SNdef,Suj
+FR100003,c81,un multisensible,un,Autre,autre
+FR100003,c56,L' initiale,L',Autre,autre
+FR100003,c83,l' hémoculture,hémoculture,SNdef,autre
+FR100003,c82,les l' hémoculture,les,Autre,autre
+FR100078,c1,M.J ans,M.J,SN∅,Suj
+FR100078,c2,la MB,MB,Np,autre
+FR100078,c3,l' ans,l',Autre,autre
+FR100078,c4,Le diagnostic,diagnostic,SNdef,Suj
+FR100078,c6,une récidivante,une,Autre,autre
+FR100078,c7,les génitaux,les,Autre,autre
+FR100078,c8,les nécrotiques,les,Autre,autre
+FR100078,c10,le gauche,le,Autre,autre
+FR100078,c9,une le gauche,une,Autre,autre
+FR100078,c11,un positif,un,Autre,autre
+FR100078,c5,l' une récidivante les génitaux les nécrotiques une le gauche un positif,l',Autre,autre
+FR100078,c1,Le patient,patient,SNdef,Suj
+FR100078,c12,le cours,cours,SNdef,Obl
+FR100078,c13,colchicine,colchicine,SN∅,Obl
+FR100078,c14,aspirine,aspirine,SN∅,autre
+FR100078,c16,faible dose,dose,SN∅,autre
+FR100078,c15,prednisone faible dose,prednisone,SN∅,autre
+FR100078,c17,10 mg/j,mg/j,SNnum,autre
+FR100078,c1,Il,Il,Pro,Suj
+FR100078,c19,les jambes,jambes,SNdef,autre
+FR100078,c18,les les jambes,les,Autre,autre
+FR100078,c21,plusieurs reprises,reprises,SNind,Obl
+FR100078,c20,l' plusieurs reprises,l',Autre,autre
+FR100078,c22,chaque fois,fois,SNind,Obl
+FR100078,c18,l' ulcère,ulcère,SNdef,autre
+FR100078,c23,les l' ulcère,les,Autre,autre
+FR100078,c2,la maladie,maladie,SNdef,autre
+FR100078,c24,une la maladie,une,Autre,autre
+FR100078,c26,arrêt traitement,arrêt,SN∅,autre
+FR100078,c25,notion arrêt traitement,notion,SN∅,Obl
+FR100078,c27,traitement,traitement,SN∅,autre
+FR100078,c28,L' clinique,L',Autre,autre
+FR100078,c20,ces hospitalisations,hospitalisations,SNdem,autre
+FR100078,c29,le ces hospitalisations,le,Autre,autre
+FR100078,c31,thrombophlébites superficielles,thrombophlébites,SN∅,autre
+FR100078,c19,les jambes,jambes,SNdef,autre
+FR100078,c32,le les jambes,le,Autre,autre
+FR100078,c30,signes thrombophlébites superficielles le les jambes,signes,SN∅,OD
+FR100078,c33,les pédieux,les,Autre,autre
+FR100078,c35,les inférieurs,les,Autre,autre
+FR100078,c34,Le les inférieurs,Le,Autre,autre
+FR100078,c37,insuffisance veineuse,insuffisance,SN∅,autre
+FR100078,c38,thrombose concomitante,thrombose,SN∅,autre
+FR100078,c36,de insuffisance veineuse thrombose concomitante,de,Autre,autre
+FR100078,c39,Le artériel,Le,Autre,autre
+FR100078,c41,artériopathie sous-jacente,artériopathie,SN∅,autre
+FR100078,c40,de artériopathie sous-jacente,de,Autre,autre
+FR100078,c43,pression systolique,pression,SN∅,autre
+FR100078,c42,L' pression systolique,L',Autre,autre
+FR100078,c18,l' ulcération,ulcération,SNdef,autre
+FR100078,c46,les l' ulcération,les,Autre,autre
+FR100078,c45,le les l' ulcération,le,Autre,autre
+FR100078,c48,vascularite leucocytoclasique,vascularite,SN∅,autre
+FR100078,c47,les vascularite leucocytoclasique,les,Autre,autre
+FR100078,c49,les micro-thromboses,les,Autre,autre
+FR100078,c51,le profond,le,Autre,autre
+FR100078,c50,une le profond,une,Autre,autre
+FR100078,c44,La le les l' ulcération les vascularite leucocytoclasique les micro-thromboses une le profond,La,Autre,autre
+FR100078,c1,Le patient,patient,SNdef,Suj
+FR100078,c18,les ulcérations,ulcérations,SNdef,autre
+FR100078,c53,surinfection les ulcérations,surinfection,SN∅,autre
+FR100078,c52,plusieurs surinfection les ulcérations,plusieurs,Autre,autre
+FR100078,c55,les antibiotiques,antibiotiques,SNdef,autre
+FR100078,c54,le les antibiotiques,le,Autre,autre
+FR100078,c56,La dernière,dernière,Autre,Suj
+FR100078,c57,pseudomonas aéroginosa,pseudomonas,Autre,autre
+FR100078,c53,ces infections,infections,SNdem,autre
+FR100078,c58,Le ces infections,Le,Autre,autre
+FR100078,c59,un clinico-biologiques,un,Autre,autre
+FR100078,c60,fièvre septicémique,fièvre,SN∅,autre
+FR100078,c61,présence pus,présence,SN∅,autre
+FR100078,c62,pus,pus,SN∅,autre
+FR100078,c63,l' local,l',Autre,autre
+FR100078,c64,une neutrophiles,une,Autre,autre
+FR100078,c65,une élevée,une,Autre,autre
+FR100078,c66,une ulcère,une,Autre,autre
+FR100078,c18,ulcère,ulcère,SN∅,autre
+FR100078,c67,les locaux,les,Autre,autre
+FR100078,c68,l' adaptée,l',Autre,autre
+FR100078,c13,la colchicine,colchicine,SNdef,autre
+FR100078,c71,les glucocorticoïdes,glucocorticoïdes,SNdef,autre
+FR100078,c70,la colchicine les glucocorticoïdes,colchicine,SNdef,autre
+FR100078,c69,la la colchicine les glucocorticoïdes,la,Autre,autre
+FR100078,c72,l' évolution,évolution,SNdef,Suj
+FR100078,c18,les ulcérations,ulcérations,SNdef,autre
+FR100078,c73,la les ulcérations,la,Autre,autre
+FR100078,c23,les récidives,récidives,SNdef,Suj
+FR100078,c74,la thérapeutique,la,Autre,autre
+FR100092,c1,Mme HK,Mme,SN∅,Obl
+FR100092,c2,27 ans,ans,SNnum,Obl
+FR100092,c3,1 demi,1,Autre,autre
+FR100092,c5,notre,notre,Autre,autre
+FR100092,c4,notre formation,formation,Poss,Obl
+FR100092,c8,la droite,la,Autre,autre
+FR100092,c7,une la droite,une,Autre,autre
+FR100092,c9,1 semaine,semaine,SNnum,Obl
+FR100092,c12,2 mois,mois,SNnum,autre
+FR100092,c11,aménorrhée 2 mois,aménorrhée,SN∅,autre
+FR100092,c10,les aménorrhée 2 mois,les,Autre,autre
+FR100092,c6,prise une la droite 1 semaine les aménorrhée 2 mois,prise,SN∅,Obl
+FR100092,c14,l' admission,admission,SNdef,autre
+FR100092,c13,L' l' admission,L',Autre,autre
+FR100092,c15,une apyrétique,une,Autre,autre
+FR100092,c16,les normocolorées,les,Autre,autre
+FR100092,c17,une 6,une,Autre,autre
+FR100092,c19,80 minute,80,Autre,autre
+FR100092,c18,une 80 minute,une,Autre,autre
+FR100092,c20,minute,minute,SN∅,autre
+FR100092,c21,L' abdominal,L',Autre,autre
+FR100092,c22,une droite,une,Autre,autre
+FR100092,c23,L' gynécologique,L',Autre,autre
+FR100092,c24,un normal,un,Autre,autre
+FR100092,c26,l' endocol,endocol,SNdef,Obl
+FR100092,c25,un l' endocol,un,Autre,autre
+FR100092,c28,taille normal,taille,SN∅,autre
+FR100092,c30,cri douglas,cri,SN∅,autre
+FR100092,c29,un cri douglas,un,Autre,autre
+FR100092,c27,un taille normal un cri douglas,un,Autre,autre
+FR100092,c31,l' pelvienne,l',Autre,autre
+FR100092,c27,l' utérus,utérus,SNdef,Suj
+FR100092,c32,taille normal,taille,SN∅,autre
+FR100092,c33,une interface,une,Autre,autre
+FR100092,c33,qui,qui,Pro,Suj
+FR100092,c34,le fond,fond,SNdef,Obl
+FR100092,c36,une systématisée,une,Autre,autre
+FR100092,c37,89 /60mm,/60mm,SNnum,OD
+FR100092,c35,présence une systématisée 89 /60mm,présence,SN∅,autre
+FR100092,c38,l' gauche,l',Autre,autre
+FR100092,c39,une 42/42mm,une,Autre,autre
+FR100092,c40,un abondance,un,Autre,autre
+FR100092,c42,β-HCG,β-HCG,SN∅,autre
+FR100092,c42,hormone chorionique,hormone,SN∅,autre
+FR100092,c41,Le β-HCG hormone chorionique plasmatique,Le,Autre,autre
+FR100092,c43,1437 l,l,SNnum,Obl
+FR100092,c44,Le tableau,tableau,SNdef,Suj
+FR100092,c46,grossesse droite,grossesse,SN∅,autre
+FR100092,c45,le grossesse droite,le,Autre,autre
+FR100092,c48,le biologique,le,Autre,autre
+FR100092,c47,Le le biologique,Le,Autre,autre
+FR100092,c50,"11,4 dl","11,4",Autre,autre
+FR100092,c51,les blancs,les,Autre,autre
+FR100092,c52,7530 3,7530,Autre,autre
+FR100092,c49,"une 11,4 dl les blancs 7530 3",une,Autre,autre
+FR100092,c1,La patiente,patiente,SNdef,Suj
+FR100092,c53,une transversale,une,Autre,autre
+FR100092,c54,l' exploration,exploration,SNdef,autre
+FR100092,c56,un 700cc,un,Autre,autre
+FR100092,c58,une organisation,une,Autre,autre
+FR100092,c57,découverte une organisation,découverte,SN∅,autre
+FR100092,c59,trompe perforée,trompe,SN∅,autre
+FR100092,c55,présence un 700cc découverte une organisation trompe perforée,présence,SN∅,autre
+FR100092,c61,une rétrograde,une,Autre,autre
+FR100092,c60,la une rétrograde,la,Autre,autre
+FR100092,c54,l' exploration,exploration,SNdef,autre
+FR100092,c62,Le l' exploration,Le,Autre,autre
+FR100092,c63,les phragmatiques,les,Autre,autre
+FR100092,c36,la latéroutérine,la,Autre,autre
+FR100092,c64,un la latéroutérine,un,Autre,autre
+FR100092,c65,une appendicectomie,appendicectomie,SNind,Suj
+FR100092,c66,L' anatomopathologiaque,L',Autre,autre
+FR100092,c67,une perforée,une,Autre,autre
+FR100092,c69,réaction locale,réaction,SN∅,Obl
+FR100092,c68,une réaction locale,une,Autre,autre
+FR100092,c70,Les opératoires,Les,Autre,autre
+FR100092,c71,particularités,particularités,SN∅,autre
+FR100092,c1,la patiente,patiente,SNdef,Suj
+FR100092,c72,le jour,le,Autre,autre
+FR100120,c2,37 ans,ans,SNnum,Obl
+FR100120,c1,un 37 ans masculin,un,Autre,autre
+FR100120,c3,le tunisien,le,Autre,autre
+FR100120,c4,République Congo,République,SN∅,autre
+FR100120,c5,l' 2008,l',Autre,autre
+FR100120,c1,ses,ses,Autre,autre
+FR100120,c6,ses antécédents,antécédents,Poss,Obl
+FR100120,c9,antidiabétiques oraux,antidiabétiques,SN∅,Obl
+FR100120,c10,cinq ans,ans,SNnum,Obl
+FR100120,c8,un antidiabétiques oraux cinq ans,un,Autre,autre
+FR100120,c11,une obésité,obésité,SNind,autre
+FR100120,c12,Indice Corporelle,Indice,SN∅,Suj
+FR100120,c13,37 2,37,Autre,autre
+FR100120,c14,une dyslipidémie,dyslipidémie,SNind,Obl
+FR100120,c7,un antidiabétiques oraux cinq ans une obésité Indice Corporelle 37 2 une dyslipidémie,un,Autre,autre
+FR100120,c15,octobre 2008,octobre,SNnum,Obl
+FR100120,c1,ce militaire,militaire,SNdem,Suj
+FR100120,c16,10 semaines,semaines,SNnum,Obl
+FR100120,c17,une Kinshasa,une,Autre,autre
+FR100120,c18,Kinshasa,Kinshasa,Np,autre
+FR100120,c19,Un mois,mois,SNind,Obl
+FR100120,c1,il,il,Pro,Suj
+FR100120,c20,la consultation,consultation,SNdef,Obl
+FR100120,c22,6 jours,jours,SNnum,Obl
+FR100120,c24,le thorax,thorax,SNdef,autre
+FR100120,c25,l' épaule,épaule,SNdef,autre
+FR100120,c23,le le thorax l' épaule,le,Autre,autre
+FR100120,c21,deux 6 jours le le thorax l' épaule,deux,Autre,autre
+FR100120,c26,L' clinique,L',Autre,autre
+FR100120,c21,deux furonculoïdes,deux,Autre,autre
+FR100120,c27,5 chacune,5,Autre,autre
+FR100120,c28,un orifice,orifice,SNind,Obl
+FR100120,c29,le pus,pus,SNdef,OD
+FR100120,c30,un tuméfié,un,Autre,autre
+FR100120,c31,chaleur locale,chaleur,SN∅,autre
+FR100120,c26,l' examen,examen,SNdef,autre
+FR100120,c32,Le l' examen,Le,Autre,autre
+FR100120,c33,fièvre,fièvre,SN∅,autre
+FR100120,c34,le standard,le,Autre,autre
+FR100120,c35,élément orientation,élément,SN∅,OD
+FR100120,c36,le débilité,le,Autre,autre
+FR100120,c8,diabète II,diabète,SN∅,autre
+FR100120,c38,oxacycline,oxacycline,SN∅,autre
+FR100120,c40,2 jour,2,Autre,autre
+FR100120,c39,la 2 jour,la,Autre,autre
+FR100120,c41,jour,jour,SN∅,autre
+FR100120,c42,7 os,7,Autre,autre
+FR100120,c43,os,os,SN∅,autre
+FR100120,c44,les locaux,les,Autre,autre
+FR100120,c37,un oxacycline la 2 jour 7 os les locaux,un,Autre,autre
+FR100120,c45,Le guérison,Le,Autre,autre
+FR100120,c46,guérison,guérison,SN∅,autre
+FR100120,c1,son,son,Autre,autre
+FR100120,c8,son diabète,diabète,Poss,Obl
+FR100120,c21,les lésions,lésions,SNdef,Suj
+FR100120,c47,une cyclines,une,Autre,autre
+FR100120,c48,cyclines,cyclines,SN∅,autre
+FR100120,c47,pommade hydrophobe,pommade,SN∅,autre
+FR100120,c47,la grasse,la,Autre,autre
+FR100120,c50,traitement la grasse,traitement,SN∅,autre
+FR100120,c49,deux traitement la grasse,deux,Autre,autre
+FR100120,c52,dimensions 10x5mm,dimensions,SNnum,autre
+FR100120,c51,deux dimensions 10x5mm,deux,Autre,autre
+FR100120,c21,chaque lésion,lésion,SNind,Obl
+FR100120,c53,une bidigitale,une,Autre,autre
+FR100120,c51,Ces larves,larves,SNdem,Suj
+FR100120,c55,une pince,pince,SNind,autre
+FR100120,c54,l' une pince,l',Autre,autre
+FR100120,c51,elles,elles,Pro,Obl
+FR100120,c28,un pus,un,Autre,autre
+FR100120,c29,pus,pus,SN∅,autre
+FR100120,c21,la cutanée,la,Autre,autre
+FR100120,c56,L' la cutanée,L',Autre,autre
+FR100120,c58,les événements,événements,SNdef,autre
+FR100120,c57,la les événements,la,Autre,autre
+FR100120,c4,république Congo,république,SN∅,autre
+FR100120,c60,séjour république Congo,séjour,SN∅,autre
+FR100120,c59,la séjour république Congo,la,Autre,autre
+FR100120,c51,la larve,larve,SNdef,autre
+FR100120,c61,la la larve,la,Autre,autre
+FR100120,c63,myiase furonculoïde,myiase,SN∅,autre
+FR100120,c62,le myiase furonculoïde,le,Autre,autre
+FR100120,c51,les larves,larves,SNdef,Suj
+FR100120,c64,Cordylobia anthropophaga,Cordylobia,Np,Obl
+FR100130,c2,49 ans,ans,SNnum,Obl
+FR100130,c3,antécédents pathologiques,antécédents,SN∅,autre
+FR100130,c4,notre service,service,Poss,Obl
+FR100130,c5,2006,2006,Autre,Obl
+FR100130,c8,les antalgiques,antalgiques,SNdef,Obl
+FR100130,c7,lombalgies les antalgiques,lombalgies,SN∅,autre
+FR100130,c9,une rachidienne,une,Autre,autre
+FR100130,c11,les abdominaux,les,Autre,autre
+FR100130,c10,une les abdominaux,une,Autre,autre
+FR100130,c12,un an,an,SNind,Obl
+FR100130,c6,exploration lombalgies les antalgiques une rachidienne une les abdominaux un an,exploration,SN∅,Obl
+FR100130,c1,un 49 ans antécédents pathologiques notre service 2006 exploration lombalgies les antalgiques une rachidienne une les abdominaux un an,un,Autre,autre
+FR100130,c1,Il,Il,Pro,Suj
+FR100130,c13,épisodes résolutifs,épisodes,SN∅,Obl
+FR100130,c14,L' physique,L',Autre,autre
+FR100130,c16,bon apyrétique,bon,Autre,autre
+FR100130,c15,un bon apyrétique .,un,Autre,autre
+FR100130,c17,On,On,Pro,Suj
+FR100130,c18,une lombaire,une,Autre,autre
+FR100130,c20,les paravertébraux,les,Autre,autre
+FR100130,c21,l' abdomen,abdomen,SNdef,autre
+FR100130,c22,les inférieurs,les,Autre,autre
+FR100130,c19,une les paravertébraux l' abdomen les inférieurs,une,Autre,autre
+FR100130,c19,Ces contractures,contractures,SNdem,Suj
+FR100130,c24,la stimulation,stimulation,SNdef,Obl
+FR100130,c23,les la stimulation,les,Autre,autre
+FR100130,c1,Il,Il,Pro,Suj
+FR100130,c25,rigidité extrapyramidale,rigidité,SN∅,OD
+FR100130,c26,Les ostéotendineux,Les,Autre,autre
+FR100130,c27,les membres,membres,SNdef,Obl
+FR100130,c28,le cutanéoplantaire,le,Autre,autre
+FR100130,c29,flexion,flexion,SN∅,autre
+FR100130,c30,La profonde,La,Autre,autre
+FR100130,c31,La biologie,biologie,SNdef,Suj
+FR100130,c32,syndrome biologique,syndrome,SN∅,OD
+FR100130,c33,La phosphokinase,La,Autre,autre
+FR100130,c33,CPK,CPK,Autre,autre
+FR100130,c34,lactate désydrogénase,lactate,SN∅,autre
+FR100130,c34,LDH,LDH,Autre,autre
+FR100130,c36,La glycémie,glycémie,SNdef,Suj
+FR100130,c37,le phosphocalcique,le,Autre,autre
+FR100130,c38,le thyroïdien,le,Autre,autre
+FR100130,c35,La glycémie le phosphocalcique le thyroïdien,glycémie,SNdef,Suj
+FR100130,c39,Le SHR,SHR,SNdef,Suj
+FR100130,c40,le diagnostic,diagnostic,SNdef,Suj
+FR100130,c41,l' électromyogramme,électromyogramme,SNdef,Obl
+FR100130,c41,qui,qui,Pro,Suj
+FR100130,c43,décharges motrice,décharges,SN∅,Obl
+FR100130,c20,les paravertébraux,les,Autre,autre
+FR100130,c45,le les paravertébraux,le,Autre,autre
+FR100130,c44,le le les paravertébraux,le,Autre,autre
+FR100130,c42,une décharges motrice le le les paravertébraux,une,Autre,autre
+FR100130,c47,anticorps sériques,anticorps,SN∅,autre
+FR100130,c46,La anticorps sériques,La,Autre,autre
+FR100130,c48,390 ml,390,Autre,autre
+FR100130,c50,1 ml,1,Autre,autre
+FR100130,c49,une 1 ml,une,Autre,autre
+FR100130,c51,Notre,Notre,Autre,autre
+FR100130,c1,Notre patient,patient,Poss,Suj
+FR100130,c52,un séjour,séjour,SNind,OD
+FR100130,c54,ROCHESTER,ROCHESTER,Np,Obl
+FR100130,c55,les Amérique,les,Autre,autre
+FR100130,c53,la ROCHESTER les Amérique,la,Autre,autre
+FR100130,c53,où,où,Pro,Obl
+FR100130,c40,le SHR,le,Autre,autre
+FR100130,c39,SHR,SHR,SN∅,autre
+FR100130,c56,le étiologique,le,Autre,autre
+FR100130,c57,une néoplasie,néoplasie,SNind,Suj
+FR100130,c58,signes évocateurs,signes,SN∅,OD
+FR100130,c59,les tumoraux,les,Autre,autre
+FR100130,c60,Une associée,Une,Autre,autre
+FR100130,c61,le 1,le,Autre,autre
+FR100130,c62,la jeun,la,Autre,autre
+FR100130,c63,Les anti-nucléaires,Les,Autre,autre
+FR100130,c64,Les thyroperoxydases,Les,Autre,autre
+FR100130,c64,ATPO,ATPO,Np,autre
+FR100130,c65,457 ml,457,Autre,autre
+FR100130,c38,un normal,un,Autre,autre
+FR100130,c66,le thérapeutique,le,Autre,autre
+FR100130,c1,le patient,patient,SNdef,Suj
+FR100130,c69,15 mg/j,mg/j,SNnum,OD
+FR100130,c70,la motrice,la,Autre,autre
+FR100130,c68,dose 15 mg/j la motrice,dose,SN∅,Obl
+FR100130,c7,les lombalgies,lombalgies,SNdef,autre
+FR100130,c19,la musculaire,la,Autre,autre
+FR100130,c71,une les lombalgies la musculaire,une,Autre,autre
+FR100130,c67,diazépam dose 15 mg/j la motrice une les lombalgies la musculaire,diazépam,SN∅,Obl
+FR100130,c72,2011,2011,Autre,Obl
+FR100130,c17,On,On,Pro,Suj
+FR100130,c74,le clinique,le,Autre,autre
+FR100130,c73,une le clinique,une,Autre,autre
+FR100130,c19,la contracture,contracture,SNdef,autre
+FR100130,c75,une la contracture,une,Autre,autre
+FR100130,c23,les musculaires,les,Autre,autre
+FR100130,c77,les respiratoires,les,Autre,autre
+FR100130,c76,une les respiratoires,une,Autre,autre
+FR100130,c79,le effort,effort,SNdef,autre
+FR100130,c80,une dysarthrie,dysarthrie,SNind,Obl
+FR100130,c78,une le effort une dysarthrie,une,Autre,autre
+FR100130,c81,L' neurologique,L',Autre,autre
+FR100130,c82,une difficile,une,Autre,autre
+FR100130,c83,les position,les,Autre,autre
+FR100130,c84,Une cérébromédullaire,Une,Autre,autre
+FR100130,c85,anomalies,anomalies,SN∅,autre
+FR100130,c74,le clinique,le,Autre,autre
+FR100130,c73,l' le clinique,l',Autre,autre
+FR100130,c1,le patient,patient,SNdef,Suj
+FR100130,c87,la j,la,Autre,autre
+FR100130,c89,la mg/j,la,Autre,autre
+FR100130,c88,l' la mg/j,l',Autre,autre
+FR100130,c67,le diazépan,diazépan,SNdef,Obl
+FR100130,c86,une la j l' la mg/j le diazépan,une,Autre,autre
+FR100130,c90,effet,effet,SN∅,Obl
+FR100130,c39,cette résistante,cette,Autre,autre
+FR100130,c92,2 g/kg,g/kg,SNnum,autre
+FR100130,c93,cinq jours,jours,SNnum,Obl
+FR100130,c91,de 2 g/kg cinq jours,de,Autre,autre
+FR100130,c95,1 mois,mois,SNnum,autre
+FR100130,c94,un 1 mois,un,Autre,autre
+FR100130,c1,Le patient,patient,SNdef,Suj
+FR100130,c96,six cures,cures,SNnum,OD
+FR100130,c78,la dyspnée,dyspnée,SNdef,autre
+FR100130,c99,la cure,cure,SNdef,autre
+FR100130,c98,le la cure,le,Autre,autre
+FR100130,c80,la dysarthrie,dysarthrie,SNdef,autre
+FR100130,c19,la musculaire,la,Autre,autre
+FR100130,c100,une la musculaire,une,Autre,autre
+FR100130,c102,la marche,marche,SNdef,autre
+FR100130,c101,une la marche,une,Autre,autre
+FR100130,c97,une la dyspnée le la cure la dysarthrie une la musculaire une la marche,une,Autre,autre
+FR100130,c103,Une série,série,SNind,Suj
+FR100130,c105,2 mois,mois,SNnum,Obl
+FR100130,c104,de 2 mois,de,Autre,autre
+FR100130,c106,Le actuel,Le,Autre,autre
+FR100130,c105,2 mois,mois,SNnum,autre

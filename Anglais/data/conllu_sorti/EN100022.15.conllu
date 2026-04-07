@@ -1,0 +1,453 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = A 60 year-old man presented to an outside institution for septic shock with hematesis.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	Entity=(c1--6
+2	60	60	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	_
+3	year	year	NOUN	NN	Number=Sing	5	obl:npmod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	old	old	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	man	man	NOUN	NN	Number=Sing	7	nsubj	_	Entity=c1)
+7	presented	present	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	to	to	ADP	IN	_	11	case	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	Entity=(c2--3
+10	outside	outside	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	institution	institution	NOUN	NN	Number=Sing	7	obl	_	Entity=c2)
+12	for	for	ADP	IN	_	14	case	_	_
+13	septic	septic	ADJ	JJ	Degree=Pos	14	amod	_	Entity=(c3--2
+14	shock	shock	NOUN	NN	Number=Sing	7	obl	_	_
+15	with	with	ADP	IN	_	16	case	_	_
+16	hematesis	hematesis	NOUN	NN	Number=Sing	14	nmod	_	Entity=(c4--1)c3)|SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He had a medical history of diabetes mellitus, hypertension and he was amputated right leg (trans-femoral amputation) for diabetic arteriopathy six months before admission complicated by venous thrombosis.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(c1--1)
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	Entity=(c5--3
+4	medical	medical	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	history	history	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	diabetes	diabetes	NOUN	NN	Number=Sing	8	compound	_	Entity=(c6--2
+8	mellitus	mellitus	NOUN	NN	Number=Sing	5	nmod	_	Entity=c6)|SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	hypertension	hypertension	NOUN	NN	Number=Sing	8	conj	_	Entity=(c7--1)c5)
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	Entity=(c1--1)
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	amputated	amputate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+15	right	right	ADJ	JJ	Degree=Pos	16	amod	_	Entity=(c8--2
+16	leg	leg	NOUN	NN	Number=Sing	14	obj	_	Entity=c8)
+17	(	(	PUNCT	-LRB-	_	20	punct	_	SpaceAfter=No
+18	trans-	trans-	ADV	UH	_	20	amod	_	Entity=(c9--3|SpaceAfter=No
+19	femoral	femoral	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	amputation	amputation	NOUN	NN	Number=Sing	16	appos	_	Entity=c9)|SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	20	punct	_	_
+22	for	for	ADP	IN	_	24	case	_	_
+23	diabetic	diabetic	ADJ	JJ	Degree=Pos	24	amod	_	Entity=(c10--2
+24	arteriopathy	arteriopathy	NOUN	NN	Number=Sing	14	obl	_	Entity=c10)
+25	six	six	NUM	CD	NumForm=Word|NumType=Card	26	nummod	_	Entity=(c11--2
+26	months	month	NOUN	NNS	Number=Plur	28	nmod:npmod	_	Entity=c11)
+27	before	before	ADP	IN	_	28	case	_	_
+28	admission	admission	NOUN	NN	Number=Sing	14	obl	_	Entity=(c12--1
+29	complicated	complicate	VERB	VBN	Tense=Past|VerbForm=Part	28	acl	_	_
+30	by	by	ADP	IN	_	32	case	_	_
+31	venous	venous	ADJ	JJ	Degree=Pos	32	amod	_	Entity=(c13--2
+32	thrombosis	thrombosis	NOUN	NN	Number=Sing	29	obl	_	Entity=c13)c12)|SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Home medications included daily pioglitazone, atenolol, furosemide and anticoagulant with poor compliance.
+1	Home	home	NOUN	NN	Number=Sing	2	compound	_	Entity=(c14--2
+2	medications	medication	NOUN	NNS	Number=Plur	3	nsubj	_	Entity=c14)
+3	included	include	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	daily	daily	ADJ	JJ	Degree=Pos	5	amod	_	Entity=(c15--2
+5	pioglitazone	pioglitazone	NOUN	NN	Number=Sing	3	obj	_	Entity=c15)|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	atenolol	atenolol	NOUN	NN	Number=Sing	5	conj	_	Entity=(c16--1)|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	furosemide	furosemide	NOUN	NN	Number=Sing	5	conj	_	Entity=(c17--1)
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	anticoagulant	anticoagulant	NOUN	NN	Number=Sing	5	conj	_	Entity=(c18--1
+12	with	with	ADP	IN	_	14	case	_	_
+13	poor	poor	ADJ	JJ	Degree=Pos	14	amod	_	Entity=(c19--2
+14	compliance	compliance	NOUN	NN	Number=Sing	11	nmod	_	Entity=c19)c18)|SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Initial examination revealed a patient in state of septic shock, respiratory rate 28 cycles per min, his pulse was regular with an apical rate of 120 beats/min, temperature 39° C, blood pressure 70/40 mmHg, he had necrotic and suppurative amputation stump with peripheral pulse abolished.
+1	Initial	initial	ADJ	JJ	Degree=Pos	2	amod	_	Entity=(c20--2
+2	examination	examination	NOUN	NN	Number=Sing	3	nsubj	_	Entity=c20)
+3	revealed	reveal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	Entity=(c1--2
+5	patient	patient	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	state	state	NOUN	NN	Number=Sing	5	nmod	_	Entity=(c21--1
+8	of	of	ADP	IN	_	10	case	_	_
+9	septic	septic	ADJ	JJ	Degree=Pos	10	amod	_	Entity=(c3--2
+10	shock	shock	NOUN	NN	Number=Sing	7	nmod	_	Entity=c3)c21)c1)|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	respiratory	respiratory	ADJ	JJ	Degree=Pos	13	amod	_	Entity=(c22--2
+13	rate	rate	NOUN	NN	Number=Sing	7	conj	_	Entity=c22)
+14	28	28	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	Entity=(c23--2
+15	cycles	cycle	NOUN	NNS	Number=Plur	13	conj	_	_
+16	per	per	ADP	IN	_	17	case	_	_
+17	min	min	NOUN	NN	Number=Sing	15	nmod	_	Entity=(c24--1)c23)|SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	Entity=(c25--2(c1--1)
+20	pulse	pulse	NOUN	NN	Number=Sing	22	nsubj	_	Entity=c25)
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+22	regular	regular	ADJ	JJ	Degree=Pos	3	conj	_	_
+23	with	with	ADP	IN	_	26	case	_	_
+24	an	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	Entity=(c26--3
+25	apical	apical	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	rate	rate	NOUN	NN	Number=Sing	22	obl	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	120	120	NUM	CD	NumForm=Digit|NumType=Card	29	nummod	_	Entity=(c27--2
+29	beats	beat	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No
+30	/	/	SYM	SYM	_	31	case	_	SpaceAfter=No
+31	min	min	NOUN	NN	Number=Sing	29	conj	_	Entity=(c24--1)c27)|SpaceAfter=No
+32	,	,	PUNCT	,	_	35	punct	_	_
+33	temperature	temperature	NOUN	NN	Number=Sing	26	conj	_	Entity=(c28--1)
+34	39°	39°	NUM	CD	NumForm=Digit|NumType=Card	35	nummod	_	Entity=(c29--2
+35	C	C	NOUN	NN	Number=Sing	29	conj	_	Entity=c29)|SpaceAfter=No
+36	,	,	PUNCT	,	_	38	punct	_	_
+37	blood	blood	NOUN	NN	Number=Sing	38	compound	_	Entity=(c30--2(c31--1)
+38	pressure	pressure	NOUN	NN	Number=Sing	26	conj	_	Entity=c30)
+39	70	70	NUM	CD	NumForm=Digit|NumType=Card	42	nummod	_	Entity=(c32--4|SpaceAfter=No
+40	/	/	SYM	SYM	_	41	cc	_	SpaceAfter=No
+41	40	40	NUM	CD	NumForm=Digit|NumType=Card	42	nummod	_	_
+42	mmHg	mmhg	NOUN	NNS	Number=Plur	38	conj	_	Entity=c32)c26)|SpaceAfter=No
+43	,	,	PUNCT	,	_	45	punct	_	_
+44	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	Entity=(c1--1)
+45	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+46	necrotic	necrotic	ADJ	JJ	Degree=Pos	50	amod	_	Entity=(c33--5
+47	and	and	CCONJ	CC	_	48	cc	_	_
+48	suppurative	suppurative	ADJ	JJ	Degree=Pos	46	conj	_	_
+49	amputation	amputation	NOUN	NN	Number=Sing	50	compound	_	Entity=(c9--1)
+50	stump	stump	NOUN	NN	Number=Sing	45	obj	_	_
+51	with	with	SCONJ	IN	_	54	mark	_	_
+52	peripheral	peripheral	ADJ	JJ	Degree=Pos	53	amod	_	Entity=(c34--2
+53	pulse	pulse	NOUN	NN	Number=Sing	54	nsubj	_	Entity=c34)
+54	abolished	abolish	VERB	VBN	Tense=Past|VerbForm=Part	45	advcl	_	Entity=c33)|SpaceAfter=No
+55	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Patient was given immediately oxygen, fluids, antibiotics, and drugs to increase blood pressure.
+1	Patient	patient	NOUN	NN	Number=Sing	3	nsubj:pass	_	Entity=(c1--1)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	immediately	immediately	ADV	RB	_	3	advmod	_	_
+5	oxygen	oxygen	NOUN	NN	Number=Sing	3	obj	_	Entity=(c35--1)|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	fluids	fluid	NOUN	NNS	Number=Plur	5	conj	_	Entity=(c36--1)|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	antibiotics	antibiotic	NOUN	NNS	Number=Plur	5	conj	_	Entity=(c37--1)|SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	drugs	drug	NOUN	NNS	Number=Plur	5	conj	_	Entity=(c38--1)
+13	to	to	PART	TO	_	14	mark	_	_
+14	increase	increase	VERB	VB	VerbForm=Inf	3	advcl	_	_
+15	blood	blood	NOUN	NN	Number=Sing	16	compound	_	Entity=(c30--2
+16	pressure	pressure	NOUN	NN	Number=Sing	14	obj	_	Entity=c30)|SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Six hours later, the patient presented a single episode of hematemesis.
+1	Six	six	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	Entity=(c39--2
+2	hours	hour	NOUN	NNS	Number=Plur	3	obl:npmod	_	Entity=c39)
+3	later	late	ADV	RBR	Degree=Cmp	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	Entity=(c1--2
+6	patient	patient	NOUN	NN	Number=Sing	7	nsubj	_	Entity=c1)
+7	presented	present	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	Entity=(c4--3
+9	single	single	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	episode	episode	NOUN	NN	Number=Sing	7	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	hematemesis	hematemesis	NOUN	NN	Number=Sing	10	nmod	_	Entity=(c4--1)c4)|SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = There was no associated melena or abdominal pain.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	5	det	_	_
+4	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+5	melena	melena	NOUN	NN	Number=Sing	2	nsubj	_	Entity=(c40--1)
+6	or	or	CCONJ	CC	_	8	cc	_	_
+7	abdominal	abdominal	ADJ	JJ	Degree=Pos	8	amod	_	Entity=(c41--2
+8	pain	pain	NOUN	NN	Number=Sing	5	conj	_	Entity=c41)|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = He had no history of alcohol use, liver disease, varices, peptic ulcer disease, abdominal aortic surgery, nonsteroidal anti inflammatory drug use, gastroparesis, or previous GI bleeding.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(c1--1)
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	Entity=(c42--2
+4	history	history	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	alcohol	alcohol	NOUN	NN	Number=Sing	7	compound	_	Entity=(c43--2(c44--1)
+7	use	use	NOUN	NN	Number=Sing	4	nmod	_	Entity=c43)|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	liver	liver	NOUN	NN	Number=Sing	10	compound	_	Entity=(c45--2(c46--1)
+10	disease	disease	NOUN	NN	Number=Sing	7	conj	_	Entity=c45)|SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	varices	varice	NOUN	NNS	Number=Plur	7	conj	_	Entity=(c47--1)|SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	peptic	peptic	ADJ	JJ	Degree=Pos	16	amod	_	Entity=(c48--3
+15	ulcer	ulcer	NOUN	NN	Number=Sing	16	compound	_	_
+16	disease	disease	NOUN	NN	Number=Sing	7	conj	_	Entity=c48)|SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	abdominal	abdominal	ADJ	JJ	Degree=Pos	20	amod	_	Entity=(c49--3
+19	aortic	aortic	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	surgery	surgery	NOUN	NN	Number=Sing	7	conj	_	Entity=c49)|SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	_	_
+22	nonsteroidal	nonsteroidal	ADJ	JJ	Degree=Pos	26	amod	_	Entity=(c50--5(c51--1
+23	anti	anti	X	AFX	_	24	amod	_	_
+24	inflammatory	inflammatory	ADJ	JJ	Degree=Pos	26	amod	_	_
+25	drug	drug	NOUN	NN	Number=Sing	26	compound	_	Entity=c51)
+26	use	use	NOUN	NN	Number=Sing	7	conj	_	Entity=c50)|SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	gastroparesis	gastroparesis	NOUN	NN	Number=Sing	7	conj	_	Entity=(c52--1)|SpaceAfter=No
+29	,	,	PUNCT	,	_	33	punct	_	_
+30	or	or	CCONJ	CC	_	33	cc	_	_
+31	previous	previous	ADJ	JJ	Degree=Pos	33	amod	_	Entity=(c53--3
+32	GI	GI	NOUN	NN	Number=Sing	33	compound	_	Entity=(c54--1)
+33	bleeding	bleeding	NOUN	NN	Number=Sing	7	conj	_	Entity=c53)c42)|SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Physical examination was unremarkable.
+1	Physical	physical	ADJ	JJ	Degree=Pos	2	amod	_	Entity=(c55--2
+2	examination	examination	NOUN	NN	Number=Sing	4	nsubj	_	Entity=c55)
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	unremarkable	unremarkable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Pertinent laboratory studies included a hemoglobin level of 10 g/dL, platelet count was normal, blood urea of 1,2 g/l (0,18-0,45 g/L), and a creatinine level of 68 mg/L (7-13 mg/L).
+1	Pertinent	pertinent	ADJ	JJ	Degree=Pos	3	amod	_	Entity=(c56--3
+2	laboratory	laboratory	NOUN	NN	Number=Sing	3	compound	_	_
+3	studies	study	NOUN	NNS	Number=Plur	4	nsubj	_	Entity=c56)
+4	included	include	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	Entity=(c57--3
+6	hemoglobin	hemoglobin	NOUN	NN	Number=Sing	7	compound	_	Entity=(c58--1)
+7	level	level	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	10	10	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	Entity=(c59--2
+10	g	gram	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+11	/	/	SYM	,	_	12	case	_	SpaceAfter=No
+12	dL	dl	NOUN	NN	Number=Sing	10	conj	_	Entity=c59)|SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	platelet	platelet	NOUN	NN	Number=Sing	15	compound	_	Entity=(c60--2
+15	count	count	NOUN	NN	Number=Sing	17	nsubj	_	Entity=c60)
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	normal	normal	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	blood	blood	NOUN	NN	Number=Sing	20	compound	_	Entity=(c61--2
+20	urea	urea	NOUN	NN	Number=Sing	7	conj	_	_
+21	of	of	ADP	IN	_	24	case	_	_
+22	1	1	NUM	CD	NumForm=Digit|NumType=Card	24	nummod	_	Entity=(c62--3|SpaceAfter=No
+23	,2	,2	NUM	CD	NumForm=Digit|NumType=Card	24	nummod	_	_
+24	g/l	g/l	NOUN	NN	Number=Sing	20	nmod	_	Entity=c62)c61)
+25	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
+26	0,18	018	NUM	CD	NumForm=Digit|NumType=Card	29	nummod	_	Entity=(c62--4|SpaceAfter=No
+27	-	-	SYM	SYM	_	28	case	_	SpaceAfter=No
+28	0,45	045	NUM	CD	NumForm=Digit|NumType=Card	26	nmod	_	_
+29	g/L	g/l	NOUN	NN	Number=Sing	24	appos	_	Entity=c62)|SpaceAfter=No
+30	)	)	PUNCT	-RRB-	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	35	punct	_	_
+32	and	and	CCONJ	CC	_	35	cc	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	Entity=(c63--3
+34	creatinine	creatinine	NOUN	NN	Number=Sing	35	compound	_	Entity=(c64--1)
+35	level	level	NOUN	NN	Number=Sing	7	conj	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	68	68	NUM	CD	NumForm=Digit|NumType=Card	38	nummod	_	Entity=(c65--2
+38	mg/L	mg/l	NOUN	NN	Number=Sing	35	nmod	_	Entity=c65)c63)
+39	(	(	PUNCT	-LRB-	_	43	punct	_	SpaceAfter=No
+40	7	7	NUM	CD	NumForm=Digit|NumType=Card	43	nummod	_	Entity=(c63--4|SpaceAfter=No
+41	-	-	SYM	SYM	_	42	case	_	SpaceAfter=No
+42	13	13	NUM	CD	NumForm=Digit|NumType=Card	40	nmod	_	_
+43	mg	mg	NOUN	NNS	Number=Plur	38	appos	_	SpaceAfter=No
+44	/	/	SYM	SYM	_	45	case	_	SpaceAfter=No
+45	L	L	NOUN	NN	Number=Sing	43	nmod	_	Entity=c63)|SpaceAfter=No
+46	)	)	PUNCT	-RRB-	_	43	punct	_	Entity=c57)|SpaceAfter=No
+47	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = After hemodynamic stabilization, an oesophageo-gastro-duodenoscopy was performed which showed:
+1	After	after	ADP	IN	_	3	case	_	_
+2	hemodynamic	hemodynamic	ADJ	JJ	Degree=Pos	3	amod	_	Entity=(c66--2
+3	stabilization	stabilization	NOUN	NN	Number=Sing	12	obl	_	Entity=c66)|SpaceAfter=No
+4	,	,	PUNCT	,	_	12	punct	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	Entity=(c67--6
+6	oesophageo	oesophageo	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+8	gastro	gastro	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	duodenoscopy	duodenoscopy	NOUN	NN	Number=Sing	12	nsubj:pass	_	Entity=c67)
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	performed	perform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+13	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl:relcl	_	SpaceAfter=No
+15	:	:	PUNCT	:	_	12	punct	_	_
+
+# sent_id = 12
+# text = The upper third of the esophagus was circumferentially congestive, but the middle and lower third showed circumferential black pigmentation: the mucosa was black and covered by an exudate of the same color associated with diffuse bleeding.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	Entity=(c68--3
+2	upper	upper	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	third	third	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	9	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	Entity=(c69--2
+6	esophagus	esophagus	NOUN	NN	Number=Sing	3	nmod	_	Entity=c69)c68)
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	circumferentially	circumferentially	ADV	RB	_	9	advmod	_	_
+9	congestive	congestive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	17	punct	_	_
+11	but	but	CCONJ	CC	_	17	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	Entity=(c70--5
+13	middle	middle	ADJ	JJ	Degree=Pos	16	amod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	lower	low	ADJ	JJR	Degree=Cmp	13	conj	_	_
+16	third	third	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	17	nsubj	_	Entity=c70)
+17	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+18	circumferential	circumferential	ADJ	JJ	Degree=Pos	20	amod	_	Entity=(c71--3
+19	black	black	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	pigmentation	pigmentation	NOUN	NN	Number=Sing	17	obj	_	Entity=c71)|SpaceAfter=No
+21	:	:	PUNCT	:	_	17	punct	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	Entity=(c72--2
+23	mucosa	mucosa	NOUN	NN	Number=Sing	25	nsubj	_	Entity=c72)
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+25	black	black	ADJ	JJ	Degree=Pos	17	parataxis	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part	25	conj	_	_
+28	by	by	ADP	IN	_	30	case	_	_
+29	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	Entity=(c73--2
+30	exudate	exudate	NOUN	NN	Number=Sing	27	obl	_	_
+31	of	of	ADP	IN	_	34	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	Entity=(c74--3
+33	same	same	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	color	color	NOUN	NN	Number=Sing	30	nmod	_	Entity=c74)
+35	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part	34	acl	_	_
+36	with	with	ADP	IN	_	38	case	_	_
+37	diffuse	diffuse	NOUN	NN	Number=Sing	38	compound	_	Entity=(c75--2
+38	bleeding	bleeding	NOUN	NN	Number=Sing	35	obl	_	Entity=c75)c73)|SpaceAfter=No
+39	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 13
+# text = Gastric mucosa was strictly normal in direct vision and in retrovision, the bulb and duodenum were normal.
+1	Gastric	gastric	ADJ	JJ	Degree=Pos	2	amod	_	Entity=(c76--2
+2	mucosa	mucosa	NOUN	NN	Number=Sing	5	nsubj	_	Entity=c76)
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	strictly	strictly	ADV	RB	_	5	advmod	_	_
+5	normal	normal	ADJ	JJ	Degree=Pos	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	direct	direct	ADJ	JJ	Degree=Pos	8	amod	_	Entity=(c77--2
+8	vision	vision	NOUN	NN	Number=Sing	5	obl	_	Entity=c77)
+9	and	and	CCONJ	CC	_	18	cc	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	retrovision	retrovision	NOUN	NN	Number=Sing	18	obl	_	Entity=(c78--1)|SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	Entity=(c79--2
+14	bulb	bulb	NOUN	NN	Number=Sing	18	nsubj	_	Entity=c79)
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	duodenum	duodenum	NOUN	NN	Number=Sing	14	conj	_	Entity=(c80--1)
+17	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+18	normal	normal	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = Biopsie specimens were showed necrotic debris, mucosal submucosal necrosis with a local inflammatory response.
+1	Biopsie	biopsie	NOUN	NN	Number=Sing	2	compound	_	Entity=(c81--2
+2	specimens	specimen	NOUN	NNS	Number=Plur	4	nsubj:pass	_	Entity=c81)
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	showed	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	necrotic	necrotic	ADJ	JJ	Degree=Pos	6	amod	_	Entity=(c82--2
+6	debris	debris	NOUN	NN	Number=Sing	4	obj	_	Entity=c82)|SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	mucosal	mucosal	NOUN	NN	Number=Sing	10	compound	_	Entity=(c83--3
+9	submucosal	submucosal	NOUN	NN	Number=Sing	10	compound	_	_
+10	necrosis	necrosis	NOUN	NN	Number=Sing	6	conj	_	_
+11	with	with	ADP	IN	_	15	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	Entity=(c84--4
+13	local	local	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	inflammatory	inflammatory	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	response	response	NOUN	NN	Number=Sing	6	nmod	_	Entity=c84)c83)|SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = The treatment of this condition was based continuous high dose omeprazole (8 mg / h) after bolus of 80mg and total parenteral nutrition.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	Entity=(c85--2
+2	treatment	treatment	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	Entity=(c3--2
+5	condition	condition	NOUN	NN	Number=Sing	2	nmod	_	Entity=c3)c85)
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	continuous	continuous	ADJ	JJ	Degree=Pos	11	amod	_	Entity=(c86--4
+9	high	high	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	dose	dose	NOUN	NN	Number=Sing	11	compound	_	_
+11	omeprazole	omeprazole	NOUN	NN	Number=Sing	7	obj	_	Entity=c86)
+12	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
+13	8	8	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	_	Entity=(c86--2
+14	mg	mg	NOUN	NNS	Number=Plur	11	appos	_	_
+15	/	/	SYM	SYM	_	16	case	_	_
+16	h	h	NOUN	NN	Number=Sing	14	nmod	_	Entity=(c87--1)c86)|SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	14	punct	_	_
+18	after	after	ADP	IN	_	19	case	_	_
+19	bolus	bolus	NOUN	NN	Number=Sing	11	nmod	_	Entity=(c88--1
+20	of	of	ADP	IN	_	22	case	_	_
+21	80	80	NUM	CD	NumForm=Digit|NumType=Card	22	nummod	_	Entity=(c89--2|SpaceAfter=No
+22	mg	mg	NOUN	NNS	Number=Plur	19	nmod	_	Entity=c89)c88)
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	total	total	ADJ	JJ	Degree=Pos	26	amod	_	Entity=(c90--3
+25	parenteral	parenteral	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	nutrition	nutrition	NOUN	NN	Number=Sing	19	conj	_	Entity=c90)|SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 16
+# text = The patient experienced no further hematemesis or melena.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	Entity=(c1--2
+2	patient	patient	NOUN	NN	Number=Sing	3	nsubj	_	Entity=c1)
+3	experienced	experience	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	6	det	_	_
+5	further	further	ADJ	JJR	Degree=Cmp	6	amod	_	Entity=(c91--2
+6	hematemesis	hematemesis	NOUN	NN	Number=Sing	3	obj	_	Entity=c91)
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	melena	melena	NOUN	NN	Number=Sing	6	conj	_	Entity=(c40--1)|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = Due to the severity of the necrosis, and with deterioration of his condition and persistent sepsis he died later in the same day.
+1	Due	due	ADP	IN	_	4	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	Entity=(c92--2
+4	severity	severity	NOUN	NN	Number=Sing	19	obl	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	Entity=(c83--2
+7	necrosis	necrosis	NOUN	NN	Number=Sing	4	nmod	_	Entity=c83)c92)|SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	deterioration	deterioration	NOUN	NN	Number=Sing	4	conj	_	Entity=(c93--1
+12	of	of	ADP	IN	_	14	case	_	_
+13	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	Entity=(c3--2(c1--1)
+14	condition	condition	NOUN	NN	Number=Sing	11	nmod	_	Entity=c3)c93)
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	persistent	persistent	ADJ	JJ	Degree=Pos	17	amod	_	Entity=(c94--2
+17	sepsis	sepsis	NOUN	NN	Number=Sing	14	conj	_	Entity=c94)
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	Entity=(c1--1)
+19	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	later	late	ADV	RBR	Degree=Cmp	19	advmod	_	_
+21	in	in	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	Entity=(c95--3
+23	same	same	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	day	day	NOUN	NN	Number=Sing	19	obl	_	Entity=c95)|SpaceAfter=No
+25	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\r\n
+

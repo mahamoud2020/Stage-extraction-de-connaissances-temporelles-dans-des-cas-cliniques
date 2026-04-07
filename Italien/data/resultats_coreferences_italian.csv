@@ -1,0 +1,546 @@
+doc,mention_id,texte_maillon,tete_lexicale,nature,fonction
+IT100002,c1,Anna,Anna,Np,Suj
+IT100002,c1,una donna di 47 anni,donna,SNind,autre
+IT100002,c2,il figlio,figlio,SNdef,Obl
+IT100002,c3,un piccolo appartamento,appartamento,SNind,Obl
+IT100002,c4,un paese carsico,paese,SNind,autre
+IT100002,c5,il campo di la ristorazione,campo,SNdef,Obl
+IT100002,c6,una patologia genetica familiare che,patologia,SNind,Obl
+IT100002,c7,"le alterazioni scheletriche , cardiologiche , oculari e cutanee",alterazioni,SNdef,Obl
+IT100002,c8,una vita serena e tranquilla,vita,SNind,OD
+IT100002,c9,una buona rete familiare e informale che,rete,SNind,OD
+IT100002,c10,la famiglia,famiglia,SNdef,OD
+IT100002,c12,patologia rara,patologia,SN∅,autre
+IT100002,c11,un centro di riferimento specifico per patologia rara a Bologna,centro,SNind,Obl
+IT100002,c13,Bologna,Bologna,Np,autre
+IT100002,c14,controlli clinicostrumentali periodici e regolari,controlli,SN∅,Obl
+IT100002,c15,il gennaio di il 2017,gennaio,SNdef,Obl
+IT100002,c16,2017,2017,Autre,autre
+IT100002,c18,piede torto congenito,piede,SN∅,autre
+IT100002,c17,un intervento chirurgico di piede torto congenito,intervento,SNind,OD
+IT100002,c19,l’ Istituto Rizzoli,Istituto,SNdef,Obl
+IT100002,c20,la degenza,degenza,SNdef,Obl
+IT100002,c21,un dolore retrosternale,dolore,SNind,autre
+IT100002,c22,una sincope,sincope,SNind,autre
+IT100002,c24,endoprotesi di aorta per dissezione acuta,endoprotesi,SN∅,autre
+IT100002,c23,un intervento di endoprotesi di aorta per dissezione acuta,intervento,SNind,Obl
+IT100002,c25,casa,casa,SN∅,autre
+IT100002,c26,il marzo di il 2017,marzo,SNdef,Obl
+IT100002,c16,2017,2017,Autre,autre
+IT100002,c27,i controlli cardiologici,controlli,SNdef,OD
+IT100002,c17,intervento a il piede,intervento,SN∅,autre
+IT100002,c29,gli esiti di intervento a il piede,esiti,SNdef,Obl
+IT100002,c18,piede,piede,SN∅,autre
+IT100002,c30,regolari controlli ematici,controlli,SN∅,autre
+IT100002,c28,la fisioterapia per gli esiti di intervento a il piede e regolari controlli ematici,fisioterapia,SNdef,OD
+IT100002,c31,la deambulazione,deambulazione,SNdef,Obl
+IT100002,c33,Distretto n. 1 di l’ ASUGI di Trieste,Distretto,SN∅,autre
+IT100002,c32,i servizi di il Distretto n. 1 di l’ ASUGI di Trieste,servizi,SNdef,Obl
+IT100002,c34,Trieste,Trieste,Np,autre
+IT100002,c1,Anna,Anna,Np,Suj
+IT100002,c35,un primo momento,momento,SNind,Obl
+IT100002,c37,piano assistenziale predisposto,piano,SN∅,Obl
+IT100002,c36,una persona collaborante a il piano assistenziale predisposto,persona,SNind,autre
+IT100002,c39,la ferita a il piede,ferita,SNdef,autre
+IT100002,c29,gli esiti di la ferita a il piede,esiti,SNdef,OD
+IT100002,c38,un paio di interventi per controllare gli esiti di la ferita a il piede,paio,SNind,Obl
+IT100002,c18,piede,piede,SN∅,autre
+IT100002,c40,qualcosa,qualcosa,Pro,Suj
+IT100002,c41,la scheda PHE -S®,scheda,SNdef,OD
+IT100002,c6,la malattia,malattia,SNdef,autre
+IT100002,c43,l’ elaborazione di il vissuto di la malattia,elaborazione,SNdef,autre
+IT100002,c42,una valutazione di l’ elaborazione di il vissuto di la malattia,valutazione,SNind,Obl
+IT100002,c44,"un punteggio di 2,5",punteggio,SNind,OD
+IT100002,c1,lei,lei,Pro,Obl
+IT100002,c17,l’ intervento a il cuore,intervento,SNdef,OD
+IT100002,c45,una profonda difficoltà ad accettare l’ intervento a il cuore,difficoltà,SNind,Suj
+IT100002,c46,cuore,cuore,SN∅,autre
+IT100002,c1,riferisce,riferisce,Autre,autre
+IT100002,c1,ripete,ripete,Autre,autre
+IT100002,c45,Questa incapacità di reagire,incapacità,SNdem,Suj
+IT100002,c47,il piano pratico,piano,SNdef,Obl
+IT100002,c48,la pressione arteriosa,pressione,SNdef,OD
+IT100002,c49,le dimissioni ospedaliere,dimissioni,SNdef,Obl
+IT100002,c51,le analisi diagnostico - strumentali,analisi,SNdef,autre
+IT100002,c50,risultati di le analisi diagnostico - strumentali,risultati,SN∅,Obl
+IT100002,c18,il piede che,piede,SNdef,Obl
+IT100002,c1,le,le,Pro,OI
+IT100002,c52,molto dolore,dolore,SN∅,OD
+IT100002,c53,questo caso,caso,SNdem,Obl
+IT100002,c37,il piano assistenziale individuale,piano,SNdef,Suj
+IT100002,c55,l’ arto inferiore,arto,SNdef,autre
+IT100002,c54,un ciclo di fisiokinesiterapia per l’ arto inferiore,ciclo,SNind,OD
+IT100002,c57,parametri vitali,parametri,SN∅,autre
+IT100002,c56,interventi infermieristici di monitoraggio di i parametri vitali e di il dolore,interventi,SN∅,autre
+IT100002,c52,dolore,dolore,SN∅,autre
+IT100002,c58,educazione terapeutica,educazione,SN∅,autre
+IT100002,c27,controlli cardiologici,controlli,SN∅,autre
+IT100002,c30,esami ematochimici,esami,SN∅,autre
+IT100002,c59,lo stato di “ black out ”,stato,SNdef,Obl
+IT100002,c33,Distretto Sanitario,Distretto,SN∅,autre
+IT100002,c61,una psicoterapeuta di il Distretto Sanitario,psicoterapeuta,SNind,autre
+IT100002,c60,l’ intervento di una psicoterapeuta di il Distretto Sanitario,intervento,SNdef,Suj
+IT100002,c17,l’ intervento chirurgico a il cuore,intervento,SNdef,autre
+IT100002,c63,lo shock di l’ intervento chirurgico a il cuore,shock,SNdef,OD
+IT100002,c62,risorse atte a superare lo shock di l’ intervento chirurgico a il cuore,risorse,SN∅,OD
+IT100002,c46,cuore,cuore,SN∅,autre
+IT100002,c64,La vita,vita,SNdef,Suj
+IT100002,c1,questa giovane donna,donna,SNdem,Obl
+IT100002,c1,la sua,la,Autre,autre
+IT100002,c65,la sua sede lavorativa,sede,SNdef,Obl
+IT100002,c66,l’ attività in piedi per molte ore,attività,SNdef,Suj
+IT100002,c1,il suo,il,Autre,autre
+IT100002,c67,il suo stato di salute,stato,SNdef,Obl
+IT100002,c68,il licenziamento,licenziamento,SNdef,Suj
+IT100002,c70,l’ assistente sociale,assistente,SNdef,autre
+IT100002,c69,Un colloquio con l’ assistente sociale,colloquio,SNind,Suj
+IT100002,c1,Anna,Anna,Np,OD
+IT100002,c1,lei,lei,Pro,autre
+IT100002,c1,la sua,la,Autre,autre
+IT100002,c10,la sua famiglia,famiglia,SNdef,autre
+IT100002,c71,le varie possibilità di sostegno economico per lei e la sua famiglia,possibilità,SNdef,Obl
+IT100002,c41,la PHE - S,PHE,Np,autre
+IT100002,c72,I valori di la PHE - S,valori,SNdef,Suj
+IT100002,c73,un punteggio pari a 3,punteggio,SNind,OD
+IT100002,c75,l’ infermiera,infermiera,SNdef,autre
+IT100002,c76,la fisioterapista,fisioterapista,SNdef,autre
+IT100002,c74,il supporto di l’ infermiera e di la fisioterapista,supporto,SNdef,autre
+IT100002,c1,Anna,Anna,Np,Suj
+IT100002,c77,un ruolo attivo,ruolo,SNind,OD
+IT100002,c1,la sua,la,Autre,autre
+IT100002,c67,la sua salute,salute,SNdef,autre
+IT100002,c78,la gestione di la sua salute,gestione,SNdef,autre
+IT100002,c48,"la pressione arteriosa , che",pressione,SNdef,OD
+IT100002,c80,il cardiologo,cardiologo,SNdef,Obl
+IT100002,c79,i valori consigliati da il cardiologo,valori,SNdef,Obl
+IT100002,c81,gli accertamenti di controllo,accertamenti,SNdef,Obl
+IT100002,c83,60 Engagement e coinvolgimento attivo,Engagement,SNnum,autre
+IT100002,c84,ciascuna terapia,terapia,SNind,autre
+IT100002,c82,gli effetti di 60 Engagement e coinvolgimento attivo ciascuna terapia,effetti,SNdef,OD
+IT100002,c1,riesce,riesce,Autre,autre
+IT100002,c85,stampelle,stampelle,SN∅,Obl
+IT100002,c86,il medico di medicina generale,medico,SNdef,OD
+IT100002,c86,che,che,Pro,Suj
+IT100002,c87,un professionista attivo e collaborante,professionista,SNind,Obl
+IT100002,c1,riesce,riesce,Autre,autre
+IT100002,c89,lo stile di vita,stile,SNdef,autre
+IT100002,c1,suo,suo,Autre,autre
+IT100002,c67,suo stato di salute,stato,Poss,Obl
+IT100002,c88,cambiamenti di lo stile di vita relativi a il suo stato di salute,cambiamenti,SN∅,OD
+IT100002,c90,una corretta alimentazione,alimentazione,SNind,OD
+IT100002,c91,un’ adeguata attività fisica,attività,SNind,autre
+IT100002,c94,ridotte capacità,capacità,SN∅,autre
+IT100002,c93,persone con ridotte capacità,persone,SN∅,autre
+IT100002,c92,le liste di collocamento speciali per persone con ridotte capacità,liste,SNdef,Obl
+IT100002,c95,corsi di formazione,corsi,SN∅,OD
+IT100002,c97,un nuovo lavoro,lavoro,SNind,OD
+IT100002,c96,la possibilità di esercitare un nuovo lavoro,possibilità,SNdef,OD
+IT100003,c1,Gabriele,Gabriele,Np,Suj
+IT100003,c1,"un uomo di 53 anni , affetto da il 2004",uomo,SNind,autre
+IT100003,c2,malattie croniche altamente invalidanti,malattie,SN∅,Obl
+IT100003,c3,la distrofia muscolare di tipo 1,distrofia,SNdef,autre
+IT100003,c4,il diabete mellito di tipo 2,diabete,SNdef,autre
+IT100003,c2,la distrofia muscolare di tipo 1 e il diabete mellito di tipo 2,distrofia,SNdef,autre
+IT100003,c6,Trieste,Trieste,Np,autre
+IT100003,c5,un piccolo borgo di Trieste in una zona periferica,borgo,SNind,Obl
+IT100003,c7,la madre anziana,madre,SNdef,Obl
+IT100003,c1,le sue,le,Autre,autre
+IT100003,c2,le sue patologie,patologie,SNdef,autre
+IT100003,c8,un basso livello di scolarità,livello,SNind,autre
+IT100003,c9,un’ occupazione,occupazione,SNind,OD
+IT100003,c1,l’ uomo,uomo,SNdef,autre
+IT100003,c10,Le condizioni fisiche di l’ uomo,condizioni,SNdef,Suj
+IT100003,c11,gli ultimi anni,anni,SNdef,autre
+IT100003,c1,la sua,la,Autre,autre
+IT100003,c12,la sua funzione motoria,funzione,SNdef,OD
+IT100003,c13,l’ ultimo anno,anno,SNdef,autre
+IT100003,c14,una carrozzina,carrozzina,SNind,autre
+IT100003,c7,la madre di Gabriele,madre,SNdef,Suj
+IT100003,c1,Gabriele,Gabriele,Np,autre
+IT100003,c15,una malattia improvvisa,malattia,SNind,Obl
+IT100003,c17,fratello,fratello,SN∅,autre
+IT100003,c18,alcuni amici,amici,SNind,autre
+IT100003,c16,la presenza di il fratello e di alcuni amici,presenza,SNdef,Obl
+IT100003,c1,Gabriele,Gabriele,Np,Suj
+IT100003,c4,il diabete,diabete,SNdef,OD
+IT100003,c1,proprio,proprio,Autre,autre
+IT100003,c19,proprio domicilio,domicilio,SNind,autre
+IT100003,c19,casa,casa,SN∅,Obl
+IT100003,c21,barriere architettoniche importanti,barriere,SN∅,autre
+IT100003,c20,la presenza di barriere architettoniche importanti,presenza,SNdef,Obl
+IT100003,c1,i suoi,i,Autre,autre
+IT100003,c12,i suoi deficit motori,deficit,SNdef,Suj
+IT100003,c22,La presa in carico,presa,SNdef,Suj
+IT100003,c25,l’ ASUGI di Trieste,ASUGI,Np,autre
+IT100003,c24,Distretto n. 1 di l’ ASUGI di Trieste,Distretto,SN∅,autre
+IT100003,c23,i servizi territoriali di il Distretto n. 1 di l’ ASUGI di Trieste,servizi,SNdef,autre
+IT100003,c6,Trieste,Trieste,Np,autre
+IT100003,c28,l’ infermiera,infermiera,SNdef,Obl
+IT100003,c27,"un’ equipe composta da l’ infermiera , da il medico di medicina generale",equipe,SNind,autre
+IT100003,c29,il fisioterapista,fisioterapista,SNdef,autre
+IT100003,c30,l’ assistente sociale,assistente,SNdef,autre
+IT100003,c32,la rete,rete,SNdef,autre
+IT100003,c33,un piano assistenziale individuale,piano,SNind,autre
+IT100003,c31,l’ attivazione di la rete e di un piano assistenziale individuale,attivazione,SNdef,Obl
+IT100003,c26,"una valutazione da parte di un’ equipe composta da l’ infermiera , da il medico di medicina generale , da il fisioterapista e da l’ assistente sociale per l’ attivazione di la rete e di un piano assistenziale individuale",valutazione,SNind,Obl
+IT100003,c33,piano assistenziale,piano,SN∅,autre
+IT100003,c35,i bisogni,bisogni,SNdef,autre
+IT100003,c36,la collaborazione di Gabriele,collaborazione,SNdef,autre
+IT100003,c34,La costruzione di il piano assistenziale in base a i bisogni e a la collaborazione di Gabriele,costruzione,SNdef,Suj
+IT100003,c1,Gabriele,Gabriele,Np,autre
+IT100003,c38,fisiatra,fisiatra,SN∅,autre
+IT100003,c39,un programma riabilitativo,programma,SNind,autre
+IT100003,c29,fisioterapista,fisioterapista,SN∅,autre
+IT100003,c1,la persona,persona,SNdef,autre
+IT100003,c41,le necessità di la persona,necessità,SNdef,Obl
+IT100003,c40,la fornitura di ausili adeguati a le necessità di la persona,fornitura,SNdef,autre
+IT100003,c37,l’ intervento di il fisiatra per un programma riabilitativo e di il fisioterapista per la fornitura di ausili adeguati a le necessità di la persona,intervento,SNdef,OD
+IT100003,c42,Un letto articolato,letto,SNind,Suj
+IT100003,c43,un materasso antidecubito,materasso,SNind,autre
+IT100003,c14,una carrozzina,carrozzina,SNind,autre
+IT100003,c19,la casa,casa,SNdef,autre
+IT100003,c44,la mobilità sicura a l’ interno di la casa,mobilità,SNdef,OD
+IT100003,c45,l’ intervento più significativo,intervento,SNdef,Suj
+IT100003,c46,uno scendiscale,scendiscale,SNind,autre
+IT100003,c19,l’ abitazione,abitazione,SNdef,Obl
+IT100003,c21,le barriere architettoniche,barriere,SNdef,OD
+IT100003,c14,una carrozzina elettrica specifica per uscire da l’ abitazione e superare le barriere architettoniche,carrozzina,SNind,autre
+IT100003,c45,la fornitura di uno scendiscale e di una carrozzina elettrica specifica per uscire da l’ abitazione e superare le barriere architettoniche,fornitura,SNdef,autre
+IT100003,c30,L’ assistente sociale,assistente,SNdef,Suj
+IT100003,c48,un progetto di sostegno a il reddito,progetto,SNind,autre
+IT100003,c47,l’ attivazione di un progetto di sostegno a il reddito,attivazione,SNdef,Obl
+IT100003,c50,una badante per venti ore a la settimana,badante,SNind,autre
+IT100003,c49,il contributo per una badante per venti ore a la settimana,contributo,SNdef,autre
+IT100003,c1,l’ uomo,uomo,SNdef,OD
+IT100003,c52,la vita quotidiana,vita,SNdef,autre
+IT100003,c51,tutte le attività di la vita quotidiana,attività,SNind,Obl
+IT100003,c22,la presa in carico,presa,SNdef,Obl
+IT100003,c26,"la valutazione multidimensionale con scheda Valgraf , prevista per la presa in carico",valutazione,SNdef,Obl
+IT100003,c53,la valutazione con la scala PHE -S®,valutazione,SNdef,Suj
+IT100003,c53,che,che,Pro,Suj
+IT100003,c54,un valore basso di engagement pari a 2,valore,SNind,OD
+IT100003,c32,la rete assistenziale,rete,SNdef,autre
+IT100003,c34,la costruzione di la rete assistenziale,costruzione,SNdef,autre
+IT100003,c55,La rivalutazione a 4 mesi di distanza dopo la costruzione di la rete assistenziale,rivalutazione,SNdef,Suj
+IT100003,c56,un innalzamento di mezzo punto,innalzamento,SNind,OD
+IT100003,c1,Gabriele,Gabriele,Np,Suj
+IT100003,c1,il suo,il,Autre,autre
+IT100003,c58,il processo di cura,processo,SNdef,Obl
+IT100003,c57,il suo ruolo attivo in il processo di cura,ruolo,SNdef,OD
+IT100003,c59,tutte le competenze acquisite,competenze,SNind,OD
+IT100003,c57,lo,lo,Pro,OD
+IT100003,c1,la sua,la,Autre,autre
+IT100003,c14,la sua carrozzina elettrica,carrozzina,SNdef,Obl
+IT100003,c60,le vie di il paese,vie,SNdef,autre
+IT100003,c6,paese,paese,SN∅,autre
+IT100003,c4,il diabete,diabete,SNdef,autre
+IT100003,c61,i controlli per il diabete,controlli,SNdef,Obl
+IT100003,c63,la diabetologa,diabetologa,SNdef,Obl
+IT100003,c62,le glicemie stabili in i range previsti da la diabetologa,glicemie,SNdef,autre
+IT100003,c1,le sue,le,Autre,autre
+IT100003,c2,le sue patologie,patologie,SNdef,Obl
+IT100003,c64,uno stile di vita adeguato a le sue patologie,stile,SNind,OD
+IT100010,c2,"una donna di 84 anni , forte fumatrice per circa 30 anni",donna,SNind,autre
+IT100010,c1,"il caso clinico di una donna di 84 anni , forte fumatrice per circa 30 anni",caso,SNdef,Suj
+IT100010,c3,malattie renali,malattie,SN∅,autre
+IT100010,c5,la terapia farmacologica ( calcio antagonisti,terapia,SNdef,Obl
+IT100010,c4,"ipertensione arteriosa da almeno 20 anni controllata da la terapia farmacologica ( calcio antagonisti , diuretici )",ipertensione,SN∅,autre
+IT100010,c6,colelitiasi,colelitiasi,SN∅,autre
+IT100010,c8,terapia sostitutiva ormonale,terapia,SN∅,autre
+IT100010,c7,ipotiroidismo in terapia sostitutiva ormonale,ipotiroidismo,SN∅,autre
+IT100010,c10,l’ udito,udito,SNdef,autre
+IT100010,c9,disturbi di l’ udito,disturbi,SN∅,autre
+IT100010,c11,quadrantectomia mammaria destra per carcinoma,quadrantectomia,SN∅,autre
+IT100010,c12,carcinoma,carcinoma,SN∅,autre
+IT100010,c13,l’ età di 80 anni,età,SNdef,Obl
+IT100010,c2,la paziente,paziente,SNdef,Suj
+IT100010,c14,due ricoveri durante i quali,ricoveri,SNnum,OD
+IT100010,c15,"addensamenti polmonari multipli , bilaterali",addensamenti,SN∅,Suj
+IT100010,c16,“ Alveolite allergica estrinseca ”,Alveolite,SN∅,autre
+IT100010,c14,tale occasione,occasione,SNind,Obl
+IT100010,c17,steroide a seguito di il quale,steroide,SN∅,autre
+IT100010,c2,la paziente,paziente,SNdef,Suj
+IT100010,c18,quadro clinico,quadro,SN∅,autre
+IT100010,c19,la funzione renale,funzione,SNdef,autre
+IT100010,c20,l’ età di 82 anni,età,SNdef,Obl
+IT100010,c2,la paziente,paziente,SNdef,Suj
+IT100010,c21,"insufficienza renale acuta rapidamente progressiva ( creatininemia 1,5→6 mg/dL )",insufficienza,SN∅,Obl
+IT100010,c22,insufficienza respiratoria,insufficienza,SN∅,autre
+IT100010,c2,la paziente,paziente,SNdef,Suj
+IT100010,c23,dolori osteoarticolari diffusi,dolori,SN∅,OD
+IT100010,c24,tosse secca,tosse,SN∅,autre
+IT100010,c25,la radiografia di il torace,radiografia,SNdef,Obl
+IT100010,c26,torace,torace,SN∅,autre
+IT100010,c15,addensamenti polmonari bilaterali,addensamenti,SN∅,Suj
+IT100010,c27,La TC di il torace,TC,Np,Suj
+IT100010,c26,torace,torace,SN∅,autre
+IT100010,c28,parenchima polmonare,parenchima,SN∅,autre
+IT100010,c29,edema alveolare,edema,SN∅,autre
+IT100010,c15,addensamenti parenchimali multipli,addensamenti,SN∅,autre
+IT100010,c30,Un ecocardiogramma,ecocardiogramma,SNind,Suj
+IT100010,c20,l’ età,età,SNdef,autre
+IT100010,c2,La paziente,paziente,SNdef,Suj
+IT100010,c31,una broncoscopia che,broncoscopia,SNind,OD
+IT100010,c33,liquido alveolare,liquido,SN∅,autre
+IT100010,c34,numerosi macrofagi contenenti pigmento emosiderinico,macrofagi,SNind,autre
+IT100010,c32,l’ esame citologico di il liquido alveolare mostrava la presenza di numerosi macrofagi contenenti pigmento emosiderinico,mostrava,Autre,autre
+IT100010,c35,"Gli esami colturali ( germi comuni , BK )",esami,SNdef,Suj
+IT100010,c2,La paziente,paziente,SNdef,Suj
+IT100010,c36,agobiopsia renale che,agobiopsia,SN∅,OD
+IT100010,c38,le membrane basali glomerulari,membrane,SNdef,autre
+IT100010,c39,S. di Goodpasture,S.,Np,Obl
+IT100010,c37,glomerulonefrite crescentica necrotizzante con depositi lineari di IgG in le membrane basali glomerulari compatibile con S. di Goodpasture,glomerulonefrite,SN∅,autre
+IT100010,c41,il siero,siero,SNdef,autre
+IT100010,c42,anticorpi antimembrana basale glomerulare ( anti MBG ),anticorpi,SN∅,autre
+IT100010,c40,Presenza in il siero di anticorpi antimembrana basale glomerulare ( anti MBG ),Presenza,SN∅,autre
+IT100010,c44,anticorpi anti citoplasma di i neutrofili ( ANCA ),anticorpi,SN∅,autre
+IT100010,c43,la ricerca di anticorpi anti citoplasma di i neutrofili ( ANCA ),ricerca,SNdef,autre
+IT100010,c2,La paziente,paziente,SNdef,Suj
+IT100010,c45,terapia steroidea,terapia,SN∅,OD
+IT100010,c46,os,os,SN∅,autre
+IT100010,c47,boli mensili di ciclofosfamide e plasmaferesi,boli,SN∅,autre
+IT100010,c18,quadro clinico,quadro,SN∅,autre
+IT100010,c42,gli anti MBG,MBG,Np,autre
+IT100010,c48,negativizzazione di gli anti MBG,negativizzazione,SN∅,autre
+IT100010,c2,La paziente,paziente,SNdef,Suj
+IT100010,c50,acido micofenolico,acido,SN∅,autre
+IT100010,c49,terapia immunosoppressiva con acido micofenolico e cortisone,terapia,SN∅,OD
+IT100010,c51,cortisone,cortisone,SN∅,autre
+IT100010,c52,oltre un anno,anno,SNind,Obl
+IT100010,c52,questo periodo,periodo,SNdem,autre
+IT100010,c42,anti MBG,MBG,Np,autre
+IT100010,c44,ANCA,ANCA,Np,autre
+IT100010,c53,La creatinina,creatinina,SNdef,Suj
+IT100010,c20,l’ età di 84 anni,età,SNdef,autre
+IT100010,c49,la terapia immunosoppressiva,terapia,SNdef,autre
+IT100010,c54,la sospensione di la terapia immunosoppressiva,sospensione,SNdef,autre
+IT100010,c37,malattia,malattia,SN∅,autre
+IT100010,c21,l’ insufficienza renale,insufficienza,SNdef,autre
+IT100010,c55,emodialisi,emodialisi,SN∅,autre
+IT100010,c37,la patologia polmonare,patologia,SNdef,autre
+IT100010,c56,Il quadro laboratoristico,quadro,SNdef,Suj
+IT100010,c42,gli anti MBG,MBG,Np,autre
+IT100010,c40,negatività di gli anti MBG,negatività,SN∅,OD
+IT100010,c44,p-ANCA,p-ANCA,SN∅,autre
+IT100010,c27,L’ esame TC torace,esame,SNdef,Suj
+IT100010,c26,torace,torace,SN∅,autre
+IT100010,c58,la trama interstiziale,trama,SNdef,autre
+IT100010,c57,limitato ispessimento di natura reticolare e reticolo - nodulare di la trama interstiziale,ispessimento,SN∅,autre
+IT100010,c31,broncoscopia,broncoscopia,SN∅,Suj
+IT100010,c2,la paziente,paziente,SNdef,autre
+IT100010,c31,l’ esame,esame,SNdef,OD
+IT100010,c59,"gli esami colturali ( escreatocoltura , urinocoltura )",esami,SNdef,autre
+IT100010,c37,la malattia autoimmunitaria,malattia,SNdef,autre
+IT100010,c60,una riattivazione di la malattia autoimmunitaria,riattivazione,SNind,autre
+IT100010,c59,esami colturali negativi,esami,SN∅,autre
+IT100010,c2,la paziente,paziente,SNdef,Suj
+IT100010,c51,cortisone,cortisone,SN∅,autre
+IT100010,c62,boli di cortisone ev,boli,SN∅,OD
+IT100010,c63,l’ evoluzione clinica,evoluzione,SNdef,Suj
+IT100010,c64,polmonite da K. pneumoniae,polmonite,SN∅,Obl
+IT100010,c64,che,che,Pro,Suj
+IT100010,c2,la paziente,paziente,SNdef,autre
+IT100010,c65,il decesso di la paziente,decesso,SNdef,OD
+IT100010,c61,l’ evidenza di esami colturali negativi la paziente praticava nuovamente boli di cortisone ev ma l’ evoluzione clinica era complicata da polmonite da K. pneumoniae che determinava rapidamente il decesso di la paziente,evidenza,SNdef,autre
+IT100015,c2,"una paziente di anni 52 , con diagnosi bioptica in il 1983",paziente,SNind,autre
+IT100015,c3,GN membranosa,GN,Np,autre
+IT100015,c4,follow-up,follow-up,SN∅,Obl
+IT100015,c5,"un grado di insufficienza renale avanzato ( Crs 4,5 mg/dl )",grado,SNind,Obl
+IT100015,c1,"il caso di una paziente di anni 52 , con diagnosi bioptica in il 1983 di GN membranosa , sottratta si a il follow-up per alcuni anni e ripresa in carico ambulatoriale con un grado di insufficienza renale avanzato ( Crs 4,5 mg/dl )",caso,SNdef,OD
+IT100015,c6,la dialisi peritoneale,dialisi,SNdef,Obl
+IT100015,c7,alcune controindicazioni cliniche,controindicazioni,SNind,autre
+IT100015,c2,la paziente,paziente,SNdef,autre
+IT100015,c8,il maggio 2005,maggio,SNdef,Obl
+IT100015,c10,FAV radiocefalica sinistra,FAV,Np,autre
+IT100015,c10,che,che,Pro,Suj
+IT100015,c11,un episodio ipotensivo,episodio,SNind,autre
+IT100015,c12,trombosi precoce,trombosi,SN∅,Obl
+IT100015,c9,"un primo intervento di confezionamento di FAV radiocefalica sinistra che poche settimane dopo , in concomitanza di un episodio ipotensivo , andava incontro a trombosi precoce",intervento,SNind,Obl
+IT100015,c8,lo stesso anno,anno,SNdef,autre
+IT100015,c13,una FAV prossimale omerocefalica sinistra,FAV,Np,autre
+IT100015,c14,Il trattamento emodialitico cronico,trattamento,SNdef,Suj
+IT100015,c15,il dicembre 2006,dicembre,SNdef,Obl
+IT100015,c16,dialisi,dialisi,SN∅,autre
+IT100015,c18,dilatazione,dilatazione,SN∅,autre
+IT100015,c10,la FAV,FAV,Np,autre
+IT100015,c17,"progressivi segni di dilatazione , tortuosità , iperpulsatilità di la FAV",segni,SN∅,Suj
+IT100015,c16,dialisi,dialisi,SN∅,autre
+IT100015,c20,un ecodoppler,ecodoppler,SNind,autre
+IT100015,c21,stenosi,stenosi,SN∅,autre
+IT100015,c22,la vena,vena,SNdef,autre
+IT100015,c23,braccio,braccio,SN∅,autre
+IT100015,c24,il colordoppler,colordoppler,SNdef,Suj
+IT100015,c26,la confluenza cefalico - succlavia,confluenza,SNdef,OD
+IT100015,c25,tratto precedente la confluenza cefalico - succlavia,tratto,SN∅,autre
+IT100015,c27,succlavia,succlavia,Autre,autre
+IT100015,c28,spiccate turbolenze,turbolenze,SN∅,autre
+IT100015,c28,cui,cui,Pro,OI
+IT100015,c29,duplex,duplex,SN∅,Obl
+IT100015,c31,la velocità di flusso,velocità,SNdef,autre
+IT100015,c30,"un notevole aumento di la velocità di flusso fino a 4,5 m/s",aumento,SNind,OD
+IT100015,c19,"L’ esecuzione di un ecodoppler , non metteva in evidenza segni di stenosi su il decorso di la vena a livello di il braccio , mentre più prossimalmente il colordoppler registrava a livello di il tratto precedente la confluenza cefalico - succlavia spiccate turbolenze cui corrispondeva a il duplex un notevole aumento di la velocità di flusso fino a 4,5 m/s",metteva,Autre,autre
+IT100015,c32,Il reperto in il complesso,reperto,SNdef,Suj
+IT100015,c33,una stenosi serrata,stenosi,SNind,autre
+IT100015,c34,Lo studio flebografico,studio,SNdef,Suj
+IT100015,c35,vena cefalica e succlavia,vena,SN∅,autre
+IT100015,c26,la confluenza tra vena cefalica e succlavia,confluenza,SNdef,autre
+IT100015,c27,succlavia,succlavia,SN∅,autre
+IT100015,c33,una stenosi pre-occlusiva a la confluenza tra vena cefalica e succlavia che,stenosi,SNind,OD
+IT100015,c36,PTA a 7 mm,PTA,Np,Obl
+IT100015,c37,9 mm a 14 atm,mm,SNnum,autre
+IT100015,c39,calibro vascolare,calibro,SN∅,autre
+IT100015,c38,l’ adeguato ripristino di il calibro vascolare,ripristino,SNdef,OD
+IT100015,c41,100 mg/die di acido acetilsalicilico,mg/die,SNnum,Obl
+IT100015,c40,terapia antiaggregante con 100 mg/die di acido acetilsalicilico,terapia,SN∅,Suj
+IT100015,c43,novembre 2008,novembre,SNnum,autre
+IT100015,c42,Il controllo ecodoppler di il novembre 2008,controllo,SNdef,Suj
+IT100015,c33,la stenosi precedentemente dilatata,stenosi,SNdef,autre
+IT100015,c33,che,che,Pro,Suj
+IT100015,c36,PTA,PTA,Np,Obl
+IT100015,c44,"recidiva di la stenosi precedentemente dilatata che veniva sottoposta nuovamente a PTA mediante cateteri a palloncino da 7 e 8 mm sino a 30 atm e successivamente da 10 mm , con buon esito angiografico",recidiva,SN∅,OD
+IT100015,c45,il marzo 2009,marzo,SNdef,Obl
+IT100015,c20,l’ ecodoppler,ecodoppler,SNdef,Suj
+IT100015,c17,segni di recidiva stenotica,segni,SN∅,OD
+IT100015,c46,palloni ad alta pressione ( Conquest da 7 e 8 mm gonfiati fino a 30 atmosfere,palloni,SN∅,autre
+IT100015,c47,l’ angioradiologo,angioradiologo,SNdef,Suj
+IT100015,c48,stent convenzionale a 9 mm,stent,SN∅,autre
+IT100015,c40,La terapia antiaggregante,terapia,SNdef,Suj
+IT100015,c49,doppia copertura farmacologica ( acido acetilsalicilico 100 mg,copertura,SN∅,Obl
+IT100015,c50,ticlopidina 250 mg die,ticlopidina,SN∅,autre
+IT100015,c51,maggio 2011,maggio,SNnum,Obl
+IT100015,c52,i controlli ecodoppler,controlli,SNdef,Suj
+IT100015,c48,lo stent,stent,SNdef,autre
+IT100015,c55,l’ accesso,accesso,SNdef,autre
+IT100015,c54,flusso di l’ accesso,flusso,SN∅,autre
+IT100015,c56,il metodo di la diluizione di gli ultrasuoni ( Transonic ),metodo,SNdef,Obl
+IT100015,c53,La misurazione di il flusso di l’ accesso eseguita con il metodo di la diluizione di gli ultrasuoni ( Transonic ),misurazione,SNdef,Suj
+IT100015,c9,la prima procedura,procedura,SNdef,Obl
+IT100015,c10,la FAV,FAV,Np,autre
+IT100015,c57,un’ elevata portata di la FAV,portata,SNind,OD
+IT100027,c2,il dicembre 2006,dicembre,SNdef,autre
+IT100027,c1,"Un paziente di 83 anni in il dicembre 2006 ,",paziente,SNind,Suj
+IT100027,c4,carcinoma prostatico,carcinoma,SN∅,autre
+IT100027,c3,diagnosi di carcinoma prostatico su biopsia,diagnosi,SN∅,OD
+IT100027,c5,biopsia,biopsia,SN∅,Obl
+IT100027,c6,disturbi urinari,disturbi,SN∅,autre
+IT100027,c3,la diagnosi,diagnosi,SNdef,autre
+IT100027,c7,il momento di la diagnosi,momento,SNdef,Obl
+IT100027,c8,i parametri laboratoristico -strumentali,parametri,SNdef,Suj
+IT100027,c9,PSA 127 ng/ml,PSA,Np,autre
+IT100027,c10,il Gleason score,Gleason,Np,autre
+IT100027,c12,la scintigrafia ossea,scintigrafia,SNdef,Obl
+IT100027,c11,due lesioni ossee evidenti a la scintigrafia ossea,lesioni,SNnum,autre
+IT100027,c13,la TC,TC,Np,Suj
+IT100027,c14,ripetizioni viscerali,ripetizioni,SN∅,Obl
+IT100027,c1,Paziente asintomatico,Paziente,SN∅,autre
+IT100027,c15,l’ anamnesi patologica,anamnesi,SNdef,Obl
+IT100027,c17,terapia medica,terapia,SN∅,Obl
+IT100027,c16,ipertensione arteriosa controllata con terapia medica,ipertensione,SN∅,Suj
+IT100027,c3,la diagnosi,diagnosi,SNdef,autre
+IT100027,c7,il momento di la diagnosi,momento,SNdef,Obl
+IT100027,c19,analoghi LH - RH ( Luteinizing Hormone - Releasing Hormone ),analoghi,SN∅,Obl
+IT100027,c18,terapia continua con analoghi LH - RH ( Luteinizing Hormone - Releasing Hormone ),terapia,SN∅,Obl
+IT100027,c9,PSA,PSA,Np,autre
+IT100027,c20,nadir di 10 ng / ml,nadir,SN∅,autre
+IT100027,c21,6 mesi,mesi,SNnum,autre
+IT100027,c9,Il PSA di il paziente,PSA,Np,Suj
+IT100027,c1,paziente,paziente,SN∅,autre
+IT100027,c22,una nuova scintigrafia ossea,scintigrafia,SNind,Suj
+IT100027,c24,nuove metasta si ossee,metasta,SN∅,autre
+IT100027,c23,la comparsa di nuove metasta si ossee,comparsa,SNdef,OD
+IT100027,c13,la TC,TC,Np,Suj
+IT100027,c14,lesioni viscerali,lesioni,SN∅,Obl
+IT100027,c25,la fosfata si alcalina,fosfata,SNdef,Suj
+IT100027,c1,continuava,continuava,Autre,autre
+IT100027,c26,buone condizioni cliniche generali,condizioni,SN∅,autre
+IT100027,c26,cui,cui,Pro,Obl
+IT100027,c27,la valutazione geriatrica,valutazione,SNdef,Obl
+IT100027,c30,docetaxel,docetaxel,SN∅,autre
+IT100027,c29,ritrattamenti con docetaxel ( 75 mg/mq/ogni 3 settimane,ritrattamenti,SN∅,autre
+IT100027,c31,ottobre 2007,ottobre,SNnum,autre
+IT100027,c32,novembre 2011,novembre,SNnum,autre
+IT100027,c28,"4 serie , di 12 cicli ciascuno , di ritrattamenti con docetaxel ( 75 mg/mq/ogni 3 settimane ) da ottobre 2007 a novembre 2011",serie,SNnum,Obl
+IT100027,c33,2011,2011,Autre,autre
+IT100027,c28,che,che,Pro,OD
+IT100027,c1,il paziente,paziente,SNdef,Suj
+IT100027,c34,tossicità di rilievo,tossicità,SN∅,Obl
+IT100027,c35,una buona qualità di vita,qualità,SNind,Obl
+IT100027,c36,il nadir di il PSA,nadir,SNdef,Suj
+IT100027,c9,PSA,PSA,Np,autre
+IT100027,c38,fase III,fase,SN∅,autre
+IT100027,c30,docetaxel,docetaxel,SN∅,autre
+IT100027,c39,mitoxantrone,mitoxantrone,SN∅,autre
+IT100027,c37,"Lo studio clinico randomizzato di fase III TAX 327 , docetaxel verso mitoxantrone ,",studio,SNdef,Suj
+IT100027,c30,docetaxel trisettimanale,docetaxel,SN∅,autre
+IT100027,c41,i pazienti con mCRPC,pazienti,SNdef,Obl
+IT100027,c40,un beneficio di sopravvivenza di il docetaxel trisettimanale in i pazienti con mCRPC,beneficio,SNind,OD
+IT100027,c42,mCRPC,mCRPC,Np,autre
+IT100027,c30,docetaxel trisettimanale verso mitoxantrone,docetaxel,SN∅,Obl
+IT100027,c43,L’ analisi per sottogruppi di i pazienti trattati con docetaxel trisettimanale verso mitoxantrone,analisi,SNdef,Suj
+IT100027,c39,mitoxantrone,mitoxantrone,SN∅,autre
+IT100027,c45,età ≥ 75 anni ( 20 % ),età,SN∅,autre
+IT100027,c40,un beneficio in termini di sopravvivenza,beneficio,SNind,OD
+IT100027,c46,pazienti di età < 75 anni,pazienti,SN∅,Obl
+IT100027,c44,i pazienti di età ≥ 75 anni ( 20 % ) avevano un beneficio in termini di sopravvivenza sovrapponibile a i pazienti di età < 75 anni,avevano,Autre,autre
+IT100027,c28,il trattamento con docetaxel,trattamento,SNdef,Obl
+IT100027,c30,docetaxel,docetaxel,SN∅,autre
+IT100027,c32,il novembre 2011,novembre,SNdef,Obl
+IT100027,c33,2011,2011,Autre,autre
+IT100027,c1,il paziente,paziente,SNdef,Suj
+IT100027,c47,quattro nuove lesioni ossee,lesioni,SNnum,Suj
+IT100027,c12,una scintigrafia ossea,scintigrafia,SNind,Obl
+IT100027,c14,le lesioni viscerali,lesioni,SNdef,Suj
+IT100027,c9,il PSA,PSA,Np,Suj
+IT100027,c48,il dicembre 2011 ( 88 anni ),dicembre,SNdef,Obl
+IT100027,c1,il paziente,paziente,SNdef,Suj
+IT100027,c50,cabazitaxel,cabazitaxel,SN∅,Obl
+IT100027,c49,"il programma italiano di accesso allargato a il cabazitaxel ( early access program , EAP )",programma,SNdef,Obl
+IT100027,c9,il PSA,PSA,Np,Suj
+IT100027,c51,l’ ultimo mese,mese,SNdef,Obl
+IT100027,c52,il performance status,performance,SNdef,Suj
+IT100027,c53,ECOG ( Eastern Cooperative Oncology Group ),ECOG,Np,autre
+IT100027,c50,cabazitaxel,cabazitaxel,SN∅,autre
+IT100027,c54,terapia con cabazitaxel ( 25 mg/mq/ogni 3 settimane ),terapia,SN∅,Obl
+IT100027,c55,prednisone 10 mg/die,prednisone,SN∅,autre
+IT100027,c48,dicembre 2011,dicembre,SNnum,Obl
+IT100027,c1,il paziente,paziente,SNdef,Suj
+IT100027,c56,17 cicli di cabazitaxel,cicli,SNnum,OD
+IT100027,c50,cabazitaxel,cabazitaxel,SN∅,autre
+IT100027,c9,il PSA,PSA,Np,Suj
+IT100027,c12,la scintigrafia ossea,scintigrafia,SNdef,Suj
+IT100027,c54,Il trattamento,trattamento,SNdef,Suj
+IT100027,c34,tossicità,tossicità,SN∅,Obl
+IT100027,c1,il paziente,paziente,SNdef,autre
+IT100027,c57,i primi cicli,cicli,SNdef,Suj
+IT100027,c58,fattori di crescita G-CSF ( granulocyte colonystimulating factor ),fattori,SN∅,autre
+IT100027,c59,"Lo studio randomizzato di fase III TROPIC , che",studio,SNdef,Suj
+IT100027,c50,il cabazitaxel,cabazitaxel,SNdef,OD
+IT100027,c39,il mitoxantrone,mitoxantrone,SNdef,autre
+IT100027,c60,un beneficio di sopravvivenza,beneficio,SNind,OD
+IT100027,c50,cabazitaxel,cabazitaxel,SN∅,autre
+IT100027,c42,mCRPC,mCRPC,Np,autre
+IT100027,c54,il trattamento chemioterapico con docetaxel,trattamento,SNdef,autre
+IT100027,c41,i pazienti con mCRPC in progressione di malattia dopo o durante il trattamento chemioterapico con docetaxel,pazienti,SNdef,Obl
+IT100027,c30,docetaxel,docetaxel,SN∅,autre
+IT100027,c50,il cabazitaxel,cabazitaxel,SNdef,Suj
+IT100027,c42,la patologia neoplastica,patologia,SNdef,Obl
+IT100027,c61,dolore relativo a la patologia neoplastica,dolore,SN∅,autre
+IT100027,c62,altre chemioterapie,chemioterapie,SN∅,Obl
+IT100027,c63,neuropatia periferica,neuropatia,SN∅,autre
+IT100027,c59,lo studio TROPIC,studio,SNdef,Obl
+IT100027,c45,età ≥ 75 anni ( 18 % ),età,SN∅,autre
+IT100027,c50,cabazitaxel,cabazitaxel,SN∅,autre
+IT100027,c46,i pazienti di età inferiore a i 75 anni,pazienti,SNdef,Obl
+IT100027,c60,un beneficio di sopravvivenza da il cabazitaxel sovrapponibile a quello riportato in i pazienti di età inferiore a i 75 anni,beneficio,SNind,Suj
+IT100027,c44,"i pazienti di età ≥ 75 anni ( 18 % ) , un beneficio di sopravvivenza da il cabazitaxel sovrapponibile a quello riportato in i pazienti di età inferiore a i 75 anni",pazienti,SNdef,Obl
+IT100027,c59,Il trial,trial,SNdef,Suj
+IT100027,c64,neutropenia,neutropenia,SN∅,autre
+IT100027,c45,età > 75 anni,età,SN∅,autre
+IT100027,c65,i pazienti anziani con età > 75 anni,pazienti,SNdef,autre
+IT100027,c66,la profilassi primaria impiegando G-CSF,profilassi,SNdef,Obl
+IT100027,c58,G-CSF,G-CSF,Np,OD
+IT100027,c67,Il decesso di il paziente,decesso,SNdef,Suj
+IT100027,c1,paziente,paziente,SN∅,autre
+IT100027,c68,l’ ultima somministrazione di cabazitaxel,somministrazione,SNdef,Obl
+IT100027,c50,cabazitaxel,cabazitaxel,SN∅,autre
+IT100027,c69,cause naturali,cause,SN∅,Obl

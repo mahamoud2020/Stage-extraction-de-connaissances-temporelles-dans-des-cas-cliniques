@@ -1,0 +1,443 @@
+# newdoc id = EN100046
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = A 33-year man working in Gulf, presented with hemetemesis 15 days ago in the month of February this year.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+2	33	33	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	0	punct	_	SpaceAfter=No
+4	year	year	NOUN	NN	Number=Sing	0	compound	_	_
+5	man	man	NOUN	NN	Number=Sing	0	nsubj	_	_
+6	working	work	VERB	VBG	VerbForm=Ger	0	acl	_	_
+7	in	in	ADP	IN	_	0	case	_	_
+8	Gulf	Gulf	PROPN	NNP	Number=Sing	0	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	0	punct	_	_
+10	presented	present	VERB	VBD	Tense=Past|VerbForm=Part	0	root	_	_
+11	with	with	ADP	IN	_	0	case	_	_
+12	hemetemesis	hemetemesis	PROPN	NNP	Number=Sing	0	obl	_	_
+13	15	15	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+14	days	day	NOUN	NNS	Number=Plur	0	obl:npmod	_	_
+15	ago	ago	ADV	RB	_	0	advmod	_	_
+16	in	in	ADP	IN	_	0	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+18	month	month	NOUN	NN	Number=Sing	0	obl	_	_
+19	of	of	ADP	IN	_	0	case	_	_
+20	February	February	PROPN	NNP	Number=Sing	0	nmod	_	_
+21	this	this	DET	DT	Number=Sing|PronType=Dem	0	det	_	_
+22	year	year	NOUN	NN	Number=Sing	0	obl:tmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 2
+# text = This was preceeded by low grade fever, bone pain, generalised bodyache, low back ache and generalised macular skin rashes.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+3	preceeded	preceed	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	by	by	ADP	IN	_	0	case	_	_
+5	low	low	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	grade	grade	NOUN	NN	Number=Sing	0	compound	_	_
+7	fever	fever	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	0	punct	_	_
+9	bone	bone	NOUN	NN	Number=Sing	0	compound	_	_
+10	pain	pain	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	0	punct	_	_
+12	generalised	generalise	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+13	bodyache	bodyache	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	0	punct	_	_
+15	low	low	ADJ	JJ	Degree=Pos	0	amod	_	_
+16	back	back	NOUN	NN	Number=Sing	0	compound	_	_
+17	ache	ache	NOUN	NN	Number=Sing	0	conj	_	_
+18	and	and	CCONJ	CC	_	0	cc	_	_
+19	generalised	generalise	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+20	macular	macular	ADJ	JJ	Degree=Pos	0	amod	_	_
+21	skin	skin	NOUN	NN	Number=Sing	0	compound	_	_
+22	rashes	rash	NOUN	NNS	Number=Plur	0	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 3
+# text = There was no history of abdominal pain, jaundice or features of chronic liver disease.
+1	There	there	PRON	EX	_	0	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	0	det	_	_
+4	history	history	NOUN	NN	Number=Sing	0	nsubj	_	_
+5	of	of	ADP	IN	_	0	case	_	_
+6	abdominal	abdominal	ADJ	JJ	Degree=Pos	0	amod	_	_
+7	pain	pain	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	0	punct	_	_
+9	jaundice	jaundice	NOUN	NN	Number=Sing	0	conj	_	_
+10	or	or	CCONJ	CC	_	0	cc	_	_
+11	features	feature	NOUN	NNS	Number=Plur	0	conj	_	_
+12	of	of	ADP	IN	_	0	case	_	_
+13	chronic	chronic	ADJ	JJ	Degree=Pos	0	amod	_	_
+14	liver	liver	NOUN	NN	Number=Sing	0	compound	_	_
+15	disease	disease	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 4
+# text = He gave history of intake of analgesics for backache.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	history	history	NOUN	NN	Number=Sing	0	obj	_	_
+4	of	of	ADP	IN	_	0	case	_	_
+5	intake	intake	NOUN	NN	Number=Sing	0	nmod	_	_
+6	of	of	ADP	IN	_	0	case	_	_
+7	analgesics	analgesic	NOUN	NNS	Number=Plur	0	nmod	_	_
+8	for	for	ADP	IN	_	0	case	_	_
+9	backache	backache	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 5
+# text = After symptomatic treatment he returned back.
+1	After	after	ADP	IN	_	0	case	_	_
+2	symptomatic	symptomatic	ADJ	JJ	Degree=Pos	0	amod	_	_
+3	treatment	treatment	NOUN	NN	Number=Sing	0	obl	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+5	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	back	back	ADV	RB	_	0	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 6
+# text = He came to our OPD with Complete blood count which showed a haemoglobin of 8g/dl, total count 6700/mm3 platelet count 24000/mm3 and ESR 55mm/hr.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	0	case	_	_
+4	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+5	OPD	opd	NOUN	NN	Number=Sing	0	obl	_	_
+6	with	with	ADP	IN	_	0	case	_	_
+7	Complete	complete	ADJ	JJ	Degree=Pos	0	amod	_	_
+8	blood	blood	NOUN	NN	Number=Sing	0	compound	_	_
+9	count	count	NOUN	NN	Number=Sing	0	obl	_	_
+10	which	which	PRON	WDT	PronType=Rel	0	nsubj	_	_
+11	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	acl:relcl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+13	haemoglobin	haemoglobin	NOUN	NN	Number=Sing	0	obj	_	_
+14	of	of	ADP	IN	_	0	case	_	_
+15	8g	8g	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+16	/	/	SYM	,	_	0	cc	_	SpaceAfter=No
+17	dl	dl	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	0	punct	_	_
+19	total	total	ADJ	JJ	Degree=Pos	0	amod	_	_
+20	count	count	NOUN	NN	Number=Sing	0	conj	_	_
+21	6700	6700	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+22	/	/	SYM	,	_	0	cc	_	SpaceAfter=No
+23	mm3	mm3	NOUN	NN	Number=Sing	0	compound	_	_
+24	platelet	platelet	NOUN	NN	Number=Sing	0	compound	_	_
+25	count	count	NOUN	NN	Number=Sing	0	conj	_	_
+26	24000	24000	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+27	/	/	SYM	,	_	0	cc	_	SpaceAfter=No
+28	mm3	mm3	NOUN	NN	Number=Sing	0	conj	_	_
+29	and	and	CCONJ	CC	_	0	cc	_	_
+30	ESR	esr	NOUN	NN	Number=Sing	0	conj	_	_
+31	55	55	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+32	mm	mm	NOUN	NN	Number=Sing	0	appos	_	SpaceAfter=No
+33	/	/	SYM	SYM	_	0	case	_	SpaceAfter=No
+34	hr	hr	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 7
+# text = On examination patient was pale with non pruritic macular rashes and mild splenomegaly.
+1	On	on	ADP	IN	_	0	case	_	_
+2	examination	examination	NOUN	NN	Number=Sing	0	compound	_	_
+3	patient	patient	NOUN	NN	Number=Sing	0	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	pale	pale	ADJ	JJ	Degree=Pos	0	root	_	_
+6	with	with	ADP	IN	_	0	case	_	_
+7	non	non	ADV	RB	_	0	advmod	_	_
+8	pruritic	pruritic	ADJ	JJ	Degree=Pos	0	amod	_	_
+9	macular	macular	ADJ	JJ	Degree=Pos	0	amod	_	_
+10	rashes	rash	NOUN	NNS	Number=Plur	0	obl	_	_
+11	and	and	CCONJ	CC	_	0	cc	_	_
+12	mild	mild	ADJ	JJ	Degree=Pos	0	amod	_	_
+13	splenomegaly	splenomegaly	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 8
+# text = Residing in Middle East with background history of fever, backache, skin rash, splenomegaly and a low platelet count possibility of atypical infection like Brucellosis with NSAID induced gi bleed was considered.
+1	Residing	reside	VERB	VBG	VerbForm=Ger	0	advcl	_	_
+2	in	in	ADP	IN	_	0	case	_	_
+3	Middle	Middle	ADJ	NNP	Degree=Pos	0	amod	_	_
+4	East	East	PROPN	NNP	Number=Sing	0	obl	_	_
+5	with	with	ADP	IN	_	0	case	_	_
+6	background	background	NOUN	NN	Number=Sing	0	compound	_	_
+7	history	history	NOUN	NN	Number=Sing	0	obl	_	_
+8	of	of	ADP	IN	_	0	case	_	_
+9	fever	fever	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	0	punct	_	_
+11	backache	backache	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	0	punct	_	_
+13	skin	skin	NOUN	NN	Number=Sing	0	compound	_	_
+14	rash	rash	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	0	punct	_	_
+16	splenomegaly	splenomegaly	NOUN	NN	Number=Sing	0	conj	_	_
+17	and	and	CCONJ	CC	_	0	cc	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+19	low	low	ADJ	JJ	Degree=Pos	0	amod	_	_
+20	platelet	platelet	NOUN	NN	Number=Sing	0	compound	_	_
+21	count	count	NOUN	NN	Number=Sing	0	conj	_	_
+22	possibility	possibility	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+23	of	of	ADP	IN	_	0	case	_	_
+24	atypical	atypical	ADJ	JJ	Degree=Pos	0	amod	_	_
+25	infection	infection	NOUN	NN	Number=Sing	0	nmod	_	_
+26	like	like	ADP	IN	_	0	case	_	_
+27	Brucellosis	Brucellosis	PROPN	NNP	Number=Sing	0	nmod	_	_
+28	with	with	ADP	IN	_	0	case	_	_
+29	NSAID	NSAID	PROPN	NNP	Number=Sing	0	compound	_	_
+30	induced	induce	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+31	gi	gi	NOUN	NN	Number=Sing	0	compound	_	_
+32	bleed	bleed	NOUN	NN	Number=Sing	0	nmod	_	_
+33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+34	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 9
+# text = He was admitted for further evaluation and endoscopy done showed a nodular ulcerative lesions in the antrum of stomach and histopathologic examination confirmed adenocarcinoma of stomach.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+3	admitted	admit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	for	for	ADP	IN	_	0	case	_	_
+5	further	further	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	evaluation	evaluation	NOUN	NN	Number=Sing	0	obl	_	_
+7	and	and	CCONJ	CC	_	0	cc	_	_
+8	endoscopy	endoscopy	NOUN	NN	Number=Sing	0	nsubj	_	_
+9	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	acl	_	_
+10	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	conj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+12	nodular	nodular	ADJ	JJ	Degree=Pos	0	amod	_	_
+13	ulcerative	ulcerative	ADJ	JJ	Degree=Pos	0	amod	_	_
+14	lesions	lesion	NOUN	NNS	Number=Plur	0	obj	_	_
+15	in	in	ADP	IN	_	0	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+17	antrum	antrum	NOUN	NN	Number=Sing	0	nmod	_	_
+18	of	of	ADP	IN	_	0	case	_	_
+19	stomach	stomach	NOUN	NN	Number=Sing	0	nmod	_	_
+20	and	and	CCONJ	CC	_	0	cc	_	_
+21	histopathologic	histopathologic	ADJ	JJ	Degree=Pos	0	amod	_	_
+22	examination	examination	NOUN	NN	Number=Sing	0	nsubj	_	_
+23	confirmed	confirm	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	conj	_	_
+24	adenocarcinoma	adenocarcinoma	NOUN	NN	Number=Sing	0	obj	_	_
+25	of	of	ADP	IN	_	0	case	_	_
+26	stomach	stomach	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 10
+# text = Liver function tests showed a high ALP (1536 U/l), elevated INR (2.15) though bilirubin, transaminases and serum proteins were normal.
+1	Liver	liver	NOUN	NN	Number=Sing	0	compound	_	_
+2	function	function	NOUN	NN	Number=Sing	0	compound	_	_
+3	tests	test	NOUN	NNS	Number=Plur	0	nsubj	_	_
+4	showed	show	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+6	high	high	ADJ	JJ	Degree=Pos	0	amod	_	_
+7	ALP	alp	NOUN	NN	Number=Sing	0	obj	_	_
+8	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+9	1536	1536	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+10	U/	u/	ADP	IN	_	0	case	_	SpaceAfter=No
+11	l	l	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	0	punct	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	0	punct	_	_
+14	elevated	elevate	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+15	INR	inr	NOUN	NN	Number=Sing	0	conj	_	_
+16	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+17	2.15	2.15	NUM	CD	NumForm=Digit|NumType=Card	0	appos	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	0	punct	_	_
+19	though	though	SCONJ	IN	_	0	mark	_	_
+20	bilirubin	bilirubin	NOUN	NN	Number=Sing	0	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	0	punct	_	_
+22	transaminases	transaminase	NOUN	NNS	Number=Plur	0	conj	_	_
+23	and	and	CCONJ	CC	_	0	cc	_	_
+24	serum	serum	NOUN	NN	Number=Sing	0	compound	_	_
+25	proteins	protein	NOUN	NNS	Number=Plur	0	conj	_	_
+26	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+27	normal	normal	ADJ	JJ	Degree=Pos	0	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 11
+# text = Brucella agglutination test was negative.
+1	Brucella	Brucella	PROPN	NNP	Number=Sing	0	compound	_	_
+2	agglutination	agglutination	NOUN	NN	Number=Sing	0	compound	_	_
+3	test	test	NOUN	NN	Number=Sing	0	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	negative	negative	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 12
+# text = Xray Chest was normal.
+1	Xray	Xray	PROPN	NNP	Number=Sing	0	compound	_	_
+2	Chest	Chest	PROPN	NNP	Number=Sing	0	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+4	normal	normal	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 13
+# text = Ultrasound of abdomen showed normal echotexture of liver, no SOL, normal portal vein and no IHBRD.
+1	Ultrasound	ultrasound	NOUN	NN	Number=Sing	0	nsubj	_	_
+2	of	of	ADP	IN	_	0	case	_	_
+3	abdomen	abdomen	NOUN	NN	Number=Sing	0	nmod	_	_
+4	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	normal	normal	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	echotexture	echotexture	NOUN	NN	Number=Sing	0	obj	_	_
+7	of	of	ADP	IN	_	0	case	_	_
+8	liver	liver	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	0	punct	_	_
+10	no	no	DET	DT	_	0	det	_	_
+11	SOL	sol	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	0	punct	_	_
+13	normal	normal	ADJ	JJ	Degree=Pos	0	amod	_	_
+14	portal	portal	NOUN	NN	Number=Sing	0	compound	_	_
+15	vein	vein	NOUN	NN	Number=Sing	0	conj	_	_
+16	and	and	CCONJ	CC	_	0	cc	_	_
+17	no	no	DET	DT	_	0	det	_	_
+18	IHBRD	ihbrd	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 14
+# text = CT scan of the abdomen revealed gross pylorus thickening with regional lymphadenopathy and skeletal metastasis with sclerotic foci involving vertebrae and pelvic bones and lytic areas in bilateral iliac blades with no liver metastasis or ascites.
+1	CT	CT	NOUN	NN	Number=Sing	0	compound	_	_
+2	scan	scan	NOUN	NN	Number=Sing	0	nsubj	_	_
+3	of	of	ADP	IN	_	0	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+5	abdomen	abdomen	NOUN	NN	Number=Sing	0	nmod	_	_
+6	revealed	reveal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	gross	gross	ADJ	JJ	Degree=Pos	0	amod	_	_
+8	pylorus	pylorus	NOUN	NN	Number=Sing	0	compound	_	_
+9	thickening	thickening	NOUN	NN	Number=Sing	0	obj	_	_
+10	with	with	ADP	IN	_	0	case	_	_
+11	regional	regional	ADJ	JJ	Degree=Pos	0	amod	_	_
+12	lymphadenopathy	lymphadenopathy	NOUN	NN	Number=Sing	0	nmod	_	_
+13	and	and	CCONJ	CC	_	0	cc	_	_
+14	skeletal	skeletal	ADJ	JJ	Degree=Pos	0	amod	_	_
+15	metastasis	metastasis	NOUN	NN	Number=Sing	0	conj	_	_
+16	with	with	ADP	IN	_	0	case	_	_
+17	sclerotic	sclerotic	ADJ	JJ	Degree=Pos	0	amod	_	_
+18	foci	foci	NOUN	NN	Number=Sing	0	nmod	_	_
+19	involving	involve	VERB	VBG	VerbForm=Ger	0	acl	_	_
+20	vertebrae	vertebrae	NOUN	NN	Number=Sing	0	compound	_	_
+21	and	and	CCONJ	CC	_	0	cc	_	_
+22	pelvic	pelvic	ADJ	JJ	Degree=Pos	0	conj	_	_
+23	bones	bone	NOUN	NNS	Number=Plur	0	obj	_	_
+24	and	and	CCONJ	CC	_	0	cc	_	_
+25	lytic	lytic	ADJ	JJ	Degree=Pos	0	amod	_	_
+26	areas	area	NOUN	NNS	Number=Plur	0	conj	_	_
+27	in	in	ADP	IN	_	0	case	_	_
+28	bilateral	bilateral	ADJ	JJ	Degree=Pos	0	amod	_	_
+29	iliac	iliac	NOUN	NN	Degree=Pos	0	compound	_	_
+30	blades	blade	NOUN	NNS	Number=Plur	0	nmod	_	_
+31	with	with	ADP	IN	_	0	case	_	_
+32	no	no	DET	DT	_	0	det	_	_
+33	liver	liver	NOUN	NN	Number=Sing	0	compound	_	_
+34	metastasis	metastasis	NOUN	NN	Number=Sing	0	nmod	_	_
+35	or	or	CCONJ	CC	_	0	cc	_	_
+36	ascites	ascite	NOUN	NNS	Number=Plur	0	conj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 15
+# text = A skeletal survey was done which showed lytic lesions in the iliac and femoral bones.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+2	skeletal	skeletal	ADJ	JJ	Degree=Pos	0	amod	_	_
+3	survey	survey	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	which	which	PRON	WDT	PronType=Rel	0	nsubj	_	_
+7	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	advcl:relcl	_	_
+8	lytic	lytic	ADJ	JJ	Degree=Pos	0	amod	_	_
+9	lesions	lesion	NOUN	NNS	Number=Plur	0	obj	_	_
+10	in	in	ADP	IN	_	0	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+12	iliac	iliac	NOUN	NN	Number=Sing	0	compound	_	_
+13	and	and	CCONJ	CC	_	0	cc	_	_
+14	femoral	femoral	ADJ	JJ	Degree=Pos	0	conj	_	_
+15	bones	bone	NOUN	NNS	Number=Plur	0	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 16
+# text = Bone marrow aspirate showed decreased red cells and platelets and marrow biopsy done was reported as metastasis from adenocarcinoma.
+1	Bone	bone	NOUN	NN	Number=Sing	0	compound	_	_
+2	marrow	marrow	NOUN	NN	Number=Sing	0	compound	_	_
+3	aspirate	aspirate	NOUN	NN	Number=Sing	0	nsubj	_	_
+4	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	decreased	decrease	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+6	red	red	ADJ	JJ	Degree=Pos	0	amod	_	_
+7	cells	cell	NOUN	NNS	Number=Plur	0	obj	_	_
+8	and	and	CCONJ	CC	_	0	cc	_	_
+9	platelets	platelet	NOUN	NNS	Number=Plur	0	conj	_	_
+10	and	and	CCONJ	CC	_	0	cc	_	_
+11	marrow	marrow	NOUN	NN	Number=Sing	0	compound	_	_
+12	biopsy	biopsy	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+13	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	acl	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+15	reported	report	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+16	as	as	ADP	IN	_	0	case	_	_
+17	metastasis	metastasis	NOUN	NN	Number=Sing	0	obl	_	_
+18	from	from	ADP	IN	_	0	case	_	_
+19	adenocarcinoma	adenocarcinoma	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 17
+# text = Coagulation profile done was suggestive of DIC due to the raised levels of FDP (5,170 ng/dl) and a low fibrinogen \(152mg/dl).
+1	Coagulation	coagulation	NOUN	NN	Number=Sing	0	compound	_	_
+2	profile	profile	NOUN	NN	Number=Sing	0	nsubj	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	acl	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	suggestive	suggestive	ADJ	JJ	Degree=Pos	0	root	_	_
+6	of	of	ADP	IN	_	0	case	_	_
+7	DIC	dic	NOUN	NN	Number=Sing	0	obl	_	_
+8	due	due	ADP	IN	_	0	case	_	_
+9	to	to	ADP	IN	_	0	fixed	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+11	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+12	levels	level	NOUN	NNS	Number=Plur	0	obl	_	_
+13	of	of	ADP	IN	_	0	case	_	_
+14	FDP	fdp	NOUN	NN	Number=Sing	0	nmod	_	_
+15	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+16	5,170	5170	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+17	ng	ng	NOUN	NNS	Number=Plur	0	appos	_	SpaceAfter=No
+18	/	/	SYM	SYM	_	0	cc	_	SpaceAfter=No
+19	dl	dl	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	0	punct	_	_
+21	and	and	CCONJ	CC	_	0	cc	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+23	low	low	ADJ	JJ	Degree=Pos	0	amod	_	_
+24	fibrinogen	fibrinogen	NOUN	NN	Number=Sing	0	compound	_	_
+25	\	\	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+26	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+27	152	152	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+28	mg	mg	NOUN	NNS	Number=Sing	0	appos	_	SpaceAfter=No
+29	/	/	SYM	SYM	_	0	case	_	SpaceAfter=No
+30	dl	dl	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	-RRB-	_	0	punct	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 18
+# text = He was transferred to Medical Oncology department for subsequent management and was treated with chemotherapy.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+3	transferred	transfer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	to	to	ADP	IN	_	0	case	_	_
+5	Medical	medical	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	Oncology	oncology	NOUN	NN	Number=Sing	0	compound	_	_
+7	department	department	NOUN	NN	Number=Sing	0	obl	_	_
+8	for	for	ADP	IN	_	0	case	_	_
+9	subsequent	subsequent	ADJ	JJ	Degree=Pos	0	amod	_	_
+10	management	management	NOUN	NN	Number=Sing	0	obl	_	_
+11	and	and	CCONJ	CC	_	0	cc	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+13	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+14	with	with	ADP	IN	_	0	case	_	_
+15	chemotherapy	chemotherapy	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 19
+# text = He succumbed to his illness within 10 months of diagnosis.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+2	succumbed	succumb	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	0	case	_	_
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+5	illness	illness	NOUN	NN	Number=Sing	0	obl	_	_
+6	within	within	ADP	IN	_	0	case	_	_
+7	10	10	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+8	months	month	NOUN	NNS	Number=Plur	0	obl	_	_
+9	of	of	ADP	IN	_	0	case	_	_
+10	diagnosis	diagnosis	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	0	punct	_	SpacesAfter=\r\n
+

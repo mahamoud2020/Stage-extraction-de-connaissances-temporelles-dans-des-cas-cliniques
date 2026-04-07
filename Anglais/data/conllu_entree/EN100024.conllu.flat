@@ -1,0 +1,670 @@
+# newdoc id = EN100024
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = The patient referred to our unit for consideration for coronary artery bypass grafting was a 56 year old teacher who had been managed for Ischaemic Heart Disease (IHD) at a private cardiology facility in Lagos.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	NN	Number=Sing	0	nsubj	_	_
+3	referred	refer	VERB	VBN	Tense=Past|VerbForm=Part	0	acl	_	_
+4	to	to	ADP	IN	_	0	case	_	_
+5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+6	unit	unit	NOUN	NN	Number=Sing	0	obl	_	_
+7	for	for	ADP	IN	_	0	case	_	_
+8	consideration	consideration	NOUN	NN	Number=Sing	0	nmod	_	_
+9	for	for	ADP	IN	_	0	case	_	_
+10	coronary	coronary	ADJ	JJ	Degree=Pos	0	amod	_	_
+11	artery	artery	NOUN	NN	Number=Sing	0	compound	_	_
+12	bypass	bypass	NOUN	NN	Number=Sing	0	compound	_	_
+13	grafting	grafting	NOUN	NN	Number=Sing	0	nmod	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+16	56	56	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+17	year	year	NOUN	NN	Number=Sing	0	obl:npmod	_	_
+18	old	old	ADJ	JJ	Degree=Pos	0	amod	_	_
+19	teacher	teacher	NOUN	NN	Number=Sing	0	root	_	_
+20	who	who	PRON	WP	PronType=Rel	0	nsubj:pass	_	_
+21	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux	_	_
+22	been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	aux:pass	_	_
+23	managed	manage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+24	for	for	ADP	IN	_	0	case	_	_
+25	Ischaemic	Ischaemic	ADJ	NNP	Degree=Pos	0	amod	_	_
+26	Heart	Heart	PROPN	NNP	Number=Sing	0	compound	_	_
+27	Disease	Disease	PROPN	NNP	Number=Sing	0	obl	_	_
+28	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+29	IHD	IHD	PROPN	NNP	Number=Sing	0	appos	_	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	_	0	punct	_	_
+31	at	at	ADP	IN	_	0	case	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+33	private	private	ADJ	JJ	Degree=Pos	0	amod	_	_
+34	cardiology	cardiology	NOUN	NN	Number=Sing	0	compound	_	_
+35	facility	facility	NOUN	NN	Number=Sing	0	obl	_	_
+36	in	in	ADP	IN	_	0	case	_	_
+37	Lagos	Lagos	PROPN	NNP	Number=Sing	0	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 2
+# text = She had presented in July 2009 with a history suggestive of IHD and angina class III (Canadian Cardiovascular society classification) which was worsening despite medical therapy.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux	_	_
+3	presented	present	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	IN	_	0	case	_	_
+5	July	July	PROPN	NNP	Number=Sing	0	obl	_	_
+6	2009	2009	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+7	with	with	ADP	IN	_	0	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+9	history	history	NOUN	NN	Number=Sing	0	obl	_	_
+10	suggestive	suggestive	ADJ	JJ	Degree=Pos	0	amod	_	_
+11	of	of	ADP	IN	_	0	case	_	_
+12	IHD	IHD	PROPN	NNP	Number=Sing	0	obl	_	_
+13	and	and	CCONJ	CC	_	0	cc	_	_
+14	angina	angina	PROPN	NNP	Number=Sing	0	compound	_	_
+15	class	class	NOUN	NN	Number=Sing	0	conj	_	_
+16	III	III	NUM	CD	NumForm=Roman|NumType=Card	0	nummod	_	_
+17	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+18	Canadian	Canadian	ADJ	JJ	Degree=Pos	0	amod	_	_
+19	Cardiovascular	cardiovascular	ADJ	JJ	Degree=Pos	0	amod	_	_
+20	society	society	NOUN	NN	Number=Sing	0	compound	_	_
+21	classification	classification	NOUN	NN	Number=Sing	0	appos	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	0	punct	_	_
+23	which	which	PRON	WDT	PronType=Rel	0	nsubj	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux	_	_
+25	worsening	worsen	VERB	VBG	Tense=Pres|VerbForm=Part	0	acl:relcl	_	_
+26	despite	despite	ADP	IN	_	0	case	_	_
+27	medical	medical	ADJ	JJ	Degree=Pos	0	amod	_	_
+28	therapy	therapy	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 3
+# text = Coronary angiography done demonstrated significant lesions in the mid portion of the Left Descending Coronary Artery (LAD) and the proximal Circumflex Coronary Artery (Cx).
+1	Coronary	coronary	ADJ	JJ	Degree=Pos	0	amod	_	_
+2	angiography	angiography	NOUN	NN	Number=Sing	0	nsubj	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	acl	_	_
+4	demonstrated	demonstrate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	significant	significant	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	lesions	lesion	NOUN	NNS	Number=Plur	0	obj	_	_
+7	in	in	ADP	IN	_	0	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+9	mid	mid	NOUN	AFX	Number=Sing	0	compound	_	_
+10	portion	portion	NOUN	NN	Number=Sing	0	nmod	_	_
+11	of	of	ADP	IN	_	0	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+13	Left	Left	ADJ	NNP	Degree=Pos	0	amod	_	_
+14	Descending	descend	VERB	NNP	VerbForm=Ger	0	amod	_	_
+15	Coronary	Coronary	ADJ	NNP	Degree=Pos	0	amod	_	_
+16	Artery	Artery	PROPN	NNP	Number=Sing	0	nmod	_	_
+17	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+18	LAD	lad	PROPN	NNP	Number=Sing	0	appos	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	0	punct	_	_
+20	and	and	CCONJ	CC	_	0	cc	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+22	proximal	proximal	ADJ	JJ	Degree=Pos	0	amod	_	_
+23	Circumflex	Circumflex	PROPN	NNP	Number=Sing	0	compound	_	_
+24	Coronary	Coronary	ADJ	NNP	Degree=Pos	0	amod	_	_
+25	Artery	Artery	PROPN	NNP	Number=Sing	0	conj	_	_
+26	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+27	Cx	Cx	PROPN	NNP	Number=Sing	0	appos	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	0	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 4
+# text = The Right Coronary Artery was a dominant artery with some minor irregularities.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+2	Right	Right	ADJ	NNP	Degree=Pos	0	amod	_	_
+3	Coronary	Coronary	ADJ	NNP	Degree=Pos	0	amod	_	_
+4	Artery	Artery	PROPN	NNP	Number=Sing	0	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+7	dominant	dominant	ADJ	JJ	Degree=Pos	0	amod	_	_
+8	artery	artery	NOUN	NN	Number=Sing	0	root	_	_
+9	with	with	ADP	IN	_	0	case	_	_
+10	some	some	DET	DT	_	0	det	_	_
+11	minor	minor	ADJ	JJ	Degree=Pos	0	amod	_	_
+12	irregularities	irregularity	NOUN	NNS	Number=Plur	0	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 5
+# text = Percutaneous transluminal coronary angioplasty of both the LAD and Cx was done.
+1	Percutaneous	percutaneous	ADJ	JJ	Degree=Pos	0	amod	_	_
+2	transluminal	transluminal	ADJ	JJ	Degree=Pos	0	amod	_	_
+3	coronary	coronary	ADJ	JJ	Degree=Pos	0	amod	_	_
+4	angioplasty	angioplasty	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+5	of	of	ADP	IN	_	0	case	_	_
+6	both	both	CCONJ	CC	_	0	cc:preconj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+8	LAD	lad	NOUN	NN	Number=Sing	0	nmod	_	_
+9	and	and	CCONJ	CC	_	0	cc	_	_
+10	Cx	cx	NOUN	NN	Number=Sing	0	conj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+12	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 6
+# text = A 3.0 mm Drug Eluting Stent was deployed to stent the LAD and the Cx was stented with a 3.0mm Bare Metal Stent.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+2	3.0	3.0	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+3	mm	mm	NOUN	NN	Number=Sing	0	compound	_	_
+4	Drug	drug	NOUN	NN	Number=Sing	0	compound	_	_
+5	Eluting	eluting	NOUN	NN	Number=Sing	0	compound	_	_
+6	Stent	stent	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+8	deployed	deploy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	to	to	PART	TO	_	0	mark	_	_
+10	stent	stent	VERB	VB	VerbForm=Inf	0	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+12	LAD	lad	NOUN	NN	Number=Sing	0	obj	_	_
+13	and	and	CCONJ	CC	_	0	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+15	Cx	cx	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+17	stented	stent	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+18	with	with	ADP	IN	_	0	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+20	3.0	3.0	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+21	mm	mm	NOUN	NN	Number=Sing	0	compound	_	_
+22	Bare	bare	NOUN	NN	Number=Sing	0	compound	_	_
+23	Metal	metal	NOUN	NN	Number=Sing	0	compound	_	_
+24	Stent	stent	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 7
+# text = The patient was angina-free for one year but represented in July 2010 again with angina class III.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	NN	Number=Sing	0	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+4	angina	angina	NOUN	NN	Number=Sing	0	obl:npmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	0	punct	_	SpaceAfter=No
+6	free	free	ADJ	JJ	Degree=Pos	0	root	_	_
+7	for	for	ADP	IN	_	0	case	_	_
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	0	nummod	_	_
+9	year	year	NOUN	NN	Number=Sing	0	obl	_	_
+10	but	but	CCONJ	CC	_	0	cc	_	_
+11	represented	represent	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	conj	_	_
+12	in	in	ADP	IN	_	0	case	_	_
+13	July	July	PROPN	NNP	Number=Sing	0	obl	_	_
+14	2010	2010	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+15	again	again	ADV	RB	_	0	advmod	_	_
+16	with	with	ADP	IN	_	0	case	_	_
+17	angina	angina	NOUN	NN	Number=Sing	0	compound	_	_
+18	class	class	NOUN	NN	Number=Sing	0	obl	_	_
+19	III	III	NUM	CD	NumForm=Roman|NumType=Card	0	nummod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 8
+# text = Repeat coronary angiogram was done which showed that both stents were patent and there was no new coronary lesion.
+1	Repeat	repeat	ADJ	JJ	Degree=Pos	0	amod	_	_
+2	coronary	coronary	ADJ	JJ	Degree=Pos	0	amod	_	_
+3	angiogram	angiogram	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	which	which	PRON	WDT	PronType=Rel	0	nsubj	_	_
+7	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	advcl:relcl	_	_
+8	that	that	SCONJ	IN	_	0	mark	_	_
+9	both	both	DET	DT	_	0	det	_	_
+10	stents	stent	NOUN	NNS	Number=Plur	0	nsubj	_	_
+11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+12	patent	patent	ADJ	JJ	Degree=Pos	0	ccomp	_	_
+13	and	and	CCONJ	CC	_	0	cc	_	_
+14	there	there	PRON	EX	_	0	expl	_	_
+15	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	conj	_	_
+16	no	no	DET	DT	_	0	det	_	_
+17	new	new	ADJ	JJ	Degree=Pos	0	amod	_	_
+18	coronary	coronary	ADJ	JJ	Degree=Pos	0	amod	_	_
+19	lesion	lesion	NOUN	NN	Number=Sing	0	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 9
+# text = She was controlled on medical therapy.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+3	controlled	control	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	on	on	ADP	IN	_	0	case	_	_
+5	medical	medical	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	therapy	therapy	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 10
+# text = However she presented again in November 2011, this time with unstable angina.
+1	However	however	ADV	RB	_	0	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+3	presented	present	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	again	again	ADV	RB	_	0	advmod	_	_
+5	in	in	ADP	IN	_	0	case	_	_
+6	November	November	PROPN	NNP	Number=Sing	0	obl	_	_
+7	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	0	punct	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	0	det	_	_
+10	time	time	NOUN	NN	Number=Sing	0	nmod:npmod	_	_
+11	with	with	ADP	IN	_	0	case	_	_
+12	unstable	unstable	ADJ	JJ	Degree=Pos	0	amod	_	_
+13	angina	angina	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 11
+# text = An urgent coronary angiogram carried out showed that the previous stents were still patent but with a 50% left main stem stenosis and a 95% proximal LAD stenosis.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+2	urgent	urgent	ADJ	JJ	Degree=Pos	0	amod	_	_
+3	coronary	coronary	ADJ	JJ	Degree=Pos	0	amod	_	_
+4	angiogram	angiogram	NOUN	NN	Number=Sing	0	nsubj	_	_
+5	carried	carry	VERB	VBN	Tense=Past|VerbForm=Part	0	acl	_	_
+6	out	out	ADP	RP	_	0	compound:prt	_	_
+7	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	that	that	SCONJ	IN	_	0	mark	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+10	previous	previous	ADJ	JJ	Degree=Pos	0	amod	_	_
+11	stents	stent	NOUN	NNS	Number=Plur	0	nsubj	_	_
+12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+13	still	still	ADV	RB	_	0	advmod	_	_
+14	patent	patent	ADJ	JJ	Degree=Pos	0	ccomp	_	_
+15	but	but	CCONJ	CC	_	0	cc	_	_
+16	with	with	ADP	IN	_	0	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+18	50	50	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+19	%	%	SYM	NN	Number=Sing	0	compound	_	_
+20	left	left	ADJ	JJ	Degree=Pos	0	amod	_	_
+21	main	main	ADJ	JJ	Degree=Pos	0	amod	_	_
+22	stem	stem	NOUN	NN	Number=Sing	0	compound	_	_
+23	stenosis	stenosis	NOUN	NN	Number=Sing	0	conj	_	_
+24	and	and	CCONJ	CC	_	0	cc	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+26	95	95	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+27	%	%	SYM	NN	Number=Sing	0	compound	_	_
+28	proximal	proximal	ADJ	JJ	Degree=Pos	0	amod	_	_
+29	LAD	lad	NOUN	NN	Number=Sing	0	compound	_	_
+30	stenosis	stenosis	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 12
+# text = She was subsequently referred for surgical revascularization.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+3	subsequently	subsequently	ADV	RB	_	0	advmod	_	_
+4	referred	refer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	for	for	ADP	IN	_	0	case	_	_
+6	surgical	surgical	ADJ	JJ	Degree=Pos	0	amod	_	_
+7	revascularization	revascularization	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 13
+# text = Physical examination on admission revealed a middle aged woman who was clinically obese with a body mass index of 32kg/m 2.
+1	Physical	physical	ADJ	JJ	Degree=Pos	0	amod	_	_
+2	examination	examination	NOUN	NN	Number=Sing	0	nsubj	_	_
+3	on	on	ADP	IN	_	0	case	_	_
+4	admission	admission	NOUN	NN	Number=Sing	0	nmod	_	_
+5	revealed	reveal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+7	middle	middle	ADJ	JJ	Degree=Pos	0	amod	_	_
+8	aged	aged	ADJ	JJ	Degree=Pos	0	amod	_	_
+9	woman	woman	NOUN	NN	Number=Sing	0	obj	_	_
+10	who	who	PRON	WP	PronType=Rel	0	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+12	clinically	clinically	ADV	RB	_	0	advmod	_	_
+13	obese	obese	ADJ	JJ	Degree=Pos	0	acl:relcl	_	_
+14	with	with	ADP	IN	_	0	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+16	body	body	NOUN	NN	Number=Sing	0	compound	_	_
+17	mass	mass	NOUN	NN	Number=Sing	0	compound	_	_
+18	index	index	NOUN	NN	Number=Sing	0	obl	_	_
+19	of	of	ADP	IN	_	0	case	_	_
+20	32	32	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+21	kg	kg	NOUN	NNS	Number=Plur	0	nmod	_	SpaceAfter=No
+22	/	/	SYM	SYM	_	0	cc	_	SpaceAfter=No
+23	m	m	NOUN	NN	Number=Sing	0	nmod	_	_
+24	2	2	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 14
+# text = There were no significant physical findings.
+1	There	there	PRON	EX	_	0	expl	_	_
+2	were	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	0	det	_	_
+4	significant	significant	ADJ	JJ	Degree=Pos	0	amod	_	_
+5	physical	physical	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	findings	finding	NOUN	NNS	Number=Plur	0	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 15
+# text = Associated risk factors were intermittent claudication (Ankle-Brachial Index bilaterally was 0.57), bilateral carotid bruits, poorly controlled diabetes mellitus and hyperlipidemia.
+1	Associated	associate	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+2	risk	risk	NOUN	NN	Number=Sing	0	compound	_	_
+3	factors	factor	NOUN	NNS	Number=Plur	0	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	intermittent	intermittent	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	claudication	claudication	NOUN	NN	Number=Sing	0	root	_	_
+7	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+8	Ankle	ankle	NOUN	NN	Number=Sing	0	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	0	punct	_	SpaceAfter=No
+10	Brachial	brachial	ADJ	JJ	Degree=Pos	0	amod	_	_
+11	Index	index	NOUN	NN	Number=Sing	0	nsubj	_	_
+12	bilaterally	bilaterally	ADV	RB	_	0	advmod	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+14	0.57	0.57	NUM	CD	NumForm=Digit|NumType=Card	0	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	0	punct	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	0	punct	_	_
+17	bilateral	bilateral	ADJ	JJ	Degree=Pos	0	amod	_	_
+18	carotid	carotid	NOUN	NN	Number=Sing	0	compound	_	_
+19	bruits	bruit	NOUN	NNS	Number=Plur	0	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	0	punct	_	_
+21	poorly	poorly	ADV	RB	_	0	advmod	_	_
+22	controlled	control	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+23	diabetes	diabetes	NOUN	NN	Number=Sing	0	compound	_	_
+24	mellitus	mellitus	NOUN	NN	Number=Sing	0	conj	_	_
+25	and	and	CCONJ	CC	_	0	cc	_	_
+26	hyperlipidemia	hyperlipidemia	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 16
+# text = Her calculated euroscore was 6.
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+2	calculated	calculate	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+3	euroscore	euroscore	NOUN	NN	Number=Sing	0	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	6	6	NUM	CD	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 17
+# text = Medications on admission were Aspirin, Glyceryl trinitrate sublingual spray, Metformin, Glibenclamide, Fluvastatin, Metoprolol and Isosorbide Dinitrate.
+1	Medications	medication	NOUN	NNS	Number=Plur	0	nsubj	_	_
+2	on	on	ADP	IN	_	0	case	_	_
+3	admission	admission	NOUN	NN	Number=Sing	0	nmod	_	_
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	Aspirin	Aspirin	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	0	punct	_	_
+7	Glyceryl	glyceryl	NOUN	NN	Number=Sing	0	compound	_	_
+8	trinitrate	trinitrate	NOUN	NN	Number=Sing	0	compound	_	_
+9	sublingual	sublingual	NOUN	NN	Number=Sing	0	compound	_	_
+10	spray	spray	NOUN	NN	Number=Sing	0	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	0	punct	_	_
+12	Metformin	Metformin	PROPN	NNP	Number=Sing	0	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	0	punct	_	_
+14	Glibenclamide	Glibenclamide	PROPN	NNP	Number=Sing	0	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	0	punct	_	_
+16	Fluvastatin	Fluvastatin	PROPN	NNP	Number=Sing	0	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	0	punct	_	_
+18	Metoprolol	Metoprolol	PROPN	NNP	Number=Sing	0	conj	_	_
+19	and	and	CCONJ	CC	_	0	cc	_	_
+20	Isosorbide	Isosorbide	PROPN	NNP	Number=Sing	0	compound	_	_
+21	Dinitrate	Dinitrate	PROPN	NNP	Number=Sing	0	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 18
+# text = Investigations done included transthoracic echocardiogram which showed good left ventricular ejection fraction with no evidence of ventricular dysfunction.
+1	Investigations	investigation	NOUN	NNS	Number=Plur	0	nsubj	_	_
+2	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	acl	_	_
+3	included	include	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	transthoracic	transthoracic	ADJ	JJ	Degree=Pos	0	amod	_	_
+5	echocardiogram	echocardiogram	NOUN	NN	Number=Sing	0	obj	_	_
+6	which	which	PRON	WDT	PronType=Rel	0	nsubj	_	_
+7	showed	show	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	acl:relcl	_	_
+8	good	good	ADJ	JJ	Degree=Pos	0	amod	_	_
+9	left	left	ADJ	JJ	Degree=Pos	0	amod	_	_
+10	ventricular	ventricular	ADJ	JJ	Degree=Pos	0	amod	_	_
+11	ejection	ejection	NOUN	NN	Number=Sing	0	compound	_	_
+12	fraction	fraction	NOUN	NN	Number=Sing	0	obj	_	_
+13	with	with	ADP	IN	_	0	case	_	_
+14	no	no	DET	DT	_	0	det	_	_
+15	evidence	evidence	NOUN	NN	Number=Sing	0	obl	_	_
+16	of	of	ADP	IN	_	0	case	_	_
+17	ventricular	ventricular	ADJ	JJ	Degree=Pos	0	amod	_	_
+18	dysfunction	dysfunction	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 19
+# text = Chest radiogram, 12 lead electrocardiogram and pulmonary function tests were normal.
+1	Chest	chest	NOUN	NN	Number=Sing	0	compound	_	_
+2	radiogram	radiogram	NOUN	NN	Number=Sing	0	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	0	punct	_	_
+4	12	12	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+5	lead	lead	NOUN	NN	Number=Sing	0	compound	_	_
+6	electrocardiogram	electrocardiogram	NOUN	NN	Number=Sing	0	conj	_	_
+7	and	and	CCONJ	CC	_	0	cc	_	_
+8	pulmonary	pulmonary	ADJ	JJ	Degree=Pos	0	amod	_	_
+9	function	function	NOUN	NN	Number=Sing	0	compound	_	_
+10	tests	test	NOUN	NNS	Number=Plur	0	conj	_	_
+11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+12	normal	normal	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 20
+# text = All blood parameters were within acceptable limits.
+1	All	all	DET	DT	_	0	det	_	_
+2	blood	blood	NOUN	NN	Number=Sing	0	compound	_	_
+3	parameters	parameter	NOUN	NNS	Number=Plur	0	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	within	within	ADP	IN	_	0	case	_	_
+6	acceptable	acceptable	ADJ	JJ	Degree=Pos	0	amod	_	_
+7	limits	limit	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 21
+# text = Following review of her coronary angiogram she was scheduled for single vessel grafting of the LAD as an off pump procedure.
+1	Following	follow	VERB	VBG	VerbForm=Ger	0	case	_	_
+2	review	review	NOUN	NN	Number=Sing	0	obl	_	_
+3	of	of	ADP	IN	_	0	case	_	_
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+5	coronary	coronary	ADJ	JJ	Degree=Pos	0	amod	_	_
+6	angiogram	angiogram	NOUN	NN	Number=Sing	0	nmod	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+9	scheduled	schedule	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	for	for	ADP	IN	_	0	case	_	_
+11	single	single	ADJ	JJ	Degree=Pos	0	amod	_	_
+12	vessel	vessel	NOUN	NN	Number=Sing	0	compound	_	_
+13	grafting	grafting	NOUN	NN	Number=Sing	0	obl	_	_
+14	of	of	ADP	IN	_	0	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+16	LAD	lad	NOUN	NN	Number=Sing	0	nmod	_	_
+17	as	as	ADP	IN	_	0	case	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+19	off	off	ADP	IN	_	0	compound	_	_
+20	pump	pump	NOUN	NN	Number=Sing	0	compound	_	_
+21	procedure	procedure	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 22
+# text = Surgery was performed in November 2011.
+1	Surgery	surgery	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+3	performed	perform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	in	in	ADP	IN	_	0	case	_	_
+5	November	November	PROPN	NNP	Number=Sing	0	obl	_	_
+6	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 23
+# text = The cardiopulmonary bypass circuit was not primed.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+2	cardiopulmonary	cardiopulmonary	ADJ	JJ	Degree=Pos	0	amod	_	_
+3	bypass	bypass	NOUN	NN	Number=Sing	0	compound	_	_
+4	circuit	circuit	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+6	not	not	PART	RB	_	0	advmod	_	_
+7	primed	prime	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 24
+# text = Following median sternotomy and harvesting of the Left Internal Mammary Artery (LIMA) the Octopus 3 Off-pump stabilizer and foot plate were used to immobilize the anterior myocardial surface with good visualization of the LAD.
+1	Following	follow	VERB	VBG	VerbForm=Ger	0	case	_	_
+2	median	median	ADJ	JJ	Degree=Pos	0	amod	_	_
+3	sternotomy	sternotomy	NOUN	NN	Number=Sing	0	obl	_	_
+4	and	and	CCONJ	CC	_	0	cc	_	_
+5	harvesting	harvest	NOUN	NN	Number=Sing	0	conj	_	_
+6	of	of	ADP	IN	_	0	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+8	Left	Left	ADJ	NNP	Degree=Pos	0	amod	_	_
+9	Internal	Internal	ADJ	NNP	Degree=Pos	0	amod	_	_
+10	Mammary	Mammary	PROPN	NNP	Number=Sing	0	compound	_	_
+11	Artery	Artery	PROPN	NNP	Number=Sing	0	nmod	_	_
+12	(	(	PUNCT	-LRB-	_	0	punct	_	SpaceAfter=No
+13	LIMA	LIMA	PROPN	NNP	Number=Sing	0	appos	_	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	0	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+16	Octopus	Octopus	PROPN	NNP	Number=Sing	0	compound	_	_
+17	3	3	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+18	Off	off	ADP	IN	_	0	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	0	punct	_	SpaceAfter=No
+20	pump	pump	NOUN	NN	Number=Sing	0	compound	_	_
+21	stabilizer	stabilizer	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+22	and	and	CCONJ	CC	_	0	cc	_	_
+23	foot	foot	NOUN	NN	Number=Sing	0	compound	_	_
+24	plate	plate	NOUN	NN	Number=Sing	0	conj	_	_
+25	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+26	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+27	to	to	PART	TO	_	0	mark	_	_
+28	immobilize	immobilize	VERB	VB	VerbForm=Inf	0	advcl	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+30	anterior	anterior	ADJ	JJ	Degree=Pos	0	amod	_	_
+31	myocardial	myocardial	ADJ	JJ	Degree=Pos	0	amod	_	_
+32	surface	surface	NOUN	NN	Number=Sing	0	obj	_	_
+33	with	with	ADP	IN	_	0	case	_	_
+34	good	good	ADJ	JJ	Degree=Pos	0	amod	_	_
+35	visualization	visualization	NOUN	NN	Number=Sing	0	obl	_	_
+36	of	of	ADP	IN	_	0	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+38	LAD	lad	NOUN	NN	Number=Sing	0	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 25
+# text = The LAD which was a 2.5mm vessel was snugged proximally and an arteriotomy performed in its mid-portion.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+2	LAD	lad	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+3	which	which	PRON	WDT	PronType=Rel	0	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+6	2.5	2.5	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+7	mm	mm	NOUN	NN	Number=Sing	0	compound	_	_
+8	vessel	vessel	NOUN	NN	Number=Sing	0	acl:relcl	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+10	snugged	snug	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	proximally	proximally	ADV	RB	_	0	advmod	_	_
+12	and	and	CCONJ	CC	_	0	cc	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+14	arteriotomy	arteriotomy	NOUN	NN	Number=Sing	0	nsubj	_	_
+15	performed	perform	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	conj	_	_
+16	in	in	ADP	IN	_	0	case	_	_
+17	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+18	mid-portion	mid-portion	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 26
+# text = The arteriotomy site was kept bloodless with CO2 insufflation via an improvised blow-mister.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+2	arteriotomy	arteriotomy	NOUN	NN	Number=Sing	0	compound	_	_
+3	site	site	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+5	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	bloodless	bloodless	ADJ	JJ	Degree=Pos	0	xcomp	_	_
+7	with	with	ADP	IN	_	0	case	_	_
+8	CO2	CO2	NOUN	NN	Number=Sing	0	compound	_	_
+9	insufflation	insufflation	NOUN	NN	Number=Sing	0	obl	_	_
+10	via	via	ADP	IN	_	0	case	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	0	det	_	_
+12	improvised	improvise	VERB	VBN	Tense=Past|VerbForm=Part	0	amod	_	_
+13	blow	blow	NOUN	NN	Number=Sing	0	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	0	punct	_	SpaceAfter=No
+15	mister	mister	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 27
+# text = The LIMA to LAD anastomosis was performed with 6-0 prolene suture.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+2	LIMA	lima	PROPN	NNP	Number=Sing	0	compound	_	_
+3	to	to	ADP	IN	_	0	case	_	_
+4	LAD	lad	NOUN	NN	Number=Sing	0	nmod	_	_
+5	anastomosis	anastomosis	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+7	performed	perform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	with	with	ADP	IN	_	0	case	_	_
+9	6	6	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	SpaceAfter=No
+10	-	-	SYM	SYM	_	0	case	_	SpaceAfter=No
+11	0	0	NUM	CD	NumForm=Digit|NumType=Card	0	nmod	_	_
+12	prolene	prolene	NOUN	NN	Number=Sing	0	compound	_	_
+13	suture	suture	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 28
+# text = The procedure was uneventful and the patient was transferred to the Intensive Care Unit on minimal inotropic support.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+2	procedure	procedure	NOUN	NN	Number=Sing	0	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+4	uneventful	uneventful	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	0	cc	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+7	patient	patient	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+9	transferred	transfer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+10	to	to	ADP	IN	_	0	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+12	Intensive	Intensive	ADJ	NNP	Degree=Pos	0	amod	_	_
+13	Care	Care	PROPN	NNP	Number=Sing	0	compound	_	_
+14	Unit	Unit	PROPN	NNP	Number=Sing	0	obl	_	_
+15	on	on	ADP	IN	_	0	case	_	_
+16	minimal	minimal	ADJ	JJ	Degree=Pos	0	amod	_	_
+17	inotropic	inotropic	ADJ	JJ	Degree=Pos	0	amod	_	_
+18	support	support	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 29
+# text = She was weaned off the ventilator after 4 hours and inotropic support was discontinued after 24 hours.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+3	weaned	wean	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	off	off	ADP	IN	_	0	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+6	ventilator	ventilator	NOUN	NN	Number=Sing	0	obl	_	_
+7	after	after	ADP	IN	_	0	case	_	_
+8	4	4	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+9	hours	hour	NOUN	NNS	Number=Plur	0	obl	_	_
+10	and	and	CCONJ	CC	_	0	cc	_	_
+11	inotropic	inotropic	ADJ	JJ	Degree=Pos	0	amod	_	_
+12	support	support	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+14	discontinued	discontinue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+15	after	after	ADP	IN	_	0	case	_	_
+16	24	24	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+17	hours	hour	NOUN	NNS	Number=Plur	0	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 30
+# text = Postoperative recovery was delayed by the need to achieve glycaecmic control.
+1	Postoperative	postoperative	ADJ	JJ	Degree=Pos	0	amod	_	_
+2	recovery	recovery	NOUN	NN	Number=Sing	0	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+4	delayed	delay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	by	by	ADP	IN	_	0	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	0	det	_	_
+7	need	need	NOUN	NN	Number=Sing	0	obl	_	_
+8	to	to	PART	TO	_	0	mark	_	_
+9	achieve	achieve	VERB	VB	VerbForm=Inf	0	acl	_	_
+10	glycaecmic	glycaecmic	ADJ	JJ	Degree=Pos	0	amod	_	_
+11	control	control	NOUN	NN	Number=Sing	0	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 31
+# text = She was discharged home 2 weeks postoperatively.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+3	discharged	discharge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	home	home	ADV	RB	_	0	advmod	_	_
+5	2	2	NUM	CD	NumForm=Digit|NumType=Card	0	nummod	_	_
+6	weeks	week	NOUN	NNS	Number=Plur	0	obl:npmod	_	_
+7	postoperatively	postoperatively	ADV	RB	_	0	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	0	punct	_	_
+
+# sent_id = 32
+# text = She has been reviewed in clinic and remains free of angina.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	aux:pass	_	_
+4	reviewed	review	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	0	case	_	_
+6	clinic	clinic	NOUN	NN	Number=Sing	0	obl	_	_
+7	and	and	CCONJ	CC	_	0	cc	_	_
+8	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	conj	_	_
+9	free	free	ADJ	JJ	Degree=Pos	0	xcomp	_	_
+10	of	of	ADP	IN	_	0	case	_	_
+11	angina	angina	NOUN	NN	Number=Sing	0	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	0	punct	_	SpacesAfter=\r\n
+

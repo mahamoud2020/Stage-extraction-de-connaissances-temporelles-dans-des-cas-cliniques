@@ -1,0 +1,407 @@
+# newdoc id = FR100120
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agit d'un militaire tunisien, âgé de 37 ans, de sexe masculin, en détachement onusien au contingent tunisien en République Démocratique du Congo durant l'année 2008.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	militaire	militaire	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+7	tunisien	tunisien	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	0	punct	_	_
+9	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+10	de	de	ADP	_	_	0	case	_	_
+11	37	37	NUM	_	Number=Plur	0	nummod	_	_
+12	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	0	punct	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	sexe	sexe	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+16	masculin	masculin	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	0	punct	_	_
+18	en	en	ADP	_	_	0	case	_	_
+19	détachement	détachement	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+20	onusien	onusien	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+21	à	à	ADP	_	_	0	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+23	contingent	contingent	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+24	tunisien	tunisien	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+25	en	en	ADP	_	_	0	case	_	_
+26	République	république	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+27	Démocratique	démocratique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+28	de	de	ADP	_	_	0	case	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+30	Congo	Congo	PROPN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+31	durant	durant	ADP	_	_	0	case	_	_
+32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+33	année	année	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+34	2008	2008	NUM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Dans ses antécédents, il y a un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans et une obésité (Indice de Masse Corporelle =37 kg/m 2) associée à une dyslipidémie.
+1	Dans	dans	ADP	_	_	0	case	_	_
+2	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+3	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	0	punct	_	_
+5	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+6	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	0	expl:comp	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+9	diabète	diabète	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+10	non	non	ADV	_	Polarity=Neg	0	advmod	_	_
+11	insulinodépendant	insulinodépendant	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+12	bien	bien	ADV	_	_	0	advmod	_	_
+13	équilibré	équilibrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+14	sous	sous	ADP	_	_	0	case	_	_
+15	antidiabétiques	antidiabétique	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+16	oraux	oral	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+17	depuis	depuis	ADP	_	_	0	case	_	_
+18	cinq	cinq	NUM	_	Number=Plur	0	nummod	_	_
+19	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+20	et	et	CCONJ	_	_	0	cc	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+22	obésité	obésité	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+23	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+24	Indice	indice	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+25	de	de	ADP	_	_	0	case	_	_
+26	Masse	masse	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+27	Corporelle	corporel	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+28	=	=	SYM	_	_	0	parataxis	_	SpaceAfter=No
+29	37	37	NUM	_	Number=Plur	0	nummod	_	_
+30	kg	kg	NOUN	_	Gender=Masc|Number=Plur	0	obj	_	SpaceAfter=No
+31	/	/	SYM	_	_	0	case	_	SpaceAfter=No
+32	m	mètre	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+33	2	2	NUM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	0	punct	_	_
+35	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+36	à	à	ADP	_	_	0	case	_	_
+37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+38	dyslipidémie	dyslipidémie	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = En octobre 2008, ce militaire était déployé pendant 10 semaines dans une zone périphérique de Kinshasa.
+1	En	en	ADP	_	_	0	case	_	_
+2	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+3	2008	2008	NUM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	0	punct	_	_
+5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	0	det	_	_
+6	militaire	militaire	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:pass	_	_
+8	déployé	déployer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	pendant	pendant	ADP	_	_	0	case	_	_
+10	10	10	NUM	_	Number=Plur	0	nummod	_	_
+11	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	_
+12	dans	dans	ADP	_	_	0	case	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+14	zone	zone	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+15	périphérique	périphérique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	Kinshasa	Kinshasa	PROPN	_	_	0	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Un mois après, il s'est présenté à la consultation, souffrant de deux papules prurigineuses isolées apparues depuis 6 jours au niveau du thorax et de l'épaule.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	mois	mois	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+3	après	après	ADV	_	_	0	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	0	punct	_	_
+5	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+6	s'	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	0	obj	_	SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+8	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	à	à	ADP	_	_	0	case	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	0	punct	_	_
+13	souffrant	souffrir	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+16	papules	papule	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+17	prurigineuses	prurigineux	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+18	isolées	isoler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+19	apparues	apparaître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	acl	_	_
+20	depuis	depuis	ADP	_	_	0	case	_	_
+21	6	6	NUM	_	Number=Plur	0	nummod	_	_
+22	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+23	à	à	ADP	_	_	0	case	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+25	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+26	de	de	ADP	_	_	0	case	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+28	thorax	thorax	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+29	et	et	CCONJ	_	_	0	cc	_	_
+30	de	de	ADP	_	_	0	case	_	_
+31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+32	épaule	épaule	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'examen clinique a trouvé deux lésions furonculoïdes, de 5 mm de diamètre chacune, avec un petit orifice ne laissant pas sourdre du pus, entouré d'un liseré érythémateux légèrement tuméfié, sans chaleur locale.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+7	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	0	obj	_	_
+8	furonculoïdes	furonculoïde	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	0	punct	_	_
+10	de	de	ADP	_	_	0	case	_	_
+11	5	5	NUM	_	Number=Plur	0	nummod	_	_
+12	mm	mm	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+13	de	de	ADP	_	_	0	case	_	_
+14	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+15	chacune	chacun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	0	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	0	punct	_	_
+17	avec	avec	ADP	_	_	0	case	_	_
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+19	petit	petit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+20	orifice	orifice	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+21	ne	ne	ADV	_	Polarity=Neg	0	advmod	_	_
+22	laissant	laisser	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+23	pas	pas	ADV	_	Polarity=Neg	0	advmod	_	_
+24	sourdre	sourdre	VERB	_	VerbForm=Inf	0	xcomp	_	_
+25	de	de	ADP	_	_	0	det	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+27	pus	pus	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	0	punct	_	_
+29	entouré	entourer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+30	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+32	liseré	liseré	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+33	érythémateux	érythémateux	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+34	légèrement	légèrement	ADV	_	_	0	advmod	_	_
+35	tuméfié	tuméfier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	0	punct	_	_
+37	sans	sans	ADP	_	_	0	case	_	_
+38	chaleur	chaleur	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+39	locale	local	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Le reste de l'examen était sans particularité notamment pas de fièvre et le bilan biologique standard n'apportait pas d'élément d'orientation.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+5	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+7	sans	sans	ADP	_	_	0	case	_	_
+8	particularité	particularité	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+9	notamment	notamment	ADV	_	_	0	advmod	_	_
+10	pas	pas	ADV	_	Polarity=Neg	0	advmod	_	_
+11	de	un	ADP	_	_	0	case	_	_
+12	fièvre	fièvre	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13	et	et	CCONJ	_	_	0	cc	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+15	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+16	biologique	biologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+17	standard	standard	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+18	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+19	apportait	apporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	conj	_	_
+20	pas	pas	ADV	_	Polarity=Neg	0	advmod	_	_
+21	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+22	élément	élément	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+23	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+24	orientation	orientation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Devant le terrain de débilité (diabète type II), un traitement à base d'oxacycline à la dose de 2 g/jour pendant 7 jours per os avec des soins locaux a été instauré mais s'est avéré inefficace.
+1	Devant	devant	ADP	_	_	0	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+3	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	débilité	débilité	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+6	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+7	diabète	diabète	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+8	type	type	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+9	II	II	NUM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	0	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	0	punct	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+14	à	à	ADP	_	_	0	case	_	_
+15	base	base	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+16	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+17	oxacycline	oxacycline	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+18	à	à	ADP	_	_	0	case	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+20	dose	dose	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+21	de	de	ADP	_	_	0	case	_	_
+22	2	2	NUM	_	Number=Plur	0	nummod	_	_
+23	g	g	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+24	/	/	SYM	_	_	0	case	_	SpaceAfter=No
+25	jour	jour	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+26	pendant	pendant	ADP	_	_	0	case	_	_
+27	7	7	NUM	_	Number=Plur	0	nummod	_	_
+28	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+29	per	per	ADP	_	_	0	case	_	_
+30	os	os	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+31	avec	avec	ADP	_	_	0	case	_	_
+32	de	de	ADP	_	_	0	det	_	_
+33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+34	soins	soin	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+35	locaux	local	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+37	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+38	instauré	instaurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+39	mais	mais	CCONJ	_	_	0	cc	_	_
+40	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+41	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+42	avéré	avérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	conj	_	_
+43	inefficace	inefficace	ADJ	_	Gender=Masc|Number=Sing	0	xcomp	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Le retard de guérison fut d'abord rattaché à son diabète et les lésions ont été traitées par une pommade antibiotique à base de cyclines (pommade hydrophobe).
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	retard	retard	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	guérison	guérison	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+6	d'	de	ADP	_	_	0	advmod	_	SpaceAfter=No
+7	abord	abord	NOUN	_	Gender=Masc|Number=Sing	0	fixed	_	_
+8	rattaché	rattacher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	à	à	ADP	_	_	0	case	_	_
+10	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+11	diabète	diabète	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+12	et	et	CCONJ	_	_	0	cc	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+14	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	0	nsubj:pass	_	_
+15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+17	traitées	traiter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+18	par	par	ADP	_	_	0	case	_	_
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+20	pommade	pommade	NOUN	_	Gender=Fem|Number=Sing	0	obl:agent	_	_
+21	antibiotique	antibiotique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+22	à	à	ADP	_	_	0	case	_	_
+23	base	base	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+24	de	de	ADP	_	_	0	case	_	_
+25	cyclines	cycline	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+26	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+27	pommade	pommade	NOUN	_	Gender=Fem|Number=Sing	0	appos	_	_
+28	hydrophobe	hydrophobe	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	0	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Après deux jours de traitement par la pommade grasse, deux larves blanchâtres de dimensions 10x5mm ont sailli de chaque lésion à la suite d'une compression bidigitale.
+1	Après	après	ADP	_	_	0	case	_	_
+2	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+3	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	par	par	ADP	_	_	0	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	pommade	pommade	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+9	grasse	gras	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	0	punct	_	_
+11	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+12	larves	larve	NOUN	_	Gender=Fem|Number=Plur	0	nsubj	_	_
+13	blanchâtres	blanchâtre	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	dimensions	dimension	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+16	10x5mm	10x5mm	NUM	_	Number=Plur	0	nmod	_	_
+17	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+18	sailli	saillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	chaque	chaque	DET	_	Number=Sing|PronType=Ind	0	det	_	_
+21	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+22	à	à	ADP	_	_	0	case	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+24	suite	suite	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+25	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+27	compression	compression	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+28	bidigitale	bidigital	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ces larves ont été retirées facilement à l'aide d'une pince, laissant derrière elles un orifice propre sans pus.
+1	Ces	ce	DET	_	Number=Plur|PronType=Dem	0	det	_	_
+2	larves	larve	NOUN	_	Gender=Fem|Number=Plur	0	nsubj:pass	_	_
+3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+5	retirées	retirer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	facilement	facilement	ADV	_	_	0	advmod	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+9	aide	aide	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+10	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	pince	pince	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	0	punct	_	_
+14	laissant	laisser	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+15	derrière	derrière	ADP	_	_	0	case	_	_
+16	elles	eux	PRON	_	Emph=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	0	obl:mod	_	_
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	orifice	orifice	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+19	propre	propre	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+20	sans	sans	ADP	_	_	0	case	_	_
+21	pus	pus	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = L'aspect furonculoïde de la lésion cutanée, la chronologie des événements, la notion de séjour en république Démocratique du Congo, confrontés à la morphologie de la larve ont permis de conclure au diagnostic de myiase furonculoïde et les larves étaient identifiées comme appartenant à Cordylobia anthropophaga.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	furonculoïde	furonculoïde	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+7	cutanée	cutané	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	0	punct	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+10	chronologie	chronologie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+13	événements	événement	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	0	punct	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	notion	notion	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+17	de	de	ADP	_	_	0	case	_	_
+18	séjour	séjour	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+19	en	en	ADP	_	_	0	case	_	_
+20	république	république	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+21	Démocratique	démocratique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+22	de	de	ADP	_	_	0	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+24	Congo	Congo	PROPN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	0	punct	_	_
+26	confrontés	confronter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+27	à	à	ADP	_	_	0	case	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+29	morphologie	morphologie	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+30	de	de	ADP	_	_	0	case	_	_
+31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+32	larve	larve	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+33	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+34	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+35	de	de	ADP	_	_	0	mark	_	_
+36	conclure	conclure	VERB	_	VerbForm=Inf	0	ccomp	_	_
+37	à	à	ADP	_	_	0	case	_	_
+38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+39	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+40	de	de	ADP	_	_	0	case	_	_
+41	myiase	myiase	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+42	furonculoïde	furonculoïde	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+43	et	et	CCONJ	_	_	0	cc	_	_
+44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+45	larves	larve	NOUN	_	Gender=Fem|Number=Plur	0	nsubj:pass	_	_
+46	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	aux:pass	_	_
+47	identifiées	identifier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+48	comme	comme	SCONJ	_	_	0	mark	_	_
+49	appartenant	appartenir	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+50	à	à	ADP	_	_	0	case	_	_
+51	Cordylobia	Cordylobia	PROPN	_	_	0	obl:arg	_	_
+52	anthropophaga	anthropophaga	X	_	_	0	flat:name	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
