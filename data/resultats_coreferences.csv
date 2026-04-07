@@ -1,437 +1,481 @@
 doc,mention_id,texte_maillon,tete_lexicale,nature,fonction
-FR100003,c3,un homme de 55 ans,homme,Nom,autre
-FR100003,c2,l' observation d' un homme de 55 ans enseignant de fonction,observation,Nom,OD
-FR100003,c4,antécédents pathologiques,antécédents,Nom,Obl
-FR100003,c6,deux mois,mois,Nom,Obl
-FR100003,c7,les soins dentaires itératifs,soins,Nom,autre
-FR100003,c5,un diabète non-insulinodépendant découvert depuis deux mois et de les soins dentaires itératifs,diabète,Nom,OD
-FR100003,c8,les urgences,urgences,Nom,Obl
-FR100003,c10,la palpation,palpation,Nom,Obl
-FR100003,c11,un contexte fébrile,contexte,Nom,Obl
-FR100003,c13,l' état général,état,Nom,autre
-FR100003,c12,une altération de l' état général,altération,Nom,autre
-FR100003,c9,une masse latéro-cervicale gauche ferme à la palpation évoluant dans un contexte fébrile et une altération de l' état général,masse,Nom,Obl
-FR100003,c15,l' admission,admission,Nom,autre
-FR100003,c3,qui consulte à les urgences pour une masse latéro-cervicale gauche ferme à la palpation évoluant dans un contexte fébrile et une altération de l' état général . Lexamen clinique à l' admission trouve un patient asthénique,consulte,Autre,autre
-FR100003,c16,un érythème discret,érythème,Nom,autre
-FR100003,c18,le cou,cou,Nom,autre
-FR100003,c17,la face latéral de le cou,face,Nom,autre
-FR100003,c19,une fréquence cardiaque à 87 batt / min,fréquence,Nom,autre
-FR100003,c20,une PA à 110 / 70 mmHg,PA,Nom,autre
+FR100003,c1,Nous,Nous,Pro,Suj
+FR100003,c3,un homme de 55 ans,homme,SNind,autre
+FR100003,c2,l' observation d' un homme de 55 ans enseignant de fonction,observation,SNdef,OD
+FR100003,c4,antécédents pathologiques,antécédents,SN∅,Obl
+FR100003,c6,deux mois,mois,SNnum,Obl
+FR100003,c7,les soins dentaires itératifs,soins,SNdef,autre
+FR100003,c5,un diabète non-insulinodépendant découvert depuis deux mois et de les soins dentaires itératifs,diabète,SNind,OD
+FR100003,c3,qui,qui,Pro,Suj
+FR100003,c8,les urgences,urgences,SNdef,Obl
+FR100003,c10,la palpation,palpation,SNdef,Obl
+FR100003,c11,un contexte fébrile,contexte,SNind,Obl
+FR100003,c13,l' état général,état,SNdef,autre
+FR100003,c12,une altération de l' état général,altération,SNind,autre
+FR100003,c9,une masse latéro-cervicale gauche ferme à la palpation évoluant dans un contexte fébrile et une altération de l' état général,masse,SNind,Obl
+FR100003,c15,l' admission,admission,SNdef,autre
+FR100003,c3,un patient asthénique,patient,SNind,OD
+FR100003,c16,un érythème discret,érythème,SNind,autre
+FR100003,c18,le cou,cou,SNdef,autre
+FR100003,c17,la face latéral de le cou,face,SNdef,autre
+FR100003,c19,une fréquence cardiaque à 87 batt / min,fréquence,SNind,autre
+FR100003,c20,une PA à 110 / 70 mmHg,PA,SNind,autre
 FR100003,c14,"Lexamen clinique à l' admission trouve un patient asthénique , un érythème discret sur la face latéral de le cou , une fréquence cardiaque à 87 batt / min et une PA à 110 / 70 mmHg",trouve,Autre,autre
-FR100003,c21,L' état respiratoire,état,Nom,Suj
-FR100003,c22,fréquence respiratoire 22 cycles / mn,fréquence,Nom,autre
-FR100003,c23,une SaO2 à 96 %,SaO2,Nom,autre
-FR100003,c24,l' air ambiant,air,Nom,autre
+FR100003,c21,L' état respiratoire,état,SNdef,Suj
+FR100003,c22,fréquence respiratoire 22 cycles / mn,fréquence,SN∅,autre
+FR100003,c23,une SaO2 à 96 %,SaO2,SNind,autre
+FR100003,c24,l' air ambiant,air,SNdef,autre
 FR100003,c26,39 °,°,Autre,autre
-FR100003,c25,une fièvre à 39 °,fièvre,Nom,autre
-FR100003,c27,Le bilan biologique initiale,bilan,Nom,Suj
-FR100003,c28,une hyperleucocytose à 85OOO,hyperleucocytose,Nom,OD
-FR100003,c29,une CRP à 350 mg/l,CRP,Nom,autre
-FR100003,c31,12 mmol/l,mmol/l,Nom,autre
-FR100003,c30,une glycémie à 12 mmol/l,glycémie,Nom,autre
-FR100003,c32,La TDM cervicothoracique,TDM,Nom,Suj
-FR100003,c35,les espaces cervicaux antérolatéraux gauches,espaces,Nom,Obl
-FR100003,c34,cellulite profonde abcédée de les espaces cervicaux antérolatéraux gauches,cellulite,Nom,autre
-FR100003,c36,l' ' espace retropharyngolaryngé,espace,Nom,Obl
-FR100003,c37,le médiastin,médiastin,Nom,Obl
-FR100003,c39,un épanchement pleural droit,épanchement,Nom,Obl
-FR100003,c38,une médiastinite associé à un épanchement pleural droit,médiastinite,Nom,autre
-FR100003,c33,un phlegmon avec cellulite profonde abcédée de les espaces cervicaux antérolatéraux gauches fusant le long de l' ' espace retropharyngolaryngé étendue à le médiastin compliqué d' une médiastinite associé à un épanchement pleural droit,phlegmon,Nom,OD
-FR100003,c40,Le panoramique dentaire,panoramique,Nom,Suj
-FR100003,c42,la 45,45,Num,autre
-FR100003,c41,un délabrement de la 45,délabrement,Nom,OD
-FR100003,c42,3éme molaire,molaire,Nom,autre
-FR100003,c44,la racine dentaire,racine,Nom,autre
-FR100003,c43,granulome de la racine dentaire,granulome,Nom,autre
-FR100003,c46,anesthésie locale,anesthésie,Nom,autre
-FR100003,c48,un petit volume de sérum physiologique,volume,Nom,autre
-FR100003,c47,injection d' un petit volume de sérum physiologique,injection,Nom,autre
-FR100003,c48,10 ml,ml,Nom,autre
-FR100003,c33,la collection,collection,Nom,autre
-FR100003,c45,La ponction sous-cutanée sous anesthésie locale après injection d' un petit volume de sérum physiologique ( 10 ml ) de la collection,ponction,Nom,Suj
-FR100003,c49,le pus,pus,Nom,Obl
-FR100003,c50,L' examen cytobactériologique,examen,Nom,Suj
-FR100003,c51,les leucocytes nombreux,leucocytes,Nom,OD
-FR100003,c52,les bactéries abondantes et polymorphes,bactéries,Nom,Obl
-FR100003,c53,L' examen direct coloré GRAM,examen,Nom,autre
-FR100003,c54,Flore bactérienne très abondantes et mixte,Flore,Nom,autre
-FR100003,c55,les anaérobies,anaérobies,Nom,OD
-FR100003,c56,"Une antibiothérapie initiale , adjuvante , probabiliste",antibiothérapie,Nom,Suj
-FR100003,c57,voie intraveineuse,voie,Nom,Obl
-FR100003,c58,le bloc,bloc,Nom,Obl
-FR100003,c60,acide clavulanique,acide,Nom,autre
-FR100003,c63,flagyl 500 mg,flagyl,Nom,autre
-FR100003,c61,augmentin 2g × 3/j ) associé à 5-nitro-imidazolés ( flagyl 500 mg × 3/j,augmentin,Nom,autre
-FR100003,c64,anesthésie générale,anesthésie,Nom,autre
-FR100003,c58,le bloc opératoire sous anesthésie générale,bloc,Nom,Obl
-FR100003,c65,le foyer infectieux,foyer,Nom,Suj
-FR100003,c66,une large incision cervicale,incision,Nom,Obl
-FR100003,c33,le phlegmon abcédé,phlegmon,Nom,Suj
-FR100003,c68,la cervicotomie,cervicotomie,Nom,Obl
-FR100003,c67,les lames descendues à partir de la cervicotomie,lames,Nom,Obl
-FR100003,c69,Une thoracotomie,thoracotomie,Nom,Suj
-FR100003,c37,le médiastin,médiastin,Nom,autre
-FR100003,c71,le niveau de le médiastin,niveau,Nom,Obl
-FR100003,c70,les collections profondes à le niveau de le médiastin,collections,Nom,OD
-FR100003,c72,le stade collecté,stade,Nom,autre
-FR100003,c34,Une cellulite à le stade collecté,cellulite,Nom,Suj
-FR100003,c73,une prise en charge chirurgicale,prise,Nom,Obl
-FR100003,c34,la cellulite,cellulite,Nom,autre
-FR100003,c74,le drainage de la cellulite,drainage,Nom,autre
-FR100003,c76,la dent causale,dent,Nom,autre
-FR100003,c75,l' extraction de la dent causale,extraction,Nom,Suj
-FR100003,c78,la cavité buccale,cavité,Nom,autre
-FR100003,c77,Un traitement complémentaire de la cavité buccale,traitement,Nom,Suj
-FR100003,c79,tout autre épisode infectieux similaire,épisode,Nom,OD
-FR100003,c80,La culture,culture,Nom,Suj
-FR100003,c81,un streptococcus anginosus multisensible,streptococcus,Nom,OD
-FR100003,c56,L' antibiothérapie initiale,antibiothérapie,Nom,Suj
-FR100003,c83,l' hémoculture,hémoculture,Nom,autre
-FR100003,c82,les résultats de l' hémoculture,résultats,Nom,Obl
-FR100078,c1,M.J Patient Tunisien âgé de 42 ans,M.J,Nom,Suj
-FR100078,c2,la MB,MB,Nom,autre
-FR100078,c3,l' âge de 27 ans,âge,Nom,Obl
-FR100078,c4,Le diagnostic,diagnostic,Nom,Suj
-FR100078,c6,une aphtose buccale récidivante,aphtose,Nom,autre
-FR100078,c7,les aphtes génitaux,aphtes,Nom,autre
-FR100078,c8,les pseudofolliculites nécrotiques,pseudofolliculites,Nom,autre
-FR100078,c10,le membre inférieur gauche,membre,Nom,autre
-FR100078,c9,une thrombophlébite de le membre inférieur gauche,thrombophlébite,Nom,autre
-FR100078,c11,un Pathergy test positif,Pathergy,Nom,autre
-FR100078,c5,"l' association d' une aphtose buccale récidivante à de les aphtes génitaux , de les pseudofolliculites nécrotiques , une thrombophlébite de le membre inférieur gauche et un Pathergy test positif",association,Nom,Obl
-FR100078,c1,Le patient,patient,Nom,Suj
-FR100078,c12,le long cours,cours,Nom,Obl
-FR100078,c16,faible dose,dose,Nom,autre
-FR100078,c15,prednisone à faible dose,prednisone,Nom,autre
-FR100078,c17,10 mg/j,mg/j,Nom,autre
-FR100078,c19,les deux jambes,jambes,Nom,autre
-FR100078,c18,les ulcères de les deux jambes,ulcères,Nom,OD
-FR100078,c21,plusieurs reprises,reprises,Nom,Obl
-FR100078,c20,l' hospitalisation à plusieurs reprises,hospitalisation,Nom,OD
-FR100078,c22,chaque fois,fois,Nom,Obl
-FR100078,c18,l' ulcère,ulcère,Nom,autre
-FR100078,c23,les récidives de l' ulcère,récidives,Nom,Suj
-FR100078,c2,la maladie,maladie,Nom,autre
-FR100078,c24,une poussée cutanéo-muqueuse de la maladie,poussée,Nom,Obl
-FR100078,c26,arrêt intempestif de traitement,arrêt,Nom,autre
-FR100078,c25,notion d' arrêt intempestif de traitement,notion,Nom,Obl
-FR100078,c28,L' examen clinique,examen,Nom,Suj
-FR100078,c20,ces hospitalisations,hospitalisations,Nom,autre
-FR100078,c29,le moment de ces hospitalisations,moment,Nom,autre
-FR100078,c31,thrombophlébites superficielles,thrombophlébites,Nom,autre
-FR100078,c19,les jambes,jambes,Nom,autre
-FR100078,c32,le niveau de les jambes,niveau,Nom,Obl
-FR100078,c30,signes de thrombophlébites superficielles à le niveau de les jambes,signes,Nom,OD
-FR100078,c33,les pouls tibiaux postérieurs et pédieux,pouls,Nom,Suj
-FR100078,c35,les membres inférieurs,membres,Nom,autre
-FR100078,c34,Le doppler veineux de les membres inférieurs,doppler,Nom,Suj
-FR100078,c37,insuffisance veineuse,insuffisance,Nom,autre
-FR100078,c38,thrombose profonde concomitante,thrombose,Nom,autre
-FR100078,c36,de signes d' insuffisance veineuse ni de thrombose profonde concomitante,signes,Nom,OD
-FR100078,c39,Le doppler artériel,doppler,Nom,Suj
-FR100078,c41,artériopathie sous-jacente,artériopathie,Nom,autre
-FR100078,c40,de signes d' artériopathie sous-jacente,signes,Nom,OD
-FR100078,c43,pression systolique,pression,Nom,autre
-FR100078,c42,L' indice de pression systolique,indice,Nom,Suj
-FR100078,c18,l' ulcération,ulcération,Nom,autre
-FR100078,c46,les berges de l' ulcération,berges,Nom,autre
-FR100078,c45,le niveau de les berges de l' ulcération,niveau,Nom,Obl
-FR100078,c48,vascularite dermique leucocytoclasique,vascularite,Nom,autre
-FR100078,c47,les signes de vascularite dermique leucocytoclasique,signes,Nom,OD
-FR100078,c49,les micro-thromboses,les,Det,autre
-FR100078,c51,le derme profond,derme,Nom,autre
-FR100078,c50,une infiltration inflammatoire lymphocytaire de le derme profond,infiltration,Nom,autre
+FR100003,c25,une fièvre à 39 °,fièvre,SNind,autre
+FR100003,c27,Le bilan biologique initiale,bilan,SNdef,Suj
+FR100003,c28,une hyperleucocytose à 85OOO,hyperleucocytose,SNind,OD
+FR100003,c29,une CRP à 350 mg/l,CRP,SNind,autre
+FR100003,c31,12 mmol/l,mmol/l,SNnum,autre
+FR100003,c30,une glycémie à 12 mmol/l,glycémie,SNind,autre
+FR100003,c32,La TDM cervicothoracique,TDM,SNdef,Suj
+FR100003,c35,les espaces cervicaux antérolatéraux gauches,espaces,SNdef,Obl
+FR100003,c34,cellulite profonde abcédée de les espaces cervicaux antérolatéraux gauches,cellulite,SN∅,autre
+FR100003,c36,l' ' espace retropharyngolaryngé,espace,SNdef,Obl
+FR100003,c37,le médiastin,médiastin,SNdef,Obl
+FR100003,c39,un épanchement pleural droit,épanchement,SNind,Obl
+FR100003,c38,une médiastinite associé à un épanchement pleural droit,médiastinite,SNind,autre
+FR100003,c33,un phlegmon avec cellulite profonde abcédée de les espaces cervicaux antérolatéraux gauches fusant le long de l' ' espace retropharyngolaryngé étendue à le médiastin compliqué d' une médiastinite associé à un épanchement pleural droit,phlegmon,SNind,OD
+FR100003,c40,Le panoramique dentaire,panoramique,SNdef,Suj
+FR100003,c42,la 45,45,Autre,autre
+FR100003,c41,un délabrement de la 45,délabrement,SNind,OD
+FR100003,c42,3éme molaire,molaire,SN∅,autre
+FR100003,c44,la racine dentaire,racine,SNdef,autre
+FR100003,c43,granulome de la racine dentaire,granulome,SN∅,autre
+FR100003,c46,anesthésie locale,anesthésie,SN∅,autre
+FR100003,c48,un petit volume de sérum physiologique,volume,SNind,autre
+FR100003,c47,injection d' un petit volume de sérum physiologique,injection,SN∅,autre
+FR100003,c48,10 ml,ml,SNnum,autre
+FR100003,c33,la collection,collection,SNdef,autre
+FR100003,c45,La ponction sous-cutanée sous anesthésie locale après injection d' un petit volume de sérum physiologique ( 10 ml ) de la collection,ponction,SNdef,Suj
+FR100003,c49,le pus,pus,SNdef,Obl
+FR100003,c50,L' examen cytobactériologique,examen,SNdef,Suj
+FR100003,c51,les leucocytes nombreux,leucocytes,SNdef,OD
+FR100003,c52,les bactéries abondantes et polymorphes,bactéries,SNdef,Obl
+FR100003,c53,L' examen direct coloré GRAM,examen,SNdef,autre
+FR100003,c54,Flore bactérienne très abondantes et mixte,Flore,SN∅,autre
+FR100003,c55,les anaérobies,anaérobies,SNdef,OD
+FR100003,c56,"Une antibiothérapie initiale , adjuvante , probabiliste",antibiothérapie,SNind,Suj
+FR100003,c57,voie intraveineuse,voie,SN∅,Obl
+FR100003,c58,le bloc,bloc,SNdef,Obl
+FR100003,c59,amoxicilline+,amoxicilline+,Autre,autre
+FR100003,c60,acide clavulanique,acide,SN∅,autre
+FR100003,c62,5-nitro-imidazolés,5-nitro-imidazolés,SN∅,Obl
+FR100003,c63,flagyl 500 mg,flagyl,SN∅,autre
+FR100003,c61,augmentin 2g × 3/j ) associé à 5-nitro-imidazolés ( flagyl 500 mg × 3/j,augmentin,SNnum,autre
+FR100003,c64,anesthésie générale,anesthésie,SN∅,autre
+FR100003,c58,le bloc opératoire sous anesthésie générale,bloc,SNdef,Obl
+FR100003,c65,le foyer infectieux,foyer,SNdef,Suj
+FR100003,c66,une large incision cervicale,incision,SNind,Obl
+FR100003,c33,le phlegmon abcédé,phlegmon,SNdef,Suj
+FR100003,c68,la cervicotomie,cervicotomie,SNdef,Obl
+FR100003,c67,les lames descendues à partir de la cervicotomie,lames,SNdef,Obl
+FR100003,c69,Une thoracotomie,thoracotomie,SNind,Suj
+FR100003,c37,le médiastin,médiastin,SNdef,autre
+FR100003,c71,le niveau de le médiastin,niveau,SNdef,Obl
+FR100003,c70,les collections profondes à le niveau de le médiastin,collections,SNdef,OD
+FR100003,c72,le stade collecté,stade,SNdef,autre
+FR100003,c34,Une cellulite à le stade collecté,cellulite,SNind,Suj
+FR100003,c73,une prise en charge chirurgicale,prise,SNind,Obl
+FR100003,c34,la cellulite,cellulite,SNdef,autre
+FR100003,c74,le drainage de la cellulite,drainage,SNdef,autre
+FR100003,c76,la dent causale,dent,SNdef,autre
+FR100003,c75,l' extraction de la dent causale,extraction,SNdef,Suj
+FR100003,c78,la cavité buccale,cavité,SNdef,autre
+FR100003,c77,Un traitement complémentaire de la cavité buccale,traitement,SNind,Suj
+FR100003,c79,tout autre épisode infectieux similaire,épisode,SNind,OD
+FR100003,c80,La culture,culture,SNdef,Suj
+FR100003,c81,un streptococcus anginosus multisensible,streptococcus,SNind,OD
+FR100003,c56,L' antibiothérapie initiale,antibiothérapie,SNdef,Suj
+FR100003,c83,l' hémoculture,hémoculture,SNdef,autre
+FR100003,c82,les résultats de l' hémoculture,résultats,SNdef,Obl
+FR100078,c1,M.J Patient Tunisien âgé de 42 ans,M.J,SN∅,Suj
+FR100078,c2,la MB,MB,Np,autre
+FR100078,c3,l' âge de 27 ans,âge,SNdef,Obl
+FR100078,c4,Le diagnostic,diagnostic,SNdef,Suj
+FR100078,c6,une aphtose buccale récidivante,aphtose,SNind,autre
+FR100078,c7,les aphtes génitaux,aphtes,SNdef,autre
+FR100078,c8,les pseudofolliculites nécrotiques,pseudofolliculites,SNdef,autre
+FR100078,c10,le membre inférieur gauche,membre,SNdef,autre
+FR100078,c9,une thrombophlébite de le membre inférieur gauche,thrombophlébite,SNind,autre
+FR100078,c11,un Pathergy test positif,Pathergy,Np,autre
+FR100078,c5,"l' association d' une aphtose buccale récidivante à de les aphtes génitaux , de les pseudofolliculites nécrotiques , une thrombophlébite de le membre inférieur gauche et un Pathergy test positif",association,SNdef,Obl
+FR100078,c1,Le patient,patient,SNdef,Suj
+FR100078,c12,le long cours,cours,SNdef,Obl
+FR100078,c13,colchicine,colchicine,SN∅,Obl
+FR100078,c14,aspirine,aspirine,SN∅,autre
+FR100078,c16,faible dose,dose,SN∅,autre
+FR100078,c15,prednisone à faible dose,prednisone,SN∅,autre
+FR100078,c17,10 mg/j,mg/j,SNnum,autre
+FR100078,c1,Il,Il,Pro,Suj
+FR100078,c19,les deux jambes,jambes,SNdef,autre
+FR100078,c18,les ulcères de les deux jambes,ulcères,SNdef,OD
+FR100078,c21,plusieurs reprises,reprises,SNind,Obl
+FR100078,c20,l' hospitalisation à plusieurs reprises,hospitalisation,SNdef,OD
+FR100078,c22,chaque fois,fois,SNind,Obl
+FR100078,c18,l' ulcère,ulcère,SNdef,autre
+FR100078,c23,les récidives de l' ulcère,récidives,SNdef,Suj
+FR100078,c2,la maladie,maladie,SNdef,autre
+FR100078,c24,une poussée cutanéo-muqueuse de la maladie,poussée,SNind,Obl
+FR100078,c26,arrêt intempestif de traitement,arrêt,SN∅,autre
+FR100078,c25,notion d' arrêt intempestif de traitement,notion,SN∅,Obl
+FR100078,c27,traitement,traitement,SN∅,autre
+FR100078,c28,L' examen clinique,examen,SNdef,Suj
+FR100078,c20,ces hospitalisations,hospitalisations,SNdem,autre
+FR100078,c29,le moment de ces hospitalisations,moment,SNdef,autre
+FR100078,c31,thrombophlébites superficielles,thrombophlébites,SN∅,autre
+FR100078,c19,les jambes,jambes,SNdef,autre
+FR100078,c32,le niveau de les jambes,niveau,SNdef,Obl
+FR100078,c30,signes de thrombophlébites superficielles à le niveau de les jambes,signes,SN∅,OD
+FR100078,c33,les pouls tibiaux postérieurs et pédieux,pouls,SNdef,Suj
+FR100078,c35,les membres inférieurs,membres,SNdef,autre
+FR100078,c34,Le doppler veineux de les membres inférieurs,doppler,SNdef,Suj
+FR100078,c37,insuffisance veineuse,insuffisance,SN∅,autre
+FR100078,c38,thrombose profonde concomitante,thrombose,SN∅,autre
+FR100078,c36,de signes d' insuffisance veineuse ni de thrombose profonde concomitante,signes,SNind,OD
+FR100078,c39,Le doppler artériel,doppler,SNdef,Suj
+FR100078,c41,artériopathie sous-jacente,artériopathie,SN∅,autre
+FR100078,c40,de signes d' artériopathie sous-jacente,signes,SNind,OD
+FR100078,c43,pression systolique,pression,SN∅,autre
+FR100078,c42,L' indice de pression systolique,indice,SNdef,Suj
+FR100078,c18,l' ulcération,ulcération,SNdef,autre
+FR100078,c46,les berges de l' ulcération,berges,SNdef,autre
+FR100078,c45,le niveau de les berges de l' ulcération,niveau,SNdef,Obl
+FR100078,c48,vascularite dermique leucocytoclasique,vascularite,SN∅,autre
+FR100078,c47,les signes de vascularite dermique leucocytoclasique,signes,SNdef,OD
+FR100078,c49,les micro-thromboses,les,Autre,autre
+FR100078,c51,le derme profond,derme,SNdef,autre
+FR100078,c50,une infiltration inflammatoire lymphocytaire de le derme profond,infiltration,SNind,autre
 FR100078,c44,La biopsie cutanée réalisée à le niveau de les berges de l' ulcération montrait de les signes de vascularite dermique leucocytoclasique avec de les micro-thromboses et une infiltration inflammatoire lymphocytaire de le derme profond,montrait,Autre,autre
-FR100078,c1,"Il présentait de les ulcères de les deux jambes récidivants et invalidants nécessitant l' hospitalisation à plusieurs reprises . A chaque fois les récidives de l' ulcère s' associaient à une poussée cutanéo-muqueuse de la maladie avec notion d' arrêt intempestif de traitement . L' examen clinique à le moment de ces hospitalisations ne trouvait pas de signes de thrombophlébites superficielles à le niveau de les jambes et les pouls tibiaux postérieurs et pédieux étaient présents . Le doppler veineux de les membres inférieurs n' a pas montré de signes d' insuffisance veineuse ni de thrombose profonde concomitante . Le doppler artériel n' a pas montré non plus de signes d' artériopathie sous-jacente . L' indice de pression systolique était à 1,2 . La biopsie cutanée réalisée à le niveau de les berges de l' ulcération montrait de les signes de vascularite dermique leucocytoclasique avec de les micro-thromboses et une infiltration inflammatoire lymphocytaire de le derme profond . Le patient",présentait,Autre,autre
-FR100078,c18,les ulcérations,ulcérations,Nom,autre
-FR100078,c53,surinfection de les ulcérations,surinfection,Nom,autre
-FR100078,c52,plusieurs épisodes de surinfection de les ulcérations,épisodes,Nom,OD
-FR100078,c55,les antibiotiques,antibiotiques,Nom,autre
-FR100078,c54,le recours à les antibiotiques,recours,Nom,OD
-FR100078,c56,La dernière,dernière,Adj,Suj
+FR100078,c1,Le patient,patient,SNdef,Suj
+FR100078,c18,les ulcérations,ulcérations,SNdef,autre
+FR100078,c53,surinfection de les ulcérations,surinfection,SN∅,autre
+FR100078,c52,plusieurs épisodes de surinfection de les ulcérations,épisodes,SNind,OD
+FR100078,c55,les antibiotiques,antibiotiques,SNdef,autre
+FR100078,c54,le recours à les antibiotiques,recours,SNdef,OD
+FR100078,c56,La dernière,dernière,Autre,Suj
 FR100078,c57,pseudomonas aéroginosa,pseudomonas,Autre,autre
-FR100078,c53,ces infections,infections,Nom,autre
-FR100078,c58,Le diagnostic de ces infections,diagnostic,Nom,Suj
-FR100078,c59,un ensemble de signes clinico-biologiques,ensemble,Nom,Obl
-FR100078,c60,fièvre septicémique,fièvre,Nom,autre
-FR100078,c61,présence de pus,présence,Nom,autre
-FR100078,c63,l' examen local,examen,Nom,autre
-FR100078,c64,une hyperleucocytose à polynucléaires neutrophiles,hyperleucocytose,Nom,autre
-FR100078,c65,une C-réactive protéine élevée,C-réactive,Nom,autre
-FR100078,c66,une simple colonisation bactérienne d' ulcère,colonisation,Nom,OD
-FR100078,c67,les traitements locaux,traitements,Nom,Obl
-FR100078,c68,l' antibiothérapie adaptée,antibiothérapie,Nom,autre
-FR100078,c13,"colchicine , aspirine et prednisone à faible dose ( 10 mg/j ) . Il présentait de les ulcères de les deux jambes récidivants et invalidants nécessitant l' hospitalisation à plusieurs reprises . A chaque fois les récidives de l' ulcère s' associaient à une poussée cutanéo-muqueuse de la maladie avec notion d' arrêt intempestif de traitement . L' examen clinique à le moment de ces hospitalisations ne trouvait pas de signes de thrombophlébites superficielles à le niveau de les jambes et les pouls tibiaux postérieurs et pédieux étaient présents . Le doppler veineux de les membres inférieurs n' a pas montré de signes d' insuffisance veineuse ni de thrombose profonde concomitante . Le doppler artériel n' a pas montré non plus de signes d' artériopathie sous-jacente . L' indice de pression systolique était à 1,2 . La biopsie cutanée réalisée à le niveau de les berges de l' ulcération montrait de les signes de vascularite dermique leucocytoclasique avec de les micro-thromboses et une infiltration inflammatoire lymphocytaire de le derme profond . Le patient avait présenté plusieurs épisodes de surinfection de les ulcérations nécessitant le recours à les antibiotiques . La dernière était à pseudomonas aéroginosa . Le diagnostic de ces infections était porté sur un ensemble de signes clinico-biologiques : fièvre septicémique , présence de pus à l' examen local , une hyperleucocytose à polynucléaires neutrophiles et une C-réactive protéine élevée éliminant ainsi une simple colonisation bactérienne d' ulcère . Avec les traitements locaux , l' antibiothérapie adaptée et la reprise de la colchicine",présentait,Autre,autre
-FR100078,c71,les glucocorticoïdes,glucocorticoïdes,Nom,autre
-FR100078,c70,la colchicine et de les glucocorticoïdes,colchicine,Nom,autre
-FR100078,c69,la reprise de la colchicine et de les glucocorticoïdes,reprise,Nom,autre
-FR100078,c72,l' évolution,évolution,Nom,Suj
-FR100078,c18,"ulcère . Avec les traitements locaux , l' antibiothérapie adaptée et la reprise de la colchicine et de les glucocorticoïdes l' évolution se faisait vers la cicatrisation complète de les ulcérations",ulcère,Nom,autre
-FR100078,c73,la cicatrisation complète de les ulcérations,cicatrisation,Nom,Obl
-FR100078,c23,les récidives,récidives,Nom,Suj
-FR100078,c74,la mauvaise observance thérapeutique,observance,Nom,autre
-FR100092,c1,Mme HK,Mme,Nom,Obl
-FR100092,c2,27 ans,ans,Nom,Obl
-FR100092,c3,1 an et demi,an,Nom,Obl
-FR100092,c4,notre formation,formation,Nom,Obl
-FR100092,c8,la fosse iliaque droite,fosse,Nom,autre
-FR100092,c7,une douleur de la fosse iliaque droite,douleur,Nom,autre
-FR100092,c9,1 semaine,semaine,Nom,Obl
-FR100092,c12,2 mois,mois,Nom,autre
-FR100092,c11,aménorrhée de 2 mois,aménorrhée,Nom,autre
-FR100092,c10,les métrorragies sur aménorrhée de 2 mois,métrorragies,Nom,Obl
-FR100092,c6,prise en charge d' une douleur de la fosse iliaque droite apparue depuis 1 semaine associée à de les métrorragies sur aménorrhée de 2 mois,prise,Nom,Obl
-FR100092,c14,l' admission,admission,Nom,autre
-FR100092,c13,L' examen à l' admission,examen,Nom,Suj
-FR100092,c15,une patiente apyrétique,patiente,Nom,OD
-FR100092,c16,les conjonctives normocolorées,conjonctives,Nom,autre
-FR100092,c17,une tension artérielle à 10 / 6,tension,Nom,Obl
-FR100092,c19,80 battements par minute,battements,Nom,autre
-FR100092,c18,une fréquence cardiaque à 80 battements par minute,fréquence,Nom,autre
-FR100092,c21,L' examen abdominal,examen,Nom,Suj
-FR100092,c22,une sensibilité pelvienne bilatérale accentuée à droite,sensibilité,Nom,OD
-FR100092,c23,L' examen gynécologique,examen,Nom,Suj
-FR100092,c24,un col d' aspect normal,col,Nom,OD
-FR100092,c26,l' endocol,endocol,Nom,Obl
-FR100092,c25,un saignement minime et noirâtre provenant de l' endocol,saignement,Nom,autre
-FR100092,c28,taille normal,taille,Nom,autre
-FR100092,c30,cri de douglas,cri,Nom,autre
-FR100092,c29,un empâtement latéroutérin droit sensible sans cri de douglas,empâtement,Nom,autre
-FR100092,c27,un utérus de taille normal avec un empâtement latéroutérin droit sensible sans cri de douglas,utérus,Nom,autre
-FR100092,c31,l' échographie pelvienne,échographie,Nom,autre
-FR100092,c27,l' utérus,utérus,Nom,Suj
-FR100092,c32,taille normal,taille,Nom,autre
-FR100092,c33,une ligne d' interface,ligne,Nom,Obl
-FR100092,c34,le fond,fond,Nom,Obl
-FR100092,c36,une masse latéroutérine droite mal systématisée,masse,Nom,autre
-FR100092,c37,89 /60mm,/60mm,Nom,OD
-FR100092,c35,présence d' une masse latéroutérine droite mal systématisée faisant 89 /60mm,présence,Nom,autre
-FR100092,c38,l' ovaire gauche,ovaire,Nom,Suj
-FR100092,c39,une image anéchogène kystique simple de 42/42mm,image,Nom,autre
-FR100092,c40,un épanchement de moyenne abondance,épanchement,Nom,Suj
-FR100092,c42,β-HCG ( hormone gonadotrophique chorionique,β-HCG,Nom,autre
-FR100092,c41,Le taux de β-HCG ( hormone gonadotrophique chorionique ) plasmatique,taux,Nom,Suj
-FR100092,c43,1437 UI/ l,l,Nom,Obl
-FR100092,c44,Le tableau,tableau,Nom,Suj
-FR100092,c46,grossesse extra utérine droite,grossesse,Nom,autre
-FR100092,c45,le diagnostic de grossesse extra utérine droite,diagnostic,Nom,OD
-FR100092,c48,le bilan biologique,bilan,Nom,autre
-FR100092,c47,Le reste de le bilan biologique,reste,Nom,Suj
-FR100092,c50,"11,4 g / dl",g,Nom,autre
-FR100092,c51,les globules blancs,globules,Nom,autre
-FR100092,c52,7530 / mm 3,7530,Num,autre
-FR100092,c49,"une hémoglobine à 11,4 g / dl , de les globules blancs à 7530 / mm 3",hémoglobine,Nom,OD
-FR100092,c1,La patiente,patiente,Nom,Suj
-FR100092,c53,une minilaparotomie transversale,minilaparotomie,Nom,Obl
-FR100092,c54,l' exploration,exploration,Nom,autre
-FR100092,c56,un hémopéritoine de 700cc,hémopéritoine,Nom,autre
-FR100092,c58,une grossesse extrautérine en voie d' organisation,grossesse,Nom,autre
-FR100092,c57,découverte d' une grossesse extrautérine en voie d' organisation,découverte,Nom,autre
-FR100092,c59,"trompe droite boudinée , et perforée",trompe,Nom,autre
-FR100092,c55,"présence d' un hémopéritoine de 700cc , avec découverte d' une grossesse extrautérine en voie d' organisation avec trompe droite boudinée , et perforée",présence,Nom,autre
-FR100092,c61,une salpingectomie droite rétrograde,salpingectomie,Nom,OD
-FR100092,c60,la décision de rélaiser une salpingectomie droite rétrograde,décision,Nom,Obl
-FR100092,c54,l' exploration,exploration,Nom,autre
-FR100092,c62,Le reste de l' exploration,reste,Nom,Suj
-FR100092,c63,les adhérences interhépatodia phragmatiques,adhérences,Nom,OD
-FR100092,c36,la masse latéroutérine,masse,Nom,Obl
-FR100092,c64,un appendice enflé accolé à la masse latéroutérine,appendice,Nom,Obl
-FR100092,c65,une appendicectomie,appendicectomie,Nom,Suj
-FR100092,c66,L' étude anatomopathologiaque,étude,Nom,Suj
-FR100092,c67,une grossesse tubaire perforée,grossesse,Nom,OD
-FR100092,c69,réaction péritonéale locale,réaction,Nom,Obl
-FR100092,c68,une appendicite aigue suppurée avec réaction péritonéale locale,appendicite,Nom,autre
-FR100092,c70,Les suites post opératoires,suites,Nom,Suj
-FR100092,c1,la patiente,patiente,Nom,Suj
-FR100092,c72,le 3 ème jour,3,Num,Obl
-FR100120,c2,37 ans,ans,Nom,Obl
-FR100120,c1,"un militaire tunisien , âgé de 37 ans , de sexe masculin",militaire,Nom,Obl
-FR100120,c3,le contingent tunisien,contingent,Nom,autre
-FR100120,c4,République Démocratique de le Congo,République,Nom,autre
-FR100120,c5,l' année 2008,année,Nom,Obl
-FR100120,c6,ses antécédents,antécédents,Nom,Obl
-FR100120,c9,antidiabétiques oraux,antidiabétiques,Nom,Obl
-FR100120,c10,cinq ans,ans,Nom,Obl
-FR100120,c8,un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans,diabète,Nom,OD
-FR100120,c11,une obésité,obésité,Nom,autre
-FR100120,c12,Indice de Masse Corporelle,Indice,Nom,Suj
-FR100120,c13,37 kg / m 2,kg,Nom,OD
-FR100120,c14,une dyslipidémie,dyslipidémie,Nom,Obl
-FR100120,c7,un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans et une obésité ( Indice de Masse Corporelle = 37 kg / m 2 ) associée à une dyslipidémie,diabète,Nom,OD
-FR100120,c15,octobre 2008,octobre,Nom,Obl
-FR100120,c1,"ses antécédents , il y a un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans et une obésité ( Indice de Masse Corporelle = 37 kg / m 2 ) associée à une dyslipidémie . En octobre 2008 , ce militaire",a,Autre,autre
-FR100120,c16,10 semaines,semaines,Nom,Obl
-FR100120,c17,une zone périphérique de Kinshasa,zone,Nom,Obl
-FR100120,c19,Un mois,mois,Nom,Obl
-FR100120,c20,la consultation,consultation,Nom,Obl
-FR100120,c22,6 jours,jours,Nom,Obl
-FR100120,c24,le thorax,thorax,Nom,autre
-FR100120,c25,l' épaule,épaule,Nom,autre
-FR100120,c23,le niveau de le thorax et de l' épaule,niveau,Nom,Obl
-FR100120,c21,deux papules prurigineuses isolées apparues depuis 6 jours à le niveau de le thorax et de l' épaule,papules,Nom,Obl
-FR100120,c26,L' examen clinique,examen,Nom,Suj
-FR100120,c21,deux lésions furonculoïdes,lésions,Nom,OD
-FR100120,c27,5 mm de diamètre chacune,mm,Nom,autre
-FR100120,c28,un petit orifice,orifice,Nom,Obl
-FR100120,c29,le pus,pus,Nom,OD
-FR100120,c30,un liseré érythémateux légèrement tuméfié,liseré,Nom,Obl
-FR100120,c31,chaleur locale,chaleur,Nom,autre
-FR100120,c26,l' examen,examen,Nom,autre
-FR100120,c32,Le reste de l' examen,reste,Nom,Suj
-FR100120,c34,le bilan biologique standard,bilan,Nom,Suj
-FR100120,c35,élément d' orientation,élément,Nom,OD
-FR100120,c36,le terrain de débilité,terrain,Nom,Obl
-FR100120,c8,diabète type II,diabète,Nom,autre
-FR100120,c40,2 g / jour,g,Nom,autre
-FR100120,c39,la dose de 2 g / jour,dose,Nom,autre
-FR100120,c42,7 jours per os,jours,Nom,autre
-FR100120,c44,les soins locaux,soins,Nom,autre
-FR100120,c37,un traitement à base d' oxacycline à la dose de 2 g / jour pendant 7 jours per os avec de les soins locaux,traitement,Nom,Suj
-FR100120,c45,Le retard de guérison,retard,Nom,Suj
-FR100120,c8,son diabète,diabète,Nom,Obl
-FR100120,c21,les lésions,lésions,Nom,Suj
-FR100120,c47,une pommade antibiotique à base de cyclines,pommade,Nom,Obl
-FR100120,c47,pommade hydrophobe,pommade,Nom,autre
-FR100120,c47,la pommade grasse,pommade,Nom,autre
-FR100120,c50,traitement par la pommade grasse,traitement,Nom,autre
-FR100120,c49,deux jours de traitement par la pommade grasse,jours,Nom,Obl
-FR100120,c52,dimensions 10x5mm,dimensions,Nom,autre
-FR100120,c51,deux larves blanchâtres de dimensions 10x5mm,larves,Nom,Suj
-FR100120,c21,chaque lésion,lésion,Nom,Obl
-FR100120,c53,une compression bidigitale,compression,Nom,autre
-FR100120,c51,Ces larves,larves,Nom,Suj
-FR100120,c55,une pince,pince,Nom,autre
-FR100120,c54,l' aide d' une pince,aide,Nom,Obl
-FR100120,c28,un orifice propre sans pus,orifice,Nom,OD
-FR100120,c21,la lésion cutanée,lésion,Nom,autre
-FR100120,c56,L' aspect furonculoïde de la lésion cutanée,aspect,Nom,Suj
-FR100120,c58,les événements,événements,Nom,autre
-FR100120,c57,la chronologie de les événements,chronologie,Nom,autre
-FR100120,c4,république Démocratique de le Congo,république,Nom,autre
-FR100120,c60,séjour en république Démocratique de le Congo,séjour,Nom,autre
-FR100120,c59,la notion de séjour en république Démocratique de le Congo,notion,Nom,autre
-FR100120,c51,"elles un orifice propre sans pus . L' aspect furonculoïde de la lésion cutanée , la chronologie de les événements , la notion de séjour en république Démocratique de le Congo , confrontés à la morphologie de la larve",aspect,Nom,Suj
-FR100120,c61,la morphologie de la larve,morphologie,Nom,Obl
-FR100120,c63,myiase furonculoïde,myiase,Nom,autre
-FR100120,c62,le diagnostic de myiase furonculoïde,diagnostic,Nom,Obl
-FR100120,c51,les larves,larves,Nom,Suj
-FR100120,c64,Cordylobia anthropophaga,Cordylobia,Nom,Obl
-FR100130,c2,49 ans,ans,Nom,Obl
-FR100130,c3,antécédents pathologiques,antécédents,Nom,autre
-FR100130,c4,notre service,service,Nom,Obl
-FR100130,c8,les antalgiques,antalgiques,Nom,Obl
-FR100130,c7,lombalgies mécaniques résistantes à les antalgiques,lombalgies,Nom,autre
-FR100130,c9,une raideur rachidienne,raideur,Nom,autre
-FR100130,c11,les muscles abdominaux,muscles,Nom,autre
-FR100130,c10,une contracture de les muscles abdominaux,contracture,Nom,Obl
-FR100130,c12,un an,an,Nom,Obl
-FR100130,c6,exploration de lombalgies mécaniques résistantes à les antalgiques et d' une raideur rachidienne associées à une contracture de les muscles abdominaux évoluant depuis un an,exploration,Nom,Obl
-FR100130,c1,un patient âgé de 49 ans sans antécédents pathologiques admis dans notre service en 2006 pour exploration de lombalgies mécaniques résistantes à les antalgiques et d' une raideur rachidienne associées à une contracture de les muscles abdominaux évoluant depuis un an,patient,Nom,Obl
-FR100130,c13,épisodes de torticolis spontanément résolutifs,épisodes,Nom,Obl
-FR100130,c14,L' examen physique,examen,Nom,Suj
-FR100130,c16,bon état général et apyrétique,état,Nom,autre
-FR100130,c15,un patient en bon état général et apyrétique .,patient,Nom,OD
-FR100130,c18,une hyperlordose lombaire,hyperlordose,Nom,OD
-FR100130,c20,les muscles paravertébraux,muscles,Nom,autre
-FR100130,c21,l' abdomen,abdomen,Nom,autre
-FR100130,c22,les deux membres inférieurs,membres,Nom,autre
-FR100130,c19,"une contracture permanente de les muscles paravertébraux , de l' abdomen et de les deux membres inférieurs",contracture,Nom,Obl
-FR100130,c19,Ces contractures,contractures,Nom,Suj
-FR100130,c24,la moindre stimulation,stimulation,Nom,Obl
-FR100130,c23,les crampes subintrantes provoquées par la moindre stimulation,crampes,Nom,Obl
-FR100130,c25,rigidité extrapyramidale,rigidité,Nom,OD
-FR100130,c26,Les réflexes ostéotendineux,réflexes,Nom,Suj
-FR100130,c27,les quatre membres,membres,Nom,Obl
-FR100130,c28,le réflexe cutanéoplantaire,réflexe,Nom,Suj
-FR100130,c30,La sensibilité superficielle et profonde,sensibilité,Nom,Suj
-FR100130,c31,La biologie,biologie,Nom,Suj
-FR100130,c32,syndrome inflammatoire biologique,syndrome,Nom,OD
-FR100130,c33,La créatine phosphokinase,créatine,Nom,Suj
-FR100130,c34,lactate désydrogénase,lactate,Nom,autre
-FR100130,c36,La glycémie,glycémie,Nom,Suj
-FR100130,c37,le bilan phosphocalcique,bilan,Nom,autre
-FR100130,c38,le bilan thyroïdien,bilan,Nom,autre
-FR100130,c35,"La glycémie , le bilan phosphocalcique et le bilan thyroïdien",glycémie,Nom,Suj
-FR100130,c39,Le SHR,SHR,Nom,Suj
-FR100130,c40,le diagnostic,diagnostic,Nom,Suj
-FR100130,c41,l' électromyogramme,électromyogramme,Nom,Obl
-FR100130,c43,décharges de potentiels d' unité motrice,décharges,Nom,Obl
-FR100130,c20,les muscles paravertébraux,muscles,Nom,autre
-FR100130,c45,le niveau de les muscles paravertébraux,niveau,Nom,Obl
-FR100130,c44,le repos prédominant à le niveau de les muscles paravertébraux,repos,Nom,autre
-FR100130,c42,une activité musculaire continue faite de décharges de potentiels d' unité motrice à le repos prédominant à le niveau de les muscles paravertébraux,activité,Nom,OD
-FR100130,c47,anticorps anti-GAD65 sériques,anticorps,Nom,autre
-FR100130,c46,La recherche d' anticorps anti-GAD65 sériques,recherche,Nom,Suj
-FR100130,c48,390 UI / ml,UI,Nom,Obl
-FR100130,c50,1 UI / ml,UI,Nom,Obl
-FR100130,c49,une valeur normale inférieure à 1 UI / ml,valeur,Nom,Obl
-FR100130,c1,"Il se plaignait aussi d' épisodes de torticolis spontanément résolutifs . L' examen physique a montré un patient en bon état général et apyrétique . On notait une hyperlordose lombaire avec une contracture permanente de les muscles paravertébraux , de l' abdomen et de les deux membres inférieurs . Ces contractures étaient associées à de les crampes subintrantes provoquées par la moindre stimulation . Il n' avait pas par ailleurs de rigidité extrapyramidale . Les réflexes ostéotendineux étaient vifs et polycinétiques à les quatre membres et le réflexe cutanéoplantaire était en flexion . La sensibilité superficielle et profonde était conservée . La biologie n' a pas montré de syndrome inflammatoire biologique . La créatine phosphokinase ( CPK ) et lactate désydrogénase ( LDH ) étaient normales . La glycémie , le bilan phosphocalcique et le bilan thyroïdien étaient sans anomalie . Le SHR fut évoqué et le diagnostic fut confirmé par l' électromyogramme qui a mis en évidence une activité musculaire continue faite de décharges de potentiels d' unité motrice à le repos prédominant à le niveau de les muscles paravertébraux . La recherche d' anticorps anti-GAD65 sériques était positive à 390 UI / ml pour une valeur normale inférieure à 1 UI / ml . Notre patient",plaignait,Autre,autre
-FR100130,c52,un séjour,séjour,Nom,OD
-FR100130,c55,les états unis d' Amérique,états,Nom,Obl
-FR100130,c53,la Mayo clinique à ROCHESTER à les états unis d' Amérique,Mayo,Nom,autre
-FR100130,c40,le diagnostic de SHR,diagnostic,Nom,Suj
-FR100130,c56,le bilan étiologique,bilan,Nom,autre
-FR100130,c57,une éventuelle néoplasie,néoplasie,Nom,Suj
-FR100130,c58,signes cliniques évocateurs,signes,Nom,OD
-FR100130,c59,les marqueurs tumoraux,marqueurs,Nom,Suj
-FR100130,c60,Une maladie auto-immune associée,maladie,Nom,Suj
-FR100130,c61,le diabète de type 1,diabète,Nom,autre
-FR100130,c62,la glycémie à jeun,glycémie,Nom,Suj
-FR100130,c63,Les anticorps anti-nucléaires,anticorps,Nom,Suj
-FR100130,c64,Les anti thyroperoxydases,anti,Nom,Suj
-FR100130,c65,457 UI / ml,UI,Nom,Obl
-FR100130,c38,un bilan thyroïdien normal,bilan,Nom,Obl
-FR100130,c66,le plan thérapeutique,plan,Nom,Obl
-FR100130,c1,le patient,patient,Nom,Suj
-FR100130,c69,15 mg/j,mg/j,Nom,OD
-FR100130,c70,la kinésithérapie motrice,kinésithérapie,Nom,Obl
-FR100130,c68,dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice,dose,Nom,Obl
-FR100130,c7,les lombalgies,lombalgies,Nom,autre
-FR100130,c19,la contracture musculaire,contracture,Nom,autre
-FR100130,c71,une amélioration partielle de les lombalgies et de la contracture musculaire,amélioration,Nom,Obl
-FR100130,c67,diazépam à dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice avec une amélioration partielle de les lombalgies et de la contracture musculaire,diazépam,Nom,Obl
-FR100130,c74,le tableau clinique,tableau,Nom,autre
-FR100130,c73,une aggravation de le tableau clinique,aggravation,Nom,OD
-FR100130,c19,la contracture,contracture,Nom,autre
-FR100130,c75,une majoration de la contracture,majoration,Nom,autre
-FR100130,c23,les crampes musculaires,crampes,Nom,autre
-FR100130,c77,les muscles respiratoires,muscles,Nom,autre
-FR100130,c76,une atteinte de les muscles respiratoires,atteinte,Nom,autre
-FR100130,c79,le moindre effort,effort,Nom,autre
-FR100130,c80,une dysarthrie,dysarthrie,Nom,Obl
-FR100130,c78,une dyspnée à le moindre effort associée à une dysarthrie,dyspnée,Nom,autre
-FR100130,c81,L' examen neurologique,examen,Nom,Suj
-FR100130,c82,une marche très difficile,marche,Nom,OD
-FR100130,c83,les changements de position,changements,Nom,autre
-FR100130,c84,Une imagerie par résonnance magnétique cérébromédullaire,imagerie,Nom,Suj
-FR100130,c74,le tableau clinique,tableau,Nom,autre
-FR100130,c73,l' aggravation de le tableau clinique,aggravation,Nom,Obl
-FR100130,c1,le patient,patient,Nom,Suj
-FR100130,c87,la dose de 1mg/kg / j,dose,Nom,autre
-FR100130,c89,la dose de 150 mg/j,dose,Nom,autre
-FR100130,c88,l' azathioprine à la dose de 150 mg/j,azathioprine,Nom,Obl
-FR100130,c67,le diazépan,diazépan,Nom,Obl
-FR100130,c86,une corticothérapie orale à la dose de 1mg/kg / j relayés par l' azathioprine à la dose de 150 mg/j associés à le diazépan,corticothérapie,Nom,Obl
-FR100130,c39,"SHR a été réconforté . Dans le cadre de le bilan étiologique , une éventuelle néoplasie a été recherchée mais il n' avait pas de signes cliniques évocateurs et les marqueurs tumoraux étaient négatifs . Une maladie auto-immune associée était suspectée notamment le diabète de type 1 mais la glycémie à jeun était normale . Les anticorps anti-nucléaires étaient négatifs . Les anti thyroperoxydases ( ATPO ) étaient positifs à 457 UI / ml avec un bilan thyroïdien normal . Sur le plan thérapeutique , le patient a été traité par diazépam à dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice avec une amélioration partielle de les lombalgies et de la contracture musculaire . En 2011 , On notait une aggravation de le tableau clinique avec une majoration de la contracture , de les crampes musculaires et une atteinte de les muscles respiratoires avec une dyspnée à le moindre effort associée à une dysarthrie . L' examen neurologique a montré une marche très difficile ainsi que les changements de position . Une imagerie par résonnance magnétique cérébromédullaire a été faite et était sans anomalies . Devant l' aggravation de le tableau clinique , le patient a été traité par une corticothérapie orale à la dose de 1mg/kg / j relayés par l' azathioprine à la dose de 150 mg/j associés à le diazépan , sans effet . Devant cette forme résistante",recherchée,Autre,autre
-FR100130,c92,2 g/kg,g/kg,Nom,autre
-FR100130,c93,cinq jours,jours,Nom,Obl
-FR100130,c91,de les cures d' immunoglobulines polyvalentes intraveineuses à raison de 2 g/kg répartis en cinq jours,cures,Nom,Suj
-FR100130,c95,1 mois,mois,Nom,autre
-FR100130,c94,un espacement de 1 mois,espacement,Nom,Obl
-FR100130,c1,Le patient,patient,Nom,Suj
-FR100130,c96,six cures,cures,Nom,OD
-FR100130,c78,la dyspnée,dyspnée,Nom,autre
-FR100130,c99,la première cure,cure,Nom,autre
-FR100130,c98,le bout de la première cure,bout,Nom,autre
-FR100130,c80,la dysarthrie,dysarthrie,Nom,autre
-FR100130,c19,la contracture musculaire,contracture,Nom,autre
-FR100130,c100,une amélioration de la contracture musculaire,amélioration,Nom,autre
-FR100130,c102,la marche,marche,Nom,autre
-FR100130,c101,une reprise de la marche,reprise,Nom,autre
-FR100130,c97,"une disparition de la dyspnée à le bout de la première cure , de la dysarthrie et une amélioration de la contracture musculaire , une reprise de la marche",disparition,Nom,Obl
-FR100130,c103,Une deuxième série,série,Nom,Suj
-FR100130,c105,2 mois,mois,Nom,Obl
-FR100130,c104,de les cures espacées de 2 mois,cures,Nom,Obl
-FR100130,c106,Le recul actuel,recul,Nom,Suj
-FR100130,c105,2 mois,mois,Nom,autre
+FR100078,c53,ces infections,infections,SNdem,autre
+FR100078,c58,Le diagnostic de ces infections,diagnostic,SNdef,Suj
+FR100078,c59,un ensemble de signes clinico-biologiques,ensemble,SNind,Obl
+FR100078,c60,fièvre septicémique,fièvre,SN∅,autre
+FR100078,c61,présence de pus,présence,SN∅,autre
+FR100078,c62,pus,pus,SN∅,autre
+FR100078,c63,l' examen local,examen,SNdef,autre
+FR100078,c64,une hyperleucocytose à polynucléaires neutrophiles,hyperleucocytose,SNind,autre
+FR100078,c65,une C-réactive protéine élevée,C-réactive,SNind,autre
+FR100078,c66,une simple colonisation bactérienne d' ulcère,colonisation,SNind,OD
+FR100078,c18,ulcère,ulcère,SN∅,autre
+FR100078,c67,les traitements locaux,traitements,SNdef,Obl
+FR100078,c68,l' antibiothérapie adaptée,antibiothérapie,SNdef,autre
+FR100078,c13,la colchicine,colchicine,SNdef,autre
+FR100078,c71,les glucocorticoïdes,glucocorticoïdes,SNdef,autre
+FR100078,c70,la colchicine et de les glucocorticoïdes,colchicine,SNdef,autre
+FR100078,c69,la reprise de la colchicine et de les glucocorticoïdes,reprise,SNdef,autre
+FR100078,c72,l' évolution,évolution,SNdef,Suj
+FR100078,c18,les ulcérations,ulcérations,SNdef,autre
+FR100078,c73,la cicatrisation complète de les ulcérations,cicatrisation,SNdef,Obl
+FR100078,c23,les récidives,récidives,SNdef,Suj
+FR100078,c74,la mauvaise observance thérapeutique,observance,SNdef,autre
+FR100092,c1,Mme HK,Mme,SN∅,Obl
+FR100092,c2,27 ans,ans,SNnum,Obl
+FR100092,c3,1 an et demi,an,SNnum,Obl
+FR100092,c5,notre,notre,Autre,autre
+FR100092,c4,notre formation,formation,Poss,Obl
+FR100092,c8,la fosse iliaque droite,fosse,SNdef,autre
+FR100092,c7,une douleur de la fosse iliaque droite,douleur,SNind,autre
+FR100092,c9,1 semaine,semaine,SNnum,Obl
+FR100092,c12,2 mois,mois,SNnum,autre
+FR100092,c11,aménorrhée de 2 mois,aménorrhée,SN∅,autre
+FR100092,c10,les métrorragies sur aménorrhée de 2 mois,métrorragies,SNdef,Obl
+FR100092,c6,prise en charge d' une douleur de la fosse iliaque droite apparue depuis 1 semaine associée à de les métrorragies sur aménorrhée de 2 mois,prise,SN∅,Obl
+FR100092,c14,l' admission,admission,SNdef,autre
+FR100092,c13,L' examen à l' admission,examen,SNdef,Suj
+FR100092,c15,une patiente apyrétique,patiente,SNind,OD
+FR100092,c16,les conjonctives normocolorées,conjonctives,SNdef,autre
+FR100092,c17,une tension artérielle à 10 / 6,tension,SNind,Obl
+FR100092,c19,80 battements par minute,battements,SNnum,autre
+FR100092,c18,une fréquence cardiaque à 80 battements par minute,fréquence,SNind,autre
+FR100092,c20,minute,minute,SN∅,autre
+FR100092,c21,L' examen abdominal,examen,SNdef,Suj
+FR100092,c22,une sensibilité pelvienne bilatérale accentuée à droite,sensibilité,SNind,OD
+FR100092,c23,L' examen gynécologique,examen,SNdef,Suj
+FR100092,c24,un col d' aspect normal,col,SNind,OD
+FR100092,c26,l' endocol,endocol,SNdef,Obl
+FR100092,c25,un saignement minime et noirâtre provenant de l' endocol,saignement,SNind,autre
+FR100092,c28,taille normal,taille,SN∅,autre
+FR100092,c30,cri de douglas,cri,SN∅,autre
+FR100092,c29,un empâtement latéroutérin droit sensible sans cri de douglas,empâtement,SNind,autre
+FR100092,c27,un utérus de taille normal avec un empâtement latéroutérin droit sensible sans cri de douglas,utérus,SNind,autre
+FR100092,c31,l' échographie pelvienne,échographie,SNdef,autre
+FR100092,c27,l' utérus,utérus,SNdef,Suj
+FR100092,c32,taille normal,taille,SN∅,autre
+FR100092,c33,une ligne d' interface,ligne,SNind,Obl
+FR100092,c33,qui,qui,Pro,Suj
+FR100092,c34,le fond,fond,SNdef,Obl
+FR100092,c36,une masse latéroutérine droite mal systématisée,masse,SNind,autre
+FR100092,c37,89 /60mm,/60mm,SNnum,OD
+FR100092,c35,présence d' une masse latéroutérine droite mal systématisée faisant 89 /60mm,présence,SN∅,autre
+FR100092,c38,l' ovaire gauche,ovaire,SNdef,Suj
+FR100092,c39,une image anéchogène kystique simple de 42/42mm,image,SNind,autre
+FR100092,c40,un épanchement de moyenne abondance,épanchement,SNind,Suj
+FR100092,c42,β-HCG,β-HCG,SN∅,autre
+FR100092,c42,hormone gonadotrophique chorionique,hormone,SN∅,autre
+FR100092,c41,Le taux de β-HCG ( hormone gonadotrophique chorionique ) plasmatique,taux,SNdef,Suj
+FR100092,c43,1437 UI/ l,l,SNnum,Obl
+FR100092,c44,Le tableau,tableau,SNdef,Suj
+FR100092,c46,grossesse extra utérine droite,grossesse,SN∅,autre
+FR100092,c45,le diagnostic de grossesse extra utérine droite,diagnostic,SNdef,OD
+FR100092,c48,le bilan biologique,bilan,SNdef,autre
+FR100092,c47,Le reste de le bilan biologique,reste,SNdef,Suj
+FR100092,c50,"11,4 g / dl",g,SNnum,autre
+FR100092,c51,les globules blancs,globules,SNdef,autre
+FR100092,c52,7530 / mm 3,7530,Autre,autre
+FR100092,c49,"une hémoglobine à 11,4 g / dl , de les globules blancs à 7530 / mm 3",hémoglobine,SNind,OD
+FR100092,c1,La patiente,patiente,SNdef,Suj
+FR100092,c53,une minilaparotomie transversale,minilaparotomie,SNind,Obl
+FR100092,c54,l' exploration,exploration,SNdef,autre
+FR100092,c56,un hémopéritoine de 700cc,hémopéritoine,SNind,autre
+FR100092,c58,une grossesse extrautérine en voie d' organisation,grossesse,SNind,autre
+FR100092,c57,découverte d' une grossesse extrautérine en voie d' organisation,découverte,SN∅,autre
+FR100092,c59,"trompe droite boudinée , et perforée",trompe,SN∅,autre
+FR100092,c55,"présence d' un hémopéritoine de 700cc , avec découverte d' une grossesse extrautérine en voie d' organisation avec trompe droite boudinée , et perforée",présence,SN∅,autre
+FR100092,c61,une salpingectomie droite rétrograde,salpingectomie,SNind,OD
+FR100092,c60,la décision de rélaiser une salpingectomie droite rétrograde,décision,SNdef,Obl
+FR100092,c54,l' exploration,exploration,SNdef,autre
+FR100092,c62,Le reste de l' exploration,reste,SNdef,Suj
+FR100092,c63,les adhérences interhépatodia phragmatiques,adhérences,SNdef,OD
+FR100092,c36,la masse latéroutérine,masse,SNdef,Obl
+FR100092,c64,un appendice enflé accolé à la masse latéroutérine,appendice,SNind,Obl
+FR100092,c65,une appendicectomie,appendicectomie,SNind,Suj
+FR100092,c66,L' étude anatomopathologiaque,étude,SNdef,Suj
+FR100092,c67,une grossesse tubaire perforée,grossesse,SNind,OD
+FR100092,c69,réaction péritonéale locale,réaction,SN∅,Obl
+FR100092,c68,une appendicite aigue suppurée avec réaction péritonéale locale,appendicite,SNind,autre
+FR100092,c70,Les suites post opératoires,suites,SNdef,Suj
+FR100092,c71,particularités,particularités,SN∅,autre
+FR100092,c1,la patiente,patiente,SNdef,Suj
+FR100092,c72,le 3 ème jour,3,Autre,Obl
+FR100120,c2,37 ans,ans,SNnum,Obl
+FR100120,c1,"un militaire tunisien , âgé de 37 ans , de sexe masculin",militaire,SNind,Obl
+FR100120,c3,le contingent tunisien,contingent,SNdef,autre
+FR100120,c4,République Démocratique de le Congo,République,SN∅,autre
+FR100120,c5,l' année 2008,année,SNdef,Obl
+FR100120,c1,ses,ses,Autre,autre
+FR100120,c6,ses antécédents,antécédents,Poss,Obl
+FR100120,c9,antidiabétiques oraux,antidiabétiques,SN∅,Obl
+FR100120,c10,cinq ans,ans,SNnum,Obl
+FR100120,c8,un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans,diabète,SNind,OD
+FR100120,c11,une obésité,obésité,SNind,autre
+FR100120,c12,Indice de Masse Corporelle,Indice,SN∅,Suj
+FR100120,c13,37 kg / m 2,kg,SNnum,OD
+FR100120,c14,une dyslipidémie,dyslipidémie,SNind,Obl
+FR100120,c7,un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans et une obésité ( Indice de Masse Corporelle = 37 kg / m 2 ) associée à une dyslipidémie,diabète,SNind,OD
+FR100120,c15,octobre 2008,octobre,SNnum,Obl
+FR100120,c1,ce militaire,militaire,SNdem,Suj
+FR100120,c16,10 semaines,semaines,SNnum,Obl
+FR100120,c17,une zone périphérique de Kinshasa,zone,SNind,Obl
+FR100120,c18,Kinshasa,Kinshasa,Np,autre
+FR100120,c19,Un mois,mois,SNind,Obl
+FR100120,c1,il,il,Pro,Suj
+FR100120,c20,la consultation,consultation,SNdef,Obl
+FR100120,c22,6 jours,jours,SNnum,Obl
+FR100120,c24,le thorax,thorax,SNdef,autre
+FR100120,c25,l' épaule,épaule,SNdef,autre
+FR100120,c23,le niveau de le thorax et de l' épaule,niveau,SNdef,Obl
+FR100120,c21,deux papules prurigineuses isolées apparues depuis 6 jours à le niveau de le thorax et de l' épaule,papules,SNnum,Obl
+FR100120,c26,L' examen clinique,examen,SNdef,Suj
+FR100120,c21,deux lésions furonculoïdes,lésions,SNnum,OD
+FR100120,c27,5 mm de diamètre chacune,mm,SNnum,autre
+FR100120,c28,un petit orifice,orifice,SNind,Obl
+FR100120,c29,le pus,pus,SNdef,OD
+FR100120,c30,un liseré érythémateux légèrement tuméfié,liseré,SNind,Obl
+FR100120,c31,chaleur locale,chaleur,SN∅,autre
+FR100120,c26,l' examen,examen,SNdef,autre
+FR100120,c32,Le reste de l' examen,reste,SNdef,Suj
+FR100120,c33,fièvre,fièvre,SN∅,autre
+FR100120,c34,le bilan biologique standard,bilan,SNdef,Suj
+FR100120,c35,élément d' orientation,élément,SN∅,OD
+FR100120,c36,le terrain de débilité,terrain,SNdef,Obl
+FR100120,c8,diabète type II,diabète,SN∅,autre
+FR100120,c38,oxacycline,oxacycline,SN∅,autre
+FR100120,c40,2 g / jour,g,SNnum,autre
+FR100120,c39,la dose de 2 g / jour,dose,SNdef,autre
+FR100120,c41,jour,jour,SN∅,autre
+FR100120,c42,7 jours per os,jours,SNnum,autre
+FR100120,c43,os,os,SN∅,autre
+FR100120,c44,les soins locaux,soins,SNdef,autre
+FR100120,c37,un traitement à base d' oxacycline à la dose de 2 g / jour pendant 7 jours per os avec de les soins locaux,traitement,SNind,Suj
+FR100120,c45,Le retard de guérison,retard,SNdef,Suj
+FR100120,c46,guérison,guérison,SN∅,autre
+FR100120,c1,son,son,Autre,autre
+FR100120,c8,son diabète,diabète,Poss,Obl
+FR100120,c21,les lésions,lésions,SNdef,Suj
+FR100120,c47,une pommade antibiotique à base de cyclines,pommade,SNind,Obl
+FR100120,c48,cyclines,cyclines,SN∅,autre
+FR100120,c47,pommade hydrophobe,pommade,SN∅,autre
+FR100120,c47,la pommade grasse,pommade,SNdef,autre
+FR100120,c50,traitement par la pommade grasse,traitement,SN∅,autre
+FR100120,c49,deux jours de traitement par la pommade grasse,jours,SNnum,Obl
+FR100120,c52,dimensions 10x5mm,dimensions,SNnum,autre
+FR100120,c51,deux larves blanchâtres de dimensions 10x5mm,larves,SNnum,Suj
+FR100120,c21,chaque lésion,lésion,SNind,Obl
+FR100120,c53,une compression bidigitale,compression,SNind,autre
+FR100120,c51,Ces larves,larves,SNdem,Suj
+FR100120,c55,une pince,pince,SNind,autre
+FR100120,c54,l' aide d' une pince,aide,SNdef,Obl
+FR100120,c51,elles,elles,Pro,Obl
+FR100120,c28,un orifice propre sans pus,orifice,SNind,OD
+FR100120,c29,pus,pus,SN∅,autre
+FR100120,c21,la lésion cutanée,lésion,SNdef,autre
+FR100120,c56,L' aspect furonculoïde de la lésion cutanée,aspect,SNdef,Suj
+FR100120,c58,les événements,événements,SNdef,autre
+FR100120,c57,la chronologie de les événements,chronologie,SNdef,autre
+FR100120,c4,république Démocratique de le Congo,république,SN∅,autre
+FR100120,c60,séjour en république Démocratique de le Congo,séjour,SN∅,autre
+FR100120,c59,la notion de séjour en république Démocratique de le Congo,notion,SNdef,autre
+FR100120,c51,la larve,larve,SNdef,autre
+FR100120,c61,la morphologie de la larve,morphologie,SNdef,Obl
+FR100120,c63,myiase furonculoïde,myiase,SN∅,autre
+FR100120,c62,le diagnostic de myiase furonculoïde,diagnostic,SNdef,Obl
+FR100120,c51,les larves,larves,SNdef,Suj
+FR100120,c64,Cordylobia anthropophaga,Cordylobia,Np,Obl
+FR100130,c2,49 ans,ans,SNnum,Obl
+FR100130,c3,antécédents pathologiques,antécédents,SN∅,autre
+FR100130,c4,notre service,service,Poss,Obl
+FR100130,c5,2006,2006,Autre,Obl
+FR100130,c8,les antalgiques,antalgiques,SNdef,Obl
+FR100130,c7,lombalgies mécaniques résistantes à les antalgiques,lombalgies,SN∅,autre
+FR100130,c9,une raideur rachidienne,raideur,SNind,autre
+FR100130,c11,les muscles abdominaux,muscles,SNdef,autre
+FR100130,c10,une contracture de les muscles abdominaux,contracture,SNind,Obl
+FR100130,c12,un an,an,SNind,Obl
+FR100130,c6,exploration de lombalgies mécaniques résistantes à les antalgiques et d' une raideur rachidienne associées à une contracture de les muscles abdominaux évoluant depuis un an,exploration,SN∅,Obl
+FR100130,c1,un patient âgé de 49 ans sans antécédents pathologiques admis dans notre service en 2006 pour exploration de lombalgies mécaniques résistantes à les antalgiques et d' une raideur rachidienne associées à une contracture de les muscles abdominaux évoluant depuis un an,patient,SNind,Obl
+FR100130,c1,Il,Il,Pro,Suj
+FR100130,c13,épisodes de torticolis spontanément résolutifs,épisodes,SN∅,Obl
+FR100130,c14,L' examen physique,examen,SNdef,Suj
+FR100130,c16,bon état général et apyrétique,état,SN∅,autre
+FR100130,c15,un patient en bon état général et apyrétique .,patient,SNind,OD
+FR100130,c17,On,On,Pro,Suj
+FR100130,c18,une hyperlordose lombaire,hyperlordose,SNind,OD
+FR100130,c20,les muscles paravertébraux,muscles,SNdef,autre
+FR100130,c21,l' abdomen,abdomen,SNdef,autre
+FR100130,c22,les deux membres inférieurs,membres,SNdef,autre
+FR100130,c19,"une contracture permanente de les muscles paravertébraux , de l' abdomen et de les deux membres inférieurs",contracture,SNind,Obl
+FR100130,c19,Ces contractures,contractures,SNdem,Suj
+FR100130,c24,la moindre stimulation,stimulation,SNdef,Obl
+FR100130,c23,les crampes subintrantes provoquées par la moindre stimulation,crampes,SNdef,Obl
+FR100130,c1,Il,Il,Pro,Suj
+FR100130,c25,rigidité extrapyramidale,rigidité,SN∅,OD
+FR100130,c26,Les réflexes ostéotendineux,réflexes,SNdef,Suj
+FR100130,c27,les quatre membres,membres,SNdef,Obl
+FR100130,c28,le réflexe cutanéoplantaire,réflexe,SNdef,Suj
+FR100130,c29,flexion,flexion,SN∅,autre
+FR100130,c30,La sensibilité superficielle et profonde,sensibilité,SNdef,Suj
+FR100130,c31,La biologie,biologie,SNdef,Suj
+FR100130,c32,syndrome inflammatoire biologique,syndrome,SN∅,OD
+FR100130,c33,La créatine phosphokinase,créatine,SNdef,Suj
+FR100130,c33,CPK,CPK,Autre,autre
+FR100130,c34,lactate désydrogénase,lactate,SN∅,autre
+FR100130,c34,LDH,LDH,Autre,autre
+FR100130,c36,La glycémie,glycémie,SNdef,Suj
+FR100130,c37,le bilan phosphocalcique,bilan,SNdef,autre
+FR100130,c38,le bilan thyroïdien,bilan,SNdef,autre
+FR100130,c35,"La glycémie , le bilan phosphocalcique et le bilan thyroïdien",glycémie,SNdef,Suj
+FR100130,c39,Le SHR,SHR,SNdef,Suj
+FR100130,c40,le diagnostic,diagnostic,SNdef,Suj
+FR100130,c41,l' électromyogramme,électromyogramme,SNdef,Obl
+FR100130,c41,qui,qui,Pro,Suj
+FR100130,c43,décharges de potentiels d' unité motrice,décharges,SN∅,Obl
+FR100130,c20,les muscles paravertébraux,muscles,SNdef,autre
+FR100130,c45,le niveau de les muscles paravertébraux,niveau,SNdef,Obl
+FR100130,c44,le repos prédominant à le niveau de les muscles paravertébraux,repos,SNdef,autre
+FR100130,c42,une activité musculaire continue faite de décharges de potentiels d' unité motrice à le repos prédominant à le niveau de les muscles paravertébraux,activité,SNind,OD
+FR100130,c47,anticorps anti-GAD65 sériques,anticorps,SN∅,autre
+FR100130,c46,La recherche d' anticorps anti-GAD65 sériques,recherche,SNdef,Suj
+FR100130,c48,390 UI / ml,UI,SNnum,Obl
+FR100130,c50,1 UI / ml,UI,SNnum,Obl
+FR100130,c49,une valeur normale inférieure à 1 UI / ml,valeur,SNind,Obl
+FR100130,c51,Notre,Notre,Autre,autre
+FR100130,c1,Notre patient,patient,Poss,Suj
+FR100130,c52,un séjour,séjour,SNind,OD
+FR100130,c54,ROCHESTER,ROCHESTER,Np,Obl
+FR100130,c55,les états unis d' Amérique,états,SNdef,Obl
+FR100130,c53,la Mayo clinique à ROCHESTER à les états unis d' Amérique,Mayo,Np,autre
+FR100130,c53,où,où,Pro,Obl
+FR100130,c40,le diagnostic de SHR,diagnostic,SNdef,Suj
+FR100130,c39,SHR,SHR,SN∅,autre
+FR100130,c56,le bilan étiologique,bilan,SNdef,autre
+FR100130,c57,une éventuelle néoplasie,néoplasie,SNind,Suj
+FR100130,c58,signes cliniques évocateurs,signes,SN∅,OD
+FR100130,c59,les marqueurs tumoraux,marqueurs,SNdef,Suj
+FR100130,c60,Une maladie auto-immune associée,maladie,SNind,Suj
+FR100130,c61,le diabète de type 1,diabète,SNdef,autre
+FR100130,c62,la glycémie à jeun,glycémie,SNdef,Suj
+FR100130,c63,Les anticorps anti-nucléaires,anticorps,SNdef,Suj
+FR100130,c64,Les anti thyroperoxydases,anti,SNdef,Suj
+FR100130,c64,ATPO,ATPO,Np,autre
+FR100130,c65,457 UI / ml,UI,SNnum,Obl
+FR100130,c38,un bilan thyroïdien normal,bilan,SNind,Obl
+FR100130,c66,le plan thérapeutique,plan,SNdef,Obl
+FR100130,c1,le patient,patient,SNdef,Suj
+FR100130,c69,15 mg/j,mg/j,SNnum,OD
+FR100130,c70,la kinésithérapie motrice,kinésithérapie,SNdef,Obl
+FR100130,c68,dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice,dose,SN∅,Obl
+FR100130,c7,les lombalgies,lombalgies,SNdef,autre
+FR100130,c19,la contracture musculaire,contracture,SNdef,autre
+FR100130,c71,une amélioration partielle de les lombalgies et de la contracture musculaire,amélioration,SNind,Obl
+FR100130,c67,diazépam à dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice avec une amélioration partielle de les lombalgies et de la contracture musculaire,diazépam,SN∅,Obl
+FR100130,c72,2011,2011,Autre,Obl
+FR100130,c17,On,On,Pro,Suj
+FR100130,c74,le tableau clinique,tableau,SNdef,autre
+FR100130,c73,une aggravation de le tableau clinique,aggravation,SNind,OD
+FR100130,c19,la contracture,contracture,SNdef,autre
+FR100130,c75,une majoration de la contracture,majoration,SNind,autre
+FR100130,c23,les crampes musculaires,crampes,SNdef,autre
+FR100130,c77,les muscles respiratoires,muscles,SNdef,autre
+FR100130,c76,une atteinte de les muscles respiratoires,atteinte,SNind,autre
+FR100130,c79,le moindre effort,effort,SNdef,autre
+FR100130,c80,une dysarthrie,dysarthrie,SNind,Obl
+FR100130,c78,une dyspnée à le moindre effort associée à une dysarthrie,dyspnée,SNind,autre
+FR100130,c81,L' examen neurologique,examen,SNdef,Suj
+FR100130,c82,une marche très difficile,marche,SNind,OD
+FR100130,c83,les changements de position,changements,SNdef,autre
+FR100130,c84,Une imagerie par résonnance magnétique cérébromédullaire,imagerie,SNind,Suj
+FR100130,c85,anomalies,anomalies,SN∅,autre
+FR100130,c74,le tableau clinique,tableau,SNdef,autre
+FR100130,c73,l' aggravation de le tableau clinique,aggravation,SNdef,Obl
+FR100130,c1,le patient,patient,SNdef,Suj
+FR100130,c87,la dose de 1mg/kg / j,dose,SNdef,autre
+FR100130,c89,la dose de 150 mg/j,dose,SNdef,autre
+FR100130,c88,l' azathioprine à la dose de 150 mg/j,azathioprine,SNdef,Obl
+FR100130,c67,le diazépan,diazépan,SNdef,Obl
+FR100130,c86,une corticothérapie orale à la dose de 1mg/kg / j relayés par l' azathioprine à la dose de 150 mg/j associés à le diazépan,corticothérapie,SNind,Obl
+FR100130,c90,effet,effet,SN∅,Obl
+FR100130,c39,cette forme résistante,forme,SNdem,Obl
+FR100130,c92,2 g/kg,g/kg,SNnum,autre
+FR100130,c93,cinq jours,jours,SNnum,Obl
+FR100130,c91,de les cures d' immunoglobulines polyvalentes intraveineuses à raison de 2 g/kg répartis en cinq jours,cures,SNdef,Suj
+FR100130,c95,1 mois,mois,SNnum,autre
+FR100130,c94,un espacement de 1 mois,espacement,SNind,Obl
+FR100130,c1,Le patient,patient,SNdef,Suj
+FR100130,c96,six cures,cures,SNnum,OD
+FR100130,c78,la dyspnée,dyspnée,SNdef,autre
+FR100130,c99,la première cure,cure,SNdef,autre
+FR100130,c98,le bout de la première cure,bout,SNdef,autre
+FR100130,c80,la dysarthrie,dysarthrie,SNdef,autre
+FR100130,c19,la contracture musculaire,contracture,SNdef,autre
+FR100130,c100,une amélioration de la contracture musculaire,amélioration,SNind,autre
+FR100130,c102,la marche,marche,SNdef,autre
+FR100130,c101,une reprise de la marche,reprise,SNind,autre
+FR100130,c97,"une disparition de la dyspnée à le bout de la première cure , de la dysarthrie et une amélioration de la contracture musculaire , une reprise de la marche",disparition,SNind,Obl
+FR100130,c103,Une deuxième série,série,SNind,Suj
+FR100130,c105,2 mois,mois,SNnum,Obl
+FR100130,c104,de les cures espacées de 2 mois,cures,SNdef,Obl
+FR100130,c106,Le recul actuel,recul,SNdef,Suj
+FR100130,c105,2 mois,mois,SNnum,autre
