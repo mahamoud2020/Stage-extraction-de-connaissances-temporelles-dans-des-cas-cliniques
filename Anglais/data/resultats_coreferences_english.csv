@@ -69,7 +69,7 @@ EN100017,c57,anti-malarial treatment,treatment,SN∅,autre
 EN100017,c59,bacterial infections,infections,SN∅,OD
 EN100017,c58,empirical broad spectrum IV antibiotics to cover bacterial infections,antibiotics,SN∅,autre
 EN100017,c60,a salt - restricted diet,diet,SNind,autre
-EN100017,c61,day 3 of admission,day,SNnum,Obl
+EN100017,c61,day 3 of admission,day,SN∅,Obl
 EN100017,c62,admission,admission,SN∅,autre
 EN100017,c1,he,he,Pro,Suj
 EN100017,c63,a clinical response to treatment,response,SNind,OD
@@ -91,11 +91,11 @@ EN100017,c70,focal neurological signs,signs,SN∅,autre
 EN100017,c1,He,He,Pro,Suj
 EN100017,c71,oral paracetamol,paracetamol,SN∅,Obl
 EN100017,c72,The next morning,morning,SNdef,Obl
-EN100017,c72,day 4 of admission,day,SNnum,autre
+EN100017,c72,day 4 of admission,day,SN∅,autre
 EN100017,c62,admission,admission,SN∅,autre
-EN100017,c1,his,his,Pro,autre
+EN100017,c1,his,his,Poss,autre
 EN100017,c73,his symptoms,symptoms,SN∅,Suj
-EN100017,c1,his,his,Pro,autre
+EN100017,c1,his,his,Poss,autre
 EN100017,c67,his headache,headache,SN∅,Suj
 EN100017,c1,he,he,Pro,Suj
 EN100017,c75,both eyes,eyes,SNind,autre
@@ -142,21 +142,21 @@ EN100017,c103,45 degrees,degrees,SNnum,autre
 EN100017,c101,elevation of the head to 45 degrees,elevation,SN∅,autre
 EN100017,c105,raised intracranial pressure,pressure,SN∅,autre
 EN100017,c104,features of raised intracranial pressure,features,SN∅,OD
-EN100017,c106,day 6 of admission,day,SNnum,Obl
+EN100017,c106,day 6 of admission,day,SN∅,Obl
 EN100017,c62,admission,admission,SN∅,autre
-EN100017,c1,his,his,Pro,autre
+EN100017,c1,his,his,Poss,autre
 EN100017,c67,his headache,headache,SN∅,Suj
-EN100017,c1,his,his,Pro,autre
+EN100017,c1,his,his,Poss,autre
 EN100017,c70,his focal neurological signs,signs,SN∅,Suj
 EN100017,c1,He,He,Pro,Suj
 EN100017,c76,a partial right VI nerve palsy,palsy,SNind,OD
 EN100017,c107,a convergent squint,squint,SNind,autre
-EN100017,c1,His,His,Pro,autre
+EN100017,c1,His,His,Poss,autre
 EN100017,c17,His oedema,oedema,SN∅,Suj
-EN100017,c108,day 10 of treatment,day,SNnum,Obl
+EN100017,c108,day 10 of treatment,day,SN∅,Obl
 EN100017,c52,treatment,treatment,SN∅,autre
 EN100017,c1,he,he,Pro,Suj
-EN100017,c109,day 18,day,SNnum,Obl
+EN100017,c109,day 18,day,SN∅,Obl
 EN100017,c1,He,He,Pro,Suj
 EN100017,c53,prednisolone 60 mg daily,prednisolone,Np,OD
 EN100017,c110,a total of 6 weeks,total,SNind,Obl
@@ -166,7 +166,7 @@ EN100017,c111,a reduced dose of 40 mg on alternate days,dose,SNind,Obl
 EN100017,c114,6 weeks,weeks,SNnum,Obl
 EN100017,c116,12 weeks,weeks,SNnum,autre
 EN100017,c115,12 weeks follow - up,up,Autre,Obl
-EN100017,c1,his,his,Pro,autre
+EN100017,c1,his,his,Poss,autre
 EN100017,c40,his urinalysis,urinalysis,SN∅,Suj
 EN100017,c117,a trace proteinurea,proteinurea,SNind,OD
 EN100017,c1,he,he,Pro,Suj
@@ -199,7 +199,7 @@ EN100022,c1,a patient in state of septic shock,patient,SNind,OD
 EN100022,c22,respiratory rate,rate,SN∅,autre
 EN100022,c23,28 cycles per min,cycles,SNnum,autre
 EN100022,c24,min,min,SN∅,autre
-EN100022,c1,his,his,Pro,autre
+EN100022,c1,his,his,Poss,autre
 EN100022,c25,his pulse,pulse,SN∅,Suj
 EN100022,c27,120 beats / min,beats,SNnum,autre
 EN100022,c24,min,min,SN∅,autre
@@ -283,13 +283,13 @@ EN100022,c91,further hematemesis,hematemesis,SN∅,OD
 EN100022,c40,melena,melena,SN∅,autre
 EN100022,c83,the necrosis,necrosis,SNdef,autre
 EN100022,c92,the severity of the necrosis,severity,SNdef,Obl
-EN100022,c1,his,his,Pro,autre
+EN100022,c1,his,his,Poss,autre
 EN100022,c3,his condition,condition,SN∅,autre
 EN100022,c93,deterioration of his condition,deterioration,SN∅,autre
 EN100022,c94,persistent sepsis,sepsis,SN∅,autre
 EN100022,c1,he,he,Pro,Suj
 EN100022,c95,the same day,day,SNdef,Obl
-EN100024,c3,our,our,Pro,autre
+EN100024,c3,our,our,Poss,autre
 EN100024,c2,our unit,unit,SN∅,Obl
 EN100024,c6,coronary artery,artery,SN∅,autre
 EN100024,c5,coronary artery bypass grafting,grafting,SN∅,autre
@@ -305,7 +305,7 @@ EN100024,c1,She,She,Pro,Suj
 EN100024,c11,July 2009,July,Np,Obl
 EN100024,c12,2009,2009,Autre,autre
 EN100024,c7,IHD,IHD,Np,Obl
-EN100024,c14,angina class III,class,SNnum,autre
+EN100024,c14,angina class III,class,SN∅,autre
 EN100024,c15,Canadian Cardiovascular society,society,SN∅,autre
 EN100024,c14,Canadian Cardiovascular society classification,classification,SN∅,autre
 EN100024,c16,medical therapy,therapy,SN∅,Obl
@@ -326,13 +326,13 @@ EN100024,c21,Cx,Cx,SN∅,autre
 EN100024,c26,3.0 mm Drug Eluting Stent,Stent,SNnum,Suj
 EN100024,c20,the LAD,LAD,SNdef,OD
 EN100024,c21,the Cx,Cx,SNdef,Suj
-EN100024,c27,a 3.0 mm,a,Autre,autre
+EN100024,c27,a 3.0 mm,a,SNind,autre
 EN100024,c25,A 3.0 mm Drug Eluting Stent was deployed to stent the LAD and the Cx was stented with a 3.0 mm Bare Metal Stent,deployed,Autre,autre
 EN100024,c1,The patient,patient,SNdef,Suj
 EN100024,c28,one year,year,SNnum,Obl
 EN100024,c29,July 2010,July,Np,Obl
 EN100024,c30,2010,2010,Autre,autre
-EN100024,c14,angina class III,class,SNnum,Obl
+EN100024,c14,angina class III,class,SN∅,Obl
 EN100024,c31,Repeat coronary angiogram,angiogram,SN∅,Suj
 EN100024,c32,both stents,stents,SNind,Suj
 EN100024,c33,no new coronary lesion,lesion,SNind,Suj
@@ -364,7 +364,7 @@ EN100024,c50,0.57,0.57,Autre,autre
 EN100024,c51,bilateral carotid bruits,bruits,SN∅,autre
 EN100024,c52,poorly controlled diabetes mellitus,mellitus,SN∅,autre
 EN100024,c53,hyperlipidemia,hyperlipidemia,SN∅,autre
-EN100024,c1,Her,Her,Pro,autre
+EN100024,c1,Her,Her,Poss,autre
 EN100024,c54,Her calculated euroscore,euroscore,SN∅,Suj
 EN100024,c54,6,6,Autre,autre
 EN100024,c55,Medications on admission,Medications,SN∅,Suj
@@ -390,7 +390,7 @@ EN100024,c71,pulmonary function tests,tests,SN∅,autre
 EN100024,c74,blood,blood,SN∅,autre
 EN100024,c73,All blood parameters,parameters,SNind,Suj
 EN100024,c75,acceptable limits,limits,SN∅,autre
-EN100024,c1,her,her,Pro,autre
+EN100024,c1,her,her,Poss,autre
 EN100024,c17,her coronary angiogram,angiogram,SN∅,autre
 EN100024,c76,review of her coronary angiogram,review,SN∅,Obl
 EN100024,c1,she,she,Pro,Suj
@@ -417,7 +417,7 @@ EN100024,c87,good visualization of the LAD,visualization,SN∅,Obl
 EN100024,c88,2.5 mm,mm,SNnum,autre
 EN100024,c20,a 2.5 mm vessel,vessel,SNind,autre
 EN100024,c89,an arteriotomy,arteriotomy,SNind,Suj
-EN100024,c20,its,its,Pro,autre
+EN100024,c20,its,its,Poss,autre
 EN100024,c19,The LAD which was a 2.5 mm vessel was snugged proximally and an arteriotomy performed in its mid-portion,snugged,Autre,autre
 EN100024,c89,arteriotomy,arteriotomy,SN∅,autre
 EN100024,c19,The arteriotomy site,site,SNdef,Suj
@@ -451,20 +451,20 @@ EN100029,c2,a history of moderate persistent allergic asthma,history,SNind,autre
 EN100029,c1,A 17 year - old woman with a history of moderate persistent allergic asthma,woman,SNind,Suj
 EN100029,c5,desensitization,desensitization,SN∅,autre
 EN100029,c4,a first desensitization protocol,protocol,SNind,Obl
-EN100029,c6,age 3,age,SNnum,Obl
+EN100029,c6,age 3,age,SN∅,Obl
 EN100029,c4,The protocol,protocol,SNdef,Suj
 EN100029,c7,4 years,years,SNnum,Obl
 EN100029,c9,skin,skin,SN∅,autre
 EN100029,c8,a mild skin reaction,reaction,SNind,Obl
-EN100029,c1,Her,Her,Pro,autre
+EN100029,c1,Her,Her,Poss,autre
 EN100029,c10,Her doctor,doctor,SN∅,Suj
 EN100029,c11,the specific immunotherapy,immunotherapy,SNdef,OD
 EN100029,c12,another doctor,doctor,SNind,Suj
 EN100029,c5,desensitization,desensitization,SN∅,autre
-EN100029,c14,age 16,age,SNnum,Obl
+EN100029,c14,age 16,age,SN∅,Obl
 EN100029,c13,a new protocol of desensitization at age 16 against pollens,protocol,SNind,OD
 EN100029,c15,pollens,pollens,SN∅,Obl
-EN100029,c12,his,his,Pro,autre
+EN100029,c12,his,his,Poss,autre
 EN100029,c18,his condition,condition,SN∅,autre
 EN100029,c17,control of his condition,control,SN∅,autre
 EN100029,c16,a lack of control of his condition,lack,SNind,Obl
@@ -543,7 +543,7 @@ EN100029,c72,platelet and erythrocyte transfusion,transfusion,SN∅,autre
 EN100029,c73,steroids,steroids,SN∅,autre
 EN100029,c74,antibiotics,antibiotics,SN∅,autre
 EN100029,c75,A hypoxic coma,coma,SNind,Suj
-EN100029,c76,day 4,day,SNnum,Obl
+EN100029,c76,day 4,day,SN∅,Obl
 EN100029,c77,intubation,intubation,SN∅,Obl
 EN100029,c78,mechanical ventilation,ventilation,SN∅,autre
 EN100029,c1,she,she,Pro,Suj
@@ -551,14 +551,14 @@ EN100029,c79,intractable shock,shock,SN∅,OD
 EN100029,c80,acute renal impairment,impairment,SN∅,autre
 EN100029,c81,inotropic agents,agents,SN∅,Obl
 EN100029,c82,death,death,SN∅,Obl
-EN100029,c83,day 5,day,SNnum,Obl
+EN100029,c83,day 5,day,SN∅,Obl
 EN100046,c1,A 33 - year man working in Gulf,man,SNind,Suj
 EN100046,c2,Gulf,Gulf,Np,Obl
 EN100046,c3,hemetemesis,hemetemesis,Np,Obl
 EN100046,c6,this year,year,SNdem,Obl
 EN100046,c5,the month of February this year,month,SNdef,Obl
 EN100046,c4,15 days ago in the month of February this year,ago,Autre,autre
-EN100046,c3,This,This,Pro,Suj
+EN100046,c3,This,This,SNdem,Suj
 EN100046,c7,low grade fever,fever,SN∅,Obl
 EN100046,c9,bone,bone,SN∅,autre
 EN100046,c8,bone pain,pain,SN∅,autre
@@ -581,7 +581,7 @@ EN100046,c11,backache,backache,SN∅,autre
 EN100046,c24,symptomatic treatment,treatment,SN∅,Obl
 EN100046,c1,he,he,Pro,Suj
 EN100046,c1,He,He,Pro,Suj
-EN100046,c26,our,our,Pro,autre
+EN100046,c26,our,our,Poss,autre
 EN100046,c25,our OPD,OPD,SN∅,Obl
 EN100046,c29,8g / dl,8g,SN∅,autre
 EN100046,c30,dl,dl,SN∅,autre
@@ -670,7 +670,7 @@ EN100046,c92,the raised levels of FDP,levels,SNdef,Obl
 EN100046,c93,FDP,FDP,SN∅,autre
 EN100046,c92,"5,170 ng / dl",ng,SNnum,autre
 EN100046,c94,dl,dl,SN∅,autre
-EN100046,c95,a low fibrinogen,a,Autre,autre
+EN100046,c95,a low fibrinogen,a,SNind,autre
 EN100046,c95,152 mg / dl,mg,SNnum,autre
 EN100046,c30,dl,dl,SN∅,autre
 EN100046,c1,He,He,Pro,Suj
@@ -679,7 +679,7 @@ EN100046,c96,Medical Oncology department,department,SN∅,Obl
 EN100046,c98,subsequent management,management,SN∅,Obl
 EN100046,c99,chemotherapy,chemotherapy,SN∅,Obl
 EN100046,c1,He,He,Pro,Suj
-EN100046,c1,his,his,Pro,autre
+EN100046,c1,his,his,Poss,autre
 EN100046,c3,his illness,illness,SN∅,Obl
 EN100046,c100,10 months of diagnosis,months,SNnum,Obl
 EN100046,c101,diagnosis,diagnosis,SN∅,autre

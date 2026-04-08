@@ -32,48 +32,63 @@ def determiner_nature_syntagme(tokens_mention, tete):
         return '∅'
         
     upos_tete = tete['upos']
+    lemme_tete = tete['lemma'].lower()
     
-    if upos_tete == 'PRON':
-        return 'Pro'
-    elif upos_tete == 'PROPN':
+    # Liste de vocabulaire multilingue 
+    definis = ['le', 'la', 'les', 'l\'', 'l', 'au', 'aux', 'the', 'il', 'lo', 'i', 'gli']
+    demonstratifs = ['ce', 'cet', 'cette', 'ces', 'this', 'that', 'these', 'those', 'questo', 'questa', 'questi', 'queste', 'quello', 'quella', 'quelli', 'quelle', 'quest\'', 'quell\'']
+    possessifs = ['mon', 'ton', 'son', 'ma', 'ta', 'sa', 'mes', 'tes', 'ses', 'notre', 'votre', 'leur', 'nos', 'vos', 'leurs', 'my', 'your', 'his', 'her', 'its', 'our', 'their', 'mio', 'mia', 'miei', 'mie', 'tuo', 'tua', 'tuoi', 'tue', 'suo', 'sua', 'suoi', 'sue', 'nostro', 'nostra', 'nostri', 'nostre', 'vostro', 'vostra', 'vostri', 'vostre', 'loro']
+
+    # Gestion déterminants ou pronoms isolés (ex: "son", "notre") 
+    if upos_tete == 'DET' or upos_tete == 'PRON':
+        if lemme_tete in possessifs:
+            return 'Poss'
+        elif lemme_tete in demonstratifs:
+            return 'SNdem'
+        elif lemme_tete in definis:
+            return 'SNdef'
+        elif upos_tete == 'PRON':
+            return 'Pro'
+        elif upos_tete == 'DET':
+            return 'SNind' # Si c'est un DET isolé comme "un" ou "une"
+
+    # 
+    if upos_tete == 'PROPN':
         return 'Np'
+        
     elif upos_tete == 'NOUN':
-        id_tete = tete['id']
+        id_tete = int(tete['id']) # On convertit l'ID en entier pour comparer les positions
         determinant = None
         num_modifier = None
         
         for t in tokens_mention:
-            if t['head'] == id_tete:
+            if t['head'] == str(id_tete):
                 if t['upos'] == 'DET':
                     determinant = t
                     break
-                elif t['upos'] == 'NUM' or 'nummod' in t['deprel']:
+                # Nouvelle régle imposée:  Le numéral doit être AVANT le nom pour être un déterminant 
+                elif (t['upos'] == 'NUM' or 'nummod' in t['deprel']) and int(t['id']) < id_tete:
                     num_modifier = t
                 
         if not determinant and not num_modifier:
             if tokens_mention[0]['upos'] == 'DET':
                 determinant = tokens_mention[0]
-            elif tokens_mention[0]['upos'] == 'NUM':
+            elif tokens_mention[0]['upos'] == 'NUM' and int(tokens_mention[0]['id']) < id_tete:
                 num_modifier = tokens_mention[0]
             
         if determinant:
             lemme_det = determinant['lemma'].lower()
-            
-            # Ici on ajoute les vocabs en anglais
-            if lemme_det in ['le', 'la', 'les', 'l\'', 'l', 'au', 'aux', 'the']:
-                return 'SNdef'
-            elif lemme_det in ['ce', 'cet', 'cette', 'ces', 'this', 'that', 'these', 'those']:
-                return 'SNdem'
-            elif lemme_det in ['mon', 'ton', 'son', 'ma', 'ta', 'sa', 'mes', 'tes', 'ses', 'notre', 'votre', 'leur', 'nos', 'vos', 'leurs', 'my', 'your', 'his', 'her', 'its', 'our', 'their']:
-                return 'Poss'
-            else:
-                return 'SNind'
+            if lemme_det in definis: return 'SNdef'
+            elif lemme_det in demonstratifs: return 'SNdem'
+            elif lemme_det in possessifs: return 'Poss'
+            else: return 'SNind'
         elif num_modifier:
             return 'SNnum'
         else:
             return 'SN∅'
             
     return 'Autre'
+
 
 def traduire_fonction(deprel):
     deprel_base = deprel.split(':')[0] 
@@ -82,6 +97,7 @@ def traduire_fonction(deprel):
     if deprel_base == 'iobj': return 'OI'
     if deprel_base == 'obl': return 'Obl'
     return 'autre'
+
 
 def trouver_tete_lexicale(tokens_mention):
     ids_mention = [token['id'] for token in tokens_mention]
@@ -186,10 +202,10 @@ def main():
         if not fichiers_entree:
             print("Erreur : Aucun fichier .conllu trouvé dans data/conllu_entree")
         else:
-            # NOUVEAU : On s'assure que le dossier de sortie de CorPipe existe bien
+            
             os.makedirs(CONLLU_OUTPUT, exist_ok=True)
             
-            # NOUVEAU : On utilise CONLLU_OUTPUT comme paramètre d'export pour CorPipe
+            
             cmd = ["python", "../crac2025-corpipe/corpipe25.py", 
                    "--load", "ufal/corpipe25-corefud1.3-large-251101", 
                    "--test"] + fichiers_entree + ["--exp", CONLLU_OUTPUT, "--segment", "2560"]

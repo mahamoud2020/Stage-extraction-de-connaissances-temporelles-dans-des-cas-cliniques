@@ -7,7 +7,7 @@ import csv
 import re 
 from cassis import load_typesystem, load_cas_from_xmi
 
-# --- CONFIGURATION (Chemins relatifs au dossier 'francais') ---
+# Configuration 
 INPUT_DIR = "data/xml_source"
 CONLLU_INPUT = "data/conllu_entree"
 CONLLU_OUTPUT = "data/conllu_sorti"
@@ -25,50 +25,71 @@ TYPESYSTEM_XML = """<?xml version="1.0" encoding="UTF-8"?>
 </typeSystemDescription>
 """
 
-# --- FONCTIONS LINGUISTIQUES ---
+# Fonction linguistique 
 
 def determiner_nature_syntagme(tokens_mention, tete):
-    if not tete: return '∅'
+    if not tete:
+        return '∅'
+        
     upos_tete = tete['upos']
+    lemme_tete = tete['lemma'].lower()
     
-    if upos_tete == 'PRON':
-        return 'Pro'
-    elif upos_tete == 'PROPN':
+    # Liste de vocabulaire multilingue 
+    definis = ['le', 'la', 'les', 'l\'', 'l', 'au', 'aux', 'the', 'il', 'lo', 'i', 'gli']
+    demonstratifs = ['ce', 'cet', 'cette', 'ces', 'this', 'that', 'these', 'those', 'questo', 'questa', 'questi', 'queste', 'quello', 'quella', 'quelli', 'quelle', 'quest\'', 'quell\'']
+    possessifs = ['mon', 'ton', 'son', 'ma', 'ta', 'sa', 'mes', 'tes', 'ses', 'notre', 'votre', 'leur', 'nos', 'vos', 'leurs', 'my', 'your', 'his', 'her', 'its', 'our', 'their', 'mio', 'mia', 'miei', 'mie', 'tuo', 'tua', 'tuoi', 'tue', 'suo', 'sua', 'suoi', 'sue', 'nostro', 'nostra', 'nostri', 'nostre', 'vostro', 'vostra', 'vostri', 'vostre', 'loro']
+
+    #  Déterminants ou pronoms isolés (comme: "son", "notre") 
+    if upos_tete == 'DET' or upos_tete == 'PRON':
+        if lemme_tete in possessifs:
+            return 'Poss'
+        elif lemme_tete in demonstratifs:
+            return 'SNdem'
+        elif lemme_tete in definis:
+            return 'SNdef'
+        elif upos_tete == 'PRON':
+            return 'Pro'
+        elif upos_tete == 'DET':
+            return 'SNind' # Si c'est un DET isolé comme "un" ou "une"
+
+    # 
+    if upos_tete == 'PROPN':
         return 'Np'
+        
     elif upos_tete == 'NOUN':
-        id_tete = tete['id']
+        id_tete = int(tete['id']) # On convertit l'ID en entier pour comparer les positions
         determinant = None
         num_modifier = None
         
         for t in tokens_mention:
-            if t['head'] == id_tete:
+            if t['head'] == str(id_tete):
                 if t['upos'] == 'DET':
                     determinant = t
                     break
-                elif t['upos'] == 'NUM' or 'nummod' in t['deprel']:
+                # nouvelle regle imposée : Le numéral doit être AVANT le nom pour être un déterminant 
+                elif (t['upos'] == 'NUM' or 'nummod' in t['deprel']) and int(t['id']) < id_tete:
                     num_modifier = t
                 
         if not determinant and not num_modifier:
             if tokens_mention[0]['upos'] == 'DET':
                 determinant = tokens_mention[0]
-            elif tokens_mention[0]['upos'] == 'NUM':
+            elif tokens_mention[0]['upos'] == 'NUM' and int(tokens_mention[0]['id']) < id_tete:
                 num_modifier = tokens_mention[0]
             
         if determinant:
             lemme_det = determinant['lemma'].lower()
-            if lemme_det in ['le', 'la', 'les', 'l\'', 'l', 'au', 'aux']:
-                return 'SNdef'
-            elif lemme_det in ['ce', 'cet', 'cette', 'ces']:
-                return 'SNdem'
-            elif lemme_det in ['mon', 'ton', 'son', 'ma', 'ta', 'sa', 'mes', 'tes', 'ses', 'notre', 'votre', 'leur', 'nos', 'vos', 'leurs']:
-                return 'Poss'
-            else:
-                return 'SNind'
+            if lemme_det in definis: return 'SNdef'
+            elif lemme_det in demonstratifs: return 'SNdem'
+            elif lemme_det in possessifs: return 'Poss'
+            else: return 'SNind'
         elif num_modifier:
             return 'SNnum'
         else:
             return 'SN∅'
+            
     return 'Autre'
+
+
 
 def traduire_fonction(deprel):
     deprel_base = deprel.split(':')[0] 
@@ -85,7 +106,7 @@ def trouver_tete_lexicale(tokens_mention):
             return token 
     return tokens_mention[0] 
 
-# --- REQUÊTE API ---
+# Requet API
 
 def appeler_udpipe2(texte_brut):
     # Modèle Français
@@ -95,7 +116,7 @@ def appeler_udpipe2(texte_brut):
         return response.json().get('result') if response.status_code == 200 else None
     except: return None
 
-# --- EXTRACTION CONLLU ---
+# Extraction Conllu 
 
 def extraire_mentions_conllu(repertoire):
     mentions_finales = []
@@ -136,14 +157,14 @@ def extraire_mentions_conllu(repertoire):
                                     })
     return mentions_finales
 
-# --- MAIN PIPELINE ---
+# Main pipeline  
 
 def main():
     # Création des dossiers si nécessaire
     os.makedirs(CONLLU_INPUT, exist_ok=True)
     os.makedirs(CONLLU_OUTPUT, exist_ok=True)
 
-    print("Étape 1 : UDPipe 2 (Français)...")
+    print("Étape 1 : UDPipe 2 ")
     typesystem = load_typesystem(TYPESYSTEM_XML)
     for file_path in glob.glob(os.path.join(INPUT_DIR, "*.xml")):
         doc_id = os.path.splitext(os.path.basename(file_path))[0]
@@ -155,7 +176,7 @@ def main():
                 out.write(f"# newdoc id = {doc_id}\n" + res)
         time.sleep(0.5)
 
-    print("\nÉtape 2 : Inférence CorPipe (Remonte à la racine)...")
+    print("\nÉtape 2 : Inférence CorPipe")
     fichiers_entree = glob.glob(os.path.join(CONLLU_INPUT, "*.conllu"))
     if fichiers_entree:
         # NOTE: ../crac2025-corpipe pour sortir du dossier francais
@@ -164,7 +185,7 @@ def main():
                "--test"] + fichiers_entree + ["--exp", CONLLU_OUTPUT, "--segment", "2560"]
         subprocess.run(cmd, check=True)
 
-    print("\nÉtape 3 : Extraction CSV...")
+    print("\nÉtape 3 : Extraction CSV")
     mentions = extraire_mentions_conllu(CONLLU_OUTPUT)
     with open(CSV_RESULTATS, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=['doc', 'mention_id', 'texte_maillon', 'tete_lexicale', 'nature', 'fonction'])

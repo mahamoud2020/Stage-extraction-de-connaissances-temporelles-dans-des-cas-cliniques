@@ -64,7 +64,7 @@ IT100002,c49,le dimissioni ospedaliere,dimissioni,SNdef,Obl
 IT100002,c51,le analisi diagnostico - strumentali,analisi,SNdef,autre
 IT100002,c50,risultati di le analisi diagnostico - strumentali,risultati,SN∅,Obl
 IT100002,c18,il piede che,piede,SNdef,Obl
-IT100002,c1,le,le,Pro,OI
+IT100002,c1,le,le,SNdef,OI
 IT100002,c52,molto dolore,dolore,SN∅,OD
 IT100002,c53,questo caso,caso,SNdem,Obl
 IT100002,c37,il piano assistenziale individuale,piano,SNdef,Suj
@@ -86,17 +86,17 @@ IT100002,c62,risorse atte a superare lo shock di l’ intervento chirurgico a il
 IT100002,c46,cuore,cuore,SN∅,autre
 IT100002,c64,La vita,vita,SNdef,Suj
 IT100002,c1,questa giovane donna,donna,SNdem,Obl
-IT100002,c1,la sua,la,Autre,autre
+IT100002,c1,la sua,la,SNdef,autre
 IT100002,c65,la sua sede lavorativa,sede,SNdef,Obl
 IT100002,c66,l’ attività in piedi per molte ore,attività,SNdef,Suj
-IT100002,c1,il suo,il,Autre,autre
+IT100002,c1,il suo,il,SNdef,autre
 IT100002,c67,il suo stato di salute,stato,SNdef,Obl
 IT100002,c68,il licenziamento,licenziamento,SNdef,Suj
 IT100002,c70,l’ assistente sociale,assistente,SNdef,autre
 IT100002,c69,Un colloquio con l’ assistente sociale,colloquio,SNind,Suj
 IT100002,c1,Anna,Anna,Np,OD
 IT100002,c1,lei,lei,Pro,autre
-IT100002,c1,la sua,la,Autre,autre
+IT100002,c1,la sua,la,SNdef,autre
 IT100002,c10,la sua famiglia,famiglia,SNdef,autre
 IT100002,c71,le varie possibilità di sostegno economico per lei e la sua famiglia,possibilità,SNdef,Obl
 IT100002,c41,la PHE - S,PHE,Np,autre
@@ -107,7 +107,7 @@ IT100002,c76,la fisioterapista,fisioterapista,SNdef,autre
 IT100002,c74,il supporto di l’ infermiera e di la fisioterapista,supporto,SNdef,autre
 IT100002,c1,Anna,Anna,Np,Suj
 IT100002,c77,un ruolo attivo,ruolo,SNind,OD
-IT100002,c1,la sua,la,Autre,autre
+IT100002,c1,la sua,la,SNdef,autre
 IT100002,c67,la sua salute,salute,SNdef,autre
 IT100002,c78,la gestione di la sua salute,gestione,SNdef,autre
 IT100002,c48,"la pressione arteriosa , che",pressione,SNdef,OD
@@ -124,7 +124,7 @@ IT100002,c86,che,che,Pro,Suj
 IT100002,c87,un professionista attivo e collaborante,professionista,SNind,Obl
 IT100002,c1,riesce,riesce,Autre,autre
 IT100002,c89,lo stile di vita,stile,SNdef,autre
-IT100002,c1,suo,suo,Autre,autre
+IT100002,c1,suo,suo,Poss,autre
 IT100002,c67,suo stato di salute,stato,Poss,Obl
 IT100002,c88,cambiamenti di lo stile di vita relativi a il suo stato di salute,cambiamenti,SN∅,OD
 IT100002,c90,una corretta alimentazione,alimentazione,SNind,OD
@@ -144,14 +144,14 @@ IT100003,c2,la distrofia muscolare di tipo 1 e il diabete mellito di tipo 2,dist
 IT100003,c6,Trieste,Trieste,Np,autre
 IT100003,c5,un piccolo borgo di Trieste in una zona periferica,borgo,SNind,Obl
 IT100003,c7,la madre anziana,madre,SNdef,Obl
-IT100003,c1,le sue,le,Autre,autre
+IT100003,c1,le sue,le,SNdef,autre
 IT100003,c2,le sue patologie,patologie,SNdef,autre
 IT100003,c8,un basso livello di scolarità,livello,SNind,autre
 IT100003,c9,un’ occupazione,occupazione,SNind,OD
 IT100003,c1,l’ uomo,uomo,SNdef,autre
 IT100003,c10,Le condizioni fisiche di l’ uomo,condizioni,SNdef,Suj
 IT100003,c11,gli ultimi anni,anni,SNdef,autre
-IT100003,c1,la sua,la,Autre,autre
+IT100003,c1,la sua,la,SNdef,autre
 IT100003,c12,la sua funzione motoria,funzione,SNdef,OD
 IT100003,c13,l’ ultimo anno,anno,SNdef,autre
 IT100003,c14,una carrozzina,carrozzina,SNind,autre
@@ -163,12 +163,12 @@ IT100003,c18,alcuni amici,amici,SNind,autre
 IT100003,c16,la presenza di il fratello e di alcuni amici,presenza,SNdef,Obl
 IT100003,c1,Gabriele,Gabriele,Np,Suj
 IT100003,c4,il diabete,diabete,SNdef,OD
-IT100003,c1,proprio,proprio,Autre,autre
+IT100003,c1,proprio,proprio,SNind,autre
 IT100003,c19,proprio domicilio,domicilio,SNind,autre
 IT100003,c19,casa,casa,SN∅,Obl
 IT100003,c21,barriere architettoniche importanti,barriere,SN∅,autre
 IT100003,c20,la presenza di barriere architettoniche importanti,presenza,SNdef,Obl
-IT100003,c1,i suoi,i,Autre,autre
+IT100003,c1,i suoi,i,SNdef,autre
 IT100003,c12,i suoi deficit motori,deficit,SNdef,Suj
 IT100003,c22,La presa in carico,presa,SNdef,Suj
 IT100003,c25,l’ ASUGI di Trieste,ASUGI,Np,autre
@@ -224,12 +224,12 @@ IT100003,c34,la costruzione di la rete assistenziale,costruzione,SNdef,autre
 IT100003,c55,La rivalutazione a 4 mesi di distanza dopo la costruzione di la rete assistenziale,rivalutazione,SNdef,Suj
 IT100003,c56,un innalzamento di mezzo punto,innalzamento,SNind,OD
 IT100003,c1,Gabriele,Gabriele,Np,Suj
-IT100003,c1,il suo,il,Autre,autre
+IT100003,c1,il suo,il,SNdef,autre
 IT100003,c58,il processo di cura,processo,SNdef,Obl
 IT100003,c57,il suo ruolo attivo in il processo di cura,ruolo,SNdef,OD
 IT100003,c59,tutte le competenze acquisite,competenze,SNind,OD
-IT100003,c57,lo,lo,Pro,OD
-IT100003,c1,la sua,la,Autre,autre
+IT100003,c57,lo,lo,SNdef,OD
+IT100003,c1,la sua,la,SNdef,autre
 IT100003,c14,la sua carrozzina elettrica,carrozzina,SNdef,Obl
 IT100003,c60,le vie di il paese,vie,SNdef,autre
 IT100003,c6,paese,paese,SN∅,autre
@@ -237,7 +237,7 @@ IT100003,c4,il diabete,diabete,SNdef,autre
 IT100003,c61,i controlli per il diabete,controlli,SNdef,Obl
 IT100003,c63,la diabetologa,diabetologa,SNdef,Obl
 IT100003,c62,le glicemie stabili in i range previsti da la diabetologa,glicemie,SNdef,autre
-IT100003,c1,le sue,le,Autre,autre
+IT100003,c1,le sue,le,SNdef,autre
 IT100003,c2,le sue patologie,patologie,SNdef,Obl
 IT100003,c64,uno stile di vita adeguato a le sue patologie,stile,SNind,OD
 IT100010,c2,"una donna di 84 anni , forte fumatrice per circa 30 anni",donna,SNind,autre
@@ -392,7 +392,7 @@ IT100015,c39,calibro vascolare,calibro,SN∅,autre
 IT100015,c38,l’ adeguato ripristino di il calibro vascolare,ripristino,SNdef,OD
 IT100015,c41,100 mg/die di acido acetilsalicilico,mg/die,SNnum,Obl
 IT100015,c40,terapia antiaggregante con 100 mg/die di acido acetilsalicilico,terapia,SN∅,Suj
-IT100015,c43,novembre 2008,novembre,SNnum,autre
+IT100015,c43,novembre 2008,novembre,SN∅,autre
 IT100015,c42,Il controllo ecodoppler di il novembre 2008,controllo,SNdef,Suj
 IT100015,c33,la stenosi precedentemente dilatata,stenosi,SNdef,autre
 IT100015,c33,che,che,Pro,Suj
@@ -407,7 +407,7 @@ IT100015,c48,stent convenzionale a 9 mm,stent,SN∅,autre
 IT100015,c40,La terapia antiaggregante,terapia,SNdef,Suj
 IT100015,c49,doppia copertura farmacologica ( acido acetilsalicilico 100 mg,copertura,SN∅,Obl
 IT100015,c50,ticlopidina 250 mg die,ticlopidina,SN∅,autre
-IT100015,c51,maggio 2011,maggio,SNnum,Obl
+IT100015,c51,maggio 2011,maggio,SN∅,Obl
 IT100015,c52,i controlli ecodoppler,controlli,SNdef,Suj
 IT100015,c48,lo stent,stent,SNdef,autre
 IT100015,c55,l’ accesso,accesso,SNdef,autre
@@ -457,8 +457,8 @@ IT100027,c26,cui,cui,Pro,Obl
 IT100027,c27,la valutazione geriatrica,valutazione,SNdef,Obl
 IT100027,c30,docetaxel,docetaxel,SN∅,autre
 IT100027,c29,ritrattamenti con docetaxel ( 75 mg/mq/ogni 3 settimane,ritrattamenti,SN∅,autre
-IT100027,c31,ottobre 2007,ottobre,SNnum,autre
-IT100027,c32,novembre 2011,novembre,SNnum,autre
+IT100027,c31,ottobre 2007,ottobre,SN∅,autre
+IT100027,c32,novembre 2011,novembre,SN∅,autre
 IT100027,c28,"4 serie , di 12 cicli ciascuno , di ritrattamenti con docetaxel ( 75 mg/mq/ogni 3 settimane ) da ottobre 2007 a novembre 2011",serie,SNnum,Obl
 IT100027,c33,2011,2011,Autre,autre
 IT100027,c28,che,che,Pro,OD
@@ -502,7 +502,7 @@ IT100027,c53,ECOG ( Eastern Cooperative Oncology Group ),ECOG,Np,autre
 IT100027,c50,cabazitaxel,cabazitaxel,SN∅,autre
 IT100027,c54,terapia con cabazitaxel ( 25 mg/mq/ogni 3 settimane ),terapia,SN∅,Obl
 IT100027,c55,prednisone 10 mg/die,prednisone,SN∅,autre
-IT100027,c48,dicembre 2011,dicembre,SNnum,Obl
+IT100027,c48,dicembre 2011,dicembre,SN∅,Obl
 IT100027,c1,il paziente,paziente,SNdef,Suj
 IT100027,c56,17 cicli di cabazitaxel,cicli,SNnum,OD
 IT100027,c50,cabazitaxel,cabazitaxel,SN∅,autre
