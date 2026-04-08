@@ -12,4 +12,5 @@ crac2025-corpipe/
 __pycache__/
 *.pyc
 
-*
+# Ignorer les fichiers temporaires de tableur
+*.~lock.*
