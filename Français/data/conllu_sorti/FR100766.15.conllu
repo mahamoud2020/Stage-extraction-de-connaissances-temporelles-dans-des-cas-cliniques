@@ -1,0 +1,176 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Patient de 75 ans, sans antécédents pathologiques, opéré initialement pour un adénocarcinome rectal à 1cm de la marge anale post radio-chimiothérapie et non métastatique.
+1	Patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Entity=(c1--1
+2	de	de	ADP	_	_	4	case	_	_
+3	75	75	NUM	_	Number=Plur	4	nummod	_	_
+4	ans	an	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	Entity=c1)|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	sans	sans	ADP	_	_	7	case	_	_
+7	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	Entity=(c2--1
+8	pathologiques	pathologique	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	Entity=c2)|SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	opéré	opérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
+11	initialement	initialement	ADV	_	_	10	advmod	_	_
+12	pour	pour	ADP	_	_	14	case	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(c3--2
+14	adénocarcinome	adénocarcinome	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+15	rectal	rectal	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	à	à	ADP	_	_	17	case	_	_
+17	1cm	1cm	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	Entity=(c4--1
+18	de	de	ADP	_	_	20	case	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(c5--2
+20	marge	marge	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	anale	anal	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	Entity=c5)c4)
+22	post	post	ADV	_	_	23	case	_	_
+23	radio-chimiothérapie	radio-chimiothérapie	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+24	et	et	CCONJ	_	_	26	cc	_	_
+25	non	non	ADV	_	Polarity=Neg	26	advmod	_	_
+26	métastatique	métastatique	ADJ	_	Gender=Fem|Number=Sing	23	conj	_	Entity=c3)|SpaceAfter=No
+27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Une amputation abdomino-périnéale a été réalisée par voie cœlioscopique avec confection d'une CPC, la tumeur a été classé pT2N0Mx, et la décision était une surveillance.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c6--2
+2	amputation	amputation	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	abdomino-périnéale	abdomino-périnéal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c6)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	par	par	ADP	_	_	8	case	_	_
+8	voie	voie	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	Entity=(c7--1
+9	cœlioscopique	cœlioscopique	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c7)
+10	avec	avec	ADP	_	_	11	case	_	_
+11	confection	confection	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	Entity=(c8--1
+12	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c9--2
+14	CPC	CPC	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=c9)c8)|SpaceAfter=No
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c3--2
+17	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	Entity=c3)
+18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
+19	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+21	pT2N0Mx	pt2n0mx	X	_	_	20	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	28	punct	_	_
+23	et	et	CCONJ	_	_	28	cc	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(c10--2
+25	décision	décision	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	Entity=c10)
+26	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	Entity=(c11--2
+28	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	Entity=c11)|SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Le patient était en bon état général avec une bonne évolution.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Entity=c1)
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	en	en	ADP	_	_	6	case	_	_
+5	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	Entity=(c12--2
+6	état	état	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	général	général	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	Entity=c12)
+8	avec	avec	ADP	_	_	11	case	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(c13--3
+10	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=c13)|SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Après irrigation le patient est resté propre toute la journée.
+1	Après	après	ADP	_	_	2	case	_	_
+2	irrigation	irrigation	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	Entity=(c14--1)
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(c1--2
+4	patient	patient	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Entity=c1)
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+6	resté	rester	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	propre	propre	ADJ	_	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	toute	tout	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	Entity=(c15--3
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	journée	journée	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	Entity=c15)|SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Il a été satisfait de sa chirurgie, et il a préféré la CPC à la CIG définitive; l'examen a objectivé le colon qui est prolabé à travers l'orifice stomial d'où son hospitalisation pour traitement chirurgicale.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	Entity=(c1--1)
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	satisfait	satisfaire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	Entity=(c16--2(c1--1)
+7	chirurgie	chirurgie	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	Entity=c16)|SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	et	et	CCONJ	_	_	12	cc	_	_
+10	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Entity=(c1--1)
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	préféré	préférer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c9--2
+14	CPC	CPC	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	Entity=c9)
+15	à	à	ADP	_	_	17	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c17--2
+17	CIG	CIG	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
+18	définitive	définitif	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	Entity=c17)|SpaceAfter=No
+19	;	;	PUNCT	_	_	23	punct	_	_
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	Entity=(c18--2|SpaceAfter=No
+21	examen	examen	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	Entity=c18)
+22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:tense	_	_
+23	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	parataxis	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Entity=(c19--2
+25	colon	colon	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	Entity=c19)
+26	qui	qui	PRON	_	PronType=Rel	28	nsubj:pass	_	Entity=(c19--1)
+27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	prolabé	prolaber	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	acl:relcl	_	_
+29	à	à	ADP	_	_	32	case	_	_
+30	travers	travers	NOUN	_	Gender=Masc|Number=Sing	29	fixed	_	_
+31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	Entity=(c20--2|SpaceAfter=No
+32	orifice	orifice	NOUN	_	Gender=Masc|Number=Sing	28	obl:mod	_	_
+33	stomial	stomial	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	Entity=c20)
+34	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
+35	où	où	PRON	_	PronType=Rel	34	fixed	_	Entity=(c20--1)
+36	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	37	det	_	Entity=(c21--2(c1--1)
+37	hospitalisation	hospitalisation	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	_
+38	pour	pour	ADP	_	_	39	case	_	_
+39	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	Entity=(c22--1
+40	chirurgicale	chirurgical	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	Entity=c22)c21)|SpaceAfter=No
+41	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Le traitement chirurgical a été retenu et le patient a bénéficié de la réalisation d'une mucosectomie circulaire puis une fixation de ce dernier par des points séparés.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c22--2
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	chirurgical	chirurgical	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c22)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	et	et	CCONJ	_	_	11	cc	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(c1--2
+9	patient	patient	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	Entity=c1)
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c23--2(c24--2
+14	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	_
+15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c25--2
+17	mucosectomie	mucosectomie	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	circulaire	circulaire	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	Entity=c25)c24)
+19	puis	puis	CCONJ	_	_	21	cc	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	Entity=(c26--2
+21	fixation	fixation	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	Entity=(c27--2
+24	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	21	nmod	_	Entity=c27)
+25	par	par	ADP	_	_	28	case	_	_
+26-27	des	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	det	_	_
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	Entity=(c28--2
+28	points	point	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+29	séparés	séparer	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	Entity=c28)c26)c23)|SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+

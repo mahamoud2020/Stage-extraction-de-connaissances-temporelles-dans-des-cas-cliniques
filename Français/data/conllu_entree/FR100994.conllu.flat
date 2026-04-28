@@ -1,0 +1,147 @@
+# newdoc id = FR100994
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nous relatons ainsi le cas d'une observation d'un homme suivi pour un cancer du rectum métastatique avec une métastase osseuse temporale.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	relatons	relater	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ainsi	ainsi	ADV	_	_	0	advmod	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+6	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	observation	observation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+9	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+11	homme	homme	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+12	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+13	pour	pour	ADP	_	_	0	case	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+15	cancer	cancer	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	rectum	rectum	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+19	métastatique	métastatique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+20	avec	avec	ADP	_	_	0	case	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+22	métastase	métastase	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+23	osseuse	osseux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+24	temporale	temporal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Notre observation se rapportait à l'histoire d'un homme âgé de 38 ans suivi pour un cancer du rectum initialement opéré par résection antérieur classant la tumeur pT3N0M0.
+1	Notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	0	det	_	_
+2	observation	observation	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	_
+4	rapportait	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	à	à	ADP	_	_	0	case	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+7	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+8	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	homme	homme	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+11	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+12	de	de	ADP	_	_	0	case	_	_
+13	38	38	NUM	_	Number=Plur	0	nummod	_	_
+14	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	_
+15	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+16	pour	pour	ADP	_	_	0	case	_	_
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	cancer	cancer	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+21	rectum	rectum	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+22	initialement	initialement	ADV	_	_	0	advmod	_	_
+23	opéré	opérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+24	par	par	ADP	_	_	0	case	_	_
+25	résection	résection	NOUN	_	Gender=Fem|Number=Sing	0	obl:agent	_	_
+26	antérieur	antérieur	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+27	classant	classer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+29	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+30	pT3N0M0	pt3n0m0	PROPN	_	_	0	appos	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = 24 mois après, le patient présentait une exophtalmie gauche révélant un processus tumoral temporal.
+1	24	24	NUM	_	Number=Plur	0	nummod	_	_
+2	mois	mois	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+3	après	après	ADV	_	_	0	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	0	punct	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+7	présentait	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	exophtalmie	exophtalmie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+10	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+11	révélant	révéler	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	processus	processus	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+14	tumoral	tumoral	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+15	temporal	temporal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'évolution et le contexte étaient en faveur d'une métastase.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	et	et	CCONJ	_	_	0	cc	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+6	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+7	en	en	ADP	_	_	0	case	_	_
+8	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+9	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	métastase	métastase	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = En conclusion, nous rapportons dans cette observation, un cas exceptionnel d'une métastase osseuse crânio-faciale d'un cancer colo-rectal multi-métastatique qui pourra enrichir les rares données rapportées dans la littérature se rapportant aux métastases osseuses de primitif colo-rectal.
+1	En	en	ADP	_	_	0	case	_	_
+2	conclusion	conclusion	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	0	punct	_	_
+4	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+5	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dans	dans	ADP	_	_	0	case	_	_
+7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	0	det	_	_
+8	observation	observation	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	0	punct	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+11	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+12	exceptionnel	exceptionnel	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+13	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+15	métastase	métastase	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+16	osseuse	osseux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+17	crânio-faciale	crânio-facial	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+18	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+20	cancer	cancer	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+21	colo-rectal	colo-rectal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+22	multi-métastatique	multi-métastatique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+23	qui	qui	PRON	_	PronType=Rel	0	nsubj	_	_
+24	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	acl:relcl	_	_
+25	enrichir	enrichir	VERB	_	VerbForm=Inf	0	xcomp	_	_
+26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+27	rares	rare	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+28	données	donnée	NOUN	_	Gender=Fem|Number=Plur	0	obj	_	_
+29	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+30	dans	dans	ADP	_	_	0	case	_	_
+31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+32	littérature	littérature	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+33	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	_
+34	rapportant	rapporter	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+35	à	à	ADP	_	_	0	case	_	_
+36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+37	métastases	métastase	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+38	osseuses	osseux	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+39	de	de	ADP	_	_	0	case	_	_
+40	primitif	primitif	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+41	colo-rectal	colo-rectal	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

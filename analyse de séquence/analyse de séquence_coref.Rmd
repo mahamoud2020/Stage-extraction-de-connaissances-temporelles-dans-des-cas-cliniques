@@ -1,0 +1,158 @@
+---
+title: "Analyse de séquence coréférence"
+author: "Abdoulrazack"
+date: "2026-04-16"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+# Installation et chargement de l'ensemble de packages
+
+```{r}
+packages <- c("TraMineR", "Rserve", "reticulate", "repr", "TraMineRextras",
+              "WeightedCluster", "ade4", "RColorBrewer", "questionr",
+              "purrr", "seqhandbook", "vegan", "GGally", "fpc",
+              "dendextend", "rmarkdown")
+
+to_install <- packages[!(packages %in% installed.packages()[,"Package"])]
+
+if(length(to_install)) {
+  install.packages(to_install)
+}
+
+lapply(packages, library, character.only = TRUE)
+```
+
+
+# Importer les données 
+
+```{r}
+
+# On utilise na.strings="" pour que les cases vides des chaînes courtes soient reconnues comme des NA
+
+
+sequences_data <- read.csv("sequences_coreferences_fr.csv", 
+                           header = TRUE, 
+                           sep = ",", 
+                           na.strings = c("", "NA", " "),
+                           strip.white = TRUE,
+                           fileEncoding = "UTF-8")
+```
+
+
+
+```{r}
+# On demande à TraMineR de trouver lui-même l'alphabet exact dans les données
+
+etats_trouves <- seqstatl(sequences_data[, 7:16])
+print("Alphabet trouvé par R :")
+print(etats_trouves)
+```
+
+# création d'un dictionnaire de couleurs pour l'attribution des couleurs aux mots 
+
+```{r}
+
+
+
+couleurs_dico <- c("SNdef" = "#FFFF99", 
+                   "SNind" = "#fb8072", 
+                   "SNdem" = "#80b1d3", 
+                   "SN∅" = "#579C91", 
+                   "SNnum" = "#ffed6f", 
+                   "Poss" = "#C45C47", 
+                   "Pro" = "#FDC086", 
+                   "Np" = "#bebada", 
+                   "Sujet_zero" = "#96B0B7", 
+                   "Autre" = "#b3de69")
+```
+
+# On extrait uniquement les couleurs dans l'ordre de l'alphabet trouvé par R
+
+```{r}
+
+cpal_dynamique <- unname(couleurs_dico[etats_trouves])
+```
+
+
+
+# Création de l'objet Séquence
+
+
+```{r}
+coref_chaines.seq <- seqdef(sequences_data[, 7:16],
+                            alphabet = etats_trouves,
+                            states = etats_trouves,
+                            cpal = cpal_dynamique,
+                            right = "DEL")
+```
+# Affichage des graphiques
+
+```{r}
+
+seqIplot(coref_chaines.seq, main="Trajectoires individuelles", with.legend = TRUE)
+
+seqdplot(coref_chaines.seq, main="Distribution des natures", with.legend = TRUE)
+```
+
+```{r}
+# Calcule de la probabilité de passer d'un état à un autre (ex: SNind -> Pro)
+
+matrice_sub <- seqsubm(coref_chaines.seq, method = "TRATE")
+```
+
+```{r}
+# L'algorithme compare les 768 chaînes entre elles pour voir lesquelles se ressemblent
+
+distances_om <- seqdist(coref_chaines.seq, method = "OM", indel = 1, sm = matrice_sub)
+```
+
+
+```{r}
+# On regroupe les chaînes qui ont des trajectoires similaires
+arbre_ward <- agnes(distances_om, diss = TRUE, method = "ward")
+```
+
+
+```{r}
+# Ce graphique montre comment les données se séparent en grandes familles
+
+plot(arbre_ward, which.plots = 2, main = "Dendrogramme des chaînes de coréférence", xlab="Séquences", ylab="Hauteur (Inertie)")
+```
+
+# Saut d'inertie et visualisation des clusters 
+
+```{r}
+# Graphique des sauts d'inertie
+# Ce graphique aide à choisir le nombre idéal de clusters. 
+# On cherche le grand saut sur la courbe.
+
+plot(sort(arbre_ward$height, decreasing=TRUE)[1:15], type='s', 
+     xlab="Nombre de clusters", ylab="Inertie", 
+     main="Sauts d'inertie (Critère de Ward)", lwd=2, col="blue")
+```
+
+```{r}
+# Découpage de l'arbre (Testons avec 4 clusters, comme suggéré par le dendrogramme)
+
+nb_clusters <- 4
+mes_clusters <- cutree(arbre_ward, k = nb_clusters)
+```
+
+
+```{r}
+# On transforme en "facteur" pour faire de labels sur les graphiques
+
+mes_clusters_fac <- factor(mes_clusters, labels = paste("Scénario", 1:nb_clusters))
+```
+
+
+```{r}
+# Affichage des profils types 
+# On affiche la distribution des états, mais cette fois-ci séparée par cluster
+
+seqdplot(coref_chaines.seq, group = mes_clusters_fac, border = NA, 
+         main = "Profil des 4 scénarios de coréférence")
+```
+

@@ -1,0 +1,415 @@
+# newdoc id = FR100697
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agit d'une patiente de 42 ans, divorcée, sans antécédents personnels et familiaux notables.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+7	de	de	ADP	_	_	0	case	_	_
+8	42	42	NUM	_	Number=Plur	0	nummod	_	_
+9	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	0	punct	_	_
+11	divorcée	divorcer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	0	punct	_	_
+13	sans	sans	ADP	_	_	0	case	_	_
+14	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+15	personnels	personnel	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+16	et	et	CCONJ	_	_	0	cc	_	_
+17	familiaux	familial	ADJ	_	Gender=Masc|Number=Plur	0	conj	_	_
+18	notables	notable	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Le début de la maladie remonte à 02 mois par l'apparition d'une tuméfaction du sein gauche augmentant progressivement de volume, associé à une tension mammaire douloureuse.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	début	début	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+5	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+6	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	02	02	NUM	_	Number=Plur	0	nummod	_	_
+9	mois	mois	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	_
+10	par	par	ADP	_	_	0	case	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+12	apparition	apparition	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+13	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+15	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	sein	sein	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+19	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+20	augmentant	augmenter	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+21	progressivement	progressivement	ADV	_	_	0	advmod	_	_
+22	de	de	ADP	_	_	0	case	_	_
+23	volume	volume	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	0	punct	_	_
+25	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+26	à	à	ADP	_	_	0	case	_	_
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+28	tension	tension	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+29	mammaire	mammaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+30	douloureuse	douloureux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = A l'inspection: sein gauche très augmenté de volume, rouge avec aspect de peau d'orange et légère rétraction mamelonnaire.
+1	A	à	ADP	_	_	0	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+3	inspection	inspection	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	0	punct	_	_
+5	sein	sein	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+6	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+7	très	très	ADV	_	_	0	advmod	_	_
+8	augmenté	augmenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	volume	volume	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	0	punct	_	_
+12	rouge	rouge	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	_
+13	avec	avec	ADP	_	_	0	case	_	_
+14	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+15	de	de	ADP	_	_	0	case	_	_
+16	peau	peau	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+17	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+18	orange	orange	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+19	et	et	CCONJ	_	_	0	cc	_	_
+20	légère	léger	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+21	rétraction	rétraction	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+22	mamelonnaire	mamelonnaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = À la palpation: on trouve une masse volumineuse, dure, régulière, occupant presque tout le sein, faisant 13cm/10cm associée à des adénopathies axillaires homolatérales.
+1	À	à	ADP	_	_	0	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+3	palpation	palpation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	0	punct	_	_
+5	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	nsubj	_	_
+6	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	parataxis	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	masse	masse	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+9	volumineuse	volumineux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	0	punct	_	_
+11	dure	dur	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	0	punct	_	_
+13	régulière	régulier	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	0	punct	_	_
+15	occupant	occuper	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+16	presque	presque	ADV	_	_	0	advmod	_	_
+17	tout	tout	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+19	sein	sein	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	0	punct	_	_
+21	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+22	13cm	13cm	NUM	_	Number=Plur	0	obj	_	SpaceAfter=No
+23	/	/	SYM	_	_	0	cc	_	SpaceAfter=No
+24	10cm	10cm	NUM	_	Number=Plur	0	conj	_	_
+25	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+26	à	à	ADP	_	_	0	case	_	_
+27	de	de	ADP	_	_	0	case	_	_
+28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+29	adénopathies	adénopathie	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+30	axillaires	axillaire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+31	homolatérales	homolatéral	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Le sein controlatéral est indemne, l'examen des autres aires ganglionnaires trouve des adénopathies inguinales bilatérales;
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	sein	sein	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	controlatéral	controlatéral	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+5	indemne	indemne	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	0	punct	_	_
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+8	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+11	autres	autre	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+12	aires	aire	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+13	ganglionnaires	ganglionnaire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+14	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	conj	_	_
+15	de	de	ADP	_	_	0	det	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+17	adénopathies	adénopathie	NOUN	_	Gender=Fem|Number=Plur	0	obj	_	_
+18	inguinales	inguinal	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+19	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+20	;	;	PUNCT	_	_	0	punct	_	_
+
+# sent_id = 6
+# text = le reste de l'examen somatique est normal.
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+5	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	somatique	somatique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+8	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = A la mammographie: Sein droit peu dense de type 1, Sein gauche globalement dense de type III, présentant un surcroît d'opacités rétromamelonnaire mal limite avec désorganisation architecturale associée a un épaississement sous cutanée et une rétraction mamelonnaire débutante sans microcacification sur les différentes incidences.
+1	A	à	ADP	_	_	0	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+3	mammographie	mammographie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	0	punct	_	_
+5	Sein	sein	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+6	droit	droit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+7	peu	peu	ADV	_	_	0	advmod	_	_
+8	dense	dense	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	type	type	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+11	1	1	NUM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	0	punct	_	_
+13	Sein	sein	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+14	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+15	globalement	globalement	ADV	_	_	0	advmod	_	_
+16	dense	dense	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+17	de	de	ADP	_	_	0	case	_	_
+18	type	type	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+19	III	III	NUM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	0	punct	_	_
+21	présentant	présenter	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+23	surcroît	surcroît	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+24	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+25	opacités	opacité	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+26	rétromamelonnaire	rétromamelonnaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+27	mal	mal	ADV	_	_	0	advmod	_	_
+28	limite	limite	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+29	avec	avec	ADP	_	_	0	case	_	_
+30	désorganisation	désorganisation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+31	architecturale	architectural	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+32	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+33	a	à	ADP	_	_	0	case	_	_
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+35	épaississement	épaississement	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+36	sous	sous	ADP	_	_	0	case	_	_
+37	cutanée	cutanée	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+38	et	et	CCONJ	_	_	0	cc	_	_
+39	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+40	rétraction	rétraction	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+41	mamelonnaire	mamelonnaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+42	débutante	débutant	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+43	sans	sans	ADP	_	_	0	case	_	_
+44	microcacification	microcacification	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+45	sur	sur	ADP	_	_	0	case	_	_
+46	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+47	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+48	incidences	incidence	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = A l'échographie: Sein droit sans anomalie, présence d'un processus lésionnel rétromamelonnaire hypoéchogène, hétérogène hyper-vascularisée au doppler associée à de nombreuses adénopathies axillaires gauches avec épaississement de la peau et du tissu sous cutané.
+1	A	à	ADP	_	_	0	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+3	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	0	punct	_	_
+5	Sein	sein	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+6	droit	droit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+7	sans	sans	ADP	_	_	0	case	_	_
+8	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	0	punct	_	_
+10	présence	présence	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+11	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	processus	processus	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+14	lésionnel	lésionnel	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+15	rétromamelonnaire	rétromamelonnaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+16	hypoéchogène	hypoéchogène	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	0	punct	_	_
+18	hétérogène	hétérogène	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	_
+19	hyper-vascularisée	hyper-vasculariser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	advcl	_	_
+20	à	à	ADP	_	_	0	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+22	doppler	doppler	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+23	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	advcl	_	_
+24	à	à	ADP	_	_	0	case	_	_
+25	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	0	det	_	_
+26	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+27	adénopathies	adénopathie	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+28	axillaires	axillaire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+29	gauches	gauche	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+30	avec	avec	ADP	_	_	0	case	_	_
+31	épaississement	épaississement	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+32	de	de	ADP	_	_	0	case	_	_
+33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+34	peau	peau	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+35	et	et	CCONJ	_	_	0	cc	_	_
+36	de	de	ADP	_	_	0	case	_	_
+37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+38	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+39	sous	sous	ADP	_	_	0	case	_	_
+40	cutané	cutané	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'examen histologique d'une biopsie au tricut du sein gauche objective un processus tumoral malin fait de cellules de grandes tailles pourvus d'un cytoplasme peu abondant et mal délimité.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	histologique	histologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	biopsie	biopsie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+9	tricut	tricut	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+10	de	de	ADP	_	_	0	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+12	sein	sein	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+13	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+14	objective	objectiver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+16	processus	processus	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+17	tumoral	tumoral	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+18	malin	malin	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+19	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+20	de	de	ADP	_	_	0	case	_	_
+21	cellules	cellule	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+22	de	de	ADP	_	_	0	case	_	_
+23	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+24	tailles	taille	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+25	pourvus	pourvoir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+26	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+28	cytoplasme	cytoplasme	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+29	peu	peu	ADV	_	_	0	advmod	_	_
+30	abondant	abondant	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+31	et	et	CCONJ	_	_	0	cc	_	_
+32	mal	mal	ADV	_	_	0	advmod	_	_
+33	délimité	délimité	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Les noyaux sont arrondis ou ovalaires, hyperchromatiques et souvent nucléolés.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+2	noyaux	noyau	NOUN	_	Gender=Masc|Number=Plur	0	nsubj	_	_
+3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+4	arrondis	arrondi	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+5	ou	ou	CCONJ	_	_	0	cc	_	_
+6	ovalaires	ovalaire	ADJ	_	Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	0	punct	_	_
+8	hyperchromatiques	hyperchromatique	ADJ	_	Gender=Masc|Number=Plur	0	conj	_	_
+9	et	et	CCONJ	_	_	0	cc	_	_
+10	souvent	souvent	ADV	_	_	0	advmod	_	_
+11	nucléolés	nucléolé	ADJ	_	Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Il existe quelques mitoses anormales.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quelques	quelque	DET	_	Number=Plur|PronType=Ind	0	det	_	_
+4	mitoses	mitose	NOUN	_	Gender=Fem|Number=Plur	0	nsubj	_	_
+5	anormales	anormal	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'immunomarquage de Ces cellules est négative pour l'anticorps anti-cytokératine (AE1-AE3, DAKO) et pour l'anticorps anti-CD 3 il est franchement positif pour l'anticorps anti-CD20.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	immunomarquage	immunomarquage	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	Ces	ce	DET	_	Number=Plur|PronType=Dem	0	det	_	_
+5	cellules	cellule	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+7	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+8	pour	pour	ADP	_	_	0	case	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+10	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+11	anti-cytokératine	anti-cytokératine	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+12	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+13	AE1-AE3	ae1-ae3	NOUN	_	_	0	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	0	punct	_	_
+15	DAKO	DAKO	PROPN	_	_	0	conj	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	0	punct	_	_
+17	et	et	CCONJ	_	_	0	cc	_	_
+18	pour	pour	ADP	_	_	0	case	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+20	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+21	anti-CD	Anti-Cd	X	_	_	0	appos	_	_
+22	3	3	NUM	_	Number=Plur	0	nmod	_	_
+23	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+25	franchement	franchement	ADV	_	_	0	advmod	_	_
+26	positif	positif	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	_
+27	pour	pour	ADP	_	_	0	case	_	_
+28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+29	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+30	anti-CD20	Anti-Cd20	X	_	_	0	appos	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Le tout évoque un lymphome malin à grandes cellules B.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	nsubj	_	_
+3	évoque	évoquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	lymphome	lymphome	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+6	malin	malin	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+9	cellules	cellule	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+10	B.	B.	PROPN	_	_	0	appos	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Un bilan d'extension comportant une TDM thoraco-abdominale, une échographie abdominale et une biopsie ostéo-médullaire s'est révélé négatif.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+4	extension	extension	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	comportant	comporter	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	TDM	TDM	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+8	thoraco-abdominale	thoraco-abdominal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	0	punct	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+12	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+13	et	et	CCONJ	_	_	0	cc	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+15	biopsie	biopsie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+16	ostéo-médullaire	ostéo-médullaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+17	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+19	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+20	négatif	négatif	ADJ	_	Gender=Masc|Number=Sing	0	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Le test du sida est revenu positif.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	test	test	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	sida	sida	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+7	revenu	revenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	positif	positif	ADJ	_	Gender=Masc|Number=Sing	0	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = La patiente est adressée au service d'oncologie pour prise en charge.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:pass	_	_
+4	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	à	à	ADP	_	_	0	case	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	service	service	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+8	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+9	oncologie	oncologie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+10	pour	pour	ADP	_	_	0	case	_	_
+11	prise	prise	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+12	en	en	ADP	_	_	0	case	_	_
+13	charge	charge	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

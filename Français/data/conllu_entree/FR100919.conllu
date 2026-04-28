@@ -1,0 +1,169 @@
+# newdoc id = FR100919
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nous rapportons ici le cas d'une patiente qui présente ces signes buccaux depuis 2 ans et dont les bilans biologiques ont révélé une anémie normocytaire ferriprive avec carence en vitamine B12.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ici	ici	ADV	_	_	2	advmod	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cas	cas	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
+10	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	ces	ce	DET	_	Number=Plur|PronType=Dem	12	det	_	_
+12	signes	signe	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	buccaux	buccal	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+14	depuis	depuis	ADP	_	_	16	case	_	_
+15	2	2	NUM	_	Number=Plur	16	nummod	_	_
+16	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	_
+17	et	et	CCONJ	_	_	23	cc	_	_
+18	dont	dont	PRON	_	PronType=Rel	20	nmod	_	_
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	bilans	bilan	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
+21	biologiques	biologique	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:tense	_	_
+23	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	conj	_	_
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	anémie	anémie	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	normocytaire	normocytaire	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27	ferriprive	ferriprif	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+28	avec	avec	ADP	_	_	29	case	_	_
+29	carence	carence	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+30	en	en	ADP	_	_	31	case	_	_
+31	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	B12	B12	X	_	_	31	appos	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = La prise prolongée du metformine a été considérée comme étiologie de l'avitaminose B12 en attendant d'écarter d'autres causes probables.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prise	prise	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	prolongée	prolonger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	metformine	metformine	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	considérée	considérer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	comme	comme	ADP	_	_	11	case	_	_
+11	étiologie	étiologie	NOUN	_	Gender=Fem|Number=Sing	9	xcomp	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	avitaminose	avitaminose	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	B12	B12	X	_	_	14	appos	_	_
+16	en	en	ADP	_	_	17	mark	_	_
+17	attendant	attendre	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	_
+18	d'	de	ADP	_	_	19	mark	_	SpaceAfter=No
+19	écarter	écarter	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	SpaceAfter=No
+21	autres	autre	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+22	causes	cause	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+23	probables	probable	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = La correction par injection intramusculaire d'hydroxocobalamine avec du fer par voie orale ont permis la normalisation des taux sériques et la disparition des signes cliniques.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	correction	correction	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	par	par	ADP	_	_	4	case	_	_
+4	injection	injection	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	intramusculaire	intramusculaire	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+7	hydroxocobalamine	hydroxocobalamine	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	avec	avec	ADP	_	_	11	case	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	det	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fer	fer	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+12	par	par	ADP	_	_	13	case	_	_
+13	voie	voie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+14	orale	oral	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
+16	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	normalisation	normalisation	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	des	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+21	taux	taux	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+22	sériques	sérique	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23	et	et	CCONJ	_	_	25	cc	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+26-27	des	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+28	signes	signe	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+29	cliniques	clinique	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = La patiente a été adressée à un centre spécialisé pour un bilan étiologique plus poussé.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	centre	centre	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
+9	spécialisé	spécialisé	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	pour	pour	ADP	_	_	12	case	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+13	étiologique	étiologique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	plus	plus	ADV	_	_	15	advmod	_	_
+15	poussé	poussé	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ce cas clinique met en relief le rôle important que peut jouer le médecin dentiste dans le diagnostic précoce de la déficience en vitamine B12 et la prévention de son évolution qui peut être dramatique en cas de découverte tardive.
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	relief	relief	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+9	important	important	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	que	que	PRON	_	PronType=Rel	12	obj	_	_
+11	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	jouer	jouer	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+15	dentiste	dentiste	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	dans	dans	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+19	précoce	précoce	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	déficience	déficience	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+23	en	en	ADP	_	_	24	case	_	_
+24	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	B12	B12	X	_	_	24	appos	_	_
+26	et	et	CCONJ	_	_	28	cc	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	prévention	prévention	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32	qui	qui	PRON	_	PronType=Rel	33	nsubj	_	_
+33	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+34	être	être	AUX	_	VerbForm=Inf	35	cop	_	_
+35	dramatique	dramatique	ADJ	_	Gender=Fem|Number=Sing	33	xcomp	_	_
+36	en	en	ADP	_	_	37	case	_	_
+37	cas	cas	NOUN	_	Gender=Masc|Number=Sing	35	obl:mod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
+40	tardive	tardif	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+

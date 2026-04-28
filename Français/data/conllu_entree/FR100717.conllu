@@ -1,0 +1,412 @@
+# newdoc id = FR100717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un homme de 42 ans sans antécédent particulier avait consulté pour des lombalgies évoluant depuis 1 an, secondairement associées à une douleur radiculaire de type S1 gauche et de paresthésies dans le même territoire.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	homme	homme	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	42	42	NUM	_	Number=Plur	5	nummod	_	_
+5	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	sans	sans	ADP	_	_	7	case	_	_
+7	antécédent	antécédent	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+8	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:tense	_	_
+10	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	pour	pour	ADP	_	_	14	case	_	_
+12-13	des	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	det	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	lombalgies	lombalgie	NOUN	_	Gender=Fem|Number=Plur	10	obl:mod	_	_
+15	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	14	acl	_	_
+16	depuis	depuis	ADP	_	_	18	case	_	_
+17	1	1	NUM	_	Number=Sing	18	nummod	_	_
+18	an	an	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	secondairement	secondairement	ADV	_	_	21	advmod	_	_
+21	associées	associer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	_
+22	à	à	ADP	_	_	24	case	_	_
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	21	obl:arg	_	_
+25	radiculaire	radiculaire	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	type	type	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	S1	S1	NOUN	_	_	27	appos	_	_
+29	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	et	et	CCONJ	_	_	32	cc	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	paresthésies	paresthésie	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
+33	dans	dans	ADP	_	_	36	case	_	_
+34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	même	même	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+36	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Un traitement par anti inflammatoire non stéroïdien, antalgique de palier 2 et myorelaxant associé à la rééducation fonctionnelle pendant 2 mois, avait été institué sans succès car l'évolution a été marquée par l'installation d'une lombosciatique S1 bilatérale associée à une radiculalgie L4 gauche intermittente.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+3	par	par	ADP	_	_	4	case	_	_
+4	anti	anti	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	inflammatoire	inflammatoire	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	non	non	ADV	_	Polarity=Neg	7	advmod	_	_
+7	stéroïdien	stéroïdien	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	antalgique	antalgique	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	palier	palier	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+12	2	2	NUM	_	Number=Plur	11	nmod	_	_
+13	et	et	CCONJ	_	_	14	cc	_	_
+14	myorelaxant	myorelaxant	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+15	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	_
+16	à	à	ADP	_	_	18	case	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	rééducation	rééducation	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
+19	fonctionnelle	fonctionnel	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	pendant	pendant	ADP	_	_	22	case	_	_
+21	2	2	NUM	_	Number=Plur	22	nummod	_	_
+22	mois	mois	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	2	punct	_	_
+24	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux:tense	_	_
+25	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	institué	instituer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+27	sans	sans	ADP	_	_	28	case	_	_
+28	succès	succès	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	_
+29	car	car	CCONJ	_	_	34	cc	_	_
+30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	34	nsubj:pass	_	_
+32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:tense	_	_
+33	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	aux:pass	_	_
+34	marquée	marquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	conj	_	_
+35	par	par	ADP	_	_	37	case	_	_
+36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	installation	installation	NOUN	_	Gender=Fem|Number=Sing	34	obl:agent	_	_
+38	d'	de	ADP	_	_	40	case	_	SpaceAfter=No
+39	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	lombosciatique	lombosciatique	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
+41	S1	S1	NOUN	_	Gender=Fem|Number=Sing	40	appos	_	_
+42	bilatérale	bilatéral	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
+43	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	40	acl	_	_
+44	à	à	ADP	_	_	46	case	_	_
+45	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	radiculalgie	radiculalgie	NOUN	_	Gender=Fem|Number=Sing	43	obl:arg	_	_
+47	L4	L4	X	_	_	46	appos	_	_
+48	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	_
+49	intermittente	intermittent	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Aucune prise de corticoïdes n'avait été retrouvée dans les antécédents.
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
+2	prise	prise	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	corticoïdes	corticoïde	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
+6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	retrouvée	retrouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	dans	dans	ADP	_	_	11	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'examen physique avait trouvé un bon état général, un IMC = 24.07 (78 kg pour 1m80), un Lasègue à 70° des deux côtés sans déficit neurologique.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	physique	physique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+5	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	bon	bon	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	état	état	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+9	général	général	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	IMC	IMC	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	=	=	SYM	_	_	5	parataxis	_	_
+14	24.07	24.07	NUM	_	Number=Plur	13	obj	_	_
+15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	78	78	NUM	_	Number=Plur	17	nummod	_	_
+17	kg	kg	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	_
+18	pour	pour	ADP	_	_	19	case	_	_
+19	1m80	1m80	NUM	_	Number=Plur	17	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Lasègue	Lasègue	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	_
+24	à	à	ADP	_	_	26	case	_	_
+25	70	70	NUM	_	Number=Plur	26	nummod	_	SpaceAfter=No
+26	°	°	SYM	_	Number=Plur	23	nmod	_	_
+27-28	des	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	30	case	_	_
+28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+29	deux	deux	NUM	_	Number=Plur	30	nummod	_	_
+30	côtés	côté	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+31	sans	sans	ADP	_	_	32	case	_	_
+32	déficit	déficit	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+33	neurologique	neurologique	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Les examens biologiques ont montré une dyslipidémie modérée:
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	examens	examen	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	biologiques	biologique	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	dyslipidémie	dyslipidémie	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 6
+# text = Cholestérol total = 3.37 (N = 1.5-2.4), LDL = 2.26 (N = 1-1.6), HDL = 0.92 (N = 0.3-0.6), Triglycérides = 0.91 (N < 1.5).
+1	Cholestérol	cholestérol	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	total	total	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	=	=	SYM	_	_	0	root	_	_
+4	3.37	3.37	NUM	_	Number=Plur	3	obj	_	_
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	N	N	NOUN	_	_	7	nsubj	_	_
+7	=	=	SYM	_	_	4	parataxis	_	_
+8	1.5-2.4	1.5-2.4	NUM	_	Number=Plur	7	obj	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	LDL	LDL	NOUN	_	_	12	nsubj	_	_
+12	=	=	SYM	_	_	3	conj	_	_
+13	2.26	2.26	NUM	_	Number=Plur	12	obj	_	_
+14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	N	N	SYM	_	_	16	nsubj	_	_
+16	=	=	SYM	_	_	13	parataxis	_	_
+17	1-1.6	1-1.6	NUM	_	Number=Plur	16	obj	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	HDL	HDL	NOUN	_	_	21	nsubj	_	_
+21	=	=	SYM	_	_	3	conj	_	_
+22	0.92	0.92	NUM	_	Number=Plur	21	obj	_	_
+23	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+24	N	N	SYM	_	_	25	nsubj	_	_
+25	=	=	SYM	_	_	22	parataxis	_	_
+26	0.3-0.6	0.3-0.6	NUM	_	Number=Plur	25	obj	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	Triglycérides	triglycéride	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
+30	=	=	SYM	_	_	3	conj	_	_
+31	0.91	0.91	NUM	_	Number=Plur	30	obj	_	_
+32	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+33	N	N	SYM	_	_	34	nsubj	_	_
+34	<	<	SYM	_	_	30	parataxis	_	_
+35	1.5	1.5	NUM	_	Number=Plur	34	obj	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Le scanner lombaire avait trouvé des protusions discales en L3-L4 et en L4-L5 avec un canal étroit.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	scanner	scanner	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	lombaire	lombaire	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+5	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	des	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	det	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	protusions	protusion	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+9	discales	discal	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	L3-L4	L3-l4	X	_	_	8	nmod	_	_
+12	et	et	CCONJ	_	_	14	cc	_	_
+13	en	en	ADP	_	_	14	case	_	_
+14	L4-L5	L4-l5	X	_	_	11	conj	_	_
+15	avec	avec	ADP	_	_	17	case	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	canal	canal	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+18	étroit	étroit	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = L'IRM avait montré un canal lombaire étroit de L3 à L5 avec un débord discal en L3-L4 et L4-L5.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	IRM	IRM	PROPN	_	Number=Sing	4	nsubj	_	_
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
+4	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	canal	canal	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	lombaire	lombaire	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	étroit	étroit	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	L3	L3	X	_	_	6	nmod	_	_
+11	à	à	ADP	_	_	12	case	_	_
+12	L5	L5	PROPN	_	_	10	nmod	_	_
+13	avec	avec	ADP	_	_	15	case	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	débord	débord	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+16	discal	discal	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	L3-L4	L3-l4	X	_	_	15	nmod	_	_
+19	et	et	CCONJ	_	_	20	cc	_	_
+20	L4-L5	L4-l5	X	_	_	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Elle a également montré un épaississement compressif de la graisse épidurale qui apparait en hypersignal en pondération T1 de L2 à L5 en postérieur et en L5-S1 en antérieur.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+3	également	également	ADV	_	_	4	advmod	_	_
+4	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	épaississement	épaississement	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	compressif	compressif	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	graisse	graisse	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+11	épidurale	épidural	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
+13	apparait	apparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+14	en	en	ADP	_	_	15	case	_	_
+15	hypersignal	hypersignal	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
+16	en	en	ADP	_	_	17	case	_	_
+17	pondération	pondération	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
+18	T1	T1	X	_	_	17	appos	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	L2	L2	X	_	_	17	nmod	_	_
+21	à	à	ADP	_	_	22	case	_	_
+22	L5	L5	X	_	_	20	nmod	_	_
+23	en	en	ADP	_	_	24	case	_	_
+24	postérieur	postérieur	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+25	et	et	CCONJ	_	_	27	cc	_	_
+26	en	en	ADP	_	_	27	case	_	_
+27	L5-S1	L5-s1	X	_	_	17	conj	_	_
+28	en	en	ADP	_	_	29	case	_	_
+29	antérieur	antérieur	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Une laminectomie L4 et L5 avait été indiquée.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	laminectomie	laminectomie	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	L4	L4	X	_	_	2	appos	_	_
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	L5	L5	X	_	_	3	conj	_	_
+6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	indiquée	indiquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Au cours de l'intervention chirurgicale, après la laminectomie de L5, nous avons constaté quantité anormalement importante de graisse épidurale d'aspect jaunâtre et compressive sur le fourreau dural.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cours	cours	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	chirurgicale	chirurgical	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	après	après	ADP	_	_	11	case	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	laminectomie	laminectomie	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	L5	L5	PROPN	_	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+16	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
+17	constaté	constater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+18	quantité	quantité	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	anormalement	anormalement	ADV	_	_	20	advmod	_	_
+20	importante	important	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	graisse	graisse	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+23	épidurale	épidural	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
+25	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	jaunâtre	jaunâtre	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	et	et	CCONJ	_	_	28	cc	_	_
+28	compressive	compressif	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	_
+29	sur	sur	ADP	_	_	31	case	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	fourreau	fourreau	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+32	dural	dural	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = La masse graisseuse épidurale a été complètement enlevée.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	masse	masse	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	graisseuse	graisseux	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	épidurale	épidural	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+7	complètement	complètement	ADV	_	_	8	advmod	_	_
+8	enlevée	enlever	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = A l'exploration, nous n'avons pas trouvé de protusion ou de hernie discale significative.
+1	A	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	exploration	exploration	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+6	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
+7	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
+9	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+10	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+11	protusion	protusion	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	ou	ou	CCONJ	_	_	14	cc	_	_
+13	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	hernie	hernie	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+15	discale	discal	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	significative	significatif	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Les suites opératoires étaient simples marquées par une régression de la lombosciatique S1 bilatérale.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	suites	suite	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	opératoires	opératoire	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	simples	simple	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+6	marquées	marquer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	_
+7	par	par	ADP	_	_	9	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	régression	régression	NOUN	_	Gender=Fem|Number=Sing	6	obl:agent	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lombosciatique	lombosciatique	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	S1	S1	PROPN	_	_	12	appos	_	_
+14	bilatérale	bilatéral	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = L'évolution à 6 mois post opératoire a été bonne avec une disparition complète de la lombo-radiculalgie et la reprise des activités.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	à	à	ADP	_	_	5	case	_	_
+4	6	6	NUM	_	Number=Plur	5	nummod	_	_
+5	mois	mois	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	post	post	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+7	opératoire	opératoire	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+10	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+11	avec	avec	ADP	_	_	13	case	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+14	complète	complet	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	lombo-radiculalgie	lombo-radiculalgie	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+18	et	et	CCONJ	_	_	20	cc	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+21-22	des	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	activités	activité	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+

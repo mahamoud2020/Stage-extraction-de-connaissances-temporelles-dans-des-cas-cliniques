@@ -1,0 +1,641 @@
+# newdoc id = FR100517
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Madame H. 29 ans est hospitalisée dans le Service de Rhumatologie de notre centre hospitalier pour poussée d'arthralgies diffuses bilatérales et symétriques depuis 04 mois.
+1	Madame	madame	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+2	H.	H.	PROPN	_	_	1	appos	_	_
+3	29	29	NUM	_	Number=Plur	4	nummod	_	_
+4	ans	an	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	hospitalisée	hospitaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	dans	dans	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Service	service	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Rhumatologie	rhumatologie	PROPN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	_
+14	centre	centre	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+15	hospitalier	hospitalier	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	pour	pour	ADP	_	_	17	case	_	_
+17	poussée	poussée	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
+18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
+19	arthralgies	arthralgie	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+20	diffuses	diffus	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
+21	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
+22	et	et	CCONJ	_	_	23	cc	_	_
+23	symétriques	symétrique	ADJ	_	Gender=Fem|Number=Plur	21	conj	_	_
+24	depuis	depuis	ADP	_	_	26	case	_	_
+25	04	04	NUM	_	Number=Plur	26	nummod	_	_
+26	mois	mois	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Elles sont associées à des lésions érythémato papuleuses au niveau du dos des mains.
+1	Elles	eux	PRON	_	Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	associées	associer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	à	à	ADP	_	_	7	case	_	_
+5-6	des	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	det	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	_
+8	érythémato	érythémato	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	papuleuses	papuleux	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+10-11	au	_	_	_	_	_	_	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+13-14	du	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dos	dos	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	mains	main	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Elle a reçu un traitement à base de corticothérapie à faible dose et de la nivaquine.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	à	à	ADP	_	_	7	case	_	_
+7	base	base	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	corticothérapie	corticothérapie	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	faible	faible	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	dose	dose	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	et	et	CCONJ	_	_	16	cc	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	nivaquine	nivaquine	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'évolution était marquée par l'apparition quelques mois après d'une asthénie progressive associée à une faiblesse musculaire et érythrœdème des paupières.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	marquée	marquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	par	par	ADP	_	_	7	case	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	apparition	apparition	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	quelques	quelque	DET	_	Number=Plur|PronType=Ind	9	det	_	_
+9	mois	mois	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	après	après	ADV	_	_	7	advmod	_	_
+11	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	asthénie	asthénie	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
+14	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
+16	à	à	ADP	_	_	18	case	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	faiblesse	faiblesse	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
+19	musculaire	musculaire	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	et	et	CCONJ	_	_	21	cc	_	_
+21	érythrœdème	érythrœdème	ADJ	_	Gender=Fem|Number=Sing	19	conj	_	_
+22-23	des	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+24	paupières	paupière	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Elle était adressée au Service de Dermatologie.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
+3	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	au	_	_	_	_	_	_	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Service	service	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Dermatologie	Dermatologie	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'examen a trouvé un œdème péri unguéal (signe de la manucure), des ulcérations en regard des articulations inter phalangiennes (papules de Gottron) un érythème héliotrope rose violacé des paupières et des plaques psoriasiformes au niveau des coudes.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	œdème	œdème	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	péri	péri	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+8	unguéal	unguéal	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	signe	signe	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	manucure	manucure	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	ulcérations	ulcération	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
+19	en	en	ADP	_	_	20	case	_	_
+20	regard	regard	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21-22	des	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	articulations	articulation	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+24	inter	inter	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+25	phalangiennes	phalangien	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	papules	papule	NOUN	_	Gender=Fem|Number=Plur	23	appos	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Gottron	Gottron	PROPN	_	_	27	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	27	punct	_	_
+31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	érythème	érythème	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+33	héliotrope	héliotrope	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
+34	rose	rose	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
+35	violacé	violacé	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
+36-37	des	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
+38	paupières	paupière	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	_
+39	et	et	CCONJ	_	_	42	cc	_	_
+40-41	des	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
+42	plaques	plaque	NOUN	_	Gender=Fem|Number=Plur	38	conj	_	_
+43	psoriasiformes	psoriasiforme	ADJ	_	Gender=Fem|Number=Plur	42	amod	_	_
+44-45	au	_	_	_	_	_	_	_	_
+44	à	à	ADP	_	_	46	case	_	_
+45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+47-48	des	_	_	_	_	_	_	_	_
+47	de	de	ADP	_	_	49	case	_	_
+48	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	_
+49	coudes	coude	NOUN	_	Gender=Fem|Number=Plur	46	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ces différents éléments cliniques sont révélateurs d'une dermatomyosite débutante.
+1	Ces	ce	DET	_	Number=Plur|PronType=Dem	3	det	_	_
+2	différents	différent	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+3	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	cliniques	clinique	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	révélateurs	révélateur	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	dermatomyosite	dermatomyosite	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	_
+10	débutante	débutant	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Le bilan biologique retrouve un syndrome inflammatoire aspécifique, les enzymes musculaires ont des valeurs normales (Créatine Kinase = 33 U/l pour une norme < 170 U/l).
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	biologique	biologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	inflammatoire	inflammatoire	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	aspécifique	aspécifique	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	enzymes	enzyme	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	musculaires	musculaire	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+14-15	des	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	13	obl:arg	_	_
+17	normales	normal	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+19	Créatine	Créatine	PROPN	_	_	21	nsubj	_	_
+20	Kinase	Kinase	PROPN	_	_	19	flat:name	_	_
+21	=	=	VERB	_	_	16	parataxis	_	_
+22	33	33	NUM	_	Number=Plur	23	nummod	_	_
+23	U/l	u/l	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+24	pour	pour	ADP	_	_	26	case	_	_
+25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	norme	norme	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	_
+27	<	<	VERB	_	_	21	conj	_	_
+28	170	170	NUM	_	Number=Plur	29	nummod	_	_
+29	U/l	u/l	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'électromyogramme trouve une atteinte myogène diffuse.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	électromyogramme	électromyogramme	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	myogène	myogène	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	diffuse	diffus	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Le bilan immunologique est normal.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	immunologique	immunologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Les explorations fonctionnelles respiratoires retrouvent un syndrome restrictif modéré.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	explorations	exploration	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	fonctionnelles	fonctionnelle	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	respiratoires	respiratoire	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+5	retrouvent	retrouver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	restrictif	restrictif	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	modéré	modéré	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Malgré l'absence de la totalité des éléments de la classification de Bohan et Peter en particulier la biopsie musculaire, le diagnostic de dermatomyosite est porté.
+1	Malgré	malgré	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	absence	absence	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	totalité	totalité	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	des	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	classification	classification	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Bohan	Bohan	PROPN	_	_	12	nmod	_	_
+15	et	et	CCONJ	_	_	16	cc	_	_
+16	Peter	Peter	PROPN	_	_	14	conj	_	_
+17	en	en	ADP	_	_	20	advmod	_	_
+18	particulier	particulier	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	biopsie	biopsie	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+21	musculaire	musculaire	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	3	punct	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	dermatomyosite	dermatomyosite	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	porté	porter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = L'échographie abdominale, la radiographie du thorax, la fibroscopie gastrique, la coloscopie, l'examen ORL et l'examen gynécologique ne retrouvent pas de néoplasie sous jacente.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+3	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+7-8	du	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	thorax	thorax	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fibroscopie	fibroscopie	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+13	gastrique	gastrique	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	coloscopie	coloscopie	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	examen	examen	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+20	ORL	ORL	PROPN	_	_	19	appos	_	_
+21	et	et	CCONJ	_	_	23	cc	_	_
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	examen	examen	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+24	gynécologique	gynécologique	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	_
+26	retrouvent	retrouver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	_
+28	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	29	det	_	_
+29	néoplasie	néoplasie	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+30	sous	sous	ADP	_	_	31	case	_	_
+31	jacente	jacente	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Au terme de ce bilan initial la patiente est mise sous corticothérapie et Imurel avec amélioration partielle de son asthénie et des lésions cutanés.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	terme	terme	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	initial	initial	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	sous	sous	ADP	_	_	13	case	_	_
+13	corticothérapie	corticothérapie	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+14	et	et	CCONJ	_	_	15	cc	_	_
+15	Imurel	Imurel	PROPN	_	_	13	conj	_	_
+16	avec	avec	ADP	_	_	17	case	_	_
+17	amélioration	amélioration	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+18	partielle	partiel	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	asthénie	asthénie	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+22	et	et	CCONJ	_	_	25	cc	_	_
+23-24	des	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+25	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	21	conj	_	_
+26	cutanés	cutané	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Quelques mois après la mise sous traitement corticoïde d'entretien (faible dose), Madame H. présente de façon progressive une dyspnée d'effort stade II de MRC associée à une toux sèche et des douleurs basi thoraciques d'intensité modérée.
+1	Quelques	quelque	DET	_	Number=Plur|PronType=Ind	2	det	_	_
+2	mois	mois	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+3	après	après	ADP	_	_	5	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mise	mise	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
+6	sous	sous	ADP	_	_	7	case	_	_
+7	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	corticoïde	corticoïde	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
+10	entretien	entretien	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	faible	faible	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	dose	dose	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	5	punct	_	_
+16	Madame	madame	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	H.	H.	PROPN	_	_	16	appos	_	_
+18	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	façon	façon	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
+21	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	dyspnée	dyspnée	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+24	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
+25	effort	effort	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	stade	stade	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	II	II	NUM	_	Number=Plur	26	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	MRC	MRC	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+30	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	_	_
+31	à	à	ADP	_	_	33	case	_	_
+32	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	toux	toux	NOUN	_	Gender=Fem|Number=Sing	30	obl:arg	_	_
+34	sèche	sec	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
+35	et	et	CCONJ	_	_	38	cc	_	_
+36-37	des	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
+38	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	33	conj	_	_
+39	basi	basi	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	38	amod	_	_
+40	thoraciques	thoracique	ADJ	_	Gender=Fem|Number=Plur	38	amod	_	_
+41	d'	de	ADP	_	_	42	case	_	SpaceAfter=No
+42	intensité	intensité	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
+43	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	42	amod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = L'auscultation pulmonaire trouve quelques crépitants au niveau des deux bases pulmonaires.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	auscultation	auscultation	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quelques	quelque	DET	_	Number=Plur|PronType=Ind	6	det	_	_
+6	crépitants	crépitant	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7-8	au	_	_	_	_	_	_	_	_
+7	à	à	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+12	deux	deux	NUM	_	Number=Plur	13	nummod	_	_
+13	bases	base	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+14	pulmonaires	pulmonaire	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Une radiographie de thorax de face a été réalisée montrant des opacités réticulo nodulaires bilatérales surtout basales et plus marquée du coté droit en rapport avec un syndrome interstitiel.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	thorax	thorax	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	face	face	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	montrant	montrer	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	_
+11-12	des	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	opacités	opacité	NOUN	_	Gender=Fem|Number=Plur	10	obl:arg	_	_
+14	réticulo	réticulo	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	13	amod	_	_
+15	nodulaires	nodulaire	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+16	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+17	surtout	surtout	ADV	_	_	18	advmod	_	_
+18	basales	basal	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+19	et	et	CCONJ	_	_	21	cc	_	_
+20	plus	plus	ADV	_	_	21	advmod	_	_
+21	marquée	marquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	_
+22-23	du	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	coté	côté	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	_
+25	droit	droit	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	en	en	ADP	_	_	27	case	_	_
+27	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	_
+28	avec	avec	ADP	_	_	30	case	_	_
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+31	interstitiel	interstitiel	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = La tomodensitométrie thoracique (coupes millimétriques en haute résolution sans injection de produit de contraste) réalisée pour meilleure étude parenchymateuse réalisée pour une meilleure étude parenchymateuse retrouvant les opacités réticulo nodulaires avec DDB par traction et de la fibrose sous pleurale.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	thoracique	thoracique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	coupes	coupe	NOUN	_	Gender=Fem|Number=Plur	2	appos	_	_
+6	millimétriques	millimétrique	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	en	en	ADP	_	_	9	case	_	_
+8	haute	haut	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	résolution	résolution	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	sans	sans	ADP	_	_	11	case	_	_
+11	injection	injection	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	produit	produit	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	contraste	contraste	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	5	punct	_	_
+17	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+18	pour	pour	ADP	_	_	20	case	_	_
+19	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	étude	étude	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
+21	parenchymateuse	parenchymateux	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	_
+23	pour	pour	ADP	_	_	26	case	_	_
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+26	étude	étude	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	_
+27	parenchymateuse	parenchymateux	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	retrouvant	retrouver	VERB	_	Tense=Pres|VerbForm=Part	26	acl	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+30	opacités	opacité	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
+31	réticulo	réticulo	ADJ	_	_	30	amod	_	_
+32	nodulaires	nodulaire	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
+33	avec	avec	ADP	_	_	34	case	_	_
+34	DDB	DDB	NOUN	_	_	30	nmod	_	_
+35	par	par	ADP	_	_	36	case	_	_
+36	traction	traction	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+37	et	et	CCONJ	_	_	40	cc	_	_
+38	de	de	ADP	_	_	40	det	_	_
+39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	fixed	_	_
+40	fibrose	fibrose	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	_
+41	sous	sous	ADP	_	_	42	case	_	_
+42	pleurale	pleurale	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Il s'y associe un pneumomédiastin de faible abondance plus marqué dans la région médiastinale antérieure et en péri tracheal.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	4	iobj	_	_
+4	associe	associer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pneumomédiastin	pneumomédiastin	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	faible	faible	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	abondance	abondance	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	plus	plus	ADV	_	_	11	advmod	_	_
+11	marqué	marquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+12	dans	dans	ADP	_	_	14	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	région	région	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+15	médiastinale	médiastinal	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	antérieure	antérieur	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+17	et	et	CCONJ	_	_	19	cc	_	_
+18	en	en	ADP	_	_	19	case	_	_
+19	péri	péri	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
+20	tracheal	tracheal	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Un traitement symptomatique de la dyspnée est instauré puis la patiente est remise sous immunosuppresseur et corticothérapie à forte dose.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3	symptomatique	symptomatique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	dyspnée	dyspnée	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	instauré	instaurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	puis	puis	CCONJ	_	_	13	cc	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	remise	remettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	_
+14	sous	sous	ADP	_	_	15	case	_	_
+15	immunosuppresseur	immunosuppresseur	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
+16	et	et	CCONJ	_	_	17	cc	_	_
+17	corticothérapie	corticothérapie	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
+18	à	à	ADP	_	_	20	case	_	_
+19	forte	fort	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	dose	dose	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = L'évolution clinique est favorable avec une amélioration partielle des symptômes respiratoires mais le pneumomédiastin persiste de façon prolongée plusieurs mois après l'épisode initial.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	favorable	favorable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+6	avec	avec	ADP	_	_	8	case	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	amélioration	amélioration	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+9	partielle	partiel	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	symptômes	symptôme	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+13	respiratoires	respiratoire	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+14	mais	mais	CCONJ	_	_	17	cc	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pneumomédiastin	pneumomédiastin	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	persiste	persister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	façon	façon	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
+20	prolongée	prolonger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
+21	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	22	det	_	_
+22	mois	mois	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	_
+23	après	après	ADP	_	_	25	case	_	_
+24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	épisode	épisode	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+26	initial	initial	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Lors d'un contrôle tomodensitométrique 02 mois après traitement, on objective la stabilité des anomalies parenchymateuses pulmonaires observées sur la première tomodensitométrie voir l'aggravation du pneumomédiastin qui s'étend vers les espaces péribronchovasculaires plus distales.
+1	Lors	lors	ADV	_	_	12	advmod	_	_
+2	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5	tomodensitométrique	tomodensitométrique	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	02	02	NUM	_	Number=Plur	7	nummod	_	_
+7	mois	mois	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+8	après	après	ADP	_	_	9	case	_	_
+9	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
+12	objective	objectiver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	stabilité	stabilité	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+18	parenchymateuses	parenchymateux	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	pulmonaires	pulmonaire	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+20	observées	observer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
+21	sur	sur	ADP	_	_	24	case	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	première	premier	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+24	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
+25	voir	voir	VERB	_	VerbForm=Inf	12	xcomp	_	_
+26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	aggravation	aggravation	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28-29	du	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	pneumomédiastin	pneumomédiastin	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+31	qui	qui	PRON	_	PronType=Rel	33	nsubj:pass	_	_
+32	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	expl:pass	_	SpaceAfter=No
+33	étend	étendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+34	vers	vers	ADP	_	_	36	case	_	_
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+36	espaces	espace	NOUN	_	Gender=Masc|Number=Plur	33	obl:mod	_	_
+37	péribronchovasculaires	péribronchovasculaire	ADJ	_	Gender=Masc|Number=Plur	36	amod	_	_
+38	plus	plus	ADV	_	_	39	advmod	_	_
+39	distales	distal	ADJ	_	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+

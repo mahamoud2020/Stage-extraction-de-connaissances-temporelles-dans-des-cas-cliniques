@@ -1,0 +1,191 @@
+# newdoc id = FR100185
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agit d'une femme de 50 ans, suivie depuis quatre ans pour une tumeur du sein gauche pour laquelle elle a bénéficié d'une mastectomie de type Patey avec curage ganglionnaire axillaire suivie d'une radiothérapie d'une dose globale de 40Gy, elle accuse depuis 3 mois des paresthésies et une lourdeur du membre supérieur gauche avec à l'examen clinique un déficit moteur proximal et distal des fléchisseurs et des extenseurs, une abolition des reflexes ostéo-tendineux bicipital et tricipital, une hypoesthésie de tout le membre et une amyotrophie de la main.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	femme	femme	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	50	50	NUM	_	Number=Plur	9	nummod	_	_
+9	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+12	depuis	depuis	ADP	_	_	14	case	_	_
+13	quatre	quatre	NUM	_	Number=Plur	14	nummod	_	_
+14	ans	an	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+15	pour	pour	ADP	_	_	17	case	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+18-19	du	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sein	sein	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	pour	pour	ADP	_	_	23	case	_	_
+23	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	26	obl:mod	_	_
+24	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
+26	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	acl:relcl	_	_
+27	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
+28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	mastectomie	mastectomie	NOUN	_	Gender=Fem|Number=Sing	26	obl:arg	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	type	type	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+32	Patey	Patey	PROPN	_	_	31	appos	_	_
+33	avec	avec	ADP	_	_	34	case	_	_
+34	curage	curage	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+35	ganglionnaire	ganglionnaire	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+36	axillaire	axillaire	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+37	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	acl	_	_
+38	d'	de	ADP	_	_	40	case	_	SpaceAfter=No
+39	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	radiothérapie	radiothérapie	NOUN	_	Gender=Fem|Number=Sing	37	obl:arg	_	_
+41	d'	de	ADP	_	_	43	case	_	SpaceAfter=No
+42	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	dose	dose	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
+44	globale	global	ADJ	_	Gender=Fem|Number=Sing	43	amod	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	40Gy	40gy	NOUN	_	Number=Plur	43	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	49	punct	_	_
+48	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	_
+49	accuse	accuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+50	depuis	depuis	ADP	_	_	52	case	_	_
+51	3	3	NUM	_	Number=Plur	52	nummod	_	_
+52	mois	mois	NOUN	_	Gender=Masc|Number=Plur	49	obl:mod	_	_
+53-54	des	_	_	_	_	_	_	_	_
+53	de	de	ADP	_	_	55	case	_	_
+54	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	55	det	_	_
+55	paresthésies	paresthésie	NOUN	_	Gender=Fem|Number=Plur	49	obl:arg	_	_
+56	et	et	CCONJ	_	_	58	cc	_	_
+57	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	lourdeur	lourdeur	NOUN	_	Gender=Fem|Number=Sing	55	conj	_	_
+59-60	du	_	_	_	_	_	_	_	_
+59	de	de	ADP	_	_	61	case	_	_
+60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	membre	membre	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	_
+62	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	61	amod	_	_
+63	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	61	amod	_	_
+64	avec	avec	ADP	_	_	70	case	_	_
+65	à	à	ADP	_	_	67	case	_	_
+66	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	67	det	_	SpaceAfter=No
+67	examen	examen	NOUN	_	Gender=Masc|Number=Sing	49	obl:mod	_	_
+68	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	67	amod	_	_
+69	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	déficit	déficit	NOUN	_	Gender=Masc|Number=Sing	49	obj	_	_
+71	moteur	moteur	ADJ	_	Gender=Masc|Number=Sing	70	amod	_	_
+72	proximal	proximal	ADJ	_	Gender=Masc|Number=Sing	70	amod	_	_
+73	et	et	CCONJ	_	_	74	cc	_	_
+74	distal	distal	ADJ	_	Gender=Masc|Number=Sing	72	conj	_	_
+75-76	des	_	_	_	_	_	_	_	_
+75	de	de	ADP	_	_	77	case	_	_
+76	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	77	det	_	_
+77	fléchisseurs	fléchisseur	NOUN	_	Gender=Masc|Number=Plur	70	nmod	_	_
+78	et	et	CCONJ	_	_	81	cc	_	_
+79-80	des	_	_	_	_	_	_	_	_
+79	de	de	ADP	_	_	81	case	_	_
+80	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	81	det	_	_
+81	extenseurs	extenseur	NOUN	_	Gender=Masc|Number=Plur	77	conj	_	SpaceAfter=No
+82	,	,	PUNCT	_	_	84	punct	_	_
+83	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	84	det	_	_
+84	abolition	abolition	NOUN	_	Gender=Fem|Number=Sing	70	conj	_	_
+85-86	des	_	_	_	_	_	_	_	_
+85	de	de	ADP	_	_	87	case	_	_
+86	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	87	det	_	_
+87	reflexes	reflexe	NOUN	_	Gender=Masc|Number=Plur	84	nmod	_	_
+88	ostéo-tendineux	ostéo-tendineux	ADJ	_	Gender=Masc|Number=Plur	87	amod	_	_
+89	bicipital	bicipital	ADJ	_	Gender=Masc|Number=Plur	87	amod	_	_
+90	et	et	CCONJ	_	_	91	cc	_	_
+91	tricipital	tricipital	ADJ	_	Gender=Masc|Number=Sing	89	conj	_	SpaceAfter=No
+92	,	,	PUNCT	_	_	94	punct	_	_
+93	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	94	det	_	_
+94	hypoesthésie	hypoesthésie	NOUN	_	Gender=Fem|Number=Sing	70	conj	_	_
+95	de	de	ADP	_	_	98	case	_	_
+96	tout	tout	ADJ	_	Gender=Masc|Number=Sing	98	amod	_	_
+97	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	98	det	_	_
+98	membre	membre	NOUN	_	Gender=Masc|Number=Sing	94	nmod	_	_
+99	et	et	CCONJ	_	_	101	cc	_	_
+100	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	101	det	_	_
+101	amyotrophie	amyotrophie	NOUN	_	Gender=Fem|Number=Sing	70	conj	_	_
+102	de	de	ADP	_	_	104	case	_	_
+103	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	104	det	_	_
+104	main	main	NOUN	_	Gender=Fem|Number=Sing	101	nmod	_	SpaceAfter=No
+105	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'Electromyogramme trouve une abolition des réponses motrices et sensitives de l'ensemble des nerfs du membre supérieur.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Electromyogramme	Electromyogramme	PROPN	_	Number=Sing	3	nsubj	_	_
+3	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	abolition	abolition	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	des	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	réponses	réponse	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+9	motrices	moteur	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	et	et	CCONJ	_	_	11	cc	_	_
+11	sensitives	sensitif	ADJ	_	Gender=Fem|Number=Plur	9	conj	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	nerfs	nerf	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18-19	du	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	membre	membre	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'IRM du plexus brachial révèle une lésion nodulaire sus claviculaire de forme arrondie et de contours irréguliers envahissant les troncs plexiques.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	IRM	IRM	NOUN	_	Number=Sing	7	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	plexus	plexus	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	brachial	brachial	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	révèle	révéler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	nodulaire	nodulaire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	sus	sus	ADP	_	_	12	advmod	_	_
+12	claviculaire	claviculaire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	forme	forme	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+15	arrondie	arrondi	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	et	et	CCONJ	_	_	18	cc	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	contours	contour	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
+19	irréguliers	irrégulier	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
+20	envahissant	envahir	VERB	_	Tense=Pres|VerbForm=Part	18	acl	_	_
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	troncs	tronc	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+23	plexiques	plexique	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'aspect IRM est équivoque de métastase envahissant le plexus brachial.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	IRM	IRM	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	équivoque	équivoque	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	métastase	métastase	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
+8	envahissant	envahir	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	plexus	plexus	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	brachial	brachial	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+

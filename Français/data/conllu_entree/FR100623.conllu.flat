@@ -1,0 +1,227 @@
+# newdoc id = FR100623
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nous rapportons le cas d'une patiente de 7 ans qui a consulté pour une douleur abdominale aigue paroxystique siégeant au niveau de l'épigastre associée à des vomissements sans arrêt des matières et des gaz.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+4	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+5	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	7	7	NUM	_	Number=Plur	0	nummod	_	_
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+11	qui	qui	PRON	_	PronType=Rel	0	nsubj	_	_
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+13	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	acl:relcl	_	_
+14	pour	pour	ADP	_	_	0	case	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+17	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+18	aigue	aigu	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+19	paroxystique	paroxystique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+20	siégeant	siéger	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+21	à	à	ADP	_	_	0	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+23	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+24	de	de	ADP	_	_	0	case	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+26	épigastre	épigastre	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+27	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+28	à	à	ADP	_	_	0	case	_	_
+29	de	de	ADP	_	_	0	case	_	_
+30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+31	vomissements	vomissement	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	_
+32	sans	sans	ADP	_	_	0	case	_	_
+33	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+34	de	de	ADP	_	_	0	case	_	_
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+36	matières	matière	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+37	et	et	CCONJ	_	_	0	cc	_	_
+38	de	de	ADP	_	_	0	case	_	_
+39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+40	gaz	gaz	NOUN	_	Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'examen clinique ainsi que le bilan biologique étaient sans particularité.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	ainsi	ainsi	ADV	_	_	0	cc	_	_
+5	que	que	SCONJ	_	_	0	fixed	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+8	biologique	biologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+10	sans	sans	ADP	_	_	0	case	_	_
+11	particularité	particularité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'échographie abdominale demandée en première intention a montré une masse du flanc et de la fosse iliaque droite échogène, homogène à contours réguliers sans signal vasculaire au Doppler associée à un signe du tourbillon des vaisseaux mésentériques.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	demandée	demander	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+5	en	en	ADP	_	_	0	case	_	_
+6	première	premier	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+7	intention	intention	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+9	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	masse	masse	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+12	de	de	ADP	_	_	0	case	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+14	flanc	flanc	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+15	et	et	CCONJ	_	_	0	cc	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+18	fosse	fosse	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+19	iliaque	iliaque	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+20	droite	droit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+21	échogène	échogène	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	0	punct	_	_
+23	homogène	homogène	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+24	à	à	ADP	_	_	0	case	_	_
+25	contours	contour	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+26	réguliers	régulier	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+27	sans	sans	ADP	_	_	0	case	_	_
+28	signal	signal	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+29	vasculaire	vasculaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+30	à	à	ADP	_	_	0	case	_	_
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+32	Doppler	Doppler	PROPN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+33	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+34	à	à	ADP	_	_	0	case	_	_
+35	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+36	signe	signe	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+37	de	de	ADP	_	_	0	case	_	_
+38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+39	tourbillon	tourbillon	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+40	de	de	ADP	_	_	0	case	_	_
+41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+42	vaisseaux	vaisseau	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+43	mésentériques	mésentérique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = A la tomodensitométrie cette masse correspondait à une formation lipomateuse, bien limitée, exerçant un effet de masse sur le cœcum avec volvulus du mésentère au contact.
+1	A	à	ADP	_	_	0	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+3	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	0	det	_	_
+5	masse	masse	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+6	correspondait	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	formation	formation	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+10	lipomateuse	lipomateux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	0	punct	_	_
+12	bien	bien	ADV	_	_	0	advmod	_	_
+13	limitée	limité	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	0	punct	_	_
+15	exerçant	exercer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+17	effet	effet	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	masse	masse	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+20	sur	sur	ADP	_	_	0	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+22	cœcum	cœcum	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+23	avec	avec	ADP	_	_	0	case	_	_
+24	volvulus	volvulus	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+25	de	de	ADP	_	_	0	case	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+27	mésentère	mésentère	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+28	à	à	ADP	_	_	0	case	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+30	contact	contact	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = La disposition des vaisseaux mésentériques à leur origine était normale.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	disposition	disposition	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+5	vaisseaux	vaisseau	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+6	mésentériques	mésentérique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+9	origine	origine	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+11	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Le diagnostic de volvulus du mésentère sur lipome a été retenu.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	volvulus	volvulus	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+5	de	de	ADP	_	_	0	case	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	mésentère	mésentère	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+8	sur	sur	ADP	_	_	0	case	_	_
+9	lipome	lipome	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+12	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = La prise en charge chirurgicale et l'analyse anatomopathologique de la pièce opératoire a confirmé le diagnostic.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	prise	prise	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	en	en	ADP	_	_	0	case	_	_
+4	charge	charge	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	chirurgicale	chirurgical	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+6	et	et	CCONJ	_	_	0	cc	_	_
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+8	analyse	analyse	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+9	anatomopathologique	anatomopathologique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+10	de	de	ADP	_	_	0	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+13	opératoire	opératoire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+15	confirmé	confirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+17	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Nous allons à travers ce cas clinique revoir l'apport de l'échographie et du scanner dans le diagnostic de volvulus du mésentère.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	allons	aller	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	à	à	ADP	_	_	0	case	_	_
+4	travers	travers	NOUN	_	Gender=Masc|Number=Sing	0	fixed	_	_
+5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	0	det	_	_
+6	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+7	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	revoir	revoir	VERB	_	VerbForm=Inf	0	xcomp	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+10	apport	apport	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+13	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+14	et	et	CCONJ	_	_	0	cc	_	_
+15	de	de	ADP	_	_	0	mark	_	_
+16	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	obj	_	_
+17	scanner	scanner	VERB	_	VerbForm=Inf	0	conj	_	_
+18	dans	dans	ADP	_	_	0	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+20	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+21	de	de	ADP	_	_	0	case	_	_
+22	volvulus	volvulus	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+23	de	de	ADP	_	_	0	case	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+25	mésentère	mésentère	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

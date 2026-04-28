@@ -1,0 +1,81 @@
+# newdoc id = FR100971
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nous rapportons le cas d'une rupture septale apicale chez un patient de 70 ans admis aux urgences pour prise en charge d'un post infarctus de myocarde antéro-septal.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+4	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+5	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	rupture	rupture	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+8	septale	septal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+9	apicale	apical	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+10	chez	chez	ADP	_	_	0	case	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+12	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+13	de	de	ADP	_	_	0	case	_	_
+14	70	70	NUM	_	Number=Plur	0	nummod	_	_
+15	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+16	admis	admettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+17	à	à	ADP	_	_	0	case	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+19	urgences	urgence	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+20	pour	pour	ADP	_	_	0	case	_	_
+21	prise	prise	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+22	en	en	ADP	_	_	0	case	_	_
+23	charge	charge	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+24	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+26	post	post	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+27	infarctus	infarctus	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+28	de	de	ADP	_	_	0	case	_	_
+29	myocarde	myocarde	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+30	antéro-septal	antéro-septal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = C'est une urgence extrême dont la prise en charge doit être multidisciplinaire.
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+4	urgence	urgence	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	extrême	extrême	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+6	dont	dont	PRON	_	PronType=Rel	0	nmod	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	prise	prise	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+9	en	en	ADP	_	_	0	case	_	_
+10	charge	charge	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+11	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	acl:relcl	_	_
+12	être	être	AUX	_	VerbForm=Inf	0	cop	_	_
+13	multidisciplinaire	multidisciplinaire	ADJ	_	Gender=Fem|Number=Sing	0	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Nous mettons le point sur les facteurs de risque et sur le traitement à proposer pour ce type de complication.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	mettons	mettre	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+4	point	point	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+5	sur	sur	ADP	_	_	0	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+7	facteurs	facteur	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	risque	risque	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+10	et	et	CCONJ	_	_	0	cc	_	_
+11	sur	sur	ADP	_	_	0	case	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+14	à	à	ADP	_	_	0	mark	_	_
+15	proposer	proposer	VERB	_	VerbForm=Inf	0	acl	_	_
+16	pour	pour	ADP	_	_	0	case	_	_
+17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	0	det	_	_
+18	type	type	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	complication	complication	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

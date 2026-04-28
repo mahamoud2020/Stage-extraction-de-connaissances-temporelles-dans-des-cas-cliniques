@@ -1,0 +1,147 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Il s'agit d'un patient de 33 ans, sans antécédents, présentant des sciatalgies rebelles au traitement, évoluant depuis 6 mois.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c1--2
+6	patient	patient	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	33	33	NUM	_	Number=Plur	9	nummod	_	Entity=(c2--2
+9	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Entity=c2)c1)|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	sans	sans	ADP	_	_	12	case	_	_
+12	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Entity=(c3--1)|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	présentant	présenter	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	det	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(c4--2
+17	sciatalgies	sciatalgie	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+18	rebelles	rebelle	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19-20	au	_	_	_	_	_	_	_	_
+19	à	à	ADP	_	_	21	case	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(c5--2
+21	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	Entity=c5)c4)|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	17	acl	_	_
+24	depuis	depuis	ADP	_	_	26	case	_	_
+25	6	6	NUM	_	Number=Plur	26	nummod	_	Entity=(c6--2
+26	mois	mois	NOUN	_	Gender=Masc|Number=Plur	23	obl:mod	_	Entity=c6)|SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'IRM initiale objective un processus centré sur l'échancrure sciatique droite à cheval sur le canal sous pyramidal, en iso-signal en pondération T1 et en hypersignal modéré hétérogène en pondération T2.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c7--2|SpaceAfter=No
+2	IRM	IRM	NOUN	_	Number=Sing	4	nsubj	_	_
+3	initiale	initial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c7)
+4	objective	objectiver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c8--2
+6	processus	processus	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	centré	centrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	sur	sur	ADP	_	_	10	case	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Entity=(c9--2|SpaceAfter=No
+10	échancrure	échancrure	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
+11	sciatique	sciatique	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	droite	droit	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+13	à	à	ADP	_	_	14	case	_	_
+14	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+15	sur	sur	ADP	_	_	17	case	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c10--2
+17	canal	canal	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	sous	sous	ADP	_	_	19	case	_	_
+19	pyramidal	pyramidal	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	Entity=c10)c9)|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	iso-signal	iso-signal	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	Entity=(c11--1)
+23	en	en	ADP	_	_	24	case	_	_
+24	pondération	pondération	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	Entity=(c12--1
+25	T1	T1	X	_	_	24	appos	_	Entity=c12)
+26	et	et	CCONJ	_	_	28	cc	_	_
+27	en	en	ADP	_	_	28	case	_	_
+28	hypersignal	hypersignal	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	Entity=(c13--1
+29	modéré	modéré	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	hétérogène	hétérogène	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	Entity=c13)
+31	en	en	ADP	_	_	32	case	_	_
+32	pondération	pondération	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	Entity=(c14--1
+33	T2	T2	X	_	_	32	appos	_	Entity=c14)c8)|SpaceAfter=No
+34	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = A l'injection de produit de contraste, sur les séquences en saturation de graisse, la masse se rehausse modérément et de façon hétérogène à l'injection de gadolinium, sans envahissement ni infiltration des tissus avoisinants.
+1	A	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	Entity=(c15--2|SpaceAfter=No
+3	injection	injection	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	produit	produit	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Entity=(c16--1
+6	de	de	ADP	_	_	7	case	_	_
+7	contraste	contraste	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	Entity=c16)c15)|SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	sur	sur	ADP	_	_	11	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	Entity=(c17--2
+11	séquences	séquence	NOUN	_	Gender=Fem|Number=Plur	20	obl:mod	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	saturation	saturation	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=(c18--1
+14	de	de	ADP	_	_	15	case	_	_
+15	graisse	graisse	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	Entity=c18)c17)|SpaceAfter=No
+16	,	,	PUNCT	_	_	11	punct	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c19--2
+18	masse	masse	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	Entity=c19)
+19	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	expl:pass	_	_
+20	rehausse	rehausser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	modérément	modérément	ADV	_	_	20	advmod	_	_
+22	et	et	CCONJ	_	_	24	cc	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	façon	façon	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
+25	hétérogène	hétérogène	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	à	à	ADP	_	_	28	case	_	_
+27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	Entity=(c20--2|SpaceAfter=No
+28	injection	injection	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	gadolinium	gadolinium	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	Entity=(c21--1)c20)|SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	sans	sans	ADP	_	_	33	case	_	_
+33	envahissement	envahissement	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	Entity=(c22--1)
+34	ni	ni	CCONJ	_	_	35	cc	_	_
+35	infiltration	infiltration	NOUN	_	Gender=Fem|Number=Sing	33	conj	_	Entity=(c23--1
+36-37	des	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	Entity=(c24--2
+38	tissus	tissu	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
+39	avoisinants	avoisinant	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	Entity=c24)c23)|SpaceAfter=No
+40	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le diagnostic retenu est celui d'un neurofibrome.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c25--2
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Entity=c25)
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	Entity=(c25--1
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c26--2
+8	neurofibrome	neurofibrome	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	Entity=c26)c25)|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = La tumeur est réséquée et l'examen anatomopathologique confirme le diagnostic.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c26--2
+2	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	Entity=c26)
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	réséquée	réséquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	et	et	CCONJ	_	_	9	cc	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Entity=(c27--2|SpaceAfter=No
+7	examen	examen	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	anatomopathologique	anatomopathologique	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Entity=c27)
+9	confirme	confirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(c25--2
+11	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	Entity=c25)|SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+

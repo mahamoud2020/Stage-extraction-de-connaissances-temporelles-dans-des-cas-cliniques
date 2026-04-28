@@ -1,0 +1,139 @@
+# newdoc id = FR100944
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nous rapportons le cas d'un jeune homme de 26 ans suivi depuis 4 ans pour une insuffisance aortique rhumatismale qui est hospitalisé pour un syndrome fébrile avec poussée d'insuffisance cardiaque gauche.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cas	cas	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	jeune	jeune	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	homme	homme	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	26	26	NUM	_	Number=Plur	11	nummod	_	_
+11	ans	an	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+13	depuis	depuis	ADP	_	_	15	case	_	_
+14	4	4	NUM	_	Number=Plur	15	nummod	_	_
+15	ans	an	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	_
+16	pour	pour	ADP	_	_	18	case	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
+19	aortique	aortique	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	rhumatismale	rhumatismal	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+21	qui	qui	PRON	_	PronType=Rel	23	nsubj:pass	_	_
+22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	hospitalisé	hospitaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+24	pour	pour	ADP	_	_	26	case	_	_
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	_
+27	fébrile	fébrile	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28	avec	avec	ADP	_	_	29	case	_	_
+29	poussée	poussée	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
+31	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	cardiaque	cardiaque	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
+33	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'échocardiographique transthoracique (ETT) et transoesophagienne (ETO) ont mis en évidence des végétations sur la valve aortique avec un large anévrysme de la petite valve mitrale associé à une fuite mitrale importante.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	échocardiographique	échocardiographique	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	transthoracique	transthoracique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	ETT	ETT	PROPN	_	_	2	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	et	et	CCONJ	_	_	8	cc	_	_
+8	transoesophagienne	transoesophagienne	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	ETO	ETO	PROPN	_	_	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+13	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+14	en	en	ADP	_	_	15	case	_	_
+15	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	végétations	végétation	NOUN	_	Gender=Fem|Number=Plur	13	obl:arg	_	_
+19	sur	sur	ADP	_	_	21	case	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	valve	valve	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	aortique	aortique	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	avec	avec	ADP	_	_	26	case	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	large	large	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+26	anévrysme	anévrysme	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
+27	de	de	ADP	_	_	30	case	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	petite	petit	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
+30	valve	valve	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+31	mitrale	mitral	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
+32	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	acl	_	_
+33	à	à	ADP	_	_	35	case	_	_
+34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	fuite	fuite	NOUN	_	Gender=Fem|Number=Sing	32	obl:arg	_	_
+36	mitrale	mitral	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
+37	importante	important	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Le patient a bénéficié d'un double remplacement valvulaire mitral et aortique avec des suites opératoires simples.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	double	double	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	remplacement	remplacement	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
+9	valvulaire	valvulaire	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	mitral	mitral	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+11	et	et	CCONJ	_	_	12	cc	_	_
+12	aortique	aortique	ADJ	_	Gender=Masc|Number=Sing	10	conj	_	_
+13	avec	avec	ADP	_	_	16	case	_	_
+14-15	des	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	det	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	suites	suite	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	_
+17	opératoires	opératoire	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	simples	simple	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Une suspicion clinique avec une imagerie adaptée préopératoire et un traitement chirurgical à temps sont nécessaires pour reconnaître et traiter cette complication rare de l'endocardite infectieuse.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	suspicion	suspicion	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	avec	avec	ADP	_	_	6	case	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	imagerie	imagerie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	adaptée	adapté	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	préopératoire	préopératoire	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+9	et	et	CCONJ	_	_	11	cc	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+12	chirurgical	chirurgical	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	à	à	ADP	_	_	14	case	_	_
+14	temps	temps	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	nécessaires	nécessaire	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+17	pour	pour	ADP	_	_	18	mark	_	_
+18	reconnaître	reconnaître	VERB	_	VerbForm=Inf	16	advcl	_	_
+19	et	et	CCONJ	_	_	20	cc	_	_
+20	traiter	traiter	VERB	_	VerbForm=Inf	18	conj	_	_
+21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	complication	complication	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	rare	rare	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	endocardite	endocardite	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+27	infectieuse	infectieux	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+

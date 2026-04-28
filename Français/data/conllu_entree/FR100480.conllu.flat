@@ -1,0 +1,598 @@
+# newdoc id = FR100480
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agissait de Mme H.O âgée de 55 ans connue diabétique type II sous traitement, qui a présenté une lésion ulcérée avec destruction partielle de la tablette unguéale du 3 ème doigt de la main gauche évoluant de façon progressive depuis 2 ans.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+3	agissait	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	Mme	Mme	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+6	H.O	H.O	NOUN	_	_	0	appos	_	_
+7	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	55	55	NUM	_	Number=Plur	0	nummod	_	_
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	_
+11	connue	connaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+12	diabétique	diabétique	ADJ	_	Gender=Fem|Number=Sing	0	xcomp	_	_
+13	type	type	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+14	II	II	NUM	_	Number=Plur	0	nmod	_	_
+15	sous	sous	ADP	_	_	0	case	_	_
+16	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	0	punct	_	_
+18	qui	qui	PRON	_	PronType=Rel	0	nsubj	_	_
+19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+20	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	acl:relcl	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+22	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+23	ulcérée	ulcéré	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+24	avec	avec	ADP	_	_	0	case	_	_
+25	destruction	destruction	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+26	partielle	partiel	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+27	de	de	ADP	_	_	0	case	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+29	tablette	tablette	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+30	unguéale	unguéal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+31	de	de	ADP	_	_	0	case	_	_
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+33	3	3	NUM	_	Number=Sing	0	nummod	_	_
+34	ème	ème	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+35	doigt	doigt	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+36	de	de	ADP	_	_	0	case	_	_
+37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+38	main	main	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+39	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+40	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+41	de	de	ADP	_	_	0	case	_	_
+42	façon	façon	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+43	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+44	depuis	depuis	ADP	_	_	0	case	_	_
+45	2	2	NUM	_	Number=Plur	0	nummod	_	_
+46	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'installation d'une douleur au niveau du site a poussé la patiente a consulté dans notre formation.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	installation	installation	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+5	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+6	à	à	ADP	_	_	0	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+8	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+11	site	site	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+13	poussé	pousser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+15	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+17	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	xcomp	_	_
+18	dans	dans	ADP	_	_	0	case	_	_
+19	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	0	det	_	_
+20	formation	formation	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Après un bilan clinique et radiologique, une biopsie a été réalisée.
+1	Après	après	ADP	_	_	0	case	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+3	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+4	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+5	et	et	CCONJ	_	_	0	cc	_	_
+6	radiologique	radiologique	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	0	punct	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	biopsie	biopsie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+12	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'analyse histologique a montré un mélanome malin acro-lentigineux ulcéré de niveau V de Clark et d'indice de Breslow de 4 mm.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	analyse	analyse	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	histologique	histologique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	mélanome	mélanome	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+8	malin	malin	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	acro-lentigineux	acro-lentigineux	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+10	ulcéré	ulcérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+13	V	V	NUM	_	Number=Plur	0	nmod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	Clark	Clark	PROPN	_	_	0	nmod	_	_
+16	et	et	CCONJ	_	_	0	cc	_	_
+17	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+18	indice	indice	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	Breslow	Breslow	PROPN	_	_	0	nmod	_	_
+21	de	de	ADP	_	_	0	case	_	_
+22	4	4	NUM	_	Number=Plur	0	nummod	_	_
+23	mm	mm	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = La patiente a subi une amputation transphalangienne proximale avec passage en zone saine.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	subi	subir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	amputation	amputation	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+7	transphalangienne	transphalangien	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+8	proximale	proximal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+9	avec	avec	ADP	_	_	0	case	_	_
+10	passage	passage	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+11	en	en	ADP	_	_	0	case	_	_
+12	zone	zone	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+13	saine	sain	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'examen anatomopathologique de la pièce d'exérèse a confirmé la nature histologique de la lésion.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	anatomopathologique	anatomopathologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+7	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+8	exérèse	exérèse	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+10	confirmé	confirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	nature	nature	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+13	histologique	histologique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Un bilan d'extension a été réalisé sans montrer de localisation secondaire.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+4	extension	extension	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+7	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	sans	sans	ADP	_	_	0	mark	_	_
+9	montrer	montrer	VERB	_	VerbForm=Inf	0	advcl	_	_
+10	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	0	det	_	_
+11	localisation	localisation	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+12	secondaire	secondaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Aucun traitement complémentaire n'a été entrepris.
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	0	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	complémentaire	complémentaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+7	entrepris	entreprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Après 6mois, l'évolution a été marquée par l'absence de signe de récidive, puis la patiente n'a pas été revue.
+1	Après	après	ADP	_	_	0	case	_	_
+2	6mois	6mois	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	0	punct	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+5	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+8	marquée	marquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	par	par	ADP	_	_	0	case	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+11	absence	absence	NOUN	_	Gender=Fem|Number=Sing	0	obl:agent	_	_
+12	de	de	ADP	_	_	0	case	_	_
+13	signe	signe	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	récidive	récidive	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	0	punct	_	_
+17	puis	puis	CCONJ	_	_	0	cc	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+19	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+20	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+22	pas	pas	ADV	_	Polarity=Neg	0	advmod	_	_
+23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+24	revue	revoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Un an après, la patiente a remarqué que le moignon de l'amputation devient inflammatoire avec augmentation de son volume.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	an	an	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+3	après	après	ADV	_	_	0	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	0	punct	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+8	remarqué	remarquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	que	que	SCONJ	_	_	0	mark	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+11	moignon	moignon	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+12	de	de	ADP	_	_	0	case	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+14	amputation	amputation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+15	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ccomp	_	_
+16	inflammatoire	inflammatoire	ADJ	_	Gender=Masc|Number=Sing	0	xcomp	_	_
+17	avec	avec	ADP	_	_	0	case	_	_
+18	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+21	volume	volume	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Elle a repris la consultation dans notre service.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+3	repris	reprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+5	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+6	dans	dans	ADP	_	_	0	case	_	_
+7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	0	det	_	_
+8	service	service	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'examen clinique a montré une tuméfaction du moignon qui a été rouge avec présence de nodule bleu dure et douloureux à la palpation, infiltrant la racine de l'index et l'annulaire.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	moignon	moignon	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+11	qui	qui	PRON	_	PronType=Rel	0	nsubj	_	_
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+13	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	cop	_	_
+14	rouge	rouge	ADJ	_	Gender=Fem|Number=Sing	0	acl:relcl	_	_
+15	avec	avec	ADP	_	_	0	case	_	_
+16	présence	présence	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+17	de	de	ADP	_	_	0	case	_	_
+18	nodule	nodule	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+19	bleu	bleu	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+20	dure	dur	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+21	et	et	CCONJ	_	_	0	cc	_	_
+22	douloureux	douloureux	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	_
+23	à	à	ADP	_	_	0	case	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+25	palpation	palpation	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	0	punct	_	_
+27	infiltrant	infiltrer	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+29	racine	racine	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+30	de	de	ADP	_	_	0	case	_	_
+31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+32	index	index	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+33	et	et	CCONJ	_	_	0	cc	_	_
+34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+35	annulaire	annulaire	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Par ailleurs, les aires ganglionnaires ont été libres.
+1	Par	par	ADP	_	_	0	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	_	0	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	0	punct	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+5	aires	aire	NOUN	_	Gender=Fem|Number=Plur	0	nsubj	_	_
+6	ganglionnaires	ganglionnaire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	cop	_	_
+9	libres	libre	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = L'imagerie par résonnance magnétique a montré une extension atteignant le carpe.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	imagerie	imagerie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	par	par	ADP	_	_	0	case	_	_
+4	résonnance	résonnance	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	magnétique	magnétique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+7	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	extension	extension	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+10	atteignant	atteindre	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+12	carpe	carpe	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Le bilan d'extension à distance a objectivé une hyperfixation au niveau de la 8 ème cote à la scintigraphie.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+4	extension	extension	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	à	à	ADP	_	_	0	case	_	_
+6	distance	distance	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+8	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+10	hyperfixation	hyperfixation	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+11	à	à	ADP	_	_	0	case	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	8	8	NUM	_	Number=Sing	0	nummod	_	_
+17	ème	ème	ADJ	_	Gender=Fem|Number=Sing	0	nmod	_	_
+18	cote	cote	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+19	à	à	ADP	_	_	0	case	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+21	scintigraphie	scintigraphie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Le scanner thoraco-abdomino-pelvien a objectivé la présence de deux nodules pulmonaires.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	scanner	scanner	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	thoraco-abdomino-pelvien	thoraco-abdomino-pelvien	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	présence	présence	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+10	nodules	nodule	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+11	pulmonaires	pulmonaire	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = La Tomographie par émission de positons au 18-FDG a montré deux nodules pulmonaires contigus latéro basaux droits faiblement hyper métaboliques, d'allure secondaire et absence d'hyper métabolisme pathologique au niveau de l'ensemble du squelette exploré notamment au niveau du gril costal.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	Tomographie	tomographie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	par	par	ADP	_	_	0	case	_	_
+4	émission	émission	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	de	de	ADP	_	_	0	case	_	_
+6	positons	positon	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+9	18-FDG	18-fdg	PROPN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+11	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+12	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+13	nodules	nodule	NOUN	_	Gender=Masc|Number=Plur	0	obj	_	_
+14	pulmonaires	pulmonaire	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+15	contigus	contigu	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+16	latéro	latéro	X	_	Foreign=Yes	0	appos	_	_
+17	basaux	basal	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+18	droits	droit	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+19	faiblement	faiblement	ADV	_	_	0	advmod	_	_
+20	hyper	hyper	ADV	_	_	0	advmod	_	_
+21	métaboliques	métabolique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	0	punct	_	_
+23	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+24	allure	allure	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+25	secondaire	secondaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+26	et	et	CCONJ	_	_	0	cc	_	_
+27	absence	absence	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+28	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+29	hyper	hyper	ADJ	_	_	0	amod	_	_
+30	métabolisme	métabolisme	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+31	pathologique	pathologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+32	à	à	ADP	_	_	0	case	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+34	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+35	de	de	ADP	_	_	0	case	_	_
+36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+37	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+38	de	de	ADP	_	_	0	case	_	_
+39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+40	squelette	squelette	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+41	exploré	explorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+42	notamment	notamment	ADV	_	_	0	advmod	_	_
+43	à	à	ADP	_	_	0	case	_	_
+44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+45	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+46	de	de	ADP	_	_	0	case	_	_
+47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+48	gril	gril	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+49	costal	costal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = La reprise chirurgicale a consisté en une amputation transverse courte intéressant 2 ème, 3 ème et 4 ème rayons selon Chase et conservation complète de la colonne du pouce et de l'auriculaire tous en respectant des marges macroscopiques saines, et permettant à la patiente de garder une pince type celle de homard.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	chirurgicale	chirurgical	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	consisté	consister	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	en	en	ADP	_	_	0	case	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	amputation	amputation	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+9	transverse	transvers	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+10	courte	court	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+11	intéressant	intéresser	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+12	2	2	NUM	_	Number=Plur	0	nummod	_	_
+13	ème	ème	NOUN	_	Gender=Masc|Number=Plur	0	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	0	punct	_	_
+15	3	3	NUM	_	Number=Plur	0	nummod	_	_
+16	ème	ème	NOUN	_	Gender=Masc|Number=Plur	0	conj	_	_
+17	et	et	CCONJ	_	_	0	cc	_	_
+18	4	4	NUM	_	Number=Plur	0	nummod	_	_
+19	ème	ème	NOUN	_	Gender=Masc|Number=Plur	0	conj	_	_
+20	rayons	rayon	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+21	selon	selon	ADP	_	_	0	case	_	_
+22	Chase	Chase	PROPN	_	_	0	obl:mod	_	_
+23	et	et	CCONJ	_	_	0	cc	_	_
+24	conservation	conservation	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+25	complète	complet	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+26	de	de	ADP	_	_	0	case	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+28	colonne	colonne	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+29	de	de	ADP	_	_	0	case	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+31	pouce	pouce	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+32	et	et	CCONJ	_	_	0	cc	_	_
+33	de	de	ADP	_	_	0	case	_	_
+34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+35	auriculaire	auriculaire	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+36	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	0	nmod	_	_
+37	en	en	ADP	_	_	0	mark	_	_
+38	respectant	respecter	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+39	de	de	ADP	_	_	0	case	_	_
+40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+41	marges	marge	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+42	macroscopiques	macroscopique	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+43	saines	sain	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	0	punct	_	_
+45	et	et	CCONJ	_	_	0	cc	_	_
+46	permettant	permettre	VERB	_	Tense=Pres|VerbForm=Part	0	conj	_	_
+47	à	à	ADP	_	_	0	case	_	_
+48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+49	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+50	de	de	ADP	_	_	0	mark	_	_
+51	garder	garder	VERB	_	VerbForm=Inf	0	xcomp	_	_
+52	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+53	pince	pince	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+54	type	type	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+55	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	appos	_	_
+56	de	de	ADP	_	_	0	case	_	_
+57	homard	homard	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Après avoir présenté le dossier aux oncologues, aucun traitement adjuvant n'a été entrepris.
+1	Après	après	ADP	_	_	0	mark	_	_
+2	avoir	avoir	AUX	_	VerbForm=Inf	0	aux:tense	_	_
+3	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	advcl	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+6	à	à	ADP	_	_	0	case	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+8	oncologues	oncologue	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	0	punct	_	_
+10	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	0	det	_	_
+11	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+12	adjuvant	adjuvant	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+13	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+15	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+16	entrepris	entreprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = L'examen anatomopathologique de la pièce d'exérèse a montré une récidive de mélanome malin niveau V de Clark et indice de Breslow de 1,5 cm avec présence d'emboles vasculaires, d'engainements périnerveux et la confirmation des marges histologiques saines.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	anatomopathologique	anatomopathologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+7	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+8	exérèse	exérèse	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+10	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	récidive	récidive	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+13	de	de	ADP	_	_	0	case	_	_
+14	mélanome	mélanome	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+15	malin	malin	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+16	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+17	V	V	NUM	_	Number=Plur	0	nmod	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	Clark	Clark	PROPN	_	_	0	nmod	_	_
+20	et	et	CCONJ	_	_	0	cc	_	_
+21	indice	indice	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+22	de	de	ADP	_	_	0	case	_	_
+23	Breslow	Breslow	PROPN	_	_	0	nmod	_	_
+24	de	de	ADP	_	_	0	case	_	_
+25	1,5	1,5	NUM	_	Number=Plur	0	nummod	_	_
+26	cm	cm	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+27	avec	avec	ADP	_	_	0	case	_	_
+28	présence	présence	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+29	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+30	emboles	embole	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+31	vasculaires	vasculaire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	0	punct	_	_
+33	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+34	engainements	engainement	NOUN	_	Gender=Masc|Number=Plur	0	conj	_	_
+35	périnerveux	périnerveux	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+36	et	et	CCONJ	_	_	0	cc	_	_
+37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+38	confirmation	confirmation	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+39	de	de	ADP	_	_	0	case	_	_
+40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+41	marges	marge	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+42	histologiques	histologique	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+43	saines	sain	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = La patiente a débuté la rééducation deux semaines après l'intervention pour la réadaptation rapide à la vie quotidienne.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	débuté	débuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	rééducation	rééducation	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+7	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+8	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+9	après	après	ADP	_	_	0	case	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+11	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+12	pour	pour	ADP	_	_	0	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+14	réadaptation	réadaptation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+15	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+16	à	à	ADP	_	_	0	case	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+18	vie	vie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+19	quotidienne	quotidien	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = La patiente est revue régulièrement, son état clinique est stable, et elle est satisfaite de la fonction de sa main qui lui permet d'assurer ses taches quotidiennes.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:pass	_	_
+4	revue	revoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	régulièrement	régulièrement	ADV	_	_	0	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	0	punct	_	_
+7	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+8	état	état	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+9	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+11	stable	stable	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	0	punct	_	_
+13	et	et	CCONJ	_	_	0	cc	_	_
+14	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+16	satisfaite	satisfait	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	_
+17	de	de	ADP	_	_	0	case	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+19	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+20	de	de	ADP	_	_	0	case	_	_
+21	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+22	main	main	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+23	qui	qui	PRON	_	PronType=Rel	0	nsubj	_	_
+24	lui	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	iobj	_	_
+25	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	acl:relcl	_	_
+26	d'	de	ADP	_	_	0	mark	_	SpaceAfter=No
+27	assurer	assurer	VERB	_	VerbForm=Inf	0	xcomp	_	_
+28	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+29	taches	tache	NOUN	_	Gender=Fem|Number=Plur	0	obj	_	_
+30	quotidiennes	quotidien	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

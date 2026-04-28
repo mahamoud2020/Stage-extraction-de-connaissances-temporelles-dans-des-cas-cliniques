@@ -1,0 +1,408 @@
+# newdoc id = FR100510
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agit d'un patient âgé de 21 ans, sans antécédents pathologiques particuliers qui a consulté pour une tuméfaction de la région scapulaire droite évoluant depuis deux ans sans signe accompagnateurs.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	patient	patient	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
+7	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	21	21	NUM	_	Number=Plur	10	nummod	_	_
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	sans	sans	ADP	_	_	13	case	_	_
+13	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+14	pathologiques	pathologique	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+15	particuliers	particulier	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+16	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
+18	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	acl:relcl	_	_
+19	pour	pour	ADP	_	_	21	case	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	région	région	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	scapulaire	scapulaire	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	droite	droit	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+27	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	21	acl	_	_
+28	depuis	depuis	ADP	_	_	30	case	_	_
+29	deux	deux	NUM	_	Number=Plur	30	nummod	_	_
+30	ans	an	NOUN	_	Gender=Masc|Number=Plur	27	obl:mod	_	_
+31	sans	sans	ADP	_	_	32	case	_	_
+32	signe	signe	NOUN	_	Gender=Masc|Number=Plur	27	obl:mod	_	_
+33	accompagnateurs	accompagnateur	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'examen physique a révélé une grande masse mesurant 10cm sur 7cm avec sensation d'accrochage de la scapula et limitation des mouvements de l'épaule droite.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	physique	physique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grand	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	masse	masse	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+9	mesurant	mesurer	VERB	_	Tense=Pres|VerbForm=Part	8	acl	_	_
+10	10cm	10cm	NUM	_	Number=Plur	9	obj	_	_
+11	sur	sur	ADP	_	_	12	case	_	_
+12	7cm	7cm	NOUN	_	Number=Plur	10	nmod	_	_
+13	avec	avec	ADP	_	_	14	case	_	_
+14	sensation	sensation	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
+16	accrochage	accrochage	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	scapula	scapula	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	et	et	CCONJ	_	_	21	cc	_	_
+21	limitation	limitation	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+22-23	des	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+24	mouvements	mouvement	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	épaule	épaule	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28	droite	droit	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = La radiographie standard a montrée une lésion osseuse sclérosée à la partie supérieure de la scapula sans érosion corticale ni fracture associée.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	standard	standard	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	montrée	montrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	osseuse	osseux	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	sclérosée	sclérosé	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	partie	partie	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+13	supérieure	supérieur	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	scapula	scapula	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+17	sans	sans	ADP	_	_	18	case	_	_
+18	érosion	érosion	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+19	corticale	cortical	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	ni	ni	CCONJ	_	_	21	cc	_	_
+21	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+22	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	acl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le bilan a été complété par une TDM qui a révélé une tumeur osseuse occupant la fosse sus épineuse de la scapula, avec un diamètre maximal de 10,5 cm, des marges minces mais bien défini et sans atteinte des parties molles.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	complété	compléter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	par	par	ADP	_	_	8	case	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	TDM	TDM	NOUN	_	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	osseuse	osseux	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	occupant	occuper	VERB	_	Tense=Pres|VerbForm=Part	13	acl	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fosse	fosse	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	sus	sus	ADP	_	_	19	case	_	_
+19	épineuse	épineux	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	scapula	scapula	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	avec	avec	ADP	_	_	26	case	_	_
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+27	maximal	maximal	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	10,5	10,5	NUM	_	Number=Plur	30	nummod	_	_
+30	cm	cm	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	34	punct	_	_
+32-33	des	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+34	marges	marge	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
+35	minces	mince	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	_
+36	mais	mais	CCONJ	_	_	38	cc	_	_
+37	bien	bien	ADV	_	_	38	advmod	_	_
+38	défini	défini	ADJ	_	Gender=Masc|Number=Sing	35	conj	_	_
+39	et	et	CCONJ	_	_	41	cc	_	_
+40	sans	sans	ADP	_	_	41	case	_	_
+41	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+42-43	des	_	_	_	_	_	_	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	44	det	_	_
+44	parties	partie	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	_
+45	molles	molle	ADJ	_	Gender=Fem|Number=Plur	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Les données radiologiques cités ci-dessus ont été en faveur d'un kyste osseux bénin mais localement invasif.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	données	donnée	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
+3	radiologiques	radiologique	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	cités	citer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	ci-dessus	ci-dessus	ADV	_	_	4	advmod	_	_
+6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+8	en	en	ADP	_	_	9	case	_	_
+9	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	osseux	osseux	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	bénin	bénin	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+15	mais	mais	CCONJ	_	_	17	cc	_	_
+16	localement	localement	ADV	_	_	17	advmod	_	_
+17	invasif	invasif	ADJ	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Une biopsie préliminaire a été réalisée est dont le résultat été en faveur d'un kyste osseux anévrismal.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	biopsie	biopsie	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	préliminaire	préliminaire	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+8	dont	dont	PRON	_	PronType=Rel	10	nmod	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	6	acl:relcl	_	_
+14	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	osseux	osseux	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	anévrismal	anévrismal	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = La décision été une exerce totale de la lésion.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	décision	décision	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	exerce	exerce	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	totale	total	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Lors de l'intervention la sacpula a été exposée à travers une voie d'abord avec deux branches une sur le bord supérieur et l'autre sur le bord spinal avec hémostase du pédicule supéro-interne de la scapula.
+1	Lors	lors	ADV	_	_	9	advmod	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sacpula	sacpula	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	exposée	exposer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	à	à	ADP	_	_	13	case	_	_
+11	travers	travers	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	voie	voie	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+14	d'	de	ADP	_	_	13	advmod	_	SpaceAfter=No
+15	abord	abord	NOUN	_	Gender=Masc|Number=Sing	14	fixed	_	_
+16	avec	avec	ADP	_	_	18	case	_	_
+17	deux	deux	NUM	_	Number=Plur	18	nummod	_	_
+18	branches	branche	NOUN	_	Gender=Fem|Number=Plur	9	obl:mod	_	_
+19	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	18	appos	_	_
+20	sur	sur	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	bord	bord	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	et	et	CCONJ	_	_	26	cc	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	18	conj	_	_
+27	sur	sur	ADP	_	_	29	case	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	bord	bord	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	spinal	spinal	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+31	avec	avec	ADP	_	_	32	case	_	_
+32	hémostase	hémostase	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+33-34	du	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	pédicule	pédicule	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+36	supéro-interne	supéro-interne	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	scapula	scapula	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = La tumeur été enveloppée par les muscles alentour et occupant la fosse sus-épineuse.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	enveloppée	envelopper	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	par	par	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	muscles	muscle	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	_
+8	alentour	alentour	ADV	_	_	4	advmod	_	_
+9	et	et	CCONJ	_	_	10	cc	_	_
+10	occupant	occuper	VERB	_	Tense=Pres|VerbForm=Part	4	conj	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fosse	fosse	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	sus-épineuse	sus-épineux	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Une large résection complète de la lésion a été réalisée emportant une partie de muscle sus épineuse.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	large	large	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	résection	résection	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+4	complète	complet	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	emportant	emporter	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	partie	partie	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	muscle	muscle	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	sus	sus	ADV	_	_	17	advmod	_	_
+17	épineuse	épineux	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = L'examen macroscopique de la pièce d'exérèse a révélé une masse kystique qui contenait des cloisons fibreuses et des spicules osseux sans signes de malignité évidents.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	macroscopique	macroscopique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+8	exérèse	exérèse	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	masse	masse	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	kystique	kystique	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
+15	contenait	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	cloisons	cloison	NOUN	_	Gender=Fem|Number=Plur	15	obl:arg	_	_
+19	fibreuses	fibreux	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+20	et	et	CCONJ	_	_	23	cc	_	_
+21-22	des	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	spicules	spicule	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+24	osseux	osseux	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
+25	sans	sans	ADP	_	_	26	case	_	_
+26	signes	signe	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	malignité	malignité	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+29	évidents	évident	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'examen histologique a montré une volumineuse lésion avec des espaces kystiques, des dépôts d'hémosidérine, des ostéoblastes actives et des nombreuses cellules géantes multinuclées.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	histologique	histologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	volumineuse	volumineux	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+9	avec	avec	ADP	_	_	12	case	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	det	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	espaces	espace	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+13	kystiques	kystique	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	dépôts	dépôt	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
+19	hémosidérine	hémosidérine	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21-22	des	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	ostéoblastes	ostéoblaste	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
+24	actives	actif	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+25	et	et	CCONJ	_	_	29	cc	_	_
+26-27	des	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	29	case	_	_
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+28	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
+29	cellules	cellule	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
+30	géantes	géant	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
+31	multinuclées	multinuclé	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Ces caractéristiques histopathologiques été en faveur d'un kyste osseux anévrysmal.
+1	Ces	ce	DET	_	Number=Plur|PronType=Dem	2	det	_	_
+2	caractéristiques	caractéristique	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	histopathologiques	histopathologique	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	osseux	osseux	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	anévrysmal	anévrysmal	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Apres l'excision de la masse, la reprise été rapide et sans incidents avec des bons amplitudes articulaires de l'épaule.
+1	Apres	apres	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	excision	excision	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	masse	masse	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+11	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+12	et	et	CCONJ	_	_	14	cc	_	_
+13	sans	sans	ADP	_	_	14	case	_	_
+14	incidents	incident	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+15	avec	avec	ADP	_	_	19	case	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	19	det	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+18	bons	bon	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
+19	amplitudes	amplitude	NOUN	_	Gender=Fem|Number=Plur	11	obl:mod	_	_
+20	articulaires	articulaire	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	épaule	épaule	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+

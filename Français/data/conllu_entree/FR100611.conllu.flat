@@ -1,0 +1,425 @@
+# newdoc id = FR100611
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un homme de 30 ans, sans antécédent de tuberculose, avait présenté 15 jours avant son admission un trouble du langage avec réduction de la fluence verbale évoluant dans un contexte d'altération de l'état général.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	homme	homme	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	30	30	NUM	_	Number=Plur	0	nummod	_	_
+5	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	0	punct	_	_
+7	sans	sans	ADP	_	_	0	case	_	_
+8	antécédent	antécédent	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	tuberculose	tuberculose	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	0	punct	_	_
+12	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:tense	_	_
+13	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+14	15	15	NUM	_	Number=Plur	0	nummod	_	_
+15	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+16	avant	avant	ADP	_	_	0	case	_	_
+17	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+18	admission	admission	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+20	trouble	trouble	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+21	de	de	ADP	_	_	0	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+23	langage	langage	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+24	avec	avec	ADP	_	_	0	case	_	_
+25	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+26	de	de	ADP	_	_	0	case	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+28	fluence	fluence	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+29	verbale	verbal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+30	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+31	dans	dans	ADP	_	_	0	case	_	_
+32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+33	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+34	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+35	altération	altération	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+36	de	de	ADP	_	_	0	case	_	_
+37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+38	état	état	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+39	général	général	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'examen neurologique trouvait une aphasie motrice de type Broca avec un syndrome pyramidal latéralisé à droite et des adénopathies latéro-cervicales.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	neurologique	neurologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	trouvait	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	aphasie	aphasie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+7	motrice	moteur	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	type	type	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+10	Broca	Broca	PROPN	_	_	0	appos	_	_
+11	avec	avec	ADP	_	_	0	case	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+14	pyramidal	pyramidal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+15	latéralisé	latéralisé	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+16	à	à	ADP	_	_	0	case	_	_
+17	droite	droite	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+18	et	et	CCONJ	_	_	0	cc	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+21	adénopathies	adénopathie	NOUN	_	Gender=Fem|Number=Plur	0	conj	_	_
+22	latéro-cervicales	latéro-cervical	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'IRM cérébrale: montrait d'une part des tuberculomes intra-parenchymateux cérébraux dont un de siège frontal gauche et l'autre cérébelleux vermien d'autre part un épaississement du cortex de l'insula et du cortex adjacent avec prise de contraste intense des méninges en regard.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	cérébrale	cérébral	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	0	punct	_	_
+5	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	parataxis	_	_
+6	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	part	part	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+11	tuberculomes	tuberculome	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+12	intra-parenchymateux	intra-parenchymateux	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+13	cérébraux	cérébral	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+14	dont	dont	PRON	_	PronType=Rel	0	nmod	_	_
+15	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	acl:relcl	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	siège	siège	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+18	frontal	frontal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+19	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+20	et	et	CCONJ	_	_	0	cc	_	_
+21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+22	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	0	conj	_	_
+23	cérébelleux	cérébelleux	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+24	vermien	vermien	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+25	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+26	autre	autre	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+27	part	part	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+29	épaississement	épaississement	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+30	de	de	ADP	_	_	0	case	_	_
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+32	cortex	cortex	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+33	de	de	ADP	_	_	0	case	_	_
+34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+35	insula	insula	NOUN	_	Number=Sing	0	nmod	_	_
+36	et	et	CCONJ	_	_	0	cc	_	_
+37	de	de	ADP	_	_	0	case	_	_
+38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+39	cortex	cortex	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+40	adjacent	adjacent	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+41	avec	avec	ADP	_	_	0	case	_	_
+42	prise	prise	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+43	de	de	ADP	_	_	0	case	_	_
+44	contraste	contraste	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+45	intense	intense	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+46	de	de	ADP	_	_	0	case	_	_
+47	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+48	méninges	méninge	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+49	en	en	ADP	_	_	0	case	_	_
+50	regard	regard	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'étude du LCR révélait une hyperproteinorachie à 0,808 g/L, une glycorachie à 0, 305 g/L pour une glycémie de 0,957 g/L soit un rapport de 0,31% et une pléiocytose à 280 leucocytes/mm3 avec une lymphocytose à 70 %.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	LCR	LCR	PROPN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	révélait	révéler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	hyperproteinorachie	hyperproteinorachie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+9	à	à	ADP	_	_	0	case	_	_
+10	0,808	0,808	NUM	_	Number=Plur	0	nummod	_	_
+11	g/L	g/L	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	0	punct	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+14	glycorachie	glycorachie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+15	à	à	ADP	_	_	0	case	_	_
+16	0	0	NUM	_	Number=Plur	0	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	0	punct	_	_
+18	305	305	NUM	_	Number=Plur	0	conj	_	_
+19	g/L	g/L	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+20	pour	pour	ADP	_	_	0	case	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+22	glycémie	glycémie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+23	de	de	ADP	_	_	0	case	_	_
+24	0,957	0,957	NUM	_	Number=Plur	0	nummod	_	_
+25	g/L	g/L	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+26	soit	soit	ADV	_	_	0	advmod	_	_
+27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+28	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+29	de	de	ADP	_	_	0	case	_	_
+30	0,31	0,31	NUM	_	Number=Plur	0	nummod	_	SpaceAfter=No
+31	%	%	SYM	_	Number=Plur	0	nmod	_	_
+32	et	et	CCONJ	_	_	0	cc	_	_
+33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+34	pléiocytose	pléiocytose	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+35	à	à	ADP	_	_	0	case	_	_
+36	280	280	NUM	_	Number=Plur	0	nummod	_	_
+37	leucocytes	leucocyte	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+38	/	/	SYM	_	_	0	case	_	SpaceAfter=No
+39	mm3	mm3	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+40	avec	avec	ADP	_	_	0	case	_	_
+41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+42	lymphocytose	lymphocytose	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+43	à	à	ADP	_	_	0	case	_	_
+44	70	70	NUM	_	Number=Plur	0	nummod	_	_
+45	%	%	SYM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'examen direct et les cultures étaient négatifs.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	direct	direct	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	et	et	CCONJ	_	_	0	cc	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+6	cultures	culture	NOUN	_	Gender=Fem|Number=Plur	0	conj	_	_
+7	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+8	négatifs	négatif	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = La PCR de BK dans le LCR était négative.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	PCR	PCR	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	BK	BK	PROPN	_	_	0	nmod	_	_
+5	dans	dans	ADP	_	_	0	case	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	LCR	LCR	PROPN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+9	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = La TDM thoracique montrait de multiples micronodules pulmonaires prédominant aux lobes supérieurs et aux segments supérieurs des lobes inferieurs, une image cavitaire à paroi épaissie et DDB du fowler droit et du culmen.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	TDM	TDM	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	thoracique	thoracique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	0	det	_	_
+6	multiples	multiple	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+7	micronodules	micronodule	NOUN	_	Gender=Masc|Number=Plur	0	obj	_	_
+8	pulmonaires	pulmonaire	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+9	prédominant	prédominer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+10	à	à	ADP	_	_	0	case	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+12	lobes	lobe	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	_
+13	supérieurs	supérieur	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+14	et	et	CCONJ	_	_	0	cc	_	_
+15	à	à	ADP	_	_	0	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+17	segments	segment	NOUN	_	Gender=Masc|Number=Plur	0	conj	_	_
+18	supérieurs	supérieur	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+21	lobes	lobe	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+22	inferieurs	inferieur	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	0	punct	_	_
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+25	image	image	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+26	cavitaire	cavitaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+27	à	à	ADP	_	_	0	case	_	_
+28	paroi	paroi	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+29	épaissie	épaissir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+30	et	et	CCONJ	_	_	0	cc	_	_
+31	DDB	DDB	X	_	_	0	conj	_	_
+32	de	de	ADP	_	_	0	case	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+34	fowler	fowler	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+35	droit	droit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+36	et	et	CCONJ	_	_	0	cc	_	_
+37	de	de	ADP	_	_	0	case	_	_
+38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+39	culmen	culmen	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = La biopsie des ganglions lymphatiques révélait la présence de granulome typique de tuberculose.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	biopsie	biopsie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+5	ganglions	ganglion	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+6	lymphatiques	lymphatique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+7	révélait	révéler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	présence	présence	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+10	de	de	ADP	_	_	0	case	_	_
+11	granulome	granulome	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+12	typique	typique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+13	de	de	ADP	_	_	0	case	_	_
+14	tuberculose	tuberculose	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = La recherche de BK dans les crachats était négative.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	BK	BK	PROPN	_	_	0	nmod	_	_
+5	dans	dans	ADP	_	_	0	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+7	crachats	crachat	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+9	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = La sérologie HIV était négative.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	sérologie	sérologie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	HIV	HIV	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+5	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = L'hémogramme révélait une anémie microcytaire avec une lymphopénie à 880/UL.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	hémogramme	hémogramme	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	révélait	révéler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+5	anémie	anémie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+6	microcytaire	microcytaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+7	avec	avec	ADP	_	_	0	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	lymphopénie	lymphopénie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+10	à	à	ADP	_	_	0	case	_	_
+11	880	880	NUM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+12	/	/	SYM	_	_	0	cc	_	SpaceAfter=No
+13	UL	UL	NOUN	_	_	0	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'ionogramme sanguin montrait une hyponatrémie à 131 mmol/L et la CRP était à 70 mg/L.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	ionogramme	ionogramme	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	sanguin	sanguin	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	hyponatrémie	hyponatrémie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	131	131	NUM	_	Number=Plur	0	nummod	_	_
+9	mmol/	mmol/	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+10	L	L	NOUN	_	_	0	nmod	_	_
+11	et	et	CCONJ	_	_	0	cc	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+13	CRP	CRP	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+15	à	à	ADP	_	_	0	case	_	_
+16	70	70	NUM	_	Number=Plur	0	nummod	_	_
+17	mg/	mg/	NOUN	_	Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+18	L	L	NOUN	_	_	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Le reste du bilan biologique était normal.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	biologique	biologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+8	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Le diagnostic de tuberculose multifocale (pulmonaire, cérébrale et ganglionnaire) chez un immunocompétent fut retenu.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	tuberculose	tuberculose	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	multifocale	multifocal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+6	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+7	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	0	punct	_	_
+9	cérébrale	cérébral	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	_
+10	et	et	CCONJ	_	_	0	cc	_	_
+11	ganglionnaire	ganglionnaire	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	0	punct	_	_
+13	chez	chez	ADP	_	_	0	case	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+15	immunocompétent	immunocompétent	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+16	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+17	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Un traitement antituberculeux fut instauré à base d'une quadrithérapie associant isoniazide, rifampicine, pyrazinamide et éthambutol pendant 2 mois puis une bithérapie associant isoniazide et rifampicine pendant 7 mois associé à une corticothérapie adjuvante à base de prédnisolone 1mg/kg/j pendant 8 semaines avec une disparition progressive des symptômes et effacement des lésions à L'IRM cérébrale de contrôle.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	antituberculeux	antituberculeux	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	aux:pass	_	_
+5	instauré	instaurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	à	à	ADP	_	_	0	case	_	_
+7	base	base	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+8	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+10	quadrithérapie	quadrithérapie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+11	associant	associer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+12	isoniazide	isoniazide	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	0	punct	_	_
+14	rifampicine	rifampicine	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	0	punct	_	_
+16	pyrazinamide	pyrazinamide	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+17	et	et	CCONJ	_	_	0	cc	_	_
+18	éthambutol	éthambutol	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+19	pendant	pendant	ADP	_	_	0	case	_	_
+20	2	2	NUM	_	Number=Plur	0	nummod	_	_
+21	mois	mois	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+22	puis	puis	CCONJ	_	_	0	cc	_	_
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+24	bithérapie	bithérapie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+25	associant	associer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+26	isoniazide	isoniazide	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+27	et	et	CCONJ	_	_	0	cc	_	_
+28	rifampicine	rifampicine	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+29	pendant	pendant	ADP	_	_	0	case	_	_
+30	7	7	NUM	_	Number=Plur	0	nummod	_	_
+31	mois	mois	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+32	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+33	à	à	ADP	_	_	0	case	_	_
+34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+35	corticothérapie	corticothérapie	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+36	adjuvante	adjuvant	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+37	à	à	ADP	_	_	0	case	_	_
+38	base	base	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+39	de	de	ADP	_	_	0	case	_	_
+40	prédnisolone	prédnisolone	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+41	1mg/kg/	1mg/kg/	X	_	_	0	nmod	_	SpaceAfter=No
+42	j	j	X	_	_	0	nmod	_	_
+43	pendant	pendant	ADP	_	_	0	case	_	_
+44	8	8	NUM	_	Number=Plur	0	nummod	_	_
+45	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	_
+46	avec	avec	ADP	_	_	0	case	_	_
+47	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+48	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+49	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+50	de	de	ADP	_	_	0	case	_	_
+51	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+52	symptômes	symptôme	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+53	et	et	CCONJ	_	_	0	cc	_	_
+54	effacement	effacement	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+55	de	de	ADP	_	_	0	case	_	_
+56	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+57	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+58	à	à	ADP	_	_	0	case	_	_
+59	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+60	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+61	cérébrale	cérébral	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+62	de	de	ADP	_	_	0	case	_	_
+63	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,412 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Mme F N, âgée de 61 ans, hémodialysée chronique depuis 5 ans pour une maladie rénale chronique stade V par néphroangiosclérose bénigne, qui avait été hospitalisée au service de néphrologie de l'hôpital Aristide Le Dantec de Dakar pour une hémorragie digestive haute.
+1	Mme	Mme	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Entity=(c1--1
+2	F	F	PROPN	_	_	1	flat:name	_	_
+3	N	N	PROPN	_	_	1	flat:name	_	Entity=c1)|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	61	61	NUM	_	Number=Plur	8	nummod	_	Entity=(c2--2
+8	ans	an	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	Entity=c2)|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	hémodialysée	hémodialyser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
+11	chronique	chronique	ADJ	_	Gender=Fem|Number=Sing	10	xcomp	_	_
+12	depuis	depuis	ADP	_	_	14	case	_	_
+13	5	5	NUM	_	Number=Plur	14	nummod	_	Entity=(c3--2
+14	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	Entity=c3)
+15	pour	pour	ADP	_	_	17	case	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c4--2
+17	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+18	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	chronique	chronique	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+20	stade	stade	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
+21	V	V	NUM	_	Number=Plur	20	nmod	_	_
+22	par	par	ADP	_	_	23	case	_	_
+23	néphroangiosclérose	néphroangiosclérose	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	Entity=(c5--1
+24	bénigne	bénigne	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	Entity=c5)c4)|SpaceAfter=No
+25	,	,	PUNCT	_	_	29	punct	_	_
+26	qui	qui	PRON	_	PronType=Rel	29	nsubj:pass	_	Entity=(c1--1)
+27	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux:tense	_	_
+28	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	hospitalisée	hospitaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+30-31	au	_	_	_	_	_	_	_	_
+30	à	à	ADP	_	_	32	case	_	_
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	Entity=(c6--2
+32	service	service	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	néphrologie	néphrologie	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	Entity=(c7--2|SpaceAfter=No
+37	hôpital	hôpital	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+38	Aristide	Aristide	PROPN	_	_	37	appos	_	_
+39	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	flat:name	_	_
+40	Dantec	Dantec	PROPN	_	_	38	flat:name	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	Dakar	Dakar	PROPN	_	_	37	nmod	_	Entity=(c8--1)c7)c6)
+43	pour	pour	ADP	_	_	45	case	_	_
+44	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	Entity=(c9--2
+45	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	29	obl:mod	_	_
+46	digestive	digestif	ADJ	_	Gender=Fem|Number=Sing	45	amod	_	_
+47	haute	haut	ADJ	_	Gender=Fem|Number=Sing	45	amod	_	Entity=c9)|SpaceAfter=No
+48	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = A l'admission, l'interrogatoire trouvait une dysphagie aux aliments solides et une toux sèche.
+1	A	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	Entity=(c10--2|SpaceAfter=No
+3	admission	admission	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Entity=c10)|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Entity=(c11--2|SpaceAfter=No
+6	interrogatoire	interrogatoire	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	Entity=c11)
+7	trouvait	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c12--2(c13--2
+9	dysphagie	dysphagie	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	aux	_	_	_	_	_	_	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	Entity=(c14--2
+12	aliments	aliment	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+13	solides	solide	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	Entity=c14)c13)
+14	et	et	CCONJ	_	_	16	cc	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c15--2
+16	toux	toux	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+17	sèche	sec	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	Entity=c15)c12)|SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'examen physique trouvait une altération de l'état général avec une perte de poids estimée à 5 kg en 3 mois, un méléna et une tuméfaction latérocervicale droite non mobile à la déglutition.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c16--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	physique	physique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c16)
+4	trouvait	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c17--2
+6	altération	altération	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Entity=(c18--2|SpaceAfter=No
+9	état	état	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	général	général	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Entity=c18)c17)
+11	avec	avec	ADP	_	_	13	case	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(c19--2
+13	perte	perte	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	poids	poids	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	estimée	estimer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	5	5	NUM	_	Number=Plur	19	nummod	_	Entity=(c20--2
+19	kg	kg	NOUN	_	Gender=Masc|Number=Plur	16	obl:arg	_	Entity=c20)
+20	en	en	ADP	_	_	22	case	_	_
+21	3	3	NUM	_	Number=Plur	22	nummod	_	Entity=(c21--2
+22	mois	mois	NOUN	_	Gender=Masc|Number=Plur	16	obl:mod	_	Entity=c21)|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Entity=(c22--2
+25	méléna	méléna	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	Entity=c22)
+26	et	et	CCONJ	_	_	28	cc	_	_
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	Entity=(c23--2
+28	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+29	latérocervicale	latérocervical	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	droite	droit	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+31	non	non	ADV	_	Polarity=Neg	32	advmod	_	_
+32	mobile	mobile	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+33	à	à	ADP	_	_	35	case	_	_
+34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	Entity=(c24--2
+35	déglutition	déglutition	NOUN	_	Gender=Fem|Number=Sing	32	obl:mod	_	Entity=c24)c23)c19)|SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le reste de l'examen physique était normal.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c25--2
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Entity=(c16--2|SpaceAfter=No
+5	examen	examen	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	physique	physique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c16)c25)
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Les constantes étaient pour la pression artérielle à 150/90 mmhg, le pouls à 112 battements/mn, température à 39,2°C, la fréquence respiratoire à 24 cycles/mn.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c26--2
+2	constantes	constante	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	Entity=c26)
+3	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	pour	pour	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c27--2
+6	pression	pression	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	artérielle	artériel	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	à	à	ADP	_	_	12	case	_	_
+9	150	150	NUM	_	Number=Plur	12	nummod	_	SpaceAfter=No
+10	/	/	SYM	_	_	11	cc	_	SpaceAfter=No
+11	90	90	NUM	_	Number=Plur	9	conj	_	_
+12	mmhg	mmhg	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Entity=c27)|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c28--2
+15	pouls	pouls	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+16	à	à	ADP	_	_	18	case	_	_
+17	112	112	NUM	_	Number=Plur	18	nummod	_	Entity=(c29--2
+18	battements	battement	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	/	/	SYM	_	_	20	case	_	SpaceAfter=No
+20	mn	mn	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	Entity=c29)|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	température	température	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	Entity=(c30--1
+23	à	à	ADP	_	_	25	case	_	_
+24	39,2	39,2	NUM	_	Number=Plur	25	nummod	_	SpaceAfter=No
+25	°	°	SYM	_	Number=Plur	22	nmod	_	SpaceAfter=No
+26	C	C	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	Entity=c30)|SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	Entity=(c31--2
+29	fréquence	fréquence	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+30	respiratoire	respiratoire	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	Entity=c31)
+31	à	à	ADP	_	_	33	case	_	_
+32	24	24	NUM	_	Number=Plur	33	nummod	_	Entity=(c32--2
+33	cycles	cycle	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+34	/	/	SYM	_	_	35	case	_	SpaceAfter=No
+35	mn	mn	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	Entity=c32)c28)|SpaceAfter=No
+36	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = A la paraclinique, l'hémogramme montrait une anémie à 7,2 g/dl, une hyperleucocytose à 11000/mm 3, la protéine C réactive à 260 mg/l.
+1	A	à	ADP	_	_	3	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(c33--2
+3	paraclinique	paraclinique	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Entity=c33)|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Entity=(c34--2|SpaceAfter=No
+6	hémogramme	hémogramme	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	Entity=c34)
+7	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c35--2
+9	anémie	anémie	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	7,2	7,2	NUM	_	Number=Plur	12	nummod	_	_
+12	g	g	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	/	/	SYM	_	_	14	case	_	SpaceAfter=No
+14	dl	dl	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	Entity=c35)|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c36--2
+17	hyperleucocytose	hyperleucocytose	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+18	à	à	ADP	_	_	19	case	_	_
+19	11000	11000	NUM	_	Number=Plur	17	nmod	_	SpaceAfter=No
+20	/	/	SYM	_	_	21	case	_	SpaceAfter=No
+21	mm	mm	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+22	3	3	NUM	_	Number=Plur	21	nmod	_	Entity=c36)|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(c37--2
+25	protéine	protéine	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+26	C	C	NOUN	_	_	25	appos	_	_
+27	réactive	réactif	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+28	à	à	ADP	_	_	30	case	_	_
+29	260	260	NUM	_	Number=Plur	30	nummod	_	_
+30	mg/l	mg/l	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	Entity=c37)|SpaceAfter=No
+31	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = La calcémie corrigée était à 102,3 mg/l, la parathormone intacte était élevée à 13 fois la normale.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c38--2
+2	calcémie	calcémie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	corrigée	corriger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Entity=c38)
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	102,3	102,3	NUM	_	Number=Plur	7	nummod	_	Entity=(c39--2
+7	mg/l	mg/l	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Entity=c39)|SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c40--2
+10	parathormone	parathormone	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	intacte	intact	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	Entity=c40)
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	élevée	élever	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	13	13	NUM	_	Number=Plur	16	nummod	_	Entity=(c41--2
+16	fois	fois	NOUN	_	Gender=Fem|Number=Plur	13	obl:mod	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	normale	normale	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	Entity=c41)|SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = La fibroscopie œsogastroduodénale montrait un diverticule œsophagien à 20 cm des arcades dentaires dont le fond était tapissé de lésions ulcérées et hémorragique.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c42--2
+2	fibroscopie	fibroscopie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	œsogastroduodénale	œsogastroduodénal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c42)
+4	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c43--2
+6	diverticule	diverticule	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	œsophagien	œsophagien	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	à	à	ADP	_	_	10	case	_	_
+9	20	20	NUM	_	Number=Plur	10	nummod	_	Entity=(c44--2
+10	cm	cm	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Entity=c44)
+11-12	des	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	Entity=(c45--2
+13	arcades	arcade	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+14	dentaires	dentaire	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	Entity=c45)c43)
+15	dont	dont	PRON	_	PronType=Rel	17	nmod	_	Entity=(c43--1)
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c46--2
+17	fond	fond	NOUN	_	Gender=Masc|Number=Sing	19	nsubj:pass	_	Entity=c46)
+18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux:pass	_	_
+19	tapissé	tapisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	19	obl:arg	_	Entity=(c47--1
+22	ulcérées	ulcéré	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+23	et	et	CCONJ	_	_	24	cc	_	_
+24	hémorragique	hémorragique	ADJ	_	Gender=Fem|Number=Sing	22	conj	_	Entity=c47)|SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Le transit œsogastroduodénale objectivait un refoulement de la portion cervicale de l'œsophage par une volumineuse image d'addition hétérogène, étagé de C3 à C7 dont le pôle supérieur se situe au niveau de la jonction pharyngo-œsophagienne.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c48--2
+2	transit	transit	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	œsogastroduodénale	œsogastroduodénale	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c48)
+4	objectivait	objectiver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c49--2
+6	refoulement	refoulement	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c50--2
+9	portion	portion	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	cervicale	cervical	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Entity=(c51--2|SpaceAfter=No
+13	œsophage	œsophage	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	Entity=c51)c50)c49)
+14	par	par	ADP	_	_	17	case	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c52--3
+16	volumineuse	volumineux	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+17	image	image	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
+18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
+19	addition	addition	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	hétérogène	hétérogène	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	étagé	étager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	C3	C3	NUM	_	_	22	obl:arg	_	_
+25	à	à	ADP	_	_	26	case	_	_
+26	C7	C7	PROPN	_	_	24	nmod	_	Entity=c52)
+27	dont	dont	PRON	_	PronType=Rel	29	nmod	_	Entity=(c52--1)
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	Entity=(c53--2
+29	pôle	pôle	NOUN	_	Gender=Masc|Number=Sing	32	nsubj:pass	_	_
+30	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	Entity=c53)
+31	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	32	expl:pass	_	_
+32	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+33-34	au	_	_	_	_	_	_	_	_
+33	à	à	ADP	_	_	35	case	_	_
+34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	Entity=(c54--2
+35	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	32	obl:arg	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	Entity=(c55--2
+38	jonction	jonction	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
+39	pharyngo-œsophagienne	pharyngo-œsophagien	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	Entity=c55)c54)|SpaceAfter=No
+40	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = La tomodensitométrie cervicale montrait un diverticule avec un collet plus ou moins étroit et un fond qui est latéro-thyroïdien droit siégeant à hauteur du pôle supérieur du lobe thyroïdien.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c56--2
+2	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	cervicale	cervical	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c56)
+4	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c57--2
+6	diverticule	diverticule	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	avec	avec	ADP	_	_	9	case	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(c58--2
+9	collet	collet	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	plus	plus	ADV	_	_	13	advmod	_	_
+11	ou	ou	CCONJ	_	_	10	fixed	_	_
+12	moins	moins	ADV	_	_	10	fixed	_	_
+13	étroit	étroit	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Entity=c58)
+14	et	et	CCONJ	_	_	16	cc	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(c59--2
+16	fond	fond	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	Entity=c59)
+17	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	Entity=(c59--1)
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	latéro-thyroïdien	latéro-thyroïdien	ADJ	_	Gender=Masc|Number=Sing	16	acl:relcl	_	_
+20	droit	droit	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	siégeant	siéger	VERB	_	Tense=Pres|VerbForm=Part	19	acl	_	_
+22	à	à	ADP	_	_	23	case	_	_
+23	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	_
+24-25	du	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	Entity=(c60--2
+26	pôle	pôle	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28-29	du	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	Entity=(c61--2
+30	lobe	lobe	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+31	thyroïdien	thyroïdien	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	Entity=c61)c60)c57)|SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Le diagnostic d'un diverticule de Zenker compliqué d'hémorragie et de surinfection avait été retenu.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c62--2
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+3	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c63--2
+5	diverticule	diverticule	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Zenker	Zenker	PROPN	_	_	5	nmod	_	_
+8	compliqué	compliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
+10	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	Entity=(c64--1)
+11	et	et	CCONJ	_	_	13	cc	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	surinfection	surinfection	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	Entity=(c65--1)c63)c62)
+14	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:tense	_	_
+15	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = La patiente avait été mise sous etamsylate en injectable et des transfusions de concentrés globulaires ont été faites.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	Entity=c1)
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	sous	sous	ADP	_	_	7	case	_	_
+7	etamsylate	etamsylate	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Entity=(c66--1
+8	en	en	ADP	_	_	9	case	_	_
+9	injectable	injectable	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Entity=c66)
+10	et	et	CCONJ	_	_	19	cc	_	_
+11-12	des	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	Entity=(c67--2
+13	transfusions	transfusion	NOUN	_	Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	concentrés	concentré	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	Entity=(c68--1
+16	globulaires	globulaire	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	Entity=c68)c67)
+17	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
+18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	faites	faire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Une diverticulectomie par voie cervicale externe avait été réalisé.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c69--2
+2	diverticulectomie	diverticulectomie	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	par	par	ADP	_	_	4	case	_	_
+4	voie	voie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	cervicale	cervical	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	externe	externe	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	Entity=c69)
+7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:tense	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = La patiente est décédée dans les suites postopératoires précoces d'une pneumopathie d'inhalation.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c1)
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	décédée	décéder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	dans	dans	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(c70--2
+7	suites	suite	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	_
+8	postopératoires	postopératoire	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+9	précoces	précoce	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c71--2
+12	pneumopathie	pneumopathie	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+14	inhalation	inhalation	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	Entity=c71)c70)|SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+

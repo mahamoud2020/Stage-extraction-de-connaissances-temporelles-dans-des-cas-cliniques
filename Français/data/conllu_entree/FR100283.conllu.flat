@@ -1,0 +1,174 @@
+# newdoc id = FR100283
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un homme âgé de 49 ans, hémodialysé chronique depuis 2005, suite à une maladie de Berger, qui a consulté pour des céphalées fébriles, associés à une diplopie horizontale droite, avec à l'examen une paralysie du III droit extrinsèque et sans syndrome méningé.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	homme	homme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	49	49	NUM	_	Number=Plur	0	nummod	_	_
+6	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	0	punct	_	_
+8	hémodialysé	hémodialysé	NOUN	_	Gender=Masc|Number=Sing	0	acl	_	_
+9	chronique	chronique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+10	depuis	depuis	ADP	_	_	0	case	_	_
+11	2005	2005	NUM	_	Number=Plur	0	obl:mod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	0	punct	_	_
+13	suite	suite	NOUN	_	_	0	case	_	_
+14	à	à	ADP	_	_	0	fixed	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+17	de	de	ADP	_	_	0	case	_	_
+18	Berger	Berger	PROPN	_	_	0	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	0	punct	_	_
+20	qui	qui	PRON	_	PronType=Rel	0	nsubj	_	_
+21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+22	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	acl:relcl	_	_
+23	pour	pour	ADP	_	_	0	case	_	_
+24	de	de	ADP	_	_	0	det	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+26	céphalées	céphalée	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	_
+27	fébriles	fébrile	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	0	punct	_	_
+29	associés	associer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+30	à	à	ADP	_	_	0	case	_	_
+31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+32	diplopie	diplopie	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+33	horizontale	horizontal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+34	droite	droit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	0	punct	_	_
+36	avec	avec	ADP	_	_	0	case	_	_
+37	à	à	ADP	_	_	0	case	_	_
+38	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+39	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+40	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+41	paralysie	paralysie	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+42	de	de	ADP	_	_	0	case	_	_
+43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+44	III	III	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+45	droit	droit	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+46	extrinsèque	extrinsèque	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+47	et	et	CCONJ	_	_	0	cc	_	_
+48	sans	sans	ADP	_	_	0	case	_	_
+49	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+50	méningé	méningé	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Le bilan biologique a objectivé un syndrome inflammatoire, la ponction lombaire réalisée après une TDM cérébrale sans anomalies était normale.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	biologique	biologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+8	inflammatoire	inflammatoire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	0	punct	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	ponction	ponction	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+12	lombaire	lombaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+13	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+14	après	après	ADP	_	_	0	case	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	TDM	TDM	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+17	cérébrale	cérébral	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+18	sans	sans	ADP	_	_	0	case	_	_
+19	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+21	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'IRM cérébrale a montré un processus intrasellaire de 21 x 20mm, associé à une sinusite sphénoïdale.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	cérébrale	cérébral	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	processus	processus	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+8	intrasellaire	intrasellaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	21	21	NUM	_	Number=Plur	0	nummod	_	_
+11	x	x	SYM	_	_	0	case	_	_
+12	20mm	20mm	NUM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	0	punct	_	_
+14	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+15	à	à	ADP	_	_	0	case	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+17	sinusite	sinusite	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+18	sphénoïdale	sphénoïdal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'hypophysiogramme réalisé par la suite était en faveur d'un panhypopituitarisme.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	hypophysiogramme	hypophysiogramme	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+4	par	par	ADP	_	_	0	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	suite	suite	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+8	en	en	ADP	_	_	0	case	_	_
+9	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+10	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+12	panhypopituitarisme	panhypopituitarisme	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Le traitement institué en urgence comportait une antibiothérapie parentérale probabiliste à large spectre à base de ceftriaxone et de ciprofloxacine poursuivie pendant 12 semaines, associée à une opothérapie substitutive.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	institué	instituer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+4	en	en	ADP	_	_	0	case	_	_
+5	urgence	urgence	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+6	comportait	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	antibiothérapie	antibiothérapie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+9	parentérale	parentéral	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+10	probabiliste	probabiliste	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+11	à	à	ADP	_	_	0	case	_	_
+12	large	large	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+13	spectre	spectre	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+14	à	à	ADP	_	_	0	case	_	_
+15	base	base	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	ceftriaxone	ceftriaxone	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+18	et	et	CCONJ	_	_	0	cc	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	ciprofloxacine	ciprofloxacine	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+21	poursuivie	poursuivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+22	pendant	pendant	ADP	_	_	0	case	_	_
+23	12	12	NUM	_	Number=Plur	0	nummod	_	_
+24	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	0	punct	_	_
+26	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+27	à	à	ADP	_	_	0	case	_	_
+28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+29	opothérapie	opothérapie	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+30	substitutive	substitutif	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'évolution clinique et biologique était favorable avec un recul de 2 ans.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	et	et	CCONJ	_	_	0	cc	_	_
+5	biologique	biologique	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+7	favorable	favorable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+8	avec	avec	ADP	_	_	0	case	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	recul	recul	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	2	2	NUM	_	Number=Plur	0	nummod	_	_
+13	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

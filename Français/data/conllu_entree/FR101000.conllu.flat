@@ -1,0 +1,106 @@
+# newdoc id = FR101000
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un cas de dilatation des voies biliaires intra et extra hépatiques était retrouvé sans cause bilio-pancréatique.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	dilatation	dilatation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	de	de	ADP	_	_	0	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+7	voies	voie	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+8	biliaires	biliaire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+9	intra	intra	ADV	_	_	0	advmod	_	_
+10	et	et	CCONJ	_	_	0	cc	_	_
+11	extra	extra	X	_	_	0	conj	_	_
+12	hépatiques	hépatique	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:pass	_	_
+14	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	sans	sans	ADP	_	_	0	case	_	_
+16	cause	cause	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+17	bilio-pancréatique	bilio-pancréatique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = La bili-IRM est l'examen de choix dans l'exploration des ictères cholestatiques.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	bili-IRM	bili-irm	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+5	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	0	case	_	_
+7	choix	choix	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+8	dans	dans	ADP	_	_	0	case	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+10	exploration	exploration	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+13	ictères	ictère	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+14	cholestatiques	cholestatique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Elle doit être demandée en première intention lorsqu'on suspecte une lithiase résiduelle et en deuxième intention après l'échographie lorsque cette dernière suspecte une obstruction tumorale des voies biliaires.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+2	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	être	être	AUX	_	VerbForm=Inf	0	aux:pass	_	_
+4	demandée	demander	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	xcomp	_	_
+5	en	en	ADP	_	_	0	case	_	_
+6	première	premier	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+7	intention	intention	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+8	lorsqu'	lorsque	SCONJ	_	_	0	mark	_	SpaceAfter=No
+9	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	nsubj	_	_
+10	suspecte	suspecter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	advcl	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	lithiase	lithiase	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+13	résiduelle	résiduel	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+14	et	et	CCONJ	_	_	0	cc	_	_
+15	en	en	ADP	_	_	0	case	_	_
+16	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+17	intention	intention	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+18	après	après	ADP	_	_	0	case	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+20	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	0	orphan	_	_
+21	lorsque	lorsque	SCONJ	_	_	0	mark	_	_
+22	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	0	det	_	_
+23	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+24	suspecte	suspecter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	acl	_	_
+25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+26	obstruction	obstruction	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+27	tumorale	tumoral	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+28	de	de	ADP	_	_	0	case	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+30	voies	voie	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+31	biliaires	biliaire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Son association avec la TDM constitue la meilleure combinaison pour le diagnostic étiologique et le bilan préopératoire des obstructions biliaires tumorales.
+1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+2	association	association	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	avec	avec	ADP	_	_	0	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+5	TDM	TDM	PROPN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+6	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+9	combinaison	combinaison	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+10	pour	pour	ADP	_	_	0	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+12	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+13	étiologique	étiologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+14	et	et	CCONJ	_	_	0	cc	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+16	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+17	préopératoire	préopératoire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+20	obstructions	obstruction	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+21	biliaires	biliaire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+22	tumorales	tumoral	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

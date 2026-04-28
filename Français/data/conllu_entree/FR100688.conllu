@@ -1,0 +1,441 @@
+# newdoc id = FR100688
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un patient âgé de 27 ans avec une notion de contage tuberculeux, porteur d'une tuméfaction dorsolombaire gauche évoluant depuis 5 mois.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	27	27	NUM	_	Number=Plur	6	nummod	_	_
+6	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	_
+7	avec	avec	ADP	_	_	9	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	notion	notion	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	contage	contage	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	tuberculeux	tuberculeux	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	porteur	porteur	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	dorsolombaire	dorsolombaire	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+20	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	17	acl	_	_
+21	depuis	depuis	ADP	_	_	23	case	_	_
+22	5	5	NUM	_	Number=Plur	23	nummod	_	_
+23	mois	mois	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Il a présenté une fièvre, un amaigrissement (avec une perte pondérale chiffrée à 18 kg), une asthénie et une anorexie.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fièvre	fièvre	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	amaigrissement	amaigrissement	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+9	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10	avec	avec	ADP	_	_	12	case	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	perte	perte	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+13	pondérale	pondéral	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	chiffrée	chiffrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
+15	à	à	ADP	_	_	17	case	_	_
+16	18	18	NUM	_	Number=Plur	17	nummod	_	_
+17	kg	kg	NOUN	_	Gender=Masc|Number=Plur	14	obl:arg	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	asthénie	asthénie	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+22	et	et	CCONJ	_	_	24	cc	_	_
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	anorexie	anorexie	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Il a consulté pour une dorsalgie en regard de la tuméfaction.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	pour	pour	ADP	_	_	6	case	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	dorsalgie	dorsalgie	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	regard	regard	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'examen clinique avait noté une température à 38°6C, un poids de 57kg pour une taille 175cm (indice de masse corporel 18,62 kg/cm 2.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+5	noté	noter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	température	température	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	à	à	ADP	_	_	10	case	_	_
+9	38	38	NUM	_	Number=Plur	10	nummod	_	SpaceAfter=No
+10	°	°	SYM	_	Number=Plur	7	nmod	_	SpaceAfter=No
+11	6C	6C	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	poids	poids	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	57kg	57kg	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	pour	pour	ADP	_	_	19	case	_	_
+18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	taille	taille	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+20	175cm	175cm	NOUN	_	Number=Plur	19	appos	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	indice	indice	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	masse	masse	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	corporel	corporel	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	18,62	18,62	NUM	_	Number=Plur	27	nummod	_	_
+27	kg	kg	NOUN	_	Gender=Masc|Number=Plur	22	appos	_	SpaceAfter=No
+28	/	/	SYM	_	_	29	case	_	SpaceAfter=No
+29	cm	cm	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+30	2	2	NUM	_	Number=Plur	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'examen physique a mis en évidence une volumineuse tuméfaction dorsolombaire gauche ovalaire mesurant 24cm de grand axe et 12cm de petit axe, de consistance molle, indolore, fluctuante, luisante non fistulisée, une douleur modérée à la palpation des épines dorsolombaires.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	physique	physique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	en	en	ADP	_	_	7	case	_	_
+7	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	volumineuse	volumineux	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+11	dorsolombaire	dorsolombaire	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+13	ovalaire	ovalaire	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+14	mesurant	mesurer	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
+15	24cm	24cm	NUM	_	Number=Plur	14	obj	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	grand	grand	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+18	axe	axe	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	et	et	CCONJ	_	_	20	cc	_	_
+20	12cm	12cm	NUM	_	Number=Plur	15	conj	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	petit	petit	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+23	axe	axe	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	consistance	consistance	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+27	molle	mou	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	indolore	indolore	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	fluctuante	fluctuant	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	luisante	luisant	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	_
+34	non	non	ADV	_	Polarity=Neg	35	advmod	_	_
+35	fistulisée	fistulisé	ADJ	_	Gender=Fem|Number=Sing	33	xcomp	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+39	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
+40	à	à	ADP	_	_	42	case	_	_
+41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	palpation	palpation	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
+43-44	des	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	_
+45	épines	épine	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	_
+46	dorsolombaires	dorsolombaire	ADJ	_	Gender=Fem|Number=Plur	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'examen pleuropulmonaire et neurologique était normal.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	pleuropulmonaire	pleuropulmonaire	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	neurologique	neurologique	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = La sérologie VIH était négative, la recherche de bacille de koch dans les crachats était négatif, l'intradermoréaction à la tuberculine était positif à 13 mm.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sérologie	sérologie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	VIH	VIH	NOUN	_	_	2	appos	_	_
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	17	punct	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	bacille	bacille	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	koch	koch	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	dans	dans	ADP	_	_	15	case	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	crachats	crachat	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	négatif	négatif	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	25	punct	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	intradermoréaction	intradermoréaction	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+21	à	à	ADP	_	_	23	case	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	tuberculine	tuberculine	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+25	positif	positif	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	_
+26	à	à	ADP	_	_	28	case	_	_
+27	13	13	NUM	_	Number=Plur	28	nummod	_	_
+28	mm	mm	NOUN	_	Gender=Masc|Number=Plur	25	obl:mod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = La radiographie du rachis dorsolombaire a mis en évidence une lyse vertébrale intéressant la dixième et onzième vertèbre dorsale (D10-D11) avec pincement discal, une érosion des plateaux vertébraux et une ostéocondensation.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	rachis	rachis	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	dorsolombaire	dorsolombaire	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lyse	lyse	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+13	vertébrale	vertébral	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	intéressant	intéresser	VERB	_	Tense=Pres|VerbForm=Part	12	acl	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+16	dixième	dixième	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+17	et	et	CCONJ	_	_	18	cc	_	_
+18	onzième	onzième	ADJ	_	Gender=Fem|Number=Sing	16	conj	_	_
+19	vertèbre	vertèbre	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+20	dorsale	dorsal	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	D10-D11	D10-D11	X	_	_	19	appos	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	avec	avec	ADP	_	_	25	case	_	_
+25	pincement	pincement	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+26	discal	discal	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	érosion	érosion	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
+30-31	des	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+32	plateaux	plateau	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+33	vertébraux	vertébral	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
+34	et	et	CCONJ	_	_	36	cc	_	_
+35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	ostéocondensation	ostéocondensation	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'échographie de la tuméfaction a mis en évidence la présence d'une collection liquidienne latéro-vertébrale infiltrant les muscles de voisinage.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+7	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	en	en	ADP	_	_	9	case	_	_
+9	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	présence	présence	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+12	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	collection	collection	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	liquidienne	liquidien	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	latéro-vertébrale	latéro-vertébral	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+17	infiltrant	infiltrer	VERB	_	Tense=Pres|VerbForm=Part	14	acl	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	muscles	muscle	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	voisinage	voisinage	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = La radiographie du thoracique était normale.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	thoracique	thoracique	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Le Scanner et l'IRM rachidien n'ont pu être réalisés.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Scanner	Scanner	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	et	et	CCONJ	_	_	5	cc	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	IRM	IRM	NOUN	_	Number=Sing	2	conj	_	_
+6	rachidien	rachidien	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
+8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+10	être	être	AUX	_	VerbForm=Inf	11	aux:pass	_	_
+11	réalisés	réaliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Il a été réalisé une incision drainage de la tuméfaction.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	incision	incision	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	drainage	drainage	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = L'analyse du prélèvement a montré la présence de bacille acido-alcooloresistant à l'examen direct et de Bacille de Koch à la culture.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	analyse	analyse	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	prélèvement	prélèvement	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+7	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	présence	présence	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	bacille	bacille	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	acido-alcooloresistant	acido-alcooloresistant	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	à	à	ADP	_	_	15	case	_	_
+14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	examen	examen	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+16	direct	direct	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	et	et	CCONJ	_	_	19	cc	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Bacille	bacille	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Koch	Koch	PROPN	_	_	19	nmod	_	_
+22	à	à	ADP	_	_	24	case	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	culture	culture	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Un traitement antituberculeux a été entrepris sur une période de 12 mois, avec deux mois de phase d'attaque associant quatre antituberculeux majeurs: Rifampicine, Isoniazide, Ethambutol, Pyrazinamide, suivi d'une phase d'entretien associant Rifampicine et Isoniazide pendant dix mois.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	antituberculeux	antituberculeux	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	entrepris	entreprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	sur	sur	ADP	_	_	9	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	période	période	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	12	12	NUM	_	Number=Plur	12	nummod	_	_
+12	mois	mois	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	avec	avec	ADP	_	_	16	case	_	_
+15	deux	deux	NUM	_	Number=Plur	16	nummod	_	_
+16	mois	mois	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	phase	phase	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
+20	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	associant	associer	VERB	_	Tense=Pres|VerbForm=Part	16	acl	_	_
+22	quatre	quatre	NUM	_	Number=Plur	23	nummod	_	_
+23	antituberculeux	antituberculeu	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+24	majeurs	majeur	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	26	punct	_	_
+26	Rifampicine	Rifampicine	PROPN	_	_	23	appos	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	Isoniazide	Isoniazide	PROPN	_	_	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	Ethambutol	Ethambutol	PROPN	_	_	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	Pyrazinamide	Pyrazinamide	PROPN	_	_	26	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+35	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
+36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	phase	phase	NOUN	_	Gender=Fem|Number=Sing	34	obl:arg	_	_
+38	d'	de	ADP	_	_	39	case	_	SpaceAfter=No
+39	entretien	entretien	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+40	associant	associer	VERB	_	Tense=Pres|VerbForm=Part	37	acl	_	_
+41	Rifampicine	Rifampicine	PROPN	_	_	40	obj	_	_
+42	et	et	CCONJ	_	_	43	cc	_	_
+43	Isoniazide	Isoniazide	PROPN	_	_	41	conj	_	_
+44	pendant	pendant	ADP	_	_	46	case	_	_
+45	dix	dix	NUM	_	Number=Plur	46	nummod	_	_
+46	mois	mois	NOUN	_	Gender=Masc|Number=Plur	40	obl:mod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Au dernier recul de 2 ans, l'évolution a été favorable avec une disparition complète de l'abcès froid et une amélioration de l'état général du patient.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	4	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	recul	recul	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	2	2	NUM	_	Number=Plur	7	nummod	_	_
+7	ans	an	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+13	favorable	favorable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+14	avec	avec	ADP	_	_	16	case	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
+17	complète	complet	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	abcès	abcès	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+21	froid	froid	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	et	et	CCONJ	_	_	24	cc	_	_
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	amélioration	amélioration	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	état	état	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	général	général	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+29-30	du	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	patient	patient	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Il avait une séquelle à type de gibbosité modérée.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	séquelle	séquelle	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	à	à	ADP	_	_	6	case	_	_
+6	type	type	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	gibbosité	gibbosité	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+

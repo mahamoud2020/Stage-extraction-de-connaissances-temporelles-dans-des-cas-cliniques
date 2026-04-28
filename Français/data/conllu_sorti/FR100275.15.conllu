@@ -1,0 +1,741 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Une fillette de 2 ans est trouvée en état de mort apparente par sa famille.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	fillette	fillette	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	2	2	NUM	_	Number=Plur	5	nummod	_	_
+5	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	Entity=c1)
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	trouvée	trouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	en	en	ADP	_	_	9	case	_	_
+9	état	état	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	Entity=(c2--1
+10	de	de	ADP	_	_	11	case	_	_
+11	mort	mort	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	apparente	apparent	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Entity=c2)
+13	par	par	ADP	_	_	15	case	_	_
+14	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	Entity=(c3--2(c1--1)
+15	famille	famille	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	Entity=c3)|SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Il s'écoule un délai de 13 minutes entre la découverte de l'enfant par sa famille et le début des manœuvres de réanimation.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	écoule	écouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c4--2
+5	délai	délai	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	13	13	NUM	_	Number=Plur	8	nummod	_	Entity=(c5--2
+8	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	Entity=c5)c4)
+9	entre	entre	ADP	_	_	11	case	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(c6--2
+11	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Entity=(c1--2|SpaceAfter=No
+14	enfant	enfant	NOUN	_	Number=Sing	11	nmod	_	Entity=c1)
+15	par	par	ADP	_	_	17	case	_	_
+16	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	Entity=(c3--2(c1--1)
+17	famille	famille	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=c3)c6)
+18	et	et	CCONJ	_	_	20	cc	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(c7--2
+20	début	début	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
+21-22	des	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	Entity=(c8--2
+23	manœuvres	manœuvre	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	réanimation	réanimation	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	Entity=(c9--1)c8)c7)|SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = A l'arrivée du réanimateur qui est voisin de la famille, l'enfant est hypotonique, elle présente une cyanose labiale avec une pâleur extrême, les yeux sont grands ouverts avec présence de matières alimentaires obstruant la cavité oro-pharyngée.
+1	A	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	Entity=(c10--2|SpaceAfter=No
+3	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c11--2
+6	réanimateur	réanimateur	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Entity=c11)c10)
+7	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	Entity=(c11--1)
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	voisin	voisin	ADJ	_	Gender=Masc|Number=Sing	6	acl:relcl	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c3--2
+12	famille	famille	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	Entity=c3)|SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	Entity=(c1--2|SpaceAfter=No
+15	enfant	enfant	NOUN	_	Number=Sing	17	nsubj	_	Entity=c1)
+16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	hypotonique	hypotonique	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	Entity=(c1--1)
+20	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(c12--2
+22	cyanose	cyanose	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	labiale	labial	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	avec	avec	ADP	_	_	26	case	_	_
+25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	Entity=(c13--2
+26	pâleur	pâleur	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
+27	extrême	extrême	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	Entity=c13)c12)|SpaceAfter=No
+28	,	,	PUNCT	_	_	32	punct	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	Entity=(c14--2
+30	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	32	nsubj	_	Entity=c14)
+31	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+32	grands	grand	ADJ	_	Gender=Masc|Number=Plur	20	conj	_	_
+33	ouverts	ouvert	ADJ	_	Gender=Masc|Number=Plur	32	xcomp	_	_
+34	avec	avec	ADP	_	_	35	case	_	_
+35	présence	présence	NOUN	_	Gender=Fem|Number=Sing	32	obl:mod	_	Entity=(c15--1
+36	de	de	ADP	_	_	37	case	_	_
+37	matières	matière	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	Entity=(c16--1
+38	alimentaires	alimentaire	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	Entity=c16)
+39	obstruant	obstruer	VERB	_	Tense=Pres|VerbForm=Part	37	acl	_	_
+40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	Entity=(c17--2
+41	cavité	cavité	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
+42	oro-pharyngée	oro-pharyngé	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	Entity=c17)c15)|SpaceAfter=No
+43	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Il n'y a pas de respiration spontanée ni de pouls;
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	4	expl:comp	_	_
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
+6	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	respiration	respiration	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	Entity=(c18--1
+8	spontanée	spontané	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	Entity=c18)
+9	ni	ni	CCONJ	_	_	11	cc	_	_
+10	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+11	pouls	pouls	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	Entity=(c19--1)|SpaceAfter=No
+12	;	;	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 5
+# text = le diagnostic de mort apparente est établi.
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c20--2
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	mort	mort	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=(c21--1
+5	apparente	apparent	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	Entity=c21)c20)
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	établi	établir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Les manœuvres de réanimation par dégagement des voies aériennes, massages cardiaques externes alternés avec des insufflations pulmonaires permettent au bout de 5 minutes la reprise de l'activité cardiaque, respiratoire et le retour a la conscience.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c8--2
+2	manœuvres	manœuvre	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	réanimation	réanimation	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	par	par	ADP	_	_	6	case	_	_
+6	dégagement	dégagement	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=(c22--1
+7-8	des	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	Entity=(c23--2
+9	voies	voie	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10	aériennes	aérien	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	Entity=c23)c22)|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	massages	massage	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	Entity=(c24--1
+13	cardiaques	cardiaque	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+14	externes	externe	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+15	alternés	alterner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
+16	avec	avec	ADP	_	_	19	case	_	_
+17-18	des	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	det	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	Entity=(c25--2
+19	insufflations	insufflation	NOUN	_	Gender=Fem|Number=Plur	15	obl:arg	_	_
+20	pulmonaires	pulmonaire	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	Entity=c25)c24)c8)
+21	permettent	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22-23	au	_	_	_	_	_	_	_	_
+22	à	à	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(c26--2
+24	bout	bout	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	5	5	NUM	_	Number=Plur	27	nummod	_	Entity=(c27--2
+27	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	Entity=c27)c26)
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	Entity=(c28--2(c29--2
+29	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	Entity=(c30--2|SpaceAfter=No
+32	activité	activité	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33	cardiaque	cardiaque	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	respiratoire	respiratoire	ADJ	_	Gender=Fem|Number=Sing	33	conj	_	Entity=c30)c29)
+36	et	et	CCONJ	_	_	38	cc	_	_
+37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	Entity=(c31--2
+38	retour	retour	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	_
+39	a	à	ADP	_	_	41	case	_	_
+40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	Entity=(c32--2
+41	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	Entity=c32)c31)c28)|SpaceAfter=No
+42	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = L'enfant sera ultérieurement transféré dans un service d'urgences.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2|SpaceAfter=No
+2	enfant	enfant	NOUN	_	Number=Sing	5	nsubj:pass	_	Entity=c1)
+3	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+4	ultérieurement	ultérieurement	ADV	_	_	5	advmod	_	_
+5	transféré	transférer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	dans	dans	ADP	_	_	8	case	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c33--2
+8	service	service	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
+9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
+10	urgences	urgence	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	Entity=c33)|SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = L'anamnèse médicale réalisée aux urgences révèle que l'enfant est porteur d'une mutation génétique responsable du syndrome du QT long congénital, elle est traitée par bêtabloquant à base de Nadolol (Corgard®) à raison de 3 mg/kg/j, soit 20mg, 2/j.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c34--2|SpaceAfter=No
+2	anamnèse	anamnèse	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	médicale	médical	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	aux	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(c33--2
+7	urgences	urgence	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	Entity=c33)c34)
+8	révèle	révéler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Entity=(c1--2|SpaceAfter=No
+11	enfant	enfant	NOUN	_	Number=Sing	13	nsubj	_	Entity=c1)
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	porteur	porteur	NOUN	_	Gender=Masc|Number=Sing	8	ccomp	_	_
+14	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c35--2
+16	mutation	mutation	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	génétique	génétique	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	responsable	responsable	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+19-20	du	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(c36--2
+21	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	_
+22-23	du	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	QT	QT	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	long	long	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	congénital	congénital	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	Entity=c36)c35)|SpaceAfter=No
+27	,	,	PUNCT	_	_	30	punct	_	_
+28	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj:pass	_	Entity=(c1--1)
+29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+30	traitée	traiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	_
+31	par	par	ADP	_	_	32	case	_	_
+32	bêtabloquant	bêtabloquant	NOUN	_	Gender=Masc|Number=Sing	30	obl:arg	_	Entity=(c37--1
+33	à	à	ADP	_	_	34	case	_	_
+34	base	base	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	Nadolol	Nadolol	PROPN	_	_	34	nmod	_	Entity=(c38--1)c37)
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	Corgard	Corgard	PROPN	_	_	36	appos	_	Entity=(c39--1|SpaceAfter=No
+39	®	®	X	_	_	38	flat:name	_	Entity=c39)|SpaceAfter=No
+40	)	)	PUNCT	_	_	38	punct	_	_
+41	à	à	ADP	_	_	42	case	_	_
+42	raison	raison	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	3	3	NUM	_	Number=Plur	45	nummod	_	Entity=(c40--2
+45	mg/kg/j	mg/kg/j	NOUN	_	Gender=Masc|Number=Plur	42	nmod	_	Entity=c40)|SpaceAfter=No
+46	,	,	PUNCT	_	_	48	punct	_	_
+47	soit	soit	ADV	_	_	48	advmod	_	_
+48	20mg	20mg	NUM	_	Number=Plur	45	appos	_	Entity=(c41--1|SpaceAfter=No
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	2	2	NUM	_	Number=Plur	48	conj	_	SpaceAfter=No
+51	/	/	SYM	_	_	52	case	_	SpaceAfter=No
+52	j	j	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	Entity=(c42--1)c41)|SpaceAfter=No
+53	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'enfant avait bien pris son traitement.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2|SpaceAfter=No
+2	enfant	enfant	NOUN	_	Number=Sing	5	nsubj	_	Entity=c1)
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+4	bien	bien	ADV	_	_	5	advmod	_	_
+5	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	Entity=(c37--2(c1--1)
+7	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Entity=c37)|SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = L'examen clinique réalisé aux urgences montre un poids de 13 kg, une pression artérielle de 80/60 mmHg, la fréquence cardiaque est de 126/minute, la température est à 38,8°C.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c43--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	aux	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(c33--2
+7	urgences	urgence	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	Entity=c33)c43)
+8	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c44--2
+10	poids	poids	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	13	13	NUM	_	Number=Plur	13	nummod	_	Entity=(c45--2
+13	kg	kg	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	Entity=c45)|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c46--2
+16	pression	pression	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+17	artérielle	artériel	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	80/60	80/60	NUM	_	Number=Plur	20	nummod	_	Entity=(c47--2
+20	mmHg	mmhg	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	Entity=c47)c46)|SpaceAfter=No
+21	,	,	PUNCT	_	_	27	punct	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(c48--2
+23	fréquence	fréquence	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+24	cardiaque	cardiaque	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	Entity=c48)
+25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	126	126	NUM	_	Number=Plur	8	conj	_	SpaceAfter=No
+28	/	/	SYM	_	_	29	cc	_	SpaceAfter=No
+29	minute	minute	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	Entity=c44)|SpaceAfter=No
+30	,	,	PUNCT	_	_	36	punct	_	_
+31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	Entity=(c49--2
+32	température	température	NOUN	_	Gender=Fem|Number=Sing	36	nsubj	_	Entity=c49)
+33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+34	à	à	ADP	_	_	36	case	_	_
+35	38,8	38,8	NUM	_	Number=Plur	36	nummod	_	Entity=(c50--2|SpaceAfter=No
+36	°	°	SYM	_	Number=Plur	33	obl:arg	_	SpaceAfter=No
+37	C	C	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	Entity=c50)|SpaceAfter=No
+38	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Le bilan réalisé à son admission aux urgences montre à l'électrocardiogramme un rythme sinusal régulier, à 105/min, on note une onde T asymétrique, l'espace QT corrigé est de 450 millisecondes.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c51--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	Entity=(c52--2(c1--1)
+6	admission	admission	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	Entity=c52)
+7-8	aux	_	_	_	_	_	_	_	_
+7	à	à	ADP	_	_	9	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	Entity=(c33--2
+9	urgences	urgence	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	Entity=c33)c51)
+10	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	à	à	ADP	_	_	13	case	_	_
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Entity=(c53--2|SpaceAfter=No
+13	électrocardiogramme	électrocardiogramme	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	Entity=c53)
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c54--2
+15	rythme	rythme	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+16	sinusal	sinusal	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	régulier	régulier	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	à	à	ADP	_	_	20	case	_	_
+20	105	105	NUM	_	Number=Plur	10	obl:mod	_	SpaceAfter=No
+21	/	/	SYM	_	_	22	case	_	SpaceAfter=No
+22	min	min	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	Entity=c54)|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	nsubj	_	Entity=(c55--1)
+25	note	noter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(c56--2
+27	onde	onde	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	T	T	NOUN	_	_	27	appos	_	_
+29	asymétrique	asymétrique	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	Entity=c56)|SpaceAfter=No
+30	,	,	PUNCT	_	_	38	punct	_	_
+31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	Entity=(c57--2|SpaceAfter=No
+32	espace	espace	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+33	QT	QT	X	_	_	32	appos	_	_
+34	corrigé	corriger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	acl	_	Entity=c57)
+35	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	450	450	NUM	_	Number=Plur	38	nummod	_	Entity=(c58--2
+38	millisecondes	milliseconde	NOUN	_	Gender=Fem|Number=Plur	25	conj	_	Entity=c58)|SpaceAfter=No
+39	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Le bilan réalisé en cours d'hospitalisation est tout a fait rassurant et montre un ionogramme normal, l'absence de germes au niveau du sédiment urinaire, il n'y a pas de foyer pulmonaire a la radiographie du thorax, la tomodensitométrie cérébrale est normale, l'électroencéphalogramme ne montre pas de foyer comitial.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c59--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	cours	cours	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+7	hospitalisation	hospitalisation	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	Entity=(c60--1)c59)
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	tout	tout	ADV	_	_	12	advmod	_	_
+10	a	a	ADP	_	_	9	fixed	_	_
+11	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	_
+12	rassurant	rassurant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+13	et	et	CCONJ	_	_	14	cc	_	_
+14	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(c61--2
+16	ionogramme	ionogramme	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	normal	normal	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	Entity=c61)|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Entity=(c62--2|SpaceAfter=No
+20	absence	absence	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	germes	germe	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	Entity=(c63--1)c62)
+23-24	au	_	_	_	_	_	_	_	_
+23	à	à	ADP	_	_	25	case	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Entity=(c64--2
+25	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+26-27	du	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	Entity=(c65--2
+28	sédiment	sédiment	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29	urinaire	urinaire	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	Entity=c65)c64)|SpaceAfter=No
+30	,	,	PUNCT	_	_	34	punct	_	_
+31	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	expl:subj	_	_
+32	n'	ne	ADV	_	Polarity=Neg	34	advmod	_	SpaceAfter=No
+33	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	34	expl:comp	_	_
+34	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+35	pas	pas	ADV	_	Polarity=Neg	34	advmod	_	_
+36	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	37	det	_	_
+37	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	Entity=(c66--1
+38	pulmonaire	pulmonaire	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	Entity=c66)
+39	a	à	ADP	_	_	41	case	_	_
+40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	Entity=(c67--2
+41	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	34	obl:mod	_	_
+42-43	du	_	_	_	_	_	_	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	Entity=(c68--2
+44	thorax	thorax	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	Entity=c68)c67)|SpaceAfter=No
+45	,	,	PUNCT	_	_	50	punct	_	_
+46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	Entity=(c69--2
+47	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	50	nsubj	_	_
+48	cérébrale	cérébral	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	Entity=c69)
+49	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
+50	normale	normal	ADJ	_	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	55	punct	_	_
+52	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	53	det	_	Entity=(c70--2|SpaceAfter=No
+53	électroencéphalogramme	électroencéphalogramme	NOUN	_	Gender=Masc|Number=Sing	55	nsubj	_	Entity=c70)
+54	ne	ne	ADV	_	Polarity=Neg	55	advmod	_	_
+55	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	conj	_	_
+56	pas	pas	ADV	_	Polarity=Neg	55	advmod	_	_
+57	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	58	det	_	_
+58	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	55	obj	_	Entity=(c66--1
+59	comitial	comitial	ADJ	_	Gender=Masc|Number=Sing	58	amod	_	Entity=c66)|SpaceAfter=No
+60	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = L'échographie cardiaque est normale.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c71--2|SpaceAfter=No
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	cardiaque	cardiaque	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c71)
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = On note une excellente évolution durant l'hospitalisation, le nourrisson ne présente pas de séquelles neurologiques, ni de récidive d'arythmies.
+1	On	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	Entity=(c72--1)
+2	note	noter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(c73--3
+4	excellente	excellent	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	Entity=c73)
+6	durant	durant	ADP	_	_	8	case	_	_
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Entity=(c60--2|SpaceAfter=No
+8	hospitalisation	hospitalisation	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	Entity=c60)|SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(c1--2
+11	nourrisson	nourrisson	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	Entity=c1)
+12	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	_
+13	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
+15	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+16	séquelles	séquelle	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	Entity=(c74--1
+17	neurologiques	neurologique	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	Entity=c74)|SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	ni	ni	CCONJ	_	_	21	cc	_	_
+20	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	21	det	_	_
+21	récidive	récidive	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	Entity=(c75--1
+22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
+23	arythmies	arythmie	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	Entity=(c76--1)c75)|SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Un diagnostic de mort subite dans un contexte de syndrome du QT Long est posé et la dose de Nadolol majorée à 25 mg deux prises par jour.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c77--16
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	mort	mort	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=(c78--1
+5	subite	subite	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	Entity=c78)
+6	dans	dans	ADP	_	_	8	case	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c79--2
+8	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Entity=(c36--1
+11-12	du	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(c80--2
+13	QT	QT	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	Long	long	ADJ	_	Gender=Masc|Number=Sing	13	flat:name	_	Entity=c80)c36)c79)
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+17	et	et	CCONJ	_	_	22	cc	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	Entity=(c81--2
+19	dose	dose	NOUN	_	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Nadolol	Nadolol	PROPN	_	_	19	nmod	_	Entity=(c38--1)c81)
+22	majorée	majorer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	conj	_	_
+23	à	à	ADP	_	_	25	case	_	_
+24	25	25	NUM	_	Number=Plur	25	nummod	_	Entity=(c82--2
+25	mg	mg	NOUN	_	Gender=Masc|Number=Plur	22	obl:arg	_	Entity=c82)
+26	deux	deux	NUM	_	Number=Plur	27	nummod	_	Entity=(c83--2
+27	prises	prendre	NOUN	_	Gender=Fem|Number=Plur	22	obl:mod	_	_
+28	par	par	ADP	_	_	29	case	_	_
+29	jour	jour	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	Entity=(c84--1)c83)c77)|SpaceAfter=No
+30	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = En cas de récidive, la pose d'un défibrillateur est envisagée.
+1	En	en	ADP	_	_	2	case	_	_
+2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	récidive	récidive	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=(c75--1)|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c85--2
+7	pose	pose	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+8	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c86--2
+10	défibrillateur	défibrillateur	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Entity=c86)c85)
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	envisagée	envisager	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Dix mois après l'incident cardiaque, l'enfant a été pris en charge par une équipe d'aide médicale urgente pour crise d'épilepsie inaugural et l'électroencéphalogramme réalisé aux urgences ne montre pas de foyer comitial.
+1	Dix	dix	NUM	_	Number=Plur	2	nummod	_	Entity=(c87--2
+2	mois	mois	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	Entity=c87)
+3	après	après	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Entity=(c88--2|SpaceAfter=No
+5	incident	incident	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+6	cardiaque	cardiaque	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c88)|SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Entity=(c1--2|SpaceAfter=No
+9	enfant	enfant	NOUN	_	Number=Sing	12	nsubj:pass	_	Entity=c1)
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+13	en	en	ADP	_	_	14	case	_	_
+14	charge	charge	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
+15	par	par	ADP	_	_	17	case	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c89--2
+17	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	12	obl:agent	_	_
+18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
+19	aide	aide	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	médicale	médical	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	urgente	urgent	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	Entity=c89)
+22	pour	pour	ADP	_	_	23	case	_	_
+23	crise	crise	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	Entity=(c90--1
+24	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
+25	épilepsie	épilepsie	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	inaugural	inaugural	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	Entity=c90)
+27	et	et	CCONJ	_	_	35	cc	_	_
+28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	Entity=(c70--2|SpaceAfter=No
+29	électroencéphalogramme	électroencéphalogramme	NOUN	_	Gender=Masc|Number=Sing	35	nsubj	_	_
+30	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	acl	_	_
+31-32	aux	_	_	_	_	_	_	_	_
+31	à	à	ADP	_	_	33	case	_	_
+32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	Entity=(c33--2
+33	urgences	urgence	NOUN	_	Gender=Fem|Number=Plur	30	obl:mod	_	Entity=c33)c70)
+34	ne	ne	ADV	_	Polarity=Neg	35	advmod	_	_
+35	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+36	pas	pas	ADV	_	Polarity=Neg	35	advmod	_	_
+37	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	38	det	_	_
+38	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	Entity=(c66--1
+39	comitial	comitial	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	Entity=c66)|SpaceAfter=No
+40	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Un traitement à base d'acide valproique fut instauré.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c91--2
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	à	à	ADP	_	_	4	case	_	_
+4	base	base	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+6	acide	acide	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	Entity=(c92--1
+7	valproique	valproique	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	Entity=c92)c91)
+8	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	instauré	instaurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Actuellement, l'enfant est scolarisée dans une institution spécialisée, elle présente un retard scolaire et est toujours traitée par bêtabloquant et antiépileptique.
+1	Actuellement	actuellement	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Entity=(c1--2|SpaceAfter=No
+4	enfant	enfant	NOUN	_	Number=Sing	6	nsubj:pass	_	Entity=c1)
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	scolarisée	scolariser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	dans	dans	ADP	_	_	9	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c93--2
+9	institution	institution	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	_
+10	spécialisée	spécialisé	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Entity=c93)|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Entity=(c1--1)
+13	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c94--2
+15	retard	retard	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	scolaire	scolaire	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Entity=c94)
+17	et	et	CCONJ	_	_	20	cc	_	_
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+19	toujours	toujours	ADV	_	_	20	advmod	_	_
+20	traitée	traiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	conj	_	_
+21	par	par	ADP	_	_	22	case	_	_
+22	bêtabloquant	bêtabloquant	NOUN	_	Gender=Masc|Number=Sing	20	obl:agent	_	Entity=(c95--1(c96--1)
+23	et	et	CCONJ	_	_	24	cc	_	_
+24	antiépileptique	antiépileptique	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	Entity=c95)|SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = L'enquête familiale faite aux urgences révèle une mère porteuse d'une double mutation génétique au niveau du gène HERG et du gène KCNQ1.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c97--2|SpaceAfter=No
+2	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	familiale	familial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	faite	faire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	aux	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(c33--2
+7	urgences	urgence	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	Entity=c33)c97)
+8	révèle	révéler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c98--2
+10	mère	mère	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	porteuse	porteux	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c99--3
+14	double	double	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	mutation	mutation	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	_
+16	génétique	génétique	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	au	_	_	_	_	_	_	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(c100--2
+19	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+20-21	du	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(c101--2
+22	gène	gène	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	HERG	HERG	PROPN	_	_	22	appos	_	Entity=c101)c100)
+24	et	et	CCONJ	_	_	27	cc	_	_
+25-26	du	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	Entity=(c102--2
+27	gène	gène	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
+28	KCNQ1	KCNQ1	PROPN	_	_	27	appos	_	Entity=c102)c99)c98)|SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Elle est traitée par bêtabloquant et porte un stimulateur cardiaque.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	Entity=(c98--1)
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	traitée	traiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	par	par	ADP	_	_	5	case	_	_
+5	bêtabloquant	bêtabloquant	NOUN	_	Gender=Masc|Number=Sing	3	obl:agent	_	Entity=(c96--1)
+6	et	et	CCONJ	_	_	7	cc	_	_
+7	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(c103--2
+9	stimulateur	stimulateur	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	cardiaque	cardiaque	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Entity=c103)|SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = La sœur du nourrisson porte également une des mutations de la mère: elle est positive pour la mutation au niveau du gène HERG, négative pour le gène KCNQ1, elle est traitée par bêtabloquant.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c104--2
+2	sœur	sœur	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c1--2
+5	nourrisson	nourrisson	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=c1)c104)
+6	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	également	également	ADV	_	_	6	advmod	_	_
+8	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	6	obj	_	_
+9-10	des	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	Entity=(c99--2
+11	mutations	mutation	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c98--2
+14	mère	mère	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=c98)c99)|SpaceAfter=No
+15	:	:	PUNCT	_	_	18	punct	_	_
+16	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	Entity=(c104--1)
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	positive	positif	ADJ	_	Gender=Fem|Number=Sing	6	parataxis	_	_
+19	pour	pour	ADP	_	_	21	case	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	Entity=(c99--2
+21	mutation	mutation	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
+22-23	au	_	_	_	_	_	_	_	_
+22	à	à	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(c105--2
+24	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	du	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	Entity=(c101--2
+27	gène	gène	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	HERG	HERG	PROPN	_	_	27	appos	_	Entity=c101)c105)c99)|SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	18	conj	_	_
+31	pour	pour	ADP	_	_	33	case	_	_
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	Entity=(c102--2
+33	gène	gène	NOUN	_	Gender=Masc|Number=Sing	30	obl:mod	_	_
+34	KCNQ1	KCNQ1	X	_	_	33	appos	_	Entity=c102)|SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	nsubj:pass	_	Entity=(c104--1)
+37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux:pass	_	_
+38	traitée	traiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	_
+39	par	par	ADP	_	_	40	case	_	_
+40	bêtabloquant	bêtabloquant	NOUN	_	Gender=Masc|Number=Sing	38	obl:arg	_	Entity=(c96--1)|SpaceAfter=No
+41	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = La tante maternelle du nourrisson est porteuse d'une double mutation.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c106--2
+2	tante	tante	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	maternelle	maternel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c1--2
+6	nourrisson	nourrisson	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=c1)c106)
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	porteuse	porteux	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+9	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c107--3
+11	double	double	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	mutation	mutation	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	Entity=c107)|SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Elle a bénéficié d'une sympathectomie urgente à Milan, elle porte un défibrillateur, et elle est traitée par bêtabloquant et vérapamil.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Entity=(c106--1)
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c108--2
+6	sympathectomie	sympathectomie	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+7	urgente	urgent	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	Entity=c108)
+8	à	à	ADP	_	_	9	case	_	_
+9	Milan	Milan	PROPN	_	_	3	obl:mod	_	Entity=(c109--1)|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Entity=(c106--1)
+12	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(c86--2
+14	défibrillateur	défibrillateur	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	Entity=c86)|SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	et	et	CCONJ	_	_	19	cc	_	_
+17	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	Entity=(c106--1)
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	traitée	traiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+20	par	par	ADP	_	_	21	case	_	_
+21	bêtabloquant	bêtabloquant	NOUN	_	Gender=Masc|Number=Sing	19	obl:agent	_	Entity=(c110--1(c96--1)
+22	et	et	CCONJ	_	_	23	cc	_	_
+23	vérapamil	vérapamil	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	Entity=(c111--1)c110)|SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = Les 2 grands-parents maternels sont génétiquement positifs mais ne sont pas traités.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(c112--3
+2	2	2	NUM	_	Number=Plur	3	nummod	_	_
+3	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	maternels	maternel	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	Entity=c112)
+5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	génétiquement	génétiquement	ADV	_	_	7	advmod	_	_
+7	positifs	positif	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+8	mais	mais	CCONJ	_	_	12	cc	_	_
+9	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	_
+10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
+12	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+

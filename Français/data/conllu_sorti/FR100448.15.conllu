@@ -1,0 +1,430 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Mme G.B âgée de 51 ans, une femme nord-africaine, sans antécédents particuliers et qui a présenté une dysphonie concomitante à l'apparition d'une masse cervicale droite.
+1	Mme	mme	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Entity=(c1--1
+2	G.B	G.B	NOUN	_	_	1	appos	_	Entity=c1)
+3	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	51	51	NUM	_	Number=Plur	6	nummod	_	Entity=(c2--2
+6	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	Entity=c2)|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	femme	femme	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+10	nord-africaine	nord-africain	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	sans	sans	ADP	_	_	13	case	_	_
+13	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	Entity=(c3--1
+14	particuliers	particulier	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	Entity=c3)
+15	et	et	CCONJ	_	_	18	cc	_	_
+16	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	Entity=(c1--1)
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
+18	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	conj	_	_
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(c4--2
+20	dysphonie	dysphonie	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21	concomitante	concomitant	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	à	à	ADP	_	_	24	case	_	_
+23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Entity=(c5--2|SpaceAfter=No
+24	apparition	apparition	NOUN	_	Gender=Fem|Number=Sing	21	obl:arg	_	_
+25	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(c6--2
+27	masse	masse	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28	cervicale	cervical	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
+29	droite	droit	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	Entity=c6)c5)c4)|SpaceAfter=No
+30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'examen clinique initial trouve une tuméfaction dure, bien limitée et légèrement douloureuse au niveau du lobe gauche de la thyroïde.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c7--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	initial	initial	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c7)
+5	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c8--2
+7	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	dure	dur	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	bien	bien	ADV	_	_	11	advmod	_	_
+11	limitée	limité	ADJ	_	Gender=Fem|Number=Sing	8	conj	_	_
+12	et	et	CCONJ	_	_	14	cc	_	_
+13	légèrement	légèrement	ADV	_	_	14	advmod	_	_
+14	douloureuse	douloureux	ADJ	_	Gender=Fem|Number=Sing	8	conj	_	Entity=c8)
+15-16	au	_	_	_	_	_	_	_	_
+15	à	à	ADP	_	_	17	case	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c9--2
+17	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+18-19	du	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(c10--2
+20	lobe	lobe	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	Entity=(c11--2
+24	thyroïde	thyroïde	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	Entity=c11)c10)c9)|SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Le reste de l'examen clinique est sans particularités.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c12--2
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Entity=(c13--2|SpaceAfter=No
+5	examen	examen	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c13)c12)
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	sans	sans	ADP	_	_	9	case	_	_
+9	particularités	particularité	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Entity=(c14--1)|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Il n'y'avait pas de signes cliniques ou biologiques de dysthyroïde.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	5	expl:comp	_	SpaceAfter=No
+4	'	'	ADV	_	_	5	expl:comp	_	SpaceAfter=No
+5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
+7	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	signes	signe	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	Entity=(c15--1
+9	cliniques	clinique	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	ou	ou	CCONJ	_	_	11	cc	_	_
+11	biologiques	biologique	ADJ	_	Gender=Masc|Number=Plur	9	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	dysthyroïde	dysthyroïde	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Entity=(c16--1)c15)|SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Une échotomographie thyroïdienne a montré la présence d'un nodule occupant les deux tiers inférieurs du lobe gauche très hypo échogéne, hétérogène, bien limité, hyper vascularisé mesurant 18\21\27 mm, classé TIRADS 4b.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c17--2
+2	échotomographie	échotomographie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	thyroïdienne	thyroïdien	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c17)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c18--2
+7	présence	présence	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c19--2
+10	nodule	nodule	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	occupant	occuper	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	Entity=(c20--3
+13	deux	deux	NUM	_	Number=Plur	14	nummod	_	_
+14	tiers	tiers	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+15	inférieurs	inférieur	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16-17	du	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(c10--2
+18	lobe	lobe	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+19	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	Entity=c10)c20)
+20	très	très	ADV	_	_	21	advmod	_	_
+21	hypo	hypo	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+22	échogéne	échogéne	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	hétérogène	hétérogène	ADJ	_	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	bien	bien	ADV	_	_	27	advmod	_	_
+27	limité	limité	ADJ	_	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	hyper	hyper	ADV	_	_	30	advmod	_	_
+30	vascularisé	vascularisé	ADJ	_	Gender=Masc|Number=Sing	21	conj	_	_
+31	mesurant	mesurer	VERB	_	Tense=Pres|VerbForm=Part	30	advcl	_	_
+32	18\21\27	18\21\27	NUM	_	Number=Plur	33	nummod	_	Entity=(c21--2
+33	mm	mm	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	Entity=c21)|SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	conj	_	_
+36	TIRADS	TIRADS	PROPN	_	_	35	xcomp	_	_
+37	4b	4b	X	_	_	36	nmod	_	Entity=c19)c18)|SpaceAfter=No
+38	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Une hémi thyroïdectomie gauche a été réalisée.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c22--2
+2	hémi	hémi	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	thyroïdectomie	thyroïdectomie	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+4	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	Entity=c22)
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = L'examen anatomopathologique de la pièce opératoire trouve un adénocarcinome moyennement différencié.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c23--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	anatomopathologique	anatomopathologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c24--2
+6	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	opératoire	opératoire	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	Entity=c24)c23)
+8	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c25--2
+10	adénocarcinome	adénocarcinome	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	moyennement	moyennement	ADV	_	_	12	advmod	_	_
+12	différencié	différencier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Entity=c25)|SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = L'immuno histochimie est en faveur d'une origine pulmonaire avec des anticorps anti CK7 positifs, anticorps anti CK20 négatifs, anticorps anti TTF1 positifs, anticorps anti NAPSIN A positifs et anticorps anti thyroglobuline négatifs.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c26--2|SpaceAfter=No
+2	immuno	immuno	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	histochimie	histochimie	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	Entity=c26)
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c27--2
+9	origine	origine	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Entity=c27)
+11	avec	avec	ADP	_	_	14	case	_	_
+12-13	des	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	det	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	Entity=(c28--2(c29--2
+14	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+15	anti	anti	ADP	_	_	16	case	_	_
+16	CK7	CK7	X	_	_	14	nmod	_	Entity=(c30--1)
+17	positifs	positif	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	Entity=c29)|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	Entity=(c31--1
+20	anti	anti	ADP	_	_	21	case	_	_
+21	CK20	CK20	X	_	_	19	nmod	_	Entity=(c32--1)
+22	négatifs	négatif	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	Entity=c31)|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	Entity=(c33--1
+25	anti	anti	ADP	_	_	26	case	_	_
+26	TTF1	TTF1	X	_	_	24	nmod	_	Entity=c33)
+27	positifs	positif	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	Entity=c28)|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	Entity=(c34--1
+30	anti	anti	ADP	_	_	31	case	_	_
+31	NAPSIN	NAPSIN	PROPN	_	_	29	nmod	_	Entity=(c35--1
+32	A	A	X	_	_	31	flat:name	_	Entity=c35)
+33	positifs	positif	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	Entity=c34)
+34	et	et	CCONJ	_	_	35	cc	_	_
+35	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	Entity=(c36--1
+36	anti	anti	ADP	_	_	37	case	_	_
+37	thyroglobuline	thyroglobuline	X	_	Foreign=Yes	35	nmod	_	Entity=(c37--1)
+38	négatifs	négatif	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	Entity=c36)|SpaceAfter=No
+39	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Le scanner cervico-thoraco-abdomino-pelvien montre l'existence d'une masse de densité tissulaire et à contours irréguliers au niveau du Fowler droit mesurant 40\50 mm ainsi qu'une adénopathie hilaire homolatérale.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c38--2
+2	scanner	scanner	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	cervico-thoraco-abdomino-pelvien	cervico-thoraco-abdomino-pelvien	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c38)
+4	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Entity=(c39--2|SpaceAfter=No
+6	existence	existence	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c6--2
+9	masse	masse	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	densité	densité	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Entity=(c40--1
+12	tissulaire	tissulaire	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	et	et	CCONJ	_	_	15	cc	_	_
+14	à	à	ADP	_	_	15	case	_	_
+15	contours	contour	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	Entity=(c41--1
+16	irréguliers	irrégulier	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	Entity=c41)c40)
+17-18	au	_	_	_	_	_	_	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(c42--2
+19	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+20-21	du	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(c43--2
+22	Fowler	Fowler	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	droit	droit	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	Entity=c43)c42)
+24	mesurant	mesurer	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
+25	40\50	40\50	NUM	_	Number=Plur	26	nummod	_	Entity=(c44--2
+26	mm	mm	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	Entity=c44)c6)
+27	ainsi	ainsi	ADV	_	_	30	cc	_	_
+28	qu'	que	SCONJ	_	_	27	fixed	_	SpaceAfter=No
+29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	Entity=(c45--2
+30	adénopathie	adénopathie	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+31	hilaire	hilaire	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
+32	homolatérale	homolatéral	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	Entity=c45)c39)|SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = La tomographie par émission de positron confirme la présence de la masse pulmonaire droite sur un foyer hyper métabolique (SUV max 7,54;
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c46--2
+2	tomographie	tomographie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	par	par	ADP	_	_	4	case	_	_
+4	émission	émission	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=(c47--1
+5	de	de	ADP	_	_	6	case	_	_
+6	positron	positron	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	Entity=c47)c46)
+7	confirme	confirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c48--2
+9	présence	présence	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c49--2
+12	masse	masse	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	droite	droit	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	Entity=c49)
+15	sur	sur	ADP	_	_	17	case	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c50--2
+17	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+18	hyper	hyper	ADV	_	_	19	advmod	_	_
+19	métabolique	métabolique	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	Entity=c50)c48)
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	SUV	SUV	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	Entity=(c51--1
+22	max	max	NOUN	_	_	21	nmod	_	_
+23	7,54	7,54	NUM	_	Number=Plur	21	nmod	_	Entity=c51)|SpaceAfter=No
+24	;	;	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 11
+# text = Volume métabolique 17,68 cm3).
+1	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Entity=(c52--1
+2	métabolique	métabolique	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	17,68	17,68	NUM	_	Number=Plur	4	nummod	_	_
+4	cm3	cm3	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	Entity=c52)|SpaceAfter=No
+5	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Le TEP scanner a également permis d'objectiver la présence d'un hyper métabolisme hilaire droit (SUV max 5,56) et d'une adénopathie hyper métabolique sous carinaire (SUV max 4,35) ainsi qu'un foyer hyper métabolique du trochanter fémoral droit (SUV max 4,33).
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c38--2
+2	TEP	TEP	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	scanner	scanner	X	_	Gender=Masc|Number=Sing	2	appos	_	Entity=c38)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	également	également	ADV	_	_	6	advmod	_	_
+6	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	d'	de	ADP	_	_	8	mark	_	SpaceAfter=No
+8	objectiver	objectiver	VERB	_	VerbForm=Inf	6	ccomp	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c53--2
+10	présence	présence	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(c54--3
+13	hyper	hyper	ADJ	_	_	14	amod	_	_
+14	métabolisme	métabolisme	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+15	hilaire	hilaire	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	droit	droit	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	Entity=c54)c53)
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	SUV	SUV	PROPN	_	_	14	appos	_	Entity=(c55--1
+19	max	max	NOUN	_	_	18	nmod	_	_
+20	5,56	5,56	NUM	_	Number=Plur	18	nmod	_	Entity=c55)|SpaceAfter=No
+21	)	)	PUNCT	_	_	18	punct	_	_
+22	et	et	CCONJ	_	_	25	cc	_	_
+23	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(c56--2
+25	adénopathie	adénopathie	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+26	hyper	hyper	ADV	_	_	27	advmod	_	_
+27	métabolique	métabolique	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+28	sous	sous	ADP	_	_	29	case	_	_
+29	carinaire	carinaire	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	Entity=c56)
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	SUV	SUV	NOUN	_	_	25	appos	_	Entity=(c57--1
+32	max	max	NOUN	_	_	31	nmod	_	_
+33	4,35	4,35	NUM	_	Number=Plur	31	nmod	_	Entity=c57)|SpaceAfter=No
+34	)	)	PUNCT	_	_	31	punct	_	_
+35	ainsi	ainsi	ADV	_	_	38	cc	_	_
+36	qu'	que	SCONJ	_	_	35	fixed	_	SpaceAfter=No
+37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	Entity=(c58--2
+38	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+39	hyper	hyper	ADV	_	_	40	advmod	_	_
+40	métabolique	métabolique	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+41-42	du	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	Entity=(c59--2
+43	trochanter	trochanter	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
+44	fémoral	fémoral	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	_
+45	droit	droit	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	Entity=c59)c58)
+46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
+47	SUV	SUV	PROPN	_	_	38	appos	_	Entity=(c60--1
+48	max	max	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	_
+49	4,33	4,33	NUM	_	Number=Plur	47	nmod	_	Entity=c60)|SpaceAfter=No
+50	)	)	PUNCT	_	_	47	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Au niveau cervical le TEP scanner montre un foyer hyper métabolique de la loge thyroïdienne postérieur gauche (SUV max 3,59) compatible avec une récidive ou une maladie néoplasique résiduelle.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(c61--2
+3	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+4	cervical	cervical	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	Entity=c61)
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c38--2
+6	TEP	TEP	X	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	scanner	scanner	X	_	Gender=Masc|Number=Sing	6	appos	_	Entity=c38)
+8	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c62--2
+10	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	hyper	hyper	ADV	_	_	12	advmod	_	_
+12	métabolique	métabolique	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c63--2
+15	loge	loge	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+16	thyroïdienne	thyroïdien	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	postérieur	postérieur	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+18	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	Entity=c63)c62)
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	SUV	SUV	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	Entity=(c64--1
+21	max	max	NOUN	_	_	20	nmod	_	_
+22	3,59	3,59	NUM	_	Number=Plur	20	nmod	_	Entity=c64)|SpaceAfter=No
+23	)	)	PUNCT	_	_	20	punct	_	_
+24	compatible	compatible	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+25	avec	avec	ADP	_	_	27	case	_	_
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(c65--2(c66--2
+27	récidive	récidive	NOUN	_	Gender=Fem|Number=Sing	24	obl:arg	_	Entity=c66)
+28	ou	ou	CCONJ	_	_	30	cc	_	_
+29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	Entity=(c67--2
+30	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
+31	néoplasique	néoplasique	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
+32	résiduelle	résiduel	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	Entity=c67)c65)|SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Devant ce bilan d'extension positif confirmant la dissémination métastatique de la maladie, une chimiothérapie à base de Paclitaxel, Carboplatine et Bevacizumab est débutée.
+1	Devant	devant	ADP	_	_	3	case	_	_
+2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Entity=(c68--2
+3	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	_
+4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+5	extension	extension	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	positif	positif	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+7	confirmant	confirmer	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c69--2
+9	dissémination	dissémination	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	métastatique	métastatique	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(c16--2
+13	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Entity=c16)c69)|SpaceAfter=No
+14	,	,	PUNCT	_	_	3	punct	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c70--2
+16	chimiothérapie	chimiothérapie	NOUN	_	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+17	à	à	ADP	_	_	18	case	_	_
+18	base	base	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Paclitaxel	Paclitaxel	PROPN	_	_	18	nmod	_	Entity=(c71--1)|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Carboplatine	Carboplatine	PROPN	_	_	20	conj	_	Entity=(c72--1)
+23	et	et	CCONJ	_	_	24	cc	_	_
+24	Bevacizumab	Bevacizumab	PROPN	_	_	20	conj	_	Entity=(c73--1)c70)c68)
+25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	débutée	débuter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = L'évaluation après 4 cures est en faveur d'une stabilité radiologique avec amélioration des symptômes.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c74--2|SpaceAfter=No
+2	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	après	après	ADP	_	_	5	case	_	_
+4	4	4	NUM	_	Number=Plur	5	nummod	_	Entity=(c75--2
+5	cures	cure	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	Entity=c75)c74)
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(c76--2
+11	stabilité	stabilité	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	radiologique	radiologique	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	Entity=c76)
+13	avec	avec	ADP	_	_	14	case	_	_
+14	amélioration	amélioration	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=(c77--1
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(c78--2
+17	symptômes	symptôme	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	Entity=c78)c77)|SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+

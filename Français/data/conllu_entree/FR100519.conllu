@@ -1,0 +1,678 @@
+# newdoc id = FR100519
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agit d'une patiente de 35 ans, sans antécédent pathologique particulier connu, admise en réanimation pour suspicion d'embolie pulmonaire.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	35	35	NUM	_	Number=Plur	9	nummod	_	_
+9	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	sans	sans	ADP	_	_	12	case	_	_
+12	antécédent	antécédent	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+13	pathologique	pathologique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+15	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	admise	admettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+18	en	en	ADP	_	_	19	case	_	_
+19	réanimation	réanimation	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
+20	pour	pour	ADP	_	_	21	case	_	_
+21	suspicion	suspicion	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
+22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
+23	embolie	embolie	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Elle avait été admise aux urgences chirurgicales 20 jours plus tôt, pour fracture isolée des plateaux tibiaux droits traitée par un plâtre circulaire cruro-pédieux, sans anticoagulation préventive.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	admise	admettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	aux	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	urgences	urgence	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	_
+8	chirurgicales	chirurgical	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+9	20	20	NUM	_	Number=Plur	10	nummod	_	_
+10	jours	jour	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	_
+11	plus	plus	ADV	_	_	12	advmod	_	_
+12	tôt	tôt	ADV	_	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	pour	pour	ADP	_	_	15	case	_	_
+15	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
+16	isolée	isoler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
+17-18	des	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	plateaux	plateau	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+20	tibiaux	tibial	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	droits	droit	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+22	traitée	traiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
+23	par	par	ADP	_	_	25	case	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	plâtre	plâtre	NOUN	_	Gender=Masc|Number=Sing	22	obl:agent	_	_
+26	circulaire	circulaire	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	cruro-pédieux	cruro-pédieux	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	sans	sans	ADP	_	_	30	case	_	_
+30	anticoagulation	anticoagulation	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	_
+31	préventive	préventif	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'évolution a été marquée deux semaines plus tard, par la survenue de douleur du membre associée à une tuméfaction ayant motivé l'ablation du plâtre.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	marquée	marquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	deux	deux	NUM	_	Number=Plur	7	nummod	_	_
+7	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
+8	plus	plus	ADV	_	_	9	advmod	_	_
+9	tard	tard	ADV	_	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	par	par	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	survenue	survenue	NOUN	_	Gender=Fem|Number=Sing	5	obl:agent	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	du	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	membre	membre	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
+20	à	à	ADP	_	_	22	case	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	tuméfaction	tuméfaction	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
+23	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	24	aux:tense	_	_
+24	motivé	motiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	acl	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	ablation	ablation	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27-28	du	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	plâtre	plâtre	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Une immobilisation par attelle a été alors réalisée.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	immobilisation	immobilisation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	par	par	ADP	_	_	4	case	_	_
+4	attelle	attelle	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+7	alors	alors	ADV	_	_	8	advmod	_	_
+8	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = La patiente n'a pas non plus été mise sous anticoagulant.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+5	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
+6	non	non	ADV	_	Polarity=Neg	9	advmod	_	_
+7	plus	plus	ADV	_	_	6	fixed	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	sous	sous	ADP	_	_	11	case	_	_
+11	anticoagulant	anticoagulant	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Une semaine plus tard, devant l'apparition de douleurs basithoraciques droites d'intensité croissante accompagnées de dyspnée et de fièvre, elle a été hospitalisée dans une structure privée pendant deux jours avant d'être transférée en réanimation après un traitement à base de paracétamol, métamisole et ceftriaxone.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
+3	plus	plus	ADV	_	_	4	advmod	_	_
+4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	devant	devant	ADP	_	_	8	case	_	_
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	apparition	apparition	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+11	basithoraciques	basithoracique	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+12	droites	droit	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+14	intensité	intensité	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+15	croissante	croissant	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	accompagnées	accompagner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	dyspnée	dyspnée	NOUN	_	Gender=Fem|Number=Sing	16	obl:arg	_	_
+19	et	et	CCONJ	_	_	21	cc	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	fièvre	fièvre	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	8	punct	_	_
+23	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj:pass	_	_
+24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
+25	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	hospitalisée	hospitaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+27	dans	dans	ADP	_	_	29	case	_	_
+28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	structure	structure	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
+30	privée	privé	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+31	pendant	pendant	ADP	_	_	33	case	_	_
+32	deux	deux	NUM	_	Number=Plur	33	nummod	_	_
+33	jours	jour	NOUN	_	Gender=Masc|Number=Plur	26	obl:mod	_	_
+34	avant	avant	ADV	_	_	26	advmod	_	_
+35	d'	de	ADP	_	_	37	mark	_	SpaceAfter=No
+36	être	être	AUX	_	VerbForm=Inf	37	aux:pass	_	_
+37	transférée	transférer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	xcomp	_	_
+38	en	en	ADP	_	_	39	case	_	_
+39	réanimation	réanimation	NOUN	_	Gender=Fem|Number=Sing	37	obl:mod	_	_
+40	après	après	ADP	_	_	42	case	_	_
+41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	37	obl:mod	_	_
+43	à	à	ADP	_	_	44	case	_	_
+44	base	base	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	paracétamol	paracétamol	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	métamisole	métamisole	NOUN	_	Gender=Masc|Number=Sing	46	conj	_	_
+49	et	et	CCONJ	_	_	50	cc	_	_
+50	ceftriaxone	ceftriaxone	NOUN	_	Gender=Masc|Number=Sing	46	conj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = A l'entrée en réanimation, elle a bénéficié d'une oxygénothérapie, une anticoagulation à dose curative (Enoxaparine 4000 UI 2 fois/jour), une analgésie (Paracétamol et Tramadol) et une antibiothérapie (Amoxicilline-Acide clavulanique).
+1	A	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	réanimation	réanimation	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	oxygénothérapie	oxygénothérapie	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	anticoagulation	anticoagulation	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+16	à	à	ADP	_	_	17	case	_	_
+17	dose	dose	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	curative	curatif	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Enoxaparine	Enoxaparine	PROPN	_	_	15	appos	_	_
+21	4000	4000	NUM	_	Number=Plur	22	nummod	_	_
+22	UI	UI	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+23	2	2	NUM	_	Number=Plur	24	nummod	_	_
+24	fois	fois	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+25	/	/	SYM	_	_	26	case	_	SpaceAfter=No
+26	jour	jour	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	analgésie	analgésie	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	Paracétamol	Paracétamol	PROPN	_	_	30	appos	_	_
+33	et	et	CCONJ	_	_	34	cc	_	_
+34	Tramadol	Tramadol	PROPN	_	_	32	conj	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	32	punct	_	_
+36	et	et	CCONJ	_	_	38	cc	_	_
+37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	antibiothérapie	antibiothérapie	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	Amoxicilline-Acide	Amoxicilline-Acide	PROPN	_	_	38	appos	_	_
+41	clavulanique	clavulanique	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Le bilan à l'admission a permis de suspecter une embolie pulmonaire devant: une élévation des D-Dimères (3547,94 ng/ml), une opacité dense homogène sans bronchogramme aérien occupant le tiers inferieur du champ pulmonaire droit à la radiographie pulmonaire et un aspect S1Q3T3 à l'ECG.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	à	à	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	admission	admission	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+7	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	suspecter	suspecter	VERB	_	VerbForm=Inf	7	ccomp	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	embolie	embolie	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	devant	devant	ADV	_	_	11	advmod	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	16	punct	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	élévation	élévation	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	_
+17-18	des	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	D-Dimères	D-Dimères	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	3547,94	3547,94	NUM	_	Number=Plur	22	nummod	_	_
+22	ng	ng	NOUN	_	Gender=Masc|Number=Plur	16	appos	_	SpaceAfter=No
+23	/	/	SYM	_	_	24	case	_	SpaceAfter=No
+24	ml	ml	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	opacité	opacité	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+29	dense	dense	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	homogène	homogène	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+31	sans	sans	ADP	_	_	32	case	_	_
+32	bronchogramme	bronchogramme	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+33	aérien	aérien	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
+34	occupant	occuper	VERB	_	Tense=Pres|VerbForm=Part	28	acl	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	tiers	tiers	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
+37	inferieur	inferieur	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+38-39	du	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	champ	champ	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+41	pulmonaire	pulmonaire	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
+42	droit	droit	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+43	à	à	ADP	_	_	45	case	_	_
+44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	42	obl:arg	_	_
+46	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	45	amod	_	_
+47	et	et	CCONJ	_	_	49	cc	_	_
+48	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
+50	S1Q3T3	S1Q3T3	X	_	_	49	appos	_	_
+51	à	à	ADP	_	_	53	case	_	_
+52	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	53	det	_	SpaceAfter=No
+53	ECG	ECG	NOUN	_	Number=Sing	49	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'angioscanner thoracique réalisé au deuxième jour d'hospitalisation a confirmé l'embolie pulmonaire.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	angioscanner	angioscanner	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	thoracique	thoracique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	au	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	8	case	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	jour	jour	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
+10	hospitalisation	hospitalisation	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	confirmé	confirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	embolie	embolie	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = L'échodoppler veineux du membre inférieur droit a mis en évidence une thrombose veineuse profonde de la fémorale superficielle.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	échodoppler	échodoppler	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	veineux	veineux	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	membre	membre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	inférieur	inférieur	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	droit	droit	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	en	en	ADP	_	_	12	case	_	_
+12	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	thrombose	thrombose	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+15	veineuse	veineux	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	profonde	profond	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fémorale	fémorale	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+20	superficielle	superficiel	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Le diagnostic d'embolie pulmonaire compliquant une thrombophlébite du membre pelvien droit a alors été retenue.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
+4	embolie	embolie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	compliquant	compliquer	VERB	_	Tense=Pres|VerbForm=Part	4	acl	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	thrombophlébite	thrombophlébite	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	membre	membre	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	pelvien	pelvien	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	droit	droit	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
+15	alors	alors	ADV	_	_	17	advmod	_	_
+16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	retenue	retenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'héparinothérapie avec l'enoxaparine a été poursuivie associée au Fluindione 20 mg/jour.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	héparinothérapie	héparinothérapie	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	avec	avec	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	enoxaparine	enoxaparine	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	poursuivie	poursuivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+10-11	au	_	_	_	_	_	_	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Fluindione	Fluindione	PROPN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
+13	20	20	NUM	_	Number=Plur	14	nummod	_	_
+14	mg	mg	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	/	/	SYM	_	_	16	case	_	SpaceAfter=No
+16	jour	jour	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = L'arrêt de l'enoxaparine est décidé au cinquième jour de l'association enoxaparine-fluindione (INR à 2,10).
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	enoxaparine	enoxaparine	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8-9	au	_	_	_	_	_	_	_	_
+8	à	à	ADP	_	_	11	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	cinquième	cinquième	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	jour	jour	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	association	association	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	enoxaparine-fluindione	enoxaparine-fluindione	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	INR	INR	NOUN	_	_	14	appos	_	_
+18	à	à	ADP	_	_	19	case	_	_
+19	2,10	2,10	NUM	_	Number=Plur	17	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Au sixième jour d'anticoagulation par le Fluindione seul, il est apparu une douleur à l'hypocondre droit à type de pesanteur inhibant l'inspiration profonde.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	4	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	sixième	sixième	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	jour	jour	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
+5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+6	anticoagulation	anticoagulation	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	par	par	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Fluindione	Fluindione	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	seul	seul	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
+14	apparu	apparaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	hypocondre	hypocondre	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	droit	droit	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	à	à	ADP	_	_	22	case	_	_
+22	type	type	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	pesanteur	pesanteur	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	inhibant	inhiber	VERB	_	Tense=Pres|VerbForm=Part	22	acl	_	_
+26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	inspiration	inspiration	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	profonde	profond	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Une échographie abdominale réalisée a objectivé un important hématome extra capsulaire du foie.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+6	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	important	important	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+9	hématome	hématome	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10	extra	extra	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+11	capsulaire	capsulaire	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	du	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	foie	foie	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = La patiente a présenté un état de choc hémorragique au septième jour.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	état	état	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	choc	choc	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	hémorragique	hémorragique	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	au	_	_	_	_	_	_	_	_
+10	à	à	ADP	_	_	13	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	septième	septième	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	jour	jour	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = A l'hémogramme on retrouvait une déglobulisation (hémoglobine à 8,4 g/dL, contre 11, 6 g/dL la veille), le bilan de la coagulation était normal (INR à 2,84).
+1	A	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	hémogramme	hémogramme	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+4	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
+5	retrouvait	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	déglobulisation	déglobulisation	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	hémoglobine	hémoglobine	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	8,4	8,4	NUM	_	Number=Plur	12	nummod	_	_
+12	g	g	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	/	/	SYM	_	_	14	case	_	SpaceAfter=No
+14	dL	dL	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	contre	contre	ADP	_	_	20	case	_	_
+17	11	11	NUM	_	Number=Plur	20	nummod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	6	6	NUM	_	Number=Plur	17	conj	_	_
+20	g	g	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+21	/	/	SYM	_	_	22	case	_	SpaceAfter=No
+22	dL	dL	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	veille	veille	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	33	punct	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	coagulation	coagulation	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	_
+33	normal	normal	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	INR	INR	NOUN	_	_	33	parataxis	_	_
+36	à	à	ADP	_	_	37	case	_	_
+37	2,84	2,84	NUM	_	Number=Plur	35	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Un remplissage vasculaire a été fait (500 mL de macromolécule) associé à une transfusion sanguine (deux poches de concentré de globule rouge) et de 3 poches de plasma frais congelé (PFC).
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	remplissage	remplissage	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	vasculaire	vasculaire	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	500	500	NUM	_	Number=Plur	9	nummod	_	_
+9	mL	mL	NOUN	_	Gender=Masc|Number=Plur	6	parataxis	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	macromolécule	macromolécule	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	9	punct	_	_
+13	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	transfusion	transfusion	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	_
+17	sanguine	sanguin	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	deux	deux	NUM	_	Number=Plur	20	nummod	_	_
+20	poches	poche	NOUN	_	Gender=Fem|Number=Plur	16	appos	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	concentré	concentré	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	globule	globule	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25	rouge	rouge	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	20	punct	_	_
+27	et	et	CCONJ	_	_	30	cc	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	3	3	NUM	_	Number=Plur	30	nummod	_	_
+30	poches	poche	NOUN	_	Gender=Fem|Number=Plur	16	conj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	plasma	plasma	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+33	frais	frais	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
+34	congelé	congeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	acl	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	PFC	PFC	NOUN	_	_	30	appos	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = L'arrêt de la fluindione a aussi été décidé.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fluindione	fluindione	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+7	aussi	aussi	ADV	_	_	9	advmod	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Devant la persistance de l'anémie malgré une transfusion itérative (6 poches de concentré de globule rouge en cinq jours), une tomodensitométrie (TDM) abdominale réalisée a objectivé un énorme hématome extracapsulaire du foie et un hémopéritoine de grande abondance.
+1	Devant	devant	ADP	_	_	3	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	persistance	persistance	NOUN	_	Gender=Fem|Number=Sing	32	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	anémie	anémie	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	malgré	malgré	ADP	_	_	9	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	transfusion	transfusion	NOUN	_	Gender=Fem|Number=Sing	32	obl:mod	_	_
+10	itérative	itératif	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	6	6	NUM	_	Number=Plur	13	nummod	_	_
+13	poches	poche	NOUN	_	Gender=Fem|Number=Plur	9	appos	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	concentré	concentré	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	globule	globule	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	rouge	rouge	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	en	en	ADP	_	_	21	case	_	_
+20	cinq	cinq	NUM	_	Number=Plur	21	nummod	_	_
+21	jours	jour	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	3	punct	_	_
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	TDM	TDM	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	_
+29	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+30	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	acl	_	_
+31	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:tense	_	_
+32	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	énorme	énorme	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
+35	hématome	hématome	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
+36	extracapsulaire	extracapsulaire	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
+37-38	du	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	foie	foie	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
+40	et	et	CCONJ	_	_	42	cc	_	_
+41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	hémopéritoine	hémopéritoine	NOUN	_	Gender=Masc|Number=Sing	35	conj	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	grande	grand	ADJ	_	Gender=Fem|Number=Sing	45	amod	_	_
+45	abondance	abondance	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = La laparotomie réalisée 48 heures après le diagnostic, a mis en évidence un hémopéritoine de 2,5 L, un important hématome du méso de l'angle colique droit et du colon transverse de 16 cm de grand axe.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	laparotomie	laparotomie	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	48	48	NUM	_	Number=Plur	5	nummod	_	_
+5	heures	heure	NOUN	_	Gender=Fem|Number=Plur	3	obl:mod	_	_
+6	après	après	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	hémopéritoine	hémopéritoine	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	2,5	2,5	NUM	_	Number=Plur	18	nummod	_	_
+18	L	L	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	important	important	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	hématome	hématome	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
+23-24	du	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	méso	méso	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	angle	angle	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29	colique	colique	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	droit	droit	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+31	et	et	CCONJ	_	_	34	cc	_	_
+32-33	du	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	colon	colon	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
+35	transverse	transverse	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	16	16	NUM	_	Number=Plur	38	nummod	_	_
+38	cm	cm	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	grand	grand	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
+41	axe	axe	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Les suites opératoires ont été simples.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	suites	suite	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	opératoires	opératoire	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+6	simples	simple	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+

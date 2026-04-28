@@ -1,0 +1,217 @@
+# newdoc id = FR100453
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agit d'un patient de dix ans, suivi depuis l'âge de deux ans pour un syndrome polymalformatif.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+7	de	de	ADP	_	_	0	case	_	_
+8	dix	dix	NUM	_	Number=Plur	0	nummod	_	_
+9	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	0	punct	_	_
+11	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+12	depuis	depuis	ADP	_	_	0	case	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+14	âge	âge	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+15	de	de	ADP	_	_	0	case	_	_
+16	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+17	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+18	pour	pour	ADP	_	_	0	case	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+20	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+21	polymalformatif	polymalformatif	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Cet enfant, sans antécédents familiaux notables, est né de parents consanguins de deuxième degré.
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	0	det	_	_
+2	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	0	punct	_	_
+4	sans	sans	ADP	_	_	0	case	_	_
+5	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+6	familiaux	familial	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+7	notables	notable	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	0	punct	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+10	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	parents	parent	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	_
+13	consanguins	consanguin	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+16	degré	degré	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'examen clinique a retrouvé un gigantisme des membres supérieurs avec une macrodactylie et une hypertrophie du thorax ainsi qu'une scoliose.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	gigantisme	gigantisme	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+10	membres	membre	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+11	supérieurs	supérieur	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+12	avec	avec	ADP	_	_	0	case	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+14	macrodactylie	macrodactylie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+15	et	et	CCONJ	_	_	0	cc	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+17	hypertrophie	hypertrophie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+20	thorax	thorax	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+21	ainsi	ainsi	ADV	_	_	0	cc	_	_
+22	qu'	que	SCONJ	_	_	0	fixed	_	SpaceAfter=No
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+24	scoliose	scoliose	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Il n'existait pas d'hypertrophie des organes génitaux externes.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+3	existait	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	pas	pas	ADV	_	Polarity=Neg	0	advmod	_	_
+5	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+6	hypertrophie	hypertrophie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+7	de	de	ADP	_	_	0	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+9	organes	organe	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+10	génitaux	génital	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+11	externes	externe	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Par ailleurs, il avait un bon développement psychomoteur, L'examen cardiovasculaire ainsi que l'examen pleuro-pulmonaire étaient sans anomalies.
+1	Par	par	ADP	_	_	0	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	_	0	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	0	punct	_	_
+4	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	bon	bon	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	développement	développement	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+9	psychomoteur	psychomoteur	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	0	punct	_	_
+11	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+12	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+13	cardiovasculaire	cardiovasculaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+14	ainsi	ainsi	ADV	_	_	0	cc	_	_
+15	que	que	SCONJ	_	_	0	fixed	_	_
+16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+17	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+18	pleuro-pulmonaire	pleuro-pulmonaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+19	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+20	sans	sans	ADP	_	_	0	case	_	_
+21	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'examen ophtalmologique n'a pas montré d'anomalie, ainsi que l'échographie doppler abdominal.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	ophtalmologique	ophtalmologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+6	pas	pas	ADV	_	Polarity=Neg	0	advmod	_	_
+7	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+9	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	0	punct	_	_
+11	ainsi	ainsi	ADV	_	_	0	cc	_	_
+12	que	que	SCONJ	_	_	0	fixed	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+14	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+15	doppler	doppler	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+16	abdominal	abdominal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Les radiographies du squelette ont révélé une hypertrophie osseuse.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+2	radiographies	radiographie	NOUN	_	Gender=Fem|Number=Plur	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	squelette	squelette	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+7	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	hypertrophie	hypertrophie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+10	osseuse	osseux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Le syndrome de Protée a été porté devant l'association d'une hypertrophie des membres supérieurs et du thorax ainsi qu'une scoliose.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	Protée	Protée	PROPN	_	_	0	nmod	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+7	porté	porter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	devant	devant	ADP	_	_	0	case	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+10	association	association	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+11	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+13	hypertrophie	hypertrophie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+16	membres	membre	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+17	supérieurs	supérieur	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+18	et	et	CCONJ	_	_	0	cc	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+21	thorax	thorax	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+22	ainsi	ainsi	ADV	_	_	0	cc	_	_
+23	qu'	que	SCONJ	_	_	0	fixed	_	SpaceAfter=No
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+25	scoliose	scoliose	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Ce patient a été hospitalisé à plusieurs reprises pour érysipèle des membres supérieurs et pour thrombose des veines superficielles des membres supérieurs, avec une évolution clinique favorable.
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	0	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+5	hospitalisé	hospitaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	à	à	ADP	_	_	0	case	_	_
+7	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	0	det	_	_
+8	reprises	reprise	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	_
+9	pour	pour	ADP	_	_	0	case	_	_
+10	érysipèle	érysipèle	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+13	membres	membre	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+14	supérieurs	supérieur	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+15	et	et	CCONJ	_	_	0	cc	_	_
+16	pour	pour	ADP	_	_	0	case	_	_
+17	thrombose	thrombose	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+20	veines	veine	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+21	superficielles	superficiel	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+22	de	de	ADP	_	_	0	case	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+24	membres	membre	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+25	supérieurs	supérieur	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	0	punct	_	_
+27	avec	avec	ADP	_	_	0	case	_	_
+28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+29	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+30	clinique	clinique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+31	favorable	favorable	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

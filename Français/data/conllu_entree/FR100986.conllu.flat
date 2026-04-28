@@ -1,0 +1,134 @@
+# newdoc id = FR100986
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nous rapportons le cas d'une découverte fortuite d'une drépanocytose hétérozygote composite SC dans un contexte de décollement rétinien.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+4	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+5	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+8	fortuite	fortuit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+9	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	drépanocytose	drépanocytose	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+12	hétérozygote	hétérozygote	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+13	composite	composite	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+14	SC	SC	PROPN	_	_	0	appos	_	_
+15	dans	dans	ADP	_	_	0	case	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+17	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	décollement	décollement	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+20	rétinien	rétinien	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Il s'agit d'une patiente hospitalisée au service d'ophtalmologie pour une baisse de l'acuité visuelle détectée depuis 06 mois et rebelle au traitement.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+7	hospitalisée	hospitaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+8	à	à	ADP	_	_	0	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	service	service	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+11	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+12	ophtalmologie	ophtalmologie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+13	pour	pour	ADP	_	_	0	case	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+15	baisse	baisse	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+18	acuité	acuité	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+19	visuelle	visuel	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+20	détectée	détecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+21	depuis	depuis	ADP	_	_	0	case	_	_
+22	06	06	NUM	_	Number=Plur	0	nummod	_	_
+23	mois	mois	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+24	et	et	CCONJ	_	_	0	cc	_	_
+25	rebelle	rebelle	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	_
+26	à	à	ADP	_	_	0	case	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+28	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Les antécédents cliniques sont dominés par la mise en place d'une prothèse totale de la hanche (PTH) douze ans auparavant.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+2	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	0	nsubj:pass	_	_
+3	cliniques	clinique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	aux:pass	_	_
+5	dominés	dominer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	par	par	ADP	_	_	0	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	mise	mise	NOUN	_	Gender=Fem|Number=Sing	0	obl:agent	_	_
+9	en	en	ADP	_	_	0	case	_	_
+10	place	place	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+11	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+13	prothèse	prothèse	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+14	totale	total	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+15	de	de	ADP	_	_	0	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+17	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+18	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+19	PTH	PTH	PROPN	_	_	0	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	0	punct	_	_
+21	douze	douze	NUM	_	Number=Plur	0	nummod	_	_
+22	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+23	auparavant	auparavant	ADV	_	_	0	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Notre observation rappelle la grande variabilité clinique de la maladie drépanocytaire imposant un dépistage précoce des patients à risque avec une surveillance clinique adaptée afin d'éviter l'évolution vers des séquelles organiques irréversibles telles que la rétinopathie drépanocytaire.
+1	Notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	0	det	_	_
+2	observation	observation	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+5	grande	grand	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+6	variabilité	variabilité	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+7	clinique	clinique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+10	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+11	drépanocytaire	drépanocytaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+12	imposant	imposer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+14	dépistage	dépistage	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+15	précoce	précoce	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+18	patients	patient	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+19	à	à	ADP	_	_	0	case	_	_
+20	risque	risque	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+21	avec	avec	ADP	_	_	0	case	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+23	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+24	clinique	clinique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+25	adaptée	adapté	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+26	afin	afin	ADV	_	_	0	advmod	_	_
+27	d'	de	ADP	_	_	0	mark	_	SpaceAfter=No
+28	éviter	éviter	VERB	_	VerbForm=Inf	0	ccomp	_	_
+29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+30	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+31	vers	vers	ADP	_	_	0	case	_	_
+32	de	de	ADP	_	_	0	det	_	_
+33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+34	séquelles	séquelle	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+35	organiques	organique	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+36	irréversibles	irréversible	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+37	telles	tel	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+38	que	que	SCONJ	_	_	0	case	_	_
+39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+40	rétinopathie	rétinopathie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+41	drépanocytaire	drépanocytaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

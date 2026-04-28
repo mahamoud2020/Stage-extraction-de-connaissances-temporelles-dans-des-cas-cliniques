@@ -1,0 +1,194 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Nous rapportons le cas d'une patiente âgée de 55 ans suivie pour VUH depuis 20 ans.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Entity=(c1--1)
+2	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(c2--2
+4	cas	cas	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c3--2
+7	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	55	55	NUM	_	Number=Plur	11	nummod	_	Entity=(c4--2
+11	ans	an	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	Entity=c4)
+12	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+13	pour	pour	ADP	_	_	14	case	_	_
+14	VUH	VUH	PROPN	_	_	12	obl:mod	_	Entity=(c5--1)
+15	depuis	depuis	ADP	_	_	17	case	_	_
+16	20	20	NUM	_	Number=Plur	17	nummod	_	Entity=(c6--2
+17	ans	an	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	Entity=c6)c3)c2)|SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Le diagnostic était retenu sur les lésions urticariennes, l'inflammation occulaire, le test positif C1q-p par immunodiffusion, avec un faible du taux de C1q.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c7--2
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	Entity=c7)
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	sur	sur	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(c8--2(c9--2
+7	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	_
+8	urticariennes	urticarien	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	Entity=c9)|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Entity=(c10--2|SpaceAfter=No
+11	inflammation	inflammation	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+12	occulaire	occulaire	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	Entity=c10)|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c11--2
+15	test	test	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+16	positif	positif	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	C1q-p	C1q-p	X	_	_	15	appos	_	Entity=c11)
+18	par	par	ADP	_	_	19	case	_	_
+19	immunodiffusion	immunodiffusion	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	Entity=c8)|SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	avec	avec	ADP	_	_	23	case	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(c12--2
+23	faible	faible	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+24-25	du	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	Entity=(c13--2
+26	taux	taux	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	C1q	C1q	NOUN	_	_	26	nmod	_	Entity=(c14--1)c13)c12)|SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = La patiente a été traitée par des cycles à base de cyclophosphamide, des corticoïdes et des cures de rituximab alors qu'elle a développé une dyspnée actuellement classe III (classification NYHA).
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c3--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	Entity=c3)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	traitée	traiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	par	par	ADP	_	_	9	case	_	_
+7-8	des	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	Entity=(c15--2
+9	cycles	cycle	NOUN	_	Gender=Masc|Number=Plur	5	obl:agent	_	_
+10	à	à	ADP	_	_	11	case	_	_
+11	base	base	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	cyclophosphamide	cyclophosphamide	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=(c16--1)c15)|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(c17--2
+17	corticoïdes	corticoïde	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	Entity=c17)
+18	et	et	CCONJ	_	_	21	cc	_	_
+19-20	des	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	Entity=(c18--2
+21	cures	cure	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	rituximab	rituximab	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	Entity=(c19--1)c18)
+24	alors	alors	ADV	_	_	28	mark	_	_
+25	qu'	que	SCONJ	_	_	24	fixed	_	SpaceAfter=No
+26	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	Entity=(c3--1)
+27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:tense	_	_
+28	développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	_
+29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	Entity=(c20--2
+30	dyspnée	dyspnée	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+31	actuellement	actuellement	ADV	_	_	32	advmod	_	_
+32	classe	classe	NOUN	_	Gender=Fem|Number=Sing	30	appos	_	_
+33	III	III	NUM	_	Number=Plur	32	nmod	_	Entity=c20)
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	classification	classification	NOUN	_	Gender=Fem|Number=Sing	30	appos	_	Entity=(c21--1
+36	NYHA	NYHA	PROPN	_	_	35	appos	_	Entity=c21)|SpaceAfter=No
+37	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le bilan clinico-radiologique et fonctionnel a montré une distension thoracique et une broncho-pneumopathie obstructive sévère non amélioré par le traitement systémique.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c22--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	clinico-radiologique	clinico-radiologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	fonctionnel	fonctionnel	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	Entity=c22)
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+7	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c23--2(c24--2
+9	distension	distension	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	thoracique	thoracique	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Entity=c24)
+11	et	et	CCONJ	_	_	13	cc	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(c25--2
+13	broncho-pneumopathie	broncho-pneumopathie	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+14	obstructive	obstructif	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	sévère	sévère	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+16	non	non	ADV	_	Polarity=Neg	17	advmod	_	_
+17	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
+18	par	par	ADP	_	_	20	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(c26--2
+20	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	17	obl:agent	_	_
+21	systémique	systémique	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	Entity=c26)c25)c23)|SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Un traitement par aérosolthérapie a été démarré et la patiente présentait une nette amélioration clinique.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c27--2
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	par	par	ADP	_	_	4	case	_	_
+4	aérosolthérapie	aérosolthérapie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=(c28--1)c27)
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	démarré	démarrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	et	et	CCONJ	_	_	11	cc	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c3--2
+10	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	Entity=c3)
+11	présentait	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c29--3
+13	nette	net	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	amélioration	amélioration	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+15	clinique	clinique	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	Entity=c29)|SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'atteinte pulmonaire au cours de la vascularite urticarienne hypocomplémentémique de Mc duffie conditionne le pronostique vital à cours terme.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c30--2|SpaceAfter=No
+2	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	au	_	_	_	_	_	_	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cours	cours	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c5--2
+9	vascularite	vascularite	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	urticarienne	urticarien	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	hypocomplémentémique	hypocomplémentémique	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Mc	Mc	PROPN	_	_	9	nmod	_	Entity=(c31--1
+14	duffie	duffie	X	_	_	13	flat:name	_	Entity=c31)c5)c30)
+15	conditionne	conditionner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c32--2
+17	pronostique	pronostique	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	vital	vital	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	à	à	ADP	_	_	21	case	_	_
+20	cours	cours	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	terme	terme	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	Entity=c32)|SpaceAfter=No
+22	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = La connaissance des différentes formes de cette atteinte ouvre de nouvelles perspectives thérapeutiques.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c33--2
+2	connaissance	connaissance	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3-4	des	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	Entity=(c34--3
+5	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+6	formes	forme	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	Entity=(c5--2
+9	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=c5)c34)c33)
+10	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	Entity=(c35--3
+12	nouvelles	nouveau	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+13	perspectives	perspective	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+14	thérapeutiques	thérapeutique	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	Entity=c35)|SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,710 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Une patiente paucigeste, âgée de 37 ans, pesant 70 kg et mesurant 170 cm, aux antécédents d'hypertension artérielle (HTA) mal suivie était adressée en consultation chirurgicale avec une symptomatologie faite de lombalgies droites, de vertiges, de céphalées de sueurs et de palpitations, évoluant depuis plusieurs mois.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	30	nsubj:pass	_	_
+3	paucigeste	paucigeste	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	37	37	NUM	_	Number=Plur	8	nummod	_	Entity=(c2--2
+8	ans	an	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	Entity=c2)|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	pesant	peser	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	_
+11	70	70	NUM	_	Number=Plur	12	nummod	_	Entity=(c3--2
+12	kg	kg	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	Entity=c3)
+13	et	et	CCONJ	_	_	14	cc	_	_
+14	mesurant	mesurer	VERB	_	Tense=Pres|VerbForm=Part	10	conj	_	_
+15	170	170	NUM	_	Number=Plur	16	nummod	_	Entity=(c4--2
+16	cm	cm	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	Entity=c4)|SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18-19	aux	_	_	_	_	_	_	_	_
+18	à	à	ADP	_	_	20	case	_	_
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	Entity=(c5--2
+20	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
+22	hypertension	hypertension	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	Entity=(c6--1
+23	artérielle	artériel	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	Entity=c6)
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	HTA	HTA	NOUN	_	_	22	appos	_	Entity=(c6--1)|SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	mal	mal	ADV	_	_	28	advmod	_	_
+28	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	acl	_	Entity=c5)c1)
+29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux:pass	_	_
+30	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+31	en	en	ADP	_	_	32	case	_	_
+32	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	Entity=(c7--1
+33	chirurgicale	chirurgical	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	Entity=c7)
+34	avec	avec	ADP	_	_	36	case	_	_
+35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	Entity=(c8--2
+36	symptomatologie	symptomatologie	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	_
+37	faite	faire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	36	acl	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	lombalgies	lombalgie	NOUN	_	Gender=Fem|Number=Plur	37	obl:arg	_	Entity=(c9--1
+40	droites	droit	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	Entity=c9)|SpaceAfter=No
+41	,	,	PUNCT	_	_	43	punct	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	vertiges	vertige	NOUN	_	Gender=Masc|Number=Plur	39	conj	_	Entity=(c10--1)|SpaceAfter=No
+44	,	,	PUNCT	_	_	46	punct	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	céphalées	céphalée	NOUN	_	Gender=Fem|Number=Plur	39	conj	_	Entity=(c11--1
+47	de	de	ADP	_	_	48	case	_	_
+48	sueurs	sueur	NOUN	_	Gender=Fem|Number=Plur	46	nmod	_	Entity=c11)
+49	et	et	CCONJ	_	_	51	cc	_	_
+50	de	de	ADP	_	_	51	case	_	_
+51	palpitations	palpitation	NOUN	_	Gender=Fem|Number=Plur	39	conj	_	Entity=(c12--1)c8)|SpaceAfter=No
+52	,	,	PUNCT	_	_	53	punct	_	_
+53	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	39	acl	_	_
+54	depuis	depuis	ADP	_	_	56	case	_	_
+55	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	56	det	_	Entity=(c13--2
+56	mois	mois	NOUN	_	Gender=Masc|Number=Plur	53	obl:mod	_	Entity=c13)|SpaceAfter=No
+57	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Durant l'hospitalisation, la tension artérielle (TA) oscillait entre 130/80 mm de Hg et 190/120 mm de Hg.
+1	Durant	durant	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	Entity=(c14--2|SpaceAfter=No
+3	hospitalisation	hospitalisation	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	Entity=c14)|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c15--2
+6	tension	tension	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	artérielle	artériel	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	Entity=c15)
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	TA	TA	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	Entity=(c15--1)|SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	oscillait	osciller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	entre	entre	ADP	_	_	16	case	_	_
+13	130	130	NUM	_	Number=Plur	16	nummod	_	Entity=(c16--4|SpaceAfter=No
+14	/	/	SYM	_	_	15	cc	_	SpaceAfter=No
+15	80	80	NUM	_	Number=Plur	13	conj	_	_
+16	mm	mm	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Hg	Hg	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	Entity=c16)
+19	et	et	CCONJ	_	_	23	cc	_	_
+20	190	190	NUM	_	Number=Plur	23	nummod	_	Entity=(c17--4|SpaceAfter=No
+21	/	/	SYM	_	_	22	cc	_	SpaceAfter=No
+22	120	120	NUM	_	Number=Plur	20	conj	_	_
+23	mm	mm	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Hg	Hg	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	Entity=c17)|SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Le reste de l'examen ne retrouvait aucune autre anomalie.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c18--2
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Entity=(c19--2|SpaceAfter=No
+5	examen	examen	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=c19)c18)
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	_
+7	retrouvait	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	10	det	_	Entity=(c20--3
+9	autre	autre	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	Entity=c20)|SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le scanner thoraco-abdominal montrait une masse surrénalienne de 55x45x50 mm comprimant la veine cave inférieure et la veine rénale droite.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c21--2
+2	scanner	scanner	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	thoraco-abdominal	thoraco-abdominal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c21)
+4	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c22--2
+6	masse	masse	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	surrénalienne	surrénalien	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	55x45x50	55x45x50	NUM	_	Number=Plur	10	nummod	_	_
+10	mm	mm	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Entity=c22)
+11	comprimant	comprimer	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(c23--2(c24--2
+13	veine	veine	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	cave	cave	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+15	inférieure	inférieur	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	Entity=c24)
+16	et	et	CCONJ	_	_	18	cc	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c25--2
+18	veine	veine	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+19	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	droite	droit	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	Entity=c25)c23)|SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Le dosage de l'acide vanyl-mandélique urinaire (VMA) objectivait 11,8mg/24heures.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c26--2
+2	dosage	dosage	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Entity=(c27--2|SpaceAfter=No
+5	acide	acide	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	vanyl-mandélique	vanyl-mandélique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	urinaire	urinaire	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c27)c26)
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	VMA	VMA	PROPN	_	_	5	appos	_	Entity=(c27--1)|SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	objectivait	objectiver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	11,8mg/	11,8mg/	NUM	_	Number=Plur	13	nummod	_	Entity=(c28--2|SpaceAfter=No
+13	24heures	24heure	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	Entity=c28)|SpaceAfter=No
+14	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Le dosage des catécholamines n'a pas été réalisé.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c29--2
+2	dosage	dosage	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+3-4	des	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(c30--2
+5	catécholamines	catécholamine	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	Entity=c30)c29)
+6	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+8	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
+9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Le diagnostic d'un phéochromocytome était retenu et l'indication opératoire était posée.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c31--2
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c32--2
+5	phéochromocytome	phéochromocytome	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=c32)c31)
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	et	et	CCONJ	_	_	13	cc	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Entity=(c33--2|SpaceAfter=No
+10	indication	indication	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+11	opératoire	opératoire	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	Entity=c33)
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	_
+13	posée	poser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = En consultation d'anesthésie, l'examen clinique retrouvait un bon état général, une tension artérielle (TA) à 190/120 mmHg, une auscultation cardiopulmonaire sans particularité et un critère prédictif d'intubation non difficile (Mallampati II).
+1	En	en	ADP	_	_	2	case	_	_
+2	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	Entity=(c34--1
+3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
+4	anesthésie	anesthésie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c34)|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Entity=(c35--2|SpaceAfter=No
+7	examen	examen	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Entity=c35)
+9	retrouvait	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(c36--3
+11	bon	bon	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	état	état	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+13	général	général	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	Entity=c36)|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c15--2
+16	tension	tension	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+17	artérielle	artériel	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	TA	TA	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	à	à	ADP	_	_	25	case	_	_
+22	190	190	NUM	_	Number=Plur	25	nummod	_	Entity=(c17--4|SpaceAfter=No
+23	/	/	SYM	_	_	24	cc	_	SpaceAfter=No
+24	120	120	NUM	_	Number=Plur	22	conj	_	_
+25	mmHg	mmhg	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	Entity=c17)c15)|SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	Entity=(c37--2
+28	auscultation	auscultation	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+29	cardiopulmonaire	cardiopulmonaire	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	sans	sans	ADP	_	_	31	case	_	_
+31	particularité	particularité	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	Entity=c37)
+32	et	et	CCONJ	_	_	34	cc	_	_
+33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	Entity=(c38--2
+34	critère	critère	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+35	prédictif	prédictif	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+36	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
+37	intubation	intubation	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	Entity=(c39--1
+38	non	non	ADV	_	Polarity=Neg	39	advmod	_	_
+39	difficile	difficile	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	Entity=c39)c38)
+40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	Mallampati	Mallampati	PROPN	_	_	34	appos	_	Entity=(c38--1
+42	II	II	NUM	_	Number=Plur	41	nmod	_	Entity=c38)|SpaceAfter=No
+43	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = La patiente était classée ASA III.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	Entity=c1)
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	classée	classer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	ASA	ASA	PROPN	_	_	4	xcomp	_	Entity=(c40--1
+6	III	III	NUM	_	Number=Plur	5	nmod	_	Entity=c40)|SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Devant les chiffres élevés de la TA la patiente fut mise sous Nicardipine 20 mg à raison de 1cp x 3/j, hydroxyzine 25 mg à raison de 1cp le soir au couché, et propranolol 10mg x 2/j.
+1	Devant	devant	ADP	_	_	3	case	_	_
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(c41--2
+3	chiffres	chiffre	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+4	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c15--2
+7	TA	TA	PROPN	_	Gender=Fem|Number=Sing	3	nmod	_	Entity=c15)c41)
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c1--2
+9	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	Entity=c1)
+10	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	sous	sous	ADP	_	_	13	case	_	_
+13	Nicardipine	Nicardipine	PROPN	_	_	11	obl:mod	_	Entity=(c42--1(c43--1
+14	20	20	NUM	_	Number=Plur	15	nummod	_	_
+15	mg	mg	NOUN	_	Gender=Masc|Number=Plur	13	appos	_	Entity=c43)
+16	à	à	ADP	_	_	17	case	_	_
+17	raison	raison	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	1cp	1cp	NUM	_	Number=Plur	17	nmod	_	Entity=(c44--1
+20	x	x	SYM	_	_	21	case	_	_
+21	3	3	NUM	_	Number=Plur	19	nmod	_	SpaceAfter=No
+22	/	/	SYM	_	_	23	case	_	SpaceAfter=No
+23	j	j	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	Entity=c44)|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	hydroxyzine	hydroxyzine	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	Entity=(c45--1
+26	25	25	NUM	_	Number=Plur	27	nummod	_	_
+27	mg	mg	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	Entity=c45)
+28	à	à	ADP	_	_	29	case	_	_
+29	raison	raison	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	1cp	1cp	NUM	_	Number=Plur	29	nmod	_	Entity=(c46--1)
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	Entity=(c47--2
+33	soir	soir	NOUN	_	Gender=Masc|Number=Sing	28	fixed	_	Entity=c47)
+34-35	au	_	_	_	_	_	_	_	_
+34	à	à	ADP	_	_	36	case	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	Entity=(c48--2
+36	couché	couché	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	Entity=c48)c42)|SpaceAfter=No
+37	,	,	PUNCT	_	_	39	punct	_	_
+38	et	et	CCONJ	_	_	39	cc	_	_
+39	propranolol	propranolol	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	Entity=(c49--1
+40	10mg	10mg	X	_	_	39	appos	_	_
+41	x	x	SYM	_	_	43	case	_	_
+42	2/	2/	NUM	_	Number=Plur	43	nummod	_	SpaceAfter=No
+43	j	j	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	Entity=c49)|SpaceAfter=No
+44	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Une préparation colique associant régime sans résidus et laxatifs était faite à la patiente.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c50--2
+2	préparation	préparation	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+3	colique	colique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c50)
+4	associant	associer	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	_
+5	régime	régime	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Entity=(c51--1
+6	sans	sans	ADP	_	_	7	case	_	_
+7	résidus	résidu	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	Entity=(c52--1)
+8	et	et	CCONJ	_	_	9	cc	_	_
+9	laxatifs	laxatif	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	Entity=(c53--1)c51)
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux:pass	_	_
+11	faite	faire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	à	à	ADP	_	_	14	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c1--2
+14	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	Entity=c1)|SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = En salle opératoire, la Nicardipine 1mg/ml en seringue électrique était utilisée.
+1	En	en	ADP	_	_	2	case	_	_
+2	salle	salle	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	Entity=(c54--1
+3	opératoire	opératoire	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c54)|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c55--2
+6	Nicardipine	Nicardipine	PROPN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+7	1mg	1mg	NOUN	_	_	6	appos	_	SpaceAfter=No
+8	/	/	SYM	_	_	9	case	_	SpaceAfter=No
+9	ml	ml	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	seringue	seringue	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=(c56--1
+12	électrique	électrique	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	Entity=c56)c55)
+13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:pass	_	_
+14	utilisée	utiliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Le furosémide 40 mg, l'Esmolol 250mg/ml dilué à 12,5mg/ml et la dopamine en seringue électrique étaient préparé à raison de 10 mg/ml/h.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c57--2(c58--2
+2	furosémide	furosémide	NOUN	_	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+3	40	40	NUM	_	Number=Plur	4	nummod	_	_
+4	mg	mg	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	Entity=c58)|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Entity=(c59--2|SpaceAfter=No
+7	Esmolol	Esmolol	PROPN	_	Number=Sing	2	conj	_	_
+8	250mg	250mg	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	/	/	SYM	_	_	10	case	_	SpaceAfter=No
+10	ml	ml	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Entity=c59)
+11	dilué	diluer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+12	à	à	ADP	_	_	13	case	_	_
+13	12,5mg	12,5mg	NUM	_	Number=Plur	11	obl:mod	_	Entity=(c60--1|SpaceAfter=No
+14	/	/	SYM	_	_	15	case	_	SpaceAfter=No
+15	ml	ml	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	Entity=c60)
+16	et	et	CCONJ	_	_	18	cc	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c61--2
+18	dopamine	dopamine	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+19	en	en	ADP	_	_	20	case	_	_
+20	seringue	seringue	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Entity=(c56--1
+21	électrique	électrique	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	Entity=c56)c61)c57)
+22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	aux:pass	_	_
+23	préparé	préparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+24	à	à	ADP	_	_	25	case	_	_
+25	raison	raison	NOUN	_	Gender=Fem|Number=Sing	23	obl:mod	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	10	10	NUM	_	Number=Plur	28	nummod	_	Entity=(c62--2
+28	mg/	mg/	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+29	ml/	ml/	SYM	_	_	30	case	_	SpaceAfter=No
+30	h	h	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	Entity=c62)|SpaceAfter=No
+31	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = L'induction anesthésique était faite avec de l'etomidate à raison de 20mg, du vécuronium 4mg, et du fentanyl 50 µg.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c63--2|SpaceAfter=No
+2	induction	induction	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	anesthésique	anesthésique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c63)
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	faite	faire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	avec	avec	ADP	_	_	9	case	_	_
+7	de	de	ADP	_	_	9	det	_	_
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	fixed	_	Entity=(c64--2|SpaceAfter=No
+9	etomidate	etomidate	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	Entity=c64)
+10	à	à	ADP	_	_	11	case	_	_
+11	raison	raison	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	20mg	20mg	NUM	_	Number=Plur	11	nmod	_	Entity=(c65--1)|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15-16	du	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c66--2
+17	vécuronium	vécuronium	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+18	4mg	4mg	X	_	_	17	appos	_	Entity=c66)|SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	et	et	CCONJ	_	_	23	cc	_	_
+21-22	du	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(c67--2
+23	fentanyl	fentanyl	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+24	50	50	NUM	_	Number=Plur	25	nummod	_	_
+25	µg	µg	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	Entity=c67)|SpaceAfter=No
+26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = L'intubation a été facile avec une sonde 7,0 CH avec ballonnet.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c39--2|SpaceAfter=No
+2	intubation	intubation	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	Entity=c39)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+5	facile	facile	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+6	avec	avec	ADP	_	_	8	case	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c68--2
+8	sonde	sonde	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+9	7,0	7,0	NUM	_	Number=Plur	10	nummod	_	Entity=(c69--2
+10	CH	CH	NOUN	_	Gender=Masc|Number=Plur	8	appos	_	Entity=c69)
+11	avec	avec	ADP	_	_	12	case	_	_
+12	ballonnet	ballonnet	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Entity=(c70--1)c68)|SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = L'entretien anesthésique associait le fentanyl, l'isoflurane, le midazolam et le vécuronium.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c71--2|SpaceAfter=No
+2	entretien	entretien	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	anesthésique	anesthésique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c71)
+4	associait	associer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c72--2(c67--2
+6	fentanyl	fentanyl	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Entity=c67)|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Entity=(c73--2|SpaceAfter=No
+9	isoflurane	isoflurane	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	Entity=c73)|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(c74--2
+12	midazolam	midazolam	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	Entity=c74)
+13	et	et	CCONJ	_	_	15	cc	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c66--2
+15	vécuronium	vécuronium	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	Entity=c66)c72)|SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = La gestion de l'hémodynamique était faite avec du Nicardipine 1mg/ml en seringue électrique, du furosémide 40mg et de la dopamine 10mg/ml/h en seringue électrique.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c75--2
+2	gestion	gestion	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Entity=(c76--2|SpaceAfter=No
+5	hémodynamique	hémodynamique	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c76)c75)
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	faite	faire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	avec	avec	ADP	_	_	11	case	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	det	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(c55--2
+11	Nicardipine	Nicardipine	PROPN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+12	1mg	1mg	NOUN	_	_	11	appos	_	SpaceAfter=No
+13	/	/	SYM	_	_	14	case	_	SpaceAfter=No
+14	ml	ml	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	Entity=c55)
+15	en	en	ADP	_	_	16	case	_	_
+16	seringue	seringue	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=(c56--1
+17	électrique	électrique	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	Entity=c56)|SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19-20	du	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(c58--2
+21	furosémide	furosémide	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
+22	40mg	40mg	X	_	_	21	appos	_	Entity=c58)
+23	et	et	CCONJ	_	_	26	cc	_	_
+24	de	de	ADP	_	_	26	det	_	_
+25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	Entity=(c61--2
+26	dopamine	dopamine	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+27	10mg/	10mg/	NUM	_	_	26	nmod	_	SpaceAfter=No
+28	ml/	ml/	SYM	_	_	29	nmod	_	SpaceAfter=No
+29	h	h	NOUN	_	_	26	nmod	_	Entity=c61)
+30	en	en	ADP	_	_	31	case	_	_
+31	seringue	seringue	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	Entity=(c56--1
+32	électrique	électrique	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	Entity=c56)|SpaceAfter=No
+33	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Durant l'intervention les chiffres tensionnels oscillaient entre 119/110 et 130/80 mm de Hg.
+1	Durant	durant	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	Entity=(c77--2|SpaceAfter=No
+3	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Entity=c77)
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(c78--2
+5	chiffres	chiffre	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	tensionnels	tensionnel	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	Entity=c78)
+7	oscillaient	osciller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	entre	entre	ADP	_	_	16	case	_	_
+9	119	119	NUM	_	Number=Plur	16	nummod	_	Entity=(c79--1|SpaceAfter=No
+10	/	/	SYM	_	_	15	cc	_	SpaceAfter=No
+11	110	110	NUM	_	Number=Plur	9	conj	_	Entity=c79)
+12	et	et	CCONJ	_	_	15	cc	_	_
+13	130	130	NUM	_	Number=Plur	9	conj	_	Entity=(c16--4|SpaceAfter=No
+14	/	/	SYM	_	_	15	cc	_	SpaceAfter=No
+15	80	80	NUM	_	Number=Plur	9	conj	_	_
+16	mm	mm	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Hg	Hg	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	Entity=c16)|SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Le monitorage non invasif de la pression artérielle (PNI), de la saturation en oxygène (SPO2), de la capnométrie (ETCO2), de l'électrocardiogramme et de la diurèse était fait.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c80--2
+2	monitorage	monitorage	NOUN	_	Gender=Masc|Number=Sing	37	nsubj:pass	_	_
+3	non	non	ADV	_	Polarity=Neg	4	advmod	_	_
+4	invasif	invasif	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c81--2
+7	pression	pression	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	artérielle	artériel	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	Entity=c81)
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	PNI	PNI	NOUN	_	_	7	appos	_	Entity=(c81--1)|SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c82--2
+15	saturation	saturation	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+16	en	en	ADP	_	_	17	case	_	_
+17	oxygène	oxygène	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	Entity=(c83--1)c82)
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	SPO2	SPO2	X	_	_	15	appos	_	Entity=(c82--1)|SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	Entity=(c84--2
+24	capnométrie	capnométrie	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	Entity=c84)
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	ETCO2	ETCO2	X	_	_	24	appos	_	Entity=(c84--1)|SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	Entity=(c85--2|SpaceAfter=No
+31	électrocardiogramme	électrocardiogramme	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	Entity=c85)
+32	et	et	CCONJ	_	_	35	cc	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	Entity=(c86--2
+35	diurèse	diurèse	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	Entity=c86)c80)
+36	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	aux:pass	_	_
+37	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = La surrénalectomie était réalisée par laparotomie médiane par incision sus et sous ombilicale avec résection de l'appendice xiphoïde.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c87--2
+2	surrénalectomie	surrénalectomie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	Entity=c87)
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	par	par	ADP	_	_	6	case	_	_
+6	laparotomie	laparotomie	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	Entity=(c88--1
+7	médiane	médian	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	Entity=c88)
+8	par	par	ADP	_	_	9	case	_	_
+9	incision	incision	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=(c89--1
+10	sus	sus	ADJ	_	_	9	amod	_	_
+11	et	et	CCONJ	_	_	12	cc	_	_
+12	sous	sous	ADP	_	_	10	conj	_	_
+13	ombilicale	ombilical	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	Entity=c89)
+14	avec	avec	ADP	_	_	15	case	_	_
+15	résection	résection	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	Entity=(c90--1
+16	de	de	ADP	_	_	18	case	_	_
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Entity=(c91--2|SpaceAfter=No
+18	appendice	appendice	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	xiphoïde	xiphoïde	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	Entity=c91)c90)|SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = L'ouverture du péritoine pariétal postérieur et la libération de l'angle colique droit avaient permis de récliner les veines cave inférieure et rénale droite, et d'aborder la surrénale droite.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c92--2(c93--2|SpaceAfter=No
+2	ouverture	ouverture	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c94--2
+5	péritoine	péritoine	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	pariétal	pariétal	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	postérieur	postérieur	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c94)c93)
+8	et	et	CCONJ	_	_	10	cc	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c95--2
+10	libération	libération	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Entity=(c96--2|SpaceAfter=No
+13	angle	angle	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	colique	colique	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	droit	droit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	Entity=c96)c95)c92)
+16	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux:tense	_	_
+17	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	récliner	récliner	VERB	_	VerbForm=Inf	17	ccomp	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	Entity=(c23--2(c24--2
+21	veines	veine	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+22	cave	cave	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+23	inférieure	inférieur	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	Entity=c24)
+24	et	et	CCONJ	_	_	25	cc	_	_
+25	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	23	conj	_	_
+26	droite	droit	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	Entity=c23)|SpaceAfter=No
+27	,	,	PUNCT	_	_	30	punct	_	_
+28	et	et	CCONJ	_	_	30	cc	_	_
+29	d'	de	ADP	_	_	30	mark	_	SpaceAfter=No
+30	aborder	aborder	VERB	_	VerbForm=Inf	19	conj	_	_
+31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	Entity=(c97--2
+32	surrénale	surrénale	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+33	droite	droit	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	Entity=c97)|SpaceAfter=No
+34	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Le contrôle vasculaire et la surrénalectomie droite étaient effectués.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c98--2(c99--2
+2	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	vasculaire	vasculaire	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c99)
+4	et	et	CCONJ	_	_	6	cc	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c100--2
+6	surrénalectomie	surrénalectomie	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+7	droite	droit	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	Entity=c100)c98)
+8	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+9	effectués	effectuer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Il n'y avait pas eu d'instabilité hémodynamique lors de la mobilisation et de la résection de la tumeur.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	6	expl:comp	_	_
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:tense	_	_
+5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
+6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	instabilité	instabilité	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	Entity=(c101--1
+9	hémodynamique	hémodynamique	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c101)
+10	lors	lors	ADV	_	_	6	advmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(c102--2(c103--2
+13	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	Entity=c103)
+14	et	et	CCONJ	_	_	17	cc	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c90--2
+17	résection	résection	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(c22--2
+20	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	Entity=c22)c90)c102)|SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Les suites opératoires immédiates ont été simples avec une stabilité hémodynamique et ventilatoire.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c104--2
+2	suites	suite	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+3	opératoires	opératoire	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	immédiates	immédiat	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	Entity=c104)
+5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	simples	simple	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+8	avec	avec	ADP	_	_	10	case	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c105--2
+10	stabilité	stabilité	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
+11	hémodynamique	hémodynamique	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	et	et	CCONJ	_	_	13	cc	_	_
+13	ventilatoire	ventilatoire	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	Entity=c105)|SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = A la quarante huitième (48) heures postopératoire, la patiente a été transférée au service de chirurgie pour la suite du traitement.
+1	A	à	ADP	_	_	8	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c106--7
+3	quarante	quarante	NUM	_	Number=Plur	8	nummod	_	_
+4	huitième	huitième	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	48	48	NUM	_	Number=Plur	8	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	heures	heure	NOUN	_	Gender=Fem|Number=Plur	15	obl:mod	_	_
+9	postopératoire	postopératoire	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c106)|SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c1--2
+12	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	Entity=c1)
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
+14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	transférée	transférer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16-17	au	_	_	_	_	_	_	_	_
+16	à	à	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(c107--2
+18	service	service	NOUN	_	Gender=Masc|Number=Sing	15	obl:arg	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	chirurgie	chirurgie	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Entity=c107)
+21	pour	pour	ADP	_	_	23	case	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(c108--2
+23	suite	suite	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
+24-25	du	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	Entity=(c109--2
+26	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	Entity=c109)c108)|SpaceAfter=No
+27	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Elle a regagné son domicile à J7 postopératoire.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Entity=(c1--1)
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	regagné	regagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	Entity=(c110--2(c1--1)
+5	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Entity=c110)
+6	à	à	ADP	_	_	7	case	_	_
+7	J7	J7	PROPN	_	_	3	obl:mod	_	Entity=(c111--1
+8	postopératoire	postopératoire	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Entity=c111)|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Avec un recul de 3 mois, la patiente ne présentait plus de signes cliniques et ses chiffres tensionnels étaient normaux.
+1	Avec	avec	ADP	_	_	3	case	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(c112--2
+3	recul	recul	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	3	3	NUM	_	Number=Plur	6	nummod	_	Entity=(c113--2
+6	mois	mois	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	Entity=c113)c112)|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c1--2
+9	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	Entity=c1)
+10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	_
+11	présentait	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	plus	plus	ADV	_	Polarity=Neg	11	advmod	_	_
+13	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	signes	signe	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	Entity=(c114--1
+15	cliniques	clinique	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	Entity=c114)
+16	et	et	CCONJ	_	_	21	cc	_	_
+17	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	Entity=(c78--2(c1--1)
+18	chiffres	chiffre	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+19	tensionnels	tensionnel	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	Entity=c78)
+20	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+21	normaux	normal	ADJ	_	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,417 @@
+# newdoc id = FR100132
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Une femme de 51 ans, ménopausée, avait depuis son enfance des papules hypopigmentées progressivement extensives et confluentes au niveau du cou et des creux axillaires.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	femme	femme	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	51	51	NUM	_	Number=Plur	5	nummod	_	_
+5	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	ménopausée	ménopausé	ADJ	_	Gender=Fem|Number=Sing	2	acl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	depuis	depuis	ADP	_	_	12	case	_	_
+11	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	enfance	enfance	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+13-14	des	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	papules	papule	NOUN	_	Gender=Fem|Number=Plur	9	obl:arg	_	_
+16	hypopigmentées	hypopigmenter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
+17	progressivement	progressivement	ADV	_	_	18	advmod	_	_
+18	extensives	extensif	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+19	et	et	CCONJ	_	_	20	cc	_	_
+20	confluentes	confluent	ADJ	_	Gender=Fem|Number=Plur	18	conj	_	_
+21-22	au	_	_	_	_	_	_	_	_
+21	à	à	ADP	_	_	23	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
+24-25	du	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	cou	cou	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	et	et	CCONJ	_	_	30	cc	_	_
+28-29	des	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+30	creux	creux	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	_
+31	axillaires	axillaire	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Un diagnostic précis n'avait jamais été évoqué et la patiente s'en était accommodée.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3	précis	précis	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
+5	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
+6	jamais	jamais	ADV	_	Polarity=Neg	8	advmod	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	évoqué	évoquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	et	et	CCONJ	_	_	15	cc	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+12	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	expl:pass	_	SpaceAfter=No
+13	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	15	iobj	_	_
+14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+15	accommodée	accommoder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = A l'occasion d'une consultation pour une baisse de l'acuité visuelle, elle a été référée par son ophtalmologue en dermatologie pour un avis spécialisé.
+1	A	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	pour	pour	ADP	_	_	9	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	baisse	baisse	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	acuité	acuité	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	visuelle	visuel	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	3	punct	_	_
+15	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
+17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	référée	référer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+19	par	par	ADP	_	_	21	case	_	_
+20	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	ophtalmologue	ophtalmologue	NOUN	_	Gender=Masc|Number=Sing	18	obl:agent	_	_
+22	en	en	ADP	_	_	23	case	_	_
+23	dermatologie	dermatologie	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	pour	pour	ADP	_	_	26	case	_	_
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	avis	avis	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
+27	spécialisé	spécialisé	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Les antécédents familiaux n'étaient pas bien précisés mais la patiente avait des problèmes cutanés depuis la petite enfance sans signes fonctionnels.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+3	familiaux	familial	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+4	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
+5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+6	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
+7	bien	bien	ADV	_	_	8	advmod	_	_
+8	précisés	préciser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	mais	mais	CCONJ	_	_	12	cc	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+13-14	des	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	det	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+16	cutanés	cutané	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+17	depuis	depuis	ADP	_	_	20	case	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	petite	petit	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	enfance	enfance	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
+21	sans	sans	ADP	_	_	22	case	_	_
+22	signes	signe	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	_
+23	fonctionnels	fonctionnel	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Il n'y avait pas de tare cardiovasculaire, ni métabolique, ni digestive, ni rénale.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	4	expl:comp	_	_
+4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
+6	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	tare	tare	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+8	cardiovasculaire	cardiovasculaire	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	ni	ni	CCONJ	_	_	11	cc	_	_
+11	métabolique	métabolique	ADJ	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	ni	ni	CCONJ	_	_	14	cc	_	_
+14	digestive	digestif	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	ni	ni	CCONJ	_	_	17	cc	_	_
+17	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = A l'examen clinique, il n'y avait ni prurit, ni douleurs, ni signes inflammatoires;
+1	A	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	examen	examen	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+4	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
+7	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
+8	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	9	expl:comp	_	_
+9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	ni	ni	CCONJ	_	_	11	cc	_	_
+11	prurit	prurit	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	ni	ni	CCONJ	_	_	14	cc	_	_
+14	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	ni	ni	CCONJ	_	_	17	cc	_	_
+17	signes	signe	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+18	inflammatoires	inflammatoire	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	;	;	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 7
+# text = la patiente avait un bon état général et les signes cutanés étaient représentés par des plaques brunâtres à disposition linéaire, parallèles aux plis, disséminées à tout le corps mais prédominant aux plis et les régions adjacentes;
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	état	état	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	général	général	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	et	et	CCONJ	_	_	13	cc	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	signes	signe	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+11	cutanés	cutané	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+12	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	_
+13	représentés	représenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+14	par	par	ADP	_	_	17	case	_	_
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	det	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	plaques	plaque	NOUN	_	Gender=Fem|Number=Plur	13	obl:agent	_	_
+18	brunâtres	brunâtre	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	à	à	ADP	_	_	20	case	_	_
+20	disposition	disposition	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	linéaire	linéaire	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	parallèles	parallèle	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+24-25	aux	_	_	_	_	_	_	_	_
+24	à	à	ADP	_	_	26	case	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	plis	plis	NOUN	_	Gender=Masc|Number=Plur	23	obl:arg	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	disséminées	disséminer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
+29	à	à	ADP	_	_	32	case	_	_
+30	tout	tout	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	corps	corps	NOUN	_	Gender=Masc|Number=Sing	28	obl:mod	_	_
+33	mais	mais	CCONJ	_	_	34	cc	_	_
+34	prédominant	prédominer	VERB	_	Tense=Pres|VerbForm=Part	28	conj	_	_
+35-36	aux	_	_	_	_	_	_	_	_
+35	à	à	ADP	_	_	37	case	_	_
+36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+37	plis	plis	NOUN	_	Gender=Masc|Number=Plur	34	obl:arg	_	_
+38	et	et	CCONJ	_	_	40	cc	_	_
+39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+40	régions	région	NOUN	_	Gender=Fem|Number=Plur	37	conj	_	_
+41	adjacentes	adjacent	ADJ	_	Gender=Fem|Number=Plur	40	amod	_	SpaceAfter=No
+42	;	;	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 8
+# text = la peau avait un aspect de nappes fripées en "peau de chagrin" ou de "drapé" par coalescence progressive des papules.
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	peau	peau	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	nappes	nappe	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+8	fripées	friper	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+9	en	en	ADP	_	_	11	case	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	peau	peau	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	chagrin	chagrin	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	11	punct	_	_
+15	ou	ou	CCONJ	_	_	18	cc	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	drapé	drapé	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	par	par	ADP	_	_	21	case	_	_
+21	coalescence	coalescence	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	des	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+25	papules	papule	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = A la palpation, la peau a perdu de son élasticité.
+1	A	à	ADP	_	_	3	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	palpation	palpation	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	peau	peau	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	de	de	ADP	_	_	11	det	_	_
+10	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	élasticité	élasticité	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Aucune lésion muqueuse n'a été observée.
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
+2	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	muqueuse	muqueux	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	observée	observer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = L'histologie d'une papule montrait des amas de fibres élastiques formant des nodules bien limités.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	histologie	histologie	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	papule	papule	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	des	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	amas	ama	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	fibres	fibre	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+12	élastiques	élastique	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	formant	former	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
+14-15	des	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	nodules	nodule	NOUN	_	Gender=Masc|Number=Plur	13	obl:arg	_	_
+17	bien	bien	ADV	_	_	18	advmod	_	_
+18	limités	limité	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'examen réalisé en ophtalmologie avait trouvé une baisse de l'acuité visuelle, un segment antérieur normal, une tension oculaire de 13 pour les deux yeux et des stries angioïdes compliquées de néovaisseaux choroïdiens aux deux yeux à l'angiographie à la fluorescéine.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	ophtalmologie	ophtalmologie	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
+6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:tense	_	_
+7	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	baisse	baisse	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	acuité	acuité	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	visuelle	visuel	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	segment	segment	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+17	antérieur	antérieur	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	normal	normal	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	tension	tension	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+22	oculaire	oculaire	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	13	13	NUM	_	Number=Plur	21	nmod	_	_
+25	pour	pour	ADP	_	_	28	case	_	_
+26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+27	deux	deux	NUM	_	Number=Plur	28	nummod	_	_
+28	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+29	et	et	CCONJ	_	_	32	cc	_	_
+30-31	des	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+32	stries	strie	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
+33	angioïdes	angioïde	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	_
+34	compliquées	compliquer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	acl	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	néovaisseaux	néovaisseau	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
+37	choroïdiens	choroïdien	ADJ	_	Gender=Masc|Number=Plur	36	amod	_	_
+38-39	aux	_	_	_	_	_	_	_	_
+38	à	à	ADP	_	_	41	case	_	_
+39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
+40	deux	deux	NUM	_	Number=Plur	41	nummod	_	_
+41	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	_
+42	à	à	ADP	_	_	44	case	_	_
+43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+44	angiographie	angiographie	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+45	à	à	ADP	_	_	47	case	_	_
+46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	fluorescéine	fluorescéine	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = L'écho-Doppler cardiaque et la fibroscopie digestive haute étaient normales; il n'y avait pas d'atteinte vasculaire et digestive.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	écho-Doppler	écho-doppler	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	cardiaque	cardiaque	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	et	et	CCONJ	_	_	6	cc	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fibroscopie	fibroscopie	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+7	digestive	digestif	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	haute	haut	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+9	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	normales	normal	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+11	;	;	PUNCT	_	_	15	punct	_	_
+12	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
+13	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
+14	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	15	expl:comp	_	_
+15	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+16	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
+17	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+19	vasculaire	vasculaire	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	et	et	CCONJ	_	_	21	cc	_	_
+21	digestive	digestif	ADJ	_	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = La patiente a reçu des informations sur sa maladie, une psychothérapie de soutien et un calendrier de surveillance et confiée en ophtalmologie où elle fut traitée par photocoagulation au laser des néovaisseaux à gauche.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5-6	des	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	informations	information	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	_
+8	sur	sur	ADP	_	_	10	case	_	_
+9	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	psychothérapie	psychothérapie	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	et	et	CCONJ	_	_	18	cc	_	_
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	calendrier	calendrier	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	et	et	CCONJ	_	_	22	cc	_	_
+22	confiée	confier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+23	en	en	ADP	_	_	24	case	_	_
+24	ophtalmologie	ophtalmologie	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	_
+25	où	où	PRON	_	PronType=Rel	28	obl:mod	_	_
+26	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	_
+27	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
+28	traitée	traiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	acl:relcl	_	_
+29	par	par	ADP	_	_	30	case	_	_
+30	photocoagulation	photocoagulation	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	_
+31-32	au	_	_	_	_	_	_	_	_
+31	à	à	ADP	_	_	33	case	_	_
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	laser	laser	NOUN	_	Gender=Masc|Number=Sing	28	obl:mod	_	_
+34-35	des	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+36	néovaisseaux	néovaisseau	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
+37	à	à	ADP	_	_	38	case	_	_
+38	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+

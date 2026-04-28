@@ -1,0 +1,129 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Les auteurs rapportent le cas d'un patient âgé de 50 ans, ayant comme antécédents pathologiques un traumatisme thoracique sévère à l'âge de 25 ans lors d'un stage de parachutisme, qui consulte pour des signes neurosensoriels d'une hypertension artérielle.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c1--2
+2	auteurs	auteur	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	Entity=c1)
+3	rapportent	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c2--2
+5	cas	cas	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c3--2
+8	patient	patient	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	50	50	NUM	_	Number=Plur	12	nummod	_	_
+12	ans	an	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	Entity=c3)c2)|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	8	acl	_	_
+15	comme	comme	ADP	_	_	16	case	_	_
+16	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	14	obl:mod	_	Entity=(c4--1
+17	pathologiques	pathologique	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	Entity=c4)
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(c5--2
+19	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+20	thoracique	thoracique	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	sévère	sévère	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	Entity=c5)
+22	à	à	ADP	_	_	24	case	_	_
+23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Entity=(c6--2|SpaceAfter=No
+24	âge	âge	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	25	25	NUM	_	Number=Plur	27	nummod	_	_
+27	ans	an	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+28	lors	lors	ADV	_	_	14	advmod	_	_
+29	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	Entity=(c7--2
+31	stage	stage	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	parachutisme	parachutisme	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	Entity=c7)c6)|SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	qui	qui	PRON	_	PronType=Rel	36	nsubj	_	Entity=(c3--1)
+36	consulte	consulter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+37	pour	pour	ADP	_	_	40	case	_	_
+38-39	des	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	det	_	_
+39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	Entity=(c8--2
+40	signes	signe	NOUN	_	Gender=Masc|Number=Plur	36	obl:mod	_	_
+41	neurosensoriels	neurosensoriel	ADJ	_	Gender=Masc|Number=Plur	40	amod	_	_
+42	d'	de	ADP	_	_	44	case	_	SpaceAfter=No
+43	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	Entity=(c9--2
+44	hypertension	hypertension	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
+45	artérielle	artériel	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	Entity=c9)c8)|SpaceAfter=No
+46	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = La radiographie pulmonaire montre une dilatation anévrismale de l'aorte thoracique.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c10--2
+2	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c10)
+4	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c11--2
+6	dilatation	dilatation	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	anévrismale	anévrismal	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Entity=(c12--2|SpaceAfter=No
+10	aorte	aorte	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+11	thoracique	thoracique	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	Entity=c12)c11)|SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'échocardiographie trans-thoracique, l'angio-scanner et l'imagerie par résonance magnétique objective un processus anévrismal de l'aorte ascendante.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c13--2(c14--2|SpaceAfter=No
+2	échocardiographie	échocardiographie	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	trans-thoracique	trans-thoracique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c14)|SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Entity=(c15--2|SpaceAfter=No
+6	angio-scanner	angio-scanner	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	Entity=c15)
+7	et	et	CCONJ	_	_	9	cc	_	_
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Entity=(c16--2|SpaceAfter=No
+9	imagerie	imagerie	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+10	par	par	ADP	_	_	11	case	_	_
+11	résonance	résonance	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	magnétique	magnétique	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	Entity=c16)c13)
+13	objective	objectif	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c17--2
+15	processus	processus	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	anévrismal	anévrismal	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	Entity=(c18--2|SpaceAfter=No
+19	aorte	aorte	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20	ascendante	ascendant	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	Entity=c18)c17)|SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le bilan d'extension et la recherche étiologique se révèlent négatifs.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c19--2(c20--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
+4	extension	extension	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c20)
+5	et	et	CCONJ	_	_	7	cc	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c21--2
+7	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+8	étiologique	étiologique	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	Entity=c21)c19)
+9	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+10	révèlent	révéler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	négatifs	négatif	ADJ	_	Gender=Masc|Number=Plur	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'étude anatomo-pathologique de la pièce opératoire montre des lésions non spécifiques.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c22--2|SpaceAfter=No
+2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	anatomo-pathologique	anatomo-pathologique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c23--2
+6	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	opératoire	opératoire	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	Entity=c23)c22)
+8	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	des	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	Entity=(c24--2
+11	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	8	obl:arg	_	_
+12	non	non	ADV	_	Polarity=Neg	13	advmod	_	_
+13	spécifiques	spécifique	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	Entity=c24)|SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+

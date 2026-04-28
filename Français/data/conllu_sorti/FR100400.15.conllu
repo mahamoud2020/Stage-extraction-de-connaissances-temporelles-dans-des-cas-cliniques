@@ -1,0 +1,399 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Madame Z.O, âgée de 76 ans, originaire d'une zone endémique pour le kyste hydatique, opérée à deux reprises pour kystes hydatiques du foie (il y respectivement 6 ans et 3 ans), a été admise pour des douleurs de l'hypochondre droit.
+1	Madame	madame	NOUN	_	Gender=Fem|Number=Sing	42	nsubj:pass	_	Entity=(c1--1
+2	Z.O	Z.O	PROPN	_	_	1	appos	_	Entity=c1)|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	76	76	NUM	_	Number=Plur	7	nummod	_	Entity=(c2--2
+7	ans	an	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	Entity=c2)|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	originaire	originaire	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c3--2
+12	zone	zone	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
+13	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	pour	pour	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(c4--2
+16	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+17	hydatique	hydatique	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	Entity=c4)c3)|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	opérée	opérer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
+20	à	à	ADP	_	_	22	case	_	_
+21	deux	deux	NUM	_	Number=Plur	22	nummod	_	Entity=(c5--2
+22	reprises	reprise	NOUN	_	Gender=Fem|Number=Plur	19	obl:mod	_	Entity=c5)
+23	pour	pour	ADP	_	_	24	case	_	_
+24	kystes	kyste	NOUN	_	Gender=Masc|Number=Plur	19	obl:mod	_	Entity=(c6--1
+25	hydatiques	hydatique	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+26-27	du	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	Entity=(c7--2
+28	foie	foie	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	Entity=c7)c6)
+29	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+30	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	case	_	_
+31	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	30	fixed	_	_
+32	respectivement	respectivement	ADV	_	_	30	fixed	_	_
+33	6	6	NUM	_	Number=Plur	34	nummod	_	Entity=(c8--2
+34	ans	an	NOUN	_	Gender=Masc|Number=Plur	19	obl:mod	_	Entity=c8)
+35	et	et	CCONJ	_	_	37	cc	_	_
+36	3	3	NUM	_	Number=Plur	37	nummod	_	Entity=(c9--2
+37	ans	an	NOUN	_	Gender=Masc|Number=Plur	34	conj	_	Entity=c9)|SpaceAfter=No
+38	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	19	punct	_	_
+40	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux:tense	_	_
+41	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	aux:pass	_	_
+42	admise	admettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+43	pour	pour	ADP	_	_	46	case	_	_
+44-45	des	_	_	_	_	_	_	_	_
+44	de	de	ADP	_	_	46	det	_	_
+45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	Entity=(c10--2
+46	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	42	obl:mod	_	_
+47	de	de	ADP	_	_	49	case	_	_
+48	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	49	det	_	Entity=(c11--2|SpaceAfter=No
+49	hypochondre	hypochondre	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
+50	droit	droit	ADJ	_	Gender=Masc|Number=Sing	49	amod	_	Entity=c11)c10)|SpaceAfter=No
+51	.	.	PUNCT	_	_	42	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Son histoire remontait à 3 mois, marquée par des douleurs de l'hypocondre droit à type de pesanteur, sans autres signes accompagnateurs.
+1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	2	det	_	Entity=(c12--2(c1--1)
+2	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	Entity=c12)
+3	remontait	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	3	3	NUM	_	Number=Plur	6	nummod	_	Entity=(c13--2
+6	mois	mois	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	Entity=c13)|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	marquée	marquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+9	par	par	ADP	_	_	12	case	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	det	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	Entity=(c10--2
+12	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	8	obl:agent	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	Entity=(c11--2|SpaceAfter=No
+15	hypocondre	hypocondre	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	droit	droit	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Entity=c11)
+17	à	à	ADP	_	_	18	case	_	_
+18	type	type	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	Entity=(c14--1
+19	de	de	ADP	_	_	20	case	_	_
+20	pesanteur	pesanteur	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Entity=c14)c10)|SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	sans	sans	ADP	_	_	24	case	_	_
+23	autres	autre	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	Entity=(c15--2
+24	signes	signe	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+25	accompagnateurs	accompagnateur	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	Entity=c15)|SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'examen clinique avait trouvé une patiente en état général conservé, apyrétique, anictérique, et une sensibilité à la palpation de l'hypocondre droit.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c16--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c16)
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+5	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c1--2
+7	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Entity=c1)
+8	en	en	ADP	_	_	9	case	_	_
+9	état	état	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Entity=(c17--1
+10	général	général	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	apyrétique	apyrétique	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	anictérique	anictérique	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	Entity=c17)|SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	et	et	CCONJ	_	_	19	cc	_	_
+18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	Entity=(c18--2
+19	sensibilité	sensibilité	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+20	à	à	ADP	_	_	22	case	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(c19--2
+22	palpation	palpation	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	Entity=(c11--2|SpaceAfter=No
+25	hypocondre	hypocondre	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	droit	droit	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	Entity=c11)c19)c18)|SpaceAfter=No
+27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le bilan hépatique était correct et la sérologie hydatique était positive.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c20--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	hépatique	hépatique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c20)
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	correct	correct	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	et	et	CCONJ	_	_	11	cc	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c21--2
+8	sérologie	sérologie	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	hydatique	hydatique	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c21)
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	positive	positif	ADJ	_	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = La Radiographie du thorax était normale.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c22--2
+2	Radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c23--2
+5	thorax	thorax	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=c23)c22)
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'échographie abdominale avait montré une lésion kystique de l'espace hépato-rénal.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c24--2|SpaceAfter=No
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c24)
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c25--2
+7	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	kystique	kystique	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Entity=(c26--2|SpaceAfter=No
+11	espace	espace	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+12	hépato-rénal	hépato-rénal	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	Entity=c26)c25)|SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Le scanner abdominal en coupe axiale sans et avec injection de produit de contraste avec reconstruction coronale et sagittale avait montré une masse kystique de densité liquidienne homogène de 50x40 mm présentant une paroi propre non rehaussée après injection de produit de contraste de la loge surrénalienne droite refoulant le pole supérieur du rein en arrière et en dehors.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c27--21
+2	scanner	scanner	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+3	abdominal	abdominal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=(c28--1
+6	axiale	axial	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	sans	sans	ADP	_	_	10	case	_	_
+8	et	et	CCONJ	_	_	10	cc	_	_
+9	avec	avec	ADP	_	_	10	case	_	_
+10	injection	injection	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=(c29--1
+11	de	de	ADP	_	_	12	case	_	_
+12	produit	produit	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	Entity=(c30--1
+13	de	de	ADP	_	_	14	case	_	_
+14	contraste	contraste	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	Entity=c30)c29)
+15	avec	avec	ADP	_	_	16	case	_	_
+16	reconstruction	reconstruction	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	Entity=(c31--1
+17	coronale	coronal	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	et	et	CCONJ	_	_	19	cc	_	_
+19	sagittale	sagittal	ADJ	_	Gender=Fem|Number=Sing	17	conj	_	Entity=c31)c28)
+20	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux:tense	_	_
+21	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(c32--2
+23	masse	masse	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	kystique	kystique	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	densité	densité	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	liquidienne	liquidien	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	homogène	homogène	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	50x40	50x40	NUM	_	Number=Plur	31	nummod	_	_
+31	mm	mm	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	Entity=c32)c27)
+32	présentant	présenter	VERB	_	Tense=Pres|VerbForm=Part	23	acl	_	_
+33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	Entity=(c33--2
+34	paroi	paroi	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
+35	propre	propre	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
+36	non	non	ADV	_	Polarity=Neg	37	advmod	_	_
+37	rehaussée	rehausser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	acl	_	Entity=c33)
+38	après	après	ADP	_	_	39	case	_	_
+39	injection	injection	NOUN	_	Gender=Fem|Number=Sing	32	obl:mod	_	Entity=(c29--1
+40	de	de	ADP	_	_	41	case	_	_
+41	produit	produit	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	Entity=(c30--1
+42	de	de	ADP	_	_	43	case	_	_
+43	contraste	contraste	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	Entity=c30)
+44	de	de	ADP	_	_	46	case	_	_
+45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	Entity=(c34--2
+46	loge	loge	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
+47	surrénalienne	surrénalien	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	_
+48	droite	droit	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	Entity=c34)c29)
+49	refoulant	refouler	VERB	_	Tense=Pres|VerbForm=Part	46	acl	_	_
+50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	Entity=(c35--2
+51	pole	pole	NOUN	_	Gender=Masc|Number=Sing	49	obj	_	_
+52	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	51	amod	_	_
+53-54	du	_	_	_	_	_	_	_	_
+53	de	de	ADP	_	_	55	case	_	_
+54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	Entity=(c36--2
+55	rein	rein	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	Entity=c36)c35)
+56	en	en	ADP	_	_	57	case	_	_
+57	arrière	arrière	NOUN	_	Gender=Masc|Number=Sing	49	obl:mod	_	_
+58	et	et	CCONJ	_	_	60	cc	_	_
+59	en	en	ADP	_	_	60	case	_	_
+60	dehors	dehors	NOUN	_	Gender=Masc|Number=Sing	57	conj	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Le diagnostic retenu était un kyste hydatique de la surrénale droite, et la patiente a été opérée par une reprise de l'ancienne cicatrice sous-costale droite.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c37--2
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Entity=c37)
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c37--2
+6	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	hydatique	hydatique	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c34--2
+10	surrénale	surrénale	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+11	droite	droit	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	Entity=c34)c37)|SpaceAfter=No
+12	,	,	PUNCT	_	_	18	punct	_	_
+13	et	et	CCONJ	_	_	18	cc	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c1--2
+15	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	Entity=c1)
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
+17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	opérée	opérer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+19	par	par	ADP	_	_	21	case	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	Entity=(c38--2
+21	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	18	obl:agent	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	Entity=(c39--3|SpaceAfter=No
+24	ancienne	ancien	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+25	cicatrice	cicatrice	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+26	sous-costale	sous-costal	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27	droite	droit	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	Entity=c39)c38)|SpaceAfter=No
+28	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'exploration avait trouvé un kyste à contenu eau de roche de la loge surrénalienne droite.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c40--2|SpaceAfter=No
+2	exploration	exploration	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c40)
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
+4	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c32--2
+6	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	à	à	ADP	_	_	9	case	_	_
+8	contenu	contenu	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Entity=(c41--1
+9	eau	eau	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=(c42--1
+10	de	de	ADP	_	_	11	case	_	_
+11	roche	roche	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Entity=c42)c41)
+12	de	de	ADP	_	_	14	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c34--2
+14	loge	loge	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+15	surrénalienne	surrénalien	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	droite	droit	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	Entity=c34)c32)|SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Après stérilisation du contenu du kyste et aspiration de la membrane proligère, il a été réalisé une résection du dôme saillant et un drainage de la cavité résiduelle par une sonde de salem.
+1	Après	après	ADP	_	_	2	case	_	_
+2	stérilisation	stérilisation	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	Entity=(c43--1(c44--1
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c41--2
+5	contenu	contenu	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c32--2
+8	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	Entity=c32)c41)c44)
+9	et	et	CCONJ	_	_	10	cc	_	_
+10	aspiration	aspiration	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	Entity=(c45--1
+11	de	de	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(c46--2
+13	membrane	membrane	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	proligère	proliger	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	Entity=c46)c45)c43)|SpaceAfter=No
+15	,	,	PUNCT	_	_	2	punct	_	_
+16	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
+18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	Entity=(c47--2(c48--2
+21	résection	résection	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	du	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(c49--2
+24	dôme	dôme	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	saillant	saillant	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	Entity=c49)c48)
+26	et	et	CCONJ	_	_	28	cc	_	_
+27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	Entity=(c50--2
+28	drainage	drainage	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	Entity=(c51--2
+31	cavité	cavité	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32	résiduelle	résiduel	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	Entity=c51)c50)
+33	par	par	ADP	_	_	35	case	_	_
+34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	Entity=(c52--2
+35	sonde	sonde	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	salem	salem	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	Entity=c52)c47)|SpaceAfter=No
+38	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Les suites opératoires immédiates ont été favorables, le drain a été retiré à J 3 post-opératoire et la patiente a été mise sortante à J5.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c53--2
+2	suites	suite	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+3	opératoires	opératoire	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	immédiates	immédiat	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	Entity=c53)
+5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	favorables	favorable	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c50--2
+10	drain	drain	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	Entity=c50)
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	retiré	retirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	_
+14	à	à	ADP	_	_	15	case	_	_
+15	J	J	PROPN	_	_	13	obl:arg	_	Entity=(c54--1
+16	3	3	NUM	_	Number=Plur	15	nmod	_	_
+17	post-opératoire	post-opératoire	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Entity=c54)
+18	et	et	CCONJ	_	_	23	cc	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(c1--2
+20	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	23	nsubj:pass	_	Entity=c1)
+21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:tense	_	_
+22	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	_
+24	sortante	sortant	ADJ	_	Gender=Fem|Number=Sing	23	xcomp	_	_
+25	à	à	ADP	_	_	26	case	_	_
+26	J5	J5	PROPN	_	_	23	obl:mod	_	Entity=(c55--1)|SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'étude anatomopathologique avait conclu à un kyste hydatique de la surrénale.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c56--2|SpaceAfter=No
+2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	anatomopathologique	anatomopathologique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c56)
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+5	conclu	conclure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c37--2
+8	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
+9	hydatique	hydatique	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c34--2
+12	surrénale	surrénale	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	Entity=c34)c37)|SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = La patiente a été suivie à la consultation avec un recul de deux ans, les contrôles n'avaient pas révélé de récidives.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	Entity=c1)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c57--2
+8	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	Entity=c57)
+9	avec	avec	ADP	_	_	11	case	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(c58--2
+11	recul	recul	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	deux	deux	NUM	_	Number=Plur	14	nummod	_	Entity=(c59--2
+14	ans	an	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	Entity=c59)c58)|SpaceAfter=No
+15	,	,	PUNCT	_	_	21	punct	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(c60--2
+17	contrôles	contrôle	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	Entity=c60)
+18	n'	ne	ADV	_	Polarity=Neg	21	advmod	_	SpaceAfter=No
+19	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux:tense	_	_
+20	pas	pas	ADV	_	Polarity=Neg	21	advmod	_	_
+21	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	_
+22	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+23	récidives	récidive	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	Entity=(c61--1)|SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+

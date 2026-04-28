@@ -1,0 +1,457 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Il s'agit d'une patiente âgée de 24 ans, sans antécédents pathologiques notables, sans de notion de consanguinité, G1P0.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c1--2
+6	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+7	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	24	24	NUM	_	Number=Plur	10	nummod	_	Entity=(c2--2
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	Entity=c2)c1)|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	sans	sans	ADP	_	_	13	case	_	_
+13	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Entity=(c3--1
+14	pathologiques	pathologique	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+15	notables	notable	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	Entity=c3)|SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	sans	sans	ADP	_	_	19	case	_	_
+18	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
+19	notion	notion	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	Entity=(c4--1
+20	de	de	ADP	_	_	21	case	_	_
+21	consanguinité	consanguinité	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	Entity=(c5--1)c4)|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	G1P0	G1P0	X	_	_	19	appos	_	Entity=(c6--1)|SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Grossesse actuelle estimé a 37 SA selon une date des dernière règle précise suivi chez un gynécologue privé, ayant bénéficié d'une échographie à 17 SA n'ayant pas posé le diagnostic de jumeaux conjoints puis patiente perdu de vue.
+1	Grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Entity=(c7--1
+2	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	estimé	estimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
+4	a	à	ADP	_	Typo=Yes	6	case	_	_
+5	37	37	NUM	_	Number=Plur	6	nummod	_	Entity=(c8--2
+6	SA	SA	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	Entity=c8)
+7	selon	selon	ADP	_	_	9	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c9--2
+9	date	date	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	Entity=(c10--3
+12	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	règle	règle	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	9	nmod	_	_
+14	précise	précis	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	Entity=c10)c9)
+15	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+16	chez	chez	ADP	_	_	18	case	_	_
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(c11--2
+18	gynécologue	gynécologue	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+19	privé	privé	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	Entity=c11)|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	22	aux:tense	_	_
+22	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	advcl	_	_
+23	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(c12--2
+25	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	Entity=c12)
+26	à	à	ADP	_	_	28	case	_	_
+27	17	17	NUM	_	Number=Plur	28	nummod	_	Entity=(c13--2
+28	SA	SA	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	Entity=c13)c7)
+29	n'	ne	ADV	_	Polarity=Neg	32	advmod	_	SpaceAfter=No
+30	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	32	aux:tense	_	_
+31	pas	pas	ADV	_	Polarity=Neg	32	advmod	_	_
+32	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	advcl	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	Entity=(c14--2
+34	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	Entity=(c15--1
+37	conjoints	conjoint	ADJ	_	Gender=Masc|Number=Plur	36	amod	_	Entity=c15)c14)
+38	puis	puis	CCONJ	_	_	39	cc	_	_
+39	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	Entity=(c16--1
+40	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	acl	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	vue	vue	NOUN	_	Gender=Fem|Number=Sing	40	obl:arg	_	Entity=c16)|SpaceAfter=No
+43	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Consulte en urgence obstétricale en début de travail.
+1	Consulte	consulter	VERB	_	Gender=Fem|Number=Sing	0	root	_	Entity=(c17--1
+2	en	en	ADP	_	_	3	case	_	_
+3	urgence	urgence	NOUN	_	Gender=Fem|Number=Sing	1	obl:mod	_	Entity=(c18--1
+4	obstétricale	obstétrical	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	Entity=c18)
+5	en	en	ADP	_	_	6	case	_	_
+6	début	début	NOUN	_	Gender=Masc|Number=Sing	1	obl:mod	_	Entity=(c19--1
+7	de	de	ADP	_	_	8	case	_	_
+8	travail	travail	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Entity=(c20--1)c19)|SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	Entity=c17)|SpacesAfter=\n
+
+# sent_id = 4
+# text = L'examen clinique a l'admission trouve une patiente consciente, normo tendu, normo carde, eupnéique et apyrétique.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c21--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c21)
+4	a	à	ADP	_	_	6	case	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Entity=(c22--2|SpaceAfter=No
+6	admission	admission	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c22)
+7	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c1--2
+9	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	consciente	conscient	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	normo	normo	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+13	tendu	tendu	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	normo	normo	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+16	carde	carde	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	eupnéique	eupnéique	ADJ	_	Gender=Fem|Number=Sing	12	conj	_	_
+19	et	et	CCONJ	_	_	20	cc	_	_
+20	apyrétique	apyrétique	ADJ	_	Gender=Fem|Number=Sing	13	conj	_	Entity=c1)|SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'examen obstétrical trouve une hauteur utérine à 34 cm, BCF positif dans un seul foyer à 150 battements/min, contractions utérines positives.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c23--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	obstétrical	obstétrical	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c23)
+4	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c24--2
+6	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	utérine	utérin	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	à	à	ADP	_	_	10	case	_	_
+9	34	34	NUM	_	Number=Plur	10	nummod	_	Entity=(c25--2
+10	cm	cm	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Entity=c25)c24)|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	BCF	BCF	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	Entity=(c26--1
+13	positif	positif	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	dans	dans	ADP	_	_	17	case	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c27--3
+16	seul	seul	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	Entity=c27)
+18	à	à	ADP	_	_	20	case	_	_
+19	150	150	NUM	_	Number=Plur	20	nummod	_	Entity=(c28--2
+20	battements	battement	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	/	/	SYM	_	_	22	case	_	SpaceAfter=No
+22	min	min	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	Entity=(c29--1)c28)c26)|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	contractions	contraction	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	Entity=(c30--1
+25	utérines	utérin	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
+26	positives	positif	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	Entity=c30)|SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Au spéculum col macroscopiquement normal, pas de métrorragie ni d'hydrorrhée.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(c31--2
+3	spéculum	spéculum	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Entity=c31)
+4	col	col	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	Entity=(c32--1
+5	macroscopiquement	macroscopiquement	ADV	_	_	6	advmod	_	_
+6	normal	normal	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	Entity=c32)|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
+9	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+10	métrorragie	métrorragie	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	Entity=(c33--1)
+11	ni	ni	CCONJ	_	_	13	cc	_	_
+12	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	hydrorrhée	hydrorrhée	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	Entity=(c34--1)|SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Au toucher vaginal, col dilaté a 1 doigt large, effacé à 60% central.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(c35--2
+3	toucher	toucher	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+4	vaginal	vaginal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	Entity=c35)|SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	col	col	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Entity=(c36--1
+7	dilaté	dilater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	a	à	ADP	_	Typo=Yes	10	case	_	_
+9	1	1	NUM	_	Number=Sing	10	nummod	_	Entity=(c37--2
+10	doigt	doigt	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+11	large	large	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	Entity=c37)|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	effacé	effacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	60	60	NUM	_	Number=Plur	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	_	Number=Plur	13	obl:mod	_	_
+17	central	central	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	Entity=c36)|SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = La patiente a bénéficié d'une échographie obstétricale objectivant une grossesse gémellaire monochoriale monoamniotique avec fusion des deux rachis au niveau lombaire et la présence d'un cœur unique, le nombre des membres supérieurs et inférieurs est difficile a déterminé.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c1)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c38--2
+7	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
+8	obstétricale	obstétrical	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	Entity=c38)
+9	objectivant	objectiver	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(c39--2
+11	grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	gémellaire	gémellaire	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	monochoriale	monochorial	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+14	monoamniotique	monoamniotique	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+15	avec	avec	ADP	_	_	16	case	_	_
+16	fusion	fusion	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=(c40--1
+17-18	des	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	Entity=(c41--3
+19	deux	deux	NUM	_	Number=Plur	20	nummod	_	_
+20	rachis	rachi	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	Entity=c41)
+21-22	au	_	_	_	_	_	_	_	_
+21	à	à	ADP	_	_	23	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(c42--2
+23	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+24	lombaire	lombaire	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	Entity=c42)c40)c39)
+25	et	et	CCONJ	_	_	27	cc	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(c43--2
+27	présence	présence	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+28	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	Entity=(c44--2
+30	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+31	unique	unique	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	Entity=c44)c43)|SpaceAfter=No
+32	,	,	PUNCT	_	_	42	punct	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	Entity=(c45--2
+34	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	42	nsubj	_	_
+35-36	des	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	Entity=(c46--2
+37	membres	membre	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
+38	supérieurs	supérieur	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	_
+39	et	et	CCONJ	_	_	40	cc	_	_
+40	inférieurs	inférieur	ADJ	_	Gender=Masc|Number=Plur	38	conj	_	Entity=c46)c45)
+41	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+42	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	4	conj	_	_
+43	a	à	ADP	_	Typo=Yes	44	mark	_	_
+44	déterminé	déterminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	42	xcomp	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'aspect échographique fait évoquer le diagnostic de jumeaux conjoints.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c47--2|SpaceAfter=No
+2	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:caus	_	_
+3	échographique	échographique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c47)
+4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
+5	évoquer	évoquer	VERB	_	VerbForm=Inf	0	root	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(c14--2
+7	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	5	obj:agent	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	Entity=(c15--1
+10	conjoints	conjoint	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	Entity=c15)c14)|SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = La patiente a bénéficié aussi d'une radiographie du contenu montrant deux têtes fœtales avec deux rachis fusionnant au niveau de la région lombaire.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c1)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	aussi	aussi	ADV	_	_	4	advmod	_	_
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c48--2
+8	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(c49--2
+11	contenu	contenu	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Entity=c49)c48)
+12	montrant	montrer	VERB	_	Tense=Pres|VerbForm=Part	8	acl	_	_
+13	deux	deux	NUM	_	Number=Plur	14	nummod	_	Entity=(c50--2
+14	têtes	tête	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+15	fœtales	fœtal	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+16	avec	avec	ADP	_	_	18	case	_	_
+17	deux	deux	NUM	_	Number=Plur	18	nummod	_	Entity=(c41--2
+18	rachis	rachi	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	Entity=c41)
+19	fusionnant	fusionner	VERB	_	Tense=Pres|VerbForm=Part	18	acl	_	_
+20-21	au	_	_	_	_	_	_	_	_
+20	à	à	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(c42--2
+22	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(c51--2
+25	région	région	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	lombaire	lombaire	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	Entity=c51)c42)c50)|SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Après avoir informé la patiente du pronostic de l'accouchement et du pronostic fœtal la décision était de la césarisée.
+1	Après	après	ADP	_	_	3	mark	_	_
+2	avoir	avoir	AUX	_	VerbForm=Inf	3	aux:tense	_	_
+3	informé	informer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	advcl	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(c1--2
+5	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Entity=c1)
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c52--2
+8	pronostic	pronostic	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Entity=(c53--2|SpaceAfter=No
+11	accouchement	accouchement	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Entity=c53)c52)
+12	et	et	CCONJ	_	_	15	cc	_	_
+13-14	du	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c54--2
+15	pronostic	pronostic	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+16	fœtal	fœtal	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Entity=c54)
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c55--2
+18	décision	décision	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	Entity=c55)
+19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(c56--2
+22	césarisée	césarisée	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Entity=c56)|SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'extraction était difficile vu que la 2 ème tête était en hyper extension.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c57--2|SpaceAfter=No
+2	extraction	extraction	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c57)
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	difficile	difficile	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+5	vu	vu	ADP	_	_	14	mark	_	_
+6	que	que	SCONJ	_	_	5	fixed	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c58--3
+8	2	2	NUM	_	Number=Sing	9	nummod	_	_
+9	ème	ème	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+10	tête	tête	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Entity=c58)
+11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+12	en	en	ADP	_	_	14	case	_	_
+13	hyper	hyper	ADJ	_	_	14	amod	_	Entity=(c59--2
+14	extension	extension	NOUN	_	Gender=Fem|Number=Sing	4	advcl	_	Entity=c59)|SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = L'Apgar à la 1 ère minute était de 5 dixième devenant 7 dixième a la 5 minutes.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c60--2|SpaceAfter=No
+2	Apgar	Apgar	PROPN	_	Number=Sing	11	nsubj	_	Entity=c60)
+3	à	à	ADP	_	_	7	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c61--4
+5	1	1	NUM	_	Number=Sing	7	nummod	_	_
+6	ère	ère	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	minute	minute	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c61)
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	5	5	NUM	_	Number=Plur	11	nummod	_	Entity=(c62--2
+11	dixième	dixième	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Entity=c62)
+12	devenant	devenir	VERB	_	Tense=Pres|VerbForm=Part	11	advcl	_	_
+13	7	7	NUM	_	Number=Plur	14	nummod	_	Entity=(c63--2
+14	dixième	dixième	ADJ	_	Gender=Masc|Number=Sing	12	obj	_	Entity=c63)
+15	a	à	ADP	_	_	18	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c64--3
+17	5	5	NUM	_	Number=Plur	18	nummod	_	_
+18	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	12	obl:mod	_	Entity=c64)|SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Le poids de naissance était de 3300g.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c65--2
+2	poids	poids	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	naissance	naissance	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c65)
+5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	3300g	3300g	NUM	_	Number=Plur	0	root	_	Entity=(c66--1)|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = L'examen du délivre objective des anomalies vasculaires, trois artères et une veine.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c67--6|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c65--1)
+5	délivre	délivre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	objective	objectiver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	des	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	Entity=(c68--2
+9	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	_
+10	vasculaires	vasculaire	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	Entity=c68)|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	trois	trois	NUM	_	Number=Plur	13	nummod	_	Entity=(c69--2
+13	artères	artère	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	Entity=c69)
+14	et	et	CCONJ	_	_	16	cc	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c70--2
+16	veine	veine	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	Entity=c70)c67)|SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Les jumeaux examinés par les pédiatres dont l'examen initial a décelé une ectopie cardiaque avec deux trachées et deux œsophages, aucune autre malformation n'a pu être objectivé cliniquement.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c71--2
+2	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+3	examinés	examiner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	par	par	ADP	_	_	6	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	Entity=(c72--2
+6	pédiatres	pédiatre	NOUN	_	Gender=Masc|Number=Plur	3	obl:agent	_	Entity=c72)
+7	dont	dont	PRON	_	PronType=Rel	9	nmod	_	Entity=(c72--1)
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Entity=(c73--2|SpaceAfter=No
+9	examen	examen	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	initial	initial	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Entity=c73)
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	décelé	déceler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c74--2
+14	ectopie	ectopie	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	cardiaque	cardiaque	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	Entity=c74)
+16	avec	avec	ADP	_	_	18	case	_	_
+17	deux	deux	NUM	_	Number=Plur	18	nummod	_	Entity=(c75--2(c76--2
+18	trachées	trachée	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	Entity=c76)
+19	et	et	CCONJ	_	_	21	cc	_	_
+20	deux	deux	NUM	_	Number=Plur	21	nummod	_	Entity=(c77--2
+21	œsophages	œsophage	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	Entity=c77)c75)c71)|SpaceAfter=No
+22	,	,	PUNCT	_	_	2	punct	_	_
+23	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	25	det	_	Entity=(c78--3
+24	autre	autre	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+25	malformation	malformation	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	Entity=c78)
+26	n'	ne	ADV	_	Polarity=Neg	28	advmod	_	SpaceAfter=No
+27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:tense	_	_
+28	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+29	être	être	AUX	_	VerbForm=Inf	30	aux:pass	_	_
+30	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	xcomp	_	_
+31	cliniquement	cliniquement	ADV	_	_	30	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Les jumeaux ont présenté une détresse respiratoire intubée au niveau des deux trachées ventilées avec échec des mesures de réanimation, décédés à H 3 de vie.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c71--2
+2	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	Entity=c71)
+3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c79--2
+6	détresse	détresse	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	respiratoire	respiratoire	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	intubée	intuber	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+9-10	au	_	_	_	_	_	_	_	_
+9	à	à	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(c80--2
+11	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+12-13	des	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	Entity=(c76--3
+14	deux	deux	NUM	_	Number=Plur	15	nummod	_	_
+15	trachées	trachée	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+16	ventilées	ventiler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	Entity=c76)c80)c79)
+17	avec	avec	ADP	_	_	18	case	_	_
+18	échec	échec	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Entity=(c81--1
+19-20	des	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	Entity=(c82--2
+21	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	réanimation	réanimation	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	Entity=(c83--1)c82)c81)|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	décédés	décéder	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+26	à	à	ADP	_	_	27	case	_	_
+27	H	H	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	Entity=(c84--1
+28	3	3	NUM	_	Number=Plur	27	nmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	vie	vie	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	Entity=(c85--1)c84)|SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+

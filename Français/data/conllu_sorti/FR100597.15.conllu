@@ -1,0 +1,806 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Il s'agissait d'une patiente âgée de 78 ans, sans antécédent pathologiques notable.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	agissait	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c1--2
+6	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+7	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	78	78	NUM	_	Number=Plur	10	nummod	_	Entity=(c2--2
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	Entity=c2)c1)|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	sans	sans	ADP	_	_	13	case	_	_
+13	antécédent	antécédent	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Entity=(c3--1
+14	pathologiques	pathologique	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+15	notable	notable	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	Entity=c3)|SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = La patiente a eu sept accouchements par voie basse sans complications notables et une ligature des trompes il ya 35 ans.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c1)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	sept	sept	NUM	_	Number=Plur	6	nummod	_	Entity=(c4--2
+6	accouchements	accouchement	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	par	par	ADP	_	_	8	case	_	_
+8	voie	voie	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=(c5--1
+9	basse	bas	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c5)c4)
+10	sans	sans	ADP	_	_	11	case	_	_
+11	complications	complication	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	Entity=(c6--1
+12	notables	notable	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	Entity=c6)
+13	et	et	CCONJ	_	_	15	cc	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c7--2
+15	ligature	ligature	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	Entity=(c8--2
+18	trompes	trompe	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	Entity=c8)c7)
+19	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	case	_	_
+20	ya	ya	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	_
+21	35	35	NUM	_	Number=Plur	22	nummod	_	Entity=(c9--2
+22	ans	an	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	Entity=c9)|SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Elle est ménopausée depuis 25 ans.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	Entity=(c1--1)
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	ménopausée	ménopauser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	depuis	depuis	ADP	_	_	6	case	_	_
+5	25	25	NUM	_	Number=Plur	6	nummod	_	Entity=(c10--2
+6	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl:mod	_	Entity=c10)|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Elle s'était présentée en consultation devant la découverte récente d'une masse pelvienne avec des algies pelviennes évoluant depuis une année, négligées initialement.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Entity=(c1--1)
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	SpaceAfter=No
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
+4	présentée	présenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	Entity=(c11--1)
+7	devant	devant	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c12--2
+9	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
+10	récente	récent	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(c13--2
+13	masse	masse	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+14	pelvienne	pelvien	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	Entity=c13)
+15	avec	avec	ADP	_	_	18	case	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	det	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	Entity=(c14--2
+18	algies	algie	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+19	pelviennes	pelvien	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+20	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	18	acl	_	_
+21	depuis	depuis	ADP	_	_	23	case	_	_
+22	une	un	NUM	_	Gender=Fem|Number=Sing	23	nummod	_	Entity=(c15--2
+23	année	année	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	Entity=c15)|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	négligées	négliger	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	_
+26	initialement	initialement	ADV	_	_	25	advmod	_	Entity=c14)c12)|SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'examen physique notait la présence d'une masse pelvi-abdominale s'étalant de la fosse iliaque droite à la fosse iliaque gauche à surface régulière, au dessus de la symphyse pubienne mesurant 20cm de diamétre.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c16--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	physique	physique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c16)
+4	notait	noter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c17--2
+6	présence	présence	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c13--2
+9	masse	masse	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	pelvi-abdominale	pelvi-abdominal	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Entity=c13)
+11	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pass	_	SpaceAfter=No
+12	étalant	étaler	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c18--2
+15	fosse	fosse	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
+16	iliaque	iliaque	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	droite	droit	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	Entity=c18)
+18	à	à	ADP	_	_	20	case	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(c19--2
+20	fosse	fosse	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+21	iliaque	iliaque	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	Entity=c19)
+23	à	à	ADP	_	_	24	case	_	_
+24	surface	surface	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	Entity=(c20--1
+25	régulière	régulier	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	Entity=c20)c17)|SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27-28	au	_	_	_	_	_	_	_	_
+27	à	à	ADP	_	_	29	case	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	Entity=(c21--2
+29	dessus	dessus	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	Entity=(c22--2
+32	symphyse	symphyse	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33	pubienne	pubien	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	Entity=c22)c21)
+34	mesurant	mesurer	VERB	_	Tense=Pres|VerbForm=Part	32	acl	_	_
+35	20cm	20cm	NUM	_	Number=Plur	34	obj	_	Entity=(c23--1
+36	de	de	ADP	_	_	37	case	_	_
+37	diamétre	diamétre	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	Entity=(c24--1)c23)|SpaceAfter=No
+38	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'examen des seins était sans anomalie.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c25--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	des	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(c26--2
+5	seins	sein	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	Entity=c26)c25)
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	sans	sans	ADP	_	_	8	case	_	_
+8	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Entity=(c27--1)|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = L'examen au speculum montrait un col macroscopiquement sain qui a perdu son relief.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c28--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	au	_	_	_	_	_	_	_	_
+3	à	à	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c29--2
+5	speculum	speculum	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=c29)c28)
+6	montrait	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c30--2
+8	col	col	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	macroscopiquement	macroscopiquement	ADV	_	_	10	advmod	_	_
+10	sain	sain	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	Entity=c30)
+11	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	Entity=(c30--1)
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+13	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+14	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	Entity=(c31--2(c30--1)
+15	relief	relief	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	Entity=c31)|SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Au toucher vaginal, l'utérus était difficile à apprécier avec perception d'une masse sus utérine, arrivant à l'ombilic, ne comblant pas les culs de sac.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	mark	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(c32--2
+3	toucher	toucher	VERB	_	VerbForm=Inf	9	advcl	_	_
+4	vaginal	vaginal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	Entity=c32)|SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Entity=(c33--2|SpaceAfter=No
+7	utérus	utérus	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	Entity=c33)
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+10	à	à	ADP	_	_	11	mark	_	_
+11	apprécier	apprécier	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	avec	avec	ADP	_	_	13	case	_	_
+13	perception	perception	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	Entity=(c34--1
+14	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c35--2
+16	masse	masse	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	sus	sus	ADP	_	_	18	case	_	_
+18	utérine	utérine	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	Entity=c35)c34)|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	arrivant	arriver	VERB	_	Tense=Pres|VerbForm=Part	16	acl	_	_
+21	à	à	ADP	_	_	23	case	_	_
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	Entity=(c36--2|SpaceAfter=No
+23	ombilic	ombilic	NOUN	_	Gender=Masc|Number=Sing	20	obl:arg	_	Entity=c36)|SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	_
+26	comblant	combler	VERB	_	Tense=Pres|VerbForm=Part	20	advcl	_	_
+27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	_
+28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	Entity=(c37--2
+29	culs	cul	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	sac	sac	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	Entity=(c38--1)c37)|SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Le reste de l'examen somatique était sans particularité et les aires ganglionnaires étaient libres.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c39--2
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Entity=(c40--2|SpaceAfter=No
+5	examen	examen	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	somatique	somatique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c40)c39)
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	sans	sans	ADP	_	_	9	case	_	_
+9	particularité	particularité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Entity=(c41--1)
+10	et	et	CCONJ	_	_	15	cc	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	Entity=(c42--2
+12	aires	aire	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+13	ganglionnaires	ganglionnaire	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	Entity=c42)
+14	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	libres	libre	ADJ	_	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Une échographie abdomino-pelvienne, indiquée pour étayer le diagnostic a montré un utérus de petite taille à paroi calcifiée, la présence d'une masse polylobée composée de trois formations de structures tissulaires mesurant 5cm, 7,5cm et 10cm, une hypervascularisation iliaque bilatérales et les ovaires ne sont pas franchement individualisables.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c43--2
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	abdomino-pelvienne	abdomino-pelvien	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c43)|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	indiquée	indiquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+6	pour	pour	ADP	_	_	7	mark	_	_
+7	étayer	étayer	VERB	_	VerbForm=Inf	5	advcl	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(c44--2
+9	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	Entity=c44)
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(c33--2
+13	utérus	utérus	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	petite	petit	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	Entity=(c45--2
+16	taille	taille	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	Entity=c45)
+17	à	à	ADP	_	_	18	case	_	_
+18	paroi	paroi	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	Entity=(c46--1
+19	calcifiée	calcifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	Entity=c46)c33)|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(c47--2
+22	présence	présence	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+23	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(c48--2
+25	masse	masse	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	polylobée	polylobé	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27	composée	composer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	acl	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	trois	trois	NUM	_	Number=Plur	30	nummod	_	Entity=(c49--2
+30	formations	formation	NOUN	_	Gender=Fem|Number=Plur	27	obl:arg	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	structures	structure	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	Entity=(c50--1
+33	tissulaires	tissulaire	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	Entity=c50)c49)
+34	mesurant	mesurer	VERB	_	Tense=Pres|VerbForm=Part	30	acl	_	_
+35	5cm	5cm	NUM	_	Number=Plur	34	obj	_	Entity=(c51--1)|SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	7,5cm	7,5cm	NUM	_	Number=Plur	35	conj	_	Entity=(c52--1)
+38	et	et	CCONJ	_	_	39	cc	_	_
+39	10cm	10cm	NOUN	_	Number=Plur	35	conj	_	Entity=(c53--1)c48)c47)|SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	_
+41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	Entity=(c54--2
+42	hypervascularisation	hypervascularisation	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+43	iliaque	iliaque	ADJ	_	Gender=Fem|Number=Sing	42	amod	_	_
+44	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	42	amod	_	Entity=c54)
+45	et	et	CCONJ	_	_	52	cc	_	_
+46	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	47	det	_	Entity=(c55--2
+47	ovaires	ovaire	NOUN	_	Gender=Masc|Number=Plur	52	nsubj	_	Entity=c55)
+48	ne	ne	ADV	_	Polarity=Neg	52	advmod	_	_
+49	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
+50	pas	pas	ADV	_	Polarity=Neg	52	advmod	_	_
+51	franchement	franchement	ADV	_	_	52	advmod	_	_
+52	individualisables	individualisable	ADJ	_	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Nous avons complété notre exploration par la réalisation d'un scanner abdomino-pelvien qui a montré la présence d'une volumineuse masse du pelvis, intra-péritonéale très hétérogène, à contours bien limités, mesurant au moins 15 cm sur son plus grand axe polylobée se rehaussant intensément après injection de produit de contraste avec des zones centrales multiples hypodenses en rapport avec de la nécrose.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Entity=(c56--1)
+2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	complété	compléter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	Entity=(c43--2(c56--1)
+5	exploration	exploration	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Entity=c43)
+6	par	par	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c57--2
+8	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(c58--2
+11	scanner	scanner	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	abdomino-pelvien	abdomino-pelvien	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	Entity=c58)c57)
+13	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	Entity=(c58--1)
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
+15	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	acl:relcl	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c59--2
+17	présence	présence	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	Entity=(c48--3
+20	volumineuse	volumineux	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	masse	masse	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+22-23	du	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(c60--2
+24	pelvis	pelvis	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	Entity=c60)c48)|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	intra-péritonéale	intra-péritonéal	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+27	très	très	ADV	_	_	28	advmod	_	_
+28	hétérogène	hétérogène	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	à	à	ADP	_	_	31	case	_	_
+31	contours	contour	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	Entity=(c61--1
+32	bien	bien	ADV	_	_	33	advmod	_	_
+33	limités	limité	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	Entity=c61)|SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	mesurant	mesurer	VERB	_	Tense=Pres|VerbForm=Part	21	acl	_	_
+36-37	au	_	_	_	_	_	_	_	_
+36	à	à	ADP	_	_	39	advmod	_	_
+37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	fixed	_	_
+38	moins	moins	ADV	_	_	36	fixed	_	_
+39	15	15	NUM	_	Number=Plur	40	nummod	_	Entity=(c62--2
+40	cm	cm	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	Entity=c62)
+41	sur	sur	ADP	_	_	45	case	_	_
+42	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	45	det	_	Entity=(c63--4(c48--1)
+43	plus	plus	ADV	_	_	44	advmod	_	_
+44	grand	grand	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	_
+45	axe	axe	NOUN	_	Gender=Masc|Number=Sing	35	obl:mod	_	_
+46	polylobée	polylobée	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	Entity=c63)
+47	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	48	expl:pass	_	_
+48	rehaussant	rehausser	VERB	_	Tense=Pres|VerbForm=Part	45	acl	_	_
+49	intensément	intensément	ADV	_	_	48	advmod	_	_
+50	après	après	ADP	_	_	51	case	_	_
+51	injection	injection	NOUN	_	Gender=Fem|Number=Sing	48	obl:mod	_	Entity=(c64--1
+52	de	de	ADP	_	_	53	case	_	_
+53	produit	produit	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	Entity=(c65--1
+54	de	de	ADP	_	_	55	case	_	_
+55	contraste	contraste	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	Entity=c65)c64)
+56	avec	avec	ADP	_	_	59	case	_	_
+57-58	des	_	_	_	_	_	_	_	_
+57	de	de	ADP	_	_	59	det	_	_
+58	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	59	det	_	Entity=(c66--2
+59	zones	zone	NOUN	_	Gender=Fem|Number=Plur	53	nmod	_	_
+60	centrales	central	ADJ	_	Gender=Fem|Number=Plur	59	amod	_	_
+61	multiples	multiple	ADJ	_	Gender=Fem|Number=Plur	59	amod	_	_
+62	hypodenses	hypodense	ADJ	_	Gender=Fem|Number=Plur	59	amod	_	_
+63	en	en	ADP	_	_	64	case	_	_
+64	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	59	nmod	_	_
+65	avec	avec	ADP	_	_	68	case	_	_
+66	de	de	ADP	_	_	68	det	_	_
+67	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	Entity=(c67--2
+68	nécrose	nécrose	NOUN	_	Gender=Fem|Number=Sing	64	nmod	_	Entity=c67)c66)c59)|SpaceAfter=No
+69	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = La masse est localisée surtout au niveau de la face interne des vaisseaux iliaques au sein des deux loges ovariennes.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c48--2
+2	masse	masse	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	Entity=c48)
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	localisée	localiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	surtout	surtout	ADV	_	_	4	advmod	_	_
+6-7	au	_	_	_	_	_	_	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c68--2
+8	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(c69--2
+11	face	face	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	interne	interne	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	des	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	Entity=(c70--2
+15	vaisseaux	vaisseau	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+16	iliaques	iliaque	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	Entity=c70)c69)
+17-18	au	_	_	_	_	_	_	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(c71--2
+19	sein	sein	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+20-21	des	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	23	case	_	_
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	Entity=(c72--3
+22	deux	deux	NUM	_	Number=Plur	23	nummod	_	_
+23	loges	loge	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+24	ovariennes	ovarien	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	Entity=c72)c71)c68)|SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Il existe aussi un refoulement de la vessie qui est comprimée et refoulée à droite et une circulation veineuse collatérale pelvienne par compression des chaines iliaques et de tout le petit bassin.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
+2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aussi	aussi	ADV	_	_	2	advmod	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c73--2(c74--2
+5	refoulement	refoulement	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c75--2
+8	vessie	vessie	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	Entity=c75)c74)
+9	qui	qui	PRON	_	PronType=Rel	11	nsubj:pass	_	Entity=(c75--1)
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	comprimée	comprimer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+12	et	et	CCONJ	_	_	13	cc	_	_
+13	refoulée	refouler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	conj	_	_
+14	à	à	ADP	_	_	15	case	_	_
+15	droite	droite	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
+16	et	et	CCONJ	_	_	18	cc	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c76--2
+18	circulation	circulation	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+19	veineuse	veineux	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	collatérale	collatéral	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+21	pelvienne	pelvien	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	Entity=c76)
+22	par	par	ADP	_	_	23	case	_	_
+23	compression	compression	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Entity=(c77--1
+24-25	des	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	Entity=(c78--2
+26	chaines	chaine	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	iliaques	iliaque	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	Entity=c78)
+28	et	et	CCONJ	_	_	33	cc	_	_
+29	de	de	ADP	_	_	33	case	_	_
+30	tout	tout	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	Entity=(c79--4
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	petit	petit	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
+33	bassin	bassin	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	Entity=c79)c77)c73)|SpaceAfter=No
+34	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Il n'y avait pas de thrombus visible et paradoxalement il n'y avait pas d'adénomégalie significative.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	4	expl:comp	_	_
+4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
+6	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	thrombus	thrombus	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Entity=(c80--1
+8	visible	visible	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Entity=c80)
+9	et	et	CCONJ	_	_	14	cc	_	_
+10	paradoxalement	paradoxalement	ADV	_	_	14	advmod	_	_
+11	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
+12	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	SpaceAfter=No
+13	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	14	expl:comp	_	_
+14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+15	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	_
+16	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	adénomégalie	adénomégalie	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	Entity=(c81--1
+18	significative	significatif	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	Entity=c81)|SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Devant ces constatations cliniques et radiologiques: trois diagnostics ont été évoqués: un sacome utérin, une tumeur ovarienne ou un syndrome de krukenberg.
+1	Devant	devant	ADP	_	_	3	case	_	_
+2	ces	ce	DET	_	Number=Plur|PronType=Dem	3	det	_	Entity=(c82--2
+3	constatations	constatation	NOUN	_	Gender=Fem|Number=Plur	12	obl:mod	_	_
+4	cliniques	clinique	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+5	et	et	CCONJ	_	_	6	cc	_	_
+6	radiologiques	radiologique	ADJ	_	Gender=Fem|Number=Plur	4	conj	_	Entity=c82)|SpaceAfter=No
+7	:	:	PUNCT	_	_	3	punct	_	_
+8	trois	trois	NUM	_	Number=Plur	9	nummod	_	Entity=(c83--2
+9	diagnostics	diagnostic	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:pass	_	Entity=c83)
+10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	évoqués	évoquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	15	punct	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c83--2(c84--2
+15	sacome	sacome	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+16	utérin	utérin	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Entity=c84)|SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	Entity=(c85--2
+19	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
+20	ovarienne	ovarien	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	Entity=c85)
+21	ou	ou	CCONJ	_	_	23	cc	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(c86--2
+23	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	krukenberg	krukenberg	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	Entity=(c87--1)c86)c83)|SpaceAfter=No
+26	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = La décision du staff était de réaliser une IRM pelvienne qui a montré deux masses pelviennes vraisemblablement ovariennes droite et gauche.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c88--2
+2	décision	décision	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c56--2
+5	staff	staff	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=c56)c88)
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	de	de	ADP	_	_	8	mark	_	_
+8	réaliser	réaliser	VERB	_	VerbForm=Inf	0	root	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c89--2
+10	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	pelvienne	pelvien	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	Entity=c89)
+12	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	Entity=(c89--1)
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
+14	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+15	deux	deux	NUM	_	Number=Plur	16	nummod	_	Entity=(c90--2
+16	masses	masse	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	pelviennes	pelvien	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	vraisemblablement	vraisemblablement	ADV	_	_	19	advmod	_	_
+19	ovariennes	ovarien	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+20	droite	droit	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+21	et	et	CCONJ	_	_	22	cc	_	_
+22	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	Entity=c90)|SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Un syndrome de krukenberg était évoqué en premier lieu.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c86--2
+2	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	krukenberg	krukenberg	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Entity=(c87--1)c86)
+5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	évoqué	évoquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	en	en	ADP	_	_	9	case	_	_
+8	premier	premier	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+9	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = La fibroscopie digestive et la coloscopie étaient sans anomalie.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c91--2(c92--2
+2	fibroscopie	fibroscopie	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	digestive	digestif	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c92)
+4	et	et	CCONJ	_	_	6	cc	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c93--2
+6	coloscopie	coloscopie	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	Entity=c93)c91)
+7	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	sans	sans	ADP	_	_	9	case	_	_
+9	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Entity=(c94--1)|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Les marqueurs tumoraux (alpha foeto-protéine, antigène carcino-embryonnaire et CA-125) étaient tous négatifs.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c95--2
+2	marqueurs	marqueur	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+3	tumoraux	tumoral	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	Entity=c95)
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	alpha	alpha	X	_	Gender=Masc|Number=Sing	2	appos	_	Entity=(c96--1
+6	foeto-protéine	foeto-protéine	NOUN	_	Gender=Fem|Number=Sing	5	flat:name	_	Entity=c96)|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	antigène	antigène	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	Entity=(c97--1
+9	carcino-embryonnaire	carcino-embryonnaire	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	Entity=c97)
+10	et	et	CCONJ	_	_	11	cc	_	_
+11	CA-125	CA-125	X	_	_	5	conj	_	Entity=(c98--1)|SpaceAfter=No
+12	)	)	PUNCT	_	_	5	punct	_	_
+13	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+14	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	15	obl:mod	_	Entity=(c95--1)
+15	négatifs	négatif	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Une laparotomie exploratrice a été finalement décidée: à l'exploration, l'utérus était de petite taille atrophique, l'annexe droite était sans anomalie.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c99--2
+2	laparotomie	laparotomie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	exploratrice	exploratrice	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c99)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+6	finalement	finalement	ADV	_	_	7	advmod	_	_
+7	décidée	décider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	18	punct	_	_
+9	à	à	ADP	_	_	11	case	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Entity=(c100--2|SpaceAfter=No
+11	exploration	exploration	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	Entity=c100)|SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Entity=(c33--2|SpaceAfter=No
+14	utérus	utérus	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	Entity=c33)
+15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	petite	petit	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	Entity=(c101--2
+18	taille	taille	NOUN	_	Gender=Fem|Number=Sing	7	parataxis	_	_
+19	atrophique	atrophique	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	Entity=c101)|SpaceAfter=No
+20	,	,	PUNCT	_	_	26	punct	_	_
+21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	Entity=(c102--2|SpaceAfter=No
+22	annexe	annexe	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+23	droite	droit	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	Entity=c102)
+24	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
+25	sans	sans	ADP	_	_	26	case	_	_
+26	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	Entity=(c103--1)|SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = On a noté la présence d'une masse hypervasularisée faisant 15cm prenant naissance au niveau de la corne gauche incluse dans le ligament large et envahissant le muscle droit, fixée à l'annexe gauche et fusant vers le rétro-péritoine et comprimant les vaisseaux iliaques gauches.
+1	On	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	Entity=(c104--1)
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	noté	noter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(c105--2
+5	présence	présence	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c106--2
+8	masse	masse	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	hypervasularisée	hypervasulariser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+10	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	8	acl	_	_
+11	15cm	15cm	NUM	_	Number=Plur	10	obj	_	Entity=(c107--1)
+12	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	8	acl	_	_
+13	naissance	naissance	NOUN	_	Gender=Fem|Number=Sing	12	obj:lvc	_	_
+14-15	au	_	_	_	_	_	_	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(c108--2
+16	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	Entity=(c109--2
+19	corne	corne	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	Entity=c109)c108)
+21	incluse	inclure	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
+22	dans	dans	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(c110--2
+24	ligament	ligament	NOUN	_	Gender=Masc|Number=Sing	21	obl:arg	_	_
+25	large	large	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	Entity=c110)c106)
+26	et	et	CCONJ	_	_	27	cc	_	_
+27	envahissant	envahir	VERB	_	Tense=Pres|VerbForm=Part	21	conj	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	Entity=(c111--2
+29	muscle	muscle	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+30	droit	droit	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	Entity=c111)|SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	fixée	fixer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	conj	_	_
+33	à	à	ADP	_	_	35	case	_	_
+34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	Entity=(c102--2|SpaceAfter=No
+35	annexe	annexe	NOUN	_	Gender=Fem|Number=Sing	32	obl:arg	_	_
+36	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	Entity=c102)
+37	et	et	CCONJ	_	_	38	cc	_	_
+38	fusant	fuser	VERB	_	Tense=Pres|VerbForm=Part	32	conj	_	_
+39	vers	vers	ADP	_	_	41	case	_	_
+40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	Entity=(c112--2
+41	rétro-péritoine	rétro-péritoine	NOUN	_	Gender=Masc|Number=Sing	38	obl:mod	_	Entity=c112)
+42	et	et	CCONJ	_	_	43	cc	_	_
+43	comprimant	comprimer	VERB	_	Tense=Pres|VerbForm=Part	38	conj	_	_
+44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	Entity=(c70--2
+45	vaisseaux	vaisseau	NOUN	_	Gender=Masc|Number=Plur	43	obj	_	_
+46	iliaques	iliaque	ADJ	_	Gender=Masc|Number=Plur	45	amod	_	_
+47	gauches	gauche	ADJ	_	Gender=Masc|Number=Plur	45	amod	_	Entity=c70)c105)|SpaceAfter=No
+48	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = La trompe et l'ovaire gauche étaient sans anomalies mais fixés à la tumeur.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c113--2(c114--2
+2	trompe	trompe	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	Entity=c114)
+3	et	et	CCONJ	_	_	5	cc	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Entity=(c115--2|SpaceAfter=No
+5	ovaire	ovaire	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+6	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c115)c113)
+7	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	sans	sans	ADP	_	_	9	case	_	_
+9	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Entity=(c116--1)
+10	mais	mais	CCONJ	_	_	11	cc	_	_
+11	fixés	fixer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	_
+12	à	à	ADP	_	_	14	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c106--2
+14	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	Entity=c106)|SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Nous avons pratiqué une hystérectomie totale avec annexectomie bilatérale et une exérèse de la tumeur.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Entity=(c56--1)
+2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	pratiqué	pratiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(c117--2
+5	hystérectomie	hystérectomie	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	totale	total	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	avec	avec	ADP	_	_	8	case	_	_
+8	annexectomie	annexectomie	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	Entity=(c118--1
+9	bilatérale	bilatéral	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c118)
+10	et	et	CCONJ	_	_	12	cc	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c119--2
+12	exérèse	exérèse	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c106--2
+15	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	Entity=c106)c119)c117)|SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = L'examen extemporané a conclu à une tumeur à cellules bizarres fusiformes.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c120--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	extemporané	extemporané	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c120)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	conclu	conclure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c121--2
+8	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	à	à	ADP	_	_	10	case	_	_
+10	cellules	cellule	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	Entity=(c122--1
+11	bizarres	bizarre	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+12	fusiformes	fusiforme	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	Entity=c122)c121)|SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = On décide de se limiter à ces gestes vue l'état fragilisé de la patiente en peropératoire et en attendant l'étude anatomo-pathologique définitive.
+1	On	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	Entity=(c56--1)
+2	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	5	mark	_	_
+4	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	limiter	limiter	VERB	_	VerbForm=Inf	2	xcomp	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	ces	ce	DET	_	Number=Plur|PronType=Dem	8	det	_	Entity=(c117--2
+8	gestes	geste	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	Entity=c117)
+9	vue	vue	ADP	_	_	11	case	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Entity=(c123--2|SpaceAfter=No
+11	état	état	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+12	fragilisé	fragiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c1--2
+15	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=c1)
+16	en	en	ADP	_	_	17	case	_	_
+17	peropératoire	peropératoire	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Entity=c123)
+18	et	et	CCONJ	_	_	20	cc	_	_
+19	en	en	ADP	_	_	20	mark	_	_
+20	attendant	attendre	VERB	_	Tense=Pres|VerbForm=Part	11	conj	_	_
+21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	Entity=(c124--2|SpaceAfter=No
+22	étude	étude	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	anatomo-pathologique	anatomo-pathologique	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	définitive	définitif	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	Entity=c124)|SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = L'examen anatomopathologique a conclu à une tumeur fibreuse solitaire avec des signes de malignité: taille importante, présence focale de nécrose tumorale, de densité et de pléomorphisme cellulaires et mitoses fréquentes.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c124--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	anatomopathologique	anatomopathologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c124)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	conclu	conclure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c125--2
+8	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	fibreuse	fibreux	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	solitaire	solitaire	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c125)
+11	avec	avec	ADP	_	_	14	case	_	_
+12-13	des	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	det	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	Entity=(c126--2
+14	signes	signe	NOUN	_	Gender=Masc|Number=Plur	5	obl:mod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	malignité	malignité	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	Entity=(c127--1)c126)|SpaceAfter=No
+17	:	:	PUNCT	_	_	18	punct	_	_
+18	taille	taille	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	Entity=(c128--1(c129--1
+19	importante	important	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	Entity=c129)|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	présence	présence	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	Entity=(c130--1
+22	focale	focal	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	nécrose	nécrose	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	Entity=(c131--1
+25	tumorale	tumoral	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	Entity=c131)c130)|SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	densité	densité	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	Entity=(c132--1)
+29	et	et	CCONJ	_	_	31	cc	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	pléomorphisme	pléomorphisme	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	Entity=(c133--1
+32	cellulaires	cellulaire	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	Entity=c133)
+33	et	et	CCONJ	_	_	34	cc	_	_
+34	mitoses	mitose	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	Entity=(c134--1
+35	fréquentes	fréquent	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	Entity=c134)c128)|SpaceAfter=No
+36	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = L'utérus et les annexes étaient sans anomalies.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c135--2(c33--2|SpaceAfter=No
+2	utérus	utérus	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	Entity=c33)
+3	et	et	CCONJ	_	_	5	cc	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(c136--2
+5	annexes	annexe	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	Entity=c136)c135)
+6	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	sans	sans	ADP	_	_	8	case	_	_
+8	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Entity=(c137--1)|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Les suites opératoires ont été marquées par le transfert de la patiente au service de réanimation suite à une embolie pulmonaire post opératoire.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c138--2
+2	suites	suite	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+3	opératoires	opératoire	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	Entity=c138)
+4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	marquées	marquer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	par	par	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(c139--2
+9	transfert	transfert	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c1--2
+12	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Entity=c1)
+13-14	au	_	_	_	_	_	_	_	_
+13	à	à	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c140--2
+15	service	service	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	réanimation	réanimation	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	Entity=c140)c139)
+18	suite	suite	NOUN	_	_	21	case	_	_
+19	à	à	ADP	_	_	18	fixed	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	Entity=(c141--2
+21	embolie	embolie	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
+22	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	post	post	ADV	_	_	21	advmod	_	_
+24	opératoire	opératoire	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	Entity=c141)|SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = La patiente est décédée après 10 jours de l'intervention.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c1)
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	décédée	décéder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	après	après	ADP	_	_	7	case	_	_
+6	10	10	NUM	_	Number=Plur	7	nummod	_	Entity=(c142--2
+7	jours	jour	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Entity=(c99--2|SpaceAfter=No
+10	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	Entity=c99)c142)|SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+

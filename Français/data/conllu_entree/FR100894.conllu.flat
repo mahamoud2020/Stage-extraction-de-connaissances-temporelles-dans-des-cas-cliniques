@@ -1,0 +1,640 @@
+# newdoc id = FR100894
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nous rapportons le cas d'un patient de 32 ans, judoka participant à des compétitions de niveau régional.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+4	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+5	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	32	32	NUM	_	Number=Plur	0	nummod	_	_
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	0	punct	_	_
+12	judoka	judoka	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+13	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+14	à	à	ADP	_	_	0	case	_	_
+15	de	de	ADP	_	_	0	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+17	compétitions	compétition	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+20	régional	régional	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Le patient a ressenti durant son combat une douleur aiguë au milieu du mollet.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	ressenti	ressentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	durant	durant	ADP	_	_	0	case	_	_
+6	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+7	combat	combat	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+10	aiguë	aigu	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+11	à	à	ADP	_	_	0	case	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+16	mollet	mollet	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Il a déclaré ressentir une sensation de coup de fouet et entendu un claquement suivis d'un gonflement immédiat et d'une impotence fonctionnelle totale.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+3	déclaré	déclarer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	ressentir	ressentir	VERB	_	VerbForm=Inf	0	xcomp	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	sensation	sensation	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+7	de	de	ADP	_	_	0	case	_	_
+8	coup	coup	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	fouet	fouet	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+11	et	et	CCONJ	_	_	0	cc	_	_
+12	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+14	claquement	claquement	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+15	suivis	suivre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+16	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	gonflement	gonflement	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+19	immédiat	immédiat	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+20	et	et	CCONJ	_	_	0	cc	_	_
+21	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+23	impotence	impotence	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+24	fonctionnelle	fonctionnel	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+25	totale	total	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le patient se trouvait en position d'impulsion avec le genou en extension et la cheville en flexion dorsale à 90°.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pass	_	_
+4	trouvait	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	en	en	ADP	_	_	0	case	_	_
+6	position	position	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+7	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+8	impulsion	impulsion	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+9	avec	avec	ADP	_	_	0	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+11	genou	genou	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+12	en	en	ADP	_	_	0	case	_	_
+13	extension	extension	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+14	et	et	CCONJ	_	_	0	cc	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	cheville	cheville	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+17	en	en	ADP	_	_	0	case	_	_
+18	flexion	flexion	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+19	dorsale	dorsal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+20	à	à	ADP	_	_	0	case	_	_
+21	90	90	NUM	_	Number=Plur	0	nummod	_	SpaceAfter=No
+22	°	°	SYM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Le patient a dû abandonner le combat.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	abandonner	abandonner	VERB	_	VerbForm=Inf	0	xcomp	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	combat	combat	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Une heure après, le patient a pu remarcher bien que difficilement.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	heure	heure	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+3	après	après	ADV	_	_	0	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	0	punct	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+8	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	remarcher	remarcher	VERB	_	VerbForm=Inf	0	xcomp	_	_
+10	bien	bien	ADV	_	_	0	advmod	_	_
+11	que	que	SCONJ	_	_	0	fixed	_	_
+12	difficilement	difficilement	ADV	_	_	0	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Une imagerie par résonance magnétique (IRM) a été réalisée au niveau de la structure locale qui a objectivé une désinsertion partielle du jumeau interne au niveau de sa jonction musculo-tendineuse.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	imagerie	imagerie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+3	par	par	ADP	_	_	0	case	_	_
+4	résonance	résonance	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	magnétique	magnétique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+6	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+7	IRM	IRM	PROPN	_	_	0	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	0	punct	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+11	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	à	à	ADP	_	_	0	case	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+14	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+15	de	de	ADP	_	_	0	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+17	structure	structure	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+18	locale	local	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+19	qui	qui	PRON	_	PronType=Rel	0	nsubj	_	_
+20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+21	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	acl:relcl	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+23	désinsertion	désinsertion	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+24	partielle	partiel	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+25	de	de	ADP	_	_	0	case	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+27	jumeau	jumeau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+28	interne	interne	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+29	à	à	ADP	_	_	0	case	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+31	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+32	de	de	ADP	_	_	0	case	_	_
+33	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+34	jonction	jonction	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+35	musculo-tendineuse	musculo-tendineux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Un traitement antalgique a été prescrit.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	antalgique	antalgique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+6	prescrit	prescrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Le patient a par la suite rejoint le bus avec une durée de trajet de cinq heures.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	par	par	ADP	_	_	0	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+6	suite	suite	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+7	rejoint	rejoindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+9	bus	bus	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+10	avec	avec	ADP	_	_	0	case	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	durée	durée	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+13	de	de	ADP	_	_	0	case	_	_
+14	trajet	trajet	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+15	de	de	ADP	_	_	0	case	_	_
+16	cinq	cinq	NUM	_	Number=Plur	0	nummod	_	_
+17	heures	heure	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Nous avons reçu le patient 8 heures après son traumatisme.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+3	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+6	8	8	NUM	_	Number=Plur	0	nummod	_	_
+7	heures	heure	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	_
+8	après	après	ADP	_	_	0	case	_	_
+9	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+10	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Il se plaignait de douleurs intenses au niveau la jambe.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	nsubj	_	_
+2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	_
+3	plaignait	plaindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+6	intenses	intense	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+7	à	à	ADP	_	_	0	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+9	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	jambe	jambe	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Aucune ecchymose n'a été trouvée au-dessus de la jambe.
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	0	det	_	_
+2	ecchymose	ecchymose	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+3	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+6	trouvée	trouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	au-dessus	au-dessus	ADV	_	_	0	advmod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+10	jambe	jambe	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Le mollet était sensible à la palpation sur la face postérieure de la jambe gauche, avec une peau tendue dans les compartiments superficiels postérieur, antérieur et latéral.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	mollet	mollet	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+4	sensible	sensible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+5	à	à	ADP	_	_	0	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	palpation	palpation	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+8	sur	sur	ADP	_	_	0	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+10	face	face	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+11	postérieure	postérieur	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+12	de	de	ADP	_	_	0	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+14	jambe	jambe	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+15	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	0	punct	_	_
+17	avec	avec	ADP	_	_	0	case	_	_
+18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+19	peau	peau	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+20	tendue	tendu	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+21	dans	dans	ADP	_	_	0	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+23	compartiments	compartiment	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+24	superficiels	superficiel	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+25	postérieur	postérieur	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	0	punct	_	_
+27	antérieur	antérieur	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	_
+28	et	et	CCONJ	_	_	0	cc	_	_
+29	latéral	latéral	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Le pied était maintenu dans une position d'équin antalgique, avec une douleur intense constatée lors de tout mouvement de dorsiflexion mais aucune douleur avec l'étirement du fléchisseur plantaire de l'orteil.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	pied	pied	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:pass	_	_
+4	maintenu	maintenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	dans	dans	ADP	_	_	0	case	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	position	position	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+8	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+9	équin	équin	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+10	antalgique	antalgique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	0	punct	_	_
+12	avec	avec	ADP	_	_	0	case	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+14	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+15	intense	intense	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+16	constatée	constater	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+17	lors	lors	ADV	_	_	0	advmod	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	0	det	_	_
+20	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+21	de	de	ADP	_	_	0	case	_	_
+22	dorsiflexion	dorsiflexion	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+23	mais	mais	CCONJ	_	_	0	cc	_	_
+24	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	0	det	_	_
+25	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+26	avec	avec	ADP	_	_	0	case	_	_
+27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+28	étirement	étirement	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+29	de	de	ADP	_	_	0	case	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+31	fléchisseur	fléchisseur	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+32	plantaire	plantaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+33	de	de	ADP	_	_	0	case	_	_
+34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+35	orteil	orteil	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Le patient présentait par ailleurs des paresthésies dans le territoire du nerf péronier profond.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	présentait	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	par	par	ADP	_	_	0	advmod	_	_
+5	ailleurs	ailleurs	ADV	_	_	0	fixed	_	_
+6	de	de	ADP	_	_	0	det	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+8	paresthésies	paresthésie	NOUN	_	Gender=Fem|Number=Plur	0	obj	_	_
+9	dans	dans	ADP	_	_	0	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+11	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+12	de	de	ADP	_	_	0	case	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+14	nerf	nerf	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+15	péronier	péronier	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+16	profond	profond	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Les pouls pédieux et tibial postérieur étaient perceptibles.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+2	pouls	poul	NOUN	_	Gender=Masc|Number=Plur	0	nsubj	_	_
+3	pédieux	pédieux	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+4	et	et	CCONJ	_	_	0	cc	_	_
+5	tibial	tibial	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	_
+6	postérieur	postérieur	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+7	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+8	perceptibles	perceptible	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Nous nous sommes appuyés sur l'IRM initialement réalisée pour éliminer un syndrome de loges sur une fracture ou une rupture d'anévrysme.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	obj	_	_
+3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	cop	_	_
+4	appuyés	appuyer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	sur	sur	ADP	_	_	0	case	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+7	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+8	initialement	initialement	ADV	_	_	0	advmod	_	_
+9	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+10	pour	pour	ADP	_	_	0	mark	_	_
+11	éliminer	éliminer	VERB	_	VerbForm=Inf	0	advcl	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	loges	loge	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+16	sur	sur	ADP	_	_	0	case	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+18	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+19	ou	ou	CCONJ	_	_	0	cc	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+21	rupture	rupture	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+22	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+23	anévrysme	anévrysme	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Le diagnostic retenu est celui de syndrome de loges secondaire à une désinsertion du gastrocnémien médial de la jonction musculo-tendineuse.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+5	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+6	de	de	ADP	_	_	0	case	_	_
+7	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	loges	loge	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+10	secondaire	secondaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+11	à	à	ADP	_	_	0	case	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+13	désinsertion	désinsertion	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+16	gastrocnémien	gastrocnémien	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+17	médial	médial	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+20	jonction	jonction	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+21	musculo-tendineuse	musculo-tendineux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Le patient a été pris en charge au bloc opératoire une heure après son arrivée.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+5	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	en	en	ADP	_	_	0	case	_	_
+7	charge	charge	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+8	à	à	ADP	_	_	0	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	bloc	bloc	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+11	opératoire	opératoire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+13	heure	heure	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+14	après	après	ADP	_	_	0	case	_	_
+15	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+16	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Une incision longitudinale de 20cm était centrée sur le gastrocnémien médial.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	incision	incision	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+3	longitudinale	longitudinal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	20cm	20cm	NUM	_	Number=Plur	0	nmod	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:pass	_	_
+7	centrée	centrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	sur	sur	ADP	_	_	0	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	gastrocnémien	gastrocnémien	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+11	médial	médial	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Après section du fascia profond, un hématome dense a été observé dans la jonction musculo-tendineuse gauche de l'extrémité proximale du muscle gastrocnémien média.
+1	Après	après	ADP	_	_	0	case	_	_
+2	section	section	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	fascia	fascia	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	profond	profond	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	0	punct	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+9	hématome	hématome	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+10	dense	dense	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+13	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+14	dans	dans	ADP	_	_	0	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	jonction	jonction	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+17	musculo-tendineuse	musculo-tendineux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+18	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+21	extrémité	extrémité	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+22	proximale	proximal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+23	de	de	ADP	_	_	0	case	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+25	muscle	muscle	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+26	gastrocnémien	gastrocnémien	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+27	média	média	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = L'hématome consistait en environ 100ml de sang coagulé et a été évacué.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	hématome	hématome	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	consistait	consister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	en	en	ADP	_	_	0	case	_	_
+5	environ	environ	ADV	_	_	0	advmod	_	_
+6	100ml	100ml	NOUN	_	Number=Plur	0	obl:mod	_	_
+7	de	de	ADP	_	_	0	case	_	_
+8	sang	sang	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+9	coagulé	coaguler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+10	et	et	CCONJ	_	_	0	cc	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+13	évacué	évacuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Le chef médial du muscle gastrocnémien gauche était partiellement rompu à sa jonction musculo-tendineuse.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	chef	chef	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	médial	médial	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	muscle	muscle	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+7	gastrocnémien	gastrocnémien	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:pass	_	_
+10	partiellement	partiellement	ADV	_	_	0	advmod	_	_
+11	rompu	rompre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	à	à	ADP	_	_	0	case	_	_
+13	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+14	jonction	jonction	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+15	musculo-tendineuse	musculo-tendineux	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Suite à la décompression du compartiment postérieur superficiel, la palpation a montré que la tension des tissus mous de toute la jambe avait considérablement diminué.
+1	Suite	suite	NOUN	_	_	0	case	_	_
+2	à	à	ADP	_	_	0	fixed	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+4	décompression	décompression	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+5	de	de	ADP	_	_	0	case	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	compartiment	compartiment	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+8	postérieur	postérieur	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	superficiel	superficiel	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	0	punct	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	palpation	palpation	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+14	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+15	que	que	SCONJ	_	_	0	mark	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+17	tension	tension	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+20	tissus	tissu	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+21	mous	mous	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+22	de	de	ADP	_	_	0	case	_	_
+23	toute	tout	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+25	jambe	jambe	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+26	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:tense	_	_
+27	considérablement	considérablement	ADV	_	_	0	advmod	_	_
+28	diminué	diminuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = L'incision a été refermée sans greffe de peau au bout de 5 jours et le patient a été immobilisé pendant 3 semaines dans un plâtre cruro-pédieux genou fléchi à 60° et cheville en flexion plantaire à 30°.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	incision	incision	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+5	refermée	refermer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	sans	sans	ADP	_	_	0	case	_	_
+7	greffe	greffe	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	peau	peau	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+10	à	à	ADP	_	_	0	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+12	bout	bout	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+13	de	de	ADP	_	_	0	case	_	_
+14	5	5	NUM	_	Number=Plur	0	nummod	_	_
+15	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+16	et	et	CCONJ	_	_	0	cc	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+20	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+21	immobilisé	immobiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+22	pendant	pendant	ADP	_	_	0	case	_	_
+23	3	3	NUM	_	Number=Plur	0	nummod	_	_
+24	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	_
+25	dans	dans	ADP	_	_	0	case	_	_
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+27	plâtre	plâtre	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+28	cruro-pédieux	cruro-pédieux	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+29	genou	genou	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+30	fléchi	fléchir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+31	à	à	ADP	_	_	0	case	_	_
+32	60	60	NUM	_	Number=Plur	0	nummod	_	SpaceAfter=No
+33	°	°	SYM	_	Number=Plur	0	obl:mod	_	_
+34	et	et	CCONJ	_	_	0	cc	_	_
+35	cheville	cheville	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+36	en	en	ADP	_	_	0	case	_	_
+37	flexion	flexion	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+38	plantaire	plantaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+39	à	à	ADP	_	_	0	case	_	_
+40	30	30	NUM	_	Number=Plur	0	nummod	_	SpaceAfter=No
+41	°	°	SYM	_	Number=Plur	0	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Le genou a été libéré après 3 semaines.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	genou	genou	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+5	libéré	libérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	après	après	ADP	_	_	0	case	_	_
+7	3	3	NUM	_	Number=Plur	0	nummod	_	_
+8	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = La jambe a été maintenue dans une botte de marche avec des talonnettes permettant une diminution progressive de l'équin.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	jambe	jambe	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+5	maintenue	maintenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	dans	dans	ADP	_	_	0	case	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	botte	botte	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	marche	marche	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+11	avec	avec	ADP	_	_	0	case	_	_
+12	de	de	ADP	_	_	0	det	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+14	talonnettes	talonnette	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	_
+15	permettant	permettre	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+17	diminution	diminution	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+18	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+21	équin	équin	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Des séances de rééducation ont été prescrites à base d'étirements manuels progressifs, stretching et réentraînement pliométrique.
+1	De	de	ADP	_	_	0	case	_	_
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+3	séances	séance	NOUN	_	Gender=Fem|Number=Plur	0	nsubj:pass	_	_
+4	de	de	ADP	_	_	0	case	_	_
+5	rééducation	rééducation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+8	prescrites	prescrire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	à	à	ADP	_	_	0	case	_	_
+10	base	base	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+11	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+12	étirements	étirement	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+13	manuels	manuel	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+14	progressifs	progressif	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	0	punct	_	_
+16	stretching	stretching	X	_	Gender=Masc|Number=Sing	0	conj	_	_
+17	et	et	CCONJ	_	_	0	cc	_	_
+18	réentraînement	réentraînement	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+19	pliométrique	pliométrique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

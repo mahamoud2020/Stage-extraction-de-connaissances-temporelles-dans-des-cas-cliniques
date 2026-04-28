@@ -1,0 +1,168 @@
+# newdoc id = FR100959
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = A travers un cas clinique de fistule œsotrachéale suite à l'ingestion d'un corps étranger, nous abordions l'aspect étiopathogénique, évaluer notre principe thérapeutique et faire une revue de la littérature.
+1	A	à	ADP	_	_	4	case	_	_
+2	travers	travers	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cas	cas	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	_
+5	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	fistule	fistule	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	œsotrachéale	œsotrachéal	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	suite	suite	NOUN	_	_	12	case	_	_
+10	à	à	ADP	_	_	9	fixed	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ingestion	ingestion	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+13	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	corps	corps	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	étranger	étranger	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+19	abordions	abordier	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	étiopathogénique	étiopathogénique	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	évaluer	évaluer	VERB	_	VerbForm=Inf	19	conj	_	_
+25	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	_
+26	principe	principe	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27	thérapeutique	thérapeutique	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28	et	et	CCONJ	_	_	29	cc	_	_
+29	faire	faire	VERB	_	VerbForm=Inf	19	conj	_	_
+30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	revue	revue	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	littérature	littérature	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Il s'agit d'un patient de 15 ans admis pour dysphagie évoluant depuis deux mois suite à l'ingestion d'un corps étranger à type de morceau d'os.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	patient	patient	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	15	15	NUM	_	Number=Plur	9	nummod	_	_
+9	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	admis	admettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+11	pour	pour	ADP	_	_	12	case	_	_
+12	dysphagie	dysphagie	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+13	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
+14	depuis	depuis	ADP	_	_	16	case	_	_
+15	deux	deux	NUM	_	Number=Plur	16	nummod	_	_
+16	mois	mois	NOUN	_	Gender=Masc|Number=Plur	13	obl:mod	_	_
+17	suite	suite	NOUN	_	_	20	case	_	_
+18	à	à	ADP	_	_	17	fixed	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	ingestion	ingestion	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
+21	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	corps	corps	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	étranger	étranger	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	à	à	ADP	_	_	26	case	_	_
+26	type	type	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	morceau	morceau	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+29	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
+30	os	os	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'œsophagoscopie sous anesthésie générale a permis l'extraction du corps étranger.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	œsophagoscopie	œsophagoscopie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	sous	sous	ADP	_	_	4	case	_	_
+4	anesthésie	anesthésie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	générale	général	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+7	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	extraction	extraction	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	du	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	corps	corps	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	étranger	étranger	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le Transit Oeso-gastro-duodénal (TOGD) en post-opératoire a objectivé l'orifice fistulaire siégeant au niveau de C7.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Transit	transit	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	Oeso-gastro-duodénal	oeso-gastro-duodénal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	TOGD	TOGD	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	post-opératoire	post-opératoire	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	orifice	orifice	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	fistulaire	fistulaire	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	siégeant	siéger	VERB	_	Tense=Pres|VerbForm=Part	12	acl	_	_
+15-16	au	_	_	_	_	_	_	_	_
+15	à	à	ADP	_	_	17	case	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	C7	C7	X	_	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'absence de l'orifice fistulaire a été notée à J30 post-endoscopie au TOGD de contrôle.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	absence	absence	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	orifice	orifice	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	fistulaire	fistulaire	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	notée	noter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	à	à	ADP	_	_	11	case	_	_
+11	J30	J30	X	_	_	9	obl:arg	_	_
+12	post-endoscopie	post-endoscopie	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+13-14	au	_	_	_	_	_	_	_	_
+13	à	à	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	TOGD	TOGD	PROPN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Le traitement médical est une alternative thérapeutique de la fistule œsotrachéale et doit être basé sur des critères bien définis.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	médical	médical	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	alternative	alternative	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	thérapeutique	thérapeutique	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fistule	fistule	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+11	œsotrachéale	œsotrachéal	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	et	et	CCONJ	_	_	13	cc	_	_
+13	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	être	être	AUX	_	VerbForm=Inf	15	aux:pass	_	_
+15	basé	baser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+16	sur	sur	ADP	_	_	19	case	_	_
+17-18	des	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	critères	critère	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	_
+20	bien	bien	ADV	_	_	21	advmod	_	_
+21	définis	définir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+

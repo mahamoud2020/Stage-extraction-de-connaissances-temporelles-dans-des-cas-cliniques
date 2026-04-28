@@ -1,0 +1,199 @@
+# newdoc id = FR100826
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agit d'un homme âgé de 50 ans, sans antécédents particuliers, admis pour don de rein en vue d'une transplantation rénale.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	homme	homme	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+7	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	50	50	NUM	_	Number=Plur	0	nummod	_	_
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	0	punct	_	_
+12	sans	sans	ADP	_	_	0	case	_	_
+13	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+14	particuliers	particulier	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	0	punct	_	_
+16	admis	admettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+17	pour	pour	ADP	_	_	0	case	_	_
+18	don	don	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+19	de	de	ADP	_	_	0	case	_	_
+20	rein	rein	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+21	en	en	ADP	_	_	0	case	_	_
+22	vue	vue	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+23	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+25	transplantation	transplantation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+26	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'examen clinique était sans particularité.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+5	sans	sans	ADP	_	_	0	case	_	_
+6	particularité	particularité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Le bilan radiologique pré-greffe fait d'une tomodensitométrie (TDM) abdominale a objectivé une VCI gauche dans sa portion sous rénale qui se termine à la hauteur de la veine rénale gauche, et se draine en formant un tronc commun avec celle-ci vers la portion pré-hépatique normale de la VCI située à droite, en croisant l'aorte abdominale en avant.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	radiologique	radiologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	pré-greffe	pré-greffe	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+5	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+9	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+10	TDM	TDM	NOUN	_	Gender=Fem|Number=Sing	0	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	0	punct	_	_
+12	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+14	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	ccomp	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	VCI	VCI	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+17	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+18	dans	dans	ADP	_	_	0	case	_	_
+19	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+20	portion	portion	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+21	sous	sous	ADP	_	_	0	case	_	_
+22	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	0	nmod	_	_
+23	qui	qui	PRON	_	PronType=Rel	0	nsubj:pass	_	_
+24	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pass	_	_
+25	termine	terminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	acl:relcl	_	_
+26	à	à	ADP	_	_	0	case	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+28	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+29	de	de	ADP	_	_	0	case	_	_
+30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+31	veine	veine	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+32	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+33	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	0	punct	_	_
+35	et	et	CCONJ	_	_	0	cc	_	_
+36	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pass	_	_
+37	draine	drainer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	conj	_	_
+38	en	en	ADP	_	_	0	mark	_	_
+39	formant	former	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+40	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+41	tronc	tronc	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+42	commun	commun	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+43	avec	avec	ADP	_	_	0	case	_	_
+44	celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	obl:arg	_	_
+45	vers	vers	ADP	_	_	0	case	_	_
+46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+47	portion	portion	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+48	pré-hépatique	pré-hépatique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+49	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+50	de	de	ADP	_	_	0	case	_	_
+51	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+52	VCI	VCI	PROPN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+53	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+54	à	à	ADP	_	_	0	case	_	_
+55	droite	droite	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	0	punct	_	_
+57	en	en	ADP	_	_	0	mark	_	_
+58	croisant	croiser	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+59	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+60	aorte	aorte	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+61	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+62	en	en	ADP	_	_	0	case	_	_
+63	avant	avant	ADV	_	_	0	obl:mod	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Le bilan biologique était normal.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	biologique	biologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+5	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Devant la bonne qualité du rein droit par rapport au gauche, et la présence d'une artère et veine uniques de longueur normale, l'indication du prélèvement rénal gauche a été retenue.
+1	Devant	devant	ADP	_	_	0	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+3	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+5	de	de	ADP	_	_	0	case	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	rein	rein	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+8	droit	droit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	par	par	ADP	_	_	0	case	_	_
+10	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+11	à	à	ADP	_	_	0	case	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	gauche	gauche	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	0	punct	_	_
+15	et	et	CCONJ	_	_	0	cc	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+17	présence	présence	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+18	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+20	artère	artère	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+21	et	et	CCONJ	_	_	0	cc	_	_
+22	veine	veine	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+23	uniques	unique	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+24	de	de	ADP	_	_	0	case	_	_
+25	longueur	longueur	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+26	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	0	punct	_	_
+28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+29	indication	indication	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+30	de	de	ADP	_	_	0	case	_	_
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+32	prélèvement	prélèvement	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+33	rénal	rénal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+34	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+35	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+36	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+37	retenue	retenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'exploration chirurgicale a trouvé une VCI gauche sous rénale sans autres anomalies.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	exploration	exploration	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	chirurgicale	chirurgical	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	VCI	VCI	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+8	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+9	sous	sous	ADP	_	_	0	case	_	_
+10	rénale	rénal	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+11	sans	sans	ADP	_	_	0	case	_	_
+12	autres	autre	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+13	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	0	obl:mod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Les suites post-opératoires étaient simples chez le donneur, avec une sortie à j3 post-opératoire.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+2	suites	suite	NOUN	_	Gender=Fem|Number=Plur	0	nsubj	_	_
+3	post-opératoires	post-opératoire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+4	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+5	simples	simple	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+6	chez	chez	ADP	_	_	0	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+8	donneur	donneur	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	0	punct	_	_
+10	avec	avec	ADP	_	_	0	case	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	sortie	sortie	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+13	à	à	ADP	_	_	0	case	_	_
+14	j3	j3	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+15	post-opératoire	post-opératoire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

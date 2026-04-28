@@ -1,0 +1,154 @@
+# newdoc id = FR100314
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Patiente de 19 ans sans antécédent pathologique notable, admise au service de réanimation pour prise en charge d'un traumatisme thoracique suite à un accident de la voie publique (collision entre deux motos).
+1	Patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	0	case	_	_
+3	19	19	NUM	_	Number=Plur	0	nummod	_	_
+4	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+5	sans	sans	ADP	_	_	0	case	_	_
+6	antécédent	antécédent	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+7	pathologique	pathologique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	notable	notable	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	0	punct	_	_
+10	admise	admettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+11	à	à	ADP	_	_	0	case	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	service	service	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	réanimation	réanimation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+16	pour	pour	ADP	_	_	0	case	_	_
+17	prise	prise	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+18	en	en	ADP	_	_	0	case	_	_
+19	charge	charge	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+20	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+22	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+23	thoracique	thoracique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+24	suite	suite	NOUN	_	_	0	case	_	_
+25	à	à	ADP	_	_	0	fixed	_	_
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+27	accident	accident	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+28	de	de	ADP	_	_	0	case	_	_
+29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+30	voie	voie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+31	publique	public	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+32	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+33	collision	collision	NOUN	_	Gender=Fem|Number=Sing	0	appos	_	_
+34	entre	entre	ADP	_	_	0	case	_	_
+35	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+36	motos	moto	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	0	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Le bilan lésionnel avait objectivé un hémothorax droit avec fracture d'humérus, sans fracture des cotes ou la clavicule.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	lésionnel	lésionnel	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:tense	_	_
+5	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	hémothorax	hémothorax	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+8	droit	droit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	avec	avec	ADP	_	_	0	case	_	_
+10	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+11	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+12	humérus	humérus	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	0	punct	_	_
+14	sans	sans	ADP	_	_	0	case	_	_
+15	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+18	cotes	cote	NOUN	_	Gender=Fem|Number=Plur	0	nmod	_	_
+19	ou	ou	CCONJ	_	_	0	cc	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+21	clavicule	clavicule	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Il n'y avait pas de signe de détresse respiratoire ou hémodynamique, un drainage thoracique a été réalisé associé à une analgésie multimodale.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	0	expl:comp	_	_
+4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	pas	pas	ADV	_	Polarity=Neg	0	advmod	_	_
+6	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	0	det	_	_
+7	signe	signe	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	détresse	détresse	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+10	respiratoire	respiratoire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+11	ou	ou	CCONJ	_	_	0	cc	_	_
+12	hémodynamique	hémodynamique	ADJ	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	0	punct	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+15	drainage	drainage	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+16	thoracique	thoracique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+19	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+20	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	advcl	_	_
+21	à	à	ADP	_	_	0	case	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+23	analgésie	analgésie	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+24	multimodale	multimodal	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Accoure de son hospitalisation le patient a présenté des signes isthmiques de membre supérieur droit d'où la réalisation un angio-scanner thoracique objectivant thrombose de la veine cave supérieure jusqu'a la veine sous-clavière droite.
+1	Accoure	accoure	NOUN	_	Gender=Masc|Number=Sing	0	advcl	_	_
+2	de	de	ADP	_	_	0	case	_	_
+3	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	0	det	_	_
+4	hospitalisation	hospitalisation	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+8	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+11	signes	signe	NOUN	_	Gender=Masc|Number=Plur	0	obj	_	_
+12	isthmiques	isthmique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+13	de	de	ADP	_	_	0	case	_	_
+14	membre	membre	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+15	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+16	droit	droit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+17	d'où	d'où	PRON	_	PronType=Rel	0	nmod	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+19	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	0	acl:relcl	_	_
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+21	angio-scanner	angio-scanner	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+22	thoracique	thoracique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+23	objectivant	objectiver	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+24	thrombose	thrombose	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+25	de	de	ADP	_	_	0	case	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+27	veine	veine	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+28	cave	cave	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+29	supérieure	supérieur	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+30	jusqu'	jusque	ADP	_	_	0	case	_	SpaceAfter=No
+31	a	à	ADP	_	_	0	case	_	_
+32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+33	veine	veine	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+34	sous-clavière	sous-clavier	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+35	droite	droit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = La patiente mise sous anticoagulant après amputation du membre supérieure.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl	_	_
+4	sous	sous	ADP	_	_	0	case	_	_
+5	anticoagulant	anticoagulant	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+6	après	après	ADP	_	_	0	case	_	_
+7	amputation	amputation	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	membre	membre	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+11	supérieure	supérieur	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

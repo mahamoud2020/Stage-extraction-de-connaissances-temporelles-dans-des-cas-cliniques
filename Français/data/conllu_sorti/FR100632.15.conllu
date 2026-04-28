@@ -1,0 +1,732 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Un homme âgé de 59 ans a été admis au service de neurologie pour un trouble de l'équilibre associé à des paresthésies des membres inferieurs et des troubles sphinctériens à type d'impériosité mictionnelle et une constipation évoluant depuis 15 jours dans un contexte d'apyrexie.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	homme	homme	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	59	59	NUM	_	Number=Plur	6	nummod	_	_
+6	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	Entity=c1)
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	admis	admettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10-11	au	_	_	_	_	_	_	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(c2--2
+12	service	service	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	neurologie	neurologie	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	Entity=c2)
+15	pour	pour	ADP	_	_	17	case	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c3--2
+17	trouble	trouble	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Entity=(c4--2|SpaceAfter=No
+20	équilibre	équilibre	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	Entity=c4)
+21	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
+22	à	à	ADP	_	_	25	case	_	_
+23-24	des	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	Entity=(c5--2
+25	paresthésies	paresthésie	NOUN	_	Gender=Fem|Number=Plur	21	obl:arg	_	_
+26-27	des	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	Entity=(c6--2
+28	membres	membre	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+29	inferieurs	inferieur	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	Entity=c6)c5)
+30	et	et	CCONJ	_	_	33	cc	_	_
+31-32	des	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	Entity=(c7--2
+33	troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
+34	sphinctériens	sphinctérien	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	_
+35	à	à	ADP	_	_	36	case	_	_
+36	type	type	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+37	d'	de	ADP	_	_	38	case	_	SpaceAfter=No
+38	impériosité	impériosité	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+39	mictionnelle	mictionnel	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	Entity=c7)c3)
+40	et	et	CCONJ	_	_	42	cc	_	_
+41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	Entity=(c8--2
+42	constipation	constipation	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+43	évoluant	évoluer	VERB	_	Tense=Pres|VerbForm=Part	42	acl	_	_
+44	depuis	depuis	ADP	_	_	46	case	_	_
+45	15	15	NUM	_	Number=Plur	46	nummod	_	Entity=(c9--2
+46	jours	jour	NOUN	_	Gender=Masc|Number=Plur	43	obl:mod	_	Entity=c9)
+47	dans	dans	ADP	_	_	49	case	_	_
+48	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	Entity=(c10--2
+49	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	43	obl:mod	_	_
+50	d'	de	ADP	_	_	51	case	_	SpaceAfter=No
+51	apyrexie	apyrexie	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	Entity=(c11--1)c10)c8)|SpaceAfter=No
+52	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'interrogatoire n'a retrouvé aucun antécédent pathologique en particulier la notion d'éruption cutanée, de troubles du transit, d'ictère, d'épisode infectieux respiratoire ou de vaccination récente.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c12--2|SpaceAfter=No
+2	interrogatoire	interrogatoire	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	Entity=c12)
+3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	7	det	_	Entity=(c13--2
+7	antécédent	antécédent	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	pathologique	pathologique	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Entity=c13)
+9	en	en	ADP	_	_	12	advmod	_	_
+10	particulier	particulier	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c14--2
+12	notion	notion	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+14	éruption	éruption	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	Entity=(c15--1
+15	cutanée	cutané	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	Entity=c15)|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	Entity=(c16--1
+19-20	du	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(c17--2
+21	transit	transit	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	Entity=c17)c16)|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
+24	ictère	ictère	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	Entity=(c18--1)|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
+27	épisode	épisode	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	Entity=(c19--1
+28	infectieux	infectieux	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+29	respiratoire	respiratoire	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	Entity=c19)
+30	ou	ou	CCONJ	_	_	32	cc	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	vaccination	vaccination	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	Entity=(c20--1
+33	récente	récent	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	Entity=c20)c14)|SpaceAfter=No
+34	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'examen clinique à l'admission a trouvé un patient en bon état général, apyrétique à 37°C.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c21--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c21)
+4	à	à	ADP	_	_	6	case	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Entity=(c22--2|SpaceAfter=No
+6	admission	admission	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c22)
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c1--2
+10	patient	patient	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	en	en	ADP	_	_	13	case	_	_
+12	bon	bon	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	Entity=(c23--2
+13	état	état	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	général	général	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	Entity=c23)|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	apyrétique	apyrétique	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	37	37	NUM	_	Number=Plur	19	nummod	_	Entity=(c24--2|SpaceAfter=No
+19	°	°	SYM	_	Number=Plur	16	obl:mod	_	SpaceAfter=No
+20	C	C	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	Entity=c24)c1)|SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4
+# text = Les constantes hémodynamiques et respiratoires étaient normales.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c25--2
+2	constantes	constante	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+3	hémodynamiques	hémodynamique	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	respiratoires	respiratoire	ADJ	_	Gender=Fem|Number=Plur	3	conj	_	Entity=c25)
+6	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	normales	normal	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'examen neurologique a trouvé un patient conscient, nuque souple présentantune ataxie proprioceptive.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c26--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	neurologique	neurologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c26)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(c1--2
+7	patient	patient	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	conscient	conscient	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Entity=c1)|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	nuque	nuque	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	Entity=(c27--1
+11	souple	souple	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	présentantune	présentantune	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	ataxie	ataxie	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
+14	proprioceptive	proprioceptif	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	Entity=c27)|SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Les réflexes ostéotendineux rotuliens et achilléens étaient abolies.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c28--2
+2	réflexes	réflexe	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+3	ostéotendineux	ostéotendineux	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+4	rotuliens	rotulien	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+5	et	et	CCONJ	_	_	6	cc	_	_
+6	achilléens	achilléen	ADJ	_	Gender=Masc|Number=Plur	4	conj	_	Entity=c28)
+7	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+8	abolies	abolir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = La sensibilité superficielle et profonde était diminuée aux membres inferieurs avec un niveau sensitif à D 6.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c29--2
+2	sensibilité	sensibilité	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	superficielle	superficiel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	profonde	profond	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	Entity=c29)
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	diminuée	diminuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8-9	aux	_	_	_	_	_	_	_	_
+8	à	à	ADP	_	_	10	case	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	Entity=(c6--2
+10	membres	membre	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	_
+11	inferieurs	inferieur	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	Entity=c6)
+12	avec	avec	ADP	_	_	14	case	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(c30--2
+14	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+15	sensitif	sensitif	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	à	à	ADP	_	_	17	case	_	_
+17	D	D	X	_	_	14	nmod	_	Entity=(c31--1
+18	6	6	NUM	_	Number=Plur	17	nmod	_	Entity=c31)c30)|SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = La force musculaire aux quatre membres était conservée.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c32--2
+2	force	force	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	musculaire	musculaire	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c32)
+4-5	aux	_	_	_	_	_	_	_	_
+4	à	à	ADP	_	_	7	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(c33--3
+6	quatre	quatre	NUM	_	Number=Plur	7	nummod	_	_
+7	membres	membre	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	Entity=c33)
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+9	conservée	conserver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Il n'y avait pas de trouble de la coordination ni signes d'atteinte des nerfs crâniens ni atteinte des fonctions supérieures ni syndrome rachidien en regard de D6.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	4	expl:comp	_	_
+4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
+6	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	trouble	trouble	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Entity=(c34--1
+8	de	de	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(c35--2
+10	coordination	coordination	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	Entity=c35)c34)
+11	ni	ni	CCONJ	_	_	12	cc	_	_
+12	signes	signe	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	Entity=(c36--1
+13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+14	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	Entity=(c37--1
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(c38--2
+17	nerfs	nerf	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	crâniens	crânien	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	Entity=c38)c37)c36)
+19	ni	ni	CCONJ	_	_	20	cc	_	_
+20	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	Entity=(c39--1
+21-22	des	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	Entity=(c40--2
+23	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+24	supérieures	supérieur	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	Entity=c40)c39)
+25	ni	ni	CCONJ	_	_	26	cc	_	_
+26	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	Entity=(c41--1
+27	rachidien	rachidien	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	Entity=c41)
+28	en	en	ADP	_	_	29	case	_	_
+29	regard	regard	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	D6	D6	X	_	_	29	nmod	_	Entity=(c31--1)|SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = L'IRM médullaire a montré une anomalie de signal focale intra médullaire étendu de D5 à D7 intéressant les cordons médullaires postérieurs en faveur d'une myélite aiguë.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c42--2|SpaceAfter=No
+2	IRM	IRM	NOUN	_	Number=Sing	5	nsubj	_	_
+3	médullaire	médullaire	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c42)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c43--2
+7	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	signal	signal	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	focale	focal	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	intra	intra	X	_	_	9	nmod	_	_
+12	médullaire	médullaire	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+13	étendu	étendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	D5	D5	X	_	_	13	obl:mod	_	Entity=(c44--1)
+16	à	à	ADP	_	_	17	case	_	_
+17	D7	D7	X	_	_	15	nmod	_	Entity=(c45--1)c43)
+18	intéressant	intéresser	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	Entity=(c46--2
+20	cordons	cordon	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+21	médullaires	médullaire	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+22	postérieurs	postérieur	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	Entity=c46)
+23	en	en	ADP	_	_	24	case	_	_
+24	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
+25	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(c47--2
+27	myélite	myélite	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28	aiguë	aigu	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	Entity=c47)|SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = L'IRM cérébrale était normale.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c48--2|SpaceAfter=No
+2	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	cérébrale	cérébral	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c48)
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = L'étude du liquide céphalorachidien a objectivé: 40 éléments/mm 3 dont 80% de lymphocytes, une albuminorachie à 0,5 g/l, une glycorachie à 0,63 g/l, l'examen direct et la culture sur milieux usuels étaient négatifs, la recherche virale et du bacille de Koch par PCR dans le LCR était négative et l'électrophorèse des protides du LCR non faite.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c49--2|SpaceAfter=No
+2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c50--2
+5	liquide	liquide	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	céphalorachidien	céphalorachidien	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c50)c49)
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	40	40	NUM	_	Number=Plur	11	nummod	_	Entity=(c51--2
+11	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+12	/	/	SYM	_	_	13	case	_	SpaceAfter=No
+13	mm	mm	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Entity=(c52--1
+14	3	3	NUM	_	Number=Plur	13	nmod	_	Entity=c52)
+15	dont	dont	PRON	_	PronType=Rel	17	nmod	_	Entity=(c51--1)
+16	80	80	NUM	_	Number=Plur	17	nummod	_	Entity=(c53--2|SpaceAfter=No
+17	%	%	SYM	_	Number=Plur	11	acl:relcl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	lymphocytes	lymphocyte	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	Entity=(c54--1)c53)|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(c55--2
+22	albuminorachie	albuminorachie	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+23	à	à	ADP	_	_	25	case	_	_
+24	0,5	0,5	NUM	_	Number=Plur	25	nummod	_	_
+25	g/l	g/l	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	Entity=c55)|SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	Entity=(c56--2
+28	glycorachie	glycorachie	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+29	à	à	ADP	_	_	31	case	_	_
+30	0,63	0,63	NUM	_	Number=Plur	31	nummod	_	_
+31	g/l	g/l	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	Entity=c56)c51)|SpaceAfter=No
+32	,	,	PUNCT	_	_	43	punct	_	_
+33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	Entity=(c57--11(c58--2|SpaceAfter=No
+34	examen	examen	NOUN	_	Gender=Masc|Number=Sing	43	nsubj	_	_
+35	direct	direct	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	Entity=c58)
+36	et	et	CCONJ	_	_	38	cc	_	_
+37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	Entity=(c59--2
+38	culture	culture	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
+39	sur	sur	ADP	_	_	40	case	_	_
+40	milieux	milieu	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	Entity=(c60--1
+41	usuels	usuel	ADJ	_	Gender=Masc|Number=Plur	40	amod	_	Entity=c60)c59)
+42	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	43	cop	_	_
+43	négatifs	négatif	ADJ	_	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	60	punct	_	_
+45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	Entity=(c61--2
+46	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	60	nsubj	_	_
+47	virale	viral	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	Entity=c61)
+48	et	et	CCONJ	_	_	51	cc	_	_
+49-50	du	_	_	_	_	_	_	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	Entity=(c62--2
+51	bacille	bacille	NOUN	_	Gender=Masc|Number=Sing	46	conj	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	Koch	Koch	PROPN	_	_	51	nmod	_	Entity=c62)
+54	par	par	ADP	_	_	55	case	_	_
+55	PCR	PCR	PROPN	_	_	51	nmod	_	Entity=(c63--1)
+56	dans	dans	ADP	_	_	58	case	_	_
+57	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	Entity=(c64--2
+58	LCR	LCR	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	Entity=c64)c57)
+59	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	60	cop	_	_
+60	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	8	conj	_	_
+61	et	et	CCONJ	_	_	71	cc	_	_
+62	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	63	det	_	Entity=(c65--2|SpaceAfter=No
+63	électrophorèse	électrophorèse	NOUN	_	Gender=Fem|Number=Sing	60	nsubj	_	_
+64-65	des	_	_	_	_	_	_	_	_
+64	de	de	ADP	_	_	66	case	_	_
+65	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	66	det	_	Entity=(c66--2
+66	protides	protide	NOUN	_	Gender=Masc|Number=Plur	63	nmod	_	_
+67-68	du	_	_	_	_	_	_	_	_
+67	de	de	ADP	_	_	69	case	_	_
+68	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	Entity=(c64--2
+69	LCR	LCR	PROPN	_	Gender=Masc|Number=Sing	66	nmod	_	Entity=c64)c66)c65)
+70	non	non	ADV	_	Polarity=Neg	71	advmod	_	_
+71	faite	faire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	60	conj	_	SpaceAfter=No
+72	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = La numération formule sanguineet la vitesse de sédimentation étaient normales.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c67--2(c68--2
+2	numération	numération	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	formule	formule	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+4	sanguineet	sanguineet	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c68)
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c69--2
+6	vitesse	vitesse	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	sédimentation	sédimentation	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=c69)c67)
+9	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	normales	normal	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Le bilan hépatique a montré un taux de bilirubine totale à 5,081m/l, Bilirubine direct: 2,09mg/l, un temps de prothrombine à 90%, des ASAT à 16 UI/l, des ALAT à 20 UI/l, des phosphatases alcalines à 239 UI/l, et des gammaglutamyl transférase à 9 UI/l.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c70--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	hépatique	hépatique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c70)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(c71--2
+7	taux	taux	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	bilirubine	bilirubine	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	totale	total	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Entity=c71)
+11	à	à	ADP	_	_	12	case	_	_
+12	5,081m/l	5,081m/l	NUM	_	Number=Plur	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	Bilirubine	bilirubine	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	Entity=(c72--1
+15	direct:	direct:	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	2,09mg/l	2,09mg/l	NUM	_	Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(c73--2
+19	temps	temps	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	prothrombine	prothrombine	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	Entity=(c74--1)c73)
+22	à	à	ADP	_	_	24	case	_	_
+23	90	90	NUM	_	Number=Plur	24	nummod	_	SpaceAfter=No
+24	%	%	SYM	_	Number=Plur	19	nmod	_	Entity=c72)|SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26-27	des	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	Entity=(c75--2
+28	ASAT	ASAT	PROPN	_	Number=Plur	7	conj	_	Entity=c75)
+29	à	à	ADP	_	_	32	case	_	_
+30	16	16	NUM	_	Number=Plur	32	nummod	_	Entity=(c76--3
+31	UI/	ui/	SYM	_	Number=Plur	32	nmod	_	SpaceAfter=No
+32	l	l	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	Entity=c76)|SpaceAfter=No
+33	,	,	PUNCT	_	_	36	punct	_	_
+34-35	des	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	Entity=(c77--2
+36	ALAT	ALAT	PROPN	_	Number=Plur	7	conj	_	Entity=c77)
+37	à	à	ADP	_	_	40	case	_	_
+38	20	20	NUM	_	Number=Plur	40	nummod	_	Entity=(c78--3
+39	UI/	ui/	SYM	_	Number=Plur	40	nmod	_	SpaceAfter=No
+40	l	l	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	Entity=c78)|SpaceAfter=No
+41	,	,	PUNCT	_	_	44	punct	_	_
+42-43	des	_	_	_	_	_	_	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	44	det	_	Entity=(c79--2
+44	phosphatases	phosphatase	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
+45	alcalines	alcalin	ADJ	_	Gender=Fem|Number=Plur	44	amod	_	Entity=c79)
+46	à	à	ADP	_	_	48	case	_	_
+47	239	239	NUM	_	Number=Plur	48	nummod	_	Entity=(c80--2
+48	UI/l	UI/l	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	Entity=c80)|SpaceAfter=No
+49	,	,	PUNCT	_	_	53	punct	_	_
+50	et	et	CCONJ	_	_	53	cc	_	_
+51-52	des	_	_	_	_	_	_	_	_
+51	de	de	ADP	_	_	53	case	_	_
+52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	Entity=(c81--2
+53	gammaglutamyl	gammaglutamyl	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+54	transférase	transférase	NOUN	_	Gender=Fem|Number=Sing	53	appos	_	Entity=c81)
+55	à	à	ADP	_	_	58	case	_	_
+56	9	9	NUM	_	Number=Plur	58	nummod	_	Entity=(c82--3
+57	UI/	ui/	SYM	_	Number=Plur	58	nmod	_	SpaceAfter=No
+58	l	l	NOUN	_	Gender=Masc|Number=Plur	53	nmod	_	Entity=c82)|SpaceAfter=No
+59	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Dans le cadre de l'enquête étiologique: le bilan immunologique, les anticorps anti NMO et le taux de l'enzyme de conversion de l'angiotensine étaient normaux.
+1	Dans	dans	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Entity=(c83--2|SpaceAfter=No
+6	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	étiologique	étiologique	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	Entity=c83)|SpaceAfter=No
+8	:	:	PUNCT	_	_	29	punct	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c84--2
+10	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
+11	immunologique	immunologique	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	Entity=c84)|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	Entity=(c85--2
+14	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+15	anti	anti	ADP	_	_	16	case	_	_
+16	NMO	NMO	X	_	_	14	nmod	_	Entity=(c86--1)c85)
+17	et	et	CCONJ	_	_	19	cc	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(c87--2
+19	taux	taux	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	Entity=(c88--2|SpaceAfter=No
+22	enzyme	enzyme	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	conversion	conversion	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Entity=(c89--2|SpaceAfter=No
+27	angiotensine	angiotensine	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	Entity=c89)c88)c87)
+28	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+29	normaux	normal	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = L'étude anatomopathologique de la biopsie de la glande salivaire accessoire n'a pas montré d'anomalie histologique.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c90--2|SpaceAfter=No
+2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	anatomopathologique	anatomopathologique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c91--2
+6	biopsie	biopsie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c92--2
+9	glande	glande	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	salivaire	salivaire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	accessoire	accessoire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Entity=c92)c91)c90)
+12	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
+14	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
+15	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+16	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	Entity=(c93--1
+18	histologique	histologique	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	Entity=c93)|SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = La radiographie pulmonaire de face et la tomodensitométrie pulmonaire étaient normales.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c94--2(c95--2
+2	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	face	face	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c95)
+6	et	et	CCONJ	_	_	8	cc	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c96--2
+8	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+9	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c96)c94)
+10	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	normales	normal	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = L'examen ophtalmologique ainsi que les PEV étaient normaux;
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c97--2(c98--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	ophtalmologique	ophtalmologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c98)
+4	ainsi	ainsi	ADV	_	_	7	cc	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(c99--2
+7	PEV	PEV	PROPN	_	Number=Plur	2	conj	_	Entity=c99)c97)
+8	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	normaux	normal	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 19
+# text = le bilan thyroïdien le taux de la vitamine B12 et des folates étaient normaux;
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c100--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	thyroïdien	thyroïdien	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c100)
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c101--2(c102--2
+5	taux	taux	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c103--2
+8	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	B12	B12	X	_	_	8	appos	_	Entity=c103)c102)
+10	et	et	CCONJ	_	_	13	cc	_	_
+11-12	des	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	Entity=(c104--2
+13	folates	folate	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	Entity=c104)c101)
+14	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	normaux	normal	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+16	;	;	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 20
+# text = la sérologie HIV et de la syphilis était négative;
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c105--2
+2	sérologie	sérologie	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	HIV	HIV	PROPN	_	_	2	appos	_	Entity=(c106--1)
+4	et	et	CCONJ	_	_	7	cc	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c107--2
+7	syphilis	syphilis	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	Entity=c107)c105)
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 21
+# text = la recherche des anticorps de type immunoglobulines M dirigés contre Mycoplasmapneumoniae, la Borreliaburgdoferi, Rickettsiaconorii, le virus d'Epstein-Barr, l'herpes virus (1 et 2), le cytomégalovirus, le virus zona varicelle et de l'hépatite C et B était négative.
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c108--2
+2	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	48	nsubj	_	_
+3-4	des	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(c109--2
+5	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	type	type	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	Entity=(c110--1
+8	immunoglobulines	immunoglobuline	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+9	M	M	X	_	_	7	appos	_	Entity=c110)c109)
+10	dirigés	diriger	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+11	contre	contre	ADP	_	_	12	case	_	_
+12	Mycoplasmapneumoniae	Mycoplasmapneumoniae	PROPN	_	_	10	obl:mod	_	Entity=(c111--1)|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(c112--2
+15	Borreliaburgdoferi	Borreliaburgdoferi	PROPN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Rickettsiaconorii	Rickettsiaconorii	PROPN	_	_	12	conj	_	Entity=(c113--1)|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(c114--2
+20	virus	virus	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
+22	Epstein-Barr	Epstein-Barr	PROPN	_	_	20	nmod	_	Entity=c114)|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	Entity=(c115--2|SpaceAfter=No
+25	herpes	herpe	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+26	virus	virus	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	Entity=c115)
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	1	1	NUM	_	Number=Plur	25	nmod	_	_
+29	et	et	CCONJ	_	_	30	cc	_	_
+30	2	2	NUM	_	Number=Plur	28	conj	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	Entity=(c116--2
+34	cytomégalovirus	cytomégalovirus	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	Entity=c116)|SpaceAfter=No
+35	,	,	PUNCT	_	_	37	punct	_	_
+36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	Entity=(c117--2
+37	virus	virus	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+38	zona	zona	X	_	_	37	appos	_	_
+39	varicelle	varicelle	X	_	Gender=Fem|Number=Sing	38	flat:name	_	Entity=c117)
+40	et	et	CCONJ	_	_	43	cc	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	43	det	_	Entity=(c118--2|SpaceAfter=No
+43	hépatite	hépatite	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+44	C	C	X	_	_	43	appos	_	Entity=c118)
+45	et	et	CCONJ	_	_	46	cc	_	_
+46	B	B	X	_	_	44	conj	_	Entity=c112)c108)
+47	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
+48	négative	négatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Alors que la sérologie de l'hépatite A a mis en évidence la présence des anticorps anti-HVA de type immunoglobulines M. Le diagnostic retenu était donc celui d'une myélite aiguë survenant au décours d'une hépatite aiguë A anectérique.
+1	Alors	alors	ADV	_	_	10	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	Entity=(c119--2
+4	sérologie	sérologie	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Entity=(c120--2|SpaceAfter=No
+7	hépatite	hépatite	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	A	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	Entity=c120)c119)
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	28	advcl	_	_
+11	en	en	ADP	_	_	12	case	_	_
+12	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(c121--2
+14	présence	présence	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(c109--2
+17	anticorps	anticorps	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	anti-HVA	anti-hva	X	_	_	17	appos	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	type	type	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	immunoglobulines	immunoglobuline	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+22	M.	M.	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	Entity=c109)c121)
+23	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(c122--2
+24	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+25	retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	Entity=c122)
+26	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+27	donc	donc	ADV	_	_	28	advmod	_	_
+28	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	Entity=(c122--1
+29	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
+30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	Entity=(c47--2
+31	myélite	myélite	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32	aiguë	aigu	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	Entity=c47)
+33	survenant	survenir	VERB	_	Tense=Pres|VerbForm=Part	31	acl	_	_
+34-35	au	_	_	_	_	_	_	_	_
+34	à	à	ADP	_	_	36	case	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	décours	décours	NOUN	_	Gender=Masc|Number=Sing	33	obl:mod	_	_
+37	d'	de	ADP	_	_	39	case	_	SpaceAfter=No
+38	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	Entity=(c123--2
+39	hépatite	hépatite	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+40	aiguë	aigu	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
+41	A	A	X	_	_	39	appos	_	_
+42	anectérique	anectérique	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	Entity=c123)c122)|SpaceAfter=No
+43	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = L epatient a été mis sous corticothérapie à fortes doses (bolus de méthyl prednisolone à la dose de 1 g par jour pendant cinq jours) associée à une rééducation motrice et un traitement symptomatique de la douleur.
+1	L	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	epatient	epatient	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	Entity=c1)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	sous	sous	ADP	_	_	7	case	_	_
+7	corticothérapie	corticothérapie	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	Entity=(c124--1
+8	à	à	ADP	_	_	10	case	_	_
+9	fortes	fort	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	Entity=(c125--2
+10	doses	dose	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	Entity=c125)c124)
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	bolus	bolus	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	Entity=(c126--1
+13	de	de	ADP	_	_	14	case	_	_
+14	méthyl	méthyl	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	Entity=(c127--1
+15	prednisolone	prednisolone	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	Entity=c127)
+16	à	à	ADP	_	_	18	case	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c128--2
+18	dose	dose	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	1	1	NUM	_	Number=Plur	21	nummod	_	Entity=(c129--2
+21	g	g	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+22	par	par	ADP	_	_	23	case	_	_
+23	jour	jour	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	Entity=(c130--1)c129)c128)
+24	pendant	pendant	ADP	_	_	26	case	_	_
+25	cinq	cinq	NUM	_	Number=Plur	26	nummod	_	Entity=(c131--2
+26	jours	jour	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	Entity=c131)|SpaceAfter=No
+27	)	)	PUNCT	_	_	12	punct	_	_
+28	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+29	à	à	ADP	_	_	31	case	_	_
+30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	Entity=(c132--2
+31	rééducation	rééducation	NOUN	_	Gender=Fem|Number=Sing	28	obl:arg	_	_
+32	motrice	moteur	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	Entity=c132)
+33	et	et	CCONJ	_	_	35	cc	_	_
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	Entity=(c133--2
+35	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	31	conj	_	_
+36	symptomatique	symptomatique	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	Entity=(c134--2
+39	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	Entity=c134)c133)c126)|SpaceAfter=No
+40	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = L'évolution a été marquée par la récupération partielle de trouble de l'équilibre et des troubles sphinctériens et des paresthésies.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c135--2|SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	Entity=c135)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	marquée	marquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	par	par	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(c136--2
+8	récupération	récupération	NOUN	_	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	partielle	partiel	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	trouble	trouble	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Entity=(c3--1
+12	de	de	ADP	_	_	14	case	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Entity=(c4--2|SpaceAfter=No
+14	équilibre	équilibre	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Entity=c4)c3)
+15	et	et	CCONJ	_	_	18	cc	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	Entity=(c7--2
+18	troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+19	sphinctériens	sphinctérien	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	Entity=c7)
+20	et	et	CCONJ	_	_	23	cc	_	_
+21-22	des	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	Entity=(c5--2
+23	paresthésies	paresthésie	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	Entity=c5)c136)|SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+

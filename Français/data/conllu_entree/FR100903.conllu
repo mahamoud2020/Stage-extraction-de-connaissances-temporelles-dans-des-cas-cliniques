@@ -1,0 +1,724 @@
+# newdoc id = FR100903
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Patiente de 24 ans, primipare, sans antécédents médicaux ou chirurgicaux intéressants.
+1	Patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	24	24	NUM	_	Number=Plur	4	nummod	_	_
+4	ans	an	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	primipare	primipare	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	sans	sans	ADP	_	_	9	case	_	_
+9	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+10	médicaux	médical	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	ou	ou	CCONJ	_	_	12	cc	_	_
+12	chirurgicaux	chirurgical	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	_
+13	intéressants	intéressant	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = L'échographie de dépistage à 12 semaines +2 jours était sans anomalie, avec un risque combiné de syndrome de Down et d'Edwards faible (< 1/10000).
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	dépistage	dépistage	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	12	12	NUM	_	Number=Plur	7	nummod	_	_
+7	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+8	+2	+2	NUM	_	Number=Plur	9	nummod	_	_
+9	jours	jour	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	sans	sans	ADP	_	_	12	case	_	_
+12	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	avec	avec	ADP	_	_	16	case	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	risque	risque	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+17	combiné	combiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	acl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Down	Down	PROPN	_	_	19	nmod	_	_
+22	et	et	CCONJ	_	_	24	cc	_	_
+23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
+24	Edwards	Edwards	PROPN	_	_	19	conj	_	_
+25	faible	faible	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	<	<	ADP	_	_	28	case	_	_
+28	1	1	NUM	_	Number=Plur	16	nmod	_	SpaceAfter=No
+29	/	/	SYM	_	_	30	case	_	SpaceAfter=No
+30	10000	10000	NUM	_	Number=Plur	28	conj	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'échographie morphologique du deuxième trimestre (19 semaines +2 jours) a montré un œdème sous-cutané important, des poumons hyperéchogènes et hypertrophiés, un cœur hypoplasique et une ascite importante avec un oligoamnios sévères.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	morphologique	morphologique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	trimestre	trimestre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+8	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	19	19	NUM	_	Number=Plur	10	nummod	_	_
+10	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	2	appos	_	_
+11	+2	+2	NUM	_	Number=Plur	12	nummod	_	_
+12	jours	jour	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	10	punct	_	_
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
+15	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	œdème	œdème	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	sous-cutané	sous-cutané	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	important	important	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21-22	des	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	poumons	poumon	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+24	hyperéchogènes	hyperéchogène	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
+25	et	et	CCONJ	_	_	26	cc	_	_
+26	hypertrophiés	hypertrophié	ADJ	_	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+30	hypoplasique	hypoplasique	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+31	et	et	CCONJ	_	_	33	cc	_	_
+32	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	ascite	ascite	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+34	importante	important	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
+35	avec	avec	ADP	_	_	37	case	_	_
+36	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	oligoamnios	oligoamnios	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+38	sévères	sévère	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Une nouvelle échographie de contrôle à 20 semaines a mis en évidence les résultats suivants: une biométrie de périmètre crânienne et une longueur du fémur normales pour un fœtus de 20 semaines aménorrhée.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	20	20	NUM	_	Number=Plur	8	nummod	_	_
+8	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	en	en	ADP	_	_	12	case	_	_
+12	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+15	suivants	suivant	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	18	punct	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	biométrie	biométrie	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	périmètre	périmètre	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	crânienne	crânien	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	et	et	CCONJ	_	_	24	cc	_	_
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	longueur	longueur	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+25-26	du	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	fémur	fémur	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	normales	normal	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
+29	pour	pour	ADP	_	_	31	case	_	_
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	fœtus	fœtus	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	20	20	NUM	_	Number=Plur	34	nummod	_	_
+34	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
+35	aménorrhée	aménorrher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	acl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Cependant, la circonférence abdominale (254 mm) correspondait à un fœtus de 29 semaines aménorrhée, en rapport à un hydrops fœtal généralisé.
+1	Cependant	cependant	ADV	_	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	circonférence	circonférence	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+5	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	254	254	NUM	_	Number=Plur	8	nummod	_	_
+8	mm	mm	NOUN	_	Gender=Masc|Number=Plur	4	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	correspondait	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	à	à	ADP	_	_	13	case	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fœtus	fœtus	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	29	29	NUM	_	Number=Plur	16	nummod	_	_
+16	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+17	aménorrhée	aménorrher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	en	en	ADP	_	_	20	case	_	_
+20	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+21	à	à	ADP	_	_	23	case	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	hydrops	hydrops	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	fœtal	fœtal	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	généralisé	généraliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Au niveau céphalique, on a trouvé: une mauvaise visualisation du massif faciale en raison d'un œdème intense.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+4	céphalique	céphalique	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	12	punct	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	visualisation	visualisation	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+13-14	du	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	massif	massif	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	faciale	facial	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	en	en	ADP	_	_	12	advmod	_	_
+18	raison	raison	NOUN	_	Gender=Fem|Number=Sing	17	fixed	_	_
+19	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	œdème	œdème	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	_
+22	intense	intense	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Les orbites étaient marquées par une microphtalmie.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	orbites	orbite	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	marquées	marquer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	par	par	ADP	_	_	7	case	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	microphtalmie	microphtalmie	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Le nez et la bouche étaient sans anomalies évidentes.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nez	nez	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	et	et	CCONJ	_	_	5	cc	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bouche	bouche	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+6	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	sans	sans	ADP	_	_	8	case	_	_
+8	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+9	évidentes	évident	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Au niveau abdominal, on a trouvé: la présence d'ascite qui déforme la cavité avec une mauvaise visualisation de la poche gastrique.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+4	abdominal	abdominal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	présence	présence	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
+13	ascite	ascite	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
+15	déforme	déformer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cavité	cavité	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	avec	avec	ADP	_	_	21	case	_	_
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	visualisation	visualisation	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	poche	poche	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	gastrique	gastrique	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Le rein gauche et le rein droit n'ont pas été visualisés, ils étaient petits et hypoplasiques.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rein	rein	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+3	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	et	et	CCONJ	_	_	6	cc	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rein	rein	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+7	droit	droit	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
+9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+10	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	visualisés	visualiser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	petits	petit	ADJ	_	Gender=Masc|Number=Plur	12	conj	_	_
+17	et	et	CCONJ	_	_	18	cc	_	_
+18	hypoplasiques	hypoplasique	ADJ	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = On a visualisé des doutes sur la rétraction de la vessie.
+1	On	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	visualisé	visualiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	des	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	doutes	doute	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+7	sur	sur	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	rétraction	rétraction	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vessie	vessie	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Au niveau thoracique: le cœur présentait une anatomie normale, avec un aspect subjectif de fausse hypoplasie, au détriment de l'augmentation du volume des poumons.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+4	thoracique	thoracique	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	8	punct	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	présentait	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	anatomie	anatomie	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	normale	normal	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	avec	avec	ADP	_	_	15	case	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+16	subjectif	subjectif	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	fausse	faux	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+19	hypoplasie	hypoplasie	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21-22	au	_	_	_	_	_	_	_	_
+21	à	à	ADP	_	_	23	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	détriment	détriment	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27-28	du	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	volume	volume	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30-31	des	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+32	poumons	poumon	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Les deux poumons étaient allongés, hypertrophiés et hyperéchogènes de façon homogène.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	deux	deux	NUM	_	Number=Plur	3	nummod	_	_
+3	poumons	poumon	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	allongés	allonger	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	hypertrophiés	hypertrophier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+8	et	et	CCONJ	_	_	9	cc	_	_
+9	hyperéchogènes	hyperéchogène	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	façon	façon	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+12	homogène	homogène	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = De plus, la protubérance des deux diaphragmes était vers l'abdomen, avec une image inversée de ceux-ci, une image anormalement convexe, est frappante.
+1	De	de	ADP	_	_	13	advmod	_	_
+2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	protubérance	protubérance	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+6-7	des	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+8	deux	deux	NUM	_	Number=Plur	9	nummod	_	_
+9	diaphragmes	diaphragme	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+11	vers	vers	ADP	_	_	13	case	_	_
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	abdomen	abdomen	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	28	punct	_	_
+15	avec	avec	ADP	_	_	17	case	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	image	image	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	_
+18	inversée	inverser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	image	image	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
+24	anormalement	anormalement	ADV	_	_	25	advmod	_	_
+25	convexe	convexe	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	23	punct	_	_
+27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	frappante	frappant	ADJ	_	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = La trachée avait un diamètre plus important que les voies de sortie et les deux bronches principales étaient pathologiquement dilatées.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	trachée	trachée	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	plus	plus	ADV	_	_	7	advmod	_	_
+7	important	important	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+8	que	que	SCONJ	_	_	10	case	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	voies	voie	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	sortie	sortie	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	et	et	CCONJ	_	_	20	cc	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+15	deux	deux	NUM	_	Number=Plur	16	nummod	_	_
+16	bronches	bronche	NOUN	_	Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+17	principales	principal	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	aux:pass	_	_
+19	pathologiquement	pathologiquement	ADV	_	_	20	advmod	_	_
+20	dilatées	dilater	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Une IRM a été demandée à 21 e semaine aménorrhée, qui était en faveur d'un syndrome CHAOS associé à d'autres malformations (possible syndrome de Fraser) à savoir la présence d'une atrésie laryngée, d'une ascites et d'un hydrops foetal massif, d'une microphtalmie avec hypertélorisme et déviation de la cloison nasale, une absence de visualisation du tissu thymique, la présence d'une petite poche gastrique et une vessie non identifiable, absence de rein droit et un rein gauche hypoplasique.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	demandée	demander	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	à	à	ADP	_	_	9	case	_	_
+7	21	21	NUM	_	Number=Plur	9	nummod	_	_
+8	e	e	NOUN	_	_	9	amod	_	_
+9	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+10	aménorrhée	aménorrhé	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
+13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+14	en	en	ADP	_	_	15	case	_	_
+15	faveur	faveur	NOUN	_	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+16	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	CHAOS	CHAOS	PROPN	_	_	18	appos	_	_
+20	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	_
+21	à	à	ADP	_	_	24	case	_	_
+22	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	SpaceAfter=No
+23	autres	autre	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
+24	malformations	malformation	NOUN	_	Gender=Fem|Number=Plur	20	obl:arg	_	_
+25	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	possible	possible	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+27	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Fraser	Fraser	PROPN	_	_	27	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	27	punct	_	_
+31	à	à	ADP	_	_	34	advmod	_	_
+32	savoir	savoir	VERB	_	VerbForm=Inf	31	fixed	_	_
+33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	présence	présence	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
+35	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
+36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	atrésie	atrésie	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+38	laryngée	laryngé	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	42	punct	_	_
+40	d'	de	ADP	_	_	42	case	_	SpaceAfter=No
+41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	ascites	ascite	NOUN	_	Gender=Fem|Number=Sing	37	conj	_	_
+43	et	et	CCONJ	_	_	46	cc	_	_
+44	d'	de	ADP	_	_	46	case	_	SpaceAfter=No
+45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	hydrops	hydrops	NOUN	_	Gender=Masc|Number=Sing	37	conj	_	_
+47	foetal	foetal	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	_
+48	massif	massif	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	52	punct	_	_
+50	d'	de	ADP	_	_	52	case	_	SpaceAfter=No
+51	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	microphtalmie	microphtalmie	NOUN	_	Gender=Fem|Number=Sing	37	conj	_	_
+53	avec	avec	ADP	_	_	54	case	_	_
+54	hypertélorisme	hypertélorisme	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	_
+55	et	et	CCONJ	_	_	56	cc	_	_
+56	déviation	déviation	NOUN	_	Gender=Fem|Number=Sing	54	conj	_	_
+57	de	de	ADP	_	_	59	case	_	_
+58	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	cloison	cloison	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	_
+60	nasale	nasal	ADJ	_	Gender=Fem|Number=Sing	59	amod	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	63	punct	_	_
+62	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	absence	absence	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
+64	de	de	ADP	_	_	65	case	_	_
+65	visualisation	visualisation	NOUN	_	Gender=Fem|Number=Sing	63	nmod	_	_
+66-67	du	_	_	_	_	_	_	_	_
+66	de	de	ADP	_	_	68	case	_	_
+67	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+68	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	65	nmod	_	_
+69	thymique	thymique	ADJ	_	Gender=Masc|Number=Sing	68	amod	_	SpaceAfter=No
+70	,	,	PUNCT	_	_	72	punct	_	_
+71	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+72	présence	présence	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
+73	d'	de	ADP	_	_	76	case	_	SpaceAfter=No
+74	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
+75	petite	petit	ADJ	_	Gender=Fem|Number=Sing	76	amod	_	_
+76	poche	poche	NOUN	_	Gender=Fem|Number=Sing	72	nmod	_	_
+77	gastrique	gastrique	ADJ	_	Gender=Fem|Number=Sing	76	amod	_	_
+78	et	et	CCONJ	_	_	80	cc	_	_
+79	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	80	det	_	_
+80	vessie	vessie	NOUN	_	Gender=Fem|Number=Sing	76	conj	_	_
+81	non	non	ADV	_	Polarity=Neg	82	advmod	_	_
+82	identifiable	identifiable	ADJ	_	Gender=Fem|Number=Sing	80	amod	_	SpaceAfter=No
+83	,	,	PUNCT	_	_	84	punct	_	_
+84	absence	absence	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
+85	de	de	ADP	_	_	86	case	_	_
+86	rein	rein	NOUN	_	Gender=Masc|Number=Sing	84	nmod	_	_
+87	droit	droit	ADJ	_	Gender=Masc|Number=Sing	86	amod	_	_
+88	et	et	CCONJ	_	_	90	cc	_	_
+89	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	90	det	_	_
+90	rein	rein	NOUN	_	Gender=Masc|Number=Sing	86	conj	_	_
+91	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	90	amod	_	_
+92	hypoplasique	hypoplasique	ADJ	_	Gender=Masc|Number=Sing	90	amod	_	SpaceAfter=No
+93	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Un hydrops foetal a été considéré comme le diagnostic initial.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	hydrops	hydrops	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	foetal	foetal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	comme	comme	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	_
+10	initial	initial	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Après avoir écarté les causes les plus fréquentes: isoimmunisation (Coombs indirect négatif), infections (sérologies négatives) sans pouvoir avoir un caryotype dû au rejet de la patiente, les résultats des ultrasons nous ont fait réfléchir à la possibilité d'un hydroscope fœtal secondaire au syndrome CHAOS, étant pathognomonique l'image d'une hypertrophie pulmonaire avec inversion ou convexité des diaphragmes.
+1	Après	après	ADP	_	_	3	mark	_	_
+2	avoir	avoir	AUX	_	VerbForm=Inf	3	aux:tense	_	_
+3	écarté	écarter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	43	advcl	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	causes	cause	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	plus	plus	ADV	_	_	8	advmod	_	_
+8	fréquentes	fréquent	ADJ	_	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	10	punct	_	_
+10	isoimmunisation	isoimmunisation	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Coombs	coombs	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+13	indirect	indirect	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	négatif	négatif	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	infections	infection	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	sérologies	sérologie	NOUN	_	Gender=Fem|Number=Plur	17	appos	_	_
+20	négatives	négatif	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	19	punct	_	_
+22	sans	sans	ADP	_	_	23	mark	_	_
+23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	3	advcl	_	_
+24	avoir	avoir	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	caryotype	caryotype	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	acl	_	_
+28-29	au	_	_	_	_	_	_	_	_
+28	à	à	ADP	_	_	30	case	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	rejet	rejet	NOUN	_	Gender=Masc|Number=Sing	27	obl:arg	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	patiente	patiente	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	3	punct	_	_
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+36	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	43	nsubj:caus	_	_
+37-38	des	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+39	ultrasons	ultrason	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	_
+40	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	43	iobj:agent	_	_
+41	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	aux:tense	_	_
+42	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	aux:caus	_	_
+43	réfléchir	réfléchir	VERB	_	VerbForm=Inf	0	root	_	_
+44	à	à	ADP	_	_	46	case	_	_
+45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	possibilité	possibilité	NOUN	_	Gender=Fem|Number=Sing	43	obl:arg	_	_
+47	d'	de	ADP	_	_	49	case	_	SpaceAfter=No
+48	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	hydroscope	hydroscope	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
+50	fœtal	fœtal	ADJ	_	Gender=Masc|Number=Sing	49	amod	_	_
+51	secondaire	secondaire	ADJ	_	Gender=Masc|Number=Sing	49	amod	_	_
+52-53	au	_	_	_	_	_	_	_	_
+52	à	à	ADP	_	_	54	case	_	_
+53	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	51	obl:arg	_	_
+55	CHAOS	CHAOS	PROPN	_	_	54	appos	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	58	punct	_	_
+57	étant	être	AUX	_	Tense=Pres|VerbForm=Part	58	cop	_	_
+58	pathognomonique	pathognomonique	ADJ	_	Gender=Masc|Number=Sing	43	advcl	_	_
+59	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	60	det	_	SpaceAfter=No
+60	image	image	NOUN	_	Gender=Fem|Number=Sing	43	nsubj:caus	_	_
+61	d'	de	ADP	_	_	63	case	_	SpaceAfter=No
+62	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	hypertrophie	hypertrophie	NOUN	_	Gender=Fem|Number=Sing	60	nmod	_	_
+64	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	63	amod	_	_
+65	avec	avec	ADP	_	_	66	case	_	_
+66	inversion	inversion	NOUN	_	Gender=Fem|Number=Sing	63	nmod	_	_
+67	ou	ou	CCONJ	_	_	68	cc	_	_
+68	convexité	convexité	NOUN	_	Gender=Fem|Number=Sing	66	conj	_	_
+69-70	des	_	_	_	_	_	_	_	_
+69	de	de	ADP	_	_	71	case	_	_
+70	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	71	det	_	_
+71	diaphragmes	diaphragme	NOUN	_	Gender=Masc|Number=Plur	68	nmod	_	SpaceAfter=No
+72	.	.	PUNCT	_	_	43	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Lors des contrôles échographiques ultérieurs (23 semaines d'aménorrhées), la biométrie correspondait à 33 semaines d'aménorrhées, avec un grand œdème sous-cutané, un oligoamnios sévère et une ascite massive.
+1	Lors	lors	ADV	_	_	16	advmod	_	_
+2-3	des	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	contrôles	contrôle	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+5	échographiques	échographique	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	ultérieurs	ultérieur	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	23	23	NUM	_	Number=Plur	9	nummod	_	_
+9	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	4	appos	_	_
+10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
+11	aménorrhées	aménorrhée	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	1	punct	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	biométrie	biométrie	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	correspondait	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	33	33	NUM	_	Number=Plur	19	nummod	_	_
+19	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	16	obl:arg	_	_
+20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
+21	aménorrhées	aménorrhée	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	_
+23	avec	avec	ADP	_	_	26	case	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	grand	grand	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+26	œdème	œdème	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
+27	sous-cutané	sous-cutané	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	oligoamnios	oligoamnios	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
+31	sévère	sévère	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+32	et	et	CCONJ	_	_	34	cc	_	_
+33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	ascite	ascite	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+35	massive	massif	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = L'évolution de la grossesse a été marquée par la survenue
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	marquée	marquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	par	par	ADP	_	_	11	case	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	survenue	survenue	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	_
+
+# sent_id = 21
+# text = À la 24 e semaine d'aménorrhée d'un accouchement prématuré qui a donné la naissance d'un nouveau-né avec un poids de naissance de 1475g, polymalformés, présentant une ambiguïté sexuelle, avec un abdomen distendu et une polydactylie.
+1	À	à	ADP	_	_	5	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	24	24	NUM	_	Number=Sing	5	nummod	_	_
+4	e	e	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+7	aménorrhée	aménorrhée	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	accouchement	accouchement	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	prématuré	prématuré	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
+14	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	naissance	naissance	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+20	-né	-né	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+21	avec	avec	ADP	_	_	23	case	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	poids	poids	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	naissance	naissance	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	1475g	1475g	NUM	_	Number=Plur	23	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	polymalformés	polymalformé	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	présentant	présenter	VERB	_	Tense=Pres|VerbForm=Part	14	advcl	_	_
+32	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	ambiguïté	ambiguïté	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	sexuelle	sexuel	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	avec	avec	ADP	_	_	38	case	_	_
+37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	abdomen	abdomen	NOUN	_	Gender=Masc|Number=Sing	31	obl:mod	_	_
+39	distendu	distendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	acl	_	_
+40	et	et	CCONJ	_	_	42	cc	_	_
+41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	polydactylie	polydactylie	NOUN	_	Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Le nouveau-né est décédé à 3 min du post partum.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+3	-né	-né	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	décédé	décéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	3	3	NUM	_	Number=Plur	8	nummod	_	_
+8	min	min	NOUN	_	Gender=Masc|Number=Plur	5	obl:mod	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	post	post	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	partum	partum	X	_	Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Un caryotype était réalisé montrant un profil 46XX.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caryotype	caryotype	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	montrant	montrer	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	profil	profil	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	46XX	46xX	X	_	_	7	appos	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+

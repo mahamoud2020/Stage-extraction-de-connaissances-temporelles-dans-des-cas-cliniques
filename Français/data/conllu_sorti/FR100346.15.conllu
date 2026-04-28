@@ -1,0 +1,405 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Mlle B Z âgée de 39 ans, sans antécédents familiaux notables, est suivie depuis l'âge de 19 ans pour une SEP progressive à l'origine d'un handicap moteur.
+1	Mlle	Mlle	PROPN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	Entity=(c1--15
+2	B	B	PROPN	_	_	1	flat:name	_	_
+3	Z	Z	PROPN	_	_	1	flat:name	_	_
+4	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	39	39	NUM	_	Number=Plur	7	nummod	_	Entity=(c2--2
+7	ans	an	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	Entity=c2)|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	sans	sans	ADP	_	_	10	case	_	_
+10	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	Entity=(c3--1
+11	familiaux	familial	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+12	notables	notable	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	Entity=c3)|SpaceAfter=No
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16	depuis	depuis	ADP	_	_	18	case	_	_
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Entity=(c4--2|SpaceAfter=No
+18	âge	âge	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	19	19	NUM	_	Number=Plur	21	nummod	_	_
+21	ans	an	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	Entity=c4)
+22	pour	pour	ADP	_	_	24	case	_	_
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	Entity=(c5--2
+24	SEP	SEP	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
+25	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	à	à	ADP	_	_	28	case	_	_
+27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	origine	origine	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+29	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	Entity=(c6--2
+31	handicap	handicap	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	moteur	moteur	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	Entity=c6)c5)c1)|SpaceAfter=No
+33	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = En décembre 2012, elle nous a consulté pour fièvre, toux productive, expectorations purulentes et douleurs basi-thoraciques bilatérales.
+1	En	en	ADP	_	_	2	case	_	_
+2	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	Entity=(c7--1
+3	2012	2012	NUM	_	Number=Plur	2	nmod	_	Entity=c7)|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Entity=(c1--1)
+6	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	8	obj	_	Entity=(c8--1)
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	pour	pour	ADP	_	_	10	case	_	_
+10	fièvre	fièvre	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	Entity=(c9--1(c10--1)|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	toux	toux	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	Entity=(c11--1
+13	productive	productif	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	Entity=c11)|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	expectorations	expectoration	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	Entity=(c12--1
+16	purulentes	purulent	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	Entity=c12)
+17	et	et	CCONJ	_	_	18	cc	_	_
+18	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	Entity=(c13--1
+19	basi-thoraciques	basi-thoracique	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+20	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	Entity=c13)c9)|SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = L'examen initial a objectivé une fièvre à 39°c, un pouls à 120 battements/min, une polypnée à 30 cycles/min, des râles crépitants à l'auscultation pulmonaire et un syndrome tétra-pyramidal, le reste de l'examen physique est normal.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c14--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	initial	initial	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c14)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c15--2(c10--2
+7	fièvre	fièvre	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	à	à	ADP	_	_	10	case	_	_
+9	39	39	NUM	_	Number=Plur	10	nummod	_	Entity=(c16--2|SpaceAfter=No
+10	°	°	SYM	_	Number=Plur	7	nmod	_	SpaceAfter=No
+11	c	c	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	Entity=c16)c10)|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(c17--2
+14	pouls	pouls	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+15	à	à	ADP	_	_	17	case	_	_
+16	120	120	NUM	_	Number=Plur	17	nummod	_	Entity=(c18--2
+17	battements	battement	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	/	/	SYM	_	_	19	case	_	SpaceAfter=No
+19	min	min	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	Entity=c18)c17)|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(c19--2
+22	polypnée	polypnée	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+23	à	à	ADP	_	_	25	case	_	_
+24	30	30	NUM	_	Number=Plur	25	nummod	_	Entity=(c20--2
+25	cycles	cycle	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	/	/	SYM	_	_	27	case	_	SpaceAfter=No
+27	min	min	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	Entity=c20)c19)|SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29-30	des	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	Entity=(c21--2
+31	râles	râle	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+32	crépitants	crépitant	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	_
+33	à	à	ADP	_	_	35	case	_	_
+34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	Entity=(c22--2|SpaceAfter=No
+35	auscultation	auscultation	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+36	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	Entity=c22)c21)
+37	et	et	CCONJ	_	_	39	cc	_	_
+38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	Entity=(c23--2
+39	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+40	tétra-pyramidal	tétra-pyramidal	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	Entity=c23)c15)|SpaceAfter=No
+41	,	,	PUNCT	_	_	49	punct	_	_
+42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	Entity=(c24--2
+43	reste	reste	NOUN	_	Gender=Masc|Number=Sing	49	nsubj	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	Entity=(c25--2|SpaceAfter=No
+46	examen	examen	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+47	physique	physique	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	Entity=c25)c24)
+48	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
+49	normal	normal	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = La gazométrie à montré une hypoxémie à 56 mmHg et une hypocapnie à 28 mmHg.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c26--2
+2	gazométrie	gazométrie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c26)
+3	à	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c27--2
+6	hypoxémie	hypoxémie	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	à	à	ADP	_	_	9	case	_	_
+8	56	56	NUM	_	Number=Plur	9	nummod	_	Entity=(c28--2
+9	mmHg	mmhg	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Entity=c28)c27)
+10	et	et	CCONJ	_	_	12	cc	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c29--2
+12	hypocapnie	hypocapnie	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+13	à	à	ADP	_	_	15	case	_	_
+14	28	28	NUM	_	Number=Plur	15	nummod	_	Entity=(c30--2
+15	mmHg	mmhg	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	Entity=c30)c29)|SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Le reste du bilan biologique est normal hormis une hyperleucocytose à 14 400 éléments par mm 3.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c31--2
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c32--2
+5	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	biologique	biologique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Entity=c32)c31)
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+9	hormis	hormis	ADP	_	_	11	case	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(c33--2
+11	hyperleucocytose	hyperleucocytose	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
+12	à	à	ADP	_	_	14	case	_	_
+13	14 400	14 400	NUM	_	Number=Plur	14	nummod	_	Entity=(c34--2
+14	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+15	par	par	ADP	_	_	16	case	_	_
+16	mm	mm	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+17	3	3	NUM	_	Number=Plur	16	nmod	_	Entity=c34)c33)|SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = La radiographie thoracique montre une pneumopathie bilatérale étendue et mal limitée.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c35--2
+2	radiographie	radiographie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	thoracique	thoracique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Entity=c35)
+4	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c36--2
+6	pneumopathie	pneumopathie	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	bilatérale	bilatéral	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	étendue	étendu	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+9	et	et	CCONJ	_	_	11	cc	_	_
+10	mal	mal	ADV	_	_	11	advmod	_	_
+11	limitée	limiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	Entity=c36)|SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Dans le doute d'une EP associée, un angioscanner thoracique a été réalisé et a confirmé le diagnostic d'EP en montrant un défect endoluminal lingulaire supérieur et inférieur ainsi que des lésions kystiques diffuses aux deux poumons évoquant une LAM pulmonaire.
+1	Dans	dans	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	doute	doute	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c37--2
+6	EP	EP	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	associée	associer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	Entity=c37)|SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c38--2
+10	angioscanner	angioscanner	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+11	thoracique	thoracique	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	Entity=c38)
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
+13	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	et	et	CCONJ	_	_	17	cc	_	_
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
+17	confirmé	confirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	conj	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(c39--2
+19	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
+21	EP	EP	PROPN	_	_	19	nmod	_	Entity=(c37--1)c39)
+22	en	en	ADP	_	_	23	mark	_	_
+23	montrant	montrer	VERB	_	Tense=Pres|VerbForm=Part	17	advcl	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Entity=(c40--2
+25	défect	défect	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	endoluminal	endoluminal	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	lingulaire	lingulaire	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+28	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+29	et	et	CCONJ	_	_	30	cc	_	_
+30	inférieur	inférieur	ADJ	_	Gender=Masc|Number=Sing	28	conj	_	Entity=c40)
+31	ainsi	ainsi	ADV	_	_	35	cc	_	_
+32	que	que	SCONJ	_	_	31	fixed	_	_
+33-34	des	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	Entity=(c41--2
+35	lésions	lésion	NOUN	_	Gender=Fem|Number=Plur	25	conj	_	_
+36	kystiques	kystique	ADJ	_	Gender=Fem|Number=Plur	35	amod	_	_
+37	diffuses	diffus	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	35	acl	_	_
+38-39	aux	_	_	_	_	_	_	_	_
+38	à	à	ADP	_	_	41	case	_	_
+39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	Entity=(c42--3
+40	deux	deux	NUM	_	Number=Plur	41	nummod	_	_
+41	poumons	poumon	NOUN	_	Gender=Masc|Number=Plur	37	obl:arg	_	Entity=c42)c41)
+42	évoquant	évoquer	VERB	_	Tense=Pres|VerbForm=Part	35	acl	_	_
+43	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	Entity=(c43--2
+44	LAM	LAM	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	_
+45	pulmonaire	pulmonaire	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	Entity=c43)|SpaceAfter=No
+46	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = L'echo-dopler des membres inférieurs n'a pas objectivé de thrombophlébite.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c44--2|SpaceAfter=No
+2	echo-dopler	echo-dopler	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	des	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(c45--2
+5	membres	membre	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	inférieurs	inférieur	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	Entity=c45)c44)
+7	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+9	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
+10	objectivé	objectiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+12	thrombophlébite	thrombophlébite	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	Entity=(c46--1)|SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'IRM cérébro-médullaire, à la recherche de méningiome a montré une atrophie cérébrale et médullaire cadrant avec une SEP avec des hypersignaux de la substance blanche de siège péri-ventriculaire et en sous cortical.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c47--2|SpaceAfter=No
+2	IRM	IRM	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	cérébro-médullaire	cérébro-médullaire	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c47)|SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c48--2
+7	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	méningiome	méningiome	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Entity=(c49--1)c48)
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(c50--2
+13	atrophie	atrophie	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	cérébrale	cérébral	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	et	et	CCONJ	_	_	16	cc	_	_
+16	médullaire	médullaire	ADJ	_	Gender=Fem|Number=Sing	14	conj	_	_
+17	cadrant	cadrant	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+18	avec	avec	ADP	_	_	20	case	_	_
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(c5--2
+20	SEP	SEP	PROPN	_	Gender=Fem|Number=Sing	11	obl:mod	_	Entity=c5)
+21	avec	avec	ADP	_	_	24	case	_	_
+22-23	des	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	det	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	fixed	_	Entity=(c51--2
+24	hypersignaux	hypersignal	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(c52--2
+27	substance	substance	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28	blanche	blanc	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	siège	siège	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+31	péri-ventriculaire	péri-ventriculaire	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	Entity=c52)
+32	et	et	CCONJ	_	_	34	cc	_	_
+33	en	en	ADP	_	_	34	case	_	_
+34	sous	sous	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
+35	cortical	cortical	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	Entity=c51)c50)|SpaceAfter=No
+36	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Le scanner abdomino-pelvien met en évidence un angiomyolipome rénal gauche de 10 x 8 x 6 cm de grand axe.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c53--2
+2	scanner	scanner	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	abdomino-pelvien	abdomino-pelvien	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c53)
+4	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c54--2
+8	angiomyolipome	angiomyolipome	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+9	rénal	rénal	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+11	de	de	ADP	_	_	17	case	_	_
+12	10	10	NUM	_	Number=Plur	17	nummod	_	Entity=(c55--6
+13	x	x	SYM	_	_	16	case	_	_
+14	8	8	NUM	_	Number=Plur	12	nmod	_	_
+15	x	x	SYM	_	_	16	case	_	_
+16	6	6	NUM	_	Number=Plur	12	nmod	_	_
+17	cm	cm	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	grand	grand	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	axe	axe	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	Entity=c55)c54)|SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Le diagnostic d'une LAM dans sa forme sporadique est posé devant les anomalies scanographiques et la présence d'angiomyolipome rénal.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c56--2
+2	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(c57--2
+5	LAM	LAM	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	dans	dans	ADP	_	_	8	case	_	_
+7	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	Entity=(c58--2(c57--1)
+8	forme	forme	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+9	sporadique	sporadique	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c58)c57)c56)
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	devant	devant	ADP	_	_	14	case	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	Entity=(c59--2
+14	anomalies	anomalie	NOUN	_	Gender=Fem|Number=Plur	11	obl:mod	_	_
+15	scanographiques	scanographique	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	Entity=c59)
+16	et	et	CCONJ	_	_	18	cc	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c60--2
+18	présence	présence	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
+20	angiomyolipome	angiomyolipome	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	Entity=(c54--1
+21	rénal	rénal	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	Entity=c54)c60)|SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Le bilan de thrombophilie, réalisé par ailleurs dans le cadre de l'enquête étiologique de l'EP, est négatif.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c61--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	thrombophilie	thrombophilie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=(c62--1)c61)|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+7	par	par	ADP	_	_	6	advmod	_	_
+8	ailleurs	ailleurs	ADV	_	_	7	fixed	_	_
+9	dans	dans	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Entity=(c63--2|SpaceAfter=No
+14	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	étiologique	étiologique	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Entity=(c37--2|SpaceAfter=No
+18	EP	EP	PROPN	_	Number=Sing	14	nmod	_	Entity=c37)c63)|SpaceAfter=No
+19	,	,	PUNCT	_	_	6	punct	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	négatif	négatif	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Une héparinothérapie a été instaurée relayée par un traitement par anti-vitamine K de même qu'une antibiothérapie à large spectre, une réhydratation et des séances de kiné respiratoire avec amélioration de l'état respiratoire et de l'état général.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c64--2
+2	héparinothérapie	héparinothérapie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	Entity=c64)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	instaurée	instaurer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	relayée	relayer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+7	par	par	ADP	_	_	9	case	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(c65--2
+9	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	par	par	ADP	_	_	11	case	_	_
+11	anti-vitamine	anti-vitamine	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Entity=(c66--1
+12	K	K	X	_	_	11	appos	_	Entity=c66)c65)
+13	de	de	ADP	_	_	5	advmod	_	_
+14	même	même	ADV	_	_	13	fixed	_	_
+15	qu'	que	SCONJ	_	_	17	case	_	SpaceAfter=No
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c67--2
+17	antibiothérapie	antibiothérapie	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+18	à	à	ADP	_	_	20	case	_	_
+19	large	large	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	spectre	spectre	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	Entity=c67)|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(c68--2
+23	réhydratation	réhydratation	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	Entity=c68)
+24	et	et	CCONJ	_	_	27	cc	_	_
+25-26	des	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	Entity=(c69--2
+27	séances	séance	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	kiné	kiné	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	Entity=(c70--1
+30	respiratoire	respiratoire	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	Entity=c70)c69)
+31	avec	avec	ADP	_	_	32	case	_	_
+32	amélioration	amélioration	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	Entity=(c71--1
+33	de	de	ADP	_	_	35	case	_	_
+34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	Entity=(c72--2|SpaceAfter=No
+35	état	état	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+36	respiratoire	respiratoire	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	Entity=c72)
+37	et	et	CCONJ	_	_	40	cc	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	40	det	_	Entity=(c73--2|SpaceAfter=No
+40	état	état	NOUN	_	Gender=Masc|Number=Sing	35	conj	_	_
+41	général	général	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	Entity=c73)c71)|SpaceAfter=No
+42	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+

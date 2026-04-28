@@ -1,0 +1,627 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Il s'agit de madame H.E. âgée de 22 ans primigeste nullipare sans antécédent particulier ni de notion de stimulation ovarienne.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	madame	madame	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	Entity=(c1--1
+6	H.E.	H.E.	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	Entity=c1)
+7	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	22	22	NUM	_	Number=Plur	10	nummod	_	Entity=(c2--2
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	Entity=c2)
+11	primigeste	primigeste	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+12	nullipare	nullipare	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	sans	sans	ADP	_	_	14	case	_	_
+14	antécédent	antécédent	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	Entity=(c3--1
+15	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	Entity=c3)
+16	ni	ni	CCONJ	_	_	18	cc	_	_
+17	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+18	notion	notion	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	Entity=(c4--1
+19	de	de	ADP	_	_	20	case	_	_
+20	stimulation	stimulation	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Entity=(c5--1
+21	ovarienne	ovarien	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	Entity=c5)c4)|SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Les consultations pré-natales étaient correctement suivies et tout le bilan pré-natal effectué.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c6--2
+2	consultations	consultation	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+3	pré-natales	pré-natal	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	Entity=c6)
+4	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+5	correctement	correctement	ADV	_	_	6	advmod	_	_
+6	suivies	suivre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	et	et	CCONJ	_	_	12	cc	_	_
+8	tout	tout	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	Entity=(c7--3
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+11	pré-natal	pré-natal	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	Entity=c7)
+12	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Lors du bilan de la confirmation de grossesse, une échographie faite à 6 semaines d'aménorrhée révélait une grossesse gémellaire bi choriale biamniotique intra-utérine.
+1	Lors	lors	ADV	_	_	19	advmod	_	_
+2-3	du	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(c8--2
+4	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(c9--2
+7	confirmation	confirmation	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	Entity=(c10--1)c9)c8)|SpaceAfter=No
+10	,	,	PUNCT	_	_	1	punct	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(c11--2
+12	échographie	échographie	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+13	faite	faire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	6	6	NUM	_	Number=Plur	16	nummod	_	Entity=(c12--2
+16	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	13	obl:mod	_	_
+17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
+18	aménorrhée	aménorrhée	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	Entity=(c13--1)c12)c11)
+19	révélait	révéler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	Entity=(c14--2
+21	grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	gémellaire	gémellaire	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	bi	bi	ADV	_	_	24	advmod	_	_
+24	choriale	chorial	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+25	biamniotique	biamniotique	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+26	intra-utérine	intra-utérin	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	Entity=c14)|SpaceAfter=No
+27	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Un contrôle échographique de datation fait, avait révélé une grossesse triple évolutive intra-utérine triamniotique trichoriale au terme échographique de premier jumeau (J1) = 11semaines d'aménorrhée (SA) + 6 jours (jr), deuxième jumeau (J2) = 11SA + 1jr, troisième jumeau (J3)= 09SA avec l'ovaire droit micropolykystique.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c15--2
+2	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	échographique	échographique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	datation	datation	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Entity=c15)|SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:tense	_	_
+9	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(c16--2
+11	grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	triple	triple	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	évolutive	évolutif	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+14	intra-utérine	intra-utérin	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+15	triamniotique	triamniotique	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+16	trichoriale	trichorial	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	Entity=c16)
+17-18	au	_	_	_	_	_	_	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(c17--2
+19	terme	terme	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+20	échographique	échographique	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	premier	premier	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	Entity=(c18--2
+23	jumeau	jumeau	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	Entity=c18)c17)
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	J1	J1	X	_	_	23	appos	_	Entity=(c19--1)|SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	=	=	SYM	_	_	23	acl	_	_
+28	11semaines	11semaine	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	Entity=(c20--1
+29	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
+30	aménorrhée	aménorrhée	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	Entity=(c13--1)
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	SA	SA	X	_	_	28	appos	_	Entity=(c20--1)|SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
+34	+	+	SYM	_	_	36	case	_	_
+35	6	6	NUM	_	Number=Plur	36	nummod	_	Entity=(c21--2
+36	jours	jour	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	Entity=c21)
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	jr	jr	NOUN	_	_	36	appos	_	Entity=(c21--1)|SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	_
+41	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	Entity=(c22--2
+42	jumeau	jumeau	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	Entity=c22)
+43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	J2	J2	X	_	_	42	appos	_	Entity=(c23--1)|SpaceAfter=No
+45	)	)	PUNCT	_	_	44	punct	_	_
+46	=	=	SYM	_	_	42	acl	_	_
+47	11SA	11sA	X	_	_	46	obj	_	Entity=(c20--1)
+48	+	+	SYM	_	_	49	case	_	_
+49	1jr	1jr	X	_	_	47	conj	_	Entity=(c24--1)c20)|SpaceAfter=No
+50	,	,	PUNCT	_	_	52	punct	_	_
+51	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	Entity=(c25--2
+52	jumeau	jumeau	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	Entity=c25)
+53	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
+54	J3)=	J3)=	X	_	_	52	appos	_	Entity=(c26--1)
+55	09SA	09sA	X	_	_	54	flat:name	_	Entity=(c27--1)
+56	avec	avec	ADP	_	_	58	case	_	_
+57	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	58	det	_	Entity=(c28--2|SpaceAfter=No
+58	ovaire	ovaire	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	_
+59	droit	droit	ADJ	_	Gender=Masc|Number=Sing	58	amod	_	_
+60	micropolykystique	micropolykystique	ADJ	_	Gender=Masc|Number=Sing	58	amod	_	Entity=c28)|SpaceAfter=No
+61	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Les échographies du 2 ème et du 3 ème trimestre étaient difficiles à réaliser car les fœtus apparaissaient superposés.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(c29--2
+2	échographies	échographie	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(c30--3
+5	2	2	NUM	_	Number=Sing	6	nummod	_	_
+6	ème	ème	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	et	et	CCONJ	_	_	11	cc	_	_
+8-9	du	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(c31--3
+10	3	3	NUM	_	Number=Sing	11	nummod	_	_
+11	ème	ème	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+12	trimestre	trimestre	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Entity=c31)c30)c29)
+13	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	difficiles	difficile	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+15	à	à	ADP	_	_	16	mark	_	_
+16	réaliser	réaliser	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	car	car	CCONJ	_	_	20	cc	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	Entity=(c32--2
+19	fœtus	fœtu	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	Entity=c32)
+20	apparaissaient	apparaître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+21	superposés	superposer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = L'évolution de la grossesse s'était déroulée normalement jusqu'à 33 SA où la gestante avait développé un tableau de pré-éclampsie modéré qui nécessitait une hospitalisation pour un suivi pluridisciplinaire.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c33--2|SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(c16--2
+5	grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=c16)c33)
+6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	expl:pv	_	SpaceAfter=No
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
+8	déroulée	dérouler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	normalement	normalement	ADV	_	_	8	advmod	_	_
+10	jusqu'	jusque	ADP	_	_	13	case	_	SpaceAfter=No
+11	à	à	ADP	_	_	13	case	_	_
+12	33	33	NUM	_	Number=Plur	13	nummod	_	Entity=(c34--2
+13	SA	SA	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	Entity=c34)
+14	où	où	PRON	_	PronType=Rel	18	obl:mod	_	Entity=(c34--1)
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c1--2
+16	gestante	gestante	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	Entity=c1)
+17	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux:tense	_	_
+18	développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	acl:relcl	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(c35--2
+20	tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	pré-éclampsie	pré-éclampsie	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	modéré	modéré	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	Entity=c35)
+24	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	Entity=(c35--1)
+25	nécessitait	nécessiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(c36--2
+27	hospitalisation	hospitalisation	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	Entity=c36)
+28	pour	pour	ADP	_	_	30	case	_	_
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	Entity=(c37--2
+30	suivi	suivi	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	_
+31	pluridisciplinaire	pluridisciplinaire	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	Entity=c37)|SpaceAfter=No
+32	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = A 34 SA, la gestante s'était plainte de douleurs sus pubiennes atroces et insomnientes, permanentes et d'intensité évolutive avec apparition brutale d'une voussure péri ombilicale.
+1	A	à	ADP	_	_	3	case	_	_
+2	34	34	NUM	_	Number=Plur	3	nummod	_	Entity=(c38--2
+3	SA	SA	NOUN	_	Gender=Masc|Number=Plur	9	obl:mod	_	Entity=c38)|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c1--2
+6	gestante	gestante	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	Entity=c1)
+7	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	expl:pv	_	SpaceAfter=No
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:tense	_	_
+9	plainte	plaindre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	9	obl:arg	_	Entity=(c39--1
+12	sus	sus	ADP	_	_	13	case	_	_
+13	pubiennes	pubien	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+14	atroces	atroce	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+15	et	et	CCONJ	_	_	16	cc	_	_
+16	insomnientes	insomnient	ADJ	_	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	permanentes	permanent	ADJ	_	Gender=Fem|Number=Plur	14	conj	_	_
+19	et	et	CCONJ	_	_	21	cc	_	_
+20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
+21	intensité	intensité	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+22	évolutive	évolutif	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	Entity=c39)
+23	avec	avec	ADP	_	_	24	case	_	_
+24	apparition	apparition	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Entity=(c40--1
+25	brutale	brutal	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	Entity=(c41--2
+28	voussure	voussure	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+29	péri	péri	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+30	ombilicale	ombilical	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	Entity=c41)c40)|SpaceAfter=No
+31	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = L'examen clinique suspectait une rupture utérine.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c42--2|SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c42)
+4	suspectait	suspecter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c43--2
+6	rupture	rupture	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	utérine	utérin	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	Entity=c43)|SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Une césarienne était pratiquée en urgence avec extraction de 4 jumeaux vivants (1 fille et 3 garçons).
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c44--2
+2	césarienne	césarienne	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	Entity=c44)
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	pratiquée	pratiquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	urgence	urgence	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	Entity=(c45--1)
+7	avec	avec	ADP	_	_	8	case	_	_
+8	extraction	extraction	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	Entity=(c46--1
+9	de	de	ADP	_	_	11	case	_	_
+10	4	4	NUM	_	Number=Plur	11	nummod	_	Entity=(c32--2
+11	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	vivants	vivant	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	Entity=c32)c46)
+13	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	1	1	NUM	_	Number=Sing	15	nummod	_	Entity=(c47--2(c48--2
+15	fille	fille	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	Entity=c48)
+16	et	et	CCONJ	_	_	18	cc	_	_
+17	3	3	NUM	_	Number=Plur	18	nummod	_	Entity=(c49--2
+18	garçons	garçon	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	Entity=c49)c47)|SpaceAfter=No
+19	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = La première jumelle vivante polymalformée à développement abdominal et de découverte per opératoire pesait 1575 gr, les 3 jumeaux intra-utérins vivants pesaient respectivement 1980 gr, 1430gr et 1400 gr.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(c48--3
+2	première	premier	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	jumelle	jumelle	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+4	vivante	vivant	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	polymalformée	polymalformé	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+6	à	à	ADP	_	_	7	case	_	_
+7	développement	développement	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Entity=(c50--1
+8	abdominal	abdominal	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	et	et	CCONJ	_	_	11	cc	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+12	per	per	ADP	_	_	13	case	_	_
+13	opératoire	opératoire	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Entity=c50)c48)
+14	pesait	peser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	1575	1575	NUM	_	Number=Plur	16	nummod	_	Entity=(c51--2
+16	gr	gr	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	Entity=c51)|SpaceAfter=No
+17	,	,	PUNCT	_	_	23	punct	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	Entity=(c49--3
+19	3	3	NUM	_	Number=Plur	20	nummod	_	_
+20	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
+21	intra-utérins	intra-utérin	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+22	vivants	vivant	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	Entity=c49)
+23	pesaient	peser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+24	respectivement	respectivement	ADV	_	_	23	advmod	_	_
+25	1980	1980	NUM	_	Number=Plur	26	nummod	_	Entity=(c52--2
+26	gr	gr	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	Entity=c52)|SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	1430gr	1430gr	NUM	_	Number=Plur	26	conj	_	Entity=(c53--1)
+29	et	et	CCONJ	_	_	31	cc	_	_
+30	1400	1400	NUM	_	Number=Plur	31	nummod	_	Entity=(c54--2
+31	gr	gr	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	Entity=c54)|SpaceAfter=No
+32	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Le placenta de la grossesse abdominale était laissé en place car implanté dans le ligament large droit avec une extension sur le coecum et l'omentum.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c55--2
+2	placenta	placenta	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(c16--2
+5	grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	Entity=c16)c55)
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+8	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	place	place	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
+11	car	car	CCONJ	_	_	12	cc	_	_
+12	implanté	implanter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	_
+13	dans	dans	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(c56--2
+15	ligament	ligament	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
+16	large	large	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	droit	droit	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Entity=c56)
+18	avec	avec	ADP	_	_	20	case	_	_
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(c57--2
+20	extension	extension	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	Entity=c57)
+21	sur	sur	ADP	_	_	23	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(c58--2(c59--2
+23	coecum	coecum	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	Entity=c59)
+24	et	et	CCONJ	_	_	26	cc	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	Entity=(c60--2|SpaceAfter=No
+26	omentum	omentum	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	Entity=c60)c58)|SpaceAfter=No
+27	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Une délivrance manuelle immédiate des trois placentas intra utérins était effectuée.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c61--2
+2	délivrance	délivrance	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+3	manuelle	manuel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	immédiate	immédiat	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	des	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(c62--3
+7	trois	trois	NUM	_	Number=Plur	8	nummod	_	_
+8	placentas	placenta	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+9	intra	intra	X	_	Foreign=Yes	8	nmod	_	_
+10	utérins	utérin	X	_	_	9	flat:foreign	_	Entity=c62)c61)
+11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux:pass	_	_
+12	effectuée	effectuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Les quatre nouveau-nés ont été transférés dans le service de néonatologie du centre national hospitalier universitaire-HKM (CNHU-HKM) et la mère admise aux soins intensifs de la clinique universitaire de gynécologie obstétrique (CUGO) où une cure de méthotrexate (50 mg par jour pendant 3 jours) était administrée pour intensifier la lyse du placenta intra abdominal.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(c32--3
+2	quatre	quatre	NUM	_	Number=Plur	3	nummod	_	_
+3	nouveau-nés	nouveau-nés	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	Entity=c32)
+4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	transférés	transférer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	dans	dans	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(c63--2
+9	service	service	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	néonatologie	néonatologie	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	du	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(c64--2
+14	centre	centre	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+15	national	national	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	hospitalier	hospitalier	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+17	universitaire-HKM	universitaire-hkm	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	Entity=c64)c63)
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	CNHU-HKM	CNHu-HKM	PROPN	_	_	14	appos	_	Entity=(c64--1)|SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	et	et	CCONJ	_	_	24	cc	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(c1--2
+23	mère	mère	NOUN	_	Gender=Fem|Number=Sing	24	nsubj:pass	_	Entity=c1)
+24	admise	admettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+25-26	aux	_	_	_	_	_	_	_	_
+25	à	à	ADP	_	_	27	case	_	_
+26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	Entity=(c65--2
+27	soins	soin	NOUN	_	Gender=Masc|Number=Plur	24	obl:arg	_	_
+28	intensifs	intensif	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	Entity=(c66--2
+31	clinique	clinique	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+32	universitaire	universitaire	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	gynécologie	gynécologie	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+35	obstétrique	obstétrique	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	Entity=c66)c65)
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	CUGO	CUGO	PROPN	_	_	31	appos	_	Entity=(c66--1)|SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	_
+39	où	où	PRON	_	PronType=Rel	54	obl:mod	_	Entity=(c66--1)
+40	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	Entity=(c67--2
+41	cure	cure	NOUN	_	Gender=Fem|Number=Sing	54	nsubj:pass	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	méthotrexate	méthotrexate	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	Entity=(c68--1)c67)
+44	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
+45	50	50	NUM	_	Number=Plur	46	nummod	_	Entity=(c69--2
+46	mg	mg	NOUN	_	Gender=Masc|Number=Plur	41	appos	_	_
+47	par	par	ADP	_	_	48	case	_	_
+48	jour	jour	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	Entity=(c70--1)c69)
+49	pendant	pendant	ADP	_	_	51	case	_	_
+50	3	3	NUM	_	Number=Plur	51	nummod	_	Entity=(c71--2
+51	jours	jour	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	Entity=c71)|SpaceAfter=No
+52	)	)	PUNCT	_	_	46	punct	_	_
+53	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	aux:pass	_	_
+54	administrée	administrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	acl:relcl	_	_
+55	pour	pour	ADP	_	_	56	mark	_	_
+56	intensifier	intensifier	VERB	_	VerbForm=Inf	54	advcl	_	_
+57	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	Entity=(c72--2
+58	lyse	lyse	NOUN	_	Gender=Fem|Number=Sing	56	obj	_	_
+59-60	du	_	_	_	_	_	_	_	_
+59	de	de	ADP	_	_	61	case	_	_
+60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	Entity=(c73--2
+61	placenta	placenta	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	_
+62	intra	intra	X	_	_	61	advmod	_	_
+63	abdominal	abdominal	ADJ	_	Gender=Masc|Number=Sing	61	amod	_	Entity=c73)c72)|SpaceAfter=No
+64	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Sur le plan évolutif, 3 jumeaux étaient décédés successivement à 7 jours de vie (2 e jumeau), à 10 jours de vie (3 e jumeau) et à 14 jours de vie (1 ère jumelle) de détresse respiratoire.
+1	Sur	sur	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(c74--2
+3	plan	plan	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+4	évolutif	évolutif	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	Entity=c74)|SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	3	3	NUM	_	Number=Plur	7	nummod	_	Entity=(c75--2
+7	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	Entity=c75)
+8	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+9	décédés	décéder	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	successivement	successivement	ADV	_	_	9	advmod	_	_
+11	à	à	ADP	_	_	13	case	_	_
+12	7	7	NUM	_	Number=Plur	13	nummod	_	Entity=(c76--2
+13	jours	jour	NOUN	_	Gender=Masc|Number=Plur	9	obl:mod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	vie	vie	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	Entity=(c77--1)c76)
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	2	2	NUM	_	Number=Plur	13	appos	_	Entity=(c23--1
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	jumeau	jumeau	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	Entity=c23)|SpaceAfter=No
+20	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	à	à	ADP	_	_	24	case	_	_
+23	10	10	NUM	_	Number=Plur	24	nummod	_	Entity=(c78--2
+24	jours	jour	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	vie	vie	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	Entity=(c77--1)c78)
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	3	3	NUM	_	Number=Plur	24	nmod	_	Entity=(c25--1
+29	e	e	CCONJ	_	_	30	cc	_	_
+30	jumeau	jumeau	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	Entity=c25)|SpaceAfter=No
+31	)	)	PUNCT	_	_	28	punct	_	_
+32	et	et	CCONJ	_	_	35	cc	_	_
+33	à	à	ADP	_	_	35	case	_	_
+34	14	14	NUM	_	Number=Plur	35	nummod	_	Entity=(c79--2
+35	jours	jour	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	vie	vie	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	Entity=(c77--1)c79)
+38	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
+39	1	1	NUM	_	Number=Sing	40	nummod	_	Entity=(c48--2
+40	ère	ère	NOUN	_	Gender=Fem|Number=Sing	35	appos	_	_
+41	jumelle	jumel	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	Entity=c48)|SpaceAfter=No
+42	)	)	PUNCT	_	_	40	punct	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	détresse	détresse	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	Entity=(c80--1
+45	respiratoire	respiratoire	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	Entity=c80)|SpaceAfter=No
+46	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Le 4 e jumeau est vivant, aujourd'hui âgé de trois ans avec un bon développement psychomoteur.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c81--2
+2	4	4	NUM	_	Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	jumeau	jumeau	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	Entity=c81)
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	vivant	vivant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	aujourd'hui	aujourd'hui	ADV	_	_	9	advmod	_	_
+9	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	trois	trois	NUM	_	Number=Plur	12	nummod	_	Entity=(c82--2
+12	ans	an	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	Entity=c82)
+13	avec	avec	ADP	_	_	16	case	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(c83--3
+15	bon	bon	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	développement	développement	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+17	psychomoteur	psychomoteur	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	Entity=c83)|SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = La mère a développé une cardiopathie avec insuffisance cardiaque globale à partir du 6 e mois après l'accouchement et régulièrement suivie sous traitement médical anti hypertensif (Furosémide 2 comprimés par jour, Vastarel 1 comprimé par jour, Captopril 1 comprimé par jour Sintrom 1 comprimé par jour) jusqu'à ce jour.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c1--2
+2	mère	mère	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c1)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c84--2
+6	cardiopathie	cardiopathie	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	avec	avec	ADP	_	_	8	case	_	_
+8	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=(c85--1
+9	cardiaque	cardiaque	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	globale	global	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	Entity=c85)c84)
+11	à	à	ADP	_	_	4	advmod	_	_
+12	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	_
+13-14	du	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	17	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c86--2
+15	6	6	NUM	_	Number=Sing	11	obl:arg	_	_
+16	e	e	ADP	_	_	17	case	_	_
+17	mois	mois	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
+18	après	après	ADP	_	_	20	case	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Entity=(c87--2|SpaceAfter=No
+20	accouchement	accouchement	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Entity=c87)c86)
+21	et	et	CCONJ	_	_	23	cc	_	_
+22	régulièrement	régulièrement	ADV	_	_	23	advmod	_	_
+23	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+24	sous	sous	ADP	_	_	25	case	_	_
+25	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	Entity=(c88--1
+26	médical	médical	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	anti	anti	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	hypertensif	hypertensif	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	Entity=c88)
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Furosémide	Furosémide	PROPN	_	_	25	appos	_	Entity=(c89--1(c90--1)
+31	2	2	NUM	_	Number=Plur	30	nmod	_	Entity=(c91--1
+32	comprimés	comprimer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	acl	_	_
+33	par	par	ADP	_	_	34	case	_	_
+34	jour	jour	NOUN	_	Gender=Masc|Number=Sing	32	obl:mod	_	Entity=(c92--1)c91)|SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	Vastarel	Vastarel	PROPN	_	_	30	conj	_	Entity=(c93--1)
+37	1	1	NUM	_	Number=Plur	36	nmod	_	Entity=(c94--1
+38	comprimé	comprimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	36	acl	_	_
+39	par	par	ADP	_	_	40	case	_	_
+40	jour	jour	NOUN	_	Gender=Masc|Number=Sing	38	obl:mod	_	Entity=(c95--1)c94)|SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	Captopril	Captopril	PROPN	_	_	30	conj	_	Entity=(c96--1)
+43	1	1	NUM	_	Number=Plur	42	nmod	_	Entity=(c97--1
+44	comprimé	comprimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	42	acl	_	_
+45	par	par	ADP	_	_	46	case	_	_
+46	jour	jour	NOUN	_	Gender=Masc|Number=Sing	44	obl:mod	_	Entity=(c98--1)c97)
+47	Sintrom	Sintrom	PROPN	_	_	42	appos	_	Entity=(c99--1)
+48	1	1	NUM	_	Number=Plur	47	nmod	_	Entity=(c100--1
+49	comprimé	comprimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	47	acl	_	_
+50	par	par	ADP	_	_	51	case	_	_
+51	jour	jour	NOUN	_	Gender=Masc|Number=Sing	49	obl:mod	_	Entity=(c101--1)c100)c89)|SpaceAfter=No
+52	)	)	PUNCT	_	_	30	punct	_	_
+53	jusqu'	jusque	ADP	_	_	56	case	_	SpaceAfter=No
+54	à	à	ADP	_	_	56	case	_	_
+55	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	56	det	_	Entity=(c102--2
+56	jour	jour	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	Entity=c102)|SpaceAfter=No
+57	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Un contrôle du placenta laissé dans la cavité abdominale au scanner, après un an, avait conclut a un nodule intra ligamentaire droit.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c103--2
+2	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(c55--2
+5	placenta	placenta	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+7	dans	dans	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c104--2
+9	cavité	cavité	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
+10	abdominale	abdominal	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Entity=c104)c55)
+11-12	au	_	_	_	_	_	_	_	_
+11	à	à	ADP	_	_	13	mark	_	_
+12	le	lui	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	obj	_	Entity=(c105--2
+13	scanner	scanner	VERB	_	VerbForm=Inf	9	acl	_	Entity=c105)c103)|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	après	après	ADP	_	_	17	case	_	_
+16	un	un	NUM	_	Number=Sing	17	nummod	_	Entity=(c106--2
+17	an	an	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	Entity=c106)|SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux:tense	_	_
+20	conclut	conclure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+21	a	à	ADP	_	Typo=Yes	23	case	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(c107--2
+23	nodule	nodule	NOUN	_	Gender=Masc|Number=Sing	20	obl:arg	_	_
+24	intra	intra	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+25	ligamentaire	ligamentaire	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	droit	droit	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	Entity=c107)|SpaceAfter=No
+27	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Elle est tombée enceinte au bout de deux ans de suivi mais cela avait nécessité une interruption médicale de grossesse à 12 SA car les chiffres tensionnels étaient devenus instables et incontrôlables.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Entity=(c1--1)
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	tombée	tomber	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	enceinte	enceinte	ADJ	_	Gender=Fem|Number=Sing	3	xcomp	_	_
+5-6	au	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(c108--2
+7	bout	bout	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	deux	deux	NUM	_	Number=Plur	10	nummod	_	Entity=(c109--2
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	suivi	suivi	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	Entity=(c110--1)c109)c108)
+13	mais	mais	CCONJ	_	_	16	cc	_	_
+14	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	Entity=(c111--1)
+15	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:tense	_	_
+16	nécessité	nécessiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(c112--2
+18	interruption	interruption	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	médicale	médical	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	grossesse	grossesse	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Entity=(c113--1)c112)
+22	à	à	ADP	_	_	24	case	_	_
+23	12	12	NUM	_	Number=Plur	24	nummod	_	Entity=(c114--2
+24	SA	SA	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	Entity=c114)
+25	car	car	CCONJ	_	_	30	cc	_	_
+26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	Entity=(c115--2
+27	chiffres	chiffre	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
+28	tensionnels	tensionnel	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	Entity=c115)
+29	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	aux:tense	_	_
+30	devenus	devenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	_
+31	instables	instable	ADJ	_	Gender=Masc|Number=Plur	30	xcomp	_	_
+32	et	et	CCONJ	_	_	33	cc	_	_
+33	incontrôlables	incontrôlable	ADJ	_	Gender=Masc|Number=Plur	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+

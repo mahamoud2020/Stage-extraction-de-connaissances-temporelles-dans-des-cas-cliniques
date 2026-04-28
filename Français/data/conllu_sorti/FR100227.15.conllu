@@ -1,0 +1,178 @@
+# newdoc
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 1
+# text = Nous présentons une observation clinique d'un patient âgé de 65 ans, sans antécédents pathologiques, opéré de cataracte sénile aux deux yeux.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Entity=(c1--1)
+2	présentons	présenter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	Entity=(c2--2
+4	observation	observation	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	clinique	clinique	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(c3--2
+8	patient	patient	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	65	65	NUM	_	Number=Plur	12	nummod	_	Entity=(c4--2
+12	ans	an	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	Entity=c4)|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	sans	sans	ADP	_	_	15	case	_	_
+15	antécédents	antécédent	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	Entity=(c5--1
+16	pathologiques	pathologique	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	Entity=c5)|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	opéré	opérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	cataracte	cataracte	NOUN	_	Gender=Fem|Number=Sing	18	obl:arg	_	Entity=(c6--1
+21	sénile	sénile	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	Entity=c6)
+22-23	aux	_	_	_	_	_	_	_	_
+22	à	à	ADP	_	_	25	case	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	Entity=(c7--3
+24	deux	deux	NUM	_	Number=Plur	25	nummod	_	_
+25	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	18	obl:mod	_	Entity=c7)c3)c2)|SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = 6 mois après la chirurgie du 2 ème oeil, le patient a présenté une diplopie verticale.
+1	6	6	NUM	_	Number=Plur	2	nummod	_	Entity=(c8--2
+2	mois	mois	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	Entity=c8)
+3	après	après	ADP	_	_	5	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(c9--2
+5	chirurgie	chirurgie	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(c10--3
+8	2	2	NUM	_	Number=Sing	9	nummod	_	_
+9	ème	ème	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	oeil	oeil	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	Entity=c10)c9)|SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(c3--2
+13	patient	patient	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	Entity=c3)
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
+15	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(c11--2
+17	diplopie	diplopie	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	verticale	vertical	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	Entity=c11)|SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Le bilan étiologique a été basé sur l'examen clinique, le Lancaster, le bilan orthoptique et l'IRM.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c12--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	étiologique	étiologique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c12)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	basé	baser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	sur	sur	ADP	_	_	9	case	_	_
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Entity=(c13--2|SpaceAfter=No
+9	examen	examen	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+10	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Entity=c13)|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(c14--2
+13	Lancaster	Lancaster	PROPN	_	Gender=Masc|Number=Sing	9	conj	_	Entity=c14)|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(c15--2
+16	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+17	orthoptique	orthoptique	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	Entity=c15)
+18	et	et	CCONJ	_	_	20	cc	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Entity=(c16--2|SpaceAfter=No
+20	IRM	IRM	NOUN	_	Number=Sing	9	conj	_	Entity=c16)|SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = La diplopie est verticale avec gène à la descente des escaliers et à la lecture.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(c11--2
+2	diplopie	diplopie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c11)
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	verticale	vertical	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+5	avec	avec	ADP	_	_	6	case	_	_
+6	gène	gène	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Entity=(c17--1)
+7	à	à	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Entity=(c18--2
+9	descente	descente	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	Entity=(c19--2
+12	escaliers	escalier	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	Entity=c19)c18)
+13	et	et	CCONJ	_	_	16	cc	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(c20--2
+16	lecture	lecture	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	Entity=c20)|SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Le signe de bielshowsky est positif.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c21--2
+2	signe	signe	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	bielshowsky	bielshowsky	X	_	_	2	nmod	_	Entity=c21)
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	positif	positif	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Le Lancaster a montré une atteinte du grand oblique droit, avec hyperaction du droit inferieur gauche et limitation du muscle droit supérieur.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c14--2
+2	Lancaster	Lancaster	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	Entity=c14)
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(c22--2
+6	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	du	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(c23--3
+9	grand	grand	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	oblique	oblique	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11	droit	droit	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	Entity=c23)c22)|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	avec	avec	ADP	_	_	14	case	_	_
+14	hyperaction	hyperaction	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Entity=(c24--1
+15-16	du	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(c25--2
+17	droit	droit	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	inferieur	inferieur	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	gauche	gauche	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	Entity=c25)c24)
+20	et	et	CCONJ	_	_	21	cc	_	_
+21	limitation	limitation	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	Entity=(c26--1
+22-23	du	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(c27--2
+24	muscle	muscle	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	droit	droit	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	Entity=c27)c26)|SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Le bilan orthoptique a révélé un pouvoir fusionnel à 8 dioptries de loin et 12 dioptries de près.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(c15--2
+2	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	orthoptique	orthoptique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=c15)
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(c28--2
+7	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	fusionnel	fusionnel	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Entity=c28)
+9	à	à	ADP	_	_	11	case	_	_
+10	8	8	NUM	_	Number=Plur	11	nummod	_	Entity=(c29--2
+11	dioptries	dioptrie	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	loin	loin	ADV	_	_	11	advmod	_	Entity=c29)
+14	et	et	CCONJ	_	_	16	cc	_	_
+15	12	12	NUM	_	Number=Plur	16	nummod	_	Entity=(c30--2
+16	dioptries	dioptrie	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	près	près	ADV	_	_	16	advmod	_	Entity=c30)|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = L IRM est normale.
+1	L	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Entity=(c16--2
+2	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=c16)
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	normale	normal	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+

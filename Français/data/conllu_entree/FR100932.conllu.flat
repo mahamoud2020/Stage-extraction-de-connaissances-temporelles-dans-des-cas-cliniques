@@ -1,0 +1,188 @@
+# newdoc id = FR100932
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nous rapportons le cas d'une patiente âgée de 23 ans chez qui le diagnostic d'un pott multifocal L2-L3 et L4-L5 a été posé sur la tomodensitométrie (TDM) du rachis.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	0	nsubj	_	_
+2	rapportons	rapporter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+4	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+5	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+8	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	23	23	NUM	_	Number=Plur	0	nummod	_	_
+11	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	_
+12	chez	chez	ADP	_	_	0	case	_	_
+13	qui	qui	PRON	_	PronType=Rel	0	obl:mod	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+15	diagnostic	diagnostic	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+16	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	pott	pott	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+19	multifocal	multifocal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+20	L2-L3	L2-l3	X	_	_	0	appos	_	_
+21	et	et	CCONJ	_	_	0	cc	_	_
+22	L4-L5	L4-l5	X	_	_	0	conj	_	_
+23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+24	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+25	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+26	sur	sur	ADP	_	_	0	case	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+28	tomodensitométrie	tomodensitométrie	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+29	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+30	TDM	TDM	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	0	punct	_	_
+32	de	de	ADP	_	_	0	case	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+34	rachis	rachis	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Elle a été mise sous traitement anti tuberculeux et devant l'installation d'un tableau de compression médullaire deux mois après le début du traitement, une imagerie par résonance magnétique (IRM) médullaire a été réalisée objectivant une image d'abcès intra médullaire à hauteur de T4.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+4	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	sous	sous	ADP	_	_	0	case	_	_
+6	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+7	anti	anti	ADP	_	_	0	case	_	_
+8	tuberculeux	tuberculeux	ADJ	_	Gender=Masc|Number=Sing	0	nmod	_	_
+9	et	et	CCONJ	_	_	0	cc	_	_
+10	devant	devant	ADP	_	_	0	case	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+12	installation	installation	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+13	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+15	tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+16	de	de	ADP	_	_	0	case	_	_
+17	compression	compression	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+18	médullaire	médullaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+19	deux	deux	NUM	_	Number=Plur	0	nummod	_	_
+20	mois	mois	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+21	après	après	ADP	_	_	0	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+23	début	début	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+24	de	de	ADP	_	_	0	case	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+26	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	0	punct	_	_
+28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+29	imagerie	imagerie	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+30	par	par	ADP	_	_	0	case	_	_
+31	résonance	résonance	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+32	magnétique	magnétique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+33	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+34	IRM	IRM	NOUN	_	Gender=Fem|Number=Sing	0	appos	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	0	punct	_	_
+36	médullaire	médullaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+37	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+38	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+39	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+40	objectivant	objectiver	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+42	image	image	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+43	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+44	abcès	abcès	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+45	intra	intra	NOUN	_	_	0	advmod	_	_
+46	médullaire	médullaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+47	à	à	ADP	_	_	0	case	_	_
+48	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+49	de	de	ADP	_	_	0	case	_	_
+50	T4	T4	X	_	_	0	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Elle a été opérée bénéficiant dans le même temps opératoire du drainage de l'abcès intra médullaire et de la stabilisation du rachis.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	nsubj:pass	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+4	opérée	opérer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+6	dans	dans	ADP	_	_	0	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+8	même	même	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+10	opératoire	opératoire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+13	drainage	drainage	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+16	abcès	abcès	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+17	intra	intra	NOUN	_	_	0	advmod	_	_
+18	médullaire	médullaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+19	et	et	CCONJ	_	_	0	cc	_	_
+20	de	de	ADP	_	_	0	case	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+22	stabilisation	stabilisation	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+23	de	de	ADP	_	_	0	case	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+25	rachis	rachis	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'évolution a été favorable, la patiente a été suivie pendant 12 mois.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	cop	_	_
+5	favorable	favorable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	0	punct	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+8	patiente	patient	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+11	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+12	pendant	pendant	ADP	_	_	0	case	_	_
+13	12	12	NUM	_	Number=Plur	0	nummod	_	_
+14	mois	mois	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'association d'un abcès intra médullaire et un pott multifocal est exceptionnelle.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	association	association	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	abcès	abcès	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	intra	intra	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+7	médullaire	médullaire	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	et	et	CCONJ	_	_	0	cc	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	pott	pott	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+11	multifocal	multifocal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
+13	exceptionnelle	exceptionnel	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Le traitement repose sur les antituberculeux et la chirurgie pour lever la compression médullaire et ou stabiliser le rachis le cas échéant.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	repose	reposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sur	sur	ADP	_	_	0	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+6	antituberculeux	antituberculeu	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+7	et	et	CCONJ	_	_	0	cc	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	chirurgie	chirurgie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+10	pour	pour	ADP	_	_	0	mark	_	_
+11	lever	lever	VERB	_	VerbForm=Inf	0	advcl	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+13	compression	compression	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+14	médullaire	médullaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+15	et	et	CCONJ	_	_	0	cc	_	_
+16	ou	ou	CCONJ	_	_	0	cc	_	_
+17	stabiliser	stabiliser	VERB	_	VerbForm=Inf	0	conj	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+19	rachis	rachis	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+21	cas	cas	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+22	échéant	échoir	VERB	_	Tense=Pres|VerbForm=Part	0	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+

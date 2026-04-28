@@ -1,0 +1,416 @@
+# newdoc id = FR100296
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il s'agit d'un patient âgé de 35 ans présentant depuis 3 mois une sciatique droite S1 hyperalgique rebelle aux multiples médications (paracétamol; tramadol;
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	0	expl:pv	_	SpaceAfter=No
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	_
+7	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	de	de	ADP	_	_	0	case	_	_
+9	35	35	NUM	_	Number=Plur	0	nummod	_	_
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	obl:arg	_	_
+11	présentant	présenter	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+12	depuis	depuis	ADP	_	_	0	case	_	_
+13	3	3	NUM	_	Number=Plur	0	nummod	_	_
+14	mois	mois	NOUN	_	Gender=Masc|Number=Plur	0	obl:mod	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+16	sciatique	sciatique	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+17	droite	droit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+18	S1	S1	PROPN	_	_	0	appos	_	_
+19	hyperalgique	hyperalgique	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+20	rebelle	rebelle	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+21	à	à	ADP	_	_	0	case	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+23	multiples	multiple	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+24	médications	médication	NOUN	_	Gender=Fem|Number=Plur	0	obl:arg	_	_
+25	(	(	PUNCT	_	_	0	punct	_	SpaceAfter=No
+26	paracétamol;	paracétamol;	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	_
+27	tramadol	tramadol	NOUN	_	Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+28	;	;	PUNCT	_	_	0	punct	_	_
+
+# sent_id = 2
+# text = AINS; anti dépresseurs tricyclique; clobazepam; prégabaline).
+1	AINS;	ains;	NOUN	_	_	0	root	_	_
+2	anti	anti	X	_	_	0	case	_	_
+3	dépresseurs	dépresseur	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+4	tricyclique	tricyclique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+5	;	;	PUNCT	_	_	0	punct	_	_
+6	clobazepam;	clobazepam;	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+7	prégabaline	prégabaline	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	0	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = A l'interrogatoire, aucune notion d'effort ou de traumatisme n'a été notée et le patient n'avait pas de passé de lombalgie.
+1	A	à	ADP	_	_	0	case	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+3	interrogatoire	interrogatoire	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	0	punct	_	_
+5	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	0	det	_	_
+6	notion	notion	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+7	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+8	effort	effort	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+9	ou	ou	CCONJ	_	_	0	cc	_	_
+10	de	de	ADP	_	_	0	case	_	_
+11	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+12	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+15	notée	noter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16	et	et	CCONJ	_	_	0	cc	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+19	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+20	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	conj	_	_
+21	pas	pas	ADV	_	Polarity=Neg	0	advmod	_	_
+22	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	0	det	_	_
+23	passé	passé	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+24	de	de	ADP	_	_	0	case	_	_
+25	lombalgie	lombalgie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'examen clinique a noté une perte pondérale de moyenne abondance.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	clinique	clinique	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+5	noté	noter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+7	perte	perte	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+8	pondérale	pondéral	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	moyenne	moyen	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+11	abondance	abondance	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = L'examen était quasi impossible du fait d'une hyperpathie plantaire confinant le patient au lit, une sciatique droite de topographie S1 sans lombalgie, avec des phénomènes neuropathiques de type brulure; décharges électriques; allodynie; sensation de froid douloureux, le patient ne pouvant poser le pied droit au sol.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+4	quasi	quasi	ADV	_	_	0	advmod	_	_
+5	impossible	impossible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	0	advmod	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	fixed	_	_
+8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	0	fixed	_	_
+9	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	hyperpathie	hyperpathie	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	_
+12	plantaire	plantaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+13	confinant	confiner	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+15	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+16	à	à	ADP	_	_	0	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+18	lit	lit	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	0	punct	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+21	sciatique	sciatique	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+22	droite	droit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+23	de	de	ADP	_	_	0	case	_	_
+24	topographie	topographie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+25	S1	S1	X	_	_	0	appos	_	_
+26	sans	sans	ADP	_	_	0	case	_	_
+27	lombalgie	lombalgie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	0	punct	_	_
+29	avec	avec	ADP	_	_	0	case	_	_
+30	de	de	ADP	_	_	0	det	_	_
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+32	phénomènes	phénomène	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+33	neuropathiques	neuropathique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+34	de	de	ADP	_	_	0	case	_	_
+35	type	type	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+36	brulure	brulure	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+37	;	;	PUNCT	_	_	0	punct	_	_
+38	décharges	décharge	NOUN	_	Gender=Fem|Number=Plur	0	conj	_	_
+39	électriques	électrique	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	SpaceAfter=No
+40	;	;	PUNCT	_	_	0	punct	_	_
+41	allodynie	allodynie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+42	;	;	PUNCT	_	_	0	punct	_	_
+43	sensation	sensation	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+44	de	de	ADP	_	_	0	case	_	_
+45	froid	froid	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+46	douloureux	douloureux	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	0	punct	_	_
+48	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+49	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj	_	_
+50	ne	ne	ADV	_	Polarity=Neg	0	advmod	_	_
+51	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	0	acl	_	_
+52	poser	poser	VERB	_	VerbForm=Inf	0	xcomp	_	_
+53	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+54	pied	pied	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+55	droit	droit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+56	à	à	ADP	_	_	0	case	_	_
+57	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+58	sol	sol	NOUN	_	Gender=Masc|Number=Sing	0	obl:arg	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Une douleur aux points de Valleix a été mise en évidence.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	0	nsubj:pass	_	_
+3	à	à	ADP	_	_	0	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+5	points	point	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+6	de	de	ADP	_	_	0	case	_	_
+7	Valleix	Valleix	PROPN	_	_	0	nmod	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+10	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	en	en	ADP	_	_	0	case	_	_
+12	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Il n'y avait ni raideur rachidienne ni un déficit moteur, mais une hypoesthésie plantaire droite.
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	expl:subj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	0	expl:comp	_	_
+4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	ni	ni	CCONJ	_	_	0	cc	_	_
+6	raideur	raideur	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+7	rachidienne	rachidien	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+8	ni	ni	CCONJ	_	_	0	cc	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+10	déficit	déficit	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+11	moteur	moteur	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	0	punct	_	_
+13	mais	mais	CCONJ	_	_	0	cc	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+15	hypoesthésie	hypoesthésie	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+16	plantaire	plantaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+17	droite	droit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Les reflexes ostéo-tendineux n'avaient pu être recherchés à cause de la douleur, cependant un signe de Lasègue avait été noté en fin de course.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+2	reflexes	reflexe	NOUN	_	Gender=Masc|Number=Plur	0	nsubj	_	_
+3	ostéo-tendineux	ostéo-tendineux	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+4	n'	ne	ADV	_	Polarity=Neg	0	advmod	_	SpaceAfter=No
+5	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	aux:tense	_	_
+6	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	être	être	AUX	_	VerbForm=Inf	0	aux:pass	_	_
+8	recherchés	rechercher	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	xcomp	_	_
+9	à	à	ADP	_	_	0	advmod	_	_
+10	cause	cause	NOUN	_	Gender=Fem|Number=Sing	0	fixed	_	_
+11	de	de	ADP	_	_	0	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+13	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	0	obl:arg	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	0	punct	_	_
+15	cependant	cependant	ADV	_	_	0	advmod	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+17	signe	signe	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+18	de	de	ADP	_	_	0	case	_	_
+19	Lasègue	Lasègue	PROPN	_	_	0	nmod	_	_
+20	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:tense	_	_
+21	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+22	noté	noter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+23	en	en	ADP	_	_	0	case	_	_
+24	fin	fin	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+25	de	de	ADP	_	_	0	case	_	_
+26	course	course	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = L'IRM du rachis lombo-sacré avait mis en évidence une discopathie protrusive de petit volume en L5 S1 droite et un aspect de grosse racine ou de kyste de Tarlov au niveau de l'émergence droite de S1.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+2	IRM	IRM	NOUN	_	Number=Sing	0	nsubj	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+5	rachis	rachis	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+6	lombo-sacré	lombo-sacré	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:tense	_	_
+8	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	en	en	ADP	_	_	0	case	_	_
+10	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+12	discopathie	discopathie	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+13	protrusive	protrusif	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+14	de	de	ADP	_	_	0	case	_	_
+15	petit	petit	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+16	volume	volume	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+17	en	en	ADP	_	_	0	case	_	_
+18	L5	L5	X	_	_	0	nmod	_	_
+19	S1	S1	X	_	_	0	flat:name	_	_
+20	droite	droite	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+21	et	et	CCONJ	_	_	0	cc	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+23	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+24	de	de	ADP	_	_	0	case	_	_
+25	grosse	gros	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+26	racine	racine	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+27	ou	ou	CCONJ	_	_	0	cc	_	_
+28	de	de	ADP	_	_	0	case	_	_
+29	kyste	kyste	NOUN	_	Gender=Masc|Number=Sing	0	conj	_	_
+30	de	de	ADP	_	_	0	case	_	_
+31	Tarlov	Tarlov	PROPN	_	_	0	nmod	_	_
+32	à	à	ADP	_	_	0	case	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+34	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+35	de	de	ADP	_	_	0	case	_	_
+36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+37	émergence	émergence	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+38	droite	droit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+39	de	de	ADP	_	_	0	case	_	_
+40	S1	S1	X	_	_	0	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Une fenestration inter lamaire L5-S1 droite avec une ablation du ligament jaune a permis de découvrir la présence d'une émergence radiculaire double au niveau de l'espace retro-discal, les 2 racines cheminant côte à côte vers le récessus latéral.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	fenestration	fenestration	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	inter	inter	NOUN	_	Gender=Fem|Number=Sing	0	appos	_	_
+4	lamaire	lamaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+5	L5-S1	L5-s1	X	_	_	0	appos	_	_
+6	droite	droit	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+7	avec	avec	ADP	_	_	0	case	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+9	ablation	ablation	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+10	de	de	ADP	_	_	0	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+12	ligament	ligament	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+13	jaune	jaune	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+15	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+16	de	de	ADP	_	_	0	mark	_	_
+17	découvrir	découvrir	VERB	_	VerbForm=Inf	0	ccomp	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+19	présence	présence	NOUN	_	Gender=Fem|Number=Sing	0	obj	_	_
+20	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+22	émergence	émergence	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+23	radiculaire	radiculaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+24	double	double	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+25	à	à	ADP	_	_	0	case	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+27	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+28	de	de	ADP	_	_	0	case	_	_
+29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+30	espace	espace	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+31	retro-discal	retro-discal	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	0	punct	_	_
+33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+34	2	2	NUM	_	Number=Plur	0	nummod	_	_
+35	racines	racine	NOUN	_	Gender=Fem|Number=Plur	0	nsubj	_	_
+36	cheminant	cheminer	VERB	_	Tense=Pres|VerbForm=Part	0	advcl	_	_
+37	côte	côte	NOUN	_	Gender=Fem|Number=Sing	0	obj:lvc	_	_
+38	à	à	ADP	_	_	0	fixed	_	_
+39	côte	côte	NOUN	_	Gender=Fem|Number=Sing	0	fixed	_	_
+40	vers	vers	ADP	_	_	0	case	_	_
+41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+42	récessus	récessus	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+43	latéral	latéral	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = La racine médiale avait un aspect congestif et était difficile à mobiliser.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+2	racine	racine	NOUN	_	Gender=Fem|Number=Sing	0	nsubj	_	_
+3	médiale	médial	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+7	congestif	congestif	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	et	et	CCONJ	_	_	0	cc	_	_
+9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	cop	_	_
+10	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	0	conj	_	_
+11	à	à	ADP	_	_	0	mark	_	_
+12	mobiliser	mobiliser	VERB	_	VerbForm=Inf	0	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Le récessus latéral était sténosé.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	récessus	récessus	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	latéral	latéral	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	aux:pass	_	_
+5	sténosé	sténoser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Ces racines conjointes occasionnaient un conflit d'espace.
+1	Ces	ce	DET	_	Number=Plur|PronType=Dem	0	det	_	_
+2	racines	racine	NOUN	_	Gender=Fem|Number=Plur	0	nsubj	_	_
+3	conjointes	conjoint	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+4	occasionnaient	occasionner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+6	conflit	conflit	NOUN	_	Gender=Masc|Number=Sing	0	obj	_	_
+7	d'	de	ADP	_	_	0	case	_	SpaceAfter=No
+8	espace	espace	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Un geste de foraminostomie a été réalisé sans discectomie.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	geste	geste	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	de	de	ADP	_	_	0	case	_	_
+4	foraminostomie	foraminostomie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+7	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	sans	sans	ADP	_	_	0	case	_	_
+9	discectomie	discectomie	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Les suites opératoires furent simples avec rétrocession rapide des phénomènes algiques dès le lendemain ainsi qu'une amélioration notable, une déambulation et une diminution nette de l'allodynie plantaire.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+2	suites	suite	NOUN	_	Gender=Fem|Number=Plur	0	nsubj	_	_
+3	opératoires	opératoire	ADJ	_	Gender=Fem|Number=Plur	0	amod	_	_
+4	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	cop	_	_
+5	simples	simple	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+6	avec	avec	ADP	_	_	0	case	_	_
+7	rétrocession	rétrocession	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+8	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+9	de	de	ADP	_	_	0	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	0	det	_	_
+11	phénomènes	phénomène	NOUN	_	Gender=Masc|Number=Plur	0	nmod	_	_
+12	algiques	algique	ADJ	_	Gender=Masc|Number=Plur	0	amod	_	_
+13	dès	dès	ADP	_	_	0	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+15	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	0	nmod	_	_
+16	ainsi	ainsi	ADV	_	_	0	cc	_	_
+17	qu'	que	SCONJ	_	_	0	fixed	_	SpaceAfter=No
+18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+19	amélioration	amélioration	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+20	notable	notable	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	0	punct	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+23	déambulation	déambulation	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+24	et	et	CCONJ	_	_	0	cc	_	_
+25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+26	diminution	diminution	NOUN	_	Gender=Fem|Number=Sing	0	conj	_	_
+27	nette	net	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	_
+28	de	de	ADP	_	_	0	case	_	_
+29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	0	det	_	SpaceAfter=No
+30	allodynie	allodynie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
+31	plantaire	plantaire	ADJ	_	Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Le patient a été exéaté le 4ème jour avec une disparition de la sciatalgie.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+2	patient	patient	NOUN	_	Gender=Masc|Number=Sing	0	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	aux:pass	_	_
+5	exéaté	exéater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
+7	4ème	4ème	ADJ	_	Gender=Masc|Number=Sing	0	amod	_	_
+8	jour	jour	NOUN	_	Gender=Masc|Number=Sing	0	obl:mod	_	_
+9	avec	avec	ADP	_	_	0	case	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+11	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	0	obl:mod	_	_
+12	de	de	ADP	_	_	0	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	det	_	_
+14	sciatalgie	sciatalgie	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	0	punct	_	SpacesAfter=\n
+
