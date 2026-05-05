@@ -30,6 +30,9 @@ L'architecture est modulaire pour séparer clairement les données, le code d'ex
     └── run_pipeline.py         # Programme principal à lancer 
 
 
+```
+
+
 Étapes du Pipeline
 
 Le script principal `run_pipeline.py` exécute dynamiquement les 3 étapes suivantes :
