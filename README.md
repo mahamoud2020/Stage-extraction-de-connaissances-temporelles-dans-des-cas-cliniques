@@ -19,13 +19,13 @@ L'architecture est modulaire pour séparer clairement les données, le code d'ex
     ├── 📁 data/
     │   ├── xml_source/         # Fichiers XML de départ
     │   ├── conllu_entree/      # Fichiers parsés par UDPipe
-    │   ├── conllu_sorti/       # Fichiers traités par CorPipe (.15.conllu)
+    │   ├── conllu_sorti/       # Fichiers traités par CorPipe 
     │   └── sortie_csv/         # Tableaux de résultats finaux
     │
-    ├── 📁 pipeline/            # Cœur du traitement
-    │   ├── traitement_udpipe.py
-    │   ├── traitement_corpipe.py
-    │   └── traitement_extraction.py
+    ├── 📁 pipeline/            
+    │   ├── traitement_udpipe.py    # Prend en entrée le texte brut, fais la tokenisation et l'analyse syntaxique, génère des fichiers .conllu
+    │   ├── traitement_corpipe.py   # Utilise les fichiers .conllu générés à l'étape 1, détecte les mentions et crée des liens entre elles
+    │   └── traitement_extraction.py # Utilise les fichiers .15.conllu générés à l'étape 2 et extraits des infos (tête lexicale, nature, etc) 
     │
     └── run_pipeline.py         # Programme principal à lancer 
 
@@ -33,7 +33,7 @@ L'architecture est modulaire pour séparer clairement les données, le code d'ex
 ```
 
 
-Étapes du Pipeline
+## Étapes du Pipeline
 
 Le script principal `run_pipeline.py` exécute dynamiquement les 3 étapes suivantes :
 
