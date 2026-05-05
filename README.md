@@ -27,7 +27,7 @@ L'architecture est modulaire pour séparer clairement les données, le code d'ex
     │   ├── traitement_corpipe.py
     │   └── traitement_extraction.py
     │
-    └── run_pipeline.py         # Le chef d'orchestre
+    └── run_pipeline.py         # Programme principal à lancer 
 
 
 Étapes du Pipeline
