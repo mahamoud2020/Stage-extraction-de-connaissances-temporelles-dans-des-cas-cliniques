@@ -5,14 +5,26 @@ import requests
 from cassis import load_typesystem, load_cas_from_xmi
 
 
-# Gestion automatique des chemins 
+
+# Gestion des chemins
 # BASE_DIR remonte d'un dossier ("pipeline") pour pointer sur la racine ("Français")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 INPUT_DIR = os.path.join(BASE_DIR, "data", "xml_source")
 CONLLU_INPUT = os.path.join(BASE_DIR, "data", "conllu_entree")
-TYPESYSTEM_XML = os.path.join(BASE_DIR, "TypeSystem.xml")
+
+# TypeSystem écrit en dur pour éviter les problèmes de fichiers introuvables/vides
+TYPESYSTEM_XML = """<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <types>
+    <typeDescription>
+      <name>de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence</name>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
+"""
 
 
 # Fonctions utilitaires 
@@ -43,7 +55,8 @@ def appeler_udpipe2(texte):
         return None
 
 
-# Script principal 
+
+# Fonction principal 
 
 
 def main():
@@ -58,11 +71,11 @@ def main():
 
     print(f" Démarrage de l'étape 1 : UDPipe 2 ({len(fichiers_xml)} fichiers trouvés au total)")
     
-    # Chargement du TypeSystem
+    # Chargement du TypeSystem directement depuis la variable texte
     try:
         typesystem = load_typesystem(TYPESYSTEM_XML)
     except Exception as e:
-        print(f" Erreur : impossible de charger le TypeSystem ({TYPESYSTEM_XML})\nDétails : {e}")
+        print(f" Erreur : impossible de charger le TypeSystem interne\nDétails : {e}")
         return
 
     fichiers_traites = 0
@@ -71,8 +84,7 @@ def main():
         doc_id = os.path.splitext(os.path.basename(file_path))[0]
         fichier_sortie = os.path.join(CONLLU_INPUT, f"{doc_id}.conllu")
         
-        # Mode incrémental 
-        # On ne traite le fichier que s'il n'existe pas déjà dans conllu_entree
+        # Mode incrémental : On ne traite le fichier que s'il n'existe pas déjà
         if not os.path.exists(fichier_sortie):
             print(f"   Traitement de {doc_id}...")
             

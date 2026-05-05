@@ -241,6 +241,7 @@ def main():
     print(f"   Fichier détaillé généré : {CSV_MENTIONS}")
 
     # 2. Création du CSV TraMineR
+   
     chaines = {}
     for m in mentions:
         id_CR = f"{m['doc']}_CHAINE_{m['mention_id']}"
@@ -248,7 +249,14 @@ def main():
             chaines[id_CR] = []
         chaines[id_CR].append(m)
         
-    longueur_max = max(len(maillons) for maillons in chaines.values()) if chaines else 0
+    
+    # Filtarge des singletons (chaine contenant une seule mention) 
+    # Ici on ne garde que les chaînes qui ont au moins 2 mentions 
+    
+    chaines_valides = {id_c: maillons for id_c, maillons in chaines.items() if len(maillons) >= 2}
+    
+    # On calcule la longueur max sur les chaînes filtrées
+    longueur_max = max(len(maillons) for maillons in chaines_valides.values()) if chaines_valides else 0
     
     en_tetes = ['id_CR', 'doc', 'mention_id', 'Longueur', 'nature_premier_maillon', 'FS_premier_maillon']
     for i in range(1, longueur_max + 1):
@@ -259,7 +267,8 @@ def main():
         writer = csv.DictWriter(csvfile, fieldnames=en_tetes)
         writer.writeheader()
         
-        for id_CR, maillons in chaines.items():
+        # On boucle uniquement sur les chaînes valides
+        for id_CR, maillons in chaines_valides.items():
             ligne = {
                 'id_CR': id_CR,
                 'doc': maillons[0]['doc'],
@@ -274,7 +283,7 @@ def main():
                 
             writer.writerow(ligne)
             
-    print(f"   Fichier TraMineR généré  : {CSV_SEQUENCES}")
+    print(f"  Fichier TraMineR généré : {CSV_SEQUENCES}")
     print("\n Terminé ! Le pipeline a sorti les deux tableaux.")
 
 if __name__ == "__main__":
