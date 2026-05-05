@@ -1,59 +1,35 @@
-# Pipeline de résolution de coréférences - Corpus E3C 
+# Pipeline de résolution de coréférences - Corpus E3C (Français) 
+
+Ce dépôt contient le code et les résultats du pipeline automatisé permettant d'extraire des entités et de résoudre des coréférences sur les cas cliniques en français du corpus E3C. Il utilise l'outil **UDPipe 2** pour le parsing syntaxique et le modèle **CorPipe** (architecture mT5-large) pour l'inférence.
+
+---
+
+## 🗂️ Architecture du Projet
+
+L'architecture est modulaire pour séparer clairement les données, le code d'exécution et les outils externes partagés (CorPipe, scripts d'évaluation) :
+
+```text
+📁 Ton_Projet_Global/
+│
+├── 📁 crac2025-corpipe/        # Dépôt officiel CorPipe cloné
+├── 📁 scripts/                 # Scripts partagés (convert_batch, evaluation...)
+│
+└── 📁 Français/                # Répertoire de travail
+    │
+    ├── 📁 data/
+    │   ├── xml_source/         # Fichiers XML de départ
+    │   ├── conllu_entree/      # Fichiers parsés par UDPipe
+    │   ├── conllu_sorti/       # Fichiers traités par CorPipe (.15.conllu)
+    │   └── sortie_csv/         # Tableaux de résultats finaux
+    │
+    ├── 📁 pipeline/            # Cœur du traitement
+    │   ├── traitement_udpipe.py
+    │   ├── traitement_corpipe.py
+    │   └── traitement_extraction.py
+    │
+    └── run_pipeline.py         # Le chef d'orchestre
 
 
+Étapes du Pipeline
 
-Ce dépôt contient le code et les résultats du pipeline automatisé permettant d'extraire des entités et de résoudre des coréférences sur les cas cliniques en français du corpus E3C, en utilisant le modèle **CorPipe** (architecture mT5-large).
-
-
-
-## Architecture du Pipeline
-
-
-
-Le script principal `run\_pipeline.py` exécute les 4 étapes suivantes de manière séquentielle :
-
-
-
-1\. **Prétraitement et Conversion (XMI vers CoNLL-U) :** Extraction de la tokenisation d'origine et enrichissement linguistique (Lemmatisation, POS tags, arbres de dépendances) via une requête à l'API web d'**UDPipe 2** (`modèle french-gsd-ud`).
-
-2\. **Inférence (CorPipe) :** Exécution du modèle sur les fichiers `.conllu` pour extraire les mentions et les chaînes de coréférence.
-
-3\. **Extraction CSV :** Structuration des prédictions brutes dans un fichier tabulaire (`data/resultats\_coreferences.csv`).
-
-4\. **Évaluation :** Comparaison entre les prédictions du modèle et les annotations manuelles du corpus E3C (vérité terrain).
-
-
-
-
-
-
-## Installation et Utilisation
-
-
-
-**1. Installer les dépendances :**
-
-
-
-pip install -r requirements.txt
-
-
-
-
-
-**2. Télécharger le modèle CorPipe :**
-
-
-
-git clone https://github.com/ufal/crac2025-corpipe.git
-
-
-
-
-
-**3. Lancer le pipeline :**
-
-
-
-python run\_pipeline.py
-
+Le script principal run_pipeline.py exécute dynamiquement les 3 étapes suivantes :
