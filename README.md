@@ -6,7 +6,7 @@ Ce dépôt contient le code et les résultats du pipeline automatisé permettant
 
 ## 🗂️ Architecture du Projet
 
-L'architecture est modulaire pour séparer clairement les données, le code d'exécution et les outils externes partagés (CorPipe, scripts d'évaluation) :
+L'architecture est modulaire pour séparer les données, le code d'exécution et les outils externes partagés (CorPipe) :
 
 ```text
 📁 Projet_Global/
