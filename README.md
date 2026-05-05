@@ -9,7 +9,7 @@ Ce dépôt contient le code et les résultats du pipeline automatisé permettant
 L'architecture est modulaire pour séparer clairement les données, le code d'exécution et les outils externes partagés (CorPipe, scripts d'évaluation) :
 
 ```text
-📁 Ton_Projet_Global/
+📁 Projet_Global/
 │
 ├── 📁 crac2025-corpipe/        # Dépôt officiel CorPipe cloné
 ├── 📁 scripts/                 # Scripts partagés (convert_batch, evaluation...)
