@@ -32,10 +32,10 @@ L'architecture est modulaire pour séparer clairement les données, le code d'ex
 
 Étapes du Pipeline
 
-Le script principal run_pipeline.py exécute dynamiquement les 3 étapes suivantes :
+Le script principal `run_pipeline.py exécute dynamiquement les 3 étapes suivantes :
 
-1\. **Parsing Syntaxique (traitement_udpipe.py) :** Extraction de la tokenisation d'origine et enrichissement linguistique (lemmatisation, POS tags, arbres de dépendances) via l'API d'UDPipe 2 (modèle french-gsd-ud). Conversion des XML en .conllu.
+1\. **Parsing Syntaxique (`traitement_udpipe.py`) :** Extraction de la tokenisation d'origine et enrichissement linguistique (lemmatisation, POS tags, arbres de dépendances) via l'API d'UDPipe 2 (modèle `french-gsd-ud`). Conversion des XML en `.conllu`.
 
-2\. **Inférence (traitement_corpipe.py) :** Exécution du modèle CorPipe sur les fichiers .conllu pour extraire les mentions et lier les chaînes de coréférences.
+2\. **Inférence (`traitement_corpipe.py`) :** Exécution du modèle CorPipe sur les fichiers `.conllu` pour extraire les mentions et lier les chaînes de coréférences.
 
-3\. **Extraction et CSV (traitement_extraction.py) :** Traitement linguistique des entités (extraction des têtes lexicales, natures, fonctions syntaxiques) et génération des fichiers tabulaires dans data/sortie_csv/ (dont un format adapté pour l'analyse de séquences TraMineR).
+3\. **Extraction et CSV (`traitement_extraction.py`) :** Traitement linguistique des entités (extraction des têtes lexicales, natures, fonctions syntaxiques) et génération des fichiers tabulaires dans `data/sortie_csv/` (dont un format adapté pour l'analyse de séquences TraMineR).
