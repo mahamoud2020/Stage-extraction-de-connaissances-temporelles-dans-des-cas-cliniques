@@ -27,7 +27,7 @@ L'architecture est modulaire pour séparer les données, le code d'exécution et
     │   ├── traitement_corpipe.py   # Utilise les fichiers .conllu générés à l'étape 1, détecte les mentions et crée des liens entre elles
     │   └── traitement_extraction.py # Utilise les fichiers .15.conllu générés à l'étape 2 et extraits des infos (tête lexicale, nature, etc) 
     │
-    └── run_pipeline.py         # Programme principal à lancer 
+    └── run_pipeline.py         # Programme principal à exécuter 
 
 
 ```
