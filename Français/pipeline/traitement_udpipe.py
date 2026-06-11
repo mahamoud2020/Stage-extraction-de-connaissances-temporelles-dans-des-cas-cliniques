@@ -6,13 +6,13 @@ from cassis import load_typesystem, load_cas_from_xmi
 
 
 
-# Gestion des chemins
-# BASE_DIR remonte d'un dossier ("pipeline") pour pointer sur la racine ("Français")
+# Définition des chemins
+# Base_dir remonte d'un dossier ("pipeline") pour pointer sur la racine ("Français")
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-INPUT_DIR = os.path.join(BASE_DIR, "data", "xml_source")
-CONLLU_INPUT = os.path.join(BASE_DIR, "data", "conllu_entree")
+Input_dir = os.path.join(Base_dir, "data", "xml_source")
+Conllu_input = os.path.join(Base_dir, "data", "conllu_entree")
 
 # TypeSystem écrit en dur pour éviter les problèmes de fichiers introuvables/vides
 TYPESYSTEM_XML = """<?xml version="1.0" encoding="UTF-8"?>
@@ -61,12 +61,12 @@ def appeler_udpipe2(texte):
 
 def main():
     # Création du dossier de sortie s'il n'existe pas
-    os.makedirs(CONLLU_INPUT, exist_ok=True)
+    os.makedirs(Conllu_input, exist_ok=True)
     
-    fichiers_xml = glob.glob(os.path.join(INPUT_DIR, "*.xml"))
+    fichiers_xml = glob.glob(os.path.join(Input_dir, "*.xml"))
     
     if not fichiers_xml:
-        print(f" Erreur : aucun fichier XML trouvé dans {INPUT_DIR}.")
+        print(f" Erreur : aucun fichier XML trouvé dans {Input_dir}.")
         return
 
     print(f" Démarrage de l'étape 1 : UDPipe 2 ({len(fichiers_xml)} fichiers trouvés au total)")
@@ -82,7 +82,7 @@ def main():
     
     for file_path in fichiers_xml:
         doc_id = os.path.splitext(os.path.basename(file_path))[0]
-        fichier_sortie = os.path.join(CONLLU_INPUT, f"{doc_id}.conllu")
+        fichier_sortie = os.path.join(Conllu_input, f"{doc_id}.conllu")
         
         # Mode incrémental : On ne traite le fichier que s'il n'existe pas déjà
         if not os.path.exists(fichier_sortie):

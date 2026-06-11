@@ -20,7 +20,7 @@ FR100003,c18,le cou,cou,NOUN,SNdef,autre
 FR100003,c17,la face latéral de le cou,face,NOUN,SNdef,autre
 FR100003,c19,une fréquence cardiaque à 87 batt / min,fréquence,NOUN,SNind,autre
 FR100003,c20,une PA à 110 / 70 mmHg,PA,NOUN,SNind,autre
-FR100003,c14,"Lexamen clinique à l' admission trouve un patient asthénique , un érythème discret sur la face latéral de le cou , une fréquence cardiaque à 87 batt / min et une PA à 110 / 70 mmHg",trouve,VERB,Np,autre
+FR100003,c14,Lexamen clinique à l' admission,Lexamen,NOUN,SNdef,Suj
 FR100003,c21,L' état respiratoire,état,NOUN,SNdef,Suj
 FR100003,c22,fréquence respiratoire 22 cycles / mn,fréquence,NOUN,SN∅,autre
 FR100003,c23,une SaO2 à 96 %,SaO2,NOUN,SNind,autre
@@ -41,7 +41,7 @@ FR100003,c39,un épanchement pleural droit,épanchement,NOUN,SNind,Obl
 FR100003,c38,une médiastinite associé à un épanchement pleural droit,médiastinite,NOUN,SNind,autre
 FR100003,c33,un phlegmon avec cellulite profonde abcédée de les espaces cervicaux antérolatéraux gauches fusant le long de l' ' espace retropharyngolaryngé étendue à le médiastin compliqué d' une médiastinite associé à un épanchement pleural droit,phlegmon,NOUN,SNind,OD
 FR100003,c40,Le panoramique dentaire,panoramique,NOUN,SNdef,Suj
-FR100003,c42,la 45,45,NUM,Autre,autre
+FR100003,c42,la 45,45,NUM,SNdef,autre
 FR100003,c41,un délabrement de la 45,délabrement,NOUN,SNind,OD
 FR100003,c42,3éme molaire,molaire,NOUN,SN∅,autre
 FR100003,c44,la racine dentaire,racine,NOUN,SNdef,autre
@@ -94,7 +94,7 @@ FR100003,c56,L' antibiothérapie initiale,antibiothérapie,NOUN,SNdef,Suj
 FR100003,c83,l' hémoculture,hémoculture,NOUN,SNdef,autre
 FR100003,c82,les résultats de l' hémoculture,résultats,NOUN,SNdef,Obl
 FR100078,c1,M.J Patient Tunisien âgé de 42 ans,M.J,NOUN,SN∅,Suj
-FR100078,c2,la MB,MB,PROPN,Np,autre
+FR100078,c2,la MB,MB,PROPN,SNdef,autre
 FR100078,c3,l' âge de 27 ans,âge,NOUN,SNdef,Obl
 FR100078,c4,Le diagnostic,diagnostic,NOUN,SNdef,Suj
 FR100078,c6,une aphtose buccale récidivante,aphtose,NOUN,SNind,autre
@@ -102,7 +102,7 @@ FR100078,c7,les aphtes génitaux,aphtes,NOUN,SNdef,autre
 FR100078,c8,les pseudofolliculites nécrotiques,pseudofolliculites,NOUN,SNdef,autre
 FR100078,c10,le membre inférieur gauche,membre,NOUN,SNdef,autre
 FR100078,c9,une thrombophlébite de le membre inférieur gauche,thrombophlébite,NOUN,SNind,autre
-FR100078,c11,un Pathergy test positif,Pathergy,PROPN,Np,autre
+FR100078,c11,un Pathergy test positif,Pathergy,PROPN,SNind,autre
 FR100078,c5,"l' association d' une aphtose buccale récidivante à de les aphtes génitaux , de les pseudofolliculites nécrotiques , une thrombophlébite de le membre inférieur gauche et un Pathergy test positif",association,NOUN,SNdef,Obl
 FR100078,c1,Le patient,patient,NOUN,SNdef,Suj
 FR100078,c12,le long cours,cours,NOUN,SNdef,Obl
@@ -147,10 +147,10 @@ FR100078,c46,les berges de l' ulcération,berges,NOUN,SNdef,autre
 FR100078,c45,le niveau de les berges de l' ulcération,niveau,NOUN,SNdef,Obl
 FR100078,c48,vascularite dermique leucocytoclasique,vascularite,NOUN,SN∅,autre
 FR100078,c47,les signes de vascularite dermique leucocytoclasique,signes,NOUN,SNdef,OD
-FR100078,c49,les micro-thromboses,les,DET,SNdef,autre
+FR100078,c49,les micro-thromboses,micro-thromboses,NOUN,SNdef,autre
 FR100078,c51,le derme profond,derme,NOUN,SNdef,autre
 FR100078,c50,une infiltration inflammatoire lymphocytaire de le derme profond,infiltration,NOUN,SNind,autre
-FR100078,c44,La biopsie cutanée réalisée à le niveau de les berges de l' ulcération montrait de les signes de vascularite dermique leucocytoclasique avec de les micro-thromboses et une infiltration inflammatoire lymphocytaire de le derme profond,montrait,VERB,SNdef,autre
+FR100078,c44,La biopsie cutanée réalisée à le niveau de les berges de l' ulcération,biopsie,NOUN,SNdef,Suj
 FR100078,c1,Le patient,patient,NOUN,SNdef,Suj
 FR100078,c18,les ulcérations,ulcérations,NOUN,SNdef,autre
 FR100078,c53,surinfection de les ulcérations,surinfection,NOUN,SN∅,autre
@@ -181,11 +181,11 @@ FR100078,c18,les ulcérations,ulcérations,NOUN,SNdef,autre
 FR100078,c73,la cicatrisation complète de les ulcérations,cicatrisation,NOUN,SNdef,Obl
 FR100078,c23,les récidives,récidives,NOUN,SNdef,Suj
 FR100078,c74,la mauvaise observance thérapeutique,observance,NOUN,SNdef,autre
-FR100092,c1,Mme HK,Mme,NOUN,SN∅,Obl
+FR100092,c1,Mme HK,Mme,NOUN,Np,Obl
 FR100092,c2,27 ans,ans,NOUN,SNnum,Obl
 FR100092,c3,1 an et demi,an,NOUN,SNnum,Obl
 FR100092,c5,notre,notre,DET,Poss,autre
-FR100092,c4,notre formation,formation,NOUN,Poss,Obl
+FR100092,c4,notre formation,formation,NOUN,SNposs,Obl
 FR100092,c8,la fosse iliaque droite,fosse,NOUN,SNdef,autre
 FR100092,c7,une douleur de la fosse iliaque droite,douleur,NOUN,SNind,autre
 FR100092,c9,1 semaine,semaine,NOUN,SNnum,Obl
@@ -234,7 +234,7 @@ FR100092,c48,le bilan biologique,bilan,NOUN,SNdef,autre
 FR100092,c47,Le reste de le bilan biologique,reste,NOUN,SNdef,Suj
 FR100092,c50,"11,4 g / dl",g,NOUN,SNnum,autre
 FR100092,c51,les globules blancs,globules,NOUN,SNdef,autre
-FR100092,c52,7530 / mm 3,7530,NUM,Autre,autre
+FR100092,c52,7530 / mm 3,7530,NUM,SNnum,autre
 FR100092,c49,"une hémoglobine à 11,4 g / dl , de les globules blancs à 7530 / mm 3",hémoglobine,NOUN,SNind,OD
 FR100092,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100092,c53,une minilaparotomie transversale,minilaparotomie,NOUN,SNind,Obl
@@ -259,14 +259,14 @@ FR100092,c68,une appendicite aigue suppurée avec réaction péritonéale locale
 FR100092,c70,Les suites post opératoires,suites,NOUN,SNdef,Suj
 FR100092,c71,particularités,particularités,NOUN,SN∅,autre
 FR100092,c1,la patiente,patiente,NOUN,SNdef,Suj
-FR100092,c72,le 3 ème jour,3,NUM,Autre,Obl
+FR100092,c72,le 3 ème jour,3,NUM,SNdef,Obl
 FR100120,c2,37 ans,ans,NOUN,SNnum,Obl
 FR100120,c1,"un militaire tunisien , âgé de 37 ans , de sexe masculin",militaire,NOUN,SNind,Obl
 FR100120,c3,le contingent tunisien,contingent,NOUN,SNdef,autre
 FR100120,c4,République Démocratique de le Congo,République,NOUN,SN∅,autre
 FR100120,c5,l' année 2008,année,NOUN,SNdef,Obl
 FR100120,c1,ses,ses,DET,Poss,autre
-FR100120,c6,ses antécédents,antécédents,NOUN,Poss,Obl
+FR100120,c6,ses antécédents,antécédents,NOUN,SNposs,Obl
 FR100120,c9,antidiabétiques oraux,antidiabétiques,NOUN,SN∅,Obl
 FR100120,c10,cinq ans,ans,NOUN,SNnum,Obl
 FR100120,c8,un diabète non insulinodépendant bien équilibré sous antidiabétiques oraux depuis cinq ans,diabète,NOUN,SNind,OD
@@ -313,7 +313,7 @@ FR100120,c37,un traitement à base d' oxacycline à la dose de 2 g / jour pendan
 FR100120,c45,Le retard de guérison,retard,NOUN,SNdef,Suj
 FR100120,c46,guérison,guérison,NOUN,SN∅,autre
 FR100120,c1,son,son,DET,Poss,autre
-FR100120,c8,son diabète,diabète,NOUN,Poss,Obl
+FR100120,c8,son diabète,diabète,NOUN,SNposs,Obl
 FR100120,c21,les lésions,lésions,NOUN,SNdef,Suj
 FR100120,c47,une pommade antibiotique à base de cyclines,pommade,NOUN,SNind,Obl
 FR100120,c48,cyclines,cyclines,NOUN,SN∅,autre
@@ -322,7 +322,7 @@ FR100120,c47,la pommade grasse,pommade,NOUN,SNdef,autre
 FR100120,c50,traitement par la pommade grasse,traitement,NOUN,SN∅,autre
 FR100120,c49,deux jours de traitement par la pommade grasse,jours,NOUN,SNnum,Obl
 FR100120,c52,dimensions 10x5mm,dimensions,NOUN,SN∅,autre
-FR100120,c51,deux larves blanchâtres de dimensions 10x5mm,larves,NOUN,SNnum,Suj
+FR100120,c51,deux larves blanchâtres de dimensions 10x5mm,larves,NOUN,SNdef,Suj
 FR100120,c21,chaque lésion,lésion,NOUN,SNind,Obl
 FR100120,c53,une compression bidigitale,compression,NOUN,SNind,autre
 FR100120,c51,Ces larves,larves,NOUN,SNdem,Suj
@@ -346,10 +346,10 @@ FR100120,c51,les larves,larves,NOUN,SNdef,Suj
 FR100120,c64,Cordylobia anthropophaga,Cordylobia,PROPN,Np,Obl
 FR100130,c2,49 ans,ans,NOUN,SNnum,Obl
 FR100130,c3,antécédents pathologiques,antécédents,NOUN,SN∅,autre
-FR100130,c4,notre service,service,NOUN,Poss,Obl
-FR100130,c5,2006,2006,NUM,Autre,Obl
+FR100130,c4,notre service,service,NOUN,SNposs,Obl
+FR100130,c5,2006,2006,NUM,SNnum,Obl
 FR100130,c8,les antalgiques,antalgiques,NOUN,SNdef,Obl
-FR100130,c7,lombalgies mécaniques résistantes à les antalgiques,lombalgies,NOUN,SN∅,autre
+FR100130,c7,lombalgies mécaniques résistantes à les antalgiques,lombalgies,NOUN,SNdef,autre
 FR100130,c9,une raideur rachidienne,raideur,NOUN,SNind,autre
 FR100130,c11,les muscles abdominaux,muscles,NOUN,SNdef,autre
 FR100130,c10,une contracture de les muscles abdominaux,contracture,NOUN,SNind,Obl
@@ -381,7 +381,7 @@ FR100130,c31,La biologie,biologie,NOUN,SNdef,Suj
 FR100130,c32,syndrome inflammatoire biologique,syndrome,NOUN,SN∅,OD
 FR100130,c33,La créatine phosphokinase,créatine,NOUN,SNdef,Suj
 FR100130,c33,CPK,CPK,X,SN∅,autre
-FR100130,c34,lactate désydrogénase,lactate,NOUN,SN∅,autre
+FR100130,c34,lactate désydrogénase,lactate,NOUN,SNdef,autre
 FR100130,c34,LDH,LDH,X,SN∅,autre
 FR100130,c36,La glycémie,glycémie,NOUN,SNdef,Suj
 FR100130,c37,le bilan phosphocalcique,bilan,NOUN,SNdef,autre
@@ -398,15 +398,15 @@ FR100130,c44,le repos prédominant à le niveau de les muscles paravertébraux,r
 FR100130,c42,une activité musculaire continue faite de décharges de potentiels d' unité motrice à le repos prédominant à le niveau de les muscles paravertébraux,activité,NOUN,SNind,OD
 FR100130,c47,anticorps anti-GAD65 sériques,anticorps,NOUN,SN∅,autre
 FR100130,c46,La recherche d' anticorps anti-GAD65 sériques,recherche,NOUN,SNdef,Suj
-FR100130,c48,390 UI / ml,UI,NOUN,SN∅,Obl
-FR100130,c50,1 UI / ml,UI,NOUN,SN∅,Obl
+FR100130,c48,390 UI / ml,UI,NOUN,SNnum,Obl
+FR100130,c50,1 UI / ml,UI,NOUN,SNnum,Obl
 FR100130,c49,une valeur normale inférieure à 1 UI / ml,valeur,NOUN,SNind,Obl
 FR100130,c51,Notre,Notre,DET,Poss,autre
-FR100130,c1,Notre patient,patient,NOUN,Poss,Suj
+FR100130,c1,Notre patient,patient,NOUN,SNposs,Suj
 FR100130,c52,un séjour,séjour,NOUN,SNind,OD
-FR100130,c54,ROCHESTER,ROCHESTER,PROPN,SN∅,Obl
+FR100130,c54,ROCHESTER,ROCHESTER,PROPN,Np,Obl
 FR100130,c55,les états unis d' Amérique,états,NOUN,SNdef,Obl
-FR100130,c53,la Mayo clinique à ROCHESTER à les états unis d' Amérique,Mayo,PROPN,Np,autre
+FR100130,c53,la Mayo clinique à ROCHESTER à les états unis d' Amérique,Mayo,PROPN,SNdef,autre
 FR100130,c53,où,où,PRON,Pro,Obl
 FR100130,c40,le diagnostic de SHR,diagnostic,NOUN,SNdef,Suj
 FR100130,c39,SHR,SHR,NOUN,SN∅,autre
@@ -419,8 +419,8 @@ FR100130,c61,le diabète de type 1,diabète,NOUN,SNdef,autre
 FR100130,c62,la glycémie à jeun,glycémie,NOUN,SNdef,Suj
 FR100130,c63,Les anticorps anti-nucléaires,anticorps,NOUN,SNdef,Suj
 FR100130,c64,Les anti thyroperoxydases,anti,NOUN,SNdef,Suj
-FR100130,c64,ATPO,ATPO,PROPN,SN∅,autre
-FR100130,c65,457 UI / ml,UI,NOUN,SN∅,Obl
+FR100130,c64,ATPO,ATPO,PROPN,Np,autre
+FR100130,c65,457 UI / ml,UI,NOUN,SNnum,Obl
 FR100130,c38,un bilan thyroïdien normal,bilan,NOUN,SNind,Obl
 FR100130,c66,le plan thérapeutique,plan,NOUN,SNdef,Obl
 FR100130,c1,le patient,patient,NOUN,SNdef,Suj
@@ -431,7 +431,7 @@ FR100130,c7,les lombalgies,lombalgies,NOUN,SNdef,autre
 FR100130,c19,la contracture musculaire,contracture,NOUN,SNdef,autre
 FR100130,c71,une amélioration partielle de les lombalgies et de la contracture musculaire,amélioration,NOUN,SNind,Obl
 FR100130,c67,diazépam à dose progressive atteignant 15 mg/j associé à la kinésithérapie motrice avec une amélioration partielle de les lombalgies et de la contracture musculaire,diazépam,NOUN,SN∅,Obl
-FR100130,c72,2011,2011,NUM,Autre,Obl
+FR100130,c72,2011,2011,NUM,SNnum,Obl
 FR100130,c17,On,On,PRON,Pro,Suj
 FR100130,c74,le tableau clinique,tableau,NOUN,SNdef,autre
 FR100130,c73,une aggravation de le tableau clinique,aggravation,NOUN,SNind,OD
@@ -481,21 +481,21 @@ FR100130,c106,Le recul actuel,recul,NOUN,SNdef,Suj
 FR100130,c105,2 mois,mois,NOUN,SNnum,autre
 FR100132,c2,"51 ans , ménopausée",ans,NOUN,SNnum,autre
 FR100132,c1,son,son,DET,Poss,autre
-FR100132,c3,son enfance,enfance,NOUN,Poss,Obl
+FR100132,c3,son enfance,enfance,NOUN,SNposs,Obl
 FR100132,c6,le cou,cou,NOUN,SNdef,autre
 FR100132,c5,le niveau de le cou,niveau,NOUN,SNdef,Obl
 FR100132,c7,les creux axillaires,creux,NOUN,SNdef,autre
 FR100132,c4,les papules hypopigmentées progressivement extensives et confluentes à le niveau de le cou et de les creux axillaires,papules,NOUN,SNdef,Obl
-FR100132,c1,"Une femme de 51 ans , ménopausée , avait depuis son enfance de les papules hypopigmentées progressivement extensives et confluentes à le niveau de le cou et de les creux axillaires",avait,VERB,SNind,autre
+FR100132,c1,"Une femme de 51 ans , ménopausée",femme,NOUN,SNind,Suj
 FR100132,c8,Un diagnostic précis,diagnostic,NOUN,SNind,Suj
 FR100132,c1,la patiente,patiente,NOUN,SNdef,Suj
-FR100132,c8,en,en,PRON,Pro,OI
+FR100132,c8,en,en,PRON,Pro,autre
 FR100132,c11,l' acuité visuelle,acuité,NOUN,SNdef,autre
 FR100132,c10,une baisse de l' acuité visuelle,baisse,NOUN,SNind,autre
 FR100132,c9,une consultation pour une baisse de l' acuité visuelle,consultation,NOUN,SNind,autre
 FR100132,c1,elle,elle,PRON,Pro,Suj
 FR100132,c1,son,son,DET,Poss,autre
-FR100132,c12,son ophtalmologue,ophtalmologue,NOUN,Poss,Obl
+FR100132,c12,son ophtalmologue,ophtalmologue,NOUN,SNposs,Obl
 FR100132,c13,dermatologie,dermatologie,NOUN,SN∅,autre
 FR100132,c14,un avis spécialisé,avis,NOUN,SNind,Obl
 FR100132,c15,Les antécédents familiaux,antécédents,NOUN,SNdef,Suj
@@ -528,7 +528,7 @@ FR100132,c31,"un aspect de nappes fripées en "" peau de chagrin "" ou de "" dra
 FR100132,c36,la palpation,palpation,NOUN,SNdef,Obl
 FR100132,c30,la peau,peau,NOUN,SNdef,Suj
 FR100132,c30,son,son,DET,Poss,autre
-FR100132,c37,son élasticité,élasticité,NOUN,Poss,OD
+FR100132,c37,son élasticité,élasticité,NOUN,SNposs,OD
 FR100132,c38,Aucune lésion muqueuse,lésion,NOUN,SNind,Suj
 FR100132,c40,une papule,papule,NOUN,SNind,autre
 FR100132,c39,L' histologie d' une papule,histologie,NOUN,SNdef,Suj
@@ -553,7 +553,7 @@ FR100132,c53,L' écho-Doppler cardiaque et la fibroscopie digestive haute,écho-
 FR100132,c56,atteinte vasculaire et digestive,atteinte,NOUN,SN∅,OD
 FR100132,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100132,c1,sa,sa,DET,Poss,autre
-FR100132,c58,sa maladie,maladie,NOUN,Poss,autre
+FR100132,c58,sa maladie,maladie,NOUN,SNposs,autre
 FR100132,c57,les informations sur sa maladie,informations,NOUN,SNdef,Obl
 FR100132,c60,une psychothérapie de soutien,psychothérapie,NOUN,SNind,autre
 FR100132,c61,un calendrier de surveillance,calendrier,NOUN,SNind,autre
@@ -573,7 +573,7 @@ FR100142,c8,la face antérieure de l' avant bras gauche,face,NOUN,SNdef,autre
 FR100142,c7,le niveau de la face antérieure de l' avant bras gauche,niveau,NOUN,SNdef,Obl
 FR100142,c9,tout le membre,membre,NOUN,SNdef,autre
 FR100142,c10,un lymphoedème de tout le membre,lymphoedème,NOUN,SNind,Obl
-FR100142,c1,"Mr SS , âgé de 81 ans , sans antécédents particuliers , présentait en Mai 2012 deux nodules angiomateux de 2 cm de diamètre à le niveau de la face antérieure de l' avant bras gauche avec un lymphoedème de tout le membre",présentait,VERB,Np,autre
+FR100142,c1,"Mr SS , âgé de 81 ans , sans antécédents particuliers",Mr,NOUN,Np,Suj
 FR100142,c5,ces lésions,lésions,NOUN,SNdem,autre
 FR100142,c11,La biopsie cutanée de ces lésions,biopsie,NOUN,SNdef,Suj
 FR100142,c13,le derme,derme,NOUN,SNdef,autre
@@ -623,12 +623,12 @@ FR100142,c1,Il,Il,PRON,Pro,Suj
 FR100142,c53,7.8 g / dl,g,NOUN,SNnum,autre
 FR100142,c52,une anémie normochrome normocytaire arégénérative à 7.8 g / dl,anémie,NOUN,SNind,OD
 FR100142,c54,les globules blancs,globules,NOUN,SNdef,autre
-FR100142,c55,4100,4100,NUM,Autre,autre
+FR100142,c55,4100,4100,NUM,SNnum,autre
 FR100142,c57,700 Elts / mm3,Elts,NOUN,SNnum,autre
 FR100142,c56,une lymphopénie à 700 Elts / mm3,lymphopénie,NOUN,SNind,autre
 FR100142,c58,La vitesse de sédimentation,vitesse,NOUN,SNdef,Suj
 FR100142,c59,sédimentation,sédimentation,NOUN,SN∅,autre
-FR100142,c60,35mm,35mm,NUM,Autre,autre
+FR100142,c60,35mm,35mm,NUM,SNnum,autre
 FR100142,c61,la première heure,heure,NOUN,SNdef,Obl
 FR100142,c62,la protéine C réactive,protéine,NOUN,SNdef,Suj
 FR100142,c63,la Ferritinémie,Ferritinémie,NOUN,SNdef,Suj
@@ -639,16 +639,16 @@ FR100142,c66,l' électrophorèse de les protéines plasmatiques,électrophorèse
 FR100142,c68,on,on,PRON,Pro,Suj
 FR100142,c69,une hypoalbuminémie,hypoalbuminémie,NOUN,SNind,OD
 FR100142,c70,une hypergammaglobulinémie polyclonale à 19.7g/l,hypergammaglobulinémie,NOUN,SNind,autre
-FR100142,c71,19.7g/l,19.7g/l,NUM,Autre,autre
+FR100142,c71,19.7g/l,19.7g/l,NUM,SNnum,autre
 FR100142,c72,Les marqueurs tomoraux,marqueurs,NOUN,SNdef,Suj
 FR100142,c73,ACE,ACE,X,SN∅,autre
 FR100142,c74,α foetoprotéine,α,X,SN∅,autre
 FR100142,c75,NSE,NSE,X,SN∅,autre
-FR100142,c77,les CA 19-9,CA,PROPN,Np,autre
+FR100142,c77,les CA 19-9,CA,PROPN,SNdef,autre
 FR100142,c76,le taux sérique de les CA 19-9,taux,NOUN,SNdef,Suj
-FR100142,c78,163 UI / ml,UI,NOUN,SN∅,autre
+FR100142,c78,163 UI / ml,UI,NOUN,SNnum,autre
 FR100142,c79,valeur normale,valeur,NOUN,SN∅,autre
-FR100142,c80,30 UI / ml,UI,NOUN,SN∅,OD
+FR100142,c80,30 UI / ml,UI,NOUN,SNnum,OD
 FR100142,c82,la tuberculine,tuberculine,NOUN,SNdef,autre
 FR100142,c81,L' intradermo-réaction à la tuberculine,intradermo-réaction,NOUN,SNdef,Suj
 FR100142,c84,le Bacille de Koch,Bacille,NOUN,SNdef,autre
@@ -665,7 +665,7 @@ FR100142,c91,l' absence d' anomalies à l' étage abdominal,absence,NOUN,SNdef,a
 FR100142,c95,La fibroscopie digestive,fibroscopie,NOUN,SNdef,Suj
 FR100142,c96,la colonoscopie,colonoscopie,NOUN,SNdef,autre
 FR100142,c94,La fibroscopie digestive et la colonoscopie,fibroscopie,NOUN,SNdef,Suj
-FR100142,c77,les CA 19-9,CA,PROPN,Np,autre
+FR100142,c77,les CA 19-9,CA,PROPN,SNdef,autre
 FR100142,c76,le taux élevé de les CA 19-9,taux,NOUN,SNdef,Obl
 FR100142,c97,anomalies,anomalies,NOUN,SN∅,autre
 FR100142,c98,La biopsie ganglionnaire,biopsie,NOUN,SNdef,Suj
@@ -707,8 +707,8 @@ FR100142,c126,10.7g /dl,/dl,NOUN,SNnum,autre
 FR100142,c63,la ferritinémie,ferritinémie,NOUN,SNdef,Suj
 FR100142,c77,les CA 19-9,CA,NOUN,SNdef,autre
 FR100142,c76,le taux sérique de les CA 19-9,taux,NOUN,SNdef,Suj
-FR100142,c127,41.4UI / ml,41.4UI,NUM,Autre,Obl
-FR100142,c128,24.9UI / ml,24.9UI,NUM,Autre,autre
+FR100142,c127,41.4UI / ml,41.4UI,NUM,SNnum,Obl
+FR100142,c128,24.9UI / ml,24.9UI,NUM,SNnum,autre
 FR100142,c130,J30,J30,X,Autre,Obl
 FR100142,c131,J60,J60,X,Autre,autre
 FR100142,c132,traitement anti tuberculeux,traitement,NOUN,SN∅,autre
@@ -718,7 +718,7 @@ FR100161,c1,"Un patient âgé de 55 ans , militaire de fonction",patient,NOUN,SN
 FR100161,c3,consultation de médecine interne,consultation,NOUN,SN∅,Obl
 FR100161,c4,visite de réengagement,visite,NOUN,SN∅,Obl
 FR100161,c1,ses,ses,DET,Poss,autre
-FR100161,c5,ses antécédents personnels,antécédents,NOUN,Poss,Obl
+FR100161,c5,ses antécédents personnels,antécédents,NOUN,SNposs,Obl
 FR100161,c6,nous,nous,PRON,Pro,Suj
 FR100161,c7,une blessure de guerre superficielle,blessure,NOUN,SNind,OD
 FR100161,c9,éclats métalliques,éclats,NOUN,SN∅,autre
@@ -737,10 +737,10 @@ FR100161,c20,Les examens biologiques,examens,NOUN,SNdef,Suj
 FR100161,c22,"8,54 mmol/l",mmol/l,NOUN,SNnum,autre
 FR100161,c21,"une hyperglycémie à 8,54 mmol/l",hyperglycémie,NOUN,SNind,OD
 FR100161,c23,une légère cytolyse hépatique,cytolyse,NOUN,SNind,autre
-FR100161,c24,les ASAT,ASAT,PROPN,Np,autre
+FR100161,c24,les ASAT,ASAT,PROPN,SNdef,autre
 FR100161,c25,88 UI/l,UI/l,NOUN,SNnum,autre
-FR100161,c26,VN < 50,VN,PROPN,SN∅,autre
-FR100161,c27,les ALAT,ALAT,PROPN,Np,autre
+FR100161,c26,VN < 50,VN,PROPN,Np,autre
+FR100161,c27,les ALAT,ALAT,PROPN,SNdef,autre
 FR100161,c28,73 UI/l,UI/l,NOUN,SNnum,autre
 FR100161,c29,VN < 65,VN,X,Autre,autre
 FR100161,c31,l' hépatite C,hépatite,NOUN,SNdef,autre
@@ -748,10 +748,10 @@ FR100161,c30,la sérologie de l' hépatite C,sérologie,NOUN,SNdef,Suj
 FR100161,c31,HVC,HVC,NOUN,SN∅,autre
 FR100161,c32,une charge virale,charge,NOUN,SNind,Obl
 FR100161,c33,"6,31 Log",Log,NOUN,SNnum,autre
-FR100161,c34,"2,04 E+6 UI / ml",UI,SYM,SN∅,autre
+FR100161,c34,"2,04 E+6 UI / ml",UI,SYM,Autre,autre
 FR100161,c35,un génotype 1b,génotype,NOUN,SNind,autre
 FR100161,c36,stade F4-A2,stade,NOUN,SN∅,autre
-FR100161,c37,le Fibro et Acti tests,Fibro,PROPN,Np,autre
+FR100161,c37,le Fibro et Acti tests,Fibro,PROPN,SNdef,autre
 FR100161,c38,le plan radiologique,plan,NOUN,SNdef,Obl
 FR100161,c39,la radiographie thoracique systématique,radiographie,NOUN,SNdef,Suj
 FR100161,c40,anomalies notables,anomalies,NOUN,SN∅,autre
@@ -783,7 +783,7 @@ FR100161,c61,L' IRM surrénalienne,IRM,NOUN,SNdef,Suj
 FR100161,c9,éclats métalliques,éclats,NOUN,SN∅,autre
 FR100161,c8,la persistance d' éclats métalliques,persistance,NOUN,SNdef,Obl
 FR100161,c63,Le cortisol de 8h,cortisol,NOUN,SNdef,Suj
-FR100161,c64,8h,8h,NUM,Autre,autre
+FR100161,c64,8h,8h,NUM,SNnum,autre
 FR100161,c66,les 24 heures,heures,NOUN,SNdef,autre
 FR100161,c65,le cortisol libre urinaire de les 24 heures,cortisol,NOUN,SNdef,autre
 FR100161,c66,les 24 heures,heures,NOUN,SNdef,autre
@@ -792,7 +792,7 @@ FR100161,c62,"Le cortisol de 8h , le cortisol libre urinaire de les 24 heures ai
 FR100161,c1,Le patient,patient,NOUN,SNdef,Suj
 FR100161,c45,la tumeur,tumeur,NOUN,SNdef,autre
 FR100161,c68,une exérèse chirurgicale de la tumeur,exérèse,NOUN,SNind,Obl
-FR100161,c69,laparotomie transpéritonéale,laparotomie,NOUN,SN∅,autre
+FR100161,c69,laparotomie transpéritonéale,laparotomie,NOUN,SNdef,autre
 FR100161,c45,la tumeur,tumeur,NOUN,SNdef,autre
 FR100161,c70,la taille de la tumeur,taille,NOUN,SNdef,OD
 FR100161,c71,l' examen anatomopathologique,examen,NOUN,SNdef,autre
@@ -832,12 +832,12 @@ FR100168,c30,2500 ml,ml,NOUN,SNnum,Obl
 FR100168,c27,Ce saignement estimé à 2500 ml,saignement,NOUN,SNdem,Suj
 FR100168,c33,le rachis traumatique,rachis,NOUN,SNdef,autre
 FR100168,c32,la chirurgie de le rachis traumatique,chirurgie,NOUN,SNdef,autre
-FR100168,c34,notre équipe,équipe,NOUN,Poss,autre
+FR100168,c34,notre équipe,équipe,NOUN,SNposs,autre
 FR100168,c31,le saignement per opératoire habituel dans la chirurgie de le rachis traumatique dans notre équipe,saignement,NOUN,SNdef,Suj
 FR100168,c35,200 ± 50 ml,ml,NOUN,SNnum,autre
 FR100168,c36,vertèbre fixée,vertèbre,NOUN,SN∅,autre
 FR100168,c34,notre,notre,DET,Poss,autre
-FR100168,c1,notre patient,patient,NOUN,Poss,Obl
+FR100168,c1,notre patient,patient,NOUN,SNposs,Obl
 FR100168,c37,cinq vertèbres,vertèbres,NOUN,SNnum,Suj
 FR100168,c38,le saignement théorique,saignement,NOUN,SNdef,Suj
 FR100168,c39,les 1250 ml,ml,NOUN,SNdef,OD
@@ -905,11 +905,11 @@ FR100168,c85,Cette habitude,habitude,NOUN,SNdem,Suj
 FR100168,c88,génération,génération,NOUN,SN∅,Obl
 FR100168,c89,génération,génération,NOUN,SN∅,autre
 FR100168,c1,sa,sa,DET,Poss,autre
-FR100168,c91,sa famille,famille,NOUN,Poss,autre
+FR100168,c91,sa famille,famille,NOUN,SNposs,autre
 FR100168,c90,tous les membres de sa famille,membres,NOUN,SNdef,Obl
 FR100168,c93,une hypercholestérolémie familiale,hypercholestérolémie,NOUN,SNind,autre
 FR100168,c92,prévention d' une hypercholestérolémie familiale,prévention,NOUN,SN∅,Obl
-FR100168,c86,l' ail,l',DET,SNdef,autre
+FR100168,c86,l' ail,ail,NOUN,SNdef,autre
 FR100168,c94,Cette phytothérapie avec de l' ail,phytothérapie,NOUN,SNdem,Suj
 FR100168,c94,qui,qui,PRON,Pro,Suj
 FR100168,c96,l' agrégation plaquettaire,agrégation,NOUN,SNdef,autre
@@ -945,7 +945,7 @@ FR100185,c23,une hypoesthésie de tout le membre,hypoesthésie,NOUN,SNind,autre
 FR100185,c25,la main,main,NOUN,SNdef,autre
 FR100185,c24,une amyotrophie de la main,amyotrophie,NOUN,SNind,autre
 FR100185,c16,"un déficit moteur proximal et distal de les fléchisseurs et de les extenseurs , une abolition de les reflexes ostéo-tendineux bicipital et tricipital , une hypoesthésie de tout le membre et une amyotrophie de la main",déficit,NOUN,SNind,OD
-FR100185,c26,L' Electromyogramme,Electromyogramme,PROPN,Np,Suj
+FR100185,c26,L' Electromyogramme,Electromyogramme,PROPN,SNdef,Suj
 FR100185,c14,le membre supérieur,membre,NOUN,SNdef,autre
 FR100185,c29,l' ensemble de les nerfs de le membre supérieur,ensemble,NOUN,SNdef,autre
 FR100185,c28,les réponses motrices et sensitives de l' ensemble de les nerfs de le membre supérieur,réponses,NOUN,SNdef,autre
@@ -974,7 +974,7 @@ FR100227,c3,le patient,patient,NOUN,SNdef,Suj
 FR100227,c11,une diplopie verticale,diplopie,NOUN,SNind,OD
 FR100227,c12,Le bilan étiologique,bilan,NOUN,SNdef,Suj
 FR100227,c13,l' examen clinique,examen,NOUN,SNdef,Obl
-FR100227,c14,le Lancaster,Lancaster,PROPN,Np,autre
+FR100227,c14,le Lancaster,Lancaster,PROPN,SNdef,autre
 FR100227,c15,le bilan orthoptique,bilan,NOUN,SNdef,autre
 FR100227,c16,l' IRM,IRM,NOUN,SNdef,autre
 FR100227,c11,La diplopie,diplopie,NOUN,SNdef,Suj
@@ -983,19 +983,19 @@ FR100227,c19,les escaliers,escaliers,NOUN,SNdef,autre
 FR100227,c18,la descente de les escaliers,descente,NOUN,SNdef,Obl
 FR100227,c20,la lecture,lecture,NOUN,SNdef,autre
 FR100227,c21,Le signe de bielshowsky,signe,NOUN,SNdef,Suj
-FR100227,c14,Le Lancaster,Lancaster,PROPN,Np,Suj
+FR100227,c14,Le Lancaster,Lancaster,PROPN,SNdef,Suj
 FR100227,c23,le grand oblique droit,oblique,NOUN,SNdef,autre
 FR100227,c22,une atteinte de le grand oblique droit,atteinte,NOUN,SNind,OD
 FR100227,c25,le droit inferieur gauche,droit,NOUN,SNdef,autre
 FR100227,c24,hyperaction de le droit inferieur gauche,hyperaction,NOUN,SN∅,autre
 FR100227,c27,le muscle droit supérieur,muscle,NOUN,SNdef,autre
-FR100227,c26,limitation de le muscle droit supérieur,limitation,NOUN,SN∅,autre
+FR100227,c26,limitation de le muscle droit supérieur,limitation,NOUN,SNdef,autre
 FR100227,c15,Le bilan orthoptique,bilan,NOUN,SNdef,Suj
 FR100227,c28,un pouvoir fusionnel,pouvoir,NOUN,SNind,OD
 FR100227,c29,8 dioptries de loin,dioptries,NOUN,SNnum,autre
 FR100227,c30,12 dioptries de près,dioptries,NOUN,SNnum,autre
 FR100227,c16,L IRM,IRM,NOUN,SNdef,Suj
-FR100255,c1,Madame K,Madame,NOUN,SN∅,Suj
+FR100255,c1,Madame K,Madame,NOUN,Np,Suj
 FR100255,c2,25 ans,ans,NOUN,SNnum,Obl
 FR100255,c3,antécédents particuliers,antécédents,NOUN,SN∅,Obl
 FR100255,c4,les urgences,urgences,NOUN,SNdef,Obl
@@ -1040,10 +1040,10 @@ FR100255,c39,décubitus latérale gauche,décubitus,NOUN,SN∅,autre
 FR100255,c5,la crise d' éclampsie,crise,NOUN,SNdef,autre
 FR100255,c40,un traitement de la crise d' éclampsie,traitement,NOUN,SNind,autre
 FR100255,c41,le sulfate de magnésium,sulfate,NOUN,SNdef,autre
-FR100255,c43,20min,20min,NUM,Autre,autre
+FR100255,c43,20min,20min,NUM,SNnum,autre
 FR100255,c44,relais,relais,NOUN,SN∅,autre
 FR100255,c45,perfusion continue d' 1g par heure,perfusion,NOUN,SN∅,autre
-FR100255,c42,4g bolus en 20min puis relais par perfusion continue d' 1g par heure,4g,NUM,Autre,autre
+FR100255,c42,4g bolus en 20min puis relais par perfusion continue d' 1g par heure,4g,NUM,SNnum,autre
 FR100255,c46,heure,heure,NOUN,SN∅,autre
 FR100255,c13,l' hypertension artérielle,hypertension,NOUN,SNdef,autre
 FR100255,c47,un traitement de l' hypertension artérielle,traitement,NOUN,SNind,autre
@@ -1069,7 +1069,7 @@ FR100255,c63,TP,TP,X,SN∅,autre
 FR100255,c64,TCA,TCA,X,SN∅,autre
 FR100255,c65,Deux jours,jours,NOUN,SNnum,autre
 FR100255,c1,son,son,DET,Poss,autre
-FR100255,c10,son admission,admission,NOUN,Poss,Obl
+FR100255,c10,son admission,admission,NOUN,SNposs,Obl
 FR100255,c1,la patiente,patiente,NOUN,SNdef,Suj
 FR100255,c66,voie vaginale,voie,NOUN,SN∅,Obl
 FR100255,c68,un poids de 1800 grammes,poids,NOUN,SNind,autre
@@ -1088,12 +1088,12 @@ FR100255,c76,le dixième jour,jour,NOUN,SNdef,Obl
 FR100275,c1,Une fillette de 2 ans,fillette,NOUN,SNind,Suj
 FR100275,c2,état de mort apparente,état,NOUN,SN∅,Obl
 FR100275,c1,sa,sa,DET,Poss,autre
-FR100275,c3,sa famille,famille,NOUN,Poss,Obl
+FR100275,c3,sa famille,famille,NOUN,SNposs,Obl
 FR100275,c5,13 minutes,minutes,NOUN,SNnum,autre
 FR100275,c4,un délai de 13 minutes,délai,NOUN,SNind,OD
 FR100275,c1,l' enfant,enfant,NOUN,SNdef,autre
 FR100275,c1,sa,sa,DET,Poss,autre
-FR100275,c3,sa famille,famille,NOUN,Poss,autre
+FR100275,c3,sa famille,famille,NOUN,SNposs,autre
 FR100275,c6,la découverte de l' enfant par sa famille,découverte,NOUN,SNdef,autre
 FR100275,c8,les manœuvres de réanimation,manœuvres,NOUN,SNdef,autre
 FR100275,c7,le début de les manœuvres de réanimation,début,NOUN,SNdef,autre
@@ -1138,11 +1138,11 @@ FR100275,c37,bêtabloquant à base de Nadolol,bêtabloquant,NOUN,SN∅,Obl
 FR100275,c38,Nadolol,Nadolol,PROPN,Np,autre
 FR100275,c39,Corgard ®,Corgard,PROPN,Np,autre
 FR100275,c40,3 mg/kg/j,mg/kg/j,NOUN,SNnum,autre
-FR100275,c41,"20mg , 2 / j",20mg,NUM,Autre,autre
+FR100275,c41,"20mg , 2 / j",20mg,NUM,SNnum,autre
 FR100275,c42,j,j,NOUN,SN∅,autre
 FR100275,c1,L' enfant,enfant,NOUN,SNdef,Suj
 FR100275,c1,son,son,DET,Poss,autre
-FR100275,c37,son traitement,traitement,NOUN,Poss,OD
+FR100275,c37,son traitement,traitement,NOUN,SNposs,OD
 FR100275,c33,les urgences,urgences,NOUN,SNdef,Obl
 FR100275,c43,L' examen clinique réalisé à les urgences,examen,NOUN,SNdef,Suj
 FR100275,c45,13 kg,kg,NOUN,SNnum,autre
@@ -1153,7 +1153,7 @@ FR100275,c44,"un poids de 13 kg , une pression artérielle de 80/60 mmHg , la fr
 FR100275,c49,la température,température,NOUN,SNdef,Suj
 FR100275,c50,"38,8 ° C",°,SYM,Autre,Obl
 FR100275,c1,son,son,DET,Poss,autre
-FR100275,c52,son admission,admission,NOUN,Poss,Obl
+FR100275,c52,son admission,admission,NOUN,SNposs,Obl
 FR100275,c33,les urgences,urgences,NOUN,SNdef,autre
 FR100275,c51,Le bilan réalisé à son admission à les urgences,bilan,NOUN,SNdef,Suj
 FR100275,c53,l' électrocardiogramme,électrocardiogramme,NOUN,SNdef,Obl
@@ -1184,14 +1184,14 @@ FR100275,c74,séquelles neurologiques,séquelles,NOUN,SN∅,OD
 FR100275,c75,récidive d' arythmies,récidive,NOUN,SN∅,autre
 FR100275,c76,arythmies,arythmies,NOUN,SN∅,autre
 FR100275,c78,mort subite,mort,NOUN,SN∅,autre
-FR100275,c80,le QT Long,QT,PROPN,Np,autre
+FR100275,c80,le QT Long,QT,PROPN,SNdef,autre
 FR100275,c36,syndrome de le QT Long,syndrome,NOUN,SN∅,autre
 FR100275,c79,un contexte de syndrome de le QT Long,contexte,NOUN,SNind,autre
 FR100275,c81,la dose de Nadolol,dose,NOUN,SNdef,Suj
 FR100275,c38,Nadolol,Nadolol,PROPN,Np,autre
 FR100275,c82,25 mg,mg,NOUN,SNnum,Obl
 FR100275,c83,deux prises par jour,prises,NOUN,SNnum,Obl
-FR100275,c77,Un diagnostic de mort subite dans un contexte de syndrome de le QT Long est posé et la dose de Nadolol majorée à 25 mg deux prises par jour,posé,VERB,SNind,autre
+FR100275,c77,Un diagnostic de mort subite dans un contexte de syndrome de le QT Long,diagnostic,NOUN,SNind,Suj
 FR100275,c84,jour,jour,NOUN,SN∅,autre
 FR100275,c75,récidive,récidive,NOUN,SN∅,autre
 FR100275,c86,un défibrillateur,défibrillateur,NOUN,SNind,autre
@@ -1246,7 +1246,7 @@ FR100275,c96,bêtabloquant,bêtabloquant,NOUN,SN∅,Obl
 FR100275,c110,bêtabloquant et vérapamil,bêtabloquant,NOUN,SN∅,Obl
 FR100275,c111,vérapamil,vérapamil,NOUN,SN∅,autre
 FR100275,c112,Les 2 grands-parents maternels,grands-parents,NOUN,SNdef,Suj
-FR100276,c1,Mme N.R de 34 ans,Mme,NOUN,SN∅,Suj
+FR100276,c1,Mme N.R de 34 ans,Mme,NOUN,Np,Suj
 FR100276,c2,antécédents pathologiques notables,antécédents,NOUN,SN∅,Obl
 FR100276,c3,une grossesse simple à terme,grossesse,NOUN,SNind,OD
 FR100276,c3,laquelle,laquelle,PRON,Pro,autre
@@ -1281,7 +1281,7 @@ FR100276,c26,corticoïdes locaux,corticoïdes,NOUN,SN∅,autre
 FR100276,c25,L' application de corticoïdes locaux,application,NOUN,SNdef,Suj
 FR100276,c4,les lésions cutanées,lésions,NOUN,SNdef,autre
 FR100276,c27,la régression rapide de les lésions cutanées,régression,NOUN,SNdef,OD
-FR100276,c28,28 SA,SA,NOUN,SN∅,Obl
+FR100276,c28,28 SA,SA,NOUN,SNnum,Obl
 FR100276,c26,le traitement local,traitement,NOUN,SNdef,autre
 FR100276,c29,l' arrêt de le traitement local,arrêt,NOUN,SNdef,Obl
 FR100276,c1,la patiente,patiente,NOUN,SNdef,Suj
@@ -1296,7 +1296,7 @@ FR100276,c34,un suivi régulier,suivi,NOUN,SNind,Obl
 FR100276,c35,anomalies,anomalies,NOUN,SN∅,OD
 FR100276,c37,voie basse,voie,NOUN,SN∅,autre
 FR100276,c36,L' accouchement spontané par voie basse,accouchement,NOUN,SNdef,Suj
-FR100276,c38,39 SA,SA,NOUN,SN∅,Obl
+FR100276,c38,39 SA,SA,NOUN,SNnum,Obl
 FR100276,c40,sexe féminin,sexe,NOUN,SN∅,autre
 FR100276,c39,un nouveau né de sexe féminin,né,NOUN,SNind,autre
 FR100276,c41,poids de naissance de 3000 g,poids,NOUN,SN∅,autre
@@ -1353,7 +1353,7 @@ FR100282,c11,aucune prise en charge,prise,NOUN,SNind,Suj
 FR100282,c12,une année,année,NOUN,SNind,Obl
 FR100282,c13,la présente consultation,consultation,NOUN,SNdef,Obl
 FR100282,c1,le patient,patient,NOUN,SNdef,Suj
-FR100282,c15,la carbamazépine,la,DET,SNdef,autre
+FR100282,c15,la carbamazépine,carbamazépine,NOUN,SNdef,Obl
 FR100282,c14,un traitement fait de la carbamazépine,traitement,NOUN,SNind,Obl
 FR100282,c16,deux fois 200 mg par jour,fois,NOUN,SNnum,autre
 FR100282,c17,jour,jour,NOUN,SN∅,autre
@@ -1365,29 +1365,29 @@ FR100282,c15,carbamazépine,carbamazépine,NOUN,SN∅,autre
 FR100282,c21,phénobarbital,phénobarbital,NOUN,SN∅,autre
 FR100282,c22,valproate de sodium,valproate,NOUN,SN∅,autre
 FR100282,c20,"carbamazépine , phénobarbital et valproate de sodium",carbamazépine,NOUN,SN∅,autre
-FR100282,c1,lui,lui,PRON,Pro,OI
+FR100282,c1,lui,lui,PRON,Pro,autre
 FR100282,c23,plus de sept mois,plus,ADV,Autre,Obl
 FR100282,c24,succès,succès,NOUN,SN∅,autre
 FR100282,c1,son,son,DET,Poss,autre
-FR100282,c25,son état,état,NOUN,Poss,Suj
+FR100282,c25,son état,état,NOUN,SNposs,Suj
 FR100282,c1,il,il,PRON,Pro,Suj
 FR100282,c26,le Centre Neuro-psychiatrique Dr Joseph-Guislain,Centre,NOUN,SNdef,OD
-FR100282,c28,le 21 juin 2014,21,NUM,Autre,autre
+FR100282,c28,le 21 juin 2014,21,NUM,SNdef,autre
 FR100282,c27,date de le 21 juin 2014,date,NOUN,SN∅,Obl
 FR100282,c1,Ses,Ses,DET,Poss,autre
-FR100282,c29,Ses antécédents,antécédents,NOUN,Poss,Suj
+FR100282,c29,Ses antécédents,antécédents,NOUN,SNposs,Suj
 FR100282,c30,aucune crise épileptique,crise,NOUN,SNind,Suj
 FR100282,c1,sa,sa,DET,Poss,autre
-FR100282,c31,sa famille,famille,NOUN,Poss,Obl
+FR100282,c31,sa famille,famille,NOUN,SNposs,Obl
 FR100282,c1,ses,ses,DET,Poss,autre
-FR100282,c32,ses habitus,habitus,NOUN,Poss,Obl
+FR100282,c32,ses habitus,habitus,NOUN,SNposs,Obl
 FR100282,c1,il,il,PRON,Pro,Suj
 FR100282,c33,la viande de porc,viande,NOUN,SNdef,OD
 FR100282,c34,le complément d' anamnèse,complément,NOUN,SNdef,Obl
 FR100282,c35,anamnèse,anamnèse,NOUN,SN∅,autre
 FR100282,c36,nous,nous,PRON,Pro,Suj
 FR100282,c1,ses,ses,DET,Poss,autre
-FR100282,c3,ses crises convulsives,crises,NOUN,Poss,Suj
+FR100282,c3,ses crises convulsives,crises,NOUN,SNposs,Suj
 FR100282,c37,les crises bilatérales,crises,NOUN,SNdef,Obl
 FR100282,c38,les composantes toniques et cloniques,composantes,NOUN,SNdef,Obl
 FR100282,c3,les crises,crises,NOUN,SNdef,Obl
@@ -1404,7 +1404,7 @@ FR100282,c46,mois,mois,NOUN,SN∅,autre
 FR100282,c47,L' examen neurologique,examen,NOUN,SNdef,Suj
 FR100282,c48,L' électroencéphalogramme,électroencéphalogramme,NOUN,SNdef,Suj
 FR100282,c49,sa,sa,DET,Poss,autre
-FR100282,c50,sa lenteur,lenteur,NOUN,Poss,Obl
+FR100282,c50,sa lenteur,lenteur,NOUN,SNposs,Obl
 FR100282,c53,prédominance droite,prédominance,NOUN,SN∅,autre
 FR100282,c52,éléments lents à prédominance droite,éléments,NOUN,SN∅,autre
 FR100282,c51,l' abondance en éléments lents à prédominance droite,abondance,NOUN,SNdef,autre
@@ -1480,7 +1480,7 @@ FR100296,c13,aucune notion d' effort ou de traumatisme,notion,NOUN,SNind,Suj
 FR100296,c15,traumatisme,traumatisme,NOUN,SN∅,autre
 FR100296,c1,le patient,patient,NOUN,SNdef,Suj
 FR100296,c16,passé de lombalgie,passé,NOUN,SN∅,OD
-FR100296,c17,lombalgie,lombalgie,NOUN,SN∅,autre
+FR100296,c17,lombalgie,lombalgie,NOUN,SNdef,autre
 FR100296,c18,L' examen clinique,examen,NOUN,SNdef,Suj
 FR100296,c19,une perte pondérale de moyenne abondance,perte,NOUN,SNind,OD
 FR100296,c18,L' examen,examen,NOUN,SNdef,Suj
@@ -1488,7 +1488,7 @@ FR100296,c20,une hyperpathie plantaire,hyperpathie,NOUN,SNind,Obl
 FR100296,c1,le patient,patient,NOUN,SNdef,OD
 FR100296,c21,le lit,lit,NOUN,SNdef,Obl
 FR100296,c4,une sciatique droite de topographie S1,sciatique,NOUN,SNind,autre
-FR100296,c17,lombalgie,lombalgie,NOUN,SN∅,autre
+FR100296,c17,lombalgie,lombalgie,NOUN,SNdef,autre
 FR100296,c23,brulure,brulure,NOUN,SN∅,autre
 FR100296,c24,décharges électriques,décharges,NOUN,SN∅,autre
 FR100296,c25,allodynie,allodynie,NOUN,SN∅,autre
@@ -1506,7 +1506,7 @@ FR100296,c34,une hypoesthésie plantaire droite,hypoesthésie,NOUN,SNind,autre
 FR100296,c35,Les reflexes ostéo-tendineux,reflexes,NOUN,SNdef,Suj
 FR100296,c29,la douleur,douleur,NOUN,SNdef,Obl
 FR100296,c36,un signe de Lasègue,signe,NOUN,SNind,Suj
-FR100296,c37,Lasègue,Lasègue,PROPN,Np,autre
+FR100296,c37,Lasègue,Lasègue,NOUN,SNdef,autre
 FR100296,c38,fin de course,fin,NOUN,SN∅,Obl
 FR100296,c39,course,course,NOUN,SN∅,autre
 FR100296,c41,le rachis lombo-sacré,rachis,NOUN,SNdef,autre
@@ -1572,7 +1572,7 @@ FR100314,c17,signe de détresse respiratoire ou hémodynamique,signe,NOUN,SN∅,
 FR100314,c18,un drainage thoracique,drainage,NOUN,SNind,Suj
 FR100314,c19,une analgésie multimodale,analgésie,NOUN,SNind,Obl
 FR100314,c1,son,son,DET,Poss,autre
-FR100314,c20,son hospitalisation,hospitalisation,NOUN,Poss,Obl
+FR100314,c20,son hospitalisation,hospitalisation,NOUN,SNposs,Obl
 FR100314,c1,le patient,patient,NOUN,SNdef,Suj
 FR100314,c22,membre supérieur droit,membre,NOUN,SN∅,autre
 FR100314,c21,les signes isthmiques de membre supérieur droit,signes,NOUN,SNdef,OD
@@ -1585,7 +1585,7 @@ FR100314,c1,La patiente,patiente,NOUN,SNdef,autre
 FR100314,c28,anticoagulant,anticoagulant,NOUN,SN∅,Obl
 FR100314,c22,le membre supérieure,membre,NOUN,SNdef,autre
 FR100314,c29,amputation de le membre supérieure,amputation,NOUN,SN∅,Obl
-FR100344,c1,madame H.E.,madame,NOUN,SN∅,Obl
+FR100344,c1,madame H.E.,madame,NOUN,Np,Obl
 FR100344,c2,22 ans,ans,NOUN,SNnum,Obl
 FR100344,c3,antécédent particulier,antécédent,NOUN,SN∅,Obl
 FR100344,c5,stimulation ovarienne,stimulation,NOUN,SN∅,autre
@@ -1623,14 +1623,14 @@ FR100344,c29,Les échographies de le 2 ème et de le 3 ème trimestre,échograph
 FR100344,c32,les fœtus,fœtus,NOUN,SNdef,Suj
 FR100344,c16,la grossesse,grossesse,NOUN,SNdef,autre
 FR100344,c33,L' évolution de la grossesse,évolution,NOUN,SNdef,Suj
-FR100344,c34,33 SA,SA,NOUN,SN∅,Obl
+FR100344,c34,33 SA,SA,NOUN,SNnum,Obl
 FR100344,c34,où,où,PRON,Pro,Obl
 FR100344,c1,la gestante,gestante,NOUN,SNdef,Suj
 FR100344,c35,un tableau de pré-éclampsie modéré,tableau,NOUN,SNind,OD
 FR100344,c35,qui,qui,PRON,Pro,Suj
 FR100344,c36,une hospitalisation,hospitalisation,NOUN,SNind,OD
 FR100344,c37,un suivi pluridisciplinaire,suivi,NOUN,SNind,Obl
-FR100344,c38,34 SA,SA,NOUN,SN∅,Obl
+FR100344,c38,34 SA,SA,NOUN,SNnum,Obl
 FR100344,c1,la gestante,gestante,NOUN,SNdef,Suj
 FR100344,c39,"douleurs sus pubiennes atroces et insomnientes , permanentes et d' intensité évolutive",douleurs,NOUN,SN∅,Obl
 FR100344,c41,une voussure péri ombilicale,voussure,NOUN,SNind,autre
@@ -1649,7 +1649,7 @@ FR100344,c48,La première jumelle vivante polymalformée à développement abdom
 FR100344,c51,1575 gr,gr,NOUN,SNnum,OD
 FR100344,c49,les 3 jumeaux intra-utérins vivants,jumeaux,NOUN,SNdef,Suj
 FR100344,c52,1980 gr,gr,NOUN,SNnum,OD
-FR100344,c53,1430gr,1430gr,NUM,Autre,autre
+FR100344,c53,1430gr,1430gr,NUM,SNnum,autre
 FR100344,c54,1400 gr,gr,NOUN,SNnum,autre
 FR100344,c16,la grossesse abdominale,grossesse,NOUN,SNdef,autre
 FR100344,c55,Le placenta de la grossesse abdominale,placenta,NOUN,SNdef,Suj
@@ -1667,7 +1667,7 @@ FR100344,c64,CNHU-HKM,CNHU-HKM,PROPN,Np,autre
 FR100344,c1,la mère,mère,NOUN,SNdef,Suj
 FR100344,c66,la clinique universitaire de gynécologie obstétrique,clinique,NOUN,SNdef,autre
 FR100344,c65,les soins intensifs de la clinique universitaire de gynécologie obstétrique,soins,NOUN,SNdef,Obl
-FR100344,c66,CUGO,CUGO,PROPN,SN∅,autre
+FR100344,c66,CUGO,CUGO,PROPN,Np,autre
 FR100344,c66,où,où,PRON,Pro,Obl
 FR100344,c67,une cure de méthotrexate,cure,NOUN,SNind,Suj
 FR100344,c68,méthotrexate,méthotrexate,NOUN,SN∅,autre
@@ -1680,40 +1680,40 @@ FR100344,c74,le plan évolutif,plan,NOUN,SNdef,Obl
 FR100344,c75,3 jumeaux,jumeaux,NOUN,SNnum,Suj
 FR100344,c76,7 jours de vie,jours,NOUN,SNnum,Obl
 FR100344,c77,vie,vie,NOUN,SN∅,autre
-FR100344,c23,2 e jumeau,2,NUM,Autre,autre
+FR100344,c23,2 e jumeau,2,NUM,SNnum,autre
 FR100344,c78,10 jours de vie,jours,NOUN,SNnum,autre
 FR100344,c77,vie,vie,NOUN,SN∅,autre
-FR100344,c25,3 e jumeau,3,NUM,Autre,autre
+FR100344,c25,3 e jumeau,3,NUM,SNnum,autre
 FR100344,c79,14 jours de vie,jours,NOUN,SNnum,autre
 FR100344,c77,vie,vie,NOUN,SN∅,autre
 FR100344,c48,1 ère jumelle,ère,NOUN,SNnum,autre
 FR100344,c80,détresse respiratoire,détresse,NOUN,SN∅,autre
-FR100344,c81,Le 4 e jumeau,4,NUM,Autre,Suj
+FR100344,c81,Le 4 e jumeau,4,NUM,SNdef,Suj
 FR100344,c82,trois ans,ans,NOUN,SNnum,Obl
 FR100344,c83,un bon développement psychomoteur,développement,NOUN,SNind,Obl
 FR100344,c1,La mère,mère,NOUN,SNdef,Suj
 FR100344,c85,insuffisance cardiaque globale,insuffisance,NOUN,SN∅,autre
 FR100344,c84,une cardiopathie avec insuffisance cardiaque globale,cardiopathie,NOUN,SNind,OD
 FR100344,c87,l' accouchement,accouchement,NOUN,SNdef,Obl
-FR100344,c86,le 6 e mois après l' accouchement,6,NUM,Autre,Obl
+FR100344,c86,le 6 e mois après l' accouchement,6,NUM,SNdef,Obl
 FR100344,c88,traitement médical anti hypertensif,traitement,NOUN,SN∅,Obl
 FR100344,c90,Furosémide,Furosémide,PROPN,Np,autre
-FR100344,c91,2 comprimés par jour,2,NUM,Autre,autre
+FR100344,c91,2 comprimés par jour,2,NUM,SNnum,autre
 FR100344,c92,jour,jour,NOUN,SN∅,Obl
 FR100344,c93,Vastarel,Vastarel,PROPN,Np,autre
-FR100344,c94,1 comprimé par jour,1,NUM,Autre,autre
+FR100344,c94,1 comprimé par jour,1,NUM,SNnum,autre
 FR100344,c95,jour,jour,NOUN,SN∅,Obl
 FR100344,c96,Captopril,Captopril,PROPN,Np,autre
-FR100344,c97,1 comprimé par jour,1,NUM,Autre,autre
+FR100344,c97,1 comprimé par jour,1,NUM,SNnum,autre
 FR100344,c98,jour,jour,NOUN,SN∅,Obl
 FR100344,c99,Sintrom,Sintrom,PROPN,Np,autre
-FR100344,c100,1 comprimé par jour,1,NUM,Autre,autre
+FR100344,c100,1 comprimé par jour,1,NUM,SNnum,autre
 FR100344,c89,"Furosémide 2 comprimés par jour , Vastarel 1 comprimé par jour , Captopril 1 comprimé par jour Sintrom 1 comprimé par jour",Furosémide,PROPN,Np,autre
 FR100344,c101,jour,jour,NOUN,SN∅,Obl
 FR100344,c102,ce jour,jour,NOUN,SNdem,Obl
 FR100344,c104,la cavité abdominale,cavité,NOUN,SNdef,Obl
 FR100344,c55,le placenta laissé dans la cavité abdominale,placenta,NOUN,SNdef,autre
-FR100344,c105,le scanner,scanner,VERB,SNdef,autre
+FR100344,c105,le scanner,scanner,NOUN,SNdef,autre
 FR100344,c103,Un contrôle de le placenta laissé dans la cavité abdominale à le scanner,contrôle,NOUN,SNind,Suj
 FR100344,c106,un an,an,NOUN,SNnum,Obl
 FR100344,c107,un nodule intra ligamentaire droit,nodule,NOUN,SNind,Obl
@@ -1724,14 +1724,14 @@ FR100344,c110,suivi,suivi,NOUN,SN∅,autre
 FR100344,c111,cela,cela,PRON,Pro,Suj
 FR100344,c112,une interruption médicale de grossesse,interruption,NOUN,SNind,OD
 FR100344,c113,grossesse,grossesse,NOUN,SN∅,autre
-FR100344,c114,12 SA,SA,NOUN,SN∅,autre
+FR100344,c114,12 SA,SA,NOUN,SNnum,autre
 FR100344,c115,les chiffres tensionnels,chiffres,NOUN,SNdef,Suj
 FR100346,c2,39 ans,ans,NOUN,SNnum,Obl
 FR100346,c3,antécédents familiaux notables,antécédents,NOUN,SN∅,autre
 FR100346,c4,l' âge de 19 ans,âge,NOUN,SNdef,Obl
 FR100346,c6,un handicap moteur,handicap,NOUN,SNind,autre
 FR100346,c5,une SEP progressive à l' origine d' un handicap moteur,SEP,NOUN,SNind,Obl
-FR100346,c1,"Mlle B Z âgée de 39 ans , sans antécédents familiaux notables , est suivie depuis l' âge de 19 ans pour une SEP progressive à l' origine d' un handicap moteur",suivie,VERB,Np,autre
+FR100346,c1,"Mlle B Z âgée de 39 ans , sans antécédents familiaux notables",Mlle,NOUN,Np,Suj
 FR100346,c7,décembre 2012,décembre,NOUN,SN∅,Obl
 FR100346,c1,elle,elle,PRON,Pro,Suj
 FR100346,c8,nous,nous,PRON,Pro,OD
@@ -1767,7 +1767,7 @@ FR100346,c36,une pneumopathie bilatérale étendue et mal limitée,pneumopathie,
 FR100346,c37,une EP associée,EP,NOUN,SNind,autre
 FR100346,c38,un angioscanner thoracique,angioscanner,NOUN,SNind,Suj
 FR100346,c39,le diagnostic d' EP,diagnostic,NOUN,SNdef,OD
-FR100346,c37,EP,EP,PROPN,SN∅,autre
+FR100346,c37,EP,EP,PROPN,Np,autre
 FR100346,c40,un défect endoluminal lingulaire supérieur et inférieur,défect,NOUN,SNind,OD
 FR100346,c42,les deux poumons,poumons,NOUN,SNdef,Obl
 FR100346,c41,les lésions kystiques diffuses à les deux poumons,lésions,NOUN,SNdef,autre
@@ -1778,15 +1778,15 @@ FR100346,c46,thrombophlébite,thrombophlébite,NOUN,SN∅,OD
 FR100346,c47,L' IRM cérébro-médullaire,IRM,NOUN,SNdef,Suj
 FR100346,c48,la recherche de méningiome,recherche,NOUN,SNdef,autre
 FR100346,c49,méningiome,méningiome,NOUN,SN∅,autre
-FR100346,c5,une SEP,SEP,PROPN,Np,Obl
+FR100346,c5,une SEP,SEP,PROPN,SNind,Obl
 FR100346,c52,la substance blanche de siège péri-ventriculaire,substance,NOUN,SNdef,autre
-FR100346,c51,les hypersignaux de la substance blanche de siège péri-ventriculaire et en sous cortical,les,DET,SNdef,autre
+FR100346,c51,les hypersignaux de la substance blanche de siège péri-ventriculaire et en sous cortical,hypersignaux,NOUN,SNdef,autre
 FR100346,c50,une atrophie cérébrale et médullaire cadrant avec une SEP avec de les hypersignaux de la substance blanche de siège péri-ventriculaire et en sous cortical,atrophie,NOUN,SNind,OD
 FR100346,c53,Le scanner abdomino-pelvien,scanner,NOUN,SNdef,Suj
 FR100346,c55,10 x 8 x 6 cm de grand axe,cm,NOUN,SNnum,autre
 FR100346,c54,un angiomyolipome rénal gauche de 10 x 8 x 6 cm de grand axe,angiomyolipome,NOUN,SNind,OD
 FR100346,c57,sa,sa,DET,Poss,autre
-FR100346,c58,sa forme sporadique,forme,NOUN,Poss,autre
+FR100346,c58,sa forme sporadique,forme,NOUN,SNposs,autre
 FR100346,c57,une LAM dans sa forme sporadique,LAM,NOUN,SNind,autre
 FR100346,c56,Le diagnostic d' une LAM dans sa forme sporadique,diagnostic,NOUN,SNdef,Suj
 FR100346,c59,les anomalies scanographiques,anomalies,NOUN,SNdef,Obl
@@ -1794,7 +1794,7 @@ FR100346,c54,angiomyolipome rénal,angiomyolipome,NOUN,SN∅,autre
 FR100346,c60,la présence d' angiomyolipome rénal,présence,NOUN,SNdef,autre
 FR100346,c61,Le bilan de thrombophilie,bilan,NOUN,SNdef,Suj
 FR100346,c62,thrombophilie,thrombophilie,NOUN,SN∅,autre
-FR100346,c37,l' EP,EP,PROPN,Np,autre
+FR100346,c37,l' EP,EP,PROPN,SNdef,autre
 FR100346,c63,l' enquête étiologique de l' EP,enquête,NOUN,SNdef,autre
 FR100346,c64,Une héparinothérapie,héparinothérapie,NOUN,SNind,Suj
 FR100346,c66,anti-vitamine K,anti-vitamine,NOUN,SN∅,autre
@@ -1808,7 +1808,7 @@ FR100346,c73,l' état général,état,NOUN,SNdef,autre
 FR100346,c71,amélioration de l' état respiratoire et de l' état général,amélioration,NOUN,SN∅,autre
 FR100360,c2,62 ans,ans,NOUN,SNnum,Obl
 FR100360,c3,15 ans,ans,NOUN,SNnum,Obl
-FR100360,c4,2009,2009,NUM,Autre,Obl
+FR100360,c4,2009,2009,NUM,SNnum,Obl
 FR100360,c6,l' endomètre,endomètre,NOUN,SNdef,autre
 FR100360,c5,un adénocarcinome de l' endomètre,adénocarcinome,NOUN,SNind,Obl
 FR100360,c8,moyenne abondance,abondance,NOUN,SN∅,autre
@@ -1826,12 +1826,12 @@ FR100360,c14,L' examen anatomopathologique de la pièce opératoire,examen,NOUN,
 FR100360,c17,le myometre,myometre,NOUN,SNdef,autre
 FR100360,c16,l' épaisseur de le myometre,épaisseur,NOUN,SNdef,autre
 FR100360,c5,un adénocarcinome endometrioide moyennement différencié et infiltrant moins de 50 % de l' épaisseur de le myometre,adénocarcinome,NOUN,SNind,OD
-FR100360,c19,l' OMS,OMS,PROPN,Np,autre
+FR100360,c19,l' OMS,OMS,PROPN,SNdef,autre
 FR100360,c18,grade 3 de l' OMS,grade,NOUN,SN∅,autre
 FR100360,c13,Le curage ganglionnaire,curage,NOUN,SNdef,Suj
 FR100360,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100360,c20,stade IA,stade,NOUN,SN∅,autre
-FR100360,c22,la FIGO 2009,FIGO,PROPN,Np,autre
+FR100360,c22,la FIGO 2009,FIGO,PROPN,SNdef,autre
 FR100360,c21,la classification de la FIGO 2009,classification,NOUN,SNdef,autre
 FR100360,c25,le lit tumoral,lit,NOUN,SNdef,autre
 FR100360,c26,une dose de 46 Gy,dose,NOUN,SNind,autre
@@ -1871,7 +1871,7 @@ FR100360,c52,le bilan d' extension locorégional et à distance,bilan,NOUN,SNdef
 FR100360,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100360,c55,l' encéphale total,encéphale,NOUN,SNdef,autre
 FR100360,c56,une dose de 30Gy,dose,NOUN,SNind,Obl
-FR100360,c57,3 Gy /Fraction,Gy,PROPN,Np,autre
+FR100360,c57,3 Gy /Fraction,Gy,PROPN,SNnum,autre
 FR100360,c58,deux faisceaux latéraux droit et gauche,faisceaux,NOUN,SNnum,Obl
 FR100360,c60,"6 Mv,","Mv,",NOUN,SNnum,autre
 FR100360,c59,"les rayons X de 6 Mv,",rayons,NOUN,SNdef,autre
@@ -1882,12 +1882,12 @@ FR100360,c63,carboplatine,carboplatine,NOUN,SN∅,autre
 FR100360,c64,une bonne tolérance clinique et biologique,tolérance,NOUN,SNind,Obl
 FR100360,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100360,c1,sa,sa,DET,Poss,autre
-FR100360,c48,sa métastase,métastase,NOUN,Poss,autre
+FR100360,c48,sa métastase,métastase,NOUN,SNposs,autre
 FR100360,c23,le traitement de sa métastase,traitement,NOUN,SNdef,autre
 FR100360,c31,la fin de le traitement de sa métastase,fin,NOUN,SNdef,autre
 FR100360,c65,30 mois de la fin de le traitement de sa métastase,mois,NOUN,SNnum,autre
 FR100360,c66,un bon contrôle locorégional et à distance clinique et radiologique,contrôle,NOUN,SNind,autre
-FR100361,c1,Mme R.C,Mme,NOUN,SN∅,autre
+FR100361,c1,Mme R.C,Mme,NOUN,Np,autre
 FR100361,c2,48 ans,ans,NOUN,SNnum,Obl
 FR100361,c3,les urgences,urgences,NOUN,SNdef,Obl
 FR100361,c5,agitation,agitation,NOUN,SN∅,Obl
@@ -1903,11 +1903,11 @@ FR100361,c9,"une notion d' écoulement nasal clair , épisodique depuis 03 ans a
 FR100361,c13,notion de galactorrhée,notion,NOUN,SN∅,Suj
 FR100361,c14,galactorrhée,galactorrhée,NOUN,SN∅,autre
 FR100361,c16,insuffisance antéhypophysaire,insuffisance,NOUN,SN∅,autre
-FR100361,c15,d' autres signes d' insuffisance antéhypophysaire,signes,NOUN,Pro,autre
+FR100361,c15,d' autres signes d' insuffisance antéhypophysaire,signes,NOUN,SNind,autre
 FR100361,c17,On,On,PRON,Pro,Suj
 FR100361,c18,une stérilité primaire,stérilité,NOUN,SNind,OD
 FR100361,c1,son,son,DET,Poss,autre
-FR100361,c20,son admission,admission,NOUN,Poss,autre
+FR100361,c20,son admission,admission,NOUN,SNposs,autre
 FR100361,c19,L' examen à son admission,examen,NOUN,SNdef,Suj
 FR100361,c21,"une patiente agitée , confuse",patiente,NOUN,SNind,OD
 FR100361,c23,39 ° C,°,SYM,Autre,Obl
@@ -1926,7 +1926,7 @@ FR100361,c33,crâne,crâne,NOUN,SN∅,autre
 FR100361,c34,La ponction lombaire,ponction,NOUN,SNdef,Suj
 FR100361,c35,un liquide céphalorachidien,liquide,NOUN,SNind,OD
 FR100361,c35,son,son,DET,Poss,autre
-FR100361,c36,son étude cytologique,étude,NOUN,Poss,autre
+FR100361,c36,son étude cytologique,étude,NOUN,SNposs,autre
 FR100361,c38,8000 globules blancs / mm 3,globules,NOUN,SNnum,autre
 FR100361,c37,une méningite à 8000 globules blancs / mm 3,méningite,NOUN,SNind,OD
 FR100361,c39,prédominance polynucléaires neutrophiles,prédominance,NOUN,SN∅,autre
@@ -1937,9 +1937,9 @@ FR100361,c43,L' examen chimique,examen,NOUN,SNdef,Suj
 FR100361,c45,5.94 g/l,g/l,NOUN,SNnum,autre
 FR100361,c44,une hyperprotéinorachie à 5.94 g/l,hyperprotéinorachie,NOUN,SNind,OD
 FR100361,c46,une hypoglycorrachie à 0.01g/l,hypoglycorrachie,NOUN,SNind,autre
-FR100361,c47,0.01g/l,0.01g/l,NUM,Autre,autre
+FR100361,c47,0.01g/l,0.01g/l,NUM,SNnum,autre
 FR100361,c48,La culture bactérienne,culture,NOUN,SNdef,Suj
-FR100361,c49,un Streptococcus mitis,Streptococcus,PROPN,Np,OD
+FR100361,c49,un Streptococcus mitis,Streptococcus,PROPN,SNind,OD
 FR100361,c50,La protéine C réactive,protéine,NOUN,SNdef,Suj
 FR100361,c50,CRP,CRP,NOUN,SN∅,autre
 FR100361,c51,300mg / L,300mg,NOUN,SN∅,Obl
@@ -1953,7 +1953,7 @@ FR100361,c1,la patiente,patiente,NOUN,SNdef,Suj
 FR100361,c57,une céphalosporine de 3 ème génération,céphalosporine,NOUN,SNind,Obl
 FR100361,c57,Ceftriaxone,Ceftriaxone,PROPN,Np,autre
 FR100361,c58,dose méningée,dose,NOUN,SN∅,autre
-FR100361,c59,6g par jour,6g,NUM,Autre,autre
+FR100361,c59,6g par jour,6g,NUM,SNnum,autre
 FR100361,c60,jour,jour,NOUN,SN∅,autre
 FR100361,c61,2 prises en IVL,prises,NOUN,SNnum,autre
 FR100361,c62,IVL,IVL,NOUN,SN∅,autre
@@ -1981,11 +1981,11 @@ FR100361,c82,thrombose veineuse,thrombose,NOUN,SN∅,autre
 FR100361,c81,signes de thrombose veineuse,signes,NOUN,SN∅,OD
 FR100361,c84,la région sellaire,région,NOUN,SNdef,autre
 FR100361,c27,la TDM,TDM,NOUN,SNdef,autre
-FR100361,c70,l' IRM,IRM,PROPN,Np,autre
+FR100361,c70,l' IRM,IRM,PROPN,SNdef,autre
 FR100361,c83,L' étude de la région sellaire à la TDM et à l' IRM,étude,NOUN,SNdef,Suj
 FR100361,c85,un processus hypophysaire,processus,NOUN,SNind,OD
-FR100361,c86,30mm x 24mm x 22mm,24mm,NUM,Autre,OD
-FR100361,c87,22mm,22mm,NUM,Autre,autre
+FR100361,c86,30mm x 24mm x 22mm,24mm,NUM,SNnum,OD
+FR100361,c87,22mm,22mm,NUM,SNnum,autre
 FR100361,c85,Il,Il,PRON,Pro,Suj
 FR100361,c88,le sinus caverneux droit,sinus,NOUN,SNdef,OD
 FR100361,c85,englobe,englobe,VERB,Sujet_zero,autre
@@ -2011,7 +2011,7 @@ FR100361,c103,une méningo-vascularite bactérienne,méningo-vascularite,NOUN,SN
 FR100361,c104,un adénome hypophysaire à prolactine,adénome,NOUN,SNind,OD
 FR100361,c102,celui d' une méningo-vascularite bactérienne révélant un adénome hypophysaire à prolactine,celui,PRON,Pro,autre
 FR100361,c105,prolactine,prolactine,NOUN,SN∅,autre
-FR100361,c107,la Cabergoline,Cabergoline,PROPN,Np,autre
+FR100361,c107,la Cabergoline,Cabergoline,PROPN,SNdef,autre
 FR100361,c106,Un traitement hormonal à base de la Cabergoline,traitement,NOUN,SNind,Suj
 FR100361,c108,1 mg / semaine,mg,NOUN,SNnum,autre
 FR100361,c109,semaine,semaine,NOUN,SN∅,autre
@@ -2043,7 +2043,7 @@ FR100361,c134,9600 éléments / mm 3,éléments,NOUN,SNnum,autre
 FR100361,c133,Globules blancs à 9600 éléments / mm 3,Globules,NOUN,SN∅,autre
 FR100361,c131,CRP à 17mg / L et Globules blancs à 9600 éléments / mm 3,CRP,NOUN,SN∅,autre
 FR100361,c135,La prolactinémie,prolactinémie,NOUN,SNdef,Suj
-FR100361,c136,19mg / dl,19mg,NUM,Autre,autre
+FR100361,c136,19mg / dl,19mg,NUM,SNnum,autre
 FR100361,c117,le traitement médical,traitement,NOUN,SNdef,autre
 FR100361,c137,3 mois de le traitement médical,mois,NOUN,SNnum,Obl
 FR100361,c1,la patiente,patiente,NOUN,SNdef,Suj
@@ -2071,13 +2071,13 @@ FR100371,c12,examen anatomo-pathologique,examen,NOUN,SN∅,Obl
 FR100371,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100371,c13,aucun antécédent particulier,antécédent,NOUN,SNind,OD
 FR100371,c1,son,son,DET,Poss,autre
-FR100371,c14,son admission,admission,NOUN,Poss,Obl
+FR100371,c14,son admission,admission,NOUN,SNposs,Obl
 FR100371,c1,elle,elle,PRON,Pro,Suj
 FR100371,c7,la tumeur,tumeur,NOUN,SNdef,autre
 FR100371,c15,le volume de la tumeur,volume,NOUN,SNdef,Suj
 FR100371,c16,les six derniers mois,mois,NOUN,SNdef,Obl
 FR100371,c1,ses,ses,DET,Poss,autre
-FR100371,c8,ses activités habituelles,activités,NOUN,Poss,OD
+FR100371,c8,ses activités habituelles,activités,NOUN,SNposs,OD
 FR100371,c12,l' examen,examen,NOUN,SNdef,Obl
 FR100371,c1,la patiente,patiente,NOUN,SNdef,Suj
 FR100371,c17,les mains chaudes et moites,mains,NOUN,SNdef,autre
@@ -2091,7 +2091,7 @@ FR100371,c22,La tension artérielle,tension,NOUN,SNdef,Suj
 FR100371,c23,160 / 80 mmHg,mmHg,NOUN,SNnum,autre
 FR100371,c24,la pulsation à 102 / minutes,pulsation,NOUN,SNdef,autre
 FR100371,c25,la fréquence respiratoire,fréquence,NOUN,SNdef,autre
-FR100371,c26,22 / minutes,22,NUM,Autre,autre
+FR100371,c26,22 / minutes,22,NUM,SNnum,autre
 FR100371,c28,18 x 14 cm,cm,NOUN,SNnum,autre
 FR100371,c27,Une tuméfaction médio-thoracique de 18 x 14 cm,tuméfaction,NOUN,SNind,Suj
 FR100371,c27,Cette lésion,lésion,NOUN,SNdem,Suj
@@ -2101,21 +2101,21 @@ FR100371,c7,La masse,masse,NOUN,SNdef,Suj
 FR100371,c31,consistance ferme,consistance,NOUN,SN∅,Obl
 FR100371,c32,la palpation,palpation,NOUN,SNdef,Obl
 FR100371,c7,sa,sa,DET,Poss,autre
-FR100371,c33,sa compression,compression,NOUN,Poss,Suj
+FR100371,c33,sa compression,compression,NOUN,SNposs,Suj
 FR100371,c34,une douleur sternale,douleur,NOUN,SNind,OD
 FR100371,c35,ganglions superficiels palpables,ganglions,NOUN,SN∅,OD
 FR100371,c36,L' examen électrocardiographique,examen,NOUN,SNdef,Suj
 FR100371,c37,une tachycardie sinusale,tachycardie,NOUN,SNind,OD
 FR100371,c38,Le bilan biologique,bilan,NOUN,SNdef,Suj
 FR100371,c40,un nombre de globule rouge,nombre,NOUN,SNind,OD
-FR100371,c41,3950000 / mm3,3950000,NUM,Autre,autre
+FR100371,c41,3950000 / mm3,3950000,NUM,SNnum,autre
 FR100371,c43,globule blanc,globule,NOUN,SN∅,autre
-FR100371,c44,7800 / mm 3,7800,NUM,Autre,autre
+FR100371,c44,7800 / mm 3,7800,NUM,SNnum,autre
 FR100371,c45,un taux de polynucléaire neutrophile,taux,NOUN,SNind,autre
 FR100371,c42,"un nombre de globule blanc à 7800 / mm 3 , un taux de polynucléaire neutrophile à 55 %",nombre,NOUN,SNind,autre
 FR100371,c46,un taux de polynucléaire éosinophile,taux,NOUN,SNind,autre
 FR100371,c39,"un nombre de globule rouge à 3950000 / mm3 , un nombre de globule blanc à 7800 / mm 3 , un taux de polynucléaire neutrophile à 55 % , un taux de polynucléaire éosinophile à 44 %",nombre,NOUN,SNind,OD
-FR100371,c48,lymphocyte,lymphocyte,NOUN,SN∅,autre
+FR100371,c48,lymphocyte,lymphocyte,NOUN,SNdef,autre
 FR100371,c49,41 %,%,SYM,Autre,autre
 FR100371,c47,un taux de lymphocyte de 41 %,taux,NOUN,SNind,autre
 FR100371,c51,saignement,saignement,NOUN,SN∅,autre
@@ -2128,7 +2128,7 @@ FR100371,c56,"0,6 mg / dl",mg,NOUN,SNnum,autre
 FR100371,c58,les hématies normales,hématies,NOUN,SNdef,autre
 FR100371,c57,une vitesse de sédimentation de les hématies normales,vitesse,NOUN,SNind,autre
 FR100371,c59,"une glycémie à 1,30g/l",glycémie,NOUN,SNind,autre
-FR100371,c60,"1,30g/l","1,30g/l",NUM,Autre,autre
+FR100371,c60,"1,30g/l","1,30g/l",NUM,SNnum,autre
 FR100371,c61,Le bilan morphologique,bilan,NOUN,SNdef,Suj
 FR100371,c63,incidence de face,incidence,NOUN,SN∅,Obl
 FR100371,c62,la radiographie thoracique standard prise en incidence de face,radiographie,NOUN,SNdef,Suj
@@ -2138,7 +2138,7 @@ FR100371,c65,une opacité homogène en projection sur l' ombre médiastinale,opa
 FR100371,c7,la masse,masse,NOUN,SNdef,autre
 FR100371,c67,incidence de profil,incidence,NOUN,SN∅,Obl
 FR100371,c65,l' opacité,opacité,NOUN,SNdef,Suj
-FR100371,c68,localisation pariétale pré-sternale,localisation,NOUN,SN∅,autre
+FR100371,c68,localisation pariétale pré-sternale,localisation,NOUN,SNdef,autre
 FR100371,c71,le sternum,sternum,NOUN,SNdef,autre
 FR100371,c70,la face antérieure de le sternum,face,NOUN,SNdef,autre
 FR100371,c69,une érosion de la face antérieure de le sternum,érosion,NOUN,SNind,Obl
@@ -2165,7 +2165,7 @@ FR100371,c7,la tumeur,tumeur,NOUN,SNdef,Suj
 FR100371,c27,La tumeur,tumeur,NOUN,SNdef,Suj
 FR100371,c85,consistance ferme,consistance,NOUN,SN∅,autre
 FR100371,c7,sa,sa,DET,Poss,autre
-FR100371,c86,sa partie antérieure,partie,NOUN,Poss,Obl
+FR100371,c86,sa partie antérieure,partie,NOUN,SNposs,Obl
 FR100371,c87,l' incision,incision,NOUN,SNdef,Obl
 FR100371,c7,la tumeur,tumeur,NOUN,SNdef,Suj
 FR100371,c88,l' ablation en bloc,ablation,NOUN,SNdef,Suj
@@ -2182,7 +2182,7 @@ FR100371,c95,Les paramètres biologiques,paramètres,NOUN,SNdef,Suj
 FR100371,c38,le bilan préopératoire,bilan,NOUN,SNdef,autre
 FR100371,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100371,c1,son,son,DET,Poss,autre
-FR100371,c77,son intervention,intervention,NOUN,Poss,autre
+FR100371,c77,son intervention,intervention,NOUN,SNposs,autre
 FR100371,c96,le dixième jour de son intervention,jour,NOUN,SNdef,Obl
 FR100371,c12,l' examen anatomo-pathologique,examen,NOUN,SNdef,autre
 FR100371,c97,Le résultat de l' examen anatomo-pathologique,résultat,NOUN,SNdef,Suj
@@ -2197,7 +2197,7 @@ FR100371,c102,Aucun examen pour vérifier la présence de la glande thyroïde no
 FR100371,c106,l' échographie,échographie,NOUN,SNdef,OD
 FR100371,c107,la scintigraphie,scintigraphie,NOUN,SNdef,autre
 FR100371,c105,l' échographie ou la scintigraphie,échographie,NOUN,SNdef,OD
-FR100400,c1,Madame Z.O,Madame,NOUN,SN∅,Suj
+FR100400,c1,Madame Z.O,Madame,NOUN,Np,Suj
 FR100400,c2,76 ans,ans,NOUN,SNnum,Obl
 FR100400,c4,le kyste hydatique,kyste,NOUN,SNdef,autre
 FR100400,c3,une zone endémique pour le kyste hydatique,zone,NOUN,SNind,Obl
@@ -2209,7 +2209,7 @@ FR100400,c9,3 ans,ans,NOUN,SNnum,autre
 FR100400,c11,l' hypochondre droit,hypochondre,NOUN,SNdef,autre
 FR100400,c10,les douleurs de l' hypochondre droit,douleurs,NOUN,SNdef,Obl
 FR100400,c1,Son,Son,DET,Poss,autre
-FR100400,c12,Son histoire,histoire,NOUN,Poss,Suj
+FR100400,c12,Son histoire,histoire,NOUN,SNposs,Suj
 FR100400,c13,3 mois,mois,NOUN,SNnum,Obl
 FR100400,c11,l' hypocondre droit,hypocondre,NOUN,SNdef,autre
 FR100400,c14,type de pesanteur,type,NOUN,SN∅,autre
@@ -2233,7 +2233,7 @@ FR100400,c29,injection de produit de contraste,injection,NOUN,SN∅,autre
 FR100400,c31,reconstruction coronale et sagittale,reconstruction,NOUN,SN∅,autre
 FR100400,c28,coupe axiale sans et avec injection de produit de contraste avec reconstruction coronale et sagittale,coupe,NOUN,SN∅,autre
 FR100400,c32,une masse kystique de densité liquidienne homogène de 50x40 mm,masse,NOUN,SNind,OD
-FR100400,c27,Le scanner abdominal en coupe axiale sans et avec injection de produit de contraste avec reconstruction coronale et sagittale avait montré une masse kystique de densité liquidienne homogène de 50x40 mm,montré,VERB,SNdef,autre
+FR100400,c27,Le scanner abdominal en coupe axiale sans et avec injection de produit de contraste avec reconstruction coronale et sagittale,scanner,NOUN,SNdef,Suj
 FR100400,c33,une paroi propre non rehaussée,paroi,NOUN,SNind,OD
 FR100400,c30,produit de contraste,produit,NOUN,SN∅,autre
 FR100400,c34,la loge surrénalienne droite,loge,NOUN,SNdef,autre
@@ -2277,7 +2277,7 @@ FR100400,c59,deux ans,ans,NOUN,SNnum,autre
 FR100400,c58,un recul de deux ans,recul,NOUN,SNind,Obl
 FR100400,c60,les contrôles,contrôles,NOUN,SNdef,Suj
 FR100400,c61,récidives,récidives,NOUN,SN∅,OD
-FR100439,c1,Mme A.K,Mme,NOUN,SN∅,Suj
+FR100439,c1,Mme A.K,Mme,NOUN,Np,Suj
 FR100439,c2,57 ans,ans,NOUN,SNnum,Obl
 FR100439,c3,antécédents pathologiques notables,antécédents,NOUN,SN∅,autre
 FR100439,c5,12 mois,mois,NOUN,SNnum,Obl
@@ -2295,7 +2295,7 @@ FR100439,c13,la partie inférieure de l' orifice tubaire droit,partie,NOUN,SNdef
 FR100439,c15,l' oropharynx,oropharynx,NOUN,SNdef,autre
 FR100439,c11,Cette tumeur,tumeur,NOUN,SNdem,Suj
 FR100439,c11,sa,sa,DET,Poss,autre
-FR100439,c16,toute sa surface,surface,NOUN,Poss,Obl
+FR100439,c16,toute sa surface,surface,NOUN,SNposs,Obl
 FR100439,c17,un dépôt pseudo-membraneux fibrinoïde,dépôt,NOUN,SNind,OD
 FR100439,c18,les prélèvements locaux par écouvillons,prélèvements,NOUN,SNdef,Suj
 FR100439,c19,écouvillons,écouvillons,NOUN,SN∅,autre
@@ -2303,7 +2303,7 @@ FR100439,c20,bactériologie,bactériologie,NOUN,SN∅,Obl
 FR100439,c18,Tous les prélèvements,prélèvements,NOUN,SNdef,Suj
 FR100439,c22,la Tuberculine,Tuberculine,NOUN,SNdef,autre
 FR100439,c21,l' IDR à la Tuberculine,IDR,NOUN,SNdef,Suj
-FR100439,c23,10mm,10mm,NUM,Autre,Obl
+FR100439,c23,10mm,10mm,NUM,SNnum,Obl
 FR100439,c24,L' IRM cervico-faciale,IRM,NOUN,SNdef,Suj
 FR100439,c26,le rhinopharynx,rhinopharynx,NOUN,SNdef,autre
 FR100439,c12,la paroi postérieure de le rhinopharynx,paroi,NOUN,SNdef,autre
@@ -2331,7 +2331,7 @@ FR100439,c42,Ces biopsies,biopsies,NOUN,SNdem,Suj
 FR100439,c44,fixateur,fixateur,NOUN,SN∅,Obl
 FR100439,c46,une analyse histologique classique,analyse,NOUN,SNind,autre
 FR100439,c47,une analyse après immuno-marquage,analyse,NOUN,SNind,autre
-FR100439,c45,"une part d' une analyse histologique classique , et d' autre part d' une analyse après immuno-marquage",part,NOUN,Pro,Obl
+FR100439,c45,"une part d' une analyse histologique classique , et d' autre part d' une analyse après immuno-marquage",part,NOUN,SNind,Obl
 FR100439,c47,Cette analyse anatomo-pathologique,analyse,NOUN,SNdem,Suj
 FR100439,c50,cellules immunitaires,cellules,NOUN,SN∅,autre
 FR100439,c51,structure folliculaire,structure,NOUN,SN∅,Obl
@@ -2357,7 +2357,7 @@ FR100439,c11,la lésion,lésion,NOUN,SNdef,autre
 FR100439,c67,La nature maligne de la lésion,nature,NOUN,SNdef,Suj
 FR100439,c69,Emission de Positons à le 18F-Fluorodéoxyglucose,Emission,NOUN,SN∅,autre
 FR100439,c68,une Tomographie par Emission de Positons à le 18F-Fluorodéoxyglucose,Tomographie,NOUN,SNind,Suj
-FR100439,c68,TEP,TEP,PROPN,SN∅,autre
+FR100439,c68,TEP,TEP,PROPN,Np,autre
 FR100439,c65,le lymphome,lymphome,NOUN,SNdef,autre
 FR100439,c70,l' extension régionale et à distance de le lymphome,extension,NOUN,SNdef,OD
 FR100439,c68,Cet examen,examen,NOUN,SNdem,Suj
@@ -2371,14 +2371,14 @@ FR100439,c74,le niveau de l' adénopathie de le groupe II droit,niveau,NOUN,SNde
 FR100439,c75,"SUV max = 6,9",=,SYM,Autre,autre
 FR100439,c76,aucune autre lésion,lésion,NOUN,SNind,Suj
 FR100439,c11,La tumeur,tumeur,NOUN,SNdef,Suj
-FR100439,c77,lymphome malin non hodgkinien à grandes cellules B,lymphome,NOUN,SN∅,autre
+FR100439,c77,lymphome malin non hodgkinien à grandes cellules B,lymphome,NOUN,SNdef,autre
 FR100439,c78,stade I E,stade,NOUN,SN∅,autre
 FR100439,c79,cavum,cavum,X,SN∅,autre
 FR100439,c81,Ann Arbor,Ann,PROPN,Np,autre
 FR100439,c80,la classification d' Ann Arbor,classification,NOUN,SNdef,Obl
 FR100439,c82,facteurs de pronostique défavorable,facteurs,NOUN,SN∅,Obl
-FR100439,c83,3,3,NUM,Autre,autre
-FR100439,c84,4,4,NUM,Autre,autre
+FR100439,c83,3,3,NUM,SNnum,autre
+FR100439,c84,4,4,NUM,SNnum,autre
 FR100439,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100439,c85,un traitement spécifique,traitement,NOUN,SNind,Obl
 FR100439,c87,3 cures CHOP,cures,NOUN,SNnum,Obl
@@ -2403,14 +2403,14 @@ FR100439,c11,la lésion tumorale,lésion,NOUN,SNdef,autre
 FR100439,c105,la disparition de la lésion tumorale,disparition,NOUN,SNdef,OD
 FR100439,c85,le traitement,traitement,NOUN,SNdef,autre
 FR100439,c106,la fin de le traitement,fin,NOUN,SNdef,Obl
-FR100439,c101,La nasofibroscopie et le scanner de le cavum ont montré la disparition de la lésion tumorale à la fin de le traitement,montré,VERB,SNdef,autre
+FR100439,c101,La nasofibroscopie et le scanner de le cavum,nasofibroscopie,NOUN,SNdef,Suj
 FR100439,c85,le traitement,traitement,NOUN,SNdef,autre
 FR100439,c106,la fin de le traitement,fin,NOUN,SNdef,autre
 FR100439,c107,Les contrôles périodiques endoscopique et radiologique après la fin de le traitement,contrôles,NOUN,SNdef,Suj
 FR100439,c108,une rémission clinique et paraclinique,rémission,NOUN,SNind,OD
 FR100439,c109,Le recul,recul,NOUN,SNdef,Suj
 FR100439,c110,8 ans,ans,NOUN,SNnum,autre
-FR100448,c1,Mme G.B,Mme,NOUN,SN∅,autre
+FR100448,c1,Mme G.B,Mme,NOUN,Np,autre
 FR100448,c2,51 ans,ans,NOUN,SNnum,Obl
 FR100448,c3,antécédents particuliers,antécédents,NOUN,SN∅,autre
 FR100448,c1,qui,qui,PRON,Pro,Suj
@@ -2445,14 +2445,14 @@ FR100448,c32,CK20,CK20,X,Autre,autre
 FR100448,c31,anticorps anti CK20 négatifs,anticorps,NOUN,SN∅,autre
 FR100448,c33,anticorps anti TTF1,anticorps,NOUN,SN∅,autre
 FR100448,c28,"les anticorps anti CK7 positifs , anticorps anti CK20 négatifs , anticorps anti TTF1 positifs",anticorps,NOUN,SNdef,autre
-FR100448,c35,NAPSIN A,NAPSIN,PROPN,SN∅,autre
+FR100448,c35,NAPSIN A,NAPSIN,PROPN,Np,autre
 FR100448,c34,anticorps anti NAPSIN A positifs,anticorps,NOUN,SN∅,autre
 FR100448,c37,thyroglobuline,thyroglobuline,X,SN∅,autre
 FR100448,c36,anticorps anti thyroglobuline négatifs,anticorps,NOUN,SN∅,autre
 FR100448,c38,Le scanner cervico-thoraco-abdomino-pelvien,scanner,NOUN,SNdef,Suj
 FR100448,c41,contours irréguliers,contours,NOUN,SN∅,autre
 FR100448,c40,densité tissulaire et à contours irréguliers,densité,NOUN,SN∅,autre
-FR100448,c43,le Fowler droit,Fowler,PROPN,Np,autre
+FR100448,c43,le Fowler droit,Fowler,PROPN,SNdef,autre
 FR100448,c42,le niveau de le Fowler droit,niveau,NOUN,SNdef,autre
 FR100448,c44,40\50 mm,mm,NOUN,SNnum,OD
 FR100448,c6,une masse de densité tissulaire et à contours irréguliers à le niveau de le Fowler droit mesurant 40\50 mm,masse,NOUN,SNind,autre
@@ -2465,15 +2465,15 @@ FR100448,c50,un foyer hyper métabolique,foyer,NOUN,SNind,autre
 FR100448,c48,la présence de la masse pulmonaire droite sur un foyer hyper métabolique,présence,NOUN,SNdef,OD
 FR100448,c51,"SUV max 7,54",SUV,NOUN,SN∅,autre
 FR100448,c52,"Volume métabolique 17,68 cm3",Volume,NOUN,SN∅,autre
-FR100448,c38,Le TEP scanner,TEP,PROPN,Np,Suj
+FR100448,c38,Le TEP scanner,TEP,PROPN,SNdef,Suj
 FR100448,c54,un hyper métabolisme hilaire droit,métabolisme,NOUN,SNind,autre
 FR100448,c53,la présence d' un hyper métabolisme hilaire droit,présence,NOUN,SNdef,OD
-FR100448,c55,"SUV max 5,56",SUV,PROPN,SN∅,autre
+FR100448,c55,"SUV max 5,56",SUV,PROPN,Np,autre
 FR100448,c56,une adénopathie hyper métabolique sous carinaire,adénopathie,NOUN,SNind,autre
 FR100448,c57,"SUV max 4,35",SUV,NOUN,SN∅,autre
 FR100448,c59,le trochanter fémoral droit,trochanter,NOUN,SNdef,autre
 FR100448,c58,un foyer hyper métabolique de le trochanter fémoral droit,foyer,NOUN,SNind,autre
-FR100448,c60,"SUV max 4,33",SUV,PROPN,SN∅,autre
+FR100448,c60,"SUV max 4,33",SUV,PROPN,Np,autre
 FR100448,c61,le niveau cervical,niveau,NOUN,SNdef,Obl
 FR100448,c38,le TEP scanner,TEP,X,SNdef,Suj
 FR100448,c63,la loge thyroïdienne postérieur gauche,loge,NOUN,SNdef,autre
@@ -2540,7 +2540,7 @@ FR100453,c32,thrombose de les veines superficielles de les membres supérieurs,t
 FR100453,c34,une évolution clinique favorable,évolution,NOUN,SNind,Obl
 FR100480,c2,55 ans,ans,NOUN,SNnum,Obl
 FR100480,c3,type II,type,NOUN,SN∅,autre
-FR100480,c1,Mme H.O âgée de 55 ans connue diabétique type II sous traitement,Mme,NOUN,SN∅,Obl
+FR100480,c1,Mme H.O âgée de 55 ans connue diabétique type II sous traitement,Mme,NOUN,Np,Obl
 FR100480,c4,traitement,traitement,NOUN,SN∅,Obl
 FR100480,c1,qui,qui,PRON,Pro,Suj
 FR100480,c5,une lésion ulcérée,lésion,NOUN,SNind,OD
@@ -2554,7 +2554,7 @@ FR100480,c11,L' installation d' une douleur,installation,NOUN,SNdef,Suj
 FR100480,c14,le site,site,NOUN,SNdef,autre
 FR100480,c13,le niveau de le site,niveau,NOUN,SNdef,autre
 FR100480,c1,la patiente,patiente,NOUN,SNdef,OD
-FR100480,c15,notre formation,formation,NOUN,Poss,Obl
+FR100480,c15,notre formation,formation,NOUN,SNposs,Obl
 FR100480,c16,un bilan clinique et radiologique,bilan,NOUN,SNind,Obl
 FR100480,c17,une biopsie,biopsie,NOUN,SNind,Suj
 FR100480,c18,L' analyse histologique,analyse,NOUN,SNdef,Suj
@@ -2573,24 +2573,24 @@ FR100480,c5,la lésion,lésion,NOUN,SNdef,autre
 FR100480,c29,la nature histologique de la lésion,nature,NOUN,SNdef,OD
 FR100480,c30,Un bilan d' extension,bilan,NOUN,SNind,Suj
 FR100480,c31,extension,extension,NOUN,SN∅,autre
-FR100480,c32,localisation secondaire,localisation,NOUN,SN∅,OD
+FR100480,c32,localisation secondaire,localisation,NOUN,SNdef,OD
 FR100480,c33,Aucun traitement complémentaire,traitement,NOUN,SNind,Suj
 FR100480,c35,l' évolution,évolution,NOUN,SNdef,Suj
 FR100480,c37,signe de récidive,signe,NOUN,SN∅,autre
 FR100480,c36,l' absence de signe de récidive,absence,NOUN,SNdef,Obl
 FR100480,c38,récidive,récidive,NOUN,SN∅,autre
 FR100480,c1,la patiente,patiente,NOUN,SNdef,Suj
-FR100480,c34,"6mois , l' évolution a été marquée par l' absence de signe de récidive , puis la patiente n' a pas été revue .",marquée,VERB,SN∅,autre
+FR100480,c34,"6mois , l' évolution",6mois,NOUN,SN∅,Obl
 FR100480,c39,Un an,an,NOUN,SNind,Obl
 FR100480,c1,la patiente,patiente,NOUN,SNdef,Suj
 FR100480,c24,l' amputation,amputation,NOUN,SNdef,autre
 FR100480,c40,le moignon de l' amputation,moignon,NOUN,SNdef,Suj
 FR100480,c40,son,son,DET,Poss,autre
-FR100480,c42,son volume,volume,NOUN,Poss,autre
+FR100480,c42,son volume,volume,NOUN,SNposs,autre
 FR100480,c41,augmentation de son volume,augmentation,NOUN,SN∅,Obl
 FR100480,c1,Elle,Elle,PRON,Pro,Suj
 FR100480,c43,la consultation,consultation,NOUN,SNdef,OD
-FR100480,c44,notre service,service,NOUN,Poss,Obl
+FR100480,c44,notre service,service,NOUN,SNposs,Obl
 FR100480,c45,L' examen clinique,examen,NOUN,SNdef,Suj
 FR100480,c40,le moignon,moignon,NOUN,SNdef,autre
 FR100480,c46,une tuméfaction de le moignon,tuméfaction,NOUN,SNind,OD
@@ -2609,14 +2609,14 @@ FR100480,c58,le carpe,carpe,NOUN,SNdef,OD
 FR100480,c57,une extension atteignant le carpe,extension,NOUN,SNind,OD
 FR100480,c59,Le bilan d' extension à distance,bilan,NOUN,SNdef,Suj
 FR100480,c60,une hyperfixation,hyperfixation,NOUN,SNind,OD
-FR100480,c62,la 8 ème cote,ème,ADJ,Pro,autre
+FR100480,c62,la 8 ème cote,ème,ADJ,SNdef,autre
 FR100480,c61,le niveau de la 8 ème cote,niveau,NOUN,SNdef,autre
 FR100480,c63,la scintigraphie,scintigraphie,NOUN,SNdef,autre
 FR100480,c64,Le scanner thoraco-abdomino-pelvien,scanner,NOUN,SNdef,Suj
 FR100480,c66,deux nodules pulmonaires,nodules,NOUN,SNnum,autre
 FR100480,c65,la présence de deux nodules pulmonaires,présence,NOUN,SNdef,OD
 FR100480,c69,positons,positons,NOUN,SN∅,autre
-FR100480,c70,le 18-FDG,18-FDG,PROPN,Np,autre
+FR100480,c70,le 18-FDG,18-FDG,PROPN,SNdef,autre
 FR100480,c68,émission de positons à le 18-FDG,émission,NOUN,SN∅,autre
 FR100480,c67,La Tomographie par émission de positons à le 18-FDG,Tomographie,NOUN,SNdef,Suj
 FR100480,c71,allure secondaire,allure,NOUN,SN∅,autre
@@ -2665,15 +2665,15 @@ FR100480,c106,la vie quotidienne,vie,NOUN,SNdef,autre
 FR100480,c105,la réadaptation rapide à la vie quotidienne,réadaptation,NOUN,SNdef,autre
 FR100480,c1,La patiente,patiente,NOUN,SNdef,Suj
 FR100480,c1,son,son,DET,Poss,autre
-FR100480,c107,son état clinique,état,NOUN,Poss,Suj
+FR100480,c107,son état clinique,état,NOUN,SNposs,Suj
 FR100480,c1,elle,elle,PRON,Pro,Suj
 FR100480,c1,sa,sa,DET,Poss,autre
-FR100480,c9,sa main,main,NOUN,Poss,autre
+FR100480,c9,sa main,main,NOUN,SNposs,autre
 FR100480,c108,la fonction de sa main,fonction,NOUN,SNdef,Obl
 FR100480,c108,qui,qui,PRON,Pro,Suj
-FR100480,c1,lui,lui,PRON,Pro,OI
+FR100480,c1,lui,lui,PRON,Pro,autre
 FR100480,c1,ses,ses,DET,Poss,autre
-FR100480,c109,ses taches quotidiennes,taches,NOUN,Poss,OD
+FR100480,c109,ses taches quotidiennes,taches,NOUN,SNposs,OD
 FR100510,c2,21 ans,ans,NOUN,SNnum,Obl
 FR100510,c3,antécédents pathologiques particuliers,antécédents,NOUN,SN∅,autre
 FR100510,c1,qui,qui,PRON,Pro,Suj
@@ -2689,7 +2689,7 @@ FR100510,c13,la scapula,scapula,NOUN,SNdef,autre
 FR100510,c12,accrochage de la scapula,accrochage,NOUN,SN∅,autre
 FR100510,c16,l' épaule droite,épaule,NOUN,SNdef,autre
 FR100510,c15,les mouvements de l' épaule droite,mouvements,NOUN,SNdef,autre
-FR100510,c14,limitation de les mouvements de l' épaule droite,limitation,NOUN,SN∅,autre
+FR100510,c14,limitation de les mouvements de l' épaule droite,limitation,NOUN,SNdef,autre
 FR100510,c11,sensation d' accrochage de la scapula et limitation de les mouvements de l' épaule droite,sensation,NOUN,SN∅,Obl
 FR100510,c17,La radiographie standard,radiographie,NOUN,SNdef,Suj
 FR100510,c13,la scapula,scapula,NOUN,SNdef,autre
@@ -2781,7 +2781,7 @@ FR100515,c22,les enzymes musculaires,enzymes,NOUN,SNdef,autre
 FR100515,c21,Le dosage de les enzymes musculaires,dosage,NOUN,SNdef,Suj
 FR100515,c23,une créatine phosphokinase,créatine,NOUN,SNind,OD
 FR100515,c23,CPK,CPK,NOUN,SN∅,autre
-FR100515,c24,1953 UI / L,UI,NOUN,SN∅,Obl
+FR100515,c24,1953 UI / L,UI,NOUN,SNnum,Obl
 FR100515,c26,la normale,normale,NOUN,SNdef,autre
 FR100515,c25,15 fois la normale,fois,NOUN,SNnum,autre
 FR100515,c27,une lactate déshydrogénase,lactate,NOUN,SNind,autre
@@ -2894,7 +2894,7 @@ FR100515,c98,les lésions de panniculite,lésions,NOUN,SNdef,autre
 FR100515,c122,nette régression de les lésions de panniculite,régression,NOUN,SN∅,autre
 FR100515,c120,stabilisation puis nette régression de les lésions de panniculite,stabilisation,NOUN,SN∅,Obl
 FR100515,c123,Trois mois,mois,NOUN,SNnum,autre
-FR100515,c114,les Ig IV,Ig,PROPN,Np,autre
+FR100515,c114,les Ig IV,Ig,PROPN,SNdef,autre
 FR100515,c124,l' arrêt de les Ig IV,arrêt,NOUN,SNdef,Obl
 FR100515,c98,les lésions de panniculite,lésions,NOUN,SNdef,autre
 FR100515,c125,une reprise évolutive de les lésions de panniculite,reprise,NOUN,SNind,OD
@@ -2904,8 +2904,8 @@ FR100515,c126,la réintroduction mensuelle d' Ig IV,réintroduction,NOUN,SNdef,O
 FR100515,c115,6 cures,cures,NOUN,SNnum,autre
 FR100515,c118,une rémission,rémission,NOUN,SNind,autre
 FR100515,c119,la première cure,cure,NOUN,SNdef,autre
-FR100517,c1,Madame H. 29 ans,Madame,NOUN,SN∅,Suj
-FR100517,c3,notre centre hospitalier,centre,NOUN,Poss,autre
+FR100517,c1,Madame H. 29 ans,Madame,NOUN,Np,Suj
+FR100517,c3,notre centre hospitalier,centre,NOUN,SNposs,autre
 FR100517,c2,le Service de Rhumatologie de notre centre hospitalier,Service,NOUN,SNdef,Obl
 FR100517,c5,arthralgies diffuses bilatérales et symétriques,arthralgies,NOUN,SN∅,autre
 FR100517,c4,poussée d' arthralgies diffuses bilatérales et symétriques,poussée,NOUN,SN∅,Obl
@@ -2980,14 +2980,14 @@ FR100517,c65,corticothérapie,corticothérapie,NOUN,SN∅,Obl
 FR100517,c64,corticothérapie et Imurel,corticothérapie,NOUN,SN∅,Obl
 FR100517,c66,Imurel,Imurel,PROPN,Np,autre
 FR100517,c1,son,son,DET,Poss,autre
-FR100517,c17,son asthénie,asthénie,NOUN,Poss,autre
+FR100517,c17,son asthénie,asthénie,NOUN,SNposs,autre
 FR100517,c68,les lésions cutanés,lésions,NOUN,SNdef,autre
 FR100517,c67,amélioration partielle de son asthénie et de les lésions cutanés,amélioration,NOUN,SN∅,Obl
 FR100517,c69,Quelques mois,mois,NOUN,SNind,autre
 FR100517,c71,traitement corticoïde d' entretien,traitement,NOUN,SN∅,autre
 FR100517,c70,la mise sous traitement corticoïde d' entretien,mise,NOUN,SNdef,Obl
 FR100517,c72,faible dose,dose,NOUN,SN∅,autre
-FR100517,c1,Madame H.,Madame,NOUN,SN∅,Suj
+FR100517,c1,Madame H.,Madame,NOUN,Np,Suj
 FR100517,c74,stade II de MRC,stade,NOUN,SN∅,autre
 FR100517,c75,MRC,MRC,NOUN,SN∅,autre
 FR100517,c76,une toux sèche,toux,NOUN,SNind,Obl
@@ -3010,9 +3010,9 @@ FR100517,c91,une meilleure étude parenchymateuse,étude,NOUN,SNind,Obl
 FR100517,c92,les opacités réticulo nodulaires,opacités,NOUN,SNdef,OD
 FR100517,c93,DDB par traction,DDB,NOUN,SN∅,autre
 FR100517,c94,traction,traction,NOUN,SN∅,autre
-FR100517,c95,la fibrose sous pleurale,la,DET,SNdef,autre
+FR100517,c95,la fibrose sous pleurale,fibrose,NOUN,SNdef,autre
 FR100517,c87,coupes millimétriques en haute résolution sans injection de produit de contraste ) réalisée pour meilleure étude parenchymateuse réalisée pour une meilleure étude parenchymateuse retrouvant les opacités réticulo nodulaires avec DDB par traction et de la fibrose sous pleurale,coupes,NOUN,SN∅,autre
-FR100517,c86,y,y,PRON,Pro,OI
+FR100517,c86,y,y,PRON,Pro,autre
 FR100517,c97,faible abondance,abondance,NOUN,SN∅,autre
 FR100517,c98,la région médiastinale antérieure,région,NOUN,SNdef,Obl
 FR100517,c99,péri tracheal,péri,NOUN,SN∅,autre
@@ -3120,13 +3120,13 @@ FR100519,c65,une thrombophlébite de le membre pelvien droit,thrombophlébite,NO
 FR100519,c64,Le diagnostic d' embolie pulmonaire compliquant une thrombophlébite de le membre pelvien droit,diagnostic,NOUN,SNdef,Suj
 FR100519,c38,l' enoxaparine,enoxaparine,NOUN,SNdef,autre
 FR100519,c67,L' héparinothérapie avec l' enoxaparine,héparinothérapie,NOUN,SNdef,Suj
-FR100519,c68,le Fluindione 20 mg / jour,Fluindione,PROPN,Np,Obl
+FR100519,c68,le Fluindione 20 mg / jour,Fluindione,PROPN,SNdef,Obl
 FR100519,c38,l' enoxaparine,enoxaparine,NOUN,SNdef,autre
 FR100519,c69,L' arrêt de l' enoxaparine,arrêt,NOUN,SNdef,Suj
 FR100519,c71,l' association enoxaparine-fluindione,association,NOUN,SNdef,autre
 FR100519,c70,le cinquième jour de l' association enoxaparine-fluindione,jour,NOUN,SNdef,Obl
 FR100519,c72,INR,INR,NOUN,SN∅,autre
-FR100519,c68,le Fluindione seul,Fluindione,PROPN,Np,autre
+FR100519,c68,le Fluindione seul,Fluindione,PROPN,SNdef,autre
 FR100519,c74,anticoagulation par le Fluindione seul,anticoagulation,NOUN,SN∅,autre
 FR100519,c73,le sixième jour d' anticoagulation par le Fluindione seul,jour,NOUN,SNdef,Obl
 FR100519,c76,l' hypocondre droit,hypocondre,NOUN,SNdef,autre
@@ -3204,16 +3204,16 @@ FR100579,c19,Le bilan d' extension et la recherche étiologique,bilan,NOUN,SNdef
 FR100579,c23,la pièce opératoire,pièce,NOUN,SNdef,autre
 FR100579,c22,L' étude anatomo-pathologique de la pièce opératoire,étude,NOUN,SNdef,Suj
 FR100579,c24,les lésions non spécifiques,lésions,NOUN,SNdef,Obl
-FR100589,c1,Mr M.A âgé de 53 ans,Mr,NOUN,SN∅,autre
+FR100589,c1,Mr M.A âgé de 53 ans,Mr,NOUN,Np,autre
 FR100589,c1,son,son,DET,Poss,autre
-FR100589,c3,son entourage,entourage,NOUN,Poss,Obl
+FR100589,c3,son entourage,entourage,NOUN,SNposs,Obl
 FR100589,c2,contage tuberculeux connu récent dans son entourage,contage,NOUN,SN∅,autre
 FR100589,c4,habitudes toxiques,habitudes,NOUN,SN∅,autre
 FR100589,c5,exposition professionnelle particulière,exposition,NOUN,SN∅,autre
 FR100589,c1,Le patient,patient,NOUN,SNdef,Suj
 FR100589,c6,3 mois,mois,NOUN,SNnum,Obl
 FR100589,c1,son,son,DET,Poss,autre
-FR100589,c7,son hospitalisation,hospitalisation,NOUN,Poss,Obl
+FR100589,c7,son hospitalisation,hospitalisation,NOUN,SNposs,Obl
 FR100589,c9,hémoptysies,hémoptysies,NOUN,SN∅,Obl
 FR100589,c10,les douleurs thoraciques diffuses peu intenses,douleurs,NOUN,SNdef,Obl
 FR100589,c11,une dyspnée d' effort,dyspnée,NOUN,SNind,autre
@@ -3258,7 +3258,7 @@ FR100589,c43,une infection à germes banals,infection,NOUN,SNind,autre
 FR100589,c46,une maladie de système,maladie,NOUN,SNind,autre
 FR100589,c48,une sarcoïdose,sarcoïdose,NOUN,SNind,autre
 FR100589,c48,sa,sa,DET,Poss,autre
-FR100589,c49,sa forme atypique,forme,NOUN,Poss,autre
+FR100589,c49,sa forme atypique,forme,NOUN,SNposs,autre
 FR100589,c50,une vascularite,vascularite,NOUN,SNind,autre
 FR100589,c47,une sarcoïdose dans sa forme atypique ou une vascularite,sarcoïdose,NOUN,SNind,autre
 FR100589,c45,Une détermination thoracique d' une maladie de système à savoir une sarcoïdose dans sa forme atypique ou une vascularite,détermination,NOUN,SNind,autre
@@ -3268,7 +3268,7 @@ FR100589,c53,une hémopathie maligne,hémopathie,NOUN,SNind,autre
 FR100589,c52,une détermination thoracique d' une hémopathie maligne,détermination,NOUN,SNind,OD
 FR100589,c41,tuberculose,tuberculose,NOUN,SN∅,autre
 FR100589,c56,notre,notre,DET,Poss,autre
-FR100589,c55,notre pays,pays,NOUN,Poss,autre
+FR100589,c55,notre pays,pays,NOUN,SNposs,autre
 FR100589,c54,le contexte endémique de tuberculose dans notre pays,contexte,NOUN,SNdef,Obl
 FR100589,c57,l' urgence,urgence,NOUN,SNdef,Suj
 FR100589,c58,le Bacille de Koch,Bacille,NOUN,SNdef,OD
@@ -3334,12 +3334,12 @@ FR100589,c109,qui,qui,PRON,Pro,Suj
 FR100589,c112,le frottis sanguin,frottis,NOUN,SNdef,Suj
 FR100589,c113,cellules de Sézary,cellules,NOUN,SN∅,OD
 FR100589,c115,les lactico-déshydrogénase,lactico-déshydrogénase,NOUN,SNdef,autre
-FR100589,c116,507 UI / L,UI,NOUN,SN∅,autre
+FR100589,c116,507 UI / L,UI,NOUN,SNnum,autre
 FR100589,c118,l' hépatite B,hépatite,NOUN,SNdef,autre
 FR100589,c119,cytomégalovirus,cytomégalovirus,NOUN,SN∅,autre
 FR100589,c117,"les sérologies virales de l' hépatite B , C , cytomégalovirus et HIV",sérologies,NOUN,SNdef,Suj
 FR100589,c114,"le taux de les lactico-déshydrogénase à 507 UI / L , les sérologies virales de l' hépatite B , C , cytomégalovirus et HIV",taux,NOUN,SNdef,Suj
-FR100589,c120,HIV,HIV,PROPN,SN∅,autre
+FR100589,c120,HIV,HIV,PROPN,Np,autre
 FR100589,c121,Le caryotype médullaire,caryotype,NOUN,SNdef,Suj
 FR100589,c122,la biopsie ostéo médullaire,biopsie,NOUN,SNdef,Suj
 FR100589,c123,une moelle de richesse normale,moelle,NOUN,SNind,OD
@@ -3391,7 +3391,7 @@ FR100597,c20,surface régulière,surface,NOUN,SN∅,autre
 FR100597,c17,la présence d' une masse pelvi-abdominale s' étalant de la fosse iliaque droite à la fosse iliaque gauche à surface régulière,présence,NOUN,SNdef,OD
 FR100597,c22,la symphyse pubienne,symphyse,NOUN,SNdef,autre
 FR100597,c21,le dessus de la symphyse pubienne,dessus,NOUN,SNdef,Obl
-FR100597,c23,20cm de diamétre,20cm,NUM,Autre,OD
+FR100597,c23,20cm de diamétre,20cm,NUM,SNnum,OD
 FR100597,c24,diamétre,diamétre,NOUN,SN∅,autre
 FR100597,c26,les seins,seins,NOUN,SNdef,autre
 FR100597,c25,L' examen de les seins,examen,NOUN,SNdef,Suj
@@ -3401,8 +3401,8 @@ FR100597,c28,L' examen à le speculum,examen,NOUN,SNdef,Suj
 FR100597,c30,un col macroscopiquement sain,col,NOUN,SNind,OD
 FR100597,c30,qui,qui,PRON,Pro,Suj
 FR100597,c30,son,son,DET,Poss,autre
-FR100597,c31,son relief,relief,NOUN,Poss,OD
-FR100597,c32,le toucher vaginal,toucher,VERB,SNdef,autre
+FR100597,c31,son relief,relief,NOUN,SNposs,OD
+FR100597,c32,le toucher vaginal,toucher,NOUN,SNdef,autre
 FR100597,c33,l' utérus,utérus,NOUN,SNdef,Suj
 FR100597,c35,une masse sus utérine,masse,NOUN,SNind,autre
 FR100597,c34,perception d' une masse sus utérine,perception,NOUN,SN∅,Obl
@@ -3420,8 +3420,8 @@ FR100597,c46,paroi calcifiée,paroi,NOUN,SN∅,autre
 FR100597,c33,un utérus de petite taille à paroi calcifiée,utérus,NOUN,SNind,OD
 FR100597,c50,structures tissulaires,structures,NOUN,SN∅,autre
 FR100597,c49,trois formations de structures tissulaires,formations,NOUN,SNnum,Obl
-FR100597,c51,5cm,5cm,NUM,Autre,OD
-FR100597,c52,"7,5cm","7,5cm",NUM,Autre,autre
+FR100597,c51,5cm,5cm,NUM,SNnum,OD
+FR100597,c52,"7,5cm","7,5cm",NUM,SNnum,autre
 FR100597,c48,"une masse polylobée composée de trois formations de structures tissulaires mesurant 5cm , 7,5cm et 10cm",masse,NOUN,SNind,autre
 FR100597,c47,"la présence d' une masse polylobée composée de trois formations de structures tissulaires mesurant 5cm , 7,5cm et 10cm",présence,NOUN,SNdef,autre
 FR100597,c53,10cm,10cm,NOUN,SN∅,autre
@@ -3429,7 +3429,7 @@ FR100597,c54,une hypervascularisation iliaque bilatérales,hypervascularisation,
 FR100597,c55,les ovaires,ovaires,NOUN,SNdef,Suj
 FR100597,c56,Nous,Nous,PRON,Pro,Suj
 FR100597,c56,notre,notre,DET,Poss,autre
-FR100597,c43,notre exploration,exploration,NOUN,Poss,OD
+FR100597,c43,notre exploration,exploration,NOUN,SNposs,OD
 FR100597,c58,un scanner abdomino-pelvien,scanner,NOUN,SNind,autre
 FR100597,c57,la réalisation d' un scanner abdomino-pelvien,réalisation,NOUN,SNdef,Obl
 FR100597,c58,qui,qui,PRON,Pro,Suj
@@ -3438,7 +3438,7 @@ FR100597,c48,une volumineuse masse de le pelvis,masse,NOUN,SNind,autre
 FR100597,c61,contours bien limités,contours,NOUN,SN∅,autre
 FR100597,c62,15 cm,cm,NOUN,SNnum,OD
 FR100597,c48,son,son,DET,Poss,autre
-FR100597,c63,son plus grand axe polylobée,axe,NOUN,Poss,Obl
+FR100597,c63,son plus grand axe polylobée,axe,NOUN,SNposs,Obl
 FR100597,c65,produit de contraste,produit,NOUN,SN∅,autre
 FR100597,c64,injection de produit de contraste,injection,NOUN,SN∅,Obl
 FR100597,c67,la nécrose,nécrose,NOUN,SNdef,autre
@@ -3490,7 +3490,7 @@ FR100597,c101,petite taille atrophique,taille,NOUN,SN∅,autre
 FR100597,c102,l' annexe droite,annexe,NOUN,SNdef,Suj
 FR100597,c103,anomalie,anomalie,NOUN,SN∅,autre
 FR100597,c104,On,On,PRON,Pro,Suj
-FR100597,c107,15cm,15cm,NUM,Autre,OD
+FR100597,c107,15cm,15cm,NUM,SNnum,OD
 FR100597,c109,la corne gauche,corne,NOUN,SNdef,autre
 FR100597,c108,le niveau de la corne gauche,niveau,NOUN,SNdef,Obl
 FR100597,c110,le ligament large,ligament,NOUN,SNdef,Obl
@@ -3579,7 +3579,7 @@ FR100611,c2,antécédent de tuberculose,antécédent,NOUN,SN∅,autre
 FR100611,c3,tuberculose,tuberculose,NOUN,SN∅,autre
 FR100611,c4,15 jours,jours,NOUN,SNnum,Obl
 FR100611,c1,son,son,DET,Poss,autre
-FR100611,c5,son admission,admission,NOUN,Poss,Obl
+FR100611,c5,son admission,admission,NOUN,SNposs,Obl
 FR100611,c7,le langage,langage,NOUN,SNdef,autre
 FR100611,c6,un trouble de le langage,trouble,NOUN,SNind,OD
 FR100611,c9,la fluence verbale,fluence,NOUN,SNdef,autre
@@ -3604,21 +3604,21 @@ FR100611,c26,le cortex adjacent,cortex,NOUN,SNdef,autre
 FR100611,c23,un épaississement de le cortex de l' insula et de le cortex adjacent,épaississement,NOUN,SNind,OD
 FR100611,c28,les méninges en regard,méninges,NOUN,SNdef,autre
 FR100611,c27,prise de contraste intense de les méninges en regard,prise,NOUN,SN∅,autre
-FR100611,c30,le LCR,LCR,PROPN,Np,autre
+FR100611,c30,le LCR,LCR,PROPN,SNdef,autre
 FR100611,c29,L' étude de le LCR,étude,NOUN,SNdef,Suj
 FR100611,c31,"une hyperproteinorachie à 0,808 g/L",hyperproteinorachie,NOUN,SNind,OD
 FR100611,c32,"une glycorachie à 0 , 305 g/L",glycorachie,NOUN,SNind,autre
 FR100611,c34,"0,957 g/L",g/L,NOUN,SNnum,autre
 FR100611,c33,"une glycémie de 0,957 g/L",glycémie,NOUN,SNind,autre
 FR100611,c35,"un rapport de 0,31 %",rapport,NOUN,SNind,autre
-FR100611,c37,280 leucocytes / mm3,leucocytes,NOUN,SNnum,autre
+FR100611,c37,280 leucocytes / mm3,leucocytes,NOUN,SNdef,autre
 FR100611,c38,une lymphocytose à 70 %,lymphocytose,NOUN,SNind,autre
 FR100611,c36,une pléiocytose à 280 leucocytes / mm3 avec une lymphocytose à 70 %,pléiocytose,NOUN,SNind,autre
 FR100611,c40,L' examen direct,examen,NOUN,SNdef,Suj
 FR100611,c41,les cultures,cultures,NOUN,SNdef,autre
 FR100611,c39,L' examen direct et les cultures,examen,NOUN,SNdef,Suj
-FR100611,c43,BK,BK,PROPN,SN∅,autre
-FR100611,c30,le LCR,LCR,PROPN,Np,autre
+FR100611,c43,BK,BK,PROPN,Np,autre
+FR100611,c30,le LCR,LCR,PROPN,SNdef,autre
 FR100611,c42,La PCR de BK dans le LCR,PCR,NOUN,SNdef,Suj
 FR100611,c44,La TDM thoracique,TDM,NOUN,SNdef,Suj
 FR100611,c46,les lobes supérieurs,lobes,NOUN,SNdef,Obl
@@ -3635,7 +3635,7 @@ FR100611,c54,La biopsie de les ganglions lymphatiques,biopsie,NOUN,SNdef,Suj
 FR100611,c57,granulome typique de tuberculose,granulome,NOUN,SN∅,autre
 FR100611,c56,la présence de granulome typique de tuberculose,présence,NOUN,SNdef,OD
 FR100611,c3,tuberculose,tuberculose,NOUN,SN∅,autre
-FR100611,c43,BK,BK,PROPN,SN∅,autre
+FR100611,c43,BK,BK,PROPN,Np,autre
 FR100611,c59,les crachats,crachats,NOUN,SNdef,autre
 FR100611,c58,La recherche de BK dans les crachats,recherche,NOUN,SNdef,Suj
 FR100611,c60,La sérologie HIV,sérologie,NOUN,SNdef,Suj
@@ -3674,11 +3674,11 @@ FR100611,c80,une bithérapie associant isoniazide et rifampicine pendant 7 mois 
 FR100614,c1,une patiente âgée de 24 ans,patiente,NOUN,SNind,Obl
 FR100614,c2,antécédent pathologique particulier,antécédent,NOUN,SN∅,autre
 FR100614,c1,ses,ses,DET,Poss,autre
-FR100614,c4,ses symptômes,symptômes,NOUN,Poss,autre
+FR100614,c4,ses symptômes,symptômes,NOUN,SNposs,autre
 FR100614,c3,le début de ses symptômes,début,NOUN,SNdef,Suj
 FR100614,c5,quatre mois,mois,NOUN,SNnum,Obl
 FR100614,c1,son,son,DET,Poss,autre
-FR100614,c6,son admission,admission,NOUN,Poss,Obl
+FR100614,c6,son admission,admission,NOUN,SNposs,Obl
 FR100614,c9,une augmentation progressivedu volume abdominopelvien,augmentation,NOUN,SNind,Obl
 FR100614,c8,type de pesanteur d' aggravationprogressive associé à une augmentation progressivedu volume abdominopelvien,type,NOUN,SN∅,autre
 FR100614,c7,une douleur pelvienne à type de pesanteur d' aggravationprogressive associé à une augmentation progressivedu volume abdominopelvien,douleur,NOUN,SNind,Obl
@@ -3720,14 +3720,14 @@ FR100614,c44,30 cm de diamètre,cm,NOUN,SNnum,autre
 FR100614,c45,les organes de voisinage,organes,NOUN,SNdef,Obl
 FR100614,c43,un kyste pelvien de 30 cm de diamètre adhérent à les organes de voisinage,kyste,NOUN,SNind,OD
 FR100614,c46,L' exploration péritonéale,exploration,NOUN,SNdef,Suj
-FR100614,c48,une autre localisation,localisation,NOUN,Pro,autre
-FR100614,c47,la recherche d' une autre localisation,recherche,NOUN,Pro,autre
+FR100614,c48,une autre localisation,localisation,NOUN,SNind,autre
+FR100614,c47,la recherche d' une autre localisation,recherche,NOUN,SNdef,autre
 FR100614,c49,Une rupture accidentelle,rupture,NOUN,SNind,Suj
 FR100614,c51,multiples vésicules filles,vésicules,NOUN,SN∅,autre
 FR100614,c50,issue de multiples vésicules filles,issue,NOUN,SN∅,Obl
 FR100614,c30,la masse,masse,NOUN,SNdef,autre
 FR100614,c30,ses,ses,DET,Poss,autre
-FR100614,c53,ses adhérences,adhérences,NOUN,Poss,autre
+FR100614,c53,ses adhérences,adhérences,NOUN,SNposs,autre
 FR100614,c52,la libération de la masse de ses adhérences,libération,NOUN,SNdef,OD
 FR100614,c42,L' intervention chirurgicale,intervention,NOUN,SNdef,Suj
 FR100614,c54,toutes les mesures de protection,mesures,NOUN,SNdef,Obl
@@ -3748,7 +3748,7 @@ FR100614,c65,gastroentérologie,gastroentérologie,NOUN,SN∅,autre
 FR100614,c67,trois ans,ans,NOUN,SNnum,autre
 FR100614,c66,un recul de trois ans,recul,NOUN,SNind,Obl
 FR100614,c68,récidive locale oupéritonéale,récidive,NOUN,SN∅,autre
-FR100620,c1,"Mr R.Y , âgé de 22 ans",Mr,NOUN,SN∅,autre
+FR100620,c1,"Mr R.Y , âgé de 22 ans",Mr,NOUN,Np,autre
 FR100620,c2,charges de profession,charges,NOUN,SN∅,autre
 FR100620,c3,Cannabis,Cannabis,PROPN,Np,autre
 FR100620,c4,antécédents,antécédents,NOUN,SN∅,Obl
@@ -3824,22 +3824,22 @@ FR100620,c61,le lingula,lingula,NOUN,SNdef,autre
 FR100620,c63,le lobe moyen,lobe,NOUN,SNdef,autre
 FR100620,c62,le segment latéral de le lobe moyen,segment,NOUN,SNdef,autre
 FR100620,c55,les deux pyramides basales,pyramides,NOUN,SNdef,autre
-FR100620,c56,"les lésions micronodulaires à contours flous intra parenchymateux et en sous pleural à contours flou étaient également retrouvées , intéressant le segment ventral de le lobe supérieur , le lingula , le segment latéral de le lobe moyen et les deux pyramides basales",retrouvées,VERB,SNdef,autre
+FR100620,c56,les lésions micronodulaires à contours flous intra parenchymateux et en sous pleural à contours flou,lésions,NOUN,SNdef,Suj
 FR100620,c64,L' aspect scannographique,aspect,NOUN,SNdef,Suj
-FR100620,c65,une HistiocytoseLangerhansienne .,HistiocytoseLangerhansienne,PROPN,Np,autre
+FR100620,c65,une HistiocytoseLangerhansienne .,HistiocytoseLangerhansienne,PROPN,SNind,autre
 FR100620,c66,Une bronchoscopie,bronchoscopie,NOUN,SNind,Suj
-FR100620,c67,lavage broncho alvéolaire LBA,lavage,NOUN,SN∅,Obl
+FR100620,c67,lavage broncho alvéolaire LBA,lavage,NOUN,SNdef,Obl
 FR100620,c68,LBA,LBA,X,SN∅,autre
 FR100620,c69,biopsies étagées à droite et à gauche,biopsies,NOUN,SN∅,autre
 FR100620,c70,L' aspect endoscopique,aspect,NOUN,SNdef,Suj
 FR100620,c69,les biopsies faites,biopsies,NOUN,SNdef,autre
-FR100620,c68,le LBA,LBA,PROPN,Np,autre
+FR100620,c68,le LBA,LBA,PROPN,SNdef,autre
 FR100620,c71,les résultats de les biopsies faites et de le LBA,résultats,NOUN,SNdef,autre
 FR100620,c72,Un bilan de retentissement,bilan,NOUN,SNind,Suj
 FR100620,c73,la pléthysmographie,pléthysmographie,NOUN,SNdef,Suj
 FR100620,c74,un trouble ventilatoire obstructif sévère non réversible après bronchodilatateurs,trouble,NOUN,SNind,OD
 FR100620,c75,bronchodilatateurs,bronchodilatateurs,NOUN,SN∅,autre
-FR100620,c76,"une Tiffeneau < 0,7",Tiffeneau,PROPN,Np,Obl
+FR100620,c76,"une Tiffeneau < 0,7",Tiffeneau,PROPN,SNind,Obl
 FR100620,c78,BD,BD,NOUN,SN∅,autre
 FR100620,c80,la théorique,théorique,NOUN,SNdef,autre
 FR100620,c79,45 % de la théorique,%,SYM,Autre,autre
@@ -3850,9 +3850,9 @@ FR100620,c82,le TM6M,TM6M,X,SNdef,Suj
 FR100620,c83,une distance parcourue,distance,NOUN,SNind,OD
 FR100620,c80,la théorique,théorique,NOUN,SNdef,autre
 FR100620,c84,70 % de la théorique,%,SYM,Autre,Obl
-FR100620,c87,l' Histiocytose,Histiocytose,PROPN,Np,autre
+FR100620,c87,l' Histiocytose,Histiocytose,PROPN,SNdef,autre
 FR100620,c86,les autres manifestations systémiques de l' Histiocytose,manifestations,NOUN,SNdef,autre
-FR100620,c85,Un bilan à la recherche de les autres manifestations systémiques de l' Histiocytose,bilan,NOUN,Pro,Suj
+FR100620,c85,Un bilan à la recherche de les autres manifestations systémiques de l' Histiocytose,bilan,NOUN,SNind,Suj
 FR100620,c31,le thorax,thorax,NOUN,SNdef,autre
 FR100620,c89,bassin,bassin,NOUN,SN∅,autre
 FR100620,c90,crâne,crâne,NOUN,SN∅,autre
@@ -3918,12 +3918,12 @@ FR100623,c25,volvulus de le mésentère,volvulus,NOUN,SN∅,Obl
 FR100623,c22,"une formation lipomateuse , bien limitée , exerçant un effet de masse sur le cœcum avec volvulus de le mésentère à le contact",formation,NOUN,SNind,Obl
 FR100623,c20,les vaisseaux mésentériques,vaisseaux,NOUN,SNdef,autre
 FR100623,c20,leur,leur,DET,Poss,autre
-FR100623,c28,leur origine,origine,NOUN,Poss,autre
+FR100623,c28,leur origine,origine,NOUN,SNposs,autre
 FR100623,c27,La disposition de les vaisseaux mésentériques à leur origine,disposition,NOUN,SNdef,Suj
 FR100623,c26,le mésentère,mésentère,NOUN,SNdef,autre
 FR100623,c25,volvulus de le mésentère,volvulus,NOUN,SN∅,autre
 FR100623,c29,Le diagnostic de volvulus de le mésentère sur lipome,diagnostic,NOUN,SNdef,Suj
-FR100623,c22,lipome,lipome,NOUN,SN∅,autre
+FR100623,c22,lipome,lipome,NOUN,SNdef,autre
 FR100623,c31,La prise en charge chirurgicale,prise,NOUN,SNdef,Suj
 FR100623,c33,la pièce opératoire,pièce,NOUN,SNdef,autre
 FR100623,c32,l' analyse anatomopathologique de la pièce opératoire,analyse,NOUN,SNdef,autre
@@ -3932,7 +3932,7 @@ FR100623,c29,le diagnostic,diagnostic,NOUN,SNdef,OD
 FR100623,c1,Nous,Nous,PRON,Pro,Suj
 FR100623,c2,ce cas clinique,cas,NOUN,SNdem,Obl
 FR100623,c13,l' échographie,échographie,NOUN,SNdef,autre
-FR100623,c35,le scanner,scanner,VERB,Pro,autre
+FR100623,c35,le scanner,scanner,NOUN,SNdef,autre
 FR100623,c34,l' apport de l' échographie et de le scanner,apport,NOUN,SNdef,OD
 FR100623,c26,le mésentère,mésentère,NOUN,SNdef,autre
 FR100623,c25,volvulus de le mésentère,volvulus,NOUN,SN∅,autre
@@ -3957,7 +3957,7 @@ FR100629,c14,"tachycarde à 138 battement par minute , SaO2 à 92 %",tachycarde,
 FR100629,c17,l' aire ambiant,aire,NOUN,SNdef,autre
 FR100629,c19,l' hémi thorax droit,hémi,NOUN,SNdef,autre
 FR100629,c18,un syndrome d' épanchement liquidien de l' hémi thorax droit,syndrome,NOUN,SNind,autre
-FR100629,c9,"L' examen physique à l' admission a objectivé une patiente polypniéque à 30 cycles / minute , tachycarde à 138 battement par minute , SaO2 à 92 % à l' aire ambiant , apyrétique , avec un syndrome d' épanchement liquidien de l' hémi thorax droit",objectivé,VERB,SNdef,autre
+FR100629,c9,L' examen physique à l' admission,examen,NOUN,SNdef,Suj
 FR100629,c20,une douleur exquise,douleur,NOUN,SNind,Obl
 FR100629,c23,la 5 ème cotes droites,ème,NOUN,SNdef,autre
 FR100629,c22,"la 3 ème , 4 ème et la 5 ème cotes droites",ème,NOUN,SNdef,autre
@@ -3995,13 +3995,13 @@ FR100629,c50,les marqueurs mélaniques,marqueurs,NOUN,SNdef,autre
 FR100629,c51,la protéine S100,protéine,NOUN,SNdef,autre
 FR100629,c52,Le bilan d' extension,bilan,NOUN,SNdef,Suj
 FR100629,c53,les métastases ganglionnaires et pulmonaires,métastases,NOUN,SNdef,Obl
-FR100629,c55,RCP,RCP,PROPN,SN∅,Obl
+FR100629,c55,RCP,RCP,PROPN,Np,Obl
 FR100629,c55,réunion de concertation pluridisciplinaire,réunion,NOUN,SN∅,autre
 FR100629,c56,une chimiothérapie systémique,chimiothérapie,NOUN,SNind,autre
 FR100629,c57,la bithérapie,bithérapie,NOUN,SNdef,autre
 FR100629,c58,doxorubicine 60mg / m 2,doxorubicine,NOUN,SN∅,autre
 FR100629,c59,J1,J1,X,Autre,autre
-FR100629,c60,l' Ifosfamide,Ifosfamide,PROPN,Np,autre
+FR100629,c60,l' Ifosfamide,Ifosfamide,PROPN,SNdef,autre
 FR100629,c61,la dose de 3g / m 2,dose,NOUN,SNdef,autre
 FR100629,c54,La décision thérapeutique prise en RCP ( réunion de concertation pluridisciplinaire ) était une chimiothérapie systémique à base de la bithérapie : doxorubicine 60mg / m 2 à J1 et l' Ifosfamide à la dose de 3g / m 2,chimiothérapie,NOUN,SNind,autre
 FR100629,c62,3 jours,jours,NOUN,SNnum,autre
@@ -4012,7 +4012,7 @@ FR100629,c1,la patiente,patiente,NOUN,SNdef,autre
 FR100629,c65,le décès de la patiente,décès,NOUN,SNdef,Obl
 FR100629,c66,quelques jours,jours,NOUN,SNind,autre
 FR100629,c1,sa,sa,DET,Poss,autre
-FR100629,c56,sa chimiothérapie,chimiothérapie,NOUN,Poss,autre
+FR100629,c56,sa chimiothérapie,chimiothérapie,NOUN,SNposs,autre
 FR100629,c68,le premier cycle de sa chimiothérapie,cycle,NOUN,SNdef,autre
 FR100629,c67,la fin de le premier cycle de sa chimiothérapie,fin,NOUN,SNdef,Obl
 FR100629,c70,détresse respiratoire,détresse,NOUN,SN∅,autre
@@ -4075,7 +4075,7 @@ FR100632,c49,L' étude de le liquide céphalorachidien,étude,NOUN,SNdef,Suj
 FR100632,c52,mm 3,mm,NOUN,SN∅,autre
 FR100632,c51,dont,dont,PRON,Pro,autre
 FR100632,c53,80 % de lymphocytes,%,SYM,Autre,autre
-FR100632,c54,lymphocytes,lymphocytes,NOUN,SN∅,autre
+FR100632,c54,lymphocytes,lymphocytes,NOUN,SNdef,autre
 FR100632,c55,"une albuminorachie à 0,5 g/l",albuminorachie,NOUN,SNind,autre
 FR100632,c56,"une glycorachie à 0,63 g/l",glycorachie,NOUN,SNind,autre
 FR100632,c51,"40 éléments / mm 3 dont 80 % de lymphocytes , une albuminorachie à 0,5 g/l , une glycorachie à 0,63 g/l",éléments,NOUN,SNnum,OD
@@ -4084,10 +4084,10 @@ FR100632,c60,milieux usuels,milieux,NOUN,SN∅,autre
 FR100632,c59,la culture sur milieux usuels,culture,NOUN,SNdef,autre
 FR100632,c61,la recherche virale,recherche,NOUN,SNdef,Suj
 FR100632,c62,le bacille de Koch,bacille,NOUN,SNdef,autre
-FR100632,c63,PCR,PCR,PROPN,SN∅,autre
+FR100632,c63,PCR,PCR,PROPN,Np,autre
 FR100632,c64,le LCR,LCR,NOUN,SNdef,autre
-FR100632,c57,"l' examen direct et la culture sur milieux usuels étaient négatifs , la recherche virale et de le bacille de Koch par PCR dans le LCR",négatifs,ADJ,Pro,autre
-FR100632,c64,le LCR,LCR,PROPN,Np,autre
+FR100632,c57,"l' examen direct et la culture sur milieux usuels étaient négatifs , la recherche virale et de le bacille de Koch par PCR dans le LCR",négatifs,ADJ,SNdef,autre
+FR100632,c64,le LCR,LCR,PROPN,SNdef,autre
 FR100632,c66,les protides de le LCR,protides,NOUN,SNdef,autre
 FR100632,c65,l' électrophorèse de les protides de le LCR,électrophorèse,NOUN,SNdef,Suj
 FR100632,c68,La numération formule sanguineet,numération,NOUN,SNdef,Suj
@@ -4098,9 +4098,9 @@ FR100632,c71,un taux de bilirubine totale,taux,NOUN,SNind,OD
 FR100632,c73,un temps de prothrombine,temps,NOUN,SNind,autre
 FR100632,c74,prothrombine,prothrombine,NOUN,SN∅,autre
 FR100632,c72,"Bilirubine direct: 2,09mg/l , un temps de prothrombine à 90 %",Bilirubine,NOUN,SN∅,autre
-FR100632,c75,les ASAT,ASAT,PROPN,Np,autre
+FR100632,c75,les ASAT,ASAT,PROPN,SNdef,autre
 FR100632,c76,16 UI/ l,l,NOUN,SNnum,autre
-FR100632,c77,les ALAT,ALAT,PROPN,Np,autre
+FR100632,c77,les ALAT,ALAT,PROPN,SNdef,autre
 FR100632,c78,20 UI/ l,l,NOUN,SNnum,autre
 FR100632,c79,les phosphatases alcalines,phosphatases,NOUN,SNdef,autre
 FR100632,c80,239 UI/l,UI/l,NOUN,SNnum,autre
@@ -4121,14 +4121,14 @@ FR100632,c95,La radiographie pulmonaire de face,radiographie,NOUN,SNdef,Suj
 FR100632,c96,la tomodensitométrie pulmonaire,tomodensitométrie,NOUN,SNdef,autre
 FR100632,c94,La radiographie pulmonaire de face et la tomodensitométrie pulmonaire,radiographie,NOUN,SNdef,Suj
 FR100632,c98,L' examen ophtalmologique,examen,NOUN,SNdef,Suj
-FR100632,c99,les PEV,PEV,PROPN,Np,autre
+FR100632,c99,les PEV,PEV,PROPN,SNdef,autre
 FR100632,c97,L' examen ophtalmologique ainsi que les PEV,examen,NOUN,SNdef,Suj
 FR100632,c100,le bilan thyroïdien,bilan,NOUN,SNdef,Suj
 FR100632,c103,la vitamine B12,vitamine,NOUN,SNdef,autre
 FR100632,c102,le taux de la vitamine B12,taux,NOUN,SNdef,Suj
 FR100632,c104,les folates,folates,NOUN,SNdef,autre
 FR100632,c101,le taux de la vitamine B12 et de les folates,taux,NOUN,SNdef,Suj
-FR100632,c106,HIV,HIV,PROPN,SN∅,autre
+FR100632,c106,HIV,HIV,PROPN,Np,autre
 FR100632,c107,la syphilis,syphilis,NOUN,SNdef,autre
 FR100632,c105,la sérologie HIV et de la syphilis,sérologie,NOUN,SNdef,Suj
 FR100632,c110,type immunoglobulines M,type,NOUN,SN∅,autre
@@ -4140,7 +4140,7 @@ FR100632,c115,l' herpes virus,herpes,NOUN,SNdef,autre
 FR100632,c116,le cytomégalovirus,cytomégalovirus,NOUN,SNdef,autre
 FR100632,c117,le virus zona varicelle,virus,NOUN,SNdef,autre
 FR100632,c118,l' hépatite C,hépatite,NOUN,SNdef,autre
-FR100632,c112,"la Borreliaburgdoferi , Rickettsiaconorii , le virus d' Epstein-Barr , l' herpes virus ( 1 et 2 ) , le cytomégalovirus , le virus zona varicelle et de l' hépatite C et B",Borreliaburgdoferi,PROPN,Np,autre
+FR100632,c112,"la Borreliaburgdoferi , Rickettsiaconorii , le virus d' Epstein-Barr , l' herpes virus ( 1 et 2 ) , le cytomégalovirus , le virus zona varicelle et de l' hépatite C et B",Borreliaburgdoferi,PROPN,SNdef,autre
 FR100632,c108,"la recherche de les anticorps de type immunoglobulines M dirigés contre Mycoplasmapneumoniae , la Borreliaburgdoferi , Rickettsiaconorii , le virus d' Epstein-Barr , l' herpes virus ( 1 et 2 ) , le cytomégalovirus , le virus zona varicelle et de l' hépatite C et B",recherche,NOUN,SNdef,Suj
 FR100632,c120,l' hépatite A,hépatite,NOUN,SNdef,autre
 FR100632,c119,la sérologie de l' hépatite A,sérologie,NOUN,SNdef,Suj
@@ -4171,12 +4171,12 @@ FR100632,c136,la récupération partielle de trouble de l' équilibre et de les 
 FR100658,c2,60 ans,ans,NOUN,SNnum,autre
 FR100658,c3,10 ans,ans,NOUN,SNnum,Obl
 FR100658,c4,broncho-pneumopathie chronique obstructive,broncho-pneumopathie,NOUN,SN∅,Obl
-FR100658,c4,BPCO,BPCO,PROPN,SN∅,autre
+FR100658,c4,BPCO,BPCO,PROPN,Np,autre
 FR100658,c6,bronchodilatateurs,bronchodilatateurs,NOUN,SN∅,autre
 FR100658,c7,corticoïdes inhalés,corticoïdes,NOUN,SN∅,autre
 FR100658,c5,traitement de fond à base de bronchodilatateurs et de corticoïdes inhalés,traitement,NOUN,SN∅,Obl
 FR100658,c1,"un patient de 60 ans , suivis depuis 10 ans pour broncho-pneumopathie chronique obstructive ( BPCO ) , bien équilibrée sous traitement de fond à base de bronchodilatateurs et de corticoïdes inhalés",patient,NOUN,SNind,Obl
-FR100658,c8,2013,2013,NUM,Autre,Obl
+FR100658,c8,2013,2013,NUM,SNnum,Obl
 FR100658,c12,la langue,langue,NOUN,SNdef,autre
 FR100658,c11,la base de la langue,base,NOUN,SNdef,autre
 FR100658,c10,une lésion de la base de la langue,lésion,NOUN,SNind,autre
@@ -4189,7 +4189,7 @@ FR100658,c17,42 paquets année,paquets,NOUN,SNnum,Obl
 FR100658,c15,un tabagisme chronique à raison de 42 paquets année,tabagisme,NOUN,SNind,OD
 FR100658,c18,un alcoolisme occasionnel,alcoolisme,NOUN,SNind,autre
 FR100658,c1,sa,sa,DET,Poss,autre
-FR100658,c20,sa symptomatologie,symptomatologie,NOUN,Poss,autre
+FR100658,c20,sa symptomatologie,symptomatologie,NOUN,SNposs,autre
 FR100658,c19,Le début de sa symptomatologie,début,NOUN,SNdef,Suj
 FR100658,c21,4 mois,mois,NOUN,SNnum,Obl
 FR100658,c24,traitement à base de corticoïdes,traitement,NOUN,SN∅,autre
@@ -4240,7 +4240,7 @@ FR100658,c59,L' évaluation pré-anesthésique,évaluation,NOUN,SNdef,Suj
 FR100658,c61,l' appareil respiratoire,appareil,NOUN,SNdef,autre
 FR100658,c60,l' examen de l' appareil respiratoire,examen,NOUN,SNdef,OD
 FR100658,c62,une dyspnée stade II de NYHA,dyspnée,NOUN,SNind,OD
-FR100658,c63,NYHA,NYHA,PROPN,SN∅,autre
+FR100658,c63,NYHA,NYHA,PROPN,Np,autre
 FR100658,c65,l' effort,effort,NOUN,SNdef,autre
 FR100658,c64,une tolérance modérée à l' effort,tolérance,NOUN,SNind,Obl
 FR100658,c67,les deux champs pulmonaires,champs,NOUN,SNdef,autre
@@ -4262,10 +4262,10 @@ FR100658,c78,critères d' intubation,critères,NOUN,SN∅,OD
 FR100658,c79,intubation,intubation,NOUN,SN∅,autre
 FR100658,c80,ventilation difficile décelable,ventilation,NOUN,SN∅,autre
 FR100658,c82,une bonne ouverture buccale,ouverture,NOUN,SNind,Obl
-FR100658,c83,un Mallampati I,Mallampati,PROPN,Np,autre
+FR100658,c83,un Mallampati I,Mallampati,PROPN,SNind,autre
 FR100658,c81,une bonne ouverture buccale et un Mallampati I,ouverture,NOUN,SNind,Obl
 FR100658,c84,une distance thyromentonniére supérieur à 6cm,distance,NOUN,SNind,autre
-FR100658,c85,6cm,6cm,NUM,Autre,Obl
+FR100658,c85,6cm,6cm,NUM,SNnum,Obl
 FR100658,c88,la formule sanguine,formule,NOUN,SNdef,autre
 FR100658,c87,une numération de la formule sanguine,numération,NOUN,SNind,autre
 FR100658,c89,une fonction rénale,fonction,NOUN,SNind,autre
@@ -4281,7 +4281,7 @@ FR100658,c98,le rythme,rythme,NOUN,SNdef,autre
 FR100658,c99,la fréquence cardiaque,fréquence,NOUN,SNdef,autre
 FR100658,c97,un enregistrement de le rythme et de la fréquence cardiaque,enregistrement,NOUN,SNind,OD
 FR100658,c69,la PNI,PNI,NOUN,SNdef,autre
-FR100658,c74,la Spo2,Spo2,PROPN,Np,autre
+FR100658,c74,la Spo2,Spo2,PROPN,SNdef,autre
 FR100658,c100,la capnographie,capnographie,NOUN,SNdef,autre
 FR100658,c96,"un monitorage classique contenant un enregistrement de le rythme et de la fréquence cardiaque , la PNI , la Spo2 ainsi que la capnographie",monitorage,NOUN,SNind,Suj
 FR100658,c102,le membre supérieur droit,membre,NOUN,SNdef,autre
@@ -4348,7 +4348,7 @@ FR100663,c13,métrorragies modérées,métrorragies,NOUN,SN∅,autre
 FR100663,c11,7 semaines d' aménorrhée ( SA ) de métrorragies modérées,semaines,NOUN,SNnum,autre
 FR100663,c14,une consultation,consultation,NOUN,SNind,OD
 FR100663,c1,notre,notre,DET,Poss,autre
-FR100663,c15,notre structure,structure,NOUN,Poss,Obl
+FR100663,c15,notre structure,structure,NOUN,SNposs,Obl
 FR100663,c10,"l' apparition à 7 semaines d' aménorrhée ( SA ) de métrorragies modérées , ayant motivé une consultation dans notre structure",apparition,NOUN,SNdef,Obl
 FR100663,c16,L' examen clinique,examen,NOUN,SNdef,Suj
 FR100663,c17,particularités,particularités,NOUN,SN∅,autre
@@ -4372,9 +4372,9 @@ FR100663,c34,voie trans-abdominale,voie,NOUN,SN∅,autre
 FR100663,c33,L' échographie obstétricale par voie trans-abdominale,échographie,NOUN,SNdef,Suj
 FR100663,c31,"un utérus antéversé , légèrement augmenté de taille",utérus,NOUN,SNind,OD
 FR100663,c32,taille,taille,NOUN,SN∅,Obl
-FR100663,c35,87x36mm,87x36mm,NUM,Autre,OD
+FR100663,c35,87x36mm,87x36mm,NUM,SNnum,OD
 FR100663,c37,un sac gestationnel tonique,sac,NOUN,SNind,autre
-FR100663,c38,39mm de diamètre,39mm,NUM,Autre,OD
+FR100663,c38,39mm de diamètre,39mm,NUM,SNnum,OD
 FR100663,c40,le canal cervical,canal,NOUN,SNdef,autre
 FR100663,c39,le niveau de le canal cervical,niveau,NOUN,SNdef,Obl
 FR100663,c41,un pôle supérieur,pôle,NOUN,SNind,autre
@@ -4383,9 +4383,9 @@ FR100663,c42,l' orifice interne de le col,orifice,NOUN,SNdef,OD
 FR100663,c36,"présence d' un sac gestationnel tonique , faisant 39mm de diamètre , siégeant à le niveau de le canal cervical , avec un pôle supérieur affleurant l' orifice interne de le col",présence,NOUN,SN∅,autre
 FR100663,c37,Le sac,sac,NOUN,SNdef,Suj
 FR100663,c44,activité cardiaque positive,activité,NOUN,SN∅,autre
-FR100663,c45,longueur cranio-caudale de 10mm,longueur,NOUN,SN∅,autre
+FR100663,c45,longueur cranio-caudale de 10mm,longueur,NOUN,SNdef,autre
 FR100663,c7,un embryon avec activité cardiaque positive et longueur cranio-caudale de 10mm,embryon,NOUN,SNind,OD
-FR100663,c46,10mm,10mm,NUM,Autre,autre
+FR100663,c46,10mm,10mm,NUM,SNnum,autre
 FR100663,c48,7SA+4 jours,jours,NOUN,SNnum,autre
 FR100663,c47,un âge gestationnel de 7SA+4 jours,âge,NOUN,SNind,Obl
 FR100663,c49,épanchement péritonéal,épanchement,NOUN,SN∅,OD
@@ -4411,10 +4411,10 @@ FR100663,c53,Méthotrexate,Méthotrexate,PROPN,Np,autre
 FR100663,c1,nous,nous,PRON,Pro,Suj
 FR100663,c66,un contrôle échographique,contrôle,NOUN,SNind,OD
 FR100663,c66,qui,qui,PRON,Pro,Suj
-FR100663,c68,45mm de diamètre,45mm,NUM,Autre,autre
+FR100663,c68,45mm de diamètre,45mm,NUM,SNnum,autre
 FR100663,c37,un sac gestationnel de 45mm de diamètre,sac,NOUN,SNind,autre
 FR100663,c44,activité cardiaque toujours positive,activité,NOUN,SN∅,autre
-FR100663,c70,longueur cranio-caudale,longueur,NOUN,SN∅,autre
+FR100663,c70,longueur cranio-caudale,longueur,NOUN,SNdef,autre
 FR100663,c71,l' âge gestationnel,âge,NOUN,SNdef,OD
 FR100663,c72,8 SA+3 jours,jours,NOUN,SNnum,Obl
 FR100663,c69,"un embryon avec activité cardiaque toujours positive , de longueur cranio-caudale projetant l' âge gestationnel à 8 SA+3 jours",embryon,NOUN,SNind,autre
@@ -4422,11 +4422,11 @@ FR100663,c67,"la présence d' un sac gestationnel de 45mm de diamètre , siège 
 FR100663,c3,La patiente,patiente,NOUN,SNdef,Suj
 FR100663,c73,un seul épisode de métrorragie minime,épisode,NOUN,SNind,OD
 FR100663,c3,son,son,DET,Poss,autre
-FR100663,c75,son hospitalisation,hospitalisation,NOUN,Poss,autre
+FR100663,c75,son hospitalisation,hospitalisation,NOUN,SNposs,autre
 FR100663,c74,le début de son hospitalisation,début,NOUN,SNdef,Obl
 FR100663,c1,Nous,Nous,PRON,Pro,Suj
 FR100663,c76,un traitement chirurgical par laparotomie,traitement,NOUN,SNind,OD
-FR100663,c77,laparotomie,laparotomie,NOUN,SN∅,autre
+FR100663,c77,laparotomie,laparotomie,NOUN,SNdef,autre
 FR100663,c26,l' ancienne cicatrice de type Pfannenstiel,cicatrice,NOUN,SNdef,autre
 FR100663,c78,reprise de l' ancienne cicatrice de type Pfannenstiel,reprise,NOUN,SN∅,Obl
 FR100663,c80,la cavité,cavité,NOUN,SNdef,autre
@@ -4453,7 +4453,7 @@ FR100663,c84,la face antérieure de l' utérus,face,NOUN,SNdef,autre
 FR100663,c83,la vessie de la face antérieure de l' utérus,vessie,NOUN,SNdef,OD
 FR100663,c96,l' hystérorraphie,hystérorraphie,NOUN,SNdef,autre
 FR100663,c95,le site de l' hystérorraphie,site,NOUN,SNdef,autre
-FR100663,c94,libération complète de le site de l' hystérorraphie,libération,NOUN,SN∅,Obl
+FR100663,c94,libération complète de le site de l' hystérorraphie,libération,NOUN,SNdef,Obl
 FR100663,c1,Nous,Nous,PRON,Pro,Suj
 FR100663,c83,l',l',PRON,Pro,OD
 FR100663,c97,environ 3 centimètres,centimètres,NOUN,SNnum,Obl
@@ -4461,7 +4461,7 @@ FR100663,c7,l' oeuf,oeuf,NOUN,SNdef,autre
 FR100663,c98,l' aspiration de l' oeuf,aspiration,NOUN,SNdef,Obl
 FR100663,c7,l',l',PRON,Pro,OD
 FR100663,c7,son,son,DET,Poss,autre
-FR100663,c41,son pôle supérieur,pôle,NOUN,Poss,Obl
+FR100663,c41,son pôle supérieur,pôle,NOUN,SNposs,Obl
 FR100663,c1,Nous,Nous,PRON,Pro,Suj
 FR100663,c99,la vacuité utérine,vacuité,NOUN,SNdef,OD
 FR100663,c37,le sac gestationnel,sac,NOUN,SNdef,autre
@@ -4473,16 +4473,16 @@ FR100663,c104,l' hémostase,hémostase,NOUN,SNdef,Suj
 FR100663,c105,difficultés,difficultés,NOUN,SN∅,Obl
 FR100663,c1,Nous,Nous,PRON,Pro,Suj
 FR100663,c107,les ligatures vasculaires,ligatures,NOUN,SNdef,autre
-FR100663,c106,libération de les ligatures vasculaires,libération,NOUN,SN∅,Obl
+FR100663,c106,libération de les ligatures vasculaires,libération,NOUN,SNdef,Obl
 FR100663,c108,les suites opératoires immédiates simples,suites,NOUN,SNdef,Obl
 FR100663,c3,la patiente,patiente,NOUN,SNdef,autre
 FR100663,c109,La sortie de la patiente,sortie,NOUN,SNdef,Suj
 FR100663,c110,le 5ème jour post-opératoire,jour,NOUN,SNdef,Obl
 FR100663,c111,une échographie de contrôle,échographie,NOUN,SNind,Obl
 FR100663,c113,taille normale,taille,NOUN,SN∅,autre
-FR100663,c114,74x31mm,74x31mm,NUM,Autre,autre
+FR100663,c114,74x31mm,74x31mm,NUM,SNnum,autre
 FR100663,c115,endomètre fin et régulier,endomètre,NOUN,SN∅,autre
-FR100663,c116,6mm d' épaisseur,6mm,NUM,Autre,OD
+FR100663,c116,6mm d' épaisseur,6mm,NUM,SNnum,OD
 FR100663,c117,une cavité utérine libre,cavité,NOUN,SNind,autre
 FR100663,c112,"un utérus de taille normale ( 74x31mm ) avec endomètre fin et régulier , mesurant 6mm d' épaisseur et une cavité utérine libre",utérus,NOUN,SNind,OD
 FR100663,c50,l' hCG plasmatique,hCG,NOUN,SNdef,autre
@@ -4497,7 +4497,7 @@ FR100666,c3,antécédents particuliers,antécédents,NOUN,SN∅,autre
 FR100666,c4,les tuméfactions gingivales,tuméfactions,NOUN,SNdef,Obl
 FR100666,c5,1 mois,mois,NOUN,SNnum,Obl
 FR100666,c6,les extractions dentaires,extractions,NOUN,SNdef,Obl
-FR100666,c1,"Un jeune homme âgé de 19 ans , sans antécédents particuliers est adressé pour de les tuméfactions gingivales évoluant depuis 1 mois suite à de les extractions dentaires",adressé,VERB,SNind,autre
+FR100666,c1,"Un jeune homme âgé de 19 ans , sans antécédents particuliers",homme,NOUN,SNind,Suj
 FR100666,c7,l' interrogatoire,interrogatoire,NOUN,SNdef,Obl
 FR100666,c1,le patient,patient,NOUN,SNdef,Suj
 FR100666,c8,un état général altéré,état,NOUN,SNind,OD
@@ -4572,7 +4572,7 @@ FR100666,c70,LDH,LDH,NOUN,SN∅,autre
 FR100666,c69,un taux de LDH à 931UI/l,taux,NOUN,SNind,OD
 FR100666,c72,le virus de l' immunodéficience humaine,virus,NOUN,SNdef,autre
 FR100666,c71,la sérologie pour le virus de l' immunodéficience humaine,sérologie,NOUN,SNdef,Suj
-FR100666,c72,VIH,VIH,PROPN,SN∅,autre
+FR100666,c72,VIH,VIH,PROPN,Np,autre
 FR100666,c73,Le myologramme,myologramme,NOUN,SNdef,Suj
 FR100666,c74,la cytoponction,cytoponction,NOUN,SNdef,Suj
 FR100666,c61,le lymphome de Burkitt,lymphome,NOUN,SNdef,autre
@@ -4603,7 +4603,7 @@ FR100666,c91,vincristine,vincristine,NOUN,SN∅,autre
 FR100666,c95,doxorubicine,doxorubicine,NOUN,SN∅,autre
 FR100666,c92,prédnisone,prédnisone,NOUN,SN∅,autre
 FR100666,c96,2 cures de CYVE,cures,NOUN,SNnum,autre
-FR100666,c97,CYVE,CYVE,PROPN,SN∅,autre
+FR100666,c97,CYVE,CYVE,PROPN,Np,autre
 FR100666,c98,"c cytarabine , étoposide",c,X,SN∅,autre
 FR100666,c99,étoposide,étoposide,NOUN,SN∅,autre
 FR100666,c100,9 séances de radiothérapie,séances,NOUN,SNnum,autre
@@ -4627,7 +4627,7 @@ FR100683,c4,une aménorrhée secondaire sans bouffées de chaleur,aménorrhée,N
 FR100683,c6,2 ans,ans,NOUN,SNnum,Obl
 FR100683,c3,galactorrhée associée à une aménorrhée secondaire sans bouffées de chaleur évoluant depuis 2 ans,galactorrhée,NOUN,SN∅,Obl
 FR100683,c1,ses,ses,DET,Poss,autre
-FR100683,c7,ses antécédents familiaux,antécédents,NOUN,Poss,Obl
+FR100683,c7,ses antécédents familiaux,antécédents,NOUN,SNposs,Obl
 FR100683,c8,on,on,PRON,Pro,Suj
 FR100683,c9,un diabète de type 2,diabète,NOUN,SNind,OD
 FR100683,c1,elle,elle,PRON,Pro,Suj
@@ -4674,13 +4674,13 @@ FR100683,c3,galactorrhée bilatérale,galactorrhée,NOUN,SN∅,autre
 FR100683,c43,syndrome dysmorphique,syndrome,NOUN,SN∅,autre
 FR100683,c42,absence de syndrome dysmorphique,absence,NOUN,SN∅,autre
 FR100683,c1,Son,Son,DET,Poss,autre
-FR100683,c44,Son exploration biologique,exploration,NOUN,Poss,Suj
+FR100683,c44,Son exploration biologique,exploration,NOUN,SNposs,Suj
 FR100683,c45,glycémie à jeun,glycémie,NOUN,SN∅,OD
 FR100683,c46,"5,99 mmol/l",mmol/l,NOUN,SNnum,autre
 FR100683,c48,"8,08 mmol/l",mmol/l,NOUN,SNnum,autre
 FR100683,c47,"glycémie post prandiale à 8,08 mmol/l",glycémie,NOUN,SN∅,autre
 FR100683,c49,créatinine sanguine,créatinine,NOUN,SN∅,autre
-FR100683,c50,43µmol/ l,43µmol/,NUM,Autre,autre
+FR100683,c50,43µmol/ l,43µmol/,NUM,SNnum,autre
 FR100683,c51,LDL cholestérol:,LDL,NOUN,SN∅,autre
 FR100683,c52,"4,77 mmol/l",mmol/l,NOUN,SNnum,autre
 FR100683,c53,L' exploration hormonale,exploration,NOUN,SNdef,Suj
@@ -4692,14 +4692,14 @@ FR100683,c59,"une TSH à 0,88m mUI / L",TSH,NOUN,SNind,autre
 FR100683,c54,"une hyperprolactinémie à 91 ng / ml ( 2735 mUI / L ) , avec une T4 libre à 10,3 pg / ml et une TSH à 0,88m mUI / L",hyperprolactinémie,NOUN,SNind,OD
 FR100683,c60,Le taux d' œstradiol,taux,NOUN,SNdef,Suj
 FR100683,c61,œstradiol,œstradiol,NOUN,SN∅,autre
-FR100683,c62,50pg / ml,50pg,NUM,Autre,autre
+FR100683,c62,50pg / ml,50pg,NUM,SNnum,autre
 FR100683,c64,la FSH,FSH,NOUN,SNdef,Suj
 FR100683,c65,la LH,LH,NOUN,SNdef,autre
 FR100683,c63,la FSH et la LH,FSH,NOUN,SNdef,Suj
-FR100683,c66,"15,1 UI / L",UI,NOUN,SN∅,autre
-FR100683,c67,"4,1 UI / L",UI,NOUN,SN∅,autre
+FR100683,c66,"15,1 UI / L",UI,NOUN,SNnum,autre
+FR100683,c67,"4,1 UI / L",UI,NOUN,SNnum,autre
 FR100683,c68,L' IRM hypophysaire,IRM,NOUN,SNdef,Suj
-FR100683,c70,8mm de diamètre,8mm,NUM,Autre,autre
+FR100683,c70,8mm de diamètre,8mm,NUM,SNnum,autre
 FR100683,c69,un micro adénome gauche de 8mm de diamètre,micro,NOUN,SNind,OD
 FR100683,c71,L' écho-mammographie,écho-mammographie,NOUN,SNdef,Suj
 FR100683,c72,une papillomatose diffuse bilatérale,papillomatose,NOUN,SNind,OD
@@ -4756,8 +4756,8 @@ FR100688,c18,"indice de masse corporel 18,62 kg / cm 2",indice,NOUN,SN∅,autre
 FR100688,c20,L' examen physique,examen,NOUN,SNdef,Suj
 FR100688,c4,une volumineuse tuméfaction dorsolombaire gauche ovalaire,tuméfaction,NOUN,SNind,OD
 FR100688,c22,grand axe,axe,NOUN,SN∅,autre
-FR100688,c23,12cm de petit axe,12cm,NUM,Autre,autre
-FR100688,c21,24cm de grand axe et 12cm de petit axe,24cm,NUM,Autre,OD
+FR100688,c23,12cm de petit axe,12cm,NUM,SNnum,autre
+FR100688,c21,24cm de grand axe et 12cm de petit axe,24cm,NUM,SNnum,OD
 FR100688,c24,"consistance molle , indolore , fluctuante , luisante non fistulisée",consistance,NOUN,SN∅,autre
 FR100688,c27,les épines dorsolombaires,épines,NOUN,SNdef,autre
 FR100688,c26,la palpation de les épines dorsolombaires,palpation,NOUN,SNdef,autre
@@ -4786,9 +4786,9 @@ FR100688,c47,les muscles de voisinage,muscles,NOUN,SNdef,OD
 FR100688,c45,la présence d' une collection liquidienne latéro-vertébrale infiltrant les muscles de voisinage,présence,NOUN,SNdef,OD
 FR100688,c49,le thoracique,thoracique,NOUN,SNdef,autre
 FR100688,c48,La radiographie de le thoracique,radiographie,NOUN,SNdef,Suj
-FR100688,c51,Le Scanner,Scanner,PROPN,Np,Suj
+FR100688,c51,Le Scanner,Scanner,PROPN,SNdef,Suj
 FR100688,c52,l' IRM rachidien,IRM,NOUN,SNdef,autre
-FR100688,c50,Le Scanner et l' IRM rachidien,Scanner,PROPN,Np,Suj
+FR100688,c50,Le Scanner et l' IRM rachidien,Scanner,PROPN,SNdef,Suj
 FR100688,c4,la tuméfaction,tuméfaction,NOUN,SNdef,autre
 FR100688,c53,une incision drainage de la tuméfaction,incision,NOUN,SNind,OD
 FR100688,c55,le prélèvement,prélèvement,NOUN,SNdef,autre
@@ -4830,7 +4830,7 @@ FR100689,c3,conduites addictives connues,conduites,NOUN,SN∅,autre
 FR100689,c1,Il,Il,PRON,Pro,Suj
 FR100689,c4,consultation psychiatrique,consultation,NOUN,SN∅,Obl
 FR100689,c1,son,son,DET,Poss,autre
-FR100689,c5,son frère,frère,NOUN,Poss,Obl
+FR100689,c5,son frère,frère,NOUN,SNposs,Obl
 FR100689,c6,un syndrome dépressif classique,syndrome,NOUN,SNind,Obl
 FR100689,c8,une humeur dépressive,humeur,NOUN,SNind,autre
 FR100689,c10,l' isolement,isolement,NOUN,SNdef,autre
@@ -4862,12 +4862,12 @@ FR100689,c31,un virage maniaque,virage,NOUN,SNind,OD
 FR100689,c27,l' apparition d' une désinhibition et exhibitionnisme en plus de la symptomatologie initiale faisant suspecter un virage maniaque,apparition,NOUN,SNdef,Obl
 FR100689,c1,son,son,DET,Poss,autre
 FR100689,c35,notre,notre,DET,Poss,autre
-FR100689,c34,notre formation,formation,NOUN,Poss,autre
-FR100689,c33,son admission dans notre formation,admission,NOUN,Poss,OD
+FR100689,c34,notre formation,formation,NOUN,SNposs,autre
+FR100689,c33,son admission dans notre formation,admission,NOUN,SNposs,OD
 FR100689,c32,ce qui a motivé son admission dans notre formation,ce,PRON,Pro,autre
 FR100689,c36,Une semaine,semaine,NOUN,SNind,Obl
 FR100689,c1,son,son,DET,Poss,autre
-FR100689,c37,son hospitalisation,hospitalisation,NOUN,Poss,Obl
+FR100689,c37,son hospitalisation,hospitalisation,NOUN,SNposs,Obl
 FR100689,c1,le patient,patient,NOUN,SNdef,Suj
 FR100689,c40,la paupière supérieure droite,paupière,NOUN,SNdef,autre
 FR100689,c39,une chute de la paupière supérieure droite avec diplopie,chute,NOUN,SNind,Obl
@@ -4877,7 +4877,7 @@ FR100689,c17,les céphalées,céphalées,NOUN,SNdef,autre
 FR100689,c44,l' intensité de les céphalées,intensité,NOUN,SNdef,autre
 FR100689,c43,une augmentation de l' intensité de les céphalées,augmentation,NOUN,SNind,autre
 FR100689,c38,"une symptomatologie neurologique faite d' une chute de la paupière supérieure droite avec diplopie , de les vomissements en jet et une augmentation de l' intensité de les céphalées",symptomatologie,NOUN,SNind,OD
-FR100689,c45,ce fait,ce,DET,SNdem,autre
+FR100689,c45,ce fait,fait,NOUN,SNdem,autre
 FR100689,c46,un avis neurologique,avis,NOUN,SNind,Suj
 FR100689,c47,l' examen neurologique,examen,NOUN,SNdef,Suj
 FR100689,c49,un syndrome méningé fébrile,syndrome,NOUN,SNind,OD
@@ -4898,7 +4898,7 @@ FR100689,c64,les valleés sylviennes,valleés,NOUN,SNdef,autre
 FR100689,c63,le niveau de les valleés sylviennes,niveau,NOUN,SNdef,Obl
 FR100689,c59,un épaississement et un rehaussement de les leptoméninges prédominant à le niveau de les valleés sylviennes,épaississement,NOUN,SNind,OD
 FR100689,c54,une hydrocéphalie,hydrocéphalie,NOUN,SNind,Obl
-FR100689,c66,le LCR,LCR,PROPN,Np,autre
+FR100689,c66,le LCR,LCR,PROPN,SNdef,autre
 FR100689,c65,L' étude de le LCR,étude,NOUN,SNdef,Suj
 FR100689,c68,"2,24 g/L",g/L,NOUN,SNnum,autre
 FR100689,c69,"une glycorachie à 0,2g / L",glycorachie,NOUN,SNind,autre
@@ -4908,7 +4908,7 @@ FR100689,c72,"un rapport de 0,21 %",rapport,NOUN,SNind,autre
 FR100689,c67,"une hyperprotéinorachie à 2,24 g/L , une glycorachie à 0,2g / L pour une glycémie de 0,95 g/L soit un rapport de 0,21 %",hyperprotéinorachie,NOUN,SNind,OD
 FR100689,c74,113 mmol/ L,mmol/,NOUN,SNnum,autre
 FR100689,c73,une hypochlorurorachie à 113 mmol/ L,hypochlorurorachie,NOUN,SNind,autre
-FR100689,c76,235 leucocytes / mm3,leucocytes,NOUN,SNnum,autre
+FR100689,c76,235 leucocytes / mm3,leucocytes,NOUN,SNdef,autre
 FR100689,c78,80 %,%,SYM,Autre,autre
 FR100689,c77,une lymphocytose à 80 %,lymphocytose,NOUN,SNind,autre
 FR100689,c75,une pléiocytose à 235 leucocytes / mm3 avec une lymphocytose à 80 %,pléiocytose,NOUN,SNind,autre
@@ -4917,7 +4917,7 @@ FR100689,c81,les cultures,cultures,NOUN,SNdef,autre
 FR100689,c79,L' examen direct et les cultures,examen,NOUN,SNdef,Suj
 FR100689,c66,le LCR,LCR,NOUN,SNdef,autre
 FR100689,c82,La PCR dans le LCR,PCR,NOUN,SNdef,Suj
-FR100689,c83,le Mycobactérium tuberculosis,Mycobactérium,PROPN,Np,Obl
+FR100689,c83,le Mycobactérium tuberculosis,Mycobactérium,PROPN,SNdef,Obl
 FR100689,c84,Le scanner thoracique,scanner,NOUN,SNdef,Suj
 FR100689,c87,condensation pulmonaires,condensation,NOUN,SN∅,autre
 FR100689,c88,les opacités nodulaires,opacités,NOUN,SNdef,Obl
@@ -4935,7 +4935,7 @@ FR100689,c97,l' IDR,IDR,NOUN,SNdef,Suj
 FR100689,c98,la tuberculine,tuberculine,NOUN,SNdef,autre
 FR100689,c97,intra dermoréaction à la tuberculine,dermoréaction,NOUN,SN∅,autre
 FR100689,c99,la recherche de BK,recherche,NOUN,SNdef,autre
-FR100689,c100,BK,BK,PROPN,SN∅,autre
+FR100689,c100,BK,BK,PROPN,Np,autre
 FR100689,c102,les crachats,crachats,NOUN,SNdef,autre
 FR100689,c103,les urines,urines,NOUN,SNdef,autre
 FR100689,c101,les crachats et les urines,crachats,NOUN,SNdef,autre
@@ -4991,7 +4991,7 @@ FR100697,c16,la palpation,palpation,NOUN,SNdef,autre
 FR100697,c17,on,on,PRON,Pro,Suj
 FR100697,c18,"une masse volumineuse , dure , régulière",masse,NOUN,SNind,OD
 FR100697,c19,tout le sein,sein,NOUN,SNdef,OD
-FR100697,c20,13cm / 10cm,13cm,NUM,Autre,OD
+FR100697,c20,13cm / 10cm,13cm,NUM,SNnum,OD
 FR100697,c21,les adénopathies axillaires homolatérales,adénopathies,NOUN,SNdef,Obl
 FR100697,c22,Le sein controlatéral,sein,NOUN,SNdef,Suj
 FR100697,c24,les autres aires ganglionnaires,aires,NOUN,SNdef,autre
@@ -5026,14 +5026,14 @@ FR100697,c47,une biopsie à le tricut de le sein gauche,biopsie,NOUN,SNind,autre
 FR100697,c50,cellules de grandes tailles,cellules,NOUN,SN∅,Obl
 FR100697,c51,un cytoplasme peu abondant et mal délimité,cytoplasme,NOUN,SNind,Obl
 FR100697,c49,un processus tumoral malin fait de cellules de grandes tailles pourvus d' un cytoplasme peu abondant et mal délimité,processus,NOUN,SNind,OD
-FR100697,c46,L' examen histologique d' une biopsie à le tricut de le sein gauche objective un processus tumoral malin fait de cellules de grandes tailles pourvus d' un cytoplasme peu abondant et mal délimité,objective,VERB,SNdef,autre
+FR100697,c46,L' examen histologique d' une biopsie à le tricut de le sein gauche,examen,NOUN,SNdef,Suj
 FR100697,c52,Les noyaux,noyaux,NOUN,SNdef,Suj
 FR100697,c53,quelques mitoses anormales,mitoses,NOUN,SNind,Suj
 FR100697,c50,Ces cellules,cellules,NOUN,SNdem,autre
 FR100697,c54,L' immunomarquage de Ces cellules,immunomarquage,NOUN,SNdef,Suj
 FR100697,c55,l' anticorps anti-cytokératine,anticorps,NOUN,SNdef,Obl
 FR100697,c56,AE1-AE3,AE1-AE3,NOUN,SN∅,autre
-FR100697,c57,DAKO,DAKO,PROPN,SN∅,autre
+FR100697,c57,DAKO,DAKO,PROPN,Np,autre
 FR100697,c58,l' anticorps anti-CD 3,anticorps,NOUN,SNdef,Obl
 FR100697,c54,il,il,PRON,Pro,Suj
 FR100697,c59,l' anticorps anti-CD20,anticorps,NOUN,SNdef,Obl
@@ -5064,7 +5064,7 @@ FR100708,c9,allaitement à le sein,allaitement,NOUN,SN∅,autre
 FR100708,c11,deux ans,ans,NOUN,SNnum,autre
 FR100708,c12,les deux enfants,enfants,NOUN,SNdef,autre
 FR100708,c3,sa,sa,DET,Poss,autre
-FR100708,c14,sa symptomatologie,symptomatologie,NOUN,Poss,autre
+FR100708,c14,sa symptomatologie,symptomatologie,NOUN,SNposs,autre
 FR100708,c13,Le début de sa symptomatologie,début,NOUN,SNdef,Suj
 FR100708,c15,l' âge de 21 ans,âge,NOUN,SNdef,Obl
 FR100708,c18,aménorrhée secondaire,aménorrhée,NOUN,SN∅,autre
@@ -5095,7 +5095,7 @@ FR100708,c37,8 ans de traitement,ans,NOUN,SNnum,Obl
 FR100708,c38,traitement,traitement,NOUN,SN∅,autre
 FR100708,c3,elle,elle,PRON,Pro,Suj
 FR100708,c3,son,son,DET,Poss,autre
-FR100708,c35,son médicament,médicament,NOUN,Poss,OD
+FR100708,c35,son médicament,médicament,NOUN,SNposs,OD
 FR100708,c3,elle-même,elle-même,PRON,Pro,autre
 FR100708,c3,la patiente,patiente,NOUN,SNdef,Suj
 FR100708,c41,le sein gauche,sein,NOUN,SNdef,autre
@@ -5106,14 +5106,14 @@ FR100708,c43,une année de sevrage,année,NOUN,SNnum,Obl
 FR100708,c44,sevrage,sevrage,NOUN,SN∅,autre
 FR100708,c3,elle,elle,PRON,Pro,Suj
 FR100708,c1,notre,notre,DET,Poss,autre
-FR100708,c45,notre service,service,NOUN,Poss,Obl
+FR100708,c45,notre service,service,NOUN,SNposs,Obl
 FR100708,c46,L' examen clinique,examen,NOUN,SNdef,Suj
 FR100708,c41,sein gauche augmenté de taille,sein,NOUN,SN∅,autre
 FR100708,c47,taille,taille,NOUN,SN∅,Obl
 FR100708,c49,consistance molle,consistance,NOUN,SN∅,autre
 FR100708,c48,masse de consistance molle,masse,NOUN,SN∅,autre
 FR100708,c41,tout le sein,sein,NOUN,SNdef,OD
-FR100708,c50,12cm/ 7,12cm/,NUM,Autre,OD
+FR100708,c50,12cm/ 7,12cm/,NUM,SNnum,OD
 FR100708,c51,les deux plans,plans,NOUN,SNdef,autre
 FR100708,c19,galactorrhée bilatérale,galactorrhée,NOUN,SN∅,autre
 FR100708,c52,le sein controlatéral,sein,NOUN,SNdef,Suj
@@ -5126,7 +5126,7 @@ FR100708,c41,le sein gauche,sein,NOUN,SNdef,autre
 FR100708,c57,les quadrants externes de le sein gauche,quadrants,NOUN,SNdef,OD
 FR100708,c59,densité moyenne,densité,NOUN,SN∅,autre
 FR100708,c58,contours réguliers de densité moyenne,contours,NOUN,SN∅,autre
-FR100708,c60,5.5/6.5/4.5cm,5.5/6.5/4.5cm,NUM,Autre,OD
+FR100708,c60,5.5/6.5/4.5cm,5.5/6.5/4.5cm,NUM,SNnum,OD
 FR100708,c61,L' échographie mammaire,échographie,NOUN,SNdef,Suj
 FR100708,c62,volumineuse collection,collection,NOUN,SN∅,autre
 FR100708,c41,le sein gauche,sein,NOUN,SNdef,autre
@@ -5137,7 +5137,7 @@ FR100708,c66,le doppler,doppler,NOUN,SNdef,Obl
 FR100708,c67,les canaux galactophoriques,canaux,NOUN,SNdef,Obl
 FR100708,c67,qui,qui,PRON,Pro,Suj
 FR100708,c62,cette collection,collection,NOUN,SNdem,Suj
-FR100708,c68,10.3/5.7cm,10.3/5.7cm,NUM,Autre,OD
+FR100708,c68,10.3/5.7cm,10.3/5.7cm,NUM,SNnum,OD
 FR100708,c3,La patiente,patiente,NOUN,SNdef,Suj
 FR100708,c70,le galactocèle,galactocèle,NOUN,SNdef,autre
 FR100708,c69,une ponction aspiration de le galactocèle,ponction,NOUN,SNind,Obl
@@ -5155,7 +5155,7 @@ FR100717,c5,1 an,an,NOUN,SNnum,Obl
 FR100717,c6,une douleur radiculaire de type S1 gauche,douleur,NOUN,SNind,Obl
 FR100717,c7,le même territoire,territoire,NOUN,SNdef,autre
 FR100717,c4,"les lombalgies évoluant depuis 1 an , secondairement associées à une douleur radiculaire de type S1 gauche et de paresthésies dans le même territoire",lombalgies,NOUN,SNdef,Obl
-FR100717,c1,"Un homme de 42 ans sans antécédent particulier avait consulté pour de les lombalgies évoluant depuis 1 an , secondairement associées à une douleur radiculaire de type S1 gauche et de paresthésies dans le même territoire",consulté,VERB,SNind,autre
+FR100717,c1,Un homme de 42 ans sans antécédent particulier,homme,NOUN,SNind,Suj
 FR100717,c9,palier 2,palier,NOUN,SN∅,Obl
 FR100717,c10,la rééducation fonctionnelle,rééducation,NOUN,SNdef,Obl
 FR100717,c11,2 mois,mois,NOUN,SNnum,Obl
@@ -5171,11 +5171,11 @@ FR100717,c19,L' examen physique,examen,NOUN,SNdef,Suj
 FR100717,c20,un bon état général,état,NOUN,SNind,OD
 FR100717,c21,un IMC = 24.07,=,SYM,Autre,autre
 FR100717,c22,78 kg,kg,NOUN,SNnum,autre
-FR100717,c23,1m80,1m80,NUM,Autre,autre
+FR100717,c23,1m80,1m80,NUM,SNnum,autre
 FR100717,c25,70 °,°,SYM,Autre,autre
 FR100717,c26,les deux côtés,côtés,NOUN,SNdef,autre
 FR100717,c27,déficit neurologique,déficit,NOUN,SN∅,autre
-FR100717,c24,un Lasègue à 70 ° de les deux côtés sans déficit neurologique,Lasègue,PROPN,Np,autre
+FR100717,c24,un Lasègue à 70 ° de les deux côtés sans déficit neurologique,Lasègue,PROPN,SNind,autre
 FR100717,c28,Les examens biologiques,examens,NOUN,SNdef,Suj
 FR100717,c29,une dyslipidémie modérée,dyslipidémie,NOUN,SNind,OD
 FR100717,c30,Cholestérol total,Cholestérol,NOUN,SN∅,Suj
@@ -5191,7 +5191,7 @@ FR100717,c39,les protusions discales,protusions,NOUN,SNdef,OD
 FR100717,c40,L3-L4,L3-L4,X,Autre,autre
 FR100717,c41,L4-L5,L4-L5,X,Autre,autre
 FR100717,c42,un canal étroit,canal,NOUN,SNind,Obl
-FR100717,c43,L' IRM,IRM,PROPN,Np,Suj
+FR100717,c43,L' IRM,IRM,PROPN,SNdef,Suj
 FR100717,c40,L3,L3,X,Autre,autre
 FR100717,c41,L5,L5,PROPN,Np,autre
 FR100717,c44,un débord discal,débord,NOUN,SNind,Obl
@@ -5239,7 +5239,7 @@ FR100748,c6,HTA,HTA,NOUN,SN∅,autre
 FR100748,c5,les antécédents d' hypertension artérielle ( HTA ) mal suivie,antécédents,NOUN,SNdef,autre
 FR100748,c1,"Une patiente paucigeste , âgée de 37 ans , pesant 70 kg et mesurant 170 cm , à les antécédents d' hypertension artérielle ( HTA ) mal suivie",patiente,NOUN,SNind,Suj
 FR100748,c7,consultation chirurgicale,consultation,NOUN,SN∅,Obl
-FR100748,c9,lombalgies droites,lombalgies,NOUN,SN∅,Obl
+FR100748,c9,lombalgies droites,lombalgies,NOUN,SNdef,Obl
 FR100748,c10,vertiges,vertiges,NOUN,SN∅,autre
 FR100748,c11,céphalées de sueurs,céphalées,NOUN,SN∅,autre
 FR100748,c8,"une symptomatologie faite de lombalgies droites , de vertiges , de céphalées de sueurs et de palpitations",symptomatologie,NOUN,SNind,Obl
@@ -5260,7 +5260,7 @@ FR100748,c25,la veine rénale droite,veine,NOUN,SNdef,autre
 FR100748,c23,la veine cave inférieure et la veine rénale droite,veine,NOUN,SNdef,OD
 FR100748,c27,l' acide vanyl-mandélique urinaire,acide,NOUN,SNdef,autre
 FR100748,c26,Le dosage de l' acide vanyl-mandélique urinaire,dosage,NOUN,SNdef,Suj
-FR100748,c27,VMA,VMA,PROPN,SN∅,autre
+FR100748,c27,VMA,VMA,PROPN,Np,autre
 FR100748,c28,"11,8mg/ 24heures",24heures,NOUN,SNnum,OD
 FR100748,c30,les catécholamines,catécholamines,NOUN,SNdef,autre
 FR100748,c29,Le dosage de les catécholamines,dosage,NOUN,SNdef,Suj
@@ -5277,14 +5277,14 @@ FR100748,c39,intubation non difficile,intubation,NOUN,SN∅,autre
 FR100748,c38,un critère prédictif d' intubation non difficile,critère,NOUN,SNind,autre
 FR100748,c38,Mallampati II,Mallampati,PROPN,Np,autre
 FR100748,c1,La patiente,patiente,NOUN,SNdef,Suj
-FR100748,c40,ASA III,ASA,PROPN,SN∅,autre
-FR100748,c15,la TA,TA,PROPN,Np,autre
+FR100748,c40,ASA III,ASA,PROPN,Np,autre
+FR100748,c15,la TA,TA,PROPN,SNdef,autre
 FR100748,c41,les chiffres élevés de la TA,chiffres,NOUN,SNdef,Obl
 FR100748,c1,la patiente,patiente,NOUN,SNdef,Suj
 FR100748,c43,Nicardipine 20 mg,Nicardipine,PROPN,Np,Obl
-FR100748,c44,1cp x 3 / j,1cp,NUM,Autre,autre
+FR100748,c44,1cp x 3 / j,1cp,NUM,SNnum,autre
 FR100748,c45,hydroxyzine 25 mg,hydroxyzine,NOUN,SN∅,autre
-FR100748,c46,1cp,1cp,NUM,Autre,autre
+FR100748,c46,1cp,1cp,NUM,SNnum,autre
 FR100748,c47,le soir,soir,NOUN,SNdef,autre
 FR100748,c48,le couché,couché,NOUN,SNdef,autre
 FR100748,c42,"Nicardipine 20 mg à raison de 1cp x 3 / j , hydroxyzine 25 mg à raison de 1cp le soir à le couché",Nicardipine,PROPN,Np,Obl
@@ -5292,25 +5292,25 @@ FR100748,c49,propranolol 10mg x 2/ j,propranolol,NOUN,SN∅,autre
 FR100748,c50,Une préparation colique,préparation,NOUN,SNind,Suj
 FR100748,c52,résidus,résidus,NOUN,SN∅,autre
 FR100748,c51,régime sans résidus et laxatifs,régime,NOUN,SN∅,OD
-FR100748,c53,laxatifs,laxatifs,NOUN,SN∅,autre
+FR100748,c53,laxatifs,laxatifs,NOUN,SNdef,autre
 FR100748,c1,la patiente,patiente,NOUN,SNdef,Obl
 FR100748,c54,salle opératoire,salle,NOUN,SN∅,Obl
 FR100748,c56,seringue électrique,seringue,NOUN,SN∅,autre
-FR100748,c55,la Nicardipine 1mg / ml en seringue électrique,Nicardipine,PROPN,Np,Suj
+FR100748,c55,la Nicardipine 1mg / ml en seringue électrique,Nicardipine,PROPN,SNdef,Suj
 FR100748,c58,Le furosémide 40 mg,furosémide,NOUN,SNdef,Suj
-FR100748,c59,l' Esmolol 250mg / ml,Esmolol,PROPN,Np,autre
-FR100748,c60,"12,5mg / ml","12,5mg",NUM,Autre,Obl
+FR100748,c59,l' Esmolol 250mg / ml,Esmolol,PROPN,SNdef,autre
+FR100748,c60,"12,5mg / ml","12,5mg",NUM,SNnum,Obl
 FR100748,c56,seringue électrique,seringue,NOUN,SN∅,autre
 FR100748,c61,la dopamine en seringue électrique,dopamine,NOUN,SNdef,autre
 FR100748,c57,"Le furosémide 40 mg , l' Esmolol 250mg / ml dilué à 12,5mg / ml et la dopamine en seringue électrique",furosémide,NOUN,SNdef,Suj
 FR100748,c62,10 mg/ ml/ h,mg/,NOUN,SNnum,autre
 FR100748,c63,L' induction anesthésique,induction,NOUN,SNdef,Suj
-FR100748,c64,l' etomidate,l',DET,SNdef,autre
-FR100748,c65,20mg,20mg,NUM,Autre,autre
+FR100748,c64,l' etomidate,etomidate,NOUN,SNdef,Obl
+FR100748,c65,20mg,20mg,NUM,SNnum,autre
 FR100748,c66,le vécuronium 4mg,vécuronium,NOUN,SNdef,autre
 FR100748,c67,le fentanyl 50 µg,fentanyl,NOUN,SNdef,autre
 FR100748,c39,L' intubation,intubation,NOUN,SNdef,Suj
-FR100748,c69,"7,0 CH",CH,NOUN,SN∅,autre
+FR100748,c69,"7,0 CH",CH,NOUN,SNnum,autre
 FR100748,c68,"une sonde 7,0 CH avec ballonnet",sonde,NOUN,SNind,Obl
 FR100748,c70,ballonnet,ballonnet,NOUN,SN∅,autre
 FR100748,c71,L' entretien anesthésique,entretien,NOUN,SNdef,Suj
@@ -5321,15 +5321,15 @@ FR100748,c66,le vécuronium,vécuronium,NOUN,SNdef,autre
 FR100748,c72,"le fentanyl , l' isoflurane , le midazolam et le vécuronium",fentanyl,NOUN,SNdef,OD
 FR100748,c76,l' hémodynamique,hémodynamique,NOUN,SNdef,autre
 FR100748,c75,La gestion de l' hémodynamique,gestion,NOUN,SNdef,Suj
-FR100748,c55,le Nicardipine 1mg / ml,Nicardipine,PROPN,Np,Obl
+FR100748,c55,le Nicardipine 1mg / ml,Nicardipine,PROPN,SNdef,Obl
 FR100748,c56,seringue électrique,seringue,NOUN,SN∅,autre
 FR100748,c58,le furosémide 40mg,furosémide,NOUN,SNdef,autre
 FR100748,c61,la dopamine 10mg/ ml/ h,dopamine,NOUN,SNdef,autre
 FR100748,c56,seringue électrique,seringue,NOUN,SN∅,autre
 FR100748,c77,l' intervention,intervention,NOUN,SNdef,Obl
 FR100748,c78,les chiffres tensionnels,chiffres,NOUN,SNdef,Suj
-FR100748,c79,119 / 110,119,NUM,Autre,autre
-FR100748,c16,130 / 80 mm de Hg,130,NUM,Autre,autre
+FR100748,c79,119 / 110,119,NUM,SNnum,autre
+FR100748,c16,130 / 80 mm de Hg,130,NUM,SNnum,autre
 FR100748,c81,la pression artérielle,pression,NOUN,SNdef,autre
 FR100748,c81,PNI,PNI,NOUN,SN∅,autre
 FR100748,c82,la saturation en oxygène,saturation,NOUN,SNdef,autre
@@ -5341,7 +5341,7 @@ FR100748,c85,l' électrocardiogramme,électrocardiogramme,NOUN,SNdef,autre
 FR100748,c86,la diurèse,diurèse,NOUN,SNdef,autre
 FR100748,c80,"Le monitorage non invasif de la pression artérielle ( PNI ) , de la saturation en oxygène ( SPO2 ) , de la capnométrie ( ETCO2 ) , de l' électrocardiogramme et de la diurèse",monitorage,NOUN,SNdef,Suj
 FR100748,c87,La surrénalectomie,surrénalectomie,NOUN,SNdef,Suj
-FR100748,c88,laparotomie médiane,laparotomie,NOUN,SN∅,Obl
+FR100748,c88,laparotomie médiane,laparotomie,NOUN,SNdef,Obl
 FR100748,c89,incision sus et sous ombilicale,incision,NOUN,SN∅,autre
 FR100748,c91,l' appendice xiphoïde,appendice,NOUN,SNdef,autre
 FR100748,c90,résection de l' appendice xiphoïde,résection,NOUN,SN∅,Obl
@@ -5370,14 +5370,14 @@ FR100748,c109,le traitement,traitement,NOUN,SNdef,autre
 FR100748,c108,la suite de le traitement,suite,NOUN,SNdef,Obl
 FR100748,c1,Elle,Elle,PRON,Pro,Suj
 FR100748,c1,son,son,DET,Poss,autre
-FR100748,c110,son domicile,domicile,NOUN,Poss,OD
+FR100748,c110,son domicile,domicile,NOUN,SNposs,OD
 FR100748,c111,J7 postopératoire,J7,PROPN,Np,Obl
 FR100748,c113,3 mois,mois,NOUN,SNnum,autre
 FR100748,c112,un recul de 3 mois,recul,NOUN,SNind,Obl
 FR100748,c1,la patiente,patiente,NOUN,SNdef,Suj
 FR100748,c114,signes cliniques,signes,NOUN,SN∅,OD
 FR100748,c1,ses,ses,DET,Poss,autre
-FR100748,c78,ses chiffres tensionnels,chiffres,NOUN,Poss,Suj
+FR100748,c78,ses chiffres tensionnels,chiffres,NOUN,SNposs,Suj
 FR100766,c1,Patient de 75 ans,Patient,NOUN,SN∅,autre
 FR100766,c2,antécédents pathologiques,antécédents,NOUN,SN∅,autre
 FR100766,c5,la marge anale,marge,NOUN,SNdef,autre
@@ -5398,7 +5398,7 @@ FR100766,c1,le patient,patient,NOUN,SNdef,Suj
 FR100766,c15,toute la journée,journée,NOUN,SNdef,Obl
 FR100766,c1,Il,Il,PRON,Pro,Suj
 FR100766,c1,sa,sa,DET,Poss,autre
-FR100766,c16,sa chirurgie,chirurgie,NOUN,Poss,Obl
+FR100766,c16,sa chirurgie,chirurgie,NOUN,SNposs,Obl
 FR100766,c1,il,il,PRON,Pro,Suj
 FR100766,c9,la CPC,CPC,NOUN,SNdef,OD
 FR100766,c17,la CIG définitive,CIG,NOUN,SNdef,Obl
@@ -5409,7 +5409,7 @@ FR100766,c20,l' orifice stomial,orifice,NOUN,SNdef,Obl
 FR100766,c20,où,où,PRON,Pro,autre
 FR100766,c1,son,son,DET,Poss,autre
 FR100766,c22,traitement chirurgicale,traitement,NOUN,SN∅,autre
-FR100766,c21,son hospitalisation pour traitement chirurgicale,hospitalisation,NOUN,Poss,Obl
+FR100766,c21,son hospitalisation pour traitement chirurgicale,hospitalisation,NOUN,SNposs,Obl
 FR100766,c22,Le traitement chirurgical,traitement,NOUN,SNdef,Suj
 FR100766,c1,le patient,patient,NOUN,SNdef,Suj
 FR100766,c25,une mucosectomie circulaire,mucosectomie,NOUN,SNind,autre
@@ -5418,11 +5418,11 @@ FR100766,c27,ce dernier,dernier,ADJ,Pro,autre
 FR100766,c28,les points séparés,points,NOUN,SNdef,autre
 FR100766,c26,une fixation de ce dernier par de les points séparés,fixation,NOUN,SNind,autre
 FR100766,c23,la réalisation d' une mucosectomie circulaire puis une fixation de ce dernier par de les points séparés,réalisation,NOUN,SNdef,Obl
-FR100780,c1,Madame Y.A,Madame,NOUN,SN∅,Obl
+FR100780,c1,Madame Y.A,Madame,NOUN,Np,Obl
 FR100780,c2,28 ans,ans,NOUN,SNnum,Obl
 FR100780,c3,4ème gestes 2ème pare,gestes,NOUN,SN∅,autre
 FR100780,c4,un enfant vivant,enfant,NOUN,SNind,autre
-FR100780,c5,Le 1 er geste,1,NUM,Autre,autre
+FR100780,c5,Le 1 er geste,1,NUM,SNdef,autre
 FR100780,c7,voie basse,voie,NOUN,SN∅,autre
 FR100780,c8,un nouveau -né à terme de sexe masculin,-né,NOUN,SNind,autre
 FR100780,c6,un accouchement par voie basse d' un nouveau -né à terme de sexe masculin,accouchement,NOUN,SNind,autre
@@ -5435,7 +5435,7 @@ FR100780,c14,Le 4ème geste,geste,NOUN,SNdef,Suj
 FR100780,c16,8 mois,mois,NOUN,SNnum,Obl
 FR100780,c15,la grossesse actuelle estimée à 8 mois,grossesse,NOUN,SNdef,autre
 FR100780,c17,Notre,Notre,DET,Poss,autre
-FR100780,c1,Notre patiente,patiente,NOUN,Poss,Suj
+FR100780,c1,Notre patiente,patiente,NOUN,SNposs,Suj
 FR100780,c18,antécédent,antécédent,NOUN,SN∅,Obl
 FR100780,c20,l' enfance,enfance,NOUN,SNdef,Obl
 FR100780,c19,une hypoacousie depuis l' enfance,hypoacousie,NOUN,SNind,OD
@@ -5487,7 +5487,7 @@ FR100780,c58,Pinard,Pinard,PROPN,Np,autre
 FR100780,c59,Le toucher vaginal,toucher,NOUN,SNdef,Suj
 FR100780,c61,voie de centralisation,voie,NOUN,SN∅,autre
 FR100780,c63,2 doigts,doigts,NOUN,SNnum,Obl
-FR100780,c62,60 % dilaté à 2 doigts,%,SYM,Autre,Obl
+FR100780,c62,60 %,%,SYM,Autre,Obl
 FR100780,c64,une présentation céphalique mobile,présentation,NOUN,SNind,autre
 FR100780,c66,les eaux intacte,eaux,NOUN,SNdef,autre
 FR100780,c65,une poche de les eaux intacte,poche,NOUN,SNind,autre
@@ -5500,14 +5500,14 @@ FR100780,c70,un liquide amniotique en quantité normal,liquide,NOUN,SNind,autre
 FR100780,c71,un diamètre bipariétal à 78mm,diamètre,NOUN,SNind,autre
 FR100780,c73,60 mm,mm,NOUN,SNnum,autre
 FR100780,c72,une longueur fémorale à 60 mm,longueur,NOUN,SNind,autre
-FR100780,c76,31 SA +4j,SA,NOUN,SN∅,autre
+FR100780,c76,31 SA +4j,SA,NOUN,SNnum,autre
 FR100780,c75,les mensurations de 31 SA +4j,mensurations,NOUN,SNdef,Obl
 FR100780,c77,un doppler obstétrical normal,doppler,NOUN,SNind,autre
 FR100780,c74,"Ce qui correspond à de les mensurations de 31 SA +4j , avec un doppler obstétrical normal",Ce,PRON,Pro,autre
 FR100780,c60,le col,col,NOUN,SNdef,autre
 FR100780,c79,la longueur de le col,longueur,NOUN,SNdef,autre
 FR100780,c78,La mesure de la longueur de le col,mesure,NOUN,SNdef,Suj
-FR100780,c80,18mm,18mm,NUM,Autre,autre
+FR100780,c80,18mm,18mm,NUM,SNnum,autre
 FR100780,c82,le rythme cardiaque fœtal,rythme,NOUN,SNdef,autre
 FR100780,c81,L' étude de le rythme cardiaque fœtal,étude,NOUN,SNdef,Suj
 FR100780,c83,un tracé oscillant et réactif,tracé,NOUN,SNind,OD
@@ -5523,7 +5523,7 @@ FR100780,c90,une corticothérapie à base de béthamétasone,corticothérapie,NO
 FR100780,c91,béthamétasone,béthamétasone,NOUN,SN∅,autre
 FR100780,c92,la maturation pulmonaire fœtale,maturation,NOUN,SNdef,autre
 FR100780,c93,une dose de 12mg,dose,NOUN,SNind,autre
-FR100780,c94,24h,24h,NUM,Autre,Obl
+FR100780,c94,24h,24h,NUM,SNnum,Obl
 FR100780,c95,Le bilan infectieux,bilan,NOUN,SNdef,Suj
 FR100780,c96,Le bilan sanguin,bilan,NOUN,SNdef,Suj
 FR100780,c24,une insuffisance rénale,insuffisance,NOUN,SNind,OD
@@ -5538,7 +5538,7 @@ FR100780,c104,19 mEq/l,mEq/l,NOUN,SNnum,autre
 FR100780,c106,7.7g /dl,/dl,NOUN,SNnum,autre
 FR100780,c105,une anémie à 7.7g /dl,anémie,NOUN,SNind,autre
 FR100780,c108,plaquettes,plaquettes,NOUN,SN∅,autre
-FR100780,c109,211000 / mm3,211000,NUM,Autre,autre
+FR100780,c109,211000 / mm3,211000,NUM,SNnum,autre
 FR100780,c107,un taux de plaquettes à 211000 / mm3,taux,NOUN,SNind,autre
 FR100780,c110,Le bilan hépatique,bilan,NOUN,SNdef,Suj
 FR100780,c1,La patiente,patiente,NOUN,SNdef,Suj
@@ -5550,20 +5550,20 @@ FR100780,c116,l' héparine non fractionnée,héparine,NOUN,SNdef,autre
 FR100780,c114,l' héparine sodique et l' héparine non fractionnée,héparine,NOUN,SNdef,autre
 FR100780,c118,4 heures,heures,NOUN,SNnum,autre
 FR100780,c117,une durée de 4 heures,durée,NOUN,SNind,Obl
-FR100780,c120,"2,5 litres",litres,NOUN,SNnum,autre
+FR100780,c120,"2,5 litres",litres,NOUN,SNdef,autre
 FR100780,c119,"une quantité de 2,5 litres",quantité,NOUN,SNind,autre
 FR100780,c121,la 2ème séance,séance,NOUN,SNdef,autre
 FR100780,c1,la patiente,patiente,NOUN,SNdef,Suj
 FR100780,c122,une transfusion en per-dialyse,transfusion,NOUN,SNind,OD
 FR100780,c123,per-dialyse,per-dialyse,NOUN,SN∅,autre
 FR100780,c1,son,son,DET,Poss,autre
-FR100780,c125,son hospitalisation,hospitalisation,NOUN,Poss,autre
+FR100780,c125,son hospitalisation,hospitalisation,NOUN,SNposs,autre
 FR100780,c124,le 3ème jour de son hospitalisation,jour,NOUN,SNdef,Obl
 FR100780,c126,la tocolyse,tocolyse,NOUN,SNdef,Obl
 FR100780,c1,la patiente,patiente,NOUN,SNdef,Suj
 FR100780,c127,un prématuré de sexe masculin,prématuré,NOUN,SNind,Obl
 FR100780,c128,un poids de naissance de 1450g,poids,NOUN,SNind,Obl
-FR100780,c129,1450g,1450g,NUM,Autre,autre
+FR100780,c129,1450g,1450g,NUM,SNnum,autre
 FR100780,c127,Le nouveau -né,-né,NOUN,SNdef,Suj
 FR100780,c130,réanimation néonatal,réanimation,NOUN,SN∅,Obl
 FR100780,c131,détresse respiratoire,détresse,NOUN,SN∅,Obl
@@ -5574,7 +5574,7 @@ FR100780,c134,les suites de couches,suites,NOUN,SNdef,Suj
 FR100780,c135,couches,couches,NOUN,SN∅,autre
 FR100806,c2,25 ans,ans,NOUN,SNnum,Obl
 FR100806,c1,qui,qui,PRON,Pro,Suj
-FR100806,c3,nous,nous,PRON,Pro,OI
+FR100806,c3,nous,nous,PRON,Pro,autre
 FR100806,c4,le Centre Hospitalier de Kara,Centre,NOUN,SNdef,Obl
 FR100806,c5,une insuffisance rénale,insuffisance,NOUN,SNind,Obl
 FR100806,c6,une créatinémie à 2210µmol/ l,créatinémie,NOUN,SNind,Obl
@@ -5584,7 +5584,7 @@ FR100806,c1,"une demoiselle âgée de 25 ans , étudiante , qui nous avait été
 FR100806,c10,médicament traditionnel,médicament,NOUN,SN∅,autre
 FR100806,c9,la prise de médicament traditionnel par voie orale et endovaginale,prise,NOUN,SNdef,OD
 FR100806,c1,son,son,DET,Poss,autre
-FR100806,c12,son cycle menstruel,cycle,NOUN,Poss,OD
+FR100806,c12,son cycle menstruel,cycle,NOUN,SNposs,OD
 FR100806,c11,le but de régulariser son cycle menstruel,but,NOUN,SNdef,Obl
 FR100806,c1,Elle,Elle,PRON,Pro,Suj
 FR100806,c13,aucun antécédent personnel,antécédent,NOUN,SNind,OD
@@ -5608,7 +5608,7 @@ FR100806,c29,2652 µmol/ l de créatinine,µmol/,NOUN,SNnum,Obl
 FR100806,c30,50 mmol/l d' urée,mmol/l,NOUN,SNnum,autre
 FR100806,c28,2652 µmol/ l de créatinine et 50 mmol/l d' urée,µmol/,NOUN,SNnum,Obl
 FR100806,c31,l' ionogramme sanguin,ionogramme,NOUN,SNdef,Suj
-FR100806,c32,la NFS,NFS,PROPN,Np,Suj
+FR100806,c32,la NFS,NFS,PROPN,SNdef,Suj
 FR100806,c8,"anémie sévère à 4,5g / dl",anémie,NOUN,SN∅,OD
 FR100806,c34,une thrombopénie à 88000 / mm 3,thrombopénie,NOUN,SNind,autre
 FR100806,c33,"anémie sévère à 4,5g / dl et une thrombopénie à 88000 / mm 3",anémie,NOUN,SN∅,OD
@@ -5628,7 +5628,7 @@ FR100806,c24,cet abdomen,abdomen,NOUN,SNdem,autre
 FR100806,c44,L' examen de cet abdomen,examen,NOUN,SNdef,Suj
 FR100806,c25,volume,volume,NOUN,SN∅,Obl
 FR100806,c24,son,son,DET,Poss,autre
-FR100806,c45,son ensemble,ensemble,NOUN,Poss,Obl
+FR100806,c45,son ensemble,ensemble,NOUN,SNposs,Obl
 FR100806,c47,l' ombilic,ombilic,NOUN,SNdef,autre
 FR100806,c46,un cri de l' ombilic,cri,NOUN,SNind,Obl
 FR100806,c24,"un abdomen souple , mât , augmenté de volume , sensible dans son ensemble avec un cri de l' ombilic",abdomen,NOUN,SNind,OD
@@ -5683,7 +5683,7 @@ FR100806,c91,Le bilan sanguin réalisé,bilan,NOUN,SNdef,Suj
 FR100806,c65,hémoglobine,hémoglobine,NOUN,SN∅,autre
 FR100806,c92,un taux d' hémoglobine à 10g / dl,taux,NOUN,SNind,OD
 FR100806,c93,les plaquettes,plaquettes,NOUN,SNdef,autre
-FR100806,c94,135000 / mm 3,135000,NUM,Autre,autre
+FR100806,c94,135000 / mm 3,135000,NUM,SNnum,autre
 FR100806,c95,Un TP à 65 %,TP,NOUN,SNind,autre
 FR100806,c97,une créatininémie à 530µmol/ l,créatininémie,NOUN,SNind,autre
 FR100806,c96,"une urémie à 11,6mmol/l et une créatininémie à 530µmol/ l",urémie,NOUN,SNind,autre
@@ -5691,10 +5691,10 @@ FR100806,c17,l' hospitalisation,hospitalisation,NOUN,SNdef,autre
 FR100806,c98,4 semaines de l' hospitalisation,semaines,NOUN,SNnum,Obl
 FR100806,c1,elle,elle,PRON,Pro,Suj
 FR100806,c1,sa,sa,DET,Poss,autre
-FR100806,c100,sa fonction rénale,fonction,NOUN,Poss,autre
+FR100806,c100,sa fonction rénale,fonction,NOUN,SNposs,autre
 FR100806,c99,une récupération partielle de sa fonction rénale,récupération,NOUN,SNind,OD
 FR100806,c99,qui,qui,PRON,Pro,Suj
-FR100806,c102,"25,52ml / min / 1,73m 2","25,52ml",NUM,Autre,Obl
+FR100806,c102,"25,52ml / min / 1,73m 2","25,52ml",NUM,SNnum,Obl
 FR100806,c101,"une clairance MDRD calculée à 25,52ml / min / 1,73m 2",clairance,NOUN,SNind,Obl
 FR100806,c29,"265µmol/ l de créatinine équivalent à une clairance MDRD calculée à 25,52ml / min / 1,73m 2",l,NOUN,SNnum,Obl
 FR100814,c2,33 ans,ans,NOUN,SNnum,autre
@@ -5736,23 +5736,23 @@ FR100826,c1,"un homme âgé de 50 ans , sans antécédents particuliers , admis 
 FR100826,c7,L' examen clinique,examen,NOUN,SNdef,Suj
 FR100826,c9,TDM,TDM,NOUN,SN∅,autre
 FR100826,c9,une tomodensitométrie ( TDM ) abdominale,tomodensitométrie,NOUN,SNind,Obl
-FR100826,c8,Le bilan radiologique pré-greffe fait d' une tomodensitométrie ( TDM ) abdominale,fait,VERB,SNdef,autre
+FR100826,c8,Le bilan radiologique pré-greffe,bilan,NOUN,SNdef,Suj
 FR100826,c10,une VCI gauche,VCI,NOUN,SNind,OD
 FR100826,c10,sa,sa,DET,Poss,autre
-FR100826,c11,sa portion sous rénale,portion,NOUN,Poss,Obl
+FR100826,c11,sa portion sous rénale,portion,NOUN,SNposs,Obl
 FR100826,c11,qui,qui,PRON,Pro,Suj
 FR100826,c13,la veine rénale gauche,veine,NOUN,SNdef,autre
 FR100826,c12,la hauteur de la veine rénale gauche,hauteur,NOUN,SNdef,Obl
 FR100826,c14,un tronc commun,tronc,NOUN,SNind,OD
 FR100826,c13,celle-ci,celle-ci,PRON,Pro,Obl
-FR100826,c10,la VCI,VCI,PROPN,Np,autre
+FR100826,c10,la VCI,VCI,PROPN,SNdef,autre
 FR100826,c15,la portion pré-hépatique normale de la VCI située à droite,portion,NOUN,SNdef,Obl
 FR100826,c16,l' aorte abdominale,aorte,NOUN,SNdef,OD
 FR100826,c17,Le bilan biologique,bilan,NOUN,SNdef,Suj
 FR100826,c19,le rein droit,rein,NOUN,SNdef,autre
 FR100826,c18,la bonne qualité de le rein droit,qualité,NOUN,SNdef,Obl
 FR100826,c20,le gauche,gauche,NOUN,SNdef,autre
-FR100826,c23,longueur normale,longueur,NOUN,SN∅,autre
+FR100826,c23,longueur normale,longueur,NOUN,SNdef,autre
 FR100826,c22,une artère et veine uniques de longueur normale,artère,NOUN,SNind,autre
 FR100826,c21,la présence d' une artère et veine uniques de longueur normale,présence,NOUN,SNdef,autre
 FR100826,c25,le prélèvement rénal gauche,prélèvement,NOUN,SNdef,autre
@@ -5769,12 +5769,12 @@ FR100845,c3,antécédents pathologiques notables,antécédents,NOUN,SN∅,autre
 FR100845,c4,notion de consanguinité,notion,NOUN,SN∅,autre
 FR100845,c5,consanguinité,consanguinité,NOUN,SN∅,autre
 FR100845,c6,G1P0,G1P0,X,Autre,autre
-FR100845,c8,37 SA,SA,NOUN,SN∅,Obl
+FR100845,c8,37 SA,SA,NOUN,SNnum,Obl
 FR100845,c10,les dernière règle précise,règle,NOUN,SNdef,autre
 FR100845,c9,une date de les dernière règle précise,date,NOUN,SNind,Obl
 FR100845,c11,un gynécologue privé,gynécologue,NOUN,SNind,Obl
 FR100845,c12,une échographie,échographie,NOUN,SNind,Obl
-FR100845,c13,17 SA,SA,NOUN,SN∅,autre
+FR100845,c13,17 SA,SA,NOUN,SNnum,autre
 FR100845,c7,"Grossesse actuelle estimé a 37 SA selon une date de les dernière règle précise suivi chez un gynécologue privé , ayant bénéficié d' une échographie à 17 SA",Grossesse,NOUN,SN∅,autre
 FR100845,c15,jumeaux conjoints,jumeaux,NOUN,SN∅,autre
 FR100845,c14,le diagnostic de jumeaux conjoints,diagnostic,NOUN,SNdef,OD
@@ -5830,18 +5830,18 @@ FR100845,c56,la césarisée,césarisée,NOUN,SNdef,autre
 FR100845,c57,L' extraction,extraction,NOUN,SNdef,Suj
 FR100845,c58,la 2 ème tête,ème,NOUN,SNdef,Suj
 FR100845,c59,hyper extension,extension,NOUN,SN∅,autre
-FR100845,c60,L' Apgar,Apgar,PROPN,Np,Suj
+FR100845,c60,L' Apgar,Apgar,PROPN,SNdef,Suj
 FR100845,c61,la 1 ère minute,minute,NOUN,SNdef,autre
 FR100845,c62,5 dixième,dixième,NOUN,SNnum,autre
-FR100845,c63,7 dixième,dixième,ADJ,Autre,OD
+FR100845,c63,7 dixième,dixième,ADJ,SNnum,OD
 FR100845,c64,la 5 minutes,minutes,NOUN,SNdef,Obl
 FR100845,c65,Le poids de naissance,poids,NOUN,SNdef,Suj
-FR100845,c66,3300g,3300g,NUM,Autre,autre
+FR100845,c66,3300g,3300g,NUM,SNnum,autre
 FR100845,c65,le,le,DET,SNdef,autre
 FR100845,c68,les anomalies vasculaires,anomalies,NOUN,SNdef,Obl
 FR100845,c69,trois artères,artères,NOUN,SNnum,autre
 FR100845,c70,une veine,veine,NOUN,SNind,autre
-FR100845,c67,"L' examen de le délivre objective de les anomalies vasculaires , trois artères et une veine",objective,VERB,SNdef,autre
+FR100845,c67,L' examen de le délivre,examen,NOUN,SNdef,Suj
 FR100845,c72,les pédiatres,pédiatres,NOUN,SNdef,Obl
 FR100845,c72,dont,dont,PRON,Pro,autre
 FR100845,c73,l' examen initial,examen,NOUN,SNdef,Suj
@@ -5891,7 +5891,7 @@ FR100849,c11,la masse,masse,NOUN,SNdef,autre
 FR100849,c25,une résection de la masse,résection,NOUN,SNind,Obl
 FR100849,c26,Les suites,suites,NOUN,SNdef,Suj
 FR100849,c1,patient,patient,NOUN,SN∅,autre
-FR100870,c1,Mr MD âgé de 67 ans,Mr,NOUN,SN∅,autre
+FR100870,c1,Mr MD âgé de 67 ans,Mr,NOUN,Np,autre
 FR100870,c2,dermatologie,dermatologie,NOUN,SN∅,Obl
 FR100870,c3,la maladie de kaposi,maladie,NOUN,SNdef,Obl
 FR100870,c4,kaposi,kaposi,NOUN,SN∅,autre
@@ -5918,7 +5918,7 @@ FR100870,c21,une radiothérapie,radiothérapie,NOUN,SNind,Obl
 FR100870,c22,une chimiothérapie,chimiothérapie,NOUN,SNind,autre
 FR100870,c20,une radiothérapie et d' une chimiothérapie,radiothérapie,NOUN,SNind,Obl
 FR100870,c23,Sept ans,ans,NOUN,SNnum,Obl
-FR100870,c1,Mr MD,Mr,PROPN,Np,Suj
+FR100870,c1,Mr MD,Mr,NOUN,Np,Suj
 FR100870,c2,dermatologie,dermatologie,NOUN,SN∅,autre
 FR100870,c25,l' Hôpital Militaire d' Instruction Mohamed V de Rabat,Hôpital,NOUN,SNdef,autre
 FR100870,c24,le service de dermatologie de l' Hôpital Militaire d' Instruction Mohamed V de Rabat,service,NOUN,SNdef,Obl
@@ -5983,7 +5983,7 @@ FR100870,c79,éléments dystrophiques,éléments,NOUN,SN∅,Obl
 FR100870,c80,formes immatures,formes,NOUN,SN∅,autre
 FR100870,c77,un taux de plasmocytes à 07 % fait d' éléments dystrophiques avec présence de formes immatures,taux,NOUN,SNind,Obl
 FR100870,c76,une moelle discrètement diluée avec un taux de plasmocytes à 07 % fait d' éléments dystrophiques avec présence de formes immatures,moelle,NOUN,SNind,OD
-FR100870,c82,les Ig,Ig,PROPN,Np,autre
+FR100870,c82,les Ig,Ig,PROPN,SNdef,autre
 FR100870,c81,Le dosage pondéral de les Ig,dosage,NOUN,SNdef,Suj
 FR100870,c56,"IgG=22,7g/l","IgG=22,7g/l",PROPN,Np,autre
 FR100870,c83,"IgA=0,83g","IgA=0,83g",X,Autre,autre
@@ -5997,7 +5997,7 @@ FR100870,c90,"43,83mg/l","43,83mg/l",NOUN,SN∅,autre
 FR100870,c86,kappa libres,kappa,NOUN,SN∅,autre
 FR100870,c91,Le rapport kappa libres et lambda libres,rapport,NOUN,SNdef,autre
 FR100870,c92,L' étude cytogénétique moléculaire par FISH,étude,NOUN,SNdef,Suj
-FR100870,c93,FISH,FISH,PROPN,SN∅,autre
+FR100870,c93,FISH,FISH,PROPN,Np,autre
 FR100870,c94,nombre de cellules examinées,nombre,NOUN,SN∅,autre
 FR100870,c95,CD138,CD138,X,Autre,autre
 FR100870,c94,400 plasmocytes purifiés CD138 +,plasmocytes,NOUN,SNnum,autre
@@ -6007,21 +6007,21 @@ FR100870,c97,un remaniement IgH / FGFR3,remaniement,NOUN,SNind,Obl
 FR100870,c98,FGFR3,FGFR3,X,Autre,autre
 FR100870,c99,la translocation t,translocation,NOUN,SNdef,autre
 FR100870,c97,équivalent moléculaire de la translocation t,équivalent,NOUN,SN∅,autre
-FR100870,c100,"4,14","4,14",NUM,Autre,autre
+FR100870,c100,"4,14","4,14",NUM,SNnum,autre
 FR100870,c78,les plasmocytes,plasmocytes,NOUN,SNdef,autre
 FR100870,c101,45 % de les plasmocytes,%,SYM,Autre,Suj
 FR100870,c103,le locus MM,locus,NOUN,SNdef,autre
-FR100870,c104,1q21,1q21,NUM,Autre,autre
+FR100870,c104,1q21,1q21,NUM,SNnum,autre
 FR100870,c106,le locus SRD,locus,NOUN,SNdef,autre
 FR100870,c105,la trisomie de le locus SRD,trisomie,NOUN,SNdef,Obl
 FR100870,c102,la trisomie de le locus MM en 1q21 associée à la trisomie de le locus SRD en 1p36,trisomie,NOUN,SNdef,OD
-FR100870,c107,1p36,1p36,NUM,Autre,autre
+FR100870,c107,1p36,1p36,NUM,SNnum,autre
 FR100870,c78,les plasmocytes,plasmocytes,NOUN,SNdef,autre
 FR100870,c108,14 % de les plasmocytes,%,SYM,Autre,Obl
 FR100870,c111,le locus P53,locus,NOUN,SNdef,autre
 FR100870,c110,délétion de le locus P53 en 17p13,délétion,NOUN,SN∅,autre
 FR100870,c109,absence de délétion de le locus P53 en 17p13,absence,NOUN,SN∅,autre
-FR100870,c112,17p13,17p13,NUM,Autre,autre
+FR100870,c112,17p13,17p13,NUM,SNnum,autre
 FR100870,c113,Ces résultats,résultats,NOUN,SNdem,Suj
 FR100870,c114,un myélome de pronostic défavorable,myélome,NOUN,SNind,Obl
 FR100870,c56,IgG lambda,IgG,NOUN,SN∅,autre
@@ -6031,7 +6031,7 @@ FR100870,c118,Durie,Durie,PROPN,Np,autre
 FR100870,c117,Durie et Salmon,Durie,PROPN,Np,autre
 FR100870,c116,la classification de Durie et Salmon,classification,NOUN,SNdef,autre
 FR100870,c119,Salmon,Salmon,PROPN,Np,autre
-FR100874,c1,Mme F N,Mme,NOUN,SN∅,autre
+FR100874,c1,Mme F N,Mme,NOUN,Np,autre
 FR100874,c2,61 ans,ans,NOUN,SNnum,Obl
 FR100874,c3,5 ans,ans,NOUN,SNnum,Obl
 FR100874,c5,néphroangiosclérose bénigne,néphroangiosclérose,NOUN,SN∅,autre
@@ -6113,12 +6113,12 @@ FR100882,c1,une patiente de 72 ans,patiente,NOUN,SNind,Obl
 FR100882,c3,insuffisance antéhypophysaire,insuffisance,NOUN,SN∅,autre
 FR100882,c5,hydrocortisone,hydrocortisone,NOUN,SN∅,autre
 FR100882,c4,traitement hydrocortisone et levothyrox,traitement,NOUN,SN∅,autre
-FR100882,c6,levothyrox,levothyrox,NOUN,SN∅,autre
+FR100882,c6,levothyrox,levothyrox,NOUN,SNdef,autre
 FR100882,c8,l' hépatite C,hépatite,NOUN,SNdef,autre
 FR100882,c9,Harvoni,Harvoni,PROPN,Np,Obl
 FR100882,c10,trois mois,mois,NOUN,SNnum,Obl
 FR100882,c1,son,son,DET,Poss,autre
-FR100882,c11,son hospitalisation,hospitalisation,NOUN,Poss,Obl
+FR100882,c11,son hospitalisation,hospitalisation,NOUN,SNposs,Obl
 FR100882,c7,un virus de l' hépatite C traité par Harvoni trois mois avant son hospitalisation,virus,NOUN,SNind,Obl
 FR100882,c1,qui,qui,PRON,Pro,Suj
 FR100882,c13,la marche,marche,NOUN,SNdef,autre
@@ -6135,8 +6135,8 @@ FR100882,c20,troubles sphinctériens à type de dysurie et de miction impérieus
 FR100882,c2,"un antécédent d' insuffisance antéhypophysaire suivie et sous traitement hydrocortisone et levothyrox , porteuse d' un virus de l' hépatite C traité par Harvoni trois mois avant son hospitalisation , qui a été admise pour de les troubles de la marche et de l' équilibre avec de les chutes à répétition et de les troubles sensitifs à type de brûlure remontant jusqu' à le niveau de l' ombilic accompagnés de troubles sphinctériens à type de dysurie et de miction impérieuse",antécédent,NOUN,SNind,OD
 FR100882,c23,le tout d' aggravation progressive,tout,PRON,Pro,autre
 FR100882,c1,son,son,DET,Poss,autre
-FR100882,c11,son hospitalisation,hospitalisation,NOUN,Poss,autre
-FR100882,c24,2 mois avant son hospitalisation,hospitalisation,NOUN,Poss,autre
+FR100882,c11,son hospitalisation,hospitalisation,NOUN,SNposs,autre
+FR100882,c24,2 mois avant son hospitalisation,hospitalisation,NOUN,SNposs,autre
 FR100882,c25,l' admission,admission,NOUN,SNdef,Obl
 FR100882,c26,l' examen physique,examen,NOUN,SNdef,Suj
 FR100882,c27,une para parésie,para,NOUN,SNind,OD
@@ -6156,7 +6156,7 @@ FR100882,c40,funambule,funambule,NOUN,SN∅,autre
 FR100882,c41,un signe de Babinski bilatéral,signe,NOUN,SNind,autre
 FR100882,c42,une hypoesthésie,hypoesthésie,NOUN,SNind,autre
 FR100882,c43,un niveau en T7,niveau,NOUN,SNind,autre
-FR100882,c34,"la tenue sur la pointe et le talon de les pieds était impossible de même que la marche en funambule , un signe de Babinski bilatéral et une hypoesthésie avec un niveau en T7",impossible,ADJ,Pro,autre
+FR100882,c34,"la tenue sur la pointe et le talon de les pieds était impossible de même que la marche en funambule , un signe de Babinski bilatéral et une hypoesthésie avec un niveau en T7",impossible,ADJ,SNdef,autre
 FR100882,c44,T7,T7,NOUN,SN∅,autre
 FR100882,c46,le rachis,rachis,NOUN,SNdef,autre
 FR100882,c45,L' examen de le rachis,examen,NOUN,SNdef,Suj
@@ -6197,7 +6197,7 @@ FR100882,c72,une décompression médullaire,décompression,NOUN,SNind,autre
 FR100882,c73,ostéosynthèse,ostéosynthèse,NOUN,SN∅,autre
 FR100882,c75,la tumeur,tumeur,NOUN,SNdef,autre
 FR100882,c74,exérèse de la tumeur,exérèse,NOUN,SN∅,autre
-FR100882,c68,"la présence de les signes cliniques et radiologiques de compression médullaire en T7 , dans un premier temps , elle a été prise en neurochirurgicalement pour une laminectomie dorsale en regard de T7 et une décompression médullaire sans ostéosynthèse ni exérèse de la tumeur",prise,VERB,SNdef,autre
+FR100882,c68,"la présence de les signes cliniques et radiologiques de compression médullaire en T7 , dans un premier temps , elle",présence,NOUN,SNdef,Obl
 FR100882,c76,les suites opératoires simples,suites,NOUN,SNdef,autre
 FR100882,c77,L' examen anatonomo-cyto-pathologie réalisée,examen,NOUN,SNdef,Suj
 FR100882,c79,signe de malignité,signe,NOUN,SN∅,autre
@@ -6268,7 +6268,7 @@ FR100883,c2,54 ans,ans,NOUN,SNnum,Obl
 FR100883,c1,qui,qui,PRON,Pro,Suj
 FR100883,c3,6 mois,mois,NOUN,SNnum,Obl
 FR100883,c1,son,son,DET,Poss,autre
-FR100883,c4,son admission,admission,NOUN,Poss,Obl
+FR100883,c4,son admission,admission,NOUN,SNposs,Obl
 FR100883,c7,la narine droite,narine,NOUN,SNdef,autre
 FR100883,c6,la cloison nasale de la narine droite,cloison,NOUN,SNdef,autre
 FR100883,c5,un nodule de la cloison nasale de la narine droite,nodule,NOUN,SNind,OD
@@ -6280,7 +6280,7 @@ FR100883,c1,Patient âgé de 54 ans qui a présenté 6 mois avant son admission 
 FR100883,c12,La TDM faciale initiale,TDM,NOUN,SNdef,Suj
 FR100883,c6,la cloison nasale,cloison,NOUN,SNdef,autre
 FR100883,c14,la muqueuse de la cloison nasale,muqueuse,NOUN,SNdef,autre
-FR100883,c15,14mm d' épaisseur,14mm,NUM,Autre,autre
+FR100883,c15,14mm d' épaisseur,14mm,NUM,SNnum,autre
 FR100883,c13,un épaississement de la muqueuse de la cloison nasale de surface polyploïde de 14mm d' épaisseur,épaississement,NOUN,SNind,OD
 FR100883,c16,La biopsie exérèse,biopsie,NOUN,SNdef,Suj
 FR100883,c18,cellule d' allure plasmablastique,cellule,NOUN,SN∅,Obl
@@ -6294,7 +6294,7 @@ FR100883,c25,Le bilan d' extension,bilan,NOUN,SNdef,Suj
 FR100883,c26,la sérologie HIV,sérologie,NOUN,SNdef,autre
 FR100883,c24,Le bilan d' extension et la sérologie HIV,bilan,NOUN,SNdef,Suj
 FR100883,c27,Notre,Notre,DET,Poss,autre
-FR100883,c1,Notre patient,patient,NOUN,Poss,Suj
+FR100883,c1,Notre patient,patient,NOUN,SNposs,Suj
 FR100883,c29,chimiothérapie type CHOEP,chimiothérapie,NOUN,SN∅,autre
 FR100883,c28,6 cures de chimiothérapie type CHOEP,cures,NOUN,SNnum,OD
 FR100883,c30,cyclophosphamide,cyclophosphamide,NOUN,SN∅,autre
@@ -6306,7 +6306,7 @@ FR100883,c36,20 fractions de 2 gray,fractions,NOUN,SNnum,autre
 FR100883,c35,une radiothérapie 40 gray en 20 fractions de 2 gray,radiothérapie,NOUN,SNind,Obl
 FR100883,c37,L' évolution,évolution,NOUN,SNdef,Suj
 FR100883,c1,sa,sa,DET,Poss,autre
-FR100883,c39,sa maladie,maladie,NOUN,Poss,autre
+FR100883,c39,sa maladie,maladie,NOUN,SNposs,autre
 FR100883,c38,une rémission complète de sa maladie,rémission,NOUN,SNind,Obl
 FR100894,c1,Nous,Nous,PRON,Pro,Suj
 FR100894,c4,32 ans,ans,NOUN,SNnum,autre
@@ -6316,7 +6316,7 @@ FR100894,c5,les compétitions de niveau régional,compétitions,NOUN,SNdef,Obl
 FR100894,c2,"le cas d' un patient de 32 ans , judoka participant à de les compétitions de niveau régional",cas,NOUN,SNdef,OD
 FR100894,c3,Le patient,patient,NOUN,SNdef,Suj
 FR100894,c3,son,son,DET,Poss,autre
-FR100894,c7,son combat,combat,NOUN,Poss,Obl
+FR100894,c7,son combat,combat,NOUN,SNposs,Obl
 FR100894,c8,une douleur aiguë,douleur,NOUN,SNind,OD
 FR100894,c10,le mollet,mollet,NOUN,SNdef,autre
 FR100894,c9,le milieu de le mollet,milieu,NOUN,SNdef,Obl
@@ -6338,14 +6338,14 @@ FR100894,c7,le combat,combat,NOUN,SNdef,OD
 FR100894,c22,Une heure,heure,NOUN,SNind,Obl
 FR100894,c3,le patient,patient,NOUN,SNdef,Suj
 FR100894,c23,Une imagerie par résonance magnétique,imagerie,NOUN,SNind,Suj
-FR100894,c23,IRM,IRM,PROPN,SN∅,autre
+FR100894,c23,IRM,IRM,PROPN,Np,autre
 FR100894,c25,la structure locale,structure,NOUN,SNdef,autre
 FR100894,c24,le niveau de la structure locale,niveau,NOUN,SNdef,Obl
 FR100894,c23,qui,qui,PRON,Pro,Suj
 FR100894,c27,le jumeau interne,jumeau,NOUN,SNdef,autre
 FR100894,c26,une désinsertion partielle de le jumeau interne,désinsertion,NOUN,SNind,OD
 FR100894,c3,sa,sa,DET,Poss,autre
-FR100894,c29,sa jonction musculo-tendineuse,jonction,NOUN,Poss,autre
+FR100894,c29,sa jonction musculo-tendineuse,jonction,NOUN,SNposs,autre
 FR100894,c28,le niveau de sa jonction musculo-tendineuse,niveau,NOUN,SNdef,autre
 FR100894,c30,Un traitement antalgique,traitement,NOUN,SNind,Suj
 FR100894,c3,Le patient,patient,NOUN,SNdef,Suj
@@ -6356,7 +6356,7 @@ FR100894,c1,Nous,Nous,PRON,Pro,Suj
 FR100894,c3,le patient,patient,NOUN,SNdef,OD
 FR100894,c34,8 heures,heures,NOUN,SNnum,Obl
 FR100894,c3,son,son,DET,Poss,autre
-FR100894,c35,son traumatisme,traumatisme,NOUN,Poss,Obl
+FR100894,c35,son traumatisme,traumatisme,NOUN,SNposs,Obl
 FR100894,c3,Il,Il,PRON,Pro,Suj
 FR100894,c36,de douleurs intenses,douleurs,NOUN,SN∅,Obl
 FR100894,c38,la jambe,jambe,NOUN,SNdef,autre
@@ -6385,7 +6385,7 @@ FR100894,c54,le territoire de le nerf péronier profond,territoire,NOUN,SNdef,Ob
 FR100894,c56,Les pouls pédieux et tibial postérieur,pouls,NOUN,SNdef,Suj
 FR100894,c1,Nous,Nous,PRON,Pro,Suj
 FR100894,c57,un syndrome de loges,syndrome,NOUN,SNind,OD
-FR100894,c58,loges,loges,NOUN,SN∅,autre
+FR100894,c58,loges,loges,NOUN,SNdef,autre
 FR100894,c60,une fracture,fracture,NOUN,SNind,Obl
 FR100894,c61,une rupture d' anévrysme,rupture,NOUN,SNind,autre
 FR100894,c59,une fracture ou une rupture d' anévrysme,fracture,NOUN,SNind,Obl
@@ -6401,9 +6401,9 @@ FR100894,c3,Le patient,patient,NOUN,SNdef,Suj
 FR100894,c66,le bloc opératoire,bloc,NOUN,SNdef,Obl
 FR100894,c67,une heure,heure,NOUN,SNind,Obl
 FR100894,c3,son,son,DET,Poss,autre
-FR100894,c68,son arrivée,arrivée,NOUN,Poss,Obl
+FR100894,c68,son arrivée,arrivée,NOUN,SNposs,Obl
 FR100894,c69,Une incision longitudinale de 20cm,incision,NOUN,SNind,Suj
-FR100894,c70,20cm,20cm,NUM,Autre,autre
+FR100894,c70,20cm,20cm,NUM,SNnum,autre
 FR100894,c65,le gastrocnémien médial,gastrocnémien,NOUN,SNdef,Obl
 FR100894,c72,le fascia profond,fascia,NOUN,SNdef,autre
 FR100894,c71,section de le fascia profond,section,NOUN,SN∅,Obl
@@ -6416,7 +6416,7 @@ FR100894,c75,environ 100ml de sang coagulé,100ml,NOUN,SN∅,Obl
 FR100894,c65,le muscle gastrocnémien gauche,muscle,NOUN,SNdef,autre
 FR100894,c76,Le chef médial de le muscle gastrocnémien gauche,chef,NOUN,SNdef,Suj
 FR100894,c76,sa,sa,DET,Poss,autre
-FR100894,c29,sa jonction musculo-tendineuse,jonction,NOUN,Poss,Obl
+FR100894,c29,sa jonction musculo-tendineuse,jonction,NOUN,SNposs,Obl
 FR100894,c78,le compartiment postérieur superficiel,compartiment,NOUN,SNdef,autre
 FR100894,c77,la décompression de le compartiment postérieur superficiel,décompression,NOUN,SNdef,Obl
 FR100894,c40,la palpation,palpation,NOUN,SNdef,Suj
@@ -6530,8 +6530,8 @@ FR100903,c67,les deux bronches principales,bronches,NOUN,SNdef,Suj
 FR100903,c68,Une IRM,IRM,NOUN,SNind,Suj
 FR100903,c69,21 e semaine aménorrhée,semaine,NOUN,SNnum,Obl
 FR100903,c68,qui,qui,PRON,Pro,Suj
-FR100903,c71,d' autres malformations,malformations,NOUN,Pro,Obl
-FR100903,c70,un syndrome CHAOS associé à d' autres malformations,syndrome,NOUN,Pro,autre
+FR100903,c71,d' autres malformations,malformations,NOUN,SNind,Obl
+FR100903,c70,un syndrome CHAOS associé à d' autres malformations,syndrome,NOUN,SNind,autre
 FR100903,c72,possible syndrome de Fraser,syndrome,NOUN,SN∅,autre
 FR100903,c73,Fraser,Fraser,PROPN,Np,autre
 FR100903,c75,une atrésie laryngée,atrésie,NOUN,SNind,autre
@@ -6563,7 +6563,7 @@ FR100903,c94,le rejet de la patiente,rejet,NOUN,SNdef,Obl
 FR100903,c93,un caryotype dû à le rejet de la patiente,caryotype,NOUN,SNind,OD
 FR100903,c96,les ultrasons,ultrasons,NOUN,SNdef,autre
 FR100903,c95,les résultats de les ultrasons,résultats,NOUN,SNdef,Suj
-FR100903,c97,nous,nous,PRON,Pro,OI
+FR100903,c97,nous,nous,PRON,Pro,autre
 FR100903,c70,le syndrome CHAOS,syndrome,NOUN,SNdef,Obl
 FR100903,c99,un hydroscope fœtal secondaire à le syndrome CHAOS,hydroscope,NOUN,SNind,autre
 FR100903,c98,la possibilité d' un hydroscope fœtal secondaire à le syndrome CHAOS,possibilité,NOUN,SNdef,Obl
@@ -6612,7 +6612,7 @@ FR100919,c11,le metformine,metformine,NOUN,SNdef,autre
 FR100919,c10,La prise prolongée de le metformine,prise,NOUN,SNdef,Suj
 FR100919,c8,l' avitaminose B12,avitaminose,NOUN,SNdef,autre
 FR100919,c12,étiologie de l' avitaminose B12,étiologie,NOUN,SN∅,autre
-FR100919,c13,d' autres causes probables,causes,NOUN,Pro,OD
+FR100919,c13,d' autres causes probables,causes,NOUN,SNind,OD
 FR100919,c16,hydroxocobalamine,hydroxocobalamine,NOUN,SN∅,autre
 FR100919,c17,le fer,fer,NOUN,SNdef,autre
 FR100919,c15,injection intramusculaire d' hydroxocobalamine avec de le fer par voie orale,injection,NOUN,SN∅,autre
@@ -6633,7 +6633,7 @@ FR100919,c9,vitamine B12,vitamine,NOUN,SN∅,autre
 FR100919,c8,la déficience en vitamine B12,déficience,NOUN,SNdef,autre
 FR100919,c27,le diagnostic précoce de la déficience en vitamine B12,diagnostic,NOUN,SNdef,Obl
 FR100919,c8,son,son,DET,Poss,autre
-FR100919,c29,son évolution,évolution,NOUN,Poss,autre
+FR100919,c29,son évolution,évolution,NOUN,SNposs,autre
 FR100919,c28,la prévention de son évolution,prévention,NOUN,SNdef,autre
 FR100919,c29,qui,qui,PRON,Pro,Suj
 FR100919,c26,le diagnostic précoce de la déficience en vitamine B12 et la prévention de son évolution qui peut être dramatique en cas de découverte tardive,diagnostic,NOUN,SNdef,Obl
@@ -6646,7 +6646,7 @@ FR100921,c6,1 an,an,NOUN,SNnum,Obl
 FR100921,c7,La palpation,palpation,NOUN,SNdef,Suj
 FR100921,c8,un signe de Tinel positif,signe,NOUN,SNind,OD
 FR100921,c9,Une imagerie par résonnance magnétique,imagerie,NOUN,SNind,Suj
-FR100921,c9,IRM,IRM,PROPN,SN∅,autre
+FR100921,c9,IRM,IRM,PROPN,Np,autre
 FR100921,c9,qui,qui,PRON,Pro,Suj
 FR100921,c11,2 cm de diamètre,cm,NOUN,SNnum,autre
 FR100921,c12,le nerf grand sciatique,nerf,NOUN,SNdef,autre
@@ -6665,9 +6665,9 @@ FR100925,c4,radio-chimiothérapie,radio-chimiothérapie,NOUN,SN∅,Obl
 FR100925,c5,le service,service,NOUN,SNdef,Obl
 FR100925,c6,une hépatite aiguë grave,hépatite,NOUN,SNind,Obl
 FR100925,c7,ictère fébrile,ictère,NOUN,SN∅,autre
-FR100925,c9,ASAT,ASAT,PROPN,SN∅,autre
+FR100925,c9,ASAT,ASAT,PROPN,Np,autre
 FR100925,c10,la normale,normale,NOUN,SNdef,autre
-FR100925,c11,ALAT,ALAT,PROPN,SN∅,autre
+FR100925,c11,ALAT,ALAT,PROPN,Np,autre
 FR100925,c10,la normale,normale,NOUN,SNdef,autre
 FR100925,c12,un taux de prothrombine,taux,NOUN,SNind,autre
 FR100925,c13,prothrombine,prothrombine,NOUN,SN∅,autre
@@ -6675,7 +6675,7 @@ FR100925,c14,25 %,%,SYM,Autre,autre
 FR100925,c8,hyper-transaminasémie avec ASAT à 47 la normale et ALAT à 23 la normale et un taux de prothrombine à 25 %,hyper-transaminasémie,NOUN,SN∅,autre
 FR100925,c15,"Les hépatites virales A , B , C et E",hépatites,NOUN,SNdef,Suj
 FR100925,c16,les veines sus-hépatiques,veines,NOUN,SNdef,Suj
-FR100925,c17,le Doppler,Doppler,PROPN,Np,Obl
+FR100925,c17,le Doppler,Doppler,PROPN,SNdef,Obl
 FR100925,c18,Une hépatite non alphabétique,hépatite,NOUN,SNind,Suj
 FR100925,c7,l' ictère fébrile,ictère,NOUN,SNdef,Obl
 FR100925,c19,le bilan,bilan,NOUN,SNdef,Suj
@@ -6731,9 +6731,9 @@ FR100930,c16,l' imagerie,imagerie,NOUN,SNdef,autre
 FR100930,c14,la présentation clinique et l' imagerie,présentation,NOUN,SNdef,Obl
 FR100930,c10,"l' apparition d' une tuméfaction évoquant une cellulite fronto-temporo pariétale compliquée d' une thrombophlébite cérébrale , diagnostiquée sur la présentation clinique et l' imagerie",apparition,NOUN,SNdef,Obl
 FR100930,c1,Notre,Notre,DET,Poss,autre
-FR100930,c3,Notre patient,patient,NOUN,Poss,Suj
+FR100930,c3,Notre patient,patient,NOUN,SNposs,Suj
 FR100930,c1,notre,notre,DET,Poss,autre
-FR100930,c17,notre structure,structure,NOUN,Poss,Obl
+FR100930,c17,notre structure,structure,NOUN,SNposs,Obl
 FR100930,c19,trouble de conscience,trouble,NOUN,SN∅,autre
 FR100930,c18,un tableau de trouble de conscience,tableau,NOUN,SNind,Obl
 FR100930,c21,les anticoagulants,anticoagulants,NOUN,SNdef,autre
@@ -6794,14 +6794,14 @@ FR100944,c9,insuffisance cardiaque gauche,insuffisance,NOUN,SN∅,autre
 FR100944,c8,poussée d' insuffisance cardiaque gauche,poussée,NOUN,SN∅,autre
 FR100944,c2,le cas d' un jeune homme de 26 ans suivi depuis 4 ans pour une insuffisance aortique rhumatismale qui est hospitalisé pour un syndrome fébrile avec poussée d' insuffisance cardiaque gauche,cas,NOUN,SNdef,OD
 FR100944,c11,L' échocardiographique transthoracique,échocardiographique,NOUN,SNdef,Suj
-FR100944,c11,ETT,ETT,PROPN,SN∅,autre
-FR100944,c12,ETO,ETO,PROPN,SN∅,autre
+FR100944,c11,ETT,ETT,PROPN,Np,autre
+FR100944,c12,ETO,ETO,PROPN,Np,autre
 FR100944,c14,la valve aortique,valve,NOUN,SNdef,autre
 FR100944,c13,les végétations sur la valve aortique,végétations,NOUN,SNdef,Obl
 FR100944,c16,la petite valve mitrale,valve,NOUN,SNdef,autre
 FR100944,c15,un large anévrysme de la petite valve mitrale,anévrysme,NOUN,SNind,Obl
 FR100944,c17,une fuite mitrale importante,fuite,NOUN,SNind,Obl
-FR100944,c10,L' échocardiographique transthoracique ( ETT ) et transoesophagienne ( ETO ) ont mis en évidence de les végétations sur la valve aortique avec un large anévrysme de la petite valve mitrale associé à une fuite mitrale importante,mis,VERB,SNdef,autre
+FR100944,c10,L' échocardiographique transthoracique ( ETT ) et transoesophagienne ( ETO,échocardiographique,NOUN,SNdef,Suj
 FR100944,c3,Le patient,patient,NOUN,SNdef,Suj
 FR100944,c18,un double remplacement valvulaire mitral et aortique,remplacement,NOUN,SNind,Obl
 FR100944,c19,les suites opératoires simples,suites,NOUN,SNdef,Obl
@@ -6818,7 +6818,7 @@ FR100946,c6,08 mois,mois,NOUN,SNnum,Obl
 FR100946,c8,généralisation secondaire,généralisation,NOUN,SN∅,autre
 FR100946,c7,de crises d' épilepsies partielles à généralisation secondaire,crises,NOUN,SN∅,Obl
 FR100946,c10,l' hémicorps gauche,hémicorps,NOUN,SNdef,autre
-FR100946,c9,lourdeur de l' hémicorps gauche,lourdeur,NOUN,SN∅,autre
+FR100946,c9,lourdeur de l' hémicorps gauche,lourdeur,NOUN,SNdef,autre
 FR100946,c5,"les céphalées , compliquées 08 mois après de crises d' épilepsies partielles à généralisation secondaire et de lourdeur de l' hémicorps gauche",céphalées,NOUN,SNdef,autre
 FR100946,c11,les épisodes de vomissements,épisodes,NOUN,SNdef,autre
 FR100946,c12,vomissements,vomissements,NOUN,SN∅,autre
@@ -6888,7 +6888,7 @@ FR100959,c1,un cas clinique de fistule œsotrachéale suite à l' ingestion d' u
 FR100959,c5,nous,nous,PRON,Pro,Suj
 FR100959,c6,l' aspect étiopathogénique,aspect,NOUN,SNdef,OD
 FR100959,c5,notre,notre,DET,Poss,autre
-FR100959,c7,notre principe thérapeutique,principe,NOUN,Poss,OD
+FR100959,c7,notre principe thérapeutique,principe,NOUN,SNposs,OD
 FR100959,c9,la littérature,littérature,NOUN,SNdef,autre
 FR100959,c8,une revue de la littérature,revue,NOUN,SNind,OD
 FR100959,c10,un patient de 15 ans,patient,NOUN,SNind,Obl
@@ -6909,7 +6909,7 @@ FR100959,c19,le niveau de C7,niveau,NOUN,SNdef,Obl
 FR100959,c2,l' orifice fistulaire,orifice,NOUN,SNdef,autre
 FR100959,c20,L' absence de l' orifice fistulaire,absence,NOUN,SNdef,Suj
 FR100959,c21,J30 post-endoscopie,J30,X,Autre,Obl
-FR100959,c22,le TOGD de contrôle,TOGD,PROPN,Np,Obl
+FR100959,c22,le TOGD de contrôle,TOGD,PROPN,SNdef,Obl
 FR100959,c23,Le traitement médical,traitement,NOUN,SNdef,Suj
 FR100959,c2,la fistule œsotrachéale,fistule,NOUN,SNdef,autre
 FR100959,c23,une alternative thérapeutique de la fistule œsotrachéale,alternative,NOUN,SNind,autre
@@ -6924,7 +6924,7 @@ FR100960,c3,qui,qui,PRON,Pro,Suj
 FR100960,c7,douleurs abdominales évolutives,douleurs,NOUN,SN∅,Obl
 FR100960,c8,cinque ans,ans,NOUN,SNnum,autre
 FR100960,c3,sa,sa,DET,Poss,autre
-FR100960,c9,sa dernière cure,cure,NOUN,Poss,Obl
+FR100960,c9,sa dernière cure,cure,NOUN,SNposs,Obl
 FR100960,c10,Le scanner,scanner,NOUN,SNdef,Suj
 FR100960,c12,pseudo myxome péritonéal,pseudo,NOUN,SN∅,autre
 FR100960,c11,une récidive de pseudo myxome péritonéal,récidive,NOUN,SNind,OD
@@ -6967,8 +6967,8 @@ FR100979,c10,le post-opératoire d' une césarienne,post-opératoire,NOUN,SNdef,
 FR100979,c13,hématome rétro-placentaire,hématome,NOUN,SN∅,autre
 FR100979,c12,suspiçion d' hématome rétro-placentaire,suspiçion,NOUN,SN∅,autre
 FR100979,c5,son,son,DET,Poss,autre
-FR100979,c14,son admission,admission,NOUN,Poss,autre
-FR100979,c9,j2 de le post-opératoire d' une césarienne pour suspiçion d' hématome rétro-placentaire dès son admission,j2,SYM,Autre,autre
+FR100979,c14,son admission,admission,NOUN,SNposs,autre
+FR100979,c9,j2 de le post-opératoire d' une césarienne pour suspiçion d' hématome rétro-placentaire dès son admission,post-opératoire,NOUN,SNdef,autre
 FR100979,c15,L' hémorragie intracérébrale,hémorragie,NOUN,SNdef,Suj
 FR100979,c15,une complication rare mais grave,complication,NOUN,SNind,autre
 FR100979,c16,les femmes en post-partum,femmes,NOUN,SNdef,Obl
@@ -6992,10 +6992,10 @@ FR100986,c7,une patiente hospitalisée à le service d' ophtalmologie pour une b
 FR100986,c12,Les antécédents cliniques,antécédents,NOUN,SNdef,Suj
 FR100986,c15,la hanche,hanche,NOUN,SNdef,autre
 FR100986,c14,une prothèse totale de la hanche,prothèse,NOUN,SNind,autre
-FR100986,c14,PTH,PTH,PROPN,SN∅,autre
+FR100986,c14,PTH,PTH,PROPN,Np,autre
 FR100986,c13,la mise en place d' une prothèse totale de la hanche ( PTH ) douze ans auparavant .,mise,NOUN,SNdef,Obl
 FR100986,c1,Notre,Notre,DET,Poss,autre
-FR100986,c2,Notre observation,observation,NOUN,Poss,Suj
+FR100986,c2,Notre observation,observation,NOUN,SNposs,Suj
 FR100986,c17,la maladie drépanocytaire,maladie,NOUN,SNdef,autre
 FR100986,c16,la grande variabilité clinique de la maladie drépanocytaire,variabilité,NOUN,SNdef,OD
 FR100986,c19,les patients à risque,patients,NOUN,SNdef,autre
@@ -7012,7 +7012,7 @@ FR100994,c7,une métastase osseuse temporale,métastase,NOUN,SNind,Obl
 FR100994,c3,une observation d' un homme suivi pour un cancer de le rectum métastatique avec une métastase osseuse temporale,observation,NOUN,SNind,autre
 FR100994,c2,le cas d' une observation d' un homme suivi pour un cancer de le rectum métastatique avec une métastase osseuse temporale,cas,NOUN,SNdef,OD
 FR100994,c1,Notre,Notre,DET,Poss,autre
-FR100994,c3,Notre observation,observation,NOUN,Poss,Suj
+FR100994,c3,Notre observation,observation,NOUN,SNposs,Suj
 FR100994,c9,38 ans,ans,NOUN,SNnum,Obl
 FR100994,c4,un homme âgé de 38 ans,homme,NOUN,SNind,autre
 FR100994,c6,le rectum,rectum,NOUN,SNdef,autre
@@ -7065,7 +7065,7 @@ FR100996,c20,un sac herniaire,sac,NOUN,SNind,OD
 FR100996,c22,13 mm,mm,NOUN,SNnum,Obl
 FR100996,c21,un collet mesuré à 13 mm,collet,NOUN,SNind,autre
 FR100996,c20,Il,Il,PRON,Pro,Suj
-FR100996,c23,la graisse,la,DET,SNdef,autre
+FR100996,c23,la graisse,graisse,NOUN,SNdef,OD
 FR100996,c25,deux zones de transition,zones,NOUN,SNnum,OD
 FR100996,c26,un aspect de double bec,aspect,NOUN,SNind,OD
 FR100996,c21,le collet,collet,NOUN,SNdef,autre
@@ -7084,7 +7084,7 @@ FR100996,c34,Le traitement,traitement,NOUN,SNdef,Suj
 FR100996,c35,les suites opératoires simples,suites,NOUN,SNdef,Obl
 FR100998,c1,Nous,Nous,PRON,Pro,Suj
 FR100998,c4,55 ans,ans,NOUN,SNnum,Obl
-FR100998,c5,VUH,VUH,PROPN,SN∅,Obl
+FR100998,c5,VUH,VUH,PROPN,Np,Obl
 FR100998,c6,20 ans,ans,NOUN,SNnum,Obl
 FR100998,c3,une patiente âgée de 55 ans suivie pour VUH depuis 20 ans,patiente,NOUN,SNind,autre
 FR100998,c2,le cas d' une patiente âgée de 55 ans suivie pour VUH depuis 20 ans,cas,NOUN,SNdef,OD
@@ -7138,8 +7138,8 @@ FR101000,c10,cette dernière,dernière,ADJ,Pro,Suj
 FR101000,c3,les voies biliaires,voies,NOUN,SNdef,autre
 FR101000,c11,une obstruction tumorale de les voies biliaires,obstruction,NOUN,SNind,OD
 FR101000,c5,Son,Son,DET,Poss,autre
-FR101000,c13,la TDM,TDM,PROPN,Np,autre
-FR101000,c12,Son association avec la TDM,association,NOUN,Poss,Suj
+FR101000,c13,la TDM,TDM,PROPN,SNdef,autre
+FR101000,c12,Son association avec la TDM,association,NOUN,SNposs,Suj
 FR101000,c14,la meilleure combinaison,combinaison,NOUN,SNdef,OD
 FR101000,c16,le diagnostic étiologique,diagnostic,NOUN,SNdef,autre
 FR101000,c11,les obstructions biliaires tumorales,obstructions,NOUN,SNdef,autre

@@ -5,15 +5,15 @@ import subprocess
 
 # Gestion automatique des chemins 
 
-# BASE_DIR remonte d'un dossier ("pipeline") pour pointer sur la racine ("Français")
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-CONLLU_INPUT = os.path.join(BASE_DIR, "data", "conllu_entree")
-CONLLU_OUTPUT = os.path.join(BASE_DIR, "data", "conllu_sorti")
+Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+Conllu_input = os.path.join(Base_dir, "data", "conllu_entree")
+Conllu_output = os.path.join(Base_dir, "data", "conllu_sorti")
 
 # CorPipe est un dossier séparé, situé au même niveau que le dossier Français"
-DOSSIER_PARENT_GLOBAL = os.path.dirname(BASE_DIR)
-CORPIPE_SCRIPT = os.path.join(DOSSIER_PARENT_GLOBAL, "crac2025-corpipe", "corpipe25.py")
+Dossier_parent_global  = os.path.dirname(Base_dir)
+Corpipe_script  = os.path.join(Dossier_parent_global, "crac2025-corpipe", "corpipe25.py")
 
 
 # Script principal 
@@ -21,12 +21,12 @@ CORPIPE_SCRIPT = os.path.join(DOSSIER_PARENT_GLOBAL, "crac2025-corpipe", "corpip
 
 def main():
     # Création du dossier de sortie s'il n'existe pas
-    os.makedirs(CONLLU_OUTPUT, exist_ok=True)
+    os.makedirs(Conllu_output, exist_ok=True)
     
-    fichiers_entree = glob.glob(os.path.join(CONLLU_INPUT, "*.conllu"))
+    fichiers_entree = glob.glob(os.path.join(Conllu_input, "*.conllu"))
     
     if not fichiers_entree:
-        print(f" Étape 2 ignorée : aucun fichier d'entrée trouvé dans {CONLLU_INPUT}.")
+        print(f" Étape 2 ignorée : aucun fichier d'entrée trouvé dans {Conllu_input}.")
         return
 
 
@@ -37,7 +37,7 @@ def main():
         nom_fichier = os.path.basename(f_path) # ex: doc1.conllu
         # On remplace l'extension pour chercher le fichier généré par CorPipe
         nom_attendu = nom_fichier.replace(".conllu", ".15.conllu")
-        fichier_attendu = os.path.join(CONLLU_OUTPUT, nom_attendu)
+        fichier_attendu = os.path.join(Conllu_output, nom_attendu)
         
         if not os.path.exists(fichier_attendu):
             fichiers_a_traiter.append(f_path)
@@ -52,11 +52,11 @@ def main():
     # Préparation de la commande pour le terminal
     try:
         cmd = [
-            "python", CORPIPE_SCRIPT, 
+            "python", Corpipe_script, 
             "--load", "ufal/corpipe25-corefud1.3-large-251101", 
             "--test"
         ] + fichiers_a_traiter + [
-            "--exp", CONLLU_OUTPUT, 
+            "--exp", Conllu_output, 
             "--segment", "2560"
         ]
         
@@ -67,7 +67,7 @@ def main():
     except subprocess.CalledProcessError as e:
         print(f"\n Erreur lors de l'exécution de CorPipe. Code d'erreur : {e.returncode}")
     except FileNotFoundError:
-        print(f"\n Erreur : impossible de trouver le script CorPipe à cet emplacement :\n{CORPIPE_SCRIPT}")
+        print(f"\n Erreur : impossible de trouver le script CorPipe à cet emplacement :\n{Corpipe_script}")
 
 if __name__ == "__main__":
     main()
