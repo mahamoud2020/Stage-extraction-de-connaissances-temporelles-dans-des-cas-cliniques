@@ -52,8 +52,8 @@ def generer_charts():
     df_xml_total = df[df['type_temporalite'] != 'Non annoté']
     type_counts = df_xml_total['type_temporalite'].value_counts()
     sns.barplot(x=type_counts.values, y=type_counts.index, ax=axes1[1], palette='viridis', hue=type_counts.index, legend=False)
-    axes1[1].set_title('Distribution des Balises (Corpus XML)', fontsize=14, fontweight='bold', pad=20)
-    axes1[1].set_xlabel("Nombre d'entités extraites", fontsize=12)
+    axes1[1].set_title('Distribution des Balises', fontsize=14, fontweight='bold', pad=20)
+    axes1[1].set_xlabel("Nombre de balises extraites", fontsize=12)
     axes1[1].set_ylabel('Type de balise', fontsize=12)
     for i, v in enumerate(type_counts.values):
         axes1[1].text(v + (max(type_counts.values)*0.01), i, str(v), color='black', va='center', fontweight='bold')
@@ -92,7 +92,7 @@ def generer_charts():
     
     axes2[0].pie(sizes_d, explode=(0.05, 0.05, 0.05, 0.05, 0.05), labels=labels_d, colors=colors_d, autopct='%1.1f%%', 
                  startangle=140, textprops={'fontsize': 10, 'fontweight': 'bold'})
-    axes2[0].set_title('Couverture Sémantique Globale\n(Impact des Singletons)', fontsize=15, fontweight='bold', pad=20)
+    axes2[0].set_title('Analyse détaillée', fontsize=15, fontweight='bold', pad=20)
     
     # Graphique à Barres Groupées (Performance par Balise)
     df_xml_detail = df[df['type_temporalite'] != 'Non annoté'].copy()
@@ -121,7 +121,7 @@ def generer_charts():
         hue_order=ordre_legende
     )
     
-    axes2[1].set_title('Performance de CorPipe pour chaque Balise XML', fontsize=15, fontweight='bold', pad=20)
+    axes2[1].set_title('Analyse croisée des coréférences et des balises extraites', fontsize=15, fontweight='bold', pad=20)
     axes2[1].set_xlabel("Nombre d'entités", fontsize=12)
     axes2[1].set_ylabel('Type de balise', fontsize=12)
     
