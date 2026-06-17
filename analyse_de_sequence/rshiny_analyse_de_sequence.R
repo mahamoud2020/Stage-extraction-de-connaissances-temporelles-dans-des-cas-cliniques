@@ -33,8 +33,8 @@ couleurs_dico <- c(
   "SN\u2205"   = "#579C91",
   "SNnum"      = "#3F84DE",
   "Poss"       = "#C45C47",
-  "Pro"        = "#FDC086",
-  "Np"         = "#bebada",
+  "Pro"        = "#7B1FA2",               
+  "Np"         = "#FDC086",
   "Sujet_zero" = "#96B0B7",
   "SNposs"     = "#FF0000",
   "Autre"      = "#b3de69"

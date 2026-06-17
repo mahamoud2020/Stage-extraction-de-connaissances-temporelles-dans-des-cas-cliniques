@@ -1,168 +1,142 @@
 import os
-import csv
+import glob
+import pandas as pd
 import xml.etree.ElementTree as ET
 
 
-# Définition des chemins 
+# Définition des chemins
 
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-Dossier_XML = os.path.join(Base_dir, "data", "xml_source") 
-Dossier_sortie = os.path.join(Base_dir, "data", "sortie_csv")
+Dossier_XML = os.path.join(Base_dir, "data", "xml_source")
+Dossier_CSV = os.path.join(Base_dir, "data", "sortie_csv")
 
-NAMESPACES = {
-    'xmi': 'http://www.omg.org/XMI',
-    'cas': 'http:///uima/cas.ecore',
-    'custom': 'http:///webanno/custom.ecore',
-    'type4': 'http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore' # Ajout pour les phrases
-}
-
-XMI_ID = '{http://www.omg.org/XMI}id'
-
-
-
-def extraire_relations_fichier(chemin_fichier):
-    nom_fichier = os.path.basename(chemin_fichier)
-    print(f" Analyse de : {nom_fichier}...")
+def extraire_relations():
+    print(" Étape 6 : Extraction exhaustive de toutes les balises")
     
-    try:
-        tree = ET.parse(chemin_fichier)
-        root = tree.getroot()
-    except ET.ParseError:
-        print(f" Erreur : Impossible de lire {nom_fichier}.")
-        return []
-
-    # Récupération du texte global (SofaString)
-    sofa = root.find('cas:Sofa', NAMESPACES)
-    texte_global = sofa.get('sofaString') if sofa is not None else ""
-    
-    if not texte_global:
-        return []
-
-    # Extraction et indexation de toutes les phrases complètes du document
-    phrases = []
-    for elem in root.findall('type4:Sentence', NAMESPACES):
-        b = elem.get('begin')
-        e = elem.get('end')
-        if b is not None and e is not None:
-            b_idx, e_idx = int(b), int(e)
-            texte_phrase = texte_global[b_idx:e_idx].strip().replace('\n', ' ').replace(';', ',')
-            phrases.append({
-                'begin': b_idx,
-                'end': e_idx,
-                'texte': texte_phrase
-            })
-
-    # Indexation des concepts (avec sauvegarde des positions begin/end)
-    concepts = {}
-    tags_entites = ['custom:EVENT', 'custom:TIMEX3', 'custom:CLINENTITY', 'custom:BODYPART', 'custom:ACTOR']
-    compteur_entites = 0
-    
-    for tag in tags_entites:
-        for elem in root.findall(tag, NAMESPACES):
-            xmi_id = elem.get(XMI_ID)
-            begin = elem.get('begin')
-            end = elem.get('end')
-            
-            b_idx = int(begin) if begin is not None else 0
-            e_idx = int(end) if end is not None else 0
-            texte_extrait = texte_global[b_idx:e_idx].strip() if begin and end else ""
-            
-            concepts[xmi_id] = {
-                'id': xmi_id, 
-                'type': tag.split(':')[-1], 
-                'texte': texte_extrait.replace('\n', ' ').replace(';', ','), 
-                'begin': b_idx,
-                'end': e_idx,
-                'elem': elem
-            }
-            compteur_entites += 1
-
-    # Indexation des balises de relations (Links)
-    liens = {}
-    tags_liens = ['custom:EVENTTLINKLink', 'custom:TIMEX3TimexLinkLink']
-    compteur_liens = 0
-    
-    for tag in tags_liens:
-        for elem in root.findall(tag, NAMESPACES):
-            xmi_id = elem.get(XMI_ID)
-            liens[xmi_id] = {'role': elem.get('role'), 'target': elem.get('target')}
-            compteur_liens += 1
-            
-    print(f" Trouvé : {compteur_entites} entités, {len(phrases)} phrases et {compteur_liens} liaisons.")
-
-    # Reconstruction des relations et recherche du contexte du texte 
-    relations_fichier = []
-    doc_id = nom_fichier.split('.')[0]
-
-    for c_id, info in concepts.items():
-        elem = info['elem']
-        attribut_lien = elem.get('TLINK') or elem.get('timexLink')
+    if not os.path.exists(Dossier_CSV):
+        os.makedirs(Dossier_CSV)
         
-        if attribut_lien:
-            ids_liens = attribut_lien.split()
-            for l_id in ids_liens:
-                if l_id in liens:
-                    info_lien = liens[l_id]
-                    cible_id = info_lien['target']
-                    
-                    if cible_id in concepts:
-                        info_cible = concepts[cible_id]
-                        
-                        # Recherche de la phrase complète contenant l'événement source
-                        contexte_texte = "Phrase introuvable"
-                        for p in phrases:
-                            if p['begin'] <= info['begin'] <= p['end']:
-                                contexte_texte = p['texte']
-                                break
-                        
-                        relations_fichier.append({
-                            'doc': doc_id,
-                            'source_id': c_id, 
-                            'source_type': info['type'], 
-                            'entite_source': info['texte'],
-                            'relation_temporelle': info_lien['role'],
-                            'cible_id': cible_id, 
-                            'cible_type': info_cible['type'], 
-                            'entite_cible': info_cible['texte'],
-                            'contexte_texte': contexte_texte # affiche texte complete
-                        })
-                        
-    print(f"  Bilan : {len(relations_fichier)} relations temporelles reconstruites.")
-    return relations_fichier
-
-
-def main():
-    print(f"\n Recherche de fichiers dans : {Dossier_XML}")
-    
-    if not os.path.exists(Dossier_XML):
-        print(f" Erreur : Le dossier {Dossier_XML} n'existe pas !")
-        return
-
-    fichiers = [os.path.join(Dossier_XML, f) for f in os.listdir(Dossier_XML) 
-                if os.path.isfile(os.path.join(Dossier_XML, f)) and not f.startswith('.')]
-    
-    print(f" {len(fichiers)} fichier(s) trouvé(s) au total.\n")
-    
-    os.makedirs(Dossier_sortie, exist_ok=True)
+    fichiers_xml = glob.glob(os.path.join(Dossier_XML, "*.xml")) + glob.glob(os.path.join(Dossier_XML, "*.xmi"))
     toutes_les_relations = []
-    
-    for chemin in fichiers:
-        relations = extraire_relations_fichier(chemin)
-        toutes_les_relations.extend(relations)
-        
-    if not toutes_les_relations:
-        print("\n Aucune relation temporelle n'a pu être exportée.")
-        return
 
-    fichier_csv = os.path.join(Dossier_sortie, "relations_temporelles_evenements.csv")
-    champs = ['doc', 'source_id', 'source_type', 'entite_source', 'relation_temporelle', 'cible_id', 'cible_type', 'entite_cible', 'contexte_texte']
-    
-    with open(fichier_csv, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=champs)
-        writer.writeheader()
-        writer.writerows(toutes_les_relations)
+    # Liste des balises  à ignorer 
+    tags_a_exclure = ['Token', 'Sentence', 'DocumentMetaData', 'METADATA', 'TagsetDescription']
+
+    for fichier in fichiers_xml:
+        nom_doc = os.path.basename(fichier).replace('.xml', '').replace('.xmi', '')
         
-    print(f"\n Extraction effectuée ! {len(toutes_les_relations)} relations exportées avec leur contexte dans : {fichier_csv}")
+        try:
+            tree = ET.parse(fichier)
+            root = tree.getroot()
+        except ET.ParseError:
+            continue
+
+        # Extraction du texte complet
+        texte_complet = ""
+        for elem in root:
+            if elem.tag.endswith('Sofa'):
+                texte_complet = elem.attrib.get('sofaString', '')
+                break
+                
+        # Extraction des phrases pour le contexte
+        phrases = []
+        for elem in root:
+            if elem.tag.endswith('Sentence'):
+                if 'begin' in elem.attrib and 'end' in elem.attrib:
+                    begin_phrase = int(elem.attrib['begin'])
+                    end_phrase = int(elem.attrib['end'])
+                    phrases.append({
+                        'begin': begin_phrase,
+                        'end': end_phrase,
+                        'texte': texte_complet[begin_phrase:end_phrase]
+                    })
+        
+        entites = {} 
+        liens_objets = {} 
+        entites_avec_liens = set()
+        
+        # Enregistrement des éléments
+        for elem in root:
+            tag_name = elem.tag.split('}')[-1] 
+            attribs = elem.attrib
+            
+            xmi_id = None
+            for key, val in attribs.items():
+                if key.endswith('id'):
+                    xmi_id = val
+                    break
+            
+            if not xmi_id:
+                continue
+                
+            if 'target' in attribs and tag_name.endswith('Link'):
+                liens_objets[xmi_id] = {
+                    'role': attribs.get('role', 'LIEN_INCONNU'),
+                    'target': attribs.get('target')
+                }
+            
+            # 
+            elif 'begin' in attribs and 'end' in attribs and tag_name not in tags_a_exclure:
+                begin = int(attribs['begin'])
+                end = int(attribs['end'])
+                
+                contexte = "Contexte introuvable"
+                for p in phrases:
+                    if begin >= p['begin'] and end <= p['end']:
+                        contexte = p['texte'].strip().replace('\n', ' ')
+                        break
+                
+                entites[xmi_id] = {
+                    'type': tag_name,
+                    'texte': texte_complet[begin:end],
+                    'contexte': contexte,
+                    'attributs_bruts': attribs
+                }
+
+        # 
+        for source_id, source_data in entites.items():
+            for attr_nom, attr_valeur in source_data['attributs_bruts'].items():
+                liste_ids_potentiels = attr_valeur.split()
+                
+                for potentiel_link_id in liste_ids_potentiels:
+                    if potentiel_link_id in liens_objets:
+                        lien = liens_objets[potentiel_link_id]
+                        target_id = lien['target']
+                        
+                        if target_id in entites:
+                            cible_data = entites[target_id]
+                            
+                            toutes_les_relations.append({
+                                'doc': nom_doc,
+                                'entite_source': source_data['texte'],
+                                'source_type': source_data['type'],
+                                'relation': lien['role'],
+                                'entite_cible': cible_data['texte'],
+                                'cible_type': cible_data['type'],
+                                'texte_contexte': source_data['contexte']
+                            })
+                            entites_avec_liens.add(source_id)
+                            entites_avec_liens.add(target_id)
+
+        # Ajout des entités orphelines (Non annotées)
+        for entite_id, entite_data in entites.items():
+            if entite_id not in entites_avec_liens:
+                toutes_les_relations.append({
+                    'doc': nom_doc,
+                    'entite_source': entite_data['texte'],
+                    'source_type': entite_data['type'],
+                    'relation': 'Non annoté',
+                    'entite_cible': 'Indéterminé',
+                    'cible_type': 'Aucun',
+                    'texte_contexte': entite_data['contexte']
+                })
+
+    # Export
+    if toutes_les_relations:
+        df = pd.DataFrame(toutes_les_relations)
+        chemin_sortie = os.path.join(Dossier_CSV, "relations_temporelles_evenements.csv")
+        df.to_csv(chemin_sortie, index=False, encoding='utf-8')
+        print(f"{len(df)} lignes médicales exportées dans le CSV.")
 
 if __name__ == "__main__":
-    main()
+    extraire_relations()

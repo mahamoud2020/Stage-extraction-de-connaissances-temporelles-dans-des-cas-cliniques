@@ -6,107 +6,138 @@ import seaborn as sns
 
 # Définition des chemins
 
-Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-Dossier_CSV = os.path.join(Base_dir, "data", "sortie_csv")
-Fichier_csv = os.path.join(Dossier_CSV, "comparaison_coref_temp.csv")
 
-def visualiser_anaalyse():
-    print(" Chargement des données et calcul des statistiques")
+Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+Fichier_CSV = os.path.join(Base_dir, "data", "sortie_csv", "comparaison_coref_temp.csv")
+Dossier_Sortie = os.path.join(Base_dir, "data", "sortie_csv")
+
+def generer_charts():
+    print(" Étape 8 : Lancement des analyses statistiques et graphiques...")
     
-    if not os.path.exists(Fichier_csv):
-        print(f"Erreur : Le fichier {Fichier_csv} est introuvable.")
+    if not os.path.exists(Fichier_CSV):
+        print(" Fichier introuvable. Veuillez lancer l'étape 7 d'abord.")
         return
 
-    df = pd.read_csv(Fichier_csv)
-
+    # Chargement du fichier
+    df = pd.read_csv(Fichier_CSV)
     
-    #  Créer des filtres 
+    # longueur
+    df['longueur_num'] = pd.to_numeric(df['longueur_chaine'], errors='coerce').fillna(0)
     
-    # Coréférence (CorPipe a trouvé  mais pas WebAnno)
-    df_coref_only = df[df['type_temporel'] == 'Non annoté']
-    
-    # Temporalité  (WebAnno a trouvé mais pas CorPipe)
-    df_temp_only = df[df['mention_id'] == 'Non détecté']
-    
-    # Présent dans les deux cas
-    df_both = df[(df['type_temporel'] != 'Non annoté') & (df['mention_id'] != 'Non détecté')]
-
-    
-    #  Affichage statistiques 
-    
-    print("\n" + "*"*60)
-    print(" Analyse statistique global")
-    print("*"*60)
-    print(f" Total des entités uniques  : {len(df)}")
-    print(f" Entités annotés dans le corpus et détectés par CorPipe  : {len(df_both)}")
-    print(f" Coréférence uniquement : {len(df_coref_only)}")
-    print(f" Temporalité uniquement: {len(df_temp_only)}")
-    
-    print("\n Affichage des 10 coréférences uniquement :")
-    print(df_coref_only['entité'].value_counts().head(10).to_string())
-    
-    print("\n Affichage des 10 temporalités uniquement :")
-    print(df_temp_only['entité'].value_counts().head(10).to_string())
-   
-
-    
-    # Visualisation 
-    
-    print(" Génération des graphiques en cours ")
-    
-    # Configuration du style visuel
     sns.set_theme(style="whitegrid")
-    fig, axes = plt.subplots(1, 3, figsize=(18, 6))
-    fig.suptitle('Analyse du Croisement : Coréférence vs Temporalité', fontsize=16, fontweight='bold')
 
     
-    # Graphique 1 : Distribution globale (Barplot)
-    tailles = [len(df_both), len(df_coref_only), len(df_temp_only)]
-    labels = ['Coref et temp', 'Coréférence unique', 'Temporalité unique']
-    couleurs = ['#2ecc71', '#e74c3c', '#3498db']
+    # Graphique 1 : analyse global
+    # ***************************************************************************
+
+    print(" Génération du graphique global ")
+    fig1, axes1 = plt.subplots(1, 2, figsize=(16, 7))
     
-    # Ajout de hue=labels et legend=False
-    sns.barplot(x=labels, y=tailles, hue=labels, palette=couleurs, legend=False, ax=axes[0])
+    df_xml_only_g = df[(df['type_temporalite'] != 'Non annoté') & (df['coref'] == 'Non détecté')]
+    df_coref_only_g = df[(df['type_temporalite'] == 'Non annoté') & (df['coref'] == 'Détecté')]
+    df_both_g = df[(df['type_temporalite'] != 'Non annoté') & (df['coref'] == 'Détecté')]
+    sizes_g = [len(df_xml_only_g), len(df_coref_only_g), len(df_both_g)]
     
-    sns.barplot(x=labels, y=tailles, palette=couleurs, ax=axes[0])
-    axes[0].set_title('Répartition globale des entités', fontsize=12)
-    axes[0].set_ylabel('Nombre d\'entités')
-    for i, v in enumerate(tailles):
-        axes[0].text(i, v + 20, str(v), ha='center', fontweight='bold')
-
+    labels_g = [
+        f'Temporalité unique\n({sizes_g[0]})', 
+        f'Coref unique\n({sizes_g[1]})', 
+        f'Coref et temp \n({sizes_g[2]})'
+    ]
+    colors_g = ['#ff9999', '#66b3ff', '#99ff99']
     
-    # Graphique 2 : Top 10 Coréférence uniquement
-    top_coref = df_coref_only['entité'].value_counts().head(10)
+    axes1[0].pie(sizes_g, explode=(0.05, 0.05, 0.05), labels=labels_g, colors=colors_g, autopct='%1.1f%%', 
+                 startangle=140, textprops={'fontsize': 11, 'fontweight': 'bold'})
+    axes1[0].set_title('Répartition Globale des Entités\n(Singletons inclus)', fontsize=14, fontweight='bold', pad=20)
     
-    # Ajout de hue=top_coref.index et legend=False
-    sns.barplot(x=top_coref.values, y=top_coref.index, hue=top_coref.index, palette='Reds_r', legend=False, ax=axes[1])
-    axes[1].set_title('Top 10 : Coréférences uniquement \n(Non annotées en temporalité dans le corpus)', fontsize=12)
-    axes[1].set_xlabel('Fréquence')
-
-
-
-
-    # Graphique 3 : Top 10 Temporalité uniquement
-    
-    
-    top_temp = df_temp_only['entité'].value_counts().head(10)
-    
-    # Ajout de hue=top_temp.index et legend=False
-    sns.barplot(x=top_temp.values, y=top_temp.index, hue=top_temp.index, palette='Blues_r', legend=False, ax=axes[2])
- 
-    axes[2].set_title('Top 10 : Temporalités uniquement\n(Non détectées en coréférence par CorPipe)', fontsize=12)
-    axes[2].set_xlabel('Fréquence')
-
-
-
-    # Sauvegarde
+    df_xml_total = df[df['type_temporalite'] != 'Non annoté']
+    type_counts = df_xml_total['type_temporalite'].value_counts()
+    sns.barplot(x=type_counts.values, y=type_counts.index, ax=axes1[1], palette='viridis', hue=type_counts.index, legend=False)
+    axes1[1].set_title('Distribution des Balises (Corpus XML)', fontsize=14, fontweight='bold', pad=20)
+    axes1[1].set_xlabel("Nombre d'entités extraites", fontsize=12)
+    axes1[1].set_ylabel('Type de balise', fontsize=12)
+    for i, v in enumerate(type_counts.values):
+        axes1[1].text(v + (max(type_counts.values)*0.01), i, str(v), color='black', va='center', fontweight='bold')
+        
     plt.tight_layout()
-    chemin_image = os.path.join(Dossier_CSV, "dashboard_croisement.png")
-    plt.savefig(chemin_image, dpi=300)
-    print(f"Image est sauvegardée dans : {chemin_image}")
+    img_global = os.path.join(Dossier_Sortie, "graphique_global.png")
+    plt.savefig(img_global, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f" Sauvegardé : {img_global}")
+
     
-    # Affichage à l'écran 
-    plt.show()
+    # Graphique 2 : analyse détaillée  (Singletons isolés + Barres groupées)
+    # *********************************************************************************
+    
+
+    print(" Génération du graphique détaillé")
+    fig2, axes2 = plt.subplots(1, 2, figsize=(18, 8))
+    
+    # Camembert détaillé (5 catégories)
+
+    df_xml_only = df[(df['type_temporalite'] != 'Non annoté') & (df['coref'] == 'Non détecté')]
+    df_inter_chaine = df[(df['type_temporalite'] != 'Non annoté') & (df['coref'] == 'Détecté') & (df['longueur_num'] >= 2)]
+    df_inter_single = df[(df['type_temporalite'] != 'Non annoté') & (df['coref'] == 'Détecté') & (df['longueur_num'] == 1)]
+    df_cp_chaine = df[(df['type_temporalite'] == 'Non annoté') & (df['coref'] == 'Détecté') & (df['longueur_num'] >= 2)]
+    df_cp_single = df[(df['type_temporalite'] == 'Non annoté') & (df['coref'] == 'Détecté') & (df['longueur_num'] == 1)]
+    
+    sizes_d = [len(df_xml_only), len(df_inter_chaine), len(df_inter_single), len(df_cp_chaine), len(df_cp_single)]
+    labels_d = [
+        f'1. Temporalité unique \n({sizes_d[0]})', 
+        f'2. Coref et temp (avec singleton)\n({sizes_d[1]})',
+        f'3. Coref et temp (sans singleton)\n({sizes_d[2]})',
+        f'4. Coref unique (avec singleton)\n({sizes_d[3]})',
+        f'5. CorPipe unique (sans singleton)\n({sizes_d[4]})'
+    ]
+    colors_d = ['#ff9999', '#1f77b4', '#aec7e8', '#2ca02c', '#98df8a']
+    
+    axes2[0].pie(sizes_d, explode=(0.05, 0.05, 0.05, 0.05, 0.05), labels=labels_d, colors=colors_d, autopct='%1.1f%%', 
+                 startangle=140, textprops={'fontsize': 10, 'fontweight': 'bold'})
+    axes2[0].set_title('Couverture Sémantique Globale\n(Impact des Singletons)', fontsize=15, fontweight='bold', pad=20)
+    
+    # Graphique à Barres Groupées (Performance par Balise)
+    df_xml_detail = df[df['type_temporalite'] != 'Non annoté'].copy()
+    
+    def classer_balise(row):
+        if row['coref'] == 'Non détecté':
+            return '1. Manqué par CorPipe'
+        elif row['longueur_num'] == 1:
+            return '2. Détecté (avec singleton)'
+        else:
+            return '3. Détecté (sans singleton)'
+
+    df_xml_detail['Performance'] = df_xml_detail.apply(classer_balise, axis=1)
+
+    ordre_balises = df_xml_detail['type_temporalite'].value_counts().index
+    ordre_legende = ['1. Manqué par CorPipe', '2. Détecté (avec singleton)', '3. Détecté (sans singleton)']
+    couleurs_barres = ['#ff9999', '#aec7e8', '#1f77b4'] 
+
+    sns.countplot(
+        data=df_xml_detail, 
+        y='type_temporalite', 
+        hue='Performance', 
+        ax=axes2[1], 
+        palette=couleurs_barres, 
+        order=ordre_balises,
+        hue_order=ordre_legende
+    )
+    
+    axes2[1].set_title('Performance de CorPipe pour chaque Balise XML', fontsize=15, fontweight='bold', pad=20)
+    axes2[1].set_xlabel("Nombre d'entités", fontsize=12)
+    axes2[1].set_ylabel('Type de balise', fontsize=12)
+    
+    for container in axes2[1].containers:
+        axes2[1].bar_label(container, fmt='%d', padding=3, fontsize=9, fontweight='bold')
+
+    axes2[1].legend(title='Résultat CorPipe', loc='lower right', frameon=True)
+
+    plt.tight_layout()
+    
+    img_detail = os.path.join(Dossier_Sortie, "graphique_detaille.png")
+    plt.savefig(img_detail, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f" Sauvegardé : {img_detail}")
+    
+    print(f" Étape 8 terminée ")
 
 if __name__ == "__main__":
-    visualiser_anaalyse()
+    generer_charts()

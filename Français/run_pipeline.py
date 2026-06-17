@@ -80,13 +80,13 @@ def main():
         executer_etape("extraction_temporalite.py", "Étape 6 : Extraction des relations temporelles cliniques")
 
     if 7 in etapes_a_lancer:
-        executer_etape("comparaison_annotation_coref_temp.py", "Étape 7 : Matrice de croisement (Coréférence vs Temporalité)")
+        executer_etape("comparaison_annotation_coref_temp.py", "Étape 7 : croisement (Coréférence vs Temporalité)")
 
     if 8 in etapes_a_lancer:
         executer_etape("visualisation_core_temp.py", "Étape 8 : Dataviz et statistiques du croisement")
 
     print("\n" + "*"*60)
-    print(" Pipeline terminé avec succès !")
+    print(" Pipeline terminé parfaitement ")
     print(" Les tableaux et graphiques sont disponibles dans 'data/sortie_csv/'")
     
     
