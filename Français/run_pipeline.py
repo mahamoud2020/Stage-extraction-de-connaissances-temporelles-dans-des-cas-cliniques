@@ -3,7 +3,7 @@ import subprocess
 import sys
 import argparse 
 
-# Import des étapes 4 et 5 depuis le dossier pipeline
+# Import des étapes depuis le dossier pipeline
 from pipeline.traitement_xml import analyser_corpus_xml
 from pipeline.traitement_fusion import fusionner_donnees
 

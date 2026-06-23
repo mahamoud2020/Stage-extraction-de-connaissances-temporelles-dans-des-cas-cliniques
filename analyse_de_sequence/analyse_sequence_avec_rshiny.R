@@ -256,7 +256,7 @@ server <- function(input, output, session) {
       options = list(
         pageLength = 10, 
         scrollX = TRUE,
-        # Ajout de la traduction FR sur la première table également
+        # Ajout de la traduction en français 
         language = list(url = "//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json")
       ), 
       rownames = FALSE, 
@@ -323,7 +323,7 @@ server <- function(input, output, session) {
     } else if (input$cluster_plot_type == "rplot") {
       seqrplot(coref_chaines.seq, group = d$fac, dist.matrix = distances_om, criterion = "dist")
     }
-  }, res = 100, height = 750) # Modification 2 : On force la hauteur ici (750) pour empêcher le plantage
+  }, res = 100, height = 750) 
   
   # Couplage dynamique (coref vs temporalité)
   
@@ -341,11 +341,11 @@ server <- function(input, output, session) {
       left_join(xml_reconstruit, by = c("doc", "mention_id")) %>%
       select(
         Document       = doc,
-        ID_Chaine      = mention_id,
+        ID_chaine      = mention_id,
         Cluster        = Cluster_Affecte,
-        Syntaxe_SPS    = sequences_SPS,
-        Sémantique_XML = sequence_XML,
-        Mots_Clés      = vrais_mots
+        Enchaînement_nature   = sequences_SPS,
+        Annotation_corpus = sequence_XML,
+        Mots_contexte      = vrais_mots
       )
     
     # Rendu du tableau DataTables avec filtres interactifs

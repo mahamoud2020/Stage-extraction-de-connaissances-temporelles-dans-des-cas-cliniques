@@ -1,0 +1,409 @@
+---
+title: "Analyse de séquence sans les singletons"
+author: "Abdoulrazack"
+date: "2026-05-04"
+output: html_document
+---
+
+# Installation et chargement de l'ensemble de packages
+
+
+
+```{r}
+install.packages("shiny")
+library(shiny)
+
+```
+
+
+
+```{r}
+packages <- c("TraMineR", "Rserve", "reticulate", "repr", "TraMineRextras",
+              "WeightedCluster", "ade4", "RColorBrewer", "questionr",
+              "purrr", "seqhandbook", "vegan", "GGally", "fpc",
+              "dendextend", "rmarkdown")
+
+to_install <- packages[!(packages %in% installed.packages()[,"Package"])]
+
+if(length(to_install)) {
+  install.packages(to_install)
+}
+
+lapply(packages, library, character.only = TRUE)
+```
+
+# Importation des données
+
+```{r}
+# na.strings="" permet aux cases vides des chaînes courtes d'être reconnues comme des NA
+
+sequences_data <- read.csv("sequences_coreferences_sans_singleton_fr.csv", 
+                           header= TRUE, 
+                           na.string='', 
+                           fill=TRUE,
+                           sep=',',
+                           fileEncoding="UTF-8")
+
+```
+
+
+# On selectionne des colonnes avec les informations que l'on veut et on choisi le format des séquences : SPS est le format qui permet d'avoir l'état et sa durée 
+
+```{r}
+sequences_SPS <- seqformat(sequences_data, 7:24, 
+                           from ="STS", 
+                           to= "SPS", 
+                           compress = T, 
+                           with.missing = F ) 
+
+
+
+#ici on stocke les sequences au format SPS pour les recuperer 
+sequences_data$sequences_SPS <- sequences_SPS
+```
+
+
+# Détection dynamique de l'alphabet
+
+```{r}
+etats_trouves <- seqstatl(sequences_data[, 7:24])
+
+print("Alphabet trouvé:")
+print(etats_trouves)
+```
+
+# création d'un dictionnaire de couleurs pour l'attribution des couleurs aux mots
+
+
+```{r}
+couleurs_dico <- c("SNdef"="#FFFF99", 
+                   "SNind"="#fb8072", 
+                   "SNdem"="#80b1d3", 
+                   "SN∅"="#579C91", 
+                   "SNnum"= "#3F84DE", # nouvelle couleur    
+                   "Poss"="#C45C47", 
+                   "Pro"="#FDC086", 
+                   "Np"="#bebada", 
+                   "Sujet_zero"="#96B0B7", 
+                   "Autre"="#b3de69")
+```
+
+
+# Extraire uniquement les couleurs dans l'ordre de l'alphabet trouvé par R
+
+```{r}
+cpal_dynamique <- unname(couleurs_dico[etats_trouves])
+```
+
+
+# Création de l'objet Séquence
+
+```{r}
+coref_chaines.seq <- seqdef(sequences_data[, 7:24], 
+                            alphabet=etats_trouves, 
+                            states=etats_trouves, 
+                            cpal=cpal_dynamique,
+                            with.missing=F) 
+```
+
+# On détermine le nombre de séquences distinctes dans le corpus
+
+```{r}
+seq_distinctes <- nrow(seqtab(coref_chaines.seq, idxs = 0, format = "SPS")) 
+
+cat("Le nombre de séquences distinctes dans le corpus :", seq_distinctes, "\n")
+```
+
+# Notre corpus comporte 196 séquences distinctes, il est donc important de regrouper les séquences qui se ressemblent afin de faciliter l’analyse.
+
+# Affichage des graphiques (trajectoire individuelle des chaînes et distribution des natures)
+
+```{r}
+# Trajectoire individuelle des chaînes 
+
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/trajectoire_individuelle_chaîne _sans_singleton.png",
+  # width = 800, height = 600, res = 120)
+
+seqIplot(coref_chaines.seq, 
+         main="Trajectoires individuelles",
+         with.legend = "right")
+
+#dev.off()
+```
+
+```{r}
+# Distribution des natures 
+
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/distribution_des_natures_chaîne_sans_singleton.png",
+  # width = 800, height = 600, res = 120)
+
+
+seqdplot(coref_chaines.seq, 
+         main="Distribution des natures", 
+         with.legend = "right")
+
+#dev.off()
+```
+
+
+# Calcul des distances et Clustering
+
+```{r}
+
+matrice_sub <- seqsubm(coref_chaines.seq, method="TRATE")
+```
+
+```{r}
+# On compare les  chaînes entre elles pour voir lesquelles se ressemblent
+
+distances_om <- seqdist(coref_chaines.seq, 
+                        method="OMslen", 
+                        indel=1, 
+                        sm=matrice_sub)
+```
+
+# La matrice des distances étant calculée, on regroupe les séquences en classes selon leur proximité par une classification ascendante hiérarchique (CAH) avec la fonction "agnes" du package cluster.
+
+```{r}
+# On regroupe les chaînes qui ont des trajectoires similaires
+
+arbre_ward <- agnes(as.dist(distances_om), diss=TRUE, method="ward")
+```
+
+
+# Exploration du dendrogrammme de notre CAH pour le choix du nombre de classe
+
+```{r}
+# Ce graphique montre comment les données se séparent en grandes familles
+
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/dendrogram_chaîne_sans_singleton.png",
+  # width = 800, height = 600, res = 120)
+
+plot(as.dendrogram(arbre_ward), 
+     main = "Dendrogramme des chaînes de coréférence",
+     leaflab = "none",
+     xlab = "Séquences",
+     ylab = "Hauteur (Inertie)")
+
+#dev.off()
+```
+# Cette fonction permet d'avoir un dendrogramme avec les couleurs, meilleure visualisation de la division en cluster
+
+```{r}
+seq_heatmap <- function (seq, tree, with.missing=FALSE, ...) {
+	if (class(tree)!="dendrogram") tree <- as.dendrogram(tree)
+	mat <- seq
+	for (i in 1:length(seq)){
+		mat[mat[,i]=="%",i] <- NA
+		mat[,i] <- as.numeric(mat[,i])
+	}
+	mat <- as.matrix(mat)
+	col <- attr(seq,"cpal")
+	if (with.missing) col <- c(col,attr(seq,"missing.color"))
+	heatmap(mat, tree, NA,  na.rm=FALSE, col=col, scale="none", labRow=NA, ...)	
+}
+```
+
+
+# Application de la fonction seq_heatmap
+
+```{r}
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/dendrogram_couleur_ch_sans singleton.png",
+  # width = 800, height = 600, res = 120)
+
+seqhandbook::seq_heatmap(coref_chaines.seq, arbre_ward)
+
+#dev.off()
+```
+# Visualisation des logiques de groupements
+
+```{r}
+wardTree_random <- as.seqtree(arbre_ward, 
+                              seqdata=coref_chaines.seq,
+                              diss=distances_om, 
+                              ncluster=4) #Silvia : changer le nb de cluster si besoin (ncluster='')
+
+wardTree_random
+seqtreedisplay(wardTree_random, type="d") #Silvia : 'd' pour distribution, vous pouvez utiliser 'i' pour visualiser les séquences indivdulles. D'autres options sont disponibles aussi si vous en avez besoin : voir la documentation R de la fonction ! 
+
+
+seqtreedisplay(wardTree_random, 
+               filename = "mytree.pdf", 
+               type="d", 
+               border=T, 
+               image.format = "pdf",
+               res=400,
+               show.depth=T )
+
+
+path <- getwd() ## retrieve the path
+convert.g(path = path, 
+          fileroot = "mytree", 
+          from = "pdf", 
+          to = "svg",
+          options = "-units PixelsPerInch -density 300x300")
+```
+
+
+# On examine les sauts d’inertie pour déterminer le nombre de classes.
+
+```{r}
+# Graphique des sauts d'inertie
+# Ce graphique aide à choisir le nombre idéal de clusters. 
+# On cherche le grand saut sur la courbe.
+
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/mon_graphique.png",
+  #  width = 800, height = 600, res = 120)
+
+plot(sort(arbre_ward$height, decreasing=TRUE)[1:15], 
+     type='s', 
+     xlab="Nombre de clusters", 
+     ylab="Inertie", 
+     main="Sauts d'inertie (Critère de Ward)", 
+     lwd=2, 
+     col="blue")
+
+#dev.off()
+```
+
+
+
+
+
+
+# On examine les sauts d’inertie pour déterminer le nombre de classes
+
+```{r}
+# Graphique des sauts d'inertie
+# Ce graphique aide à choisir le nombre idéal de clusters. 
+# On cherche le grand saut sur la courbe.
+
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/saut_inertie_ch_sans_singleton.png",
+ #  width = 800, height = 600, res = 120)
+
+plot(sort(arbre_ward$height, 
+          decreasing=TRUE)[1:15], 
+          type='s', 
+          xlab="Nombre de clusters", 
+          ylab="Inertie", 
+          main="Sauts d'inertie (Critère de Ward)", 
+          lwd=2, 
+          col="blue")
+
+
+#dev.off()
+```
+
+```{r}
+arbre_ward.meas <- as.clustrange(arbre_ward, diss = distances_om)
+summary(arbre_ward.meas, max.rank = 2)
+```
+
+
+```{r}
+plot(arbre_ward.meas, stat=c("ASWw", "HG", "PBC"), norm="zscore")
+```
+
+# On opte pour une solution en 4 classes. On coupe donc l’arbre de la CAH à l’aide de la fonction cutree().
+
+
+```{r}
+# Découpage de l'arbre (on teste avec 4 clusters, comme suggéré par le dendrogramme)
+
+nb_clusters <- 4
+mes_clusters <- cutree(arbre_ward, k = nb_clusters)
+```
+
+
+```{r}
+# On transforme en facteur pour faire de labels sur les graphiques
+
+mes_clusters_fac <- factor(mes_clusters, 
+                           labels = paste("classe", 
+                           1:nb_clusters))
+```
+
+# On organise les séquences dans les clusters selon leur distance : les séquences les plus similaires seront proches au sein du cluster
+
+```{r}
+ordre_random <- cmdscale(as.dist(distances_om),k=1)
+
+ordre_random
+```
+
+# Visualisation de distribution des états dans les clusters
+
+```{r}
+# On affiche la distribution des états, séparée par cluster
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/distribution_des_etats_dans_les_clusters_ch_sans_singleton.png",
+ #  width = 800, height = 600, res = 120)
+
+seqdplot(coref_chaines.seq, 
+         group = mes_clusters_fac, 
+         border = TRUE, 
+         main = "Profil des 4 classes de coréférence")
+
+
+#dev.off()
+```
+
+# visualisation des séquences individuelles pour chaque cluster
+
+```{r}
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/sequence_individuelle_pour_chaque_cluster_ch_sans_singleton.png",
+ #  width = 800, height = 600, res = 120)
+
+seqiplot(coref_chaines.seq, 
+         group=mes_clusters_fac, 
+         sortv=ordre_random, 
+         idxs=0, 
+         space=0, 
+         border= NA,
+         with.legend=T, 
+         yaxis=FALSE,
+         cex.axis =  1.5, 
+         cex.legend = 1) #Silvia : 'idxs=0' vous permet de visualisez l'ensemble des séquences, sinon par défault seulement les 10 premières sont visualisées. 'space=0' pas d'espace pour une meilleure visualisation, "cex.axis' correspond à la taille des labels des axes et 'cex.legend' à la taille de la légende.
+
+
+#dev.off()
+```
+
+```{r}
+aggregate(disscenter(as.dist(distances_om), 
+                     group = mes_clusters_fac), 
+                     list(mes_clusters_fac), 
+                     mean)
+```
+# Visualisation des 10 séquences les plus fréquentes de chaque classe avec la fonction seqfplot
+
+```{r}
+#png("C:/Users/razak/Documents/coref_e3c_corpipe_/analyse_de_sequence/dix_seq_plus_frequentes_de_chaque_cluster_ch_sans_singleton.png",
+ #  width = 800, height = 600, res = 120)
+
+seqfplot(coref_chaines.seq, 
+         group = mes_clusters_fac, 
+         with.legend = T, 
+         yaxis = FALSE, 
+         cex.legend = 1,
+         )
+
+
+#dev.off()
+```
+
+# Visualisation des séquences représentatives de chaque classe.
+
+```{r}
+seqrplot(coref_chaines.seq, 
+         group = mes_clusters_fac, 
+         dist.matrix = distances_om, 
+         criterion = "dist", 
+         cex.legend = 1)
+```
+
+
+```{r}
+# Run the application 
+shinyApp(ui = ui, server = server)
+```
+

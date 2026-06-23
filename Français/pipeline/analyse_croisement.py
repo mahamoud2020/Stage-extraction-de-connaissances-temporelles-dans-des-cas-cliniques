@@ -18,7 +18,7 @@ def comparer_coref_temp():
         return
     
     
-    # Extraction des temporalités (EVENT / TIMEX3)
+    # Extraction des temporalités 
     
     df_temp = pd.read_csv(Fichier_temporel)
     
@@ -30,11 +30,11 @@ def comparer_coref_temp():
         columns={'cible_texte': 'texte_match', 'cible_type': 'type_temporel'}
     )
     
-    # Fusion des sources/cibles et suppression des doublons par [doc, texte]
+    # Fusion des sources/cibles 
     temp_uniques = pd.concat([sources, cibles]).dropna(subset=['texte_match'])
     temp_uniques['texte_match'] = temp_uniques['texte_match'].astype(str).str.strip()
     
-    # On garde la première catégorie (EVENT/TIMEX3) rencontrée pour chaque mot unique d'un doc
+    # On garde la première catégorie rencontrée pour chaque mot unique d'un doc
     temp_uniques = temp_uniques.drop_duplicates(subset=['doc', 'texte_match'])
 
     
