@@ -12,7 +12,7 @@ Dossier_XML = os.path.join(Base_dir, "data", "xml_source")
 Dossier_CSV = os.path.join(Base_dir, "data", "sortie_csv")
 
 def extraire_relations_et_entites():
-    print(" Étape 7 : Extraction des relations et entités avec IDs")
+    print(" Étape 6 : Extraction des relations (Format centré sur l'Entité avec sens de relation)")
     
     if not os.path.exists(Dossier_CSV):
         os.makedirs(Dossier_CSV)
@@ -52,11 +52,11 @@ def extraire_relations_et_entites():
                         'texte': texte_complet[begin_phrase:end_phrase]
                     })
         
-        entites = {} # Dictionnaire pour stocker les entités valides (avec ID)
+        entites_brutes = [] # Liste temporaire avant fusion
         liens_objets = {} # Dictionnaire pour stocker les TLINKs
         entites_avec_liens = set() # Pour marquer celles qui ont des relations
         
-        # Premier passage : enregistrement des Entités et des Liens
+        # enregistrement des Entités brutes et des Liens
         for elem in root:
             tag_name = elem.tag.split('}')[-1] 
             attribs = elem.attrib
@@ -102,14 +102,78 @@ def extraire_relations_et_entites():
                         contexte = p['texte'].strip().replace('\n', ' ')
                         break
                 
-                entites[entite_id] = {
+                entites_brutes.append({
+                    'id': entite_id,
+                    'begin': begin,
+                    'end': end,
                     'type': tag_name,
                     'texte': texte_entite,
                     'contexte': contexte,
-                    'attributs_bruts': attribs
-                }
+                    'attribs': attribs
+                })
 
-        # Construction des paires (Relations)
+        
+        # Regroupement et Fusion des annotations superposées (exemple EVENT/CLINENTITY)
+        # ********************************************************************************
+        
+        # Grouper par position exacte (begin, end)
+        entites_groupees = {}
+        for ent in entites_brutes:
+            pos = (ent['begin'], ent['end'])
+            if pos not in entites_groupees:
+                entites_groupees[pos] = []
+            entites_groupees[pos].append(ent)
+            
+        entites = {} # Dictionnaire final des entités fusionnées
+        ancien_id_vers_nouveau = {} # Dictionnaire de traduction des IDs pour les liens
+        
+        # 2. Fusionner
+        for pos, liste_entites in entites_groupees.items():
+            if len(liste_entites) == 1:
+                # Annotation simple
+                e = liste_entites[0]
+                merged_id = e['id']
+                merged_type = e['type']
+                merged_attribs = e['attribs']
+            else:
+                # Double (ou triple) annotation superposée
+                types = []
+                for e in liste_entites:
+                    if e['type'] not in types:
+                        types.append(e['type'])
+                
+                # On place 'EVENT' en premier si présent pour la lisibilité
+                if 'EVENT' in types:
+                    types.remove('EVENT')
+                    types.insert(0, 'EVENT')
+                    
+                merged_type = '/'.join(types) # Ex: EVENT/CLINENTITY
+                merged_id = '/'.join([e['id'] for e in liste_entites]) # Ex: 5646/6696
+                
+                # Fusionner les attributs bruts pour ne perdre aucune relation
+                merged_attribs = {}
+                for e in liste_entites:
+                    for k, v in e['attribs'].items():
+                        if k in merged_attribs:
+                            merged_attribs[k] += f" {v}"
+                        else:
+                            merged_attribs[k] = str(v)
+                            
+            # Enregistrer la traduction des IDs (Pour que les liens retrouvent leur cible)
+            for e in liste_entites:
+                ancien_id_vers_nouveau[e['id']] = merged_id
+                
+            # Stocker l'entité finale
+            entites[merged_id] = {
+                'type': merged_type,
+                'texte': liste_entites[0]['texte'],
+                'contexte': liste_entites[0]['contexte'],
+                'attributs_bruts': merged_attribs
+            }
+
+        # ********************************************************************************
+
+        # Construction des paires (Relations centrées sur l'entité)
         for source_id, source_data in entites.items():
             for attr_nom, attr_valeur in source_data['attributs_bruts'].items():
                 liste_ids_potentiels = str(attr_valeur).split()
@@ -117,22 +181,42 @@ def extraire_relations_et_entites():
                 for potentiel_link_id in liste_ids_potentiels:
                     if potentiel_link_id in liens_objets:
                         lien = liens_objets[potentiel_link_id]
-                        target_id = lien['target']
+                        target_ancien_id = lien['target']
                         
-                        if target_id in entites:
+                        # Traduire l'ancien ID cible vers le nouvel ID fusionné (s'il y a eu fusion)
+                        target_id = ancien_id_vers_nouveau.get(target_ancien_id)
+                        
+                        if target_id and target_id in entites:
                             cible_data = entites[target_id]
                             
+                            # Création de la ligne pour la relation sortante  (L'entité est la source)
                             toutes_les_lignes_csv.append({
                                 'doc': nom_doc,
-                                'source_id': source_id,            # pour les  ID
-                                'entite_source': source_data['texte'],
-                                'source_type': source_data['type'],
+                                'entite_id': source_id,
+                                'entite_texte': source_data['texte'],
+                                'entite_type': source_data['type'],
+                                'sens_relation': 'Sortante',
                                 'relation': lien['role'],
-                                'cible_id': target_id,             # pour les ID
-                                'entite_cible': cible_data['texte'],
-                                'cible_type': cible_data['type'],
+                                'entite_liee_id': target_id,
+                                'entite_liee_texte': cible_data['texte'],
+                                'entite_liee_type': cible_data['type'],
                                 'texte_contexte': source_data['contexte']
                             })
+                            
+                            # Création de la ligne pour la relation entrante (L'entité est la cible)
+                            toutes_les_lignes_csv.append({
+                                'doc': nom_doc,
+                                'entite_id': target_id,
+                                'entite_texte': cible_data['texte'],
+                                'entite_type': cible_data['type'],
+                                'sens_relation': 'Entrante',
+                                'relation': lien['role'],
+                                'entite_liee_id': source_id,
+                                'entite_liee_texte': source_data['texte'],
+                                'entite_liee_type': source_data['type'],
+                                'texte_contexte': cible_data['contexte']
+                            })
+                            
                             entites_avec_liens.add(source_id)
                             entites_avec_liens.add(target_id)
 
@@ -141,13 +225,14 @@ def extraire_relations_et_entites():
             if entite_id not in entites_avec_liens:
                 toutes_les_lignes_csv.append({
                     'doc': nom_doc,
-                    'source_id': entite_id,                # nouvelle colonne pour les ID
-                    'entite_source': entite_data['texte'],
-                    'source_type': entite_data['type'],
+                    'entite_id': entite_id,
+                    'entite_texte': entite_data['texte'],
+                    'entite_type': entite_data['type'],
+                    'sens_relation': 'Aucune', 
                     'relation': 'Aucune relation', 
-                    'cible_id': 'Aucun',                   # nouvelles colonnes pour les ID
-                    'entite_cible': 'Indéterminé',
-                    'cible_type': 'Aucun',
+                    'entite_liee_id': 'Aucun',
+                    'entite_liee_texte': 'Indéterminé',
+                    'entite_liee_type': 'Aucun',
                     'texte_contexte': entite_data['contexte']
                 })
 
@@ -158,10 +243,10 @@ def extraire_relations_et_entites():
     if toutes_les_lignes_csv:
         df = pd.DataFrame(toutes_les_lignes_csv)
         
-        # Réorganisation des colonnes pour une lecture logique
+        # Réorganisation des colonnes avec la nouvelle logique
         colonnes_ordonnees = [
-            'doc', 'source_id', 'entite_source', 'source_type', 
-            'relation', 'cible_id', 'entite_cible', 'cible_type', 'texte_contexte'
+            'doc', 'entite_id', 'entite_texte', 'entite_type', 
+            'sens_relation', 'relation', 'entite_liee_id', 'entite_liee_texte', 'entite_liee_type', 'texte_contexte'
         ]
         df = df[colonnes_ordonnees]
         
