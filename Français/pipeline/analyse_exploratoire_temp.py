@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-#  On calcule le chemin exact de manière robuste, peu importe d'où on lance le script
+#  Définir le chemin
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 chemin_csv = os.path.join(Base_dir, "data", "sortie_csv", "relations_temporelles_evenements.csv")
 
@@ -18,7 +18,7 @@ def compter():
     sources = df[['doc', 'source_id', 'source_type']].rename(columns={'source_id': 'id', 'source_type': 'type'})
     cibles = df[['doc', 'cible_id', 'cible_type']].rename(columns={'cible_id': 'id', 'cible_type': 'type'})
     
-    #  Fusionner les deux et supprimer les doublons (pour ne pas compter 2 fois la même entité)
+    #  Fusionner les deux et supprimer les doublons pour ne pas compter 2 fois la même entité
     entites_uniques = pd.concat([sources, cibles]).drop_duplicates()
     
     # Faire les totaux

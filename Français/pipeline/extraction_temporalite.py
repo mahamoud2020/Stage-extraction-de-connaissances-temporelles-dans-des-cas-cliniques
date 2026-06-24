@@ -12,7 +12,7 @@ Dossier_XML = os.path.join(Base_dir, "data", "xml_source")
 Dossier_CSV = os.path.join(Base_dir, "data", "sortie_csv")
 
 def extraire_relations_et_entites():
-    print(" Étape 6 : Extraction des relations (Format centré sur l'Entité avec sens de relation)")
+    print(" Étape 6 : Extraction des balises et des relations")
     
     if not os.path.exists(Dossier_CSV):
         os.makedirs(Dossier_CSV)
@@ -20,7 +20,7 @@ def extraire_relations_et_entites():
     fichiers_xml = glob.glob(os.path.join(Dossier_XML, "*.xml")) + glob.glob(os.path.join(Dossier_XML, "*.xmi"))
     toutes_les_lignes_csv = []
 
-    # Liste des balises pertinentes
+    # Liste des balises à extraire
     tags_cibles = ['EVENT', 'RML', 'BODYPART', 'CLINENTITY', 'ACTOR', 'TIMEX3']
 
     for fichier in fichiers_xml:
@@ -61,7 +61,7 @@ def extraire_relations_et_entites():
             tag_name = elem.tag.split('}')[-1] 
             attribs = elem.attrib
             
-            # Traitement des Liens (TLINK) 
+            # Traitement des relations (TLINK) 
             if 'target' in attribs and tag_name.endswith('Link'):
                 xmi_id_lien = None
                 for key, val in attribs.items():
@@ -70,7 +70,7 @@ def extraire_relations_et_entites():
                         break
                 if xmi_id_lien:
                     liens_objets[xmi_id_lien] = {
-                        'role': attribs.get('role', 'LIEN_INCONNU'),
+                        'role': attribs.get('role', 'Lien_inconnu'),
                         'target': attribs.get('target')
                     }
             
@@ -95,25 +95,33 @@ def extraire_relations_et_entites():
                 if not texte_entite:
                     continue 
                 
-                # Détermination du contexte
+                # Déterminer le contexte
                 contexte = "Contexte introuvable"
                 for p in phrases:
                     if begin >= p['begin'] and end <= p['end']:
                         contexte = p['texte'].strip().replace('\n', ' ')
                         break
                 
+                
+                # Gestion de l'attribut "role" pour  ACTOR
+                # ***********************************************************************************
+
+                type_final = tag_name
+                if tag_name == 'ACTOR' and 'role' in attribs:
+                    type_final = f"ACTOR ({attribs['role']})"
+                
                 entites_brutes.append({
                     'id': entite_id,
                     'begin': begin,
                     'end': end,
-                    'type': tag_name,
+                    'type': type_final, # On utilise le type enrichi
                     'texte': texte_entite,
                     'contexte': contexte,
                     'attribs': attribs
                 })
 
         
-        # Regroupement et Fusion des annotations superposées (exemple EVENT/CLINENTITY)
+        # Regroupement et Fusion des annotations superposées (ex: EVENT/CLINENTITY)
         # ********************************************************************************
         
         # Grouper par position exacte (begin, end)
@@ -125,9 +133,9 @@ def extraire_relations_et_entites():
             entites_groupees[pos].append(ent)
             
         entites = {} # Dictionnaire final des entités fusionnées
-        ancien_id_vers_nouveau = {} # Dictionnaire de traduction des IDs pour les liens
+        ancien_id_vers_nouveau = {} # Dictionnaire de traduction des IDs pour les relations
         
-        # 2. Fusionner
+        # Fusionner
         for pos, liste_entites in entites_groupees.items():
             if len(liste_entites) == 1:
                 # Annotation simple
@@ -136,7 +144,7 @@ def extraire_relations_et_entites():
                 merged_type = e['type']
                 merged_attribs = e['attribs']
             else:
-                # Double (ou triple) annotation superposée
+                # Double annotation superposée
                 types = []
                 for e in liste_entites:
                     if e['type'] not in types:
@@ -147,8 +155,8 @@ def extraire_relations_et_entites():
                     types.remove('EVENT')
                     types.insert(0, 'EVENT')
                     
-                merged_type = '/'.join(types) # Ex: EVENT/CLINENTITY
-                merged_id = '/'.join([e['id'] for e in liste_entites]) # Ex: 5646/6696
+                merged_type = '/'.join(types) # Ex: EVENT/ACTOR (PATIENT)
+                merged_id = '/'.join([e['id'] for e in liste_entites]) # les IDs de l'élement ayant une double annotation Ex: 5646/6696
                 
                 # Fusionner les attributs bruts pour ne perdre aucune relation
                 merged_attribs = {}
@@ -159,7 +167,7 @@ def extraire_relations_et_entites():
                         else:
                             merged_attribs[k] = str(v)
                             
-            # Enregistrer la traduction des IDs (Pour que les liens retrouvent leur cible)
+            # Enregistrer la traduction des IDs pour que les liens retrouvent leur cible
             for e in liste_entites:
                 ancien_id_vers_nouveau[e['id']] = merged_id
                 
@@ -189,7 +197,7 @@ def extraire_relations_et_entites():
                         if target_id and target_id in entites:
                             cible_data = entites[target_id]
                             
-                            # Création de la ligne pour la relation sortante  (L'entité est la source)
+                            # Création de la ligne pour la relation sortante (l'entité est la source)
                             toutes_les_lignes_csv.append({
                                 'doc': nom_doc,
                                 'entite_id': source_id,
@@ -203,7 +211,7 @@ def extraire_relations_et_entites():
                                 'texte_contexte': source_data['contexte']
                             })
                             
-                            # Création de la ligne pour la relation entrante (L'entité est la cible)
+                            # 2. Création de la ligne pour la relation entrante (l'entité est la cible)
                             toutes_les_lignes_csv.append({
                                 'doc': nom_doc,
                                 'entite_id': target_id,

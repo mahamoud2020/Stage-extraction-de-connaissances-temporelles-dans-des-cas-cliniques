@@ -5,32 +5,32 @@ import seaborn as sns
 
 
 # Définition des chemins
-
+# ***********************************************************************************************
 
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Fichier_CSV = os.path.join(Base_dir, "data", "sortie_csv", "comparaison_coref_temp.csv")
 Dossier_Sortie = os.path.join(Base_dir, "data", "sortie_csv")
 
 def generer_charts():
-    print(" Étape 8 : Lancement des analyses statistiques et graphiques...")
+    print(" Étape 8 : Lancement des analyses statistiques et graphiques")
     
     if not os.path.exists(Fichier_CSV):
-        print(" Fichier introuvable. Veuillez lancer l'étape 7 d'abord.")
+        print(" Fichier introuvable. Veuillez lancer l'étape 7 d'abord")
         return
 
     # Chargement du fichier
     df = pd.read_csv(Fichier_CSV)
     
-    # longueur
+    # Conversion de la longueur en numérique (0 pour les "Non applicable")
     df['longueur_num'] = pd.to_numeric(df['longueur_chaine'], errors='coerce').fillna(0)
     
     sns.set_theme(style="whitegrid")
 
     
-    # Graphique 1 : analyse global
-    # ***************************************************************************
+    # Graphique 1 : analyse globale
+    # ********************************************************************************************
 
-    print(" Génération du graphique global ")
+    print(" Génération du graphique global")
     fig1, axes1 = plt.subplots(1, 2, figsize=(16, 7))
     
     df_xml_only_g = df[(df['type_temporalite'] != 'Non annoté') & (df['coref'] == 'Non détecté')]
@@ -60,19 +60,18 @@ def generer_charts():
         
     plt.tight_layout()
     img_global = os.path.join(Dossier_Sortie, "graphique_global.png")
-    plt.savefig(img_global, dpi=300, bbox_inches='tight')
-    plt.close()
+    fig1.savefig(img_global, dpi=300, bbox_inches='tight')
+    plt.close(fig1)
     print(f" Sauvegardé : {img_global}")
 
     
-    # Graphique 2 : analyse détaillée  (Singletons isolés + Barres groupées)
+    # Graphique 2 : analyse détaillée
     # *********************************************************************************
     
-
-    print(" Génération du graphique détaillé")
+    print(" Génération du graphique détaillé ")
     fig2, axes2 = plt.subplots(1, 2, figsize=(18, 8))
     
-    # Camembert détaillé (5 catégories)
+    # Séparation avec singletons vs sans singletons
 
     df_xml_only = df[(df['type_temporalite'] != 'Non annoté') & (df['coref'] == 'Non détecté')]
     df_inter_chaine = df[(df['type_temporalite'] != 'Non annoté') & (df['coref'] == 'Détecté') & (df['longueur_num'] >= 2)]
@@ -83,10 +82,10 @@ def generer_charts():
     sizes_d = [len(df_xml_only), len(df_inter_chaine), len(df_inter_single), len(df_cp_chaine), len(df_cp_single)]
     labels_d = [
         f'1. Temporalité unique \n({sizes_d[0]})', 
-        f'2. Coref et temp (avec singleton)\n({sizes_d[1]})',
-        f'3. Coref et temp (sans singleton)\n({sizes_d[2]})',
-        f'4. Coref unique (avec singleton)\n({sizes_d[3]})',
-        f'5. CorPipe unique (sans singleton)\n({sizes_d[4]})'
+        f'2. Coref et temp (sans singleton)\n({sizes_d[1]})',
+        f'3. Coref et temp (avec singleton)\n({sizes_d[2]})',
+        f'4. Coref unique (sans singleton)\n({sizes_d[3]})',
+        f'5. CorPipe unique (avec singleton)\n({sizes_d[4]})'
     ]
     colors_d = ['#ff9999', '#1f77b4', '#aec7e8', '#2ca02c', '#98df8a']
     
@@ -94,7 +93,7 @@ def generer_charts():
                  startangle=140, textprops={'fontsize': 10, 'fontweight': 'bold'})
     axes2[0].set_title('Analyse détaillée', fontsize=15, fontweight='bold', pad=20)
     
-    # Graphique à Barres Groupées (Performance par Balise)
+    # Graphique à Barres Groupées 
     df_xml_detail = df[df['type_temporalite'] != 'Non annoté'].copy()
     
     def classer_balise(row):
@@ -133,11 +132,11 @@ def generer_charts():
     plt.tight_layout()
     
     img_detail = os.path.join(Dossier_Sortie, "graphique_detaille.png")
-    plt.savefig(img_detail, dpi=300, bbox_inches='tight')
-    plt.close()
+    fig2.savefig(img_detail, dpi=300, bbox_inches='tight')
+    plt.close(fig2)
     print(f" Sauvegardé : {img_detail}")
     
-    print(f" Étape 8 terminée ")
+    print(" Étape 8 terminée parfaitement.")
 
 if __name__ == "__main__":
     generer_charts()

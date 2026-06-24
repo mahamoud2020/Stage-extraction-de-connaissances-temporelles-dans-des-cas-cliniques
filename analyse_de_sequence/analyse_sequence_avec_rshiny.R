@@ -1,5 +1,4 @@
 # Installation des bibliothèques nécessaires 
-
 library(shiny)
 library(bslib)
 library(TraMineR)
@@ -12,11 +11,11 @@ library(RColorBrewer)
 library(DT)
 library(dplyr) # Nécessaire pour les jointures et agrégations
 
-# *******************************************************************
+# ******************************************************************************************
 # Chargement et Préparation des Données
 
+# Chargement des données séquences
 
-# Chargement des données séquences 
 sequences_data <- read.csv(
   "sequences_coreferences_francais.csv",
   header       = TRUE,
@@ -35,18 +34,77 @@ comparaison_data <- read.csv(
   fileEncoding = "UTF-8"
 )
 
-# Reconstruction des séquences XML et collecte des mots par chaîne
+# Reconstruction mention par mention
+# On isole les lignes valides et on boucle sur chaque chaîne unique
 
-xml_reconstruit <- comparaison_data %>%
-  filter(mention_id != "Non applicable") %>%
-  group_by(doc, mention_id) %>%
-  summarise(
-    sequence_XML = paste(type_temporalite, collapse = " -> "),
-    vrais_mots   = paste(entité, collapse = ", "),
-    .groups      = 'drop'
+df_valid <- comparaison_data %>% filter(mention_id != "Non applicable" & !is.na(mention_id))
+chaines_uniques <- df_valid %>% select(doc, mention_id, chaine_complete) %>% distinct()
+
+xml_reconstruit_list <- lapply(1:nrow(chaines_uniques), function(i) {
+  current_doc   <- chaines_uniques$doc[i]
+  current_mid   <- chaines_uniques$mention_id[i]
+  current_chaine <- chaines_uniques$chaine_complete[i]
+  
+  # On sépare les têtes lexicales dans leur ordre d'apparition 
+  
+  heads <- unlist(strsplit(as.character(current_chaine), ",\\s*"))
+  
+  # On récupère les annotations disponibles pour ce cluster
+  
+  df_sub <- df_valid %>% filter(doc == current_doc, mention_id == current_mid)
+  
+  # Pour chaque mention, on cherche l'annotation correspondante à sa tête
+  
+  xml_types <- sapply(heads, function(h) {
+    h_low <- tolower(trimws(h))
+    
+    # Validation par la tête : l'entité doit contenir la tête ou inversement
+    
+    match_idx <- which(sapply(df_sub$entité, function(ent) {
+      ent_low <- tolower(as.character(ent))
+      grepl(h_low, ent_low, fixed = TRUE) || grepl(ent_low, h_low, fixed = TRUE)
+    }))
+    
+    if (length(match_idx) > 0) {
+      return(as.character(df_sub$type_temporalite[match_idx[1]]))
+    } else {
+      return("Non annoté") # pour le moment on laisse comme cela, plus tard ça fera l'objet d'une amélioration 
+    }
+  })
+  
+  # 4. On récupère le texte correspondant ou la tête si non annoté
+  mots_classes <- sapply(heads, function(h) {
+    h_low <- tolower(trimws(h))
+    match_idx <- which(sapply(df_sub$entité, function(ent) {
+      ent_low <- tolower(as.character(ent))
+      grepl(h_low, ent_low, fixed = TRUE) || grepl(ent_low, h_low, fixed = TRUE)
+    }))
+    
+    if (length(match_idx) > 0) {
+      return(as.character(df_sub$entité[match_idx[1]]))
+    } else {
+      return(h)
+    }
+  })
+  
+  # On retourne une structure propre par chaîne
+  
+  data.frame(
+    doc = current_doc,
+    mention_id = current_mid,
+    sequence_XML = paste(xml_types, collapse = " -> "),
+    vrais_mots = paste(mots_classes, collapse = ", "),
+    stringsAsFactors = FALSE
   )
+})
+
+# Fusion finale du dictionnaire réaligné
+
+xml_reconstruit <- do.call(rbind, xml_reconstruit_list)
+
 
 # Dictionnaire de couleurs pour TraMineR
+
 couleurs_dico <- c(
   "SNdef"      = "#FFFF99",
   "SNind"      = "#fb8072",
@@ -62,10 +120,12 @@ couleurs_dico <- c(
 )
 
 # Alphabet et palette dynamique
+
 etats_trouves  <- seqstatl(sequences_data[, 7:24])
 cpal_dynamique <- unname(couleurs_dico[etats_trouves])
 
-# Objet séquence TraMineR (Syntaxe)
+# Objet séquence TraMineR 
+
 coref_chaines.seq <- seqdef(
   sequences_data[, 7:24],
   alphabet     = etats_trouves,
@@ -75,6 +135,7 @@ coref_chaines.seq <- seqdef(
 )
 
 # Format compressé SPS pour affichage
+
 sequences_SPS <- seqformat(
   sequences_data, 7:24,
   from = "STS", to = "SPS",
@@ -83,20 +144,24 @@ sequences_SPS <- seqformat(
 sequences_data$sequences_SPS <- sequences_SPS
 
 # Matrice de distances OM
+
 matrice_sub  <- seqsubm(coref_chaines.seq, method = "TRATE")
 distances_om <- seqdist(coref_chaines.seq, method = "OM", indel = 1, sm = matrice_sub)
 
 # CAH méthode Ward 
+
 arbre_ward   <- agnes(as.dist(distances_om), diss = TRUE, method = "ward")
 ordre_random <- cmdscale(as.dist(distances_om), k = 1)
 
 # Calcul des sauts d'inertie
+
 hauteurs         <- sort(arbre_ward$height, decreasing = TRUE)[1:15]
 sauts            <- diff(hauteurs)
 grands_sauts_idx <- order(abs(sauts), decreasing = TRUE)[1:4]
 couleurs_sauts   <- c("#E74C3C", "#FFFF00", "#8E44AD", "#27AE60")
 
-# Fonction Heatmap personnalisée
+# Fonction Heatmap 
+
 seq_heatmap_custom <- function(seq, tree, with.missing = FALSE, ...) {
   if (!inherits(tree, "dendrogram")) tree <- as.dendrogram(tree)
   mat <- seq
@@ -110,9 +175,8 @@ seq_heatmap_custom <- function(seq, tree, with.missing = FALSE, ...) {
   heatmap(mat, tree, NA, na.rm = FALSE, col = col, scale = "none", labRow = NA, ...)
 }
 
-# ******************************************************************
+# *********************************************************************************************************
 # Interface Utilisateur (UI)
-
 
 ui <- page_navbar(
   title = "Analyse de Séquence appliquée aux chaînes de coréférences",
@@ -161,7 +225,6 @@ ui <- page_navbar(
       )
     )
   ),
-  
   
   # Onglet 2 : Choix du cluster 
   
@@ -212,17 +275,14 @@ ui <- page_navbar(
           title = " Graphiques TraMineR",
           card_header(textOutput("cluster_card_title")),
           p(style = "font-size:0.85em; color:#666;", textOutput("cluster_plot_desc")),
-          # Modification 1 : on passe le graphique des clusters à 750px
           plotOutput("cluster_plot_out", height = "750px") 
         ),
-        
-        #  Croisement coref vs temporalité
         
         nav_panel(
           title = "Exploration Sémantique (temporalité vs coref)",
           card_header("Détail des chaînes et enchaînements par cluster"),
           p(style = "font-size:0.85em; color:#555;",
-            "Ce tableau permet de filtrer par classe pour observer la correspondance entre les chaînes de coréférences de CorPipe et les informations temporelles annotées dans le corpus."),
+            "Ce tableau permet de filtrer par classe pour observer la correspondance. Il est téléchargeable via les boutons ci-dessous."),
           DTOutput("table_exploration_semantique")
         )
       )
@@ -230,7 +290,7 @@ ui <- page_navbar(
   )
 )
 
-# *****************************************************************************
+# **************************************************************************************************
 # Serveur 
 
 server <- function(input, output, session) {
@@ -256,7 +316,6 @@ server <- function(input, output, session) {
       options = list(
         pageLength = 10, 
         scrollX = TRUE,
-        # Ajout de la traduction en français 
         language = list(url = "//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json")
       ), 
       rownames = FALSE, 
@@ -325,7 +384,7 @@ server <- function(input, output, session) {
     }
   }, res = 100, height = 750) 
   
-  # Couplage dynamique (coref vs temporalité)
+  # Couplage dynamique (coref vs temporalité) avec fonctionnalité d'export
   
   output$table_exploration_semantique <- renderDT({
     d <- clustering_react()
@@ -335,35 +394,44 @@ server <- function(input, output, session) {
     df_analyse <- sequences_data
     df_analyse$Cluster_Affecte <- d$fac
     
-    # Jointure SQL réactive avec les enchaînements de temporalité calculés au démarrage
+    # Jointure SQL réactive avec les enchaînements réalignés
     
     df_complet <- df_analyse %>%
       left_join(xml_reconstruit, by = c("doc", "mention_id")) %>%
       select(
-        Document       = doc,
-        ID_chaine      = mention_id,
-        Cluster        = Cluster_Affecte,
-        Enchaînement_nature   = sequences_SPS,
-        Annotation_corpus = sequence_XML,
+        Document           = doc,
+        ID_chaine          = mention_id,
+        Cluster            = Cluster_Affecte,
+        Enchaînement_nature = sequences_SPS,
+        Annotation_corpus  = sequence_XML,
         Mots_contexte      = vrais_mots
       )
     
-    # Rendu du tableau DataTables avec filtres interactifs
+    # Rendu du tableau DataTables avec l'extension "Buttons" configurée pour toutes les pages
     
     datatable(
       df_complet,
+      extensions = 'Buttons',
       options = list(
+        dom = 'Bfrtip',
+        # Configuration des boutons pour exporter 'all' (toutes les pages)
+        buttons = list(
+          list(extend = 'copy', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'csv', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'excel', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'pdf', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'print', exportOptions = list(modifier = list(page = "all")))
+        ),
         pageLength = 10,
         scrollX = TRUE,
-        searchCols = list(NULL, NULL, list(search = "Classe 1"), NULL, NULL, NULL), # Initialisé sur la Classe 1
-        language = list(url = "//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json") # Modification 3 : Traduction française
+        searchCols = list(NULL, NULL, list(search = "Classe 1"), NULL, NULL, NULL),
+        language = list(url = "//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json")
       ),
       rownames = FALSE,
       filter = "top",
       class = "stripe hover compact"
     )
-    
-  })
+  }, server = FALSE) #  server = FALSE permet au navigateur d'avoir toutes les données pour l'export
 }
 
 # *********************************************************************************

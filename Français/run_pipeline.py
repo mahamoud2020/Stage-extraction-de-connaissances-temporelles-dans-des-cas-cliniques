@@ -31,7 +31,7 @@ def main():
         '--etapes', 
         nargs='+', 
         type=int, 
-        # Mise à jour : le pipeline s'arrête maintenant à l'étape 8
+        # Mise à jour, le pipeline s'arrête maintenant à l'étape 8
         default=[1, 2, 3, 4, 5, 6, 7, 8], 
         help="Liste des étapes à exécuter (ex: --etapes 3 4 5 6 7 8)."
     )

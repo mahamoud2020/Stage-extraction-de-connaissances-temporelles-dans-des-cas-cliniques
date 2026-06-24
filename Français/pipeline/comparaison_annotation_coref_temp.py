@@ -26,13 +26,13 @@ def verifier_concordance_lexicale(xml_text, texte_maillon, tete_lexicale):
     if x == tm or x == tt:
         return True
         
-    # Correspondance par mots entiers (Protection robuste contre les inclusions abusives)
+    # Correspondance par mots entiers 
     # \b garantit qu'on extrait le mot exact et non des syllabes
     mots_x = set(re.findall(r'\b\w+\b', x))
     mots_tm = set(re.findall(r'\b\w+\b', tm))
     mots_tt = set(re.findall(r'\b\w+\b', tt))
     
-    # Vérification d'inclusion propre (Si les mots de l'un sont strictement inclus dans l'autre)
+    # Vérification d'inclusion (Si les mots de l'un sont strictement inclus dans l'autre)
     if mots_x and (mots_x.issubset(mots_tm) or mots_x.issubset(mots_tt)):
         return True
     if mots_tm and mots_tm.issubset(mots_x):
@@ -47,7 +47,7 @@ def verifier_concordance_lexicale(xml_text, texte_maillon, tete_lexicale):
 # ****************************************************************************
 
 def comparer():
-    print(" Étape 8 : Croisement mentions vs annotations")
+    print(" Étape 8 : Croisement coréférences vs annotations")
 
     if not os.path.exists(Fichier_temporel) or not os.path.exists(Fichier_coref):
         print(" Erreur : L'un des fichiers CSV est introuvable.")
@@ -57,24 +57,18 @@ def comparer():
     # Extraction XML 
     # ***********************************************************************************
 
-
     df_temp = pd.read_csv(Fichier_temporel)
     
-    # On récupère les sources avec leur ID
-    sources = df_temp[['doc', 'source_id', 'entite_source', 'source_type']].rename(
-        columns={'source_id': 'xml_id', 'entite_source': 'entité', 'source_type': 'type_temporalite'})
+    # Avec le nouveau format centré sur l'entité, la lecture est très simplifiée.
+    # Toutes les entités uniques sont déjà listées dans les colonnes principales.
+    xml_uniques = df_temp[['doc', 'entite_id', 'entite_texte', 'entite_type']].rename(
+        columns={'entite_id': 'xml_id', 'entite_texte': 'entité', 'entite_type': 'type_temporalite'}
+    )
     
-    # On récupère les cibles avec leur ID
-    cibles = df_temp[['doc', 'cible_id', 'entite_cible', 'cible_type']].rename(
-        columns={'cible_id': 'xml_id', 'entite_cible': 'entité', 'cible_type': 'type_temporalite'})
-    
-    # On exclut les cibles vides générées par les entités orphelines
-    cibles = cibles[(cibles['entité'] != 'Indéterminé') & (cibles['xml_id'] != 'Aucun')]
-    
-    # On rassemble tout
-    # On dédoublonne uniquement sur l'ID de la balise pour ne pas traiter 
-    # la même balise plusieurs fois mais on garde les mots identiques s'ils ont des ID différents.
-    xml_uniques = pd.concat([sources, cibles]).dropna(subset=['entité'])
+    # On supprime les éventuelles entités indéterminées et on dédoublonne sur l'ID
+    # pour ne garder qu'une seule instance de chaque mot à croiser avec CorPipe.
+    xml_uniques = xml_uniques[xml_uniques['entité'] != 'Indéterminé']
+    xml_uniques = xml_uniques.dropna(subset=['entité'])
     xml_uniques = xml_uniques.drop_duplicates(subset=['doc', 'xml_id'])
     xml_uniques['entité'] = xml_uniques['entité'].astype(str).str.strip()
 
@@ -94,7 +88,6 @@ def comparer():
     
     #  Croisement 
     # ********************************************************************************
-
 
     matched_xml_ids = set()
     matched_coref_ids = set()
@@ -132,7 +125,7 @@ def comparer():
                     matched_xml_ids.add(x_uid)
                     matched_coref_ids.add(c_uid)
 
-    # Ajout des  XML uniquement
+    # Ajout des XML uniquement
     for _, x_row in xml_uniques.iterrows():
         x_uid = f"{x_row['doc']}_{str(x_row['xml_id'])}"
         if x_uid not in matched_xml_ids:
