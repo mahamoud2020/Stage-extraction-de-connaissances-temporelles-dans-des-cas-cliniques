@@ -1,4 +1,5 @@
 # Installation des bibliothèques nécessaires 
+
 library(shiny)
 library(bslib)
 library(TraMineR)
@@ -11,10 +12,10 @@ library(RColorBrewer)
 library(DT)
 library(dplyr) # Nécessaire pour les jointures et agrégations
 
-# ******************************************************************************************
-# Chargement et Préparation des Données
+# *********************************************************************************
+## Chargement et Préparation des Données
 
-# Chargement des données séquences
+# Chargement des données séquences 
 
 sequences_data <- read.csv(
   "sequences_coreferences_francais.csv",
@@ -34,8 +35,7 @@ comparaison_data <- read.csv(
   fileEncoding = "UTF-8"
 )
 
-# Reconstruction mention par mention
-# On isole les lignes valides et on boucle sur chaque chaîne unique
+# Reconstruction maillon par maillon
 
 df_valid <- comparaison_data %>% filter(mention_id != "Non applicable" & !is.na(mention_id))
 chaines_uniques <- df_valid %>% select(doc, mention_id, chaine_complete) %>% distinct()
@@ -49,45 +49,61 @@ xml_reconstruit_list <- lapply(1:nrow(chaines_uniques), function(i) {
   
   heads <- unlist(strsplit(as.character(current_chaine), ",\\s*"))
   
-  # On récupère les annotations disponibles pour ce cluster
+  # On récupère les annotations disponibles pour le cluster
   
   df_sub <- df_valid %>% filter(doc == current_doc, mention_id == current_mid)
+  ent_list_low <- tolower(trimws(as.character(df_sub$entité)))
   
-  # Pour chaque mention, on cherche l'annotation correspondante à sa tête
+  # Fonction pour trouver le meilleur index de correspondance
   
-  xml_types <- sapply(heads, function(h) {
+  trouver_index <- function(h) {
     h_low <- tolower(trimws(h))
     
-    # Validation par la tête : l'entité doit contenir la tête ou inversement
+    # Match simple
     
-    match_idx <- which(sapply(df_sub$entité, function(ent) {
-      ent_low <- tolower(as.character(ent))
+    exact_idx <- which(ent_list_low == h_low)
+    if (length(exact_idx) > 0) return(exact_idx[1])
+    
+    # Match par mot entier 
+    # Échappement des caractères spéciaux au cas où
+    
+    h_escaped <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", h_low)
+    pattern <- paste0("\\b", h_escaped, "\\b")
+    
+    match_idx <- which(sapply(ent_list_low, function(ent_low) {
+      ent_escaped <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", ent_low)
+      pattern_ent <- paste0("\\b", ent_escaped, "\\b")
+      # Match en mot entier dans un sens ou dans l'autre
+      grepl(pattern, ent_low, perl=TRUE) || grepl(pattern_ent, h_low, perl=TRUE)
+    }))
+    
+    if (length(match_idx) > 0) return(match_idx[1])
+    
+    # Match simple 
+    fallback_idx <- which(sapply(ent_list_low, function(ent_low) {
       grepl(h_low, ent_low, fixed = TRUE) || grepl(ent_low, h_low, fixed = TRUE)
     }))
     
-    if (length(match_idx) > 0) {
-      return(as.character(df_sub$type_temporalite[match_idx[1]]))
-    } else {
-      return("Non annoté") # pour le moment on laisse comme cela, plus tard ça fera l'objet d'une amélioration 
-    }
-  })
-  
-  # 4. On récupère le texte correspondant ou la tête si non annoté
-  mots_classes <- sapply(heads, function(h) {
-    h_low <- tolower(trimws(h))
-    match_idx <- which(sapply(df_sub$entité, function(ent) {
-      ent_low <- tolower(as.character(ent))
-      grepl(h_low, ent_low, fixed = TRUE) || grepl(ent_low, h_low, fixed = TRUE)
-    }))
+    if (length(fallback_idx) > 0) return(fallback_idx[1])
     
-    if (length(match_idx) > 0) {
-      return(as.character(df_sub$entité[match_idx[1]]))
-    } else {
-      return(h)
-    }
+    return(NA) # Aucun match trouvé
+  }
+  
+  # Application de l'algorithme à toutes les têtes
+  
+  indices <- sapply(heads, trouver_index)
+  
+  # Reconstruction des séquences alignées
+  
+  xml_types <- sapply(1:length(heads), function(idx) {
+    if (!is.na(indices[idx])) as.character(df_sub$type_temporalite[indices[idx]]) else "Non annoté"
   })
   
-  # On retourne une structure propre par chaîne
+  mots_classes <- sapply(1:length(heads), function(idx) {
+    if (!is.na(indices[idx])) as.character(df_sub$entité[indices[idx]]) else heads[idx]
+  })
+  
+  # Retourne une structurepar chaîne
   
   data.frame(
     doc = current_doc,
@@ -98,7 +114,7 @@ xml_reconstruit_list <- lapply(1:nrow(chaines_uniques), function(i) {
   )
 })
 
-# Fusion finale du dictionnaire réaligné
+# Fusion du dictionnaire réaligné
 
 xml_reconstruit <- do.call(rbind, xml_reconstruit_list)
 
@@ -175,14 +191,15 @@ seq_heatmap_custom <- function(seq, tree, with.missing = FALSE, ...) {
   heatmap(mat, tree, NA, na.rm = FALSE, col = col, scale = "none", labRow = NA, ...)
 }
 
-# *********************************************************************************************************
-# Interface Utilisateur (UI)
+# *********************************************************************************************
+## Interface Utilisateur (UI)
 
 ui <- page_navbar(
   title = "Analyse de Séquence appliquée aux chaînes de coréférences",
   theme = bs_theme(bootswatch = "flatly", base_font = font_google("Inter")),
   
   # Onglet 1 : Vue d'ensemble 
+  
   
   nav_panel(
     title = "Vue d'ensemble",
@@ -252,7 +269,6 @@ ui <- page_navbar(
   ),
   
   # Onglet 3 : Analyse des Clusters
-  
   nav_panel(
     title = "Analyse des Clusters",
     icon  = icon("layer-group"),
@@ -282,7 +298,7 @@ ui <- page_navbar(
           title = "Exploration Sémantique (temporalité vs coref)",
           card_header("Détail des chaînes et enchaînements par cluster"),
           p(style = "font-size:0.85em; color:#555;",
-            "Ce tableau permet de filtrer par classe pour observer la correspondance. Il est téléchargeable via les boutons ci-dessous."),
+            "Ce tableau permet de filtrer par classe pour observer la correspondance. Il peut être téléchargeable via les boutons ci-dessous."),
           DTOutput("table_exploration_semantique")
         )
       )
@@ -290,13 +306,12 @@ ui <- page_navbar(
   )
 )
 
-# **************************************************************************************************
-# Serveur 
+# ************************************************************************************************************************
+## Serveur 
 
 server <- function(input, output, session) {
   
   # Objet réactif pour le découpage des clusters
-  
   clustering_react <- reactive({
     k   <- input$nb_clusters
     cl  <- cutree(arbre_ward, k = k)
@@ -385,17 +400,14 @@ server <- function(input, output, session) {
   }, res = 100, height = 750) 
   
   # Couplage dynamique (coref vs temporalité) avec fonctionnalité d'export
-  
   output$table_exploration_semantique <- renderDT({
     d <- clustering_react()
     
     # Copie du dataframe de base et injection du cluster courant
-    
     df_analyse <- sequences_data
     df_analyse$Cluster_Affecte <- d$fac
     
     # Jointure SQL réactive avec les enchaînements réalignés
-    
     df_complet <- df_analyse %>%
       left_join(xml_reconstruit, by = c("doc", "mention_id")) %>%
       select(
@@ -407,14 +419,14 @@ server <- function(input, output, session) {
         Mots_contexte      = vrais_mots
       )
     
-    # Rendu du tableau DataTables avec l'extension "Buttons" configurée pour toutes les pages
+    # Rendu du tableau DataTables avec l'extension "Buttons
     
     datatable(
       df_complet,
       extensions = 'Buttons',
       options = list(
         dom = 'Bfrtip',
-        # Configuration des boutons pour exporter 'all' (toutes les pages)
+        # Ajoute du paramètre "page = 'all'" pour s'assurer que l'export télécharge la totalité des lignes 
         buttons = list(
           list(extend = 'copy', exportOptions = list(modifier = list(page = "all"))),
           list(extend = 'csv', exportOptions = list(modifier = list(page = "all"))),
@@ -431,10 +443,11 @@ server <- function(input, output, session) {
       filter = "top",
       class = "stripe hover compact"
     )
-  }, server = FALSE) #  server = FALSE permet au navigateur d'avoir toutes les données pour l'export
+  }, server = FALSE) #   permet l'export complet 
 }
 
-# *********************************************************************************
+# **********************************************************************************************************************************
 
-# Lancement de l'application
+## Lancement de l'application
+
 shinyApp(ui = ui, server = server)
