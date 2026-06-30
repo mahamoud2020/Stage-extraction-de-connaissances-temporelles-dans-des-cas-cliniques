@@ -11,7 +11,7 @@ L'architecture est modulaire pour séparer les données, le code d'exécution et
 ```text
 📁 Projet_Global/
 │
-├── analyse_de_sequence         #  Analyse de séquence   
+├── 📁 analyse_de_sequence         #  Analyse de séquence   
 |
 ├── 📁 crac2025-corpipe/        # Dépôt officiel CorPipe cloné
 ├── 📁 scripts/                 # Scripts partagés (convert_batch, evaluation, extraction_csv, run_batch_corpipe)
