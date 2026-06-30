@@ -40,8 +40,8 @@ def generer_charts():
     
     labels_g = [
         f'Temporalité unique\n({sizes_g[0]})', 
-        f'Coref unique\n({sizes_g[1]})', 
-        f'Coref et temp \n({sizes_g[2]})'
+        f'Coréf unique\n({sizes_g[1]})', 
+        f'Coréf et temp \n({sizes_g[2]})'
     ]
     colors_g = ['#ff9999', '#66b3ff', '#99ff99']
     
@@ -82,10 +82,10 @@ def generer_charts():
     sizes_d = [len(df_xml_only), len(df_inter_chaine), len(df_inter_single), len(df_cp_chaine), len(df_cp_single)]
     labels_d = [
         f'1. Temporalité unique \n({sizes_d[0]})', 
-        f'2. Coref et temp (sans singleton)\n({sizes_d[1]})',
-        f'3. Coref et temp (avec singleton)\n({sizes_d[2]})',
-        f'4. Coref unique (sans singleton)\n({sizes_d[3]})',
-        f'5. CorPipe unique (avec singleton)\n({sizes_d[4]})'
+        f'2. Coréf et temp (sans singleton)\n({sizes_d[1]})',
+        f'3. Coréf et temp (avec singleton)\n({sizes_d[2]})',
+        f'4. Coréf unique (sans singleton)\n({sizes_d[3]})',
+        f'5. Coréf unique (avec singleton)\n({sizes_d[4]})'
     ]
     colors_d = ['#ff9999', '#1f77b4', '#aec7e8', '#2ca02c', '#98df8a']
     
