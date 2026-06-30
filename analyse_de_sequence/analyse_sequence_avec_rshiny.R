@@ -10,12 +10,31 @@ library(seqhandbook)
 library(dendextend)
 library(RColorBrewer)
 library(DT)
-library(dplyr) # Nécessaire pour les jointures et agrégations
+library(dplyr)
 
-# *********************************************************************************
-## Chargement et Préparation des Données
+# ************************************************************************************************************
+# Dictionnaire de traduction en français pour DataTables 
 
-# Chargement des données séquences 
+lang_fr <- list(
+  processing = "Traitement en cours...",
+  search = "Rechercher :",
+  lengthMenu = "Afficher _MENU_ éléments",
+  info = "_START_ - _END_ / _TOTAL_", 
+  infoEmpty = "0 - 0 / 0",
+  infoFiltered = "(filtré sur _MAX_)",
+  loadingRecords = "Chargement en cours...",
+  zeroRecords = "Aucun élément à afficher",
+  emptyTable = "Aucune donnée disponible dans le tableau",
+  paginate = list(
+    "first" = "Premier",
+    "previous" = "Précédent",
+    "next" = "Suivant",
+    "last" = "Dernier"
+  )
+)
+
+# ************************************************************************************************************
+# Chargement et Préparation des Données
 
 sequences_data <- read.csv(
   "sequences_coreferences_francais.csv",
@@ -26,8 +45,6 @@ sequences_data <- read.csv(
   fileEncoding = "UTF-8"
 )
 
-# Chargement des données de croisement (temporalité + coref)
-
 comparaison_data <- read.csv(
   "comparaison_coref_temp.csv",
   header       = TRUE,
@@ -35,7 +52,7 @@ comparaison_data <- read.csv(
   fileEncoding = "UTF-8"
 )
 
-# Reconstruction maillon par maillon
+# Reconstruction maillon par maillon avec Priorités
 
 df_valid <- comparaison_data %>% filter(mention_id != "Non applicable" & !is.na(mention_id))
 chaines_uniques <- df_valid %>% select(doc, mention_id, chaine_complete) %>% distinct()
@@ -45,161 +62,133 @@ xml_reconstruit_list <- lapply(1:nrow(chaines_uniques), function(i) {
   current_mid   <- chaines_uniques$mention_id[i]
   current_chaine <- chaines_uniques$chaine_complete[i]
   
-  # On sépare les têtes lexicales dans leur ordre d'apparition 
-  
   heads <- unlist(strsplit(as.character(current_chaine), ",\\s*"))
-  
-  # On récupère les annotations disponibles pour le cluster
-  
   df_sub <- df_valid %>% filter(doc == current_doc, mention_id == current_mid)
   ent_list_low <- tolower(trimws(as.character(df_sub$entité)))
-  
-  # Fonction pour trouver le meilleur index de correspondance
   
   trouver_index <- function(h) {
     h_low <- tolower(trimws(h))
     
-    # Match simple
-    
+    # Match 
     exact_idx <- which(ent_list_low == h_low)
     if (length(exact_idx) > 0) return(exact_idx[1])
     
-    # Match par mot entier 
-    # Échappement des caractères spéciaux au cas où
+    # Match par mot entier
     
     h_escaped <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", h_low)
     pattern <- paste0("\\b", h_escaped, "\\b")
-    
     match_idx <- which(sapply(ent_list_low, function(ent_low) {
       ent_escaped <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", ent_low)
       pattern_ent <- paste0("\\b", ent_escaped, "\\b")
-      # Match en mot entier dans un sens ou dans l'autre
       grepl(pattern, ent_low, perl=TRUE) || grepl(pattern_ent, h_low, perl=TRUE)
     }))
-    
     if (length(match_idx) > 0) return(match_idx[1])
     
-    # Match simple 
+    # Match partiel simple 
+    
     fallback_idx <- which(sapply(ent_list_low, function(ent_low) {
       grepl(h_low, ent_low, fixed = TRUE) || grepl(ent_low, h_low, fixed = TRUE)
     }))
-    
     if (length(fallback_idx) > 0) return(fallback_idx[1])
     
-    return(NA) # Aucun match trouvé
+    return(NA) 
   }
   
-  # Application de l'algorithme à toutes les têtes
-  
   indices <- sapply(heads, trouver_index)
-  
-  # Reconstruction des séquences alignées
   
   xml_types <- sapply(1:length(heads), function(idx) {
     if (!is.na(indices[idx])) as.character(df_sub$type_temporalite[indices[idx]]) else "Non annoté"
   })
   
+  # Logique du traitement d'héritage
+  
+  valid_idx <- which(xml_types != "Non annoté")
+  xml_types_herites <- sapply(seq_along(xml_types), function(j) {
+    if (xml_types[j] != "Non annoté") {
+      return(xml_types[j]) # S'il y a déjà une balise, on la garde
+    }
+    if (length(valid_idx) == 0) {
+      return("Non annoté") # Si la chaîne est 100% vide, on ne peut rien hériter
+    }
+    # Cherche la balise valide la plus proche à gauche
+    
+    left_v <- valid_idx[valid_idx < j]
+    if (length(left_v) > 0) {
+      return(xml_types[max(left_v)])
+    } else {
+      
+      # Sinon, on cherche à droite
+      
+      right_v <- valid_idx[valid_idx > j]
+      return(xml_types[min(right_v)])
+    }
+  })
+  
+  
   mots_classes <- sapply(1:length(heads), function(idx) {
     if (!is.na(indices[idx])) as.character(df_sub$entité[indices[idx]]) else heads[idx]
   })
-  
-  # Retourne une structurepar chaîne
   
   data.frame(
     doc = current_doc,
     mention_id = current_mid,
     sequence_XML = paste(xml_types, collapse = " -> "),
+    sequence_XML_heritee = paste(xml_types_herites, collapse = " -> "), # Nouvelle colonne
     vrais_mots = paste(mots_classes, collapse = ", "),
     stringsAsFactors = FALSE
   )
 })
 
-# Fusion du dictionnaire réaligné
-
 xml_reconstruit <- do.call(rbind, xml_reconstruit_list)
 
-
-# Dictionnaire de couleurs pour TraMineR
-
 couleurs_dico <- c(
-  "SNdef"      = "#FFFF99",
-  "SNind"      = "#fb8072",
-  "SNdem"      = "#80b1d3",
-  "SN\u2205"   = "#579C91",
-  "SNnum"      = "#3F84DE",
-  "Poss"       = "#C45C47",
-  "Pro"        = "#7B1FA2",                
-  "Np"         = "#FDC086",
-  "Sujet_zero" = "#96B0B7",
-  "SNposs"     = "#FF0000",
+  "SNdef"      = "#FFFF99", "SNind"      = "#fb8072",
+  "SNdem"      = "#80b1d3", "SN\u2205"   = "#579C91",
+  "SNnum"      = "#3F84DE", "Poss"       = "#C45C47",
+  "Pro"        = "#7B1FA2", "Np"         = "#FDC086",
+  "Sujet_zero" = "#96B0B7", "SNposs"     = "#FF0000",
   "Autre"      = "#b3de69"
 )
-
-# Alphabet et palette dynamique
 
 etats_trouves  <- seqstatl(sequences_data[, 7:24])
 cpal_dynamique <- unname(couleurs_dico[etats_trouves])
 
-# Objet séquence TraMineR 
-
 coref_chaines.seq <- seqdef(
-  sequences_data[, 7:24],
-  alphabet     = etats_trouves,
-  states       = etats_trouves,
-  cpal         = cpal_dynamique,
-  with.missing = FALSE
+  sequences_data[, 7:24], alphabet = etats_trouves, states = etats_trouves,
+  cpal = cpal_dynamique, with.missing = FALSE
 )
 
-# Format compressé SPS pour affichage
-
-sequences_SPS <- seqformat(
-  sequences_data, 7:24,
-  from = "STS", to = "SPS",
-  compress = TRUE, with.missing = FALSE
-)
+sequences_SPS <- seqformat(sequences_data, 7:24, from = "STS", to = "SPS", compress = TRUE, with.missing = FALSE)
 sequences_data$sequences_SPS <- sequences_SPS
-
-# Matrice de distances OM
 
 matrice_sub  <- seqsubm(coref_chaines.seq, method = "TRATE")
 distances_om <- seqdist(coref_chaines.seq, method = "OM", indel = 1, sm = matrice_sub)
 
-# CAH méthode Ward 
-
 arbre_ward   <- agnes(as.dist(distances_om), diss = TRUE, method = "ward")
 ordre_random <- cmdscale(as.dist(distances_om), k = 1)
 
-# Calcul des sauts d'inertie
-
-hauteurs         <- sort(arbre_ward$height, decreasing = TRUE)[1:15]
-sauts            <- diff(hauteurs)
-grands_sauts_idx <- order(abs(sauts), decreasing = TRUE)[1:4]
-couleurs_sauts   <- c("#E74C3C", "#FFFF00", "#8E44AD", "#27AE60")
-
-# Fonction Heatmap 
-
-seq_heatmap_custom <- function(seq, tree, with.missing = FALSE, ...) {
-  if (!inherits(tree, "dendrogram")) tree <- as.dendrogram(tree)
-  mat <- seq
-  for (i in seq_len(length(seq))) {
-    mat[mat[, i] == "%", i] <- NA
-    mat[, i] <- as.numeric(mat[, i])
+seq_heatmap_custom <- function(seqdata, tree, with.missing = FALSE, ...) {
+  if (!inherits(tree, "dendrogram")) {
+    tree <- as.dendrogram(tree)
   }
-  mat <- as.matrix(mat)
-  col <- attr(seq, "cpal")
-  if (with.missing) col <- c(col, attr(seq, "missing.color"))
-  heatmap(mat, tree, NA, na.rm = FALSE, col = col, scale = "none", labRow = NA, ...)
+  mat <- as.matrix(seqdata)
+  mat[mat == "%"] <- NA
+  mat <- apply(mat, 2, as.numeric)
+  col <- attr(seqdata, "cpal")
+  if (with.missing) {
+    col <- c(col, attr(seqdata, "missing.color"))
+  }
+  heatmap(mat, Rowv = tree, Colv = NA, na.rm = FALSE, col = col, scale = "none", labRow = NA, ...)
 }
 
-# *********************************************************************************************
-## Interface Utilisateur (UI)
+# ***********************************************************************************************************************
+# Interface Utilisateur (UI)
 
 ui <- page_navbar(
   title = "Analyse de Séquence appliquée aux chaînes de coréférences",
   theme = bs_theme(bootswatch = "flatly", base_font = font_google("Inter")),
   
-  # Onglet 1 : Vue d'ensemble 
-  
+  # Onglet 1 : Vue d'ensemble
   
   nav_panel(
     title = "Vue d'ensemble",
@@ -246,32 +235,8 @@ ui <- page_navbar(
   # Onglet 2 : Choix du cluster 
   
   nav_panel(
-    title = "Choix du cluster",
+    title = "Choix et analyse du cluster",
     icon  = icon("sitemap"),
-    navset_tab(
-      nav_panel(
-        title = "Dendrogrammes",
-        layout_columns(
-          col_widths = c(6, 6),
-          card(full_screen = TRUE, card_header("Dendrogramme Ward "), plotOutput("dendro_simple", height = "420px")),
-          card(full_screen = TRUE, card_header("Dendrogramme avec Heatmap"), plotOutput("dendro_couleur", height = "420px"))
-        )
-      ),
-      nav_panel(
-        title = "📉 Sauts d'inertie",
-        layout_columns(
-          col_widths = c(6, 6),
-          card(full_screen = TRUE, card_header("Sauts d'inertie simples"), plotOutput("inertie_simple", height = "380px")),
-          card(full_screen = TRUE, card_header("Coupures suggérées (k optimal)"), plotOutput("inertie_couleur", height = "380px"))
-        )
-      )
-    )
-  ),
-  
-  # Onglet 3 : Analyse des Clusters
-  nav_panel(
-    title = "Analyse des Clusters",
-    icon  = icon("layer-group"),
     layout_sidebar(
       sidebar = sidebar(
         width = 300,
@@ -281,45 +246,84 @@ ui <- page_navbar(
         h6("Tailles"),
         tableOutput("cluster_sizes"),
         hr(),
-        h6("Type de Graphique"),
+        h6("Type de Graphique TraMineR"),
         radioButtons("cluster_plot_type", label = NULL,
                      choices = c("Distribution des états" = "dplot", "Séquences individuelles" = "iplot",
                                  "Top 10 séquences" = "fplot", "Séquences représentatives" = "rplot"), selected = "dplot")
       ),
-      navset_card_tab(
+      navset_tab(
         nav_panel(
-          title = " Graphiques TraMineR",
+          title = "Dendrogrammes",
+          layout_columns(
+            col_widths = c(6, 6),
+            card(full_screen = TRUE, card_header("Dendrogramme Ward "), plotOutput("dendro_simple", height = "420px")),
+            card(full_screen = TRUE, card_header("Dendrogramme avec Heatmap"), plotOutput("dendro_couleur", height = "420px"))
+          )
+        ),
+        nav_panel(
+          title = "📉 Sauts d'inertie",
+          layout_columns(
+            col_widths = c(6, 6),
+            card(full_screen = TRUE, card_header("Sauts d'inertie simples"), plotOutput("inertie_simple", height = "380px")),
+            card(full_screen = TRUE, card_header("Coupures suggérées (k optimal)"), plotOutput("inertie_couleur", height = "380px"))
+          )
+        ),
+        nav_panel(
+          title = " Exploration des clusters",
           card_header(textOutput("cluster_card_title")),
           p(style = "font-size:0.85em; color:#666;", textOutput("cluster_plot_desc")),
           plotOutput("cluster_plot_out", height = "750px") 
-        ),
-        
-        nav_panel(
-          title = "Exploration Sémantique (temporalité vs coref)",
-          card_header("Détail des chaînes et enchaînements par cluster"),
-          p(style = "font-size:0.85em; color:#555;",
-            "Ce tableau permet de filtrer par classe pour observer la correspondance. Il peut être téléchargeable via les boutons ci-dessous."),
-          DTOutput("table_exploration_semantique")
         )
+      )
+    )
+  ),
+  
+  # Onglet 3 : Analyse des Clusters
+  
+  nav_panel(
+    title = "Exploration sémantique",
+    icon  = icon("layer-group"),
+    navset_card_tab(
+      nav_panel(
+        title = "Chaînes de coréf vs annotations du corpus",
+        card_header("Détail des chaînes et enchaînements par cluster"),
+        p(style = "font-size:0.85em; color:#555;",
+          "Ce tableau permet de filtrer par classe pour observer la correspondance entre les chaînes de coréférences  et les annotations du corpus."),
+        DTOutput("table_exploration_semantique")
+      ),
+      
+      nav_panel(
+        title = "Tableau nettoyé",
+        card_header("Version nettoyée"),
+        p(style = "font-size:0.85em; color:#555;",
+          "Les séquences composées uniquement des 'Non annoté' ont été supprimées de ce tableau."),
+        DTOutput("table_exploration_filtree")
+      ),
+      
+      # sous onglet pour le traitement par héritage des elements Non annotés
+      
+      nav_panel(
+        title = "Héritage des Annotations",
+        card_header("Traitement par héritage "),
+        p(style = "font-size:0.85em; color:#555;",
+          "Dans ce tableau, les éléments 'Non annoté' ont hérité de la balise (à gauche comme à droite) la plus proche au sein de leur propre chaîne de coréférence."),
+        DTOutput("table_exploration_heritage")
       )
     )
   )
 )
 
-# ************************************************************************************************************************
-## Serveur 
+# *****************************************************************************************************************************************
+# Serveur 
 
 server <- function(input, output, session) {
   
-  # Objet réactif pour le découpage des clusters
   clustering_react <- reactive({
     k   <- input$nb_clusters
     cl  <- cutree(arbre_ward, k = k)
     fac <- factor(cl, labels = paste("Classe", 1:k))
     list(cl = cl, fac = fac, k = k)
   })
-  
-  # Onglet 1 : Vue d'ensemble 
   
   output$nb_sequences <- renderText({ nrow(sequences_data) })
   output$nb_colonnes  <- renderText({ ncol(sequences_data) })
@@ -331,7 +335,7 @@ server <- function(input, output, session) {
       options = list(
         pageLength = 10, 
         scrollX = TRUE,
-        language = list(url = "//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json")
+        language = lang_fr
       ), 
       rownames = FALSE, 
       filter = "top"
@@ -349,8 +353,6 @@ server <- function(input, output, session) {
       seqdplot(coref_chaines.seq, main = "Proportions", with.legend = "right")
     }
   }, res = 100)
-  
-  # Onglet 2 : Dendrogrammes & Sauts 
   
   output$dendro_simple <- renderPlot({
     plot(as.dendrogram(arbre_ward), main = "Arbre de Ward", leaflab = "none", xlab = "Séquences", ylab = "Inertie")
@@ -370,8 +372,6 @@ server <- function(input, output, session) {
     points(grands_sauts_idx, hauteurs[grands_sauts_idx], pch = 21, cex = 2.5, bg = couleurs_sauts, col = "white")
     text(grands_sauts_idx, hauteurs[grands_sauts_idx], labels = paste0("k = ", grands_sauts_idx), pos = 1, col = couleurs_sauts, font = 2)
   }, res = 100)
-  
-  # Onglet 3 : Analyse des Clusters 
   
   output$cluster_card_title <- renderText({
     d <- clustering_react()
@@ -399,16 +399,12 @@ server <- function(input, output, session) {
     }
   }, res = 100, height = 750) 
   
-  # Couplage dynamique (coref vs temporalité) avec fonctionnalité d'export
-  output$table_exploration_semantique <- renderDT({
+  df_base_complet <- reactive({
     d <- clustering_react()
-    
-    # Copie du dataframe de base et injection du cluster courant
     df_analyse <- sequences_data
     df_analyse$Cluster_Affecte <- d$fac
     
-    # Jointure SQL réactive avec les enchaînements réalignés
-    df_complet <- df_analyse %>%
+    df_analyse %>%
       left_join(xml_reconstruit, by = c("doc", "mention_id")) %>%
       select(
         Document           = doc,
@@ -416,34 +412,97 @@ server <- function(input, output, session) {
         Cluster            = Cluster_Affecte,
         Enchaînement_nature = sequences_SPS,
         Annotation_corpus  = sequence_XML,
+        Annotation_héritée = sequence_XML_heritee, 
         Mots_contexte      = vrais_mots
       )
-    
-    # Rendu du tableau DataTables avec l'extension "Buttons
+  })
+  
+  # Tableau 1 : toutes les données (Sans la colonne héritée)
+  
+  output$table_exploration_semantique <- renderDT({
+    df_tab1 <- df_base_complet() %>% select(-Annotation_héritée)
     
     datatable(
-      df_complet,
+      df_tab1,
       extensions = 'Buttons',
       options = list(
         dom = 'Bfrtip',
-        # Ajoute du paramètre "page = 'all'" pour s'assurer que l'export télécharge la totalité des lignes 
         buttons = list(
-          list(extend = 'copy', exportOptions = list(modifier = list(page = "all"))),
-          list(extend = 'csv', exportOptions = list(modifier = list(page = "all"))),
-          list(extend = 'excel', exportOptions = list(modifier = list(page = "all"))),
-          list(extend = 'pdf', exportOptions = list(modifier = list(page = "all"))),
-          list(extend = 'print', exportOptions = list(modifier = list(page = "all")))
+          list(extend = 'copy', text = 'Copier', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'csv', text = 'CSV', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'excel', text = 'Excel', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'pdf', text = 'PDF', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'print', text = 'Imprimer', exportOptions = list(modifier = list(page = "all")))
         ),
         pageLength = 10,
         scrollX = TRUE,
         searchCols = list(NULL, NULL, list(search = "Classe 1"), NULL, NULL, NULL),
-        language = list(url = "//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json")
+        language = lang_fr
       ),
       rownames = FALSE,
       filter = "top",
       class = "stripe hover compact"
     )
-  }, server = FALSE) #   permet l'export complet 
+  }, server = FALSE)
+  
+  # Tableau 2 : filtrage (Sans la colonne héritée)
+  
+  output$table_exploration_filtree <- renderDT({
+    df_clean <- df_base_complet() %>%
+      filter(!is.na(Annotation_corpus) & !grepl("^(Non annoté(\\s*->\\s*Non annoté)*)$", Annotation_corpus)) %>%
+      select(-Annotation_héritée)
+    
+    datatable(
+      df_clean,
+      extensions = 'Buttons',
+      options = list(
+        dom = 'Bfrtip',
+        buttons = list(
+          list(extend = 'copy', text = 'Copier', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'csv', text = 'CSV', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'excel', text = 'Excel', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'pdf', text = 'PDF', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'print', text = 'Imprimer', exportOptions = list(modifier = list(page = "all")))
+        ),
+        pageLength = 10,
+        scrollX = TRUE,
+        searchCols = list(NULL, NULL, list(search = "Classe 1"), NULL, NULL, NULL),
+        language = lang_fr
+      ),
+      rownames = FALSE,
+      filter = "top",
+      class = "stripe hover compact"
+    )
+  }, server = FALSE)
+  
+  # Tableau 3 : héritage des annotations (AVEC la colonne héritée)
+  
+  output$table_exploration_heritage <- renderDT({
+    df_heritage <- df_base_complet() %>%
+      filter(!is.na(Annotation_corpus) & !grepl("^(Non annoté(\\s*->\\s*Non annoté)*)$", Annotation_corpus))
+    
+    datatable(
+      df_heritage,
+      extensions = 'Buttons',
+      options = list(
+        dom = 'Bfrtip',
+        buttons = list(
+          list(extend = 'copy', text = 'Copier', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'csv', text = 'CSV', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'excel', text = 'Excel', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'pdf', text = 'PDF', exportOptions = list(modifier = list(page = "all"))),
+          list(extend = 'print', text = 'Imprimer', exportOptions = list(modifier = list(page = "all")))
+        ),
+        pageLength = 10,
+        scrollX = TRUE,
+        searchCols = list(NULL, NULL, list(search = "Classe 1"), NULL, NULL, NULL, NULL),
+        language = lang_fr
+      ),
+      rownames = FALSE,
+      filter = "top",
+      class = "stripe hover compact"
+    )
+  }, server = FALSE)
 }
 
 # **********************************************************************************************************************************
