@@ -32,7 +32,7 @@ def verifier_concordance_lexicale(xml_text, texte_maillon, tete_lexicale):
     mots_tm = set(re.findall(r'\b\w+\b', tm))
     mots_tt = set(re.findall(r'\b\w+\b', tt))
     
-    # Vérification d'inclusion (Si les mots de l'un sont strictement inclus dans l'autre)
+    # Vérification d'inclusion propre (Si les mots de l'un sont strictement inclus dans l'autre)
     if mots_x and (mots_x.issubset(mots_tm) or mots_x.issubset(mots_tt)):
         return True
     if mots_tm and mots_tm.issubset(mots_x):
@@ -47,7 +47,7 @@ def verifier_concordance_lexicale(xml_text, texte_maillon, tete_lexicale):
 # ****************************************************************************
 
 def comparer():
-    print(" Étape 8 : Croisement coréférences vs annotations")
+    print(" Étape 8 : Croisement mentions vs annotations")
 
     if not os.path.exists(Fichier_temporel) or not os.path.exists(Fichier_coref):
         print(" Erreur : L'un des fichiers CSV est introuvable.")
@@ -73,13 +73,13 @@ def comparer():
     xml_uniques['entité'] = xml_uniques['entité'].astype(str).str.strip()
 
     
-    # 2. Extraction CorPipe 
+    # Extraction CorPipe 
     # ******************************************************************************
 
     df_coref = pd.read_csv(Fichier_coref).dropna(subset=['mention_id'])
     
     tailles_chaines = df_coref.groupby(['doc', 'mention_id']).size().reset_index(name='longueur_chaine')
-    textes_chaines = df_coref.groupby(['doc', 'mention_id'])['tete_lexicale'].apply(lambda x: ', '.join(x.astype(str))).reset_index(name='chaine_complete')
+    textes_chaines = df_coref.groupby(['doc', 'mention_id'])['tete_lexicale'].apply(lambda x: ' | '.join(x.astype(str))).reset_index(name='chaine_complete')
     chaines_info = pd.merge(tailles_chaines, textes_chaines, on=['doc', 'mention_id'])
 
     coref_uniques = df_coref[['doc', 'mention_id', 'texte_maillon', 'tete_lexicale']].drop_duplicates()
