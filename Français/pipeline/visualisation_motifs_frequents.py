@@ -75,7 +75,7 @@ def visualiser_frequents_avec_vocabulaire():
         
         src_txt = str(row.get('source_texte', '')).strip()
         src_tag = creer_label_noeud(row, "source")
-        # On utilise le mot + tag (sans index de ligne) pour garantir la connectivité !
+        # On utilise le mot + tag (sans index de ligne) pour garantir la connectivité 
         src_id = f"{src_txt}_{src_tag}" 
         
         tgt_txt = str(row.get('target_texte', '')).strip()
@@ -89,6 +89,7 @@ def visualiser_frequents_avec_vocabulaire():
         doc_graphs[doc].add_edge(src_id, tgt_id, rel=rel)
 
     # Chargement et filtrage des motifs (presence >= 40 documents)
+
     motifs = []
     motif_courant = None
     with open(Fichier_Resultats, 'r', encoding='utf-8') as f:
@@ -200,7 +201,7 @@ def visualiser_frequents_avec_vocabulaire():
         try:
             dot.render(os.path.join(Dossier_Motifs, f"motif_dict_id{m['id']}_support{m['support']}"), cleanup=True)
         except Exception as e:
-            print(f" Erreur rendu motif {m['id']}: {e}")
+            print(f" Erreur du motif {m['id']}: {e}")
 
     print("\n" + "*"*60)
     print(f" Les graphes ont été générés dans :")
