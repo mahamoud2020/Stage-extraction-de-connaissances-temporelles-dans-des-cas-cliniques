@@ -31,15 +31,13 @@ def main():
         '--etapes', 
         nargs='+', 
         type=int, 
-        # Mise à jour, le pipeline s'arrête maintenant à l'étape 8
-        default=[1, 2, 3, 4, 5, 6, 7, 8], 
-        help="Liste des étapes à exécuter (ex: --etapes 3 4 5 6 7 8)."
+        default=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 
+        help="Liste des étapes à exécuter (ex: --etapes 3 4 5 6 7 8 9 10 11 12)."
     )
     
     args = parser.parse_args()
     etapes_a_lancer = args.etapes
 
-    
     print(f"\n Démarrage du pipeline ")
     print("*"*60)
 
@@ -55,12 +53,12 @@ def main():
 
     if 4 in etapes_a_lancer:
         print(f"\n" + "*"*60)
-        print(f" Exécution: Étape 4 : Extraction des entités cliniques (XML)")
+        print(f" Exécution: Étape 4 : Extraction des entités cliniques")
         print(f"*"*60)
         try:
             entites_xml = analyser_corpus_xml()
         except Exception as e:
-            print(f"\n Arrêt du pipeline : Une erreur est constatée lors de l'étape 4 (XML).")
+            print(f"\n Arrêt du pipeline : Une erreur est constatée lors de l'étape 4.")
             print(f" Détail de l'erreur : {e}")
             sys.exit(1)
             
@@ -76,8 +74,7 @@ def main():
             sys.exit(1)
 
     if 6 in etapes_a_lancer:
-        
-        executer_etape("extraction_temporalite.py", "Étape 6 : Extraction des relations temporelles cliniques")
+        executer_etape("extraction_temporalite.py", "Étape 6 : Extraction des relations temporelles ")
 
     if 7 in etapes_a_lancer:
         executer_etape("comparaison_annotation_coref_temp.py", "Étape 7 : croisement (Coréférence vs Temporalité)")
@@ -85,11 +82,22 @@ def main():
     if 8 in etapes_a_lancer:
         executer_etape("visualisation_core_temp.py", "Étape 8 : Dataviz et statistiques du croisement")
 
-    print("\n" + "*"*60)
-    print(" Pipeline terminé parfaitement ")
-    print(" Les tableaux et graphiques sont disponibles dans 'data/sortie_csv/'")
     
-    
+    if 9 in etapes_a_lancer:
+        executer_etape("extraction_balise_relation.py", "Étape 9 : Extraction des balises et des relations pour la fouille de graphes (gSpan)")
 
+    if 10 in etapes_a_lancer:
+        executer_etape("encodage_gspan.py", "Étape 10 : Encodage au format TXT pour gSpan")
+
+    if 11 in etapes_a_lancer:
+        executer_etape("fouille_graphes.py", "Étape 11 : Fouille de sous-graphes fréquents avec gSpan")
+        
+    if 12 in etapes_a_lancer:
+        executer_etape("visualisation_motifs.py", "Étape 12 : Visualisation graphique des motifs")
+
+    print("\n" + "*"*60)
+    print(" Pipeline terminé sans erreur ")
+    print(" Les fichiers CSV et graphiques sont disponibles dans 'data/sortie_csv/'")
+    
 if __name__ == "__main__":
     main()

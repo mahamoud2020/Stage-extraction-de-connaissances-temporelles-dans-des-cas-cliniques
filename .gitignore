@@ -14,3 +14,7 @@ __pycache__/
 
 # Ignorer les fichiers temporaires de tableur
 *.~lock.*
+
+
+# Environnement Python
+Lib/
