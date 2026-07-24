@@ -2,18 +2,24 @@ import os
 import pandas as pd
 
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-Dossier_CSV = os.path.join(Base_dir, "data", "sortie_csv")
+Parent_dir = os.path.dirname(Base_dir) # On remonte dans l'arborescence
+Dossier_Mining = os.path.join(Parent_dir, "Graphe pattern  mining")
 
-Fichier_Entree = os.path.join(Dossier_CSV, "balises_relations_attributs.csv")
-Fichier_Sortie_TXT = os.path.join(Dossier_CSV, "graphes_gspan.txt")
-Lexique_Noeuds = os.path.join(Dossier_CSV, "dictionnaire_noeuds.csv")
-Lexique_Aretes = os.path.join(Dossier_CSV, "dictionnaire_aretes.csv")
+# Lecture dans le nouveau dossier
+Fichier_Graphes = os.path.join(Dossier_Mining, "graphes_attributs_gspan.csv")
+Fichier_Balises = os.path.join(Dossier_Mining, "balises_relations_attributs.csv")
+# On priorise le fichier contenant les IDs uniques
+Fichier_Entree = Fichier_Graphes if os.path.exists(Fichier_Graphes) else Fichier_Balises
+
+Fichier_Sortie_TXT = os.path.join(Dossier_Mining, "graphes_gspan.txt")
+Lexique_Noeuds = os.path.join(Dossier_Mining, "dictionnaire_noeuds.csv")
+Lexique_Aretes = os.path.join(Dossier_Mining, "dictionnaire_aretes.csv")
 
 def encoder_pour_gspan():
     print(" Lancement de l'encodage au format gSpan")
 
     if not os.path.exists(Fichier_Entree):
-        print(f" Erreur : Le fichier {Fichier_Entree} est introuvable.")
+        print(f" Erreur : Le fichier {Fichier_Entree} est introuvable")
         return
 
     df = pd.read_csv(Fichier_Entree, keep_default_na=False)
@@ -35,11 +41,11 @@ def encoder_pour_gspan():
         
         label_parts = [tag]
         
-        # On ajoute contextualModality dans la structure du label
+        # On ajoute contextualModality 
         attributs = ['docTimeRel', 'eventType', 'contextualModality', 'polarity']
         
         for attr in attributs:
-            val = str(row[f'{prefix}_{attr}']).strip()
+            val = str(row.get(f'{prefix}_{attr}', "Non concerné")).strip()
             if val and val != "Non concerné" and val != "nan":
                 label_parts.append(val)
                 
@@ -56,7 +62,11 @@ def encoder_pour_gspan():
             local_id_counter = 0
             
             for _, row in donnees_doc.iterrows():
-                src_id = str(row['source_id'])
+                
+                
+                
+                src_id = str(row.get('source_id', f"{row['source_texte']}_{row['source_tag']}")).strip()
+                
                 if src_id not in id_global_vers_local:
                     label_str = creer_label_noeud(row, "source")
                     if label_str not in dictionnaire_noeuds:
@@ -64,10 +74,11 @@ def encoder_pour_gspan():
                         compteur_label_noeud += 1
                     
                     id_global_vers_local[src_id] = local_id_counter
+                    
                     f_out.write(f"v {local_id_counter} {dictionnaire_noeuds[label_str]}\n")
                     local_id_counter += 1
                 
-                tgt_id = str(row['target_id'])
+                tgt_id = str(row.get('target_id', f"{row['target_texte']}_{row['target_tag']}")).strip()
                 if tgt_id not in id_global_vers_local:
                     label_str = creer_label_noeud(row, "target")
                     if label_str not in dictionnaire_noeuds:
@@ -79,13 +90,18 @@ def encoder_pour_gspan():
                     local_id_counter += 1
 
             for _, row in donnees_doc.iterrows():
-                rel_str = row['relation_type']
+                rel_str = str(row.get('relation_type', 'UNKNOWN')).strip()
                 if rel_str not in dictionnaire_aretes:
                     dictionnaire_aretes[rel_str] = compteur_label_arete
                     compteur_label_arete += 1
                 
-                local_src = id_global_vers_local[str(row['source_id'])]
-                local_tgt = id_global_vers_local[str(row['target_id'])]
+                # On utilise la même logique pour faire correspondre le noeud
+                src_id = str(row.get('source_id', f"{row['source_texte']}_{row['source_tag']}")).strip()
+                tgt_id = str(row.get('target_id', f"{row['target_texte']}_{row['target_tag']}")).strip()
+                
+                local_src = id_global_vers_local[src_id]
+                local_tgt = id_global_vers_local[tgt_id]
+                
                 
                 f_out.write(f"e {local_src} {local_tgt} {dictionnaire_aretes[rel_str]}\n")
             
@@ -96,7 +112,9 @@ def encoder_pour_gspan():
     
     df_lex_aretes = pd.DataFrame(list(dictionnaire_aretes.items()), columns=['Relation', 'ID_gSpan'])
     df_lex_aretes.to_csv(Lexique_Aretes, index=False, encoding='utf-8')
-    print(" Encodage terminé")
+    
+    print(f" {graph_id} graphes enregistrés dans '{Dossier_Mining}'.")
+    print(f" Dictionnaire : {len(dictionnaire_noeuds)} labels de noeuds, {len(dictionnaire_aretes)} relations.")
 
 if __name__ == "__main__":
     encoder_pour_gspan()

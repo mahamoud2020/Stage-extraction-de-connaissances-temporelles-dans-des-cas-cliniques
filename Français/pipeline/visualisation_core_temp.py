@@ -5,7 +5,7 @@ import seaborn as sns
 
 
 # Définition des chemins
-# ***********************************************************************************************
+# *******************************************************************************************
 
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Fichier_CSV = os.path.join(Base_dir, "data", "sortie_csv", "comparaison_coref_temp.csv")
@@ -96,8 +96,9 @@ def generer_charts():
     # Graphique à Barres Groupées 
     df_xml_detail = df[df['type_temporalite'] != 'Non annoté'].copy()
     
+    
     def classer_balise(row):
-        if row['coref'] == 'Non détecté':
+        if row['coref'] == 'Non détecté' or row['longueur_num'] == 0:
             return '1. Manqué par CorPipe'
         elif row['longueur_num'] == 1:
             return '2. Détecté (avec singleton)'

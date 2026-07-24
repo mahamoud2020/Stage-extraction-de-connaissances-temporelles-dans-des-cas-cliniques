@@ -3,19 +3,25 @@ import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
 
-Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-Dossier_XML = os.path.join(Base_dir, "data", "xml_source")
-Dossier_CSV = os.path.join(Base_dir, "data", "sortie_csv")
+# Définition des chemins
+Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # Pointera sur .../Français
+Parent_dir = os.path.dirname(Base_dir) # Remonte au dossier .../coref_e3c_corpipe_
+
+Dossier_XML = os.path.join(Base_dir, "data", "xml_source") 
+# Dossier consacré au graphe pattern
+Dossier_Sortie_Graphes = os.path.join(Parent_dir, "Graphe pattern  mining")
 
 def extraire_pour_gspan():
-    print(" Lancement de l'extraction des balises concernés et des relations pour la fouille de graphe pattern (gSpan)")
+    print(" Lancement de l'extraction des balises sélectionnées  et des relations pour la fouille de graphe pattern (gSpan)")
     
-    if not os.path.exists(Dossier_CSV):
-        os.makedirs(Dossier_CSV)
+    if not os.path.exists(Dossier_Sortie_Graphes):
+        os.makedirs(Dossier_Sortie_Graphes)
         
     fichiers_xml = glob.glob(os.path.join(Dossier_XML, "*.xml")) + glob.glob(os.path.join(Dossier_XML, "*.xmi"))
     lignes_aretes = [] 
-    tags_cibles = ['EVENT', 'TIMEX3', 'BODYPART', 'CLINENTITY']
+
+    # Uniquement EVENT, CLINENTITY et TIMEX3
+    tags_cibles = ['EVENT', 'TIMEX3', 'CLINENTITY']
 
     for fichier in fichiers_xml:
         nom_doc = os.path.basename(fichier).replace('.xml', '').replace('.xmi', '')
@@ -39,6 +45,7 @@ def extraire_pour_gspan():
             tag_name = elem.tag.split('}')[-1] 
             attribs = elem.attrib
             
+            # Traitement des Liens (TLINKs)
             if 'target' in attribs and tag_name.endswith('Link'):
                 xmi_id_lien = None
                 for key, val in attribs.items():
@@ -51,6 +58,7 @@ def extraire_pour_gspan():
                         'target': attribs.get('target')
                     }
             
+            # Traitement des Entités 
             elif 'begin' in attribs and 'end' in attribs and tag_name in tags_cibles:
                 entite_id = None
                 for key, val in attribs.items():
@@ -86,16 +94,18 @@ def extraire_pour_gspan():
         
         for pos, liste_entites in entites_groupees.items():
             types = list(set([e['type_brut'] for e in liste_entites]))
+            
+            
             if 'EVENT' in types:
                 types.remove('EVENT')
                 types.insert(0, 'EVENT')
-            
             merged_type = '/'.join(types)
             merged_id = '/'.join([e['id'] for e in liste_entites])
             
+            
             docTimeRel = "Non concerné"
             eventType = "Non concerné"
-            contextualModality = "Non concerné" 
+            contextualModality = "Non concerné"
             polarity = "Non concerné" 
             timexType = "Non concerné"
             
@@ -104,15 +114,15 @@ def extraire_pour_gspan():
                 for k, v in e['attribs'].items():
                     merged_attribs[k] = str(v)
                     
+                # Le DCT est consideré comme un attribut, pas un sommet
                 if e['type_brut'] == 'EVENT':
                     docTimeRel = e['attribs'].get('docTimeRel', 'Non concerné')
                     eventType = e['attribs'].get('eventType', 'Non concerné')
-                    # Ajout de contextualModality 
-                    contextualModality = e['attribs'].get('contextualModality', 'ACTUAL')
+                    contextualModality = e['attribs'].get('contextualModality', 'Non concerné')
                     polarity = e['attribs'].get('polarity', 'Non concerné')
                 
                 elif e['type_brut'] == 'TIMEX3':
-                    timexType = e['attribs'].get('timex3Class', 'Non concerné')
+                    timexType = e['attribs'].get('type', e['attribs'].get('timex3Class', 'Non concerné'))
                     
             for e in liste_entites:
                 ancien_id_vers_nouveau[e['id']] = merged_id
@@ -120,9 +130,9 @@ def extraire_pour_gspan():
             entites_enrichies[merged_id] = {
                 'tag': merged_type,
                 'texte': liste_entites[0]['texte'],
-                'docTimeRel': docTimeRel,
+                'docTimeRel': docTimeRel, 
                 'eventType': eventType,
-                'contextualModality': contextualModality, 
+                'contextualModality': contextualModality,
                 'polarity': polarity,
                 'timexType': timexType,
                 'attributs_bruts': merged_attribs
@@ -166,9 +176,11 @@ def extraire_pour_gspan():
         df_graphe = pd.DataFrame(lignes_aretes)
         df_graphe = df_graphe.drop_duplicates() 
         
-        chemin_sortie = os.path.join(Dossier_CSV, "balises_relations_attributs.csv")
+        # Sauvegarde 
+        chemin_sortie = os.path.join(Dossier_Sortie_Graphes, "balises_relations_attributs.csv")
         df_graphe.to_csv(chemin_sortie, index=False, encoding='utf-8')
-        print(f" Nombre de {len(df_graphe)} relations extraites.")
+        print(f" Nombre de {len(df_graphe)} extraites.")
+        print(f" Sauvegardé dans : {chemin_sortie}")
     else:
         print(" Aucune balise n'a pu être extraite.")
 

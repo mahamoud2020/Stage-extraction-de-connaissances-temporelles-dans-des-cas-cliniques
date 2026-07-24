@@ -2,19 +2,25 @@ import os
 import pandas as pd
 import graphviz
 
-# Définition des chemins
-Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-Dossier_CSV = os.path.join(Base_dir, "data", "sortie_csv")
 
-# On cherche le bon fichier d'extraction
-Fichier_Graphes = os.path.join(Dossier_CSV, "graphes_attributs_gspan.csv")
-Fichier_Balises = os.path.join(Dossier_CSV, "balises_relations_attributs.csv")
+# Définir le chemin 
+
+Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # Pointeur sur Français/
+Parent_dir = os.path.dirname(Base_dir) # Remonte d'un cran vers coref_e3c_corpipe_
+
+
+Dossier_Mining = os.path.join(Parent_dir, "Graphe pattern  mining")
+
+# On cherche le fichier de données 
+Fichier_Graphes = os.path.join(Dossier_Mining, "graphes_attributs_gspan.csv")
+Fichier_Balises = os.path.join(Dossier_Mining, "balises_relations_attributs.csv")
 Fichier_Donnees = Fichier_Graphes if os.path.exists(Fichier_Graphes) else Fichier_Balises
 
-# fichier de stockage des graphes
-Dossier_Sortie_Docs = os.path.join(Dossier_CSV, "graphes_documents_complets")
+# Le sous-dossier où atterriront tes belles images PNG
+Dossier_Sortie_Docs = os.path.join(Dossier_Mining, "graphes_documents_complets")
 
 
+# Fonctions de dessin
 
 def determiner_couleurs(tag):
     lbl = str(tag).upper()
@@ -36,7 +42,6 @@ def visualiser_documents_entiers():
     df = pd.read_csv(Fichier_Donnees, keep_default_na=False)
     groupes_documents = df.groupby('doc_id')
 
-    
     limite_docs = None 
     compteur = 0
 
@@ -48,15 +53,15 @@ def visualiser_documents_entiers():
         
         titre = f"Graphe Global du Document : {nom_doc}"
         
-        # Congiguration des graphes
+        # Configuration des graphes
         dot = graphviz.Digraph(
             name=f"doc_{nom_doc}",
-            format='png',         # format png
+            format='png',         
             engine='fdp',
             graph_attr={
                 'overlap': 'scale',   
                 'splines': 'true',    
-                'sep': '+1.5',        # Marge réduite pour compacter les graphes géants
+                'sep': '+1.5',        
                 'K': '0.8',           
                 'label': titre,
                 'labelloc': 't',      
@@ -70,33 +75,39 @@ def visualiser_documents_entiers():
             edge_attr={'fontname': 'Helvetica-Bold', 'fontsize': '10', 'color': '#7F8C8D', 'fontcolor': '#C0392B', 'arrowsize': '0.8'}
         )
         
-        # pour ne pas dessiner 2 fois le même nœud
         noeuds_vus = set()
         
         for _, row in donnees_doc.iterrows():
-            # Ajout Noeud Source
+            
+            
+             
+            
+            
+            src_id = str(row.get('source_id', f"{row['source_texte']}_{row['source_tag']}")).strip()
             src_texte = str(row['source_texte']).strip()
             src_tag = str(row['source_tag']).strip()
-            src_id = f"{src_texte}_{src_tag}" # Identifiant unique basé sur le texte et le tag
             
+            # Ajout Noeud Source
             if src_id not in noeuds_vus:
                 couleurs = determiner_couleurs(src_tag)
+                
                 html_label = f'<<B>"{src_texte}"</B><BR/><FONT POINT-SIZE="10">({src_tag.replace("_", " ")})</FONT>>'
                 dot.node(src_id, label=html_label, fillcolor=couleurs['fillcolor'], color=couleurs['color'], fontcolor=couleurs['fontcolor'])
                 noeuds_vus.add(src_id)
                 
-            # Ajout Noeud Cible
+            # Traitement Cible identique
+            tgt_id = str(row.get('target_id', f"{row['target_texte']}_{row['target_tag']}")).strip()
             tgt_texte = str(row['target_texte']).strip()
             tgt_tag = str(row['target_tag']).strip()
-            tgt_id = f"{tgt_texte}_{tgt_tag}"
             
+            # Ajout Noeud Cible
             if tgt_id not in noeuds_vus:
                 couleurs = determiner_couleurs(tgt_tag)
                 html_label = f'<<B>"{tgt_texte}"</B><BR/><FONT POINT-SIZE="10">({tgt_tag.replace("_", " ")})</FONT>>'
                 dot.node(tgt_id, label=html_label, fillcolor=couleurs['fillcolor'], color=couleurs['color'], fontcolor=couleurs['fontcolor'])
                 noeuds_vus.add(tgt_id)
                 
-            # Ajout Arête
+            # Ajout Arête 
             dot.edge(src_id, tgt_id, label=f" {row['relation_type']} ")
 
         nom_fichier_base = os.path.join(Dossier_Sortie_Docs, f"graphe_global_{nom_doc}")
@@ -107,7 +118,7 @@ def visualiser_documents_entiers():
             
         compteur += 1
 
-    print(f"\n Parfait ! {compteur} les  graphes  de documents sont générés au format PNG.")
+    print(f"\n {compteur} graphes ont été générés ")
     
 
 if __name__ == "__main__":
