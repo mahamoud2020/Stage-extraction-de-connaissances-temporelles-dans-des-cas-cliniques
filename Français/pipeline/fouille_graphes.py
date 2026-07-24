@@ -17,11 +17,16 @@ Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Parent_dir = os.path.dirname(Base_dir) # On remonte dans l'arborescence
 
 Dossier_Mining = os.path.join(Parent_dir, "Graphe pattern  mining")
-Fichier_TXT = os.path.join(Dossier_Mining, "graphes_gspan.txt")
-Fichier_Resultats = os.path.join(Dossier_Mining, "resultats_bruts_gspan.txt")
+
+# Nouveau dossier consacré à cette version
+Dossier_Ablation = os.path.join(Dossier_Mining, "resultats_sans_attribut_doctimrel")
+
+# Nouveau chemin d'entrée et de sortie pour cette version
+Fichier_TXT = os.path.join(Dossier_Ablation, "graphes_gspan_sans_doctimrel.txt")
+Fichier_Resultats = os.path.join(Dossier_Ablation, "resultats_bruts_gspan_sans_doctimrel.txt")
 
 def lancer_fouille_gspan(support_ratio=0.15, min_sommets=3, max_sommets=10000):
-    print(" Lancement de l'algorithme gSpan pour la fouille de sous-graphes fréquents")
+    print(" Lancement de l'algorithme gSpan (Fouille de sous-graphes fréquents)")
 
     if not os.path.exists(Fichier_TXT):
         print(f" Erreur : Le fichier d'entrée gSpan ({Fichier_TXT}) est introuvable.")
@@ -57,10 +62,10 @@ def lancer_fouille_gspan(support_ratio=0.15, min_sommets=3, max_sommets=10000):
         is_undirected=False,  
         verbose=True,
         visualize=False,      
-        where=True            
+        where=True            #  garde en mémoire l'ID des documents contenant le motif
     )
 
-    
+    # Lancement de la recherche avec redirection de la console vers un fichier
     
     
     original_stdout = sys.stdout
@@ -69,8 +74,8 @@ def lancer_fouille_gspan(support_ratio=0.15, min_sommets=3, max_sommets=10000):
         gs.run()
     sys.stdout = original_stdout
     
-    # Filtrage post-fouille pour garantir le minimum de sommets 
-    print(f" Filtrage pour isoler les motifs d'au moins {min_sommets} sommets")
+    # Filtrage  post-fouille pour garantir le minimum de sommets (Sécurité)
+    
     with open(Fichier_Resultats, 'r', encoding='utf-8') as f_in:
         lignes = f_in.readlines()
 
@@ -100,12 +105,12 @@ def lancer_fouille_gspan(support_ratio=0.15, min_sommets=3, max_sommets=10000):
             motifs_valides.extend(motif_courant)
             motifs_total_apres += 1
 
-    # Réécriture du fichier de résultats complètement propre
+    # Réécriture du fichier de résultats 
     with open(Fichier_Resultats, 'w', encoding='utf-8') as f_out:
         f_out.writelines(motifs_valides)
         
-    print(f" {motifs_total_avant} motifs trouvés initialement , {motifs_total_apres} vrais motifs conservés.")
-    print(f" Fouille terminée, les résultats sont sauvegardés dans {Fichier_Resultats}")
+    print(f" {motifs_total_avant} motifs trouvés initialement ,  {motifs_total_apres} vrais motifs conservés.")
+    print(f" Les résultats sont sauvegardés dans : {Fichier_Resultats}")
     
     print("\n Statistiques d'exécution :")
     gs.time_stats()

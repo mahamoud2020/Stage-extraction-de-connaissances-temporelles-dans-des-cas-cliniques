@@ -5,22 +5,30 @@ Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Parent_dir = os.path.dirname(Base_dir) # On remonte dans l'arborescence
 Dossier_Mining = os.path.join(Parent_dir, "Graphe pattern  mining")
 
-# Lecture dans le nouveau dossier
+# Dossier consacré à cette version
+Dossier_Sortie = os.path.join(Dossier_Mining, "resultats_sans_attribut_doctimrel")
+
+# Lecture dans le dossier principal 
 Fichier_Graphes = os.path.join(Dossier_Mining, "graphes_attributs_gspan.csv")
 Fichier_Balises = os.path.join(Dossier_Mining, "balises_relations_attributs.csv")
 # On priorise le fichier contenant les IDs uniques
 Fichier_Entree = Fichier_Graphes if os.path.exists(Fichier_Graphes) else Fichier_Balises
 
-Fichier_Sortie_TXT = os.path.join(Dossier_Mining, "graphes_gspan.txt")
-Lexique_Noeuds = os.path.join(Dossier_Mining, "dictionnaire_noeuds.csv")
-Lexique_Aretes = os.path.join(Dossier_Mining, "dictionnaire_aretes.csv")
+# Nouveau fichier de sortie pour cette version
+Fichier_Sortie_TXT = os.path.join(Dossier_Sortie, "graphes_gspan_sans_doctimrel.txt")
+Lexique_Noeuds = os.path.join(Dossier_Sortie, "dictionnaire_noeuds_sans_doctimrel.csv")
+Lexique_Aretes = os.path.join(Dossier_Sortie, "dictionnaire_aretes_sans_doctimrel.csv")
 
 def encoder_pour_gspan():
-    print(" Lancement de l'encodage au format gSpan")
+    print(" Lancement de l'encodage au format gSpan (sans docTimeRel)")
 
     if not os.path.exists(Fichier_Entree):
         print(f" Erreur : Le fichier {Fichier_Entree} est introuvable")
         return
+
+    # Création du nouveau dossier s'il n'existe pas
+    if not os.path.exists(Dossier_Sortie):
+        os.makedirs(Dossier_Sortie)
 
     df = pd.read_csv(Fichier_Entree, keep_default_na=False)
 
@@ -41,8 +49,8 @@ def encoder_pour_gspan():
         
         label_parts = [tag]
         
-        # On ajoute contextualModality 
-        attributs = ['docTimeRel', 'eventType', 'contextualModality', 'polarity']
+        # suppression de l'attribut 'docTimeRel' 
+        attributs = ['eventType', 'contextualModality', 'polarity']
         
         for attr in attributs:
             val = str(row.get(f'{prefix}_{attr}', "Non concerné")).strip()
@@ -62,8 +70,6 @@ def encoder_pour_gspan():
             local_id_counter = 0
             
             for _, row in donnees_doc.iterrows():
-                
-                
                 
                 src_id = str(row.get('source_id', f"{row['source_texte']}_{row['source_tag']}")).strip()
                 
@@ -102,7 +108,6 @@ def encoder_pour_gspan():
                 local_src = id_global_vers_local[src_id]
                 local_tgt = id_global_vers_local[tgt_id]
                 
-                
                 f_out.write(f"e {local_src} {local_tgt} {dictionnaire_aretes[rel_str]}\n")
             
             graph_id += 1
@@ -113,7 +118,7 @@ def encoder_pour_gspan():
     df_lex_aretes = pd.DataFrame(list(dictionnaire_aretes.items()), columns=['Relation', 'ID_gSpan'])
     df_lex_aretes.to_csv(Lexique_Aretes, index=False, encoding='utf-8')
     
-    print(f" {graph_id} graphes enregistrés dans '{Dossier_Mining}'.")
+    print(f" {graph_id} graphes enregistrés dans '{Dossier_Sortie}'.")
     print(f" Dictionnaire : {len(dictionnaire_noeuds)} labels de noeuds, {len(dictionnaire_aretes)} relations.")
 
 if __name__ == "__main__":

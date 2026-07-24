@@ -4,23 +4,26 @@ import graphviz
 import networkx as nx
 import networkx.algorithms.isomorphism as iso
 
-
 # Définir le chemin
-
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Parent_dir = os.path.dirname(Base_dir) # On remonte dans l'arborescence
 Dossier_Mining = os.path.join(Parent_dir, "Graphe pattern  mining")
 
+# Nouveau dossier pour cette version
+Dossier_Ablation = os.path.join(Dossier_Mining, "resultats_sans_attribut_doctimrel")
+
 # Dossier dédié pour le stockage des images
-Dossier_Motifs = os.path.join(Dossier_Mining, "motifs_vocabulaire_support40")
+Dossier_Motifs = os.path.join(Dossier_Ablation, "motifs_vocabulaire_support40_sans_doctimrel")
 
-# Fichier CSV pour l'export 
-Fichier_CSV_Instances = os.path.join(Dossier_Mining, "motifs_frequents_mots.csv")
+# Fichier CSV pour l'export des instances
+Fichier_CSV_Instances = os.path.join(Dossier_Ablation, "motifs_frequents_mots_sans_doctimrel.csv")
 
-# Fichiers de données
-Fichier_Resultats = os.path.join(Dossier_Mining, "resultats_bruts_gspan.txt")
-Lexique_Noeuds = os.path.join(Dossier_Mining, "dictionnaire_noeuds.csv")
-Lexique_Aretes = os.path.join(Dossier_Mining, "dictionnaire_aretes.csv")
+# Fichiers de données (Dictionnaires et résultats générés sans DCT)
+Fichier_Resultats = os.path.join(Dossier_Ablation, "resultats_bruts_gspan_sans_doctimrel.txt")
+Lexique_Noeuds = os.path.join(Dossier_Ablation, "dictionnaire_noeuds_sans_doctimrel.csv")
+Lexique_Aretes = os.path.join(Dossier_Ablation, "dictionnaire_aretes_sans_doctimrel.csv")
+
+# Le fichier contenant les données brutes reste le même (Dossier_Mining)
 Fichier_Donnees = os.path.join(Dossier_Mining, "balises_relations_attributs.csv")
 
 # Paramètres 
@@ -28,6 +31,7 @@ SEUIL_SUPPORT = 40  # On ne garde que les motifs présents dans au moins 40 docu
 MAX_EXEMPLES = 4    # Nombre de chaînes à afficher dans les bulles PNG pour garder l'image lisible
 
 def creer_label_noeud(row, prefix="source"):
+    """Reconstruit le label abstrait en ignorant volontairement docTimeRel"""
     tag = str(row.get(f'{prefix}_tag', ''))
     if tag == 'TIMEX3':
         timex_val = str(row.get(f'{prefix}_timexType', '')).strip()
@@ -35,7 +39,10 @@ def creer_label_noeud(row, prefix="source"):
         return "TIMEX3"
     
     label_parts = [tag]
-    attributs = ['docTimeRel', 'eventType', 'contextualModality', 'polarity']
+    
+    # --- MODIFICATION ICI : Retrait de 'docTimeRel' pour l'ablation ---
+    attributs = ['eventType', 'contextualModality', 'polarity']
+    
     for attr in attributs:
         col_name = f'{prefix}_{attr}'
         if col_name in row:
@@ -45,12 +52,12 @@ def creer_label_noeud(row, prefix="source"):
     return "_".join(label_parts)
 
 def determiner_couleurs(label_abstrait):
+    """Associe des couleurs pour Graphviz selon la sémantique de l'entité"""
     lbl = label_abstrait.upper()
     if any(k in lbl for k in ['DURATION', 'DATE', 'TIME', 'FREQUENCY', 'TIMEX']): return {'fillcolor': '#F39C12', 'color': '#D68910', 'fontcolor': 'white'}
     elif 'CLINENTITY' in lbl: return {'fillcolor': '#8E44AD', 'color': '#732D91', 'fontcolor': 'white'}
     elif 'EVENT' in lbl: return {'fillcolor': '#16A085', 'color': '#117A65', 'fontcolor': 'white'}
     else: return {'fillcolor': '#34495E', 'color': '#2C3E50', 'fontcolor': 'white'}
-
 
 def visualiser_frequents_avec_vocabulaire():
     
@@ -62,7 +69,6 @@ def visualiser_frequents_avec_vocabulaire():
     dict_noeuds = dict(zip(df_noeuds['ID_gSpan'].astype(str), df_noeuds['Super_Label']))
     dict_aretes = dict(zip(df_aretes['ID_gSpan'].astype(str), df_aretes['Relation']))
 
-    
     df_brut = pd.read_csv(Fichier_Donnees, keep_default_na=False)
     docs_list = list(df_brut.groupby('doc_id').groups.keys())
     
@@ -157,7 +163,7 @@ def visualiser_frequents_avec_vocabulaire():
                     
                     inv_match = {v: k for k, v in match.items()}
                     
-                    # Extraction pour le fichier CSV 
+                    # Extraction pour le fichier CSV exhaustif
                     exemples_mots_csv = []
                     for u, v, data in m['graph'].edges(data=True):
                         mot_u = G_doc.nodes[inv_match[u]]['texte']
@@ -172,7 +178,7 @@ def visualiser_frequents_avec_vocabulaire():
                         'Exemples_du_Texte': " | ".join(exemples_mots_csv)
                     })
                     
-                    # Extraction pour l'image PNG (Limité à 4 documents)
+                    # Extraction pour l'image PNG 
                     if len(instances_capturees) < MAX_EXEMPLES:
                         chemin_courant = {}
                         num_exemple = len(instances_capturees) + 1
@@ -226,16 +232,12 @@ def visualiser_frequents_avec_vocabulaire():
         except Exception as e:
             print(f" Erreur du motif {m['id']}: {e}")
 
-    # Sauvegarde du fichier CSV exhaustif
     if lignes_csv_exhaustif:
         df_export = pd.DataFrame(lignes_csv_exhaustif)
         df_export.to_csv(Fichier_CSV_Instances, index=False, encoding='utf-8')
-
     
     print(f"Les graphes PNG ont été générés dans {Dossier_Motifs}")
     print(f"\n Le fichier CSV complet a été sauvegardé dans {Fichier_CSV_Instances}")
-    
-    
 
 if __name__ == "__main__":
     visualiser_frequents_avec_vocabulaire()
