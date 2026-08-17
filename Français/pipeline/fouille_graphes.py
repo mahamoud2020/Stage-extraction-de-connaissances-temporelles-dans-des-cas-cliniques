@@ -1,6 +1,7 @@
 import os
 import sys
 import pandas as pd
+import argparse
 from gspan_mining import gSpan
 
 # Patch Pandas 2.0 pour la bibliothèque gspan_mining 
@@ -11,26 +12,43 @@ def df_append_patch(self, other, ignore_index=False, **kwargs):
 
 pd.DataFrame.append = df_append_patch
 
-# Définition des chemins
-# ********************************************************************************
+# Définition des 
+#***************************************************************************************************
+
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Parent_dir = os.path.dirname(Base_dir) # On remonte dans l'arborescence
-
 Dossier_Mining = os.path.join(Parent_dir, "Graphe pattern  mining")
 
-# Nouveau dossier consacré à cette version
-Dossier_Ablation = os.path.join(Dossier_Mining, "resultats_sans_attribut_doctimrel")
+def lancer_fouille_gspan(version_active, support_ratio=0.15, min_sommets=3, max_sommets=10000):
+    print(f" Lancement de l'algorithme gSpan pour la fouille de sous-graphes fréquents (Version : {version_active.upper()})")
 
-# Nouveau chemin d'entrée et de sortie pour cette version
-Fichier_TXT = os.path.join(Dossier_Ablation, "graphes_gspan_sans_doctimrel.txt")
-Fichier_Resultats = os.path.join(Dossier_Ablation, "resultats_bruts_gspan_sans_doctimrel.txt")
+    # Détermination du dossier selon la version
+    if version_active == 'complet':
+        dossier_sortie = os.path.join(Dossier_Mining, "resultats_avec_tous_les_attributs")
+    elif version_active == 'sans_dct':
+        dossier_sortie = os.path.join(Dossier_Mining, "resultats_sans_attribut_doctimrel")
+    elif version_active == 'sans_polarity':
+        dossier_sortie = os.path.join(Dossier_Mining, "resultats_sans_attribut_polarity")
+    elif version_active == 'sans_eventtype':
+        dossier_sortie = os.path.join(Dossier_Mining, "resultats_sans_attribut_eventype")
+    elif version_active == 'fusion':
+        dossier_sortie = os.path.join(Dossier_Mining, "resultats_fusion_event_clinentity")
+    elif version_active == 'coref':
+        dossier_sortie = os.path.join(Dossier_Mining, "avec_coref")
+    else:
+        dossier_sortie = os.path.join(Dossier_Mining, "resultats_avec_tous_les_attributs")
 
-def lancer_fouille_gspan(support_ratio=0.15, min_sommets=3, max_sommets=10000):
-    print(" Lancement de l'algorithme gSpan (Fouille de sous-graphes fréquents)")
+    # Chemins standardisés pour l'entrée et la sortie à l'intérieur du dossier
+    Fichier_TXT = os.path.join(dossier_sortie, "graphes_gspan.txt")
+    Fichier_Resultats = os.path.join(dossier_sortie, "resultats_bruts_gspan.txt")
 
     if not os.path.exists(Fichier_TXT):
         print(f" Erreur : Le fichier d'entrée gSpan ({Fichier_TXT}) est introuvable.")
+        print(" Il faut exécuter l'étape 10 pour cette version ?")
         return
+
+    if not os.path.exists(dossier_sortie):
+        os.makedirs(dossier_sortie)
 
     # Calcul dynamique du nombre total de graphes
     total_graphes = 0
@@ -62,20 +80,18 @@ def lancer_fouille_gspan(support_ratio=0.15, min_sommets=3, max_sommets=10000):
         is_undirected=False,  
         verbose=True,
         visualize=False,      
-        where=True            #  garde en mémoire l'ID des documents contenant le motif
+        where=True            # Garde en mémoire l'ID des documents contenant le motif
     )
 
     # Lancement de la recherche avec redirection de la console vers un fichier
-    
-    
     original_stdout = sys.stdout
     with open(Fichier_Resultats, 'w', encoding='utf-8') as f_out:
         sys.stdout = f_out
         gs.run()
     sys.stdout = original_stdout
     
-    # Filtrage  post-fouille pour garantir le minimum de sommets (Sécurité)
-    
+    # Filtrage post-fouille pour garantir le minimum de sommets 
+    print(f" Filtrage pour isoler les motifs d'au moins {min_sommets} sommets")
     with open(Fichier_Resultats, 'r', encoding='utf-8') as f_in:
         lignes = f_in.readlines()
 
@@ -105,7 +121,7 @@ def lancer_fouille_gspan(support_ratio=0.15, min_sommets=3, max_sommets=10000):
             motifs_valides.extend(motif_courant)
             motifs_total_apres += 1
 
-    # Réécriture du fichier de résultats 
+    # Réécriture du fichier de résultats complètement propre
     with open(Fichier_Resultats, 'w', encoding='utf-8') as f_out:
         f_out.writelines(motifs_valides)
         
@@ -116,4 +132,8 @@ def lancer_fouille_gspan(support_ratio=0.15, min_sommets=3, max_sommets=10000):
     gs.time_stats()
 
 if __name__ == "__main__":
-    lancer_fouille_gspan(support_ratio=0.15, min_sommets=3)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--version', type=str, default='complet')
+    args = parser.parse_args()
+    
+    lancer_fouille_gspan(args.version, support_ratio=0.15, min_sommets=3)

@@ -2,20 +2,35 @@ import os
 import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
+import argparse
 
 # Définition des chemins
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # Pointera sur .../Français
 Parent_dir = os.path.dirname(Base_dir) # Remonte au dossier .../coref_e3c_corpipe_
-
 Dossier_XML = os.path.join(Base_dir, "data", "xml_source") 
-# Dossier consacré au graphe pattern
-Dossier_Sortie_Graphes = os.path.join(Parent_dir, "Graphe pattern  mining")
 
-def extraire_pour_gspan():
-    print(" Lancement de l'extraction des balises sélectionnées  et des relations pour la fouille de graphe pattern (gSpan)")
+def extraire_pour_gspan(version_active):
+    print(f" Lancement de l'extraction des balises et relations (Version : {version_active.upper()})")
     
-    if not os.path.exists(Dossier_Sortie_Graphes):
-        os.makedirs(Dossier_Sortie_Graphes)
+    # Détermination du dossier de sortie en fonction de la version
+    if version_active == 'complet':
+        dossier_sortie = os.path.join(Parent_dir, "Graphe pattern  mining", "resultats_avec_tous_les_attributs")
+    elif version_active == 'sans_dct':
+        dossier_sortie = os.path.join(Parent_dir, "Graphe pattern  mining", "resultats_sans_attribut_doctimrel")
+    elif version_active == 'sans_polarity':
+        dossier_sortie = os.path.join(Parent_dir, "Graphe pattern  mining", "resultats_sans_attribut_polarity")
+    elif version_active == 'sans_eventtype':
+        dossier_sortie = os.path.join(Parent_dir, "Graphe pattern  mining", "resultats_sans_attribut_eventype")
+    elif version_active == 'fusion':
+        dossier_sortie = os.path.join(Parent_dir, "Graphe pattern  mining", "resultats_fusion_event_clinentity")
+    elif version_active == 'coref':
+        # La coréférence utilise sa propre extraction plus tard, mais on prépare le dossier au cas où
+        dossier_sortie = os.path.join(Parent_dir, "Graphe pattern  mining", "avec_coref")
+    else:
+        dossier_sortie = os.path.join(Parent_dir, "Graphe pattern  mining", "resultats_avec_tous_les_attributs")
+
+    if not os.path.exists(dossier_sortie):
+        os.makedirs(dossier_sortie)
         
     fichiers_xml = glob.glob(os.path.join(Dossier_XML, "*.xml")) + glob.glob(os.path.join(Dossier_XML, "*.xmi"))
     lignes_aretes = [] 
@@ -95,13 +110,11 @@ def extraire_pour_gspan():
         for pos, liste_entites in entites_groupees.items():
             types = list(set([e['type_brut'] for e in liste_entites]))
             
-            
             if 'EVENT' in types:
                 types.remove('EVENT')
                 types.insert(0, 'EVENT')
             merged_type = '/'.join(types)
             merged_id = '/'.join([e['id'] for e in liste_entites])
-            
             
             docTimeRel = "Non concerné"
             eventType = "Non concerné"
@@ -176,13 +189,19 @@ def extraire_pour_gspan():
         df_graphe = pd.DataFrame(lignes_aretes)
         df_graphe = df_graphe.drop_duplicates() 
         
-        # Sauvegarde 
-        chemin_sortie = os.path.join(Dossier_Sortie_Graphes, "balises_relations_attributs.csv")
+        # Le nom du fichier de base (le CSV d'extraction brut ne change pas de nom, juste de dossier)
+        # Exception pour la coréférence: elle lit depuis balises_relations_attributs.csv pour créer balises_relations_attributs_coref.csv
+        # Pour les autres versions, on sauvegarde directement dans leur dossier.
+        chemin_sortie = os.path.join(dossier_sortie, "balises_relations_attributs.csv")
         df_graphe.to_csv(chemin_sortie, index=False, encoding='utf-8')
-        print(f" Nombre de {len(df_graphe)} extraites.")
-        print(f" Sauvegardé dans : {chemin_sortie}")
+        print(f" -> Succès : {len(df_graphe)} relations extraites.")
+        print(f" -> Sauvegardé dans : {chemin_sortie}")
     else:
-        print(" Aucune balise n'a pu être extraite.")
+        print(" Aucune relation n'a pu être extraite.")
 
 if __name__ == "__main__":
-    extraire_pour_gspan()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--version', type=str, default='complet')
+    args = parser.parse_args()
+    
+    extraire_pour_gspan(args.version)

@@ -59,8 +59,8 @@ coref_chaines.seq <- seqdef(
 
 
 sequences_SPS <- seqformat(sequences_data, 7:24,
-                                          from = "STS", to = "SPS",
-                                          compress = TRUE, with.missing = FALSE)
+                           from = "STS", to = "SPS",
+                           compress = TRUE, with.missing = FALSE)
 
 sequences_data$sequences_SPS <- sequences_SPS
 
@@ -107,6 +107,41 @@ grands_sauts_idx <- order(abs(sauts), decreasing = TRUE)[1:4]
 couleurs_sauts   <- c("#E74C3C", "#FFFF00", "#8E44AD", "#27AE60")
 
 
+# Téléchargement des figures --------------------------------------------------
+
+download_controls <- function(prefix) {
+  div(
+    style = "display:flex; gap:10px; align-items:flex-end; margin-top:10px;",
+    selectInput(
+      inputId  = paste0(prefix, "_format"),
+      label    = "Format :",
+      choices  = c("PNG" = "png", "JPEG" = "jpeg", "PDF" = "pdf"),
+      selected = "png",
+      width    = "120px"
+    ),
+    downloadButton(
+      outputId = paste0(prefix, "_download"),
+      label    = "Télécharger"
+    )
+  )
+}
+
+save_figure <- function(file, format, plot_fun,
+                        width = 1800, height = 1200, res = 200) {
+  
+  if (format == "png") {
+    png(file, width = width, height = height, res = res)
+  } else if (format == "jpeg") {
+    jpeg(file, width = width, height = height, res = res, quality = 95)
+  } else if (format == "pdf") {
+    pdf(file, width = width / res, height = height / res)
+  }
+  
+  on.exit(dev.off(), add = TRUE)
+  plot_fun()
+}
+
+
 
 # UI
 
@@ -114,27 +149,27 @@ couleurs_sauts   <- c("#E74C3C", "#FFFF00", "#8E44AD", "#27AE60")
 ui <- page_navbar(
   title = "Analyse de séquences appliquée aux chaînes de Coréférences",
   theme = bs_theme(bootswatch = "flatly", base_font = font_google("Inter")),
-
+  
   
   # Onglet 1 : Vue d'ensemble 
   
   nav_panel(
     title = "Vue d'ensemble",
     icon  = icon("table"),
-
+    
     navset_tab(
-
+      
       # Sous-onglet A : Présentation du jeu de données 
       nav_panel(
         title = "📋 Présentation des données",
-
+        
         card(
           card_header("Jeu de données : sequences_coreferences_francais.csv"),
           p(style = "color:#555; font-size:0.9em;",
             "Aperçu général du jeu de données utilisé :\n 
              Chaque ligne correspond à une chaîne de coréférence.\n",
             " Les colonnes 7 à 24 contiennent les états de la séquence (nature)."),
-            
+          
           hr(),
           layout_columns(
             col_widths = c(4, 4, 4),
@@ -155,11 +190,11 @@ ui <- page_navbar(
           DTOutput("table_sequences_data")
         )
       ),
-
+      
       # ── Sous-onglet B : Visualisation ───────────────────────────────────────
       nav_panel(
         title = "📊 Visualisation",
-
+        
         layout_sidebar(
           sidebar = sidebar(
             width = 260,
@@ -183,38 +218,39 @@ ui <- page_navbar(
               strong("Distribution des états (dplot) : "),
               "proportion de chaque nature référentielle à chaque position de la chaîne.")
           ),
-
+          
           card(
             full_screen = TRUE,
             card_header(textOutput("vue_plot_title")),
-            plotOutput("vue_plot_out", height = "520px")
+            plotOutput("vue_plot_out", height = "520px"),
+            download_controls("vue")
           )
         )
       )
     )
   ),
-
+  
   
   # Onglet 2 : Choix du cluster 
   
   nav_panel(
     title = "Choix du cluster",
     icon  = icon("sitemap"),
-
+    
     navset_tab(
-
+      
       # ── Sous-onglet A : Dendrogrammes ───────────────────────────────────────
       nav_panel(
         title = "🌳 Dendrogrammes",
-
+        
         p(style = "font-size:0.88em; color:#555; padding:8px 4px 0 4px;",
           "La Classification Ascendante Hiérarchique (CAH) est réalisée avec la méthode de Ward.",
           " Le dendrogramme aide à repérer visuellement les grandes familles de séquences."),
-          
-
+        
+        
         layout_columns(
           col_widths = c(6, 6),
-
+          
           card(
             full_screen = TRUE,
             card_header("Dendrogramme simple"),
@@ -222,9 +258,10 @@ ui <- page_navbar(
               "Version classique : hauteurs de fusion en ordonnée, séquences en abscisse.",
               " Chaque bifurcation représente un regroupement. Plus la hauteur est grande,",
               " plus les groupes fusionnés sont dissimilaires."),
-            plotOutput("dendro_simple", height = "420px")
+            plotOutput("dendro_simple", height = "420px"),
+            download_controls("dendro_simple")
           ),
-
+          
           card(
             full_screen = TRUE,
             card_header("Dendrogramme avec heatmap"),
@@ -232,33 +269,35 @@ ui <- page_navbar(
               "Version enrichie : la heatmap associe à chaque séquence (ligne) la nature référentielle",
               " à chaque position (colonne). Les séquences sont réordonnées selon l'arbre Ward,",
               " faisant apparaître les groupes homogènes."),
-            plotOutput("dendro_couleur", height = "420px")
+            plotOutput("dendro_couleur", height = "420px"),
+            download_controls("dendro_couleur")
           )
         )
       ),
-
+      
       # Sous-onglet B : Sauts d'inertie ─────────────────────────────────────
       nav_panel(
         title = "📉 Sauts d'inertie",
-
+        
         p(style = "font-size:0.88em; color:#555; padding:8px 4px 0 4px;",
           "Les sauts d'inertie permettent de choisir le nombre optimal de clusters.",
           " On cherche le ", strong("grand saut"), " sur la courbe : il correspond au moment où",
           " fusionner deux groupes coûte beaucoup en termes d'homogénéité interne."),
-          
-
+        
+        
         layout_columns(
           col_widths = c(6, 6),
-
+          
           card(
             full_screen = TRUE,
             card_header("Sauts d'inertie  simple "),
             p(style = "font-size:0.82em; color:#777; padding:4px 8px 0 8px;",
               "Courbe en escalier des 15 premières hauteurs de fusion, triées par ordre décroissant.",
               " L'axe X représente le nombre de clusters, l'axe Y la hauteur de fusion (inertie)."),
-            plotOutput("inertie_simple", height = "380px")
+            plotOutput("inertie_simple", height = "380px"),
+            download_controls("inertie_simple")
           ),
-
+          
           card(
             full_screen = TRUE,
             card_header("Sauts d'inertie avec couleurs"),
@@ -266,31 +305,32 @@ ui <- page_navbar(
               "Version améliorée : les 4 plus grands sauts sont mis en évidence par des points colorés",
               " et des lignes verticales pointillées. Les étiquettes ", code("k = x"),
               " indiquent les coupures candidates."),
-            plotOutput("inertie_couleur", height = "380px")
+            plotOutput("inertie_couleur", height = "380px"),
+            download_controls("inertie_couleur")
           )
         )
       )
     )
   ),
-
+  
   
   # Onglet 3  : Clusters 
   
   nav_panel(
     title = "Clusters",
     icon  = icon("layer-group"),
-
+    
     layout_sidebar(
       sidebar = sidebar(
         width = 290,
-
+        
         h5("Paramètres"),
-
+        
         p(style = "font-size:0.85em; color:#666;",
           "Choisissez le nombre de clusters en déplaçant le curseur.",
           " L'arbre Ward est recoupé dynamiquement avec ", code("cutree()"),
           " et toutes les visualisations se mettent à jour automatiquement."),
-
+        
         sliderInput(
           "nb_clusters",
           label   = "Nombre de clusters :",
@@ -300,16 +340,16 @@ ui <- page_navbar(
           step    = 1,
           animate = FALSE
         ),
-
+        
         hr(),
-
+        
         h6("Taille des clusters"),
         p(style = "font-size:0.8em; color:#999;",
           "Répartition des séquences dans les classes après découpage de l'arbre."),
         tableOutput("cluster_sizes"),
-
+        
         hr(),
-
+        
         h6("Visualisation"),
         p(style = "font-size:0.85em; color:#666;",
           "Sélectionnez le type de graphique à afficher pour les clusters."),
@@ -325,13 +365,14 @@ ui <- page_navbar(
           selected = "dplot"
         )
       ),
-
+      
       card(
         full_screen = TRUE,
         card_header(textOutput("cluster_card_title")),
         p(style = "font-size:0.85em; color:#666; padding: 0 4px;",
           textOutput("cluster_plot_desc")),
-        plotOutput("cluster_plot_out", height = "580px")
+        plotOutput("cluster_plot_out", height = "580px"),
+        download_controls("cluster_plot")
       )
     )
   )
@@ -343,7 +384,7 @@ ui <- page_navbar(
 
 
 server <- function(input, output, session) {
-
+  
   # ── Clustering réactif ───────────────────────────────────────────────────────
   clustering_react <- reactive({
     k   <- input$nb_clusters
@@ -351,16 +392,16 @@ server <- function(input, output, session) {
     fac <- factor(cl, labels = paste("classe", 1:k))
     list(cl = cl, fac = fac, k = k)
   })
-
-
+  
+  
   
   # Onglet 1A — Présentation des données
   
-
+  
   output$nb_sequences <- renderText({ nrow(sequences_data) })
   output$nb_colonnes  <- renderText({ ncol(sequences_data) })
   output$nb_etats     <- renderText({ length(etats_trouves) })
-
+  
   output$table_sequences_data <- renderDT({
     datatable(
       sequences_data,
@@ -377,19 +418,19 @@ server <- function(input, output, session) {
       class    = "stripe hover compact"
     )
   })
-
-
+  
+  
   
   # Onglet 1B — Visualisation (vue d'ensemble)
   
-
+  
   output$vue_plot_title <- renderText({
     if (input$vue_plot_type == "iplot")
       "Trajectoires individuelles"
     else
       "Distribution des différents natures constituant les séquences"
   })
-
+  
   output$vue_plot_out <- renderPlot({
     if (input$vue_plot_type == "iplot") {
       seqIplot(coref_chaines.seq,
@@ -401,12 +442,32 @@ server <- function(input, output, session) {
                with.legend = "right")
     }
   }, res = 100)
-
-
+  
+  
+  output$vue_download <- downloadHandler(
+    filename = function() {
+      paste0("vue_", input$vue_plot_type, ".", input$vue_format)
+    },
+    content = function(file) {
+      save_figure(file, input$vue_format, function() {
+        if (input$vue_plot_type == "iplot") {
+          seqIplot(coref_chaines.seq,
+                   main        = "Trajectoires individuelles",
+                   with.legend = "right")
+        } else {
+          seqdplot(coref_chaines.seq,
+                   main        = "Distribution des natures",
+                   with.legend = "right")
+        }
+      }, width = 2000, height = 1400)
+    }
+  )
+  
+  
   
   # Onglet 2A — Dendrogrammes
   
-
+  
   # Dendrogramme simple (sans couleur)
   output$dendro_simple <- renderPlot({
     plot(
@@ -417,17 +478,47 @@ server <- function(input, output, session) {
       ylab    = "Hauteur (Inertie)"
     )
   }, res = 100)
-
+  
+  
+  output$dendro_simple_download <- downloadHandler(
+    filename = function() {
+      paste0("dendrogramme_simple.", input$dendro_simple_format)
+    },
+    content = function(file) {
+      save_figure(file, input$dendro_simple_format, function() {
+        plot(
+          as.dendrogram(arbre_ward),
+          main    = "Dendrogramme des chaînes de coréférence",
+          leaflab = "none",
+          xlab    = "Séquences",
+          ylab    = "Hauteur (Inertie)"
+        )
+      })
+    }
+  )
+  
   # Dendrogramme coloré (heatmap)
   output$dendro_couleur <- renderPlot({
     seq_heatmap_custom(coref_chaines.seq, arbre_ward)
   }, res = 100)
-
-
+  
+  
+  output$dendro_couleur_download <- downloadHandler(
+    filename = function() {
+      paste0("dendrogramme_heatmap.", input$dendro_couleur_format)
+    },
+    content = function(file) {
+      save_figure(file, input$dendro_couleur_format, function() {
+        seq_heatmap_custom(coref_chaines.seq, arbre_ward)
+      }, width = 2000, height = 1400)
+    }
+  )
+  
+  
   
   # Onglet 2B — Sauts d'inertie
   
-
+  
   # Version simple
   output$inertie_simple <- renderPlot({
     plot(
@@ -440,7 +531,27 @@ server <- function(input, output, session) {
       col  = "blue"
     )
   }, res = 100)
-
+  
+  
+  output$inertie_simple_download <- downloadHandler(
+    filename = function() {
+      paste0("sauts_inertie_simple.", input$inertie_simple_format)
+    },
+    content = function(file) {
+      save_figure(file, input$inertie_simple_format, function() {
+        plot(
+          sort(arbre_ward$height, decreasing = TRUE)[1:15],
+          type = 's',
+          xlab = "Nombre de clusters",
+          ylab = "Inertie",
+          main = "Sauts d'inertie (Critère de Ward)",
+          lwd  = 2,
+          col  = "blue"
+        )
+      })
+    }
+  )
+  
   # Version annotée et colorée
   output$inertie_couleur <- renderPlot({
     plot(hauteurs,
@@ -455,12 +566,12 @@ server <- function(input, output, session) {
          cex.axis = 0.9,
          cex.lab  = 1.05,
          cex.main = 1.15)
-
+    
     abline(v   = grands_sauts_idx,
            lty = 2,
            col = adjustcolor(couleurs_sauts, alpha.f = 0.4),
            lwd = 1.5)
-
+    
     points(grands_sauts_idx,
            hauteurs[grands_sauts_idx],
            pch = 21,
@@ -468,7 +579,7 @@ server <- function(input, output, session) {
            bg  = couleurs_sauts,
            col = "white",
            lwd = 1.5)
-
+    
     text(grands_sauts_idx,
          hauteurs[grands_sauts_idx],
          labels = paste0("k = ", grands_sauts_idx),
@@ -477,7 +588,7 @@ server <- function(input, output, session) {
          col    = couleurs_sauts,
          cex    = 0.95,
          font   = 2)
-
+    
     legend("topright",
            legend   = paste0("k = ", sort(grands_sauts_idx)),
            pch      = 21,
@@ -489,12 +600,68 @@ server <- function(input, output, session) {
            title    = "Coupures possibles",
            title.col = "gray30")
   }, res = 100)
-
-
+  
+  
+  output$inertie_couleur_download <- downloadHandler(
+    filename = function() {
+      paste0("sauts_inertie_couleur.", input$inertie_couleur_format)
+    },
+    content = function(file) {
+      save_figure(file, input$inertie_couleur_format, function() {
+        plot(hauteurs,
+             type     = 's',
+             xlab     = "Nombre de clusters",
+             ylab     = "Hauteur de fusion (inertie)",
+             main     = "Sauts d'inertie — Critère de Ward",
+             lwd      = 2.5,
+             col      = "steelblue",
+             bty      = "l",
+             las      = 1,
+             cex.axis = 0.9,
+             cex.lab  = 1.05,
+             cex.main = 1.15)
+        
+        abline(v   = grands_sauts_idx,
+               lty = 2,
+               col = adjustcolor(couleurs_sauts, alpha.f = 0.4),
+               lwd = 1.5)
+        
+        points(grands_sauts_idx,
+               hauteurs[grands_sauts_idx],
+               pch = 21,
+               cex = 2.5,
+               bg  = couleurs_sauts,
+               col = "white",
+               lwd = 1.5)
+        
+        text(grands_sauts_idx,
+             hauteurs[grands_sauts_idx],
+             labels = paste0("k = ", grands_sauts_idx),
+             pos    = 1,
+             offset = 0.8,
+             col    = couleurs_sauts,
+             cex    = 0.95,
+             font   = 2)
+        
+        legend("topright",
+               legend    = paste0("k = ", sort(grands_sauts_idx)),
+               pch       = 21,
+               pt.bg     = couleurs_sauts[order(grands_sauts_idx)],
+               col       = "gray40",
+               pt.cex    = 1.8,
+               cex       = 0.85,
+               bty       = "n",
+               title     = "Coupures possibles",
+               title.col = "gray30")
+      })
+    }
+  )
+  
+  
   
   # Onglet 3 — Clusters
   
-
+  
   # Titre 
   output$cluster_card_title <- renderText({
     d <- clustering_react()
@@ -506,21 +673,21 @@ server <- function(input, output, session) {
     )
     paste0(labels[input$cluster_plot_type], "  |  k = ", d$k, " clusters")
   })
-
+  
   # Description du graphique
   output$cluster_plot_desc <- renderText({
     switch(input$cluster_plot_type,
-      dplot = paste0("Proportion de chaque nature référentielle à chaque position,",
-                     " séparée par cluster. Permet d'identifier le profil dominant de chaque classe."),
-      iplot = paste0("Tapis de séquences individuelles, triées par ordre MDS au sein de chaque cluster.",
-                     " Chaque ligne est une chaîne, chaque couleur une nature référentielle."),
-      fplot = paste0("Les 10 séquences les plus fréquentes dans chaque classe.",
-                     " Donne un aperçu des trajectoires typiques."),
-      rplot = paste0("Séquences représentatives (médoïdes) de chaque classe,",
-                     " sélectionnées par distance minimale au centre du cluster.")
+           dplot = paste0("Proportion de chaque nature référentielle à chaque position,",
+                          " séparée par cluster. Permet d'identifier le profil dominant de chaque classe."),
+           iplot = paste0("Tapis de séquences individuelles, triées par ordre MDS au sein de chaque cluster.",
+                          " Chaque ligne est une chaîne, chaque couleur une nature référentielle."),
+           fplot = paste0("Les 10 séquences les plus fréquentes dans chaque classe.",
+                          " Donne un aperçu des trajectoires typiques."),
+           rplot = paste0("Séquences représentatives (médoïdes) de chaque classe,",
+                          " sélectionnées par distance minimale au centre du cluster.")
     )
   })
-
+  
   # Taille des clusters
   output$cluster_sizes <- renderTable({
     d  <- clustering_react()
@@ -528,17 +695,17 @@ server <- function(input, output, session) {
     colnames(df) <- c("Cluster", "n")
     df
   }, striped = TRUE, hover = TRUE, bordered = FALSE, spacing = "xs")
-
+  
   # Graphique des clusters
   output$cluster_plot_out <- renderPlot({
     d <- clustering_react()
-
+    
     if (input$cluster_plot_type == "dplot") {
       seqdplot(coref_chaines.seq,
                group  = d$fac,
                border = TRUE,
                main   = paste("Profil des", d$k, "classes de coréférence"))
-
+      
     } else if (input$cluster_plot_type == "iplot") {
       seqiplot(coref_chaines.seq,
                group       = d$fac,
@@ -550,14 +717,14 @@ server <- function(input, output, session) {
                yaxis       = FALSE,
                cex.axis    = 1.5,
                cex.legend  = 1)
-
+      
     } else if (input$cluster_plot_type == "fplot") {
       seqfplot(coref_chaines.seq,
                group       = d$fac,
                with.legend = TRUE,
                yaxis       = FALSE,
                cex.legend  = 1)
-
+      
     } else if (input$cluster_plot_type == "rplot") {
       seqrplot(coref_chaines.seq,
                group       = d$fac,
@@ -566,7 +733,54 @@ server <- function(input, output, session) {
                cex.legend  = 1)
     }
   }, height = 580, res = 100)
-
+  
+  
+  output$cluster_plot_download <- downloadHandler(
+    filename = function() {
+      d <- clustering_react()
+      paste0("clusters_k", d$k, "_", input$cluster_plot_type, ".",
+             input$cluster_plot_format)
+    },
+    content = function(file) {
+      d <- clustering_react()
+      
+      save_figure(file, input$cluster_plot_format, function() {
+        if (input$cluster_plot_type == "dplot") {
+          seqdplot(coref_chaines.seq,
+                   group  = d$fac,
+                   border = TRUE,
+                   main   = paste("Profil des", d$k, "classes de coréférence"))
+          
+        } else if (input$cluster_plot_type == "iplot") {
+          seqiplot(coref_chaines.seq,
+                   group       = d$fac,
+                   sortv       = ordre_random,
+                   idxs        = 0,
+                   space       = 0,
+                   border      = NA,
+                   with.legend = TRUE,
+                   yaxis       = FALSE,
+                   cex.axis    = 1.5,
+                   cex.legend  = 1)
+          
+        } else if (input$cluster_plot_type == "fplot") {
+          seqfplot(coref_chaines.seq,
+                   group       = d$fac,
+                   with.legend = TRUE,
+                   yaxis       = FALSE,
+                   cex.legend  = 1)
+          
+        } else if (input$cluster_plot_type == "rplot") {
+          seqrplot(coref_chaines.seq,
+                   group       = d$fac,
+                   dist.matrix = distances_om,
+                   criterion   = "dist",
+                   cex.legend  = 1)
+        }
+      }, width = 2200, height = 1500)
+    }
+  )
+  
 }
 
 
