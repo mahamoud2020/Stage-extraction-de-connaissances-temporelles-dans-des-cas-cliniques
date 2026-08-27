@@ -7,7 +7,6 @@ import argparse
 import re
 
 # Définir le chemin 
-
 Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Parent_dir = os.path.dirname(Base_dir)
 Dossier_Mining = os.path.join(Parent_dir, "Graphe pattern  mining")
@@ -17,7 +16,7 @@ SEUIL_SUPPORT = 40
 MAX_EXEMPLES = 4
 
 def visualiser_frequents_avec_vocabulaire(version_active):
-    print(f"\n Lancement de l'extraction des séquences TraMineR (Version : {version_active.upper()})")
+    print(f"\n Lancement de l'extraction des séquences TraMineR (Version : {version_active.upper})")
 
     #  Détermination du dossier selon la version
     if version_active == 'complet':
@@ -65,10 +64,8 @@ def visualiser_frequents_avec_vocabulaire(version_active):
         return
 
     def creer_label_noeud(row, prefix="source"):
-        """Reconstruit le label abstrait complet d'un noeud à partir de ses attributs originaux"""
         tag = str(row.get(f'{prefix}_tag', ''))
         
-        # Logique de fusion sémantique
         if version_active == 'fusion':
             has_event = re.search(r'\bEVENT\b', tag)
             has_clinentity = re.search(r'\bCLINENTITY\b', tag)
@@ -81,8 +78,6 @@ def visualiser_frequents_avec_vocabulaire(version_active):
             return "TIMEX3"
         
         label_parts = [tag]
-        
-        # On n'intègre que les attributs validés par la version active
         for attr in attributs_a_garder:
             val = str(row.get(f'{prefix}_{attr}', "Non concerné")).strip()
             if val and val != "Non concerné" and val != "nan":
@@ -105,17 +100,26 @@ def visualiser_frequents_avec_vocabulaire(version_active):
     dict_noeuds = dict(zip(df_noeuds['ID_gSpan'].astype(str), df_noeuds['Super_Label']))
     dict_aretes = dict(zip(df_aretes['ID_gSpan'].astype(str), df_aretes['Relation']))
 
-    # Construction des graphes de documents (NetworkX) avec ID 
+    print(" -> Construction des graphes en mémoire...")
     df_brut = pd.read_csv(Fichier_Donnees_Brutes, keep_default_na=False)
     docs_list = list(df_brut.groupby('doc_id').groups.keys())
     
+    #  Création et export du dictionnaire des documents 
+    Chemin_Dict_Docs = os.path.join(dossier_version, "dictionnaire_documents.csv")
+    df_dict_docs = pd.DataFrame({
+        't_index': range(len(docs_list)),
+        'Document': docs_list
+    })
+    df_dict_docs.to_csv(Chemin_Dict_Docs, index=False, encoding='utf-8')
+    print(f" Dictionnaire des documents généré : {Chemin_Dict_Docs}")
+    
+
     doc_graphs = {}
     for _, row in df_brut.iterrows():
         doc = row['doc_id']
         
         if doc not in doc_graphs: doc_graphs[doc] = nx.MultiDiGraph()
         
-        # ID pour fusionner les mentions (Coréférence) ou utiliser les ID XML originaux
         mention_src = str(row.get('mention_source', 'non détecté')).strip()
         orig_src_id = str(row.get('source_id', f"{row.get('source_texte', '')}_{row.get('source_tag', '')}")).strip()
         if mention_src not in ["singleton", "non détecté", "nan", ""]:
@@ -154,7 +158,6 @@ def visualiser_frequents_avec_vocabulaire(version_active):
             if motif_courant is not None:
                 motifs.append(motif_courant)
             motif_id = ligne.split()[-1]
-            # Ajout de 'dfs_edges' pour sauvegarder l'ordre exact de gSpan 
             motif_courant = {'id': motif_id, 'graph': nx.MultiDiGraph(), 'support': 0, 'where': [], 'dfs_edges': []}
             
         elif ligne.startswith("v ") and motif_courant:
@@ -170,7 +173,6 @@ def visualiser_frequents_avec_vocabulaire(version_active):
             label_gspan = parts[3]
             nom_relation = dict_aretes.get(label_gspan, "")
             motif_courant['graph'].add_edge(src, tgt, rel=nom_relation)
-            # Sauvegarde de l'arête dans l'ordre du DFS dicté par gSpan !
             motif_courant['dfs_edges'].append((src, tgt, nom_relation))
             
         elif ligne.startswith("Support:") and motif_courant:
@@ -183,7 +185,6 @@ def visualiser_frequents_avec_vocabulaire(version_active):
     if motif_courant is not None:
         motifs.append(motif_courant)
 
-    # Filtrage et tri des motifs par fréquence d'apparition
     motifs_frequents = [m for m in motifs if m['support'] >= SEUIL_SUPPORT]
     motifs_frequents = sorted(motifs_frequents, key=lambda x: x['support'], reverse=True)
     
@@ -203,10 +204,9 @@ def visualiser_frequents_avec_vocabulaire(version_active):
         return True
 
     lignes_csv_exhaustif = []
-    lignes_csv_sequences = [] # Spécialement taillé et lissé pour TraMineR
+    lignes_csv_sequences = [] 
 
     for i, m in enumerate(motifs_frequents):
-        # Structure abstraite garantie dans l'ordre du DFS
         structure_abstraite = []
         for u, v, rel in m['dfs_edges']:
             lbl_u = m['graph'].nodes[u]['tag']
@@ -215,6 +215,7 @@ def visualiser_frequents_avec_vocabulaire(version_active):
         texte_structure_abstraite = " | ".join(structure_abstraite)
         
         instances_capturees = [] 
+        docs_illustres = set() 
         
         for doc_idx in m['where']:
             if doc_idx < len(docs_list):
@@ -223,6 +224,7 @@ def visualiser_frequents_avec_vocabulaire(version_active):
                 G_motif = m['graph']
                 
                 matcher = iso.MultiDiGraphMatcher(G_doc, G_motif, node_match=nm, edge_match=em)
+                
                 for match in matcher.subgraph_isomorphisms_iter():
                     inv_match = {v: k for k, v in match.items()}
                     
@@ -235,19 +237,17 @@ def visualiser_frequents_avec_vocabulaire(version_active):
                     }
                     
                     dernier_v_id = None
-                    # Nouveaux compteurs distincts pour l'alternance
                     idx_mot = 1
                     idx_rel = 1
+                    aretes_textes = [] 
                     
-                    # On boucle sur dfs_edges 
                     for index_arete, (u, v, rel) in enumerate(m['dfs_edges']):
                         mot_u = G_doc.nodes[inv_match[u]]['texte']
                         mot_v = G_doc.nodes[inv_match[v]]['texte']
                         
-                        # Format classique exhaustif (toutes les arêtes complètes)
                         exemples_mots_csv.append(f'"{mot_u}" --({rel})--> "{mot_v}"')
+                        aretes_textes.append(f"{mot_u}-[{rel}]->{mot_v}")
                         
-                        # Construction de la ligne pour l'analyse sous R/TraMineR
                         if index_arete == 0:
                             ligne_sequence[f'Mot_{idx_mot}'] = mot_u
                             ligne_sequence[f'Relation_{idx_rel}'] = rel
@@ -256,14 +256,11 @@ def visualiser_frequents_avec_vocabulaire(version_active):
                             ligne_sequence[f'Mot_{idx_mot}'] = mot_v
                         else:
                             if u == dernier_v_id:
-                                # Suite linéaire : on évite de répéter le mot source
                                 ligne_sequence[f'Relation_{idx_rel}'] = rel
                                 idx_rel += 1
                                 idx_mot += 1
                                 ligne_sequence[f'Mot_{idx_mot}'] = mot_v
                             else:
-                                # Embranchement / Retour en arrière
-                                # Insertion d'une relation artificielle pour préserver l'alternance État/Transition pour TraMineR
                                 ligne_sequence[f'Relation_{idx_rel}'] = "[RETOUR]"
                                 idx_rel += 1
                                 idx_mot += 1
@@ -274,31 +271,49 @@ def visualiser_frequents_avec_vocabulaire(version_active):
                                 idx_mot += 1
                                 ligne_sequence[f'Mot_{idx_mot}'] = mot_v
                                 
-                        # On mémorise la cible actuelle (le nœud d'arrivée) pour le comparer au prochain départ
                         dernier_v_id = v
                         
-                    lignes_csv_exhaustif.append({
-                        'ID_Motif': m['id'],
-                        'Support': m['support'],
-                        'Document': doc_name,
-                        'Structure_Abstraite': texte_structure_abstraite,
-                        'Exemples_du_Texte': " | ".join(exemples_mots_csv)
-                    })
+                    aretes_textes.sort()
+                    signature_match = " | ".join(aretes_textes)
                     
-                    lignes_csv_sequences.append(ligne_sequence)
+                    deja_present = False
+                    for existing_row in lignes_csv_exhaustif:
+                        if existing_row['Document'] == doc_name and existing_row.get('_Signature') == signature_match and existing_row['ID_Motif'] == m['id']:
+                            deja_present = True
+                            break
+                            
+                    if not deja_present:
+                        lignes_csv_exhaustif.append({
+                            'ID_Motif': m['id'],
+                            'Support': m['support'],
+                            'Document': doc_name,
+                            'Structure_Abstraite': texte_structure_abstraite,
+                            'Exemples_du_Texte': " | ".join(exemples_mots_csv),
+                            '_Signature': signature_match
+                        })
+                        lignes_csv_sequences.append(ligne_sequence)
                     
-                    # Capture pour Graphviz (Limité visuellement à MAX_EXEMPLES)
-                    if len(instances_capturees) < MAX_EXEMPLES:
-                        chemin_courant = {}
-                        num_exemple = len(instances_capturees) + 1
-                        for d_node, m_node in match.items():
-                            mot = G_doc.nodes[d_node]['texte']
-                            chemin_courant[m_node] = f'"{mot}" ({num_exemple}, {doc_name})'
-                        instances_capturees.append(chemin_courant)
-                        
-                    break # On passe au document suivant
+                    if len(instances_capturees) < MAX_EXEMPLES and not deja_present:
+                        if doc_name not in docs_illustres:
+                            chemin_courant = {}
+                            num_exemple = len(instances_capturees) + 1
+                            for d_node, m_node in match.items():
+                                mot = G_doc.nodes[d_node]['texte']
+                                chemin_courant[m_node] = f'"{mot}" ({num_exemple}, {doc_name})'
+                            instances_capturees.append(chemin_courant)
+                            docs_illustres.add(doc_name)
 
-        titre = f"Motif n°{m['id']}\n(Présent dans {m['support']} documents)\n(Version: {version_active.upper()})"
+        noms_versions = {
+            'complet': 'complète',
+            'sans_dct': 'sans DCT',
+            'sans_polarity': 'sans polarité',
+            'sans_eventtype': "sans type d'événement",
+            'fusion': 'avec fusion (EVENT/CLINENTITY)',
+            'coref': 'avec coréférence'
+        }
+        titre_version = noms_versions.get(version_active, version_active)
+        
+        titre = f"Motif n°{m['id']}\n(Présent dans {m['support']} documents)\n(Version : {titre_version})"
         
         dot = graphviz.Digraph(
             name=f"motif_{m['id']}",
@@ -334,13 +349,14 @@ def visualiser_frequents_avec_vocabulaire(version_active):
             print(f" Erreur motif {m['id']}: {e}")
 
     if lignes_csv_exhaustif:
-        pd.DataFrame(lignes_csv_exhaustif).to_csv(Fichier_CSV_Exhaustif, index=False, encoding='utf-8')
+        df_ex = pd.DataFrame(lignes_csv_exhaustif)
+        df_ex = df_ex.drop(columns=['_Signature'], errors='ignore') 
+        df_ex.to_csv(Fichier_CSV_Exhaustif, index=False, encoding='utf-8')
         
     if lignes_csv_sequences:
         df_sequences = pd.DataFrame(lignes_csv_sequences)
         cols_base = ['ID_Motif', 'Support', 'Document', 'Structure_Abstraite']
         
-        # Tri des colonnes pour garantir l'alternance Mot / Relation
         max_mot = 0
         for c in df_sequences.columns:
             if c.startswith('Mot_'):
@@ -359,8 +375,8 @@ def visualiser_frequents_avec_vocabulaire(version_active):
         df_sequences.to_csv(Fichier_CSV_Sequences, index=False, encoding='utf-8')
 
     print(f" {len(motifs_frequents)} graphes PNG générés dans le dossier associé.")
-    print(f" Fichier CSV exhaustif  prêt.")
-    print(f" -> Fichier CSV séquences pour TraMineR prêt.")
+    print(f" Fichier CSV exhaustif brut  prêt.")
+    print(f" Fichier CSV exhaustif lissé en séquences pour TraMineR prêt.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

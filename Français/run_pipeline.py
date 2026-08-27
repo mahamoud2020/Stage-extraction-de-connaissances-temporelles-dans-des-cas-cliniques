@@ -15,7 +15,7 @@ def executer_etape(nom_script, description, version_active):
     """
     print(f"\n" + "*"*60)
     print(f" Exécution: {description}")
-    print(f" Version utilisée : [{version_active.upper()}]")
+    print(f" Version utilisée : [{version_active}]")
     print(f"*"*60)
     
     chemin_script = os.path.join("pipeline", nom_script)
@@ -56,8 +56,8 @@ def main():
     etapes_a_lancer = args.etapes
     version_actuelle = args.version
 
-    print(f"\n" + "="*60)
-    print(f" DÉMARRAGE DU PIPELINE | VERSION ACTIVE : {version_actuelle.upper()}")
+    print(f"\n" + "*"*60)
+    print(f" Lancement du pipeline & version active  : {version_actuelle}")
     print("="*60)
 
     if 1 in etapes_a_lancer:

@@ -10,10 +10,12 @@ Base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Parent_dir = os.path.dirname(Base_dir)
 Dossier_Mining = os.path.join(Parent_dir, "Graphe pattern  mining")
 
-def visualiser_motifs(version_active):
-    print(f" Lancement de la visualisation des graphes (Version : {version_active.upper()})")
+MAX_EXEMPLES = 4
 
-    # Détermination du dossier selon la version
+def visualiser_motifs(version_active):
+    print(f" Lancement de la visualisation des graphes (Version : {version_active})")
+
+    # 1. Détermination du dossier selon la version
     if version_active == 'complet':
         dossier_version = os.path.join(Dossier_Mining, "resultats_avec_tous_les_attributs")
         attributs_a_garder = ['docTimeRel', 'eventType', 'contextualModality', 'polarity']
@@ -48,6 +50,8 @@ def visualiser_motifs(version_active):
 
     # Dossier de sortie
     Dossier_Sortie_Docs = os.path.join(dossier_version, "graphes_motifs")
+    Fichier_CSV_Exhaustif = os.path.join(dossier_version, "vocabulaires_motifs.csv")
+    
     if not os.path.exists(Dossier_Sortie_Docs): 
         os.makedirs(Dossier_Sortie_Docs)
 
@@ -96,7 +100,7 @@ def visualiser_motifs(version_active):
     dict_aretes = dict(zip(df_aretes['ID_gSpan'].astype(str), df_aretes['Relation']))
 
     # Construction des graphes de documents (NetworkX)
-    print(" Construction des graphes en mémoire")
+    print(" -> Construction des graphes en mémoire...")
     df_brut = pd.read_csv(Fichier_Donnees_Brutes, keep_default_na=False)
     docs_list = list(df_brut.groupby('doc_id').groups.keys())
     
@@ -106,7 +110,6 @@ def visualiser_motifs(version_active):
         
         if doc not in doc_graphs: doc_graphs[doc] = nx.MultiDiGraph()
         
-        # Logique d'identification (Gère automatiquement la présence ou non de la coref)
         mention_src = str(row.get('mention_source', 'non détecté')).strip()
         orig_src_id = str(row.get('source_id', f"{row.get('source_texte', '')}_{row.get('source_tag', '')}")).strip()
         if mention_src not in ["singleton", "non détecté", "nan", ""]:
@@ -145,7 +148,7 @@ def visualiser_motifs(version_active):
             if motif_courant is not None:
                 motifs.append(motif_courant)
             motif_id = ligne.split()[-1]
-            motif_courant = {'id': motif_id, 'graph': nx.MultiDiGraph(), 'support': 0, 'where': []}
+            motif_courant = {'id': motif_id, 'graph': nx.MultiDiGraph(), 'support': 0, 'where': [], 'dfs_edges': []}
             
         elif ligne.startswith("v ") and motif_courant:
             parts = ligne.split()
@@ -160,6 +163,7 @@ def visualiser_motifs(version_active):
             label_gspan = parts[3]
             nom_relation = dict_aretes.get(label_gspan, "")
             motif_courant['graph'].add_edge(src, tgt, rel=nom_relation)
+            motif_courant['dfs_edges'].append((src, tgt, nom_relation))
             
         elif ligne.startswith("Support:") and motif_courant:
             motif_courant['support'] = int(ligne.split()[1])
@@ -171,10 +175,9 @@ def visualiser_motifs(version_active):
     if motif_courant is not None:
         motifs.append(motif_courant)
 
-    # Tri des motifs par fréquence d'apparition (support décroissant)
     motifs = sorted(motifs, key=lambda x: x['support'], reverse=True)
     
-    print(f" -> Dessin de {len(motifs)} motifs...")
+    print(f" Dessin et extraction exhaustive de {len(motifs)} motifs")
     
     def nm(n1, n2):
         return n1.get('tag') == n2.get('tag')
@@ -189,87 +192,175 @@ def visualiser_motifs(version_active):
                 return False
         return True
 
-    compteur_utilisation_docs = {doc: 0 for doc in docs_list}
+    lignes_csv_exhaustif = []
 
     for i, m in enumerate(motifs):
+        structure_abstraite = []
+        for u, v, rel in m['dfs_edges']:
+            lbl_u = m['graph'].nodes[u]['tag']
+            lbl_v = m['graph'].nodes[v]['tag']
+            structure_abstraite.append(f"[{lbl_u}] --({rel})--> [{lbl_v}]")
+        texte_structure_abstraite = " | ".join(structure_abstraite)
         
-        # On trie d'abord les documents par leur compteur d'utilisation
-        docs_potentiels = [docs_list[idx] for idx in m['where'] if idx < len(docs_list)]
-        docs_potentiels.sort(key=lambda d: compteur_utilisation_docs[d])
+        instances_capturees = [] 
+        docs_illustres = set() # On mémorise les documents déjà utilisés pour le graphe
         
-        doc_exemple = "Inconnu"
-        mots_trouves = {}
-        
-        for doc_name in docs_potentiels:
-            G_doc = doc_graphs[doc_name]
-            G_motif = m['graph']
-            
-            matcher = iso.MultiDiGraphMatcher(G_doc, G_motif, node_match=nm, edge_match=em)
-            match_trouve = False
-            
-            for match in matcher.subgraph_isomorphisms_iter():
-                for d_node, m_node in match.items():
-                    mots_trouves[m_node] = G_doc.nodes[d_node]['texte']
-                match_trouve = True
-                break # On sort du générateur d'isomorphisme
+        for doc_idx in m['where']:
+            if doc_idx < len(docs_list):
+                doc_name = docs_list[doc_idx]
+                G_doc = doc_graphs[doc_name]
+                G_motif = m['graph']
                 
-            if match_trouve:
-                doc_exemple = doc_name
-                compteur_utilisation_docs[doc_name] += 1
-                break # On a notre exemple, on ne vérifie pas les autres documents !
+                matcher = iso.MultiDiGraphMatcher(G_doc, G_motif, node_match=nm, edge_match=em)
+                
+                # Parcours exhaustif de toutes les correspondances dans le document
+                for match in matcher.subgraph_isomorphisms_iter():
+                    inv_match = {v: k for k, v in match.items()}
+                    
+                    ligne_csv = {
+                        'ID_Motif': m['id'],
+                        'Support': m['support'],
+                        'Document': doc_name,
+                        'Structure_Abstraite': texte_structure_abstraite
+                    }
+                    
+                    dernier_v_id = None
+                    idx_mot = 1
+                    idx_rel = 1
+                    
+                    aretes_textes = [] # Liste pour construire la signature mathématique
+                    
+                    for index_arete, (u, v, rel) in enumerate(m['dfs_edges']):
+                        mot_u = G_doc.nodes[inv_match[u]]['texte']
+                        mot_v = G_doc.nodes[inv_match[v]]['texte']
+                        
+                        aretes_textes.append(f"{mot_u}-[{rel}]->{mot_v}")
+                        
+                        # Création des colonnes Mot / Relation
+                        if index_arete == 0:
+                            ligne_csv[f'Mot_{idx_mot}'] = mot_u
+                            ligne_csv[f'Relation_{idx_rel}'] = rel
+                            idx_mot += 1
+                            idx_rel += 1
+                            ligne_csv[f'Mot_{idx_mot}'] = mot_v
+                        else:
+                            if u == dernier_v_id:
+                                ligne_csv[f'Relation_{idx_rel}'] = rel
+                                idx_rel += 1
+                                idx_mot += 1
+                                ligne_csv[f'Mot_{idx_mot}'] = mot_v
+                            else:
+                                ligne_csv[f'Relation_{idx_rel}'] = "[RETOUR]"
+                                idx_rel += 1
+                                idx_mot += 1
+                                ligne_csv[f'Mot_{idx_mot}'] = mot_u
+                                
+                                ligne_csv[f'Relation_{idx_rel}'] = rel
+                                idx_rel += 1
+                                idx_mot += 1
+                                ligne_csv[f'Mot_{idx_mot}'] = mot_v
+                                
+                        dernier_v_id = v
+                        
+                    
+                    aretes_textes.sort() 
+                    signature_match = " | ".join(aretes_textes)
+                    
+                    
+                    deja_present = False
+                    for existing_row in lignes_csv_exhaustif:
+                        if existing_row['Document'] == doc_name and existing_row.get('_Signature') == signature_match and existing_row['ID_Motif'] == m['id']:
+                            deja_present = True
+                            break
+                            
+                    if not deja_present:
+                        ligne_csv['_Signature'] = signature_match
+                        lignes_csv_exhaustif.append(ligne_csv)
+                    
+                    # Capture pour Graphviz (On s'assure d'avoir 1 exemple par document différent)
+                    if len(instances_capturees) < MAX_EXEMPLES and not deja_present:
+                        if doc_name not in docs_illustres:
+                            chemin_courant = {}
+                            num_exemple = len(instances_capturees) + 1
+                            for d_node, m_node in match.items():
+                                mot = G_doc.nodes[d_node]['texte']
+                                chemin_courant[m_node] = f'"{mot}" ({num_exemple}, {doc_name})'
+                            instances_capturees.append(chemin_courant)
+                            docs_illustres.add(doc_name) # On mémorise qu'on a illustré ce document
 
-        titre = f"Motif n°{m['id']} (Présent dans {m['support']} documents)\nExemple tiré du document : {doc_exemple}"
-        if version_active == 'coref':
-            titre += "\n(avec la coréférence)"
+        # Traduction du nom de la version pour le graphique
+        noms_versions = {
+            'complet': 'complète',
+            'sans_dct': 'sans DCT',
+            'sans_polarity': 'sans polarité',
+            'sans_eventtype': "sans type d'événement",
+            'fusion': 'avec fusion (EVENT/CLINENTITY)',
+            'coref': 'avec coréférence'
+        }
+        titre_version = noms_versions.get(version_active, version_active)
+        
+        titre = f"Motif n°{m['id']}\n(Présent dans {m['support']} documents)\n(Version : {titre_version})"
         
         dot = graphviz.Digraph(
             name=f"motif_{m['id']}",
             format='png',
             engine='fdp',
-            graph_attr={
-                'overlap': 'scale', 
-                'splines': 'true', 
-                'sep': '+1.5', 
-                'K': '2.0', 
-                'dpi': '300', 
-                'label': titre,
-                'labelloc': 't', 
-                'fontsize': '18',
-                'fontname': 'Helvetica-Bold',
-                'fontcolor': '#2C3E50',
-                'pad': '1.0'
-            },
+            graph_attr={'overlap': 'scale', 'splines': 'true', 'sep': '+1.5', 'K': '2.0', 'dpi': '300', 'label': titre, 'labelloc': 't', 'fontsize': '18', 'fontname': 'Helvetica-Bold', 'fontcolor': '#2C3E50', 'pad': '1.0'},
             node_attr={'shape': 'box', 'style': 'filled,rounded', 'fontname': 'Helvetica', 'margin': '0.3,0.15'},
             edge_attr={'fontname': 'Helvetica-Bold', 'fontsize': '11', 'color': '#34495E', 'fontcolor': '#C0392B', 'arrowsize': '1.2', 'len': '3.0'}
         )
         
         for nid, data in m['graph'].nodes(data=True):
             nlabel_abstrait = data['tag']
-            mot_reel = mots_trouves.get(nid, "Entité") 
             couleurs = determiner_couleurs(nlabel_abstrait)
             
-            html_label = f'<<B>"{mot_reel}"</B><BR/><FONT POINT-SIZE="10">({nlabel_abstrait.replace("_", " ")})</FONT>>'
+            lignes_html = []
+            for instance in instances_capturees:
+                lignes_html.append(instance.get(nid, '"Entité" (?, ?)'))
+            if not lignes_html:
+                lignes_html = ['"Aucun exemple"']
+                
+            mots_html = "<BR/>".join(lignes_html)
+            html_label = f'<<FONT POINT-SIZE="14"><I>{nlabel_abstrait.replace("_", " ")}</I></FONT><BR/><BR/><B>{mots_html}</B>>'
             
-            dot.node(
-                str(nid), 
-                label=html_label,
-                fillcolor=couleurs['fillcolor'],
-                color=couleurs['color'],
-                fontcolor=couleurs['fontcolor'],
-                penwidth='2'
-            )
+            dot.node(str(nid), label=html_label, fillcolor=couleurs['fillcolor'], color=couleurs['color'], fontcolor=couleurs['fontcolor'], penwidth='2')
             
         for src, tgt, data in m['graph'].edges(data=True):
             dot.edge(str(src), str(tgt), label=f" {data['rel']} ")
 
         nom_fichier_base = os.path.join(Dossier_Sortie_Docs, f"motif_n°{m['id']}_support{m['support']}")
-        
         try:
             dot.render(nom_fichier_base, cleanup=True)
         except Exception as e:
             print(f" Erreur motif {m['id']}: {e}")
 
+    if lignes_csv_exhaustif:
+        df_export = pd.DataFrame(lignes_csv_exhaustif)
+        
+        
+        df_export = df_export.drop(columns=['_Signature'], errors='ignore')
+        
+        cols_base = ['ID_Motif', 'Support', 'Document', 'Structure_Abstraite']
+        max_mot = 0
+        for c in df_export.columns:
+            if c.startswith('Mot_'):
+                num = int(c.split('_')[1])
+                if num > max_mot:
+                    max_mot = num
+                    
+        cols_etapes = []
+        for i in range(1, max_mot + 1):
+            if f'Mot_{i}' in df_export.columns: 
+                cols_etapes.append(f'Mot_{i}')
+            if f'Relation_{i}' in df_export.columns: 
+                cols_etapes.append(f'Relation_{i}')
+        
+        # Réorganisation des colonnes 
+        df_export = df_export[cols_base + cols_etapes]
+        df_export.to_csv(Fichier_CSV_Exhaustif, index=False, encoding='utf-8')
+
     print(f"\n {len(motifs)} graphes PNG ont été générés dans {Dossier_Sortie_Docs}")
+    print(f" Fichier CSV exhaustif du vocabulaire est dans le dossier : {Fichier_CSV_Exhaustif}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
