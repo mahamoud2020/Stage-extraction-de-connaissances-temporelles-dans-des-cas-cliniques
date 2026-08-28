@@ -16,7 +16,7 @@ SEUIL_SUPPORT = 40
 MAX_EXEMPLES = 4
 
 def visualiser_frequents_avec_vocabulaire(version_active):
-    print(f"\n Lancement de l'extraction des séquences TraMineR (Version : {version_active.upper})")
+    #print(f"\n Lancement de l'extraction des séquences TraMineR (Version : {version_active.upper})")
 
     #  Détermination du dossier selon la version
     if version_active == 'complet':
@@ -100,7 +100,7 @@ def visualiser_frequents_avec_vocabulaire(version_active):
     dict_noeuds = dict(zip(df_noeuds['ID_gSpan'].astype(str), df_noeuds['Super_Label']))
     dict_aretes = dict(zip(df_aretes['ID_gSpan'].astype(str), df_aretes['Relation']))
 
-    print(" -> Construction des graphes en mémoire...")
+    #print(" Construction des graphes en mémoire ")
     df_brut = pd.read_csv(Fichier_Donnees_Brutes, keep_default_na=False)
     docs_list = list(df_brut.groupby('doc_id').groups.keys())
     
@@ -188,7 +188,7 @@ def visualiser_frequents_avec_vocabulaire(version_active):
     motifs_frequents = [m for m in motifs if m['support'] >= SEUIL_SUPPORT]
     motifs_frequents = sorted(motifs_frequents, key=lambda x: x['support'], reverse=True)
     
-    print(f" {len(motifs_frequents)} motifs correspondent au critère (>= {SEUIL_SUPPORT} docs).")
+   # print(f" {len(motifs_frequents)} motifs correspondent au critère ({SEUIL_SUPPORT} docs).")
     
     def nm(n1, n2):
         return n1.get('tag') == n2.get('tag')
